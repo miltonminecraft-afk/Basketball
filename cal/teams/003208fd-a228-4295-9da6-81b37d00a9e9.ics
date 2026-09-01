@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Landslake Lions M16-1
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-498633@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260912T133000
+DURATION:PT2H
+SUMMARY:Amsterdam Warriors M16-2 - Landslake Lions M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498633
+LOCATION:Bijlmer Sportcentrum\, Anton de Komplein 157\, 1102DR AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498640@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260920T110000
+DURATION:PT2H
+SUMMARY:Landslake Lions M16-1 - Onze Gezellen M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498640
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498647@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260927T160000
+DURATION:PT2H
+SUMMARY:BC APOLLO Amsterdam M16-2 - Landslake Lions M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498647
+LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498651@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261004T130000
+DURATION:PT2H
+SUMMARY:Landslake Lions M16-1 - BV Amsterdam M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498651
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498660@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261024T100000
+DURATION:PT2H
+SUMMARY:Hot Pepper Heat M16-1 - Landslake Lions M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498660
+LOCATION:Dorpshuis Zwanenburg Halfweg\, Dennenlaan 133 A\, 1161CN ZWANENBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498666@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261101T120000
+DURATION:PT2H
+SUMMARY:BC APOLLO Amsterdam M16-3 - Landslake Lions M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498666
+LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498672@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261108T111500
+DURATION:PT2H
+SUMMARY:Landslake Lions M16-1 - Utrecht Basketball M16-3 M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498672
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498677@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261114T154500
+DURATION:PT2H
+SUMMARY:BC Utrecht Cangeroes M16-1 - Landslake Lions M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498677
+LOCATION:Sporthal Lunetten\, Zwarte Woud 201\, 3524SG UTRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498683@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261122T110000
+DURATION:PT2H
+SUMMARY:Landslake Lions M16-1 - Almere Pioneers M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498683
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498686@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261128T121500
+DURATION:PT2H
+SUMMARY:Crackerjacks M16-1 - Landslake Lions M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498686
+LOCATION:Zielhorst\, Trompetstraat 3\, 3822CK AMERSFOORT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498694@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261213T110000
+DURATION:PT2H
+SUMMARY:Landslake Lions M16-1 - Amsterdam Warriors M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498694
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

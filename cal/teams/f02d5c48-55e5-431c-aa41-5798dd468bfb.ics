@@ -1,0 +1,109 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BV Zoetermeer Hammerheads X12-1
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-494678@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260912T140000
+DURATION:PT2H
+SUMMARY:Green Eagles X12-2 - BV Zoetermeer Hammerheads X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494678
+LOCATION:Wethouder Smithal\, Westeinde 96\, 3146BZ MAASSLUIS
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494687@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260919T120000
+DURATION:PT2H
+SUMMARY:BV Zoetermeer Hammerheads X12-1 - Westland Stars X12-3
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494687
+LOCATION:Sporthal Willem-Alexanderplantsoen\, Willem-Alexanderplantsoen 6 B\, 2713VM ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494690@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260926T093000
+DURATION:PT2H
+SUMMARY:BV Voorne X12-2 - BV Zoetermeer Hammerheads X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494690
+LOCATION:DukdalfBRES\, Reede 2 a\, 3232CV BRIELLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494696@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261003T120000
+DURATION:PT2H
+SUMMARY:BV Zoetermeer Hammerheads X12-1 - Westland Stars X12-4
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494696
+LOCATION:Sporthal Willem-Alexanderplantsoen\, Willem-Alexanderplantsoen 6 B\, 2713VM ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494711@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261107T140000
+DURATION:PT2H
+SUMMARY:Bouncers Basketball X12-3 - BV Zoetermeer Hammerheads X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494711
+LOCATION:De Duikelaar\, Zuidplaslaan 550\, 2743CT WADDINXVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494716@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261114T120000
+DURATION:PT2H
+SUMMARY:BV Zoetermeer Hammerheads X12-1 - SBV Juventus X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494716
+LOCATION:Sporthal Willem-Alexanderplantsoen\, Willem-Alexanderplantsoen 6 B\, 2713VM ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494722@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261121T120000
+DURATION:PT2H
+SUMMARY:BV Squirrels X12-2 - BV Zoetermeer Hammerheads X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494722
+LOCATION:Sporthal Oostmeer\, Het Hoge Land 19\, 2652EA BERKEL EN RODENRIJS
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494727@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261128T140000
+DURATION:PT2H
+SUMMARY:Green Eagles X12-3 - BV Zoetermeer Hammerheads X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494727
+LOCATION:Wethouder Smithal\, Westeinde 96\, 3146BZ MAASSLUIS
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494732@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261212T120000
+DURATION:PT2H
+SUMMARY:BV Zoetermeer Hammerheads X12-1 - DAS X12-3
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494732
+LOCATION:Sporthal Willem-Alexanderplantsoen\, Willem-Alexanderplantsoen 6 B\, 2713VM ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

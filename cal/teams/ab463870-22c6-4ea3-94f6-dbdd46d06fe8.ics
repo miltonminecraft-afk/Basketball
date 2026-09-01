@@ -1,0 +1,252 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Landslake Lions VSE-3
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-504898@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260912T144500
+DURATION:PT2H
+SUMMARY:Flashing Heiloo VSE-2 - Landslake Lions VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504898
+LOCATION:Het Vennewater\, Het Zevenhuizen 48\, 1852JC HEILOO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504905@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260919T140000
+DURATION:PT2H
+SUMMARY:Landslake Lions VSE-3 - Flashing Heiloo VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504905
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504912@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260926T103000
+DURATION:PT2H
+SUMMARY:Northside Ballers Amsterdam VSE-2 - Landslake Lions VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504912
+LOCATION:De Weeren\, Beemsterstraat 656\, 1027ED AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504916@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261003T140000
+DURATION:PT2H
+SUMMARY:Landslake Lions VSE-3 - Dozy BV Den Helder VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504916
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504925@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261024T143000
+DURATION:PT2H
+SUMMARY:De Hoppers VSE-1 - Landslake Lions VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504925
+LOCATION:Vredehof\, Vredehofstraat 5\, 1624XC HOORN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504931@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261101T130000
+DURATION:PT2H
+SUMMARY:U.S. VSE-6 - Landslake Lions VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504931
+LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504937@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261107T150000
+DURATION:PT2H
+SUMMARY:Landslake Lions VSE-3 - BC APOLLO Amsterdam VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504937
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504942@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261114T140000
+DURATION:PT2H
+SUMMARY:BC Schrobbelaar VSE-1 - Landslake Lions VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504942
+LOCATION:Sportcentrum Universum\, Science Park 306\, 1098XH AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504948@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261121T150000
+DURATION:PT2H
+SUMMARY:Landslake Lions VSE-3 - BV Amsterdam VSE-4
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504948
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504951@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261129T150000
+DURATION:PT2H
+SUMMARY:U.S. VSE-5 - Landslake Lions VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504951
+LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504959@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261212T000000
+DURATION:PT2H
+SUMMARY:Landslake Lions VSE-3 - Harlemlakers VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504959
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504965@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270109T140000
+DURATION:PT2H
+SUMMARY:Landslake Lions VSE-3 - Flashing Heiloo VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504965
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504971@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270116T000000
+DURATION:PT2H
+SUMMARY:Flashing Heiloo VSE-1 - Landslake Lions VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504971
+LOCATION:Het Vennewater\, Het Zevenhuizen 48\, 1852JC HEILOO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504976@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270123T140000
+DURATION:PT2H
+SUMMARY:Landslake Lions VSE-3 - Northside Ballers Amsterdam VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504976
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504984@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270130T180000
+DURATION:PT2H
+SUMMARY:Dozy BV Den Helder VSE-2 - Landslake Lions VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504984
+LOCATION:Sportcentrum Quelderduijn\, Schootenweg 2\, 1785LV DEN HELDER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504988@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270206T140000
+DURATION:PT2H
+SUMMARY:Landslake Lions VSE-3 - De Hoppers VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504988
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504997@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270213T140000
+DURATION:PT2H
+SUMMARY:Landslake Lions VSE-3 - U.S. VSE-6
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504997
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505001@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270306T180000
+DURATION:PT2H
+SUMMARY:BC APOLLO Amsterdam VSE-2 - Landslake Lions VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505001
+LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505008@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270313T140000
+DURATION:PT2H
+SUMMARY:Landslake Lions VSE-3 - BC Schrobbelaar VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505008
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505010@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270320T123000
+DURATION:PT2H
+SUMMARY:BV Amsterdam VSE-4 - Landslake Lions VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505010
+LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505019@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270403T140000
+DURATION:PT2H
+SUMMARY:Landslake Lions VSE-3 - U.S. VSE-5
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505019
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505024@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270410T160000
+DURATION:PT2H
+SUMMARY:Harlemlakers VSE-1 - Landslake Lions VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505024
+LOCATION:Calandhal Hal 1\, Eliza van Calcarstraat 2\, 1068RR AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

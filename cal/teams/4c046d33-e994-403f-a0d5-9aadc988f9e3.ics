@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Almere Pioneers M16-2
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-498636@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260913T140000
+DURATION:PT2H
+SUMMARY:BC APOLLO Amsterdam M16-3 - Almere Pioneers M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498636
+LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498637@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260919T170000
+DURATION:PT2H
+SUMMARY:Almere Pioneers M16-2 - Crackerjacks M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498637
+LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498644@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260926T152500
+DURATION:PT2H
+SUMMARY:Amsterdam Warriors M16-1 - Almere Pioneers M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498644
+LOCATION:Bijlmer Sportcentrum\, Anton de Komplein 157\, 1102DR AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498649@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261003T160000
+DURATION:PT2H
+SUMMARY:Almere Pioneers M16-2 - Amsterdam Warriors M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498649
+LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498657@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261024T180000
+DURATION:PT2H
+SUMMARY:Onze Gezellen M16-1 - Almere Pioneers M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498657
+LOCATION:Onze Gezellen Sporthal\, Van der Aartweg 2\, 2026ZL HAARLEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498661@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261031T120000
+DURATION:PT2H
+SUMMARY:Almere Pioneers M16-2 - BC APOLLO Amsterdam M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498661
+LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498670@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261108T110000
+DURATION:PT2H
+SUMMARY:BV Amsterdam M16-1 - Almere Pioneers M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498670
+LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498673@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261115T130000
+DURATION:PT2H
+SUMMARY:Almere Pioneers M16-2 - Hot Pepper Heat M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498673
+LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498683@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261122T110000
+DURATION:PT2H
+SUMMARY:Landslake Lions M16-1 - Almere Pioneers M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498683
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498685@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261128T130000
+DURATION:PT2H
+SUMMARY:Almere Pioneers M16-2 - Utrecht Basketball M16-3 M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498685
+LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498696@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261213T170000
+DURATION:PT2H
+SUMMARY:BC Utrecht Cangeroes M16-1 - Almere Pioneers M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498696
+LOCATION:Sporthal Lunetten\, Zwarte Woud 201\, 3524SG UTRECHT
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Scheldesport Basketball X14-1
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-497508@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260919T100000
+DURATION:PT2H
+SUMMARY:Sparta Go X14-1 - Scheldesport Basketball X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497508
+LOCATION:Sporthal De Gooye\, Hondsgalgweg 1\, 3247XW DIRKSLAND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497514@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260926T171500
+DURATION:PT2H
+SUMMARY:Scheldesport Basketball X14-1 - BV Volharding X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497514
+LOCATION:Vliegende Vaart\, Vliegende Vaart 2\, 4537DH TERNEUZEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497521@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261002T193000
+DURATION:PT2H
+SUMMARY:Marathon X14-2 - Scheldesport Basketball X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497521
+LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497525@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261010T143000
+DURATION:PT2H
+SUMMARY:Scheldesport Basketball X14-1 - Blauw-Wit X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497525
+LOCATION:Vliegende Vaart\, Vliegende Vaart 2\, 4537DH TERNEUZEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497502@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261017T144500
+DURATION:PT2H
+SUMMARY:Scheldesport Basketball X14-1 - WBB Giants X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497502
+LOCATION:Vliegende Vaart\, Vliegende Vaart 2\, 4537DH TERNEUZEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497530@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261030T184500
+DURATION:PT2H
+SUMMARY:BV Volharding X14-1 - Scheldesport Basketball X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497530
+LOCATION:Omnium\, Zwembadweg 3\, 4463AB GOES
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497536@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261107T143000
+DURATION:PT2H
+SUMMARY:Scheldesport Basketball X14-1 - BV Souburg X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497536
+LOCATION:Vliegende Vaart\, Vliegende Vaart 2\, 4537DH TERNEUZEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497544@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261114T170000
+DURATION:PT2H
+SUMMARY:Smokkelhoek X14-1 - Scheldesport Basketball X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497544
+LOCATION:De Bloesem\, Vroonlandseweg 45\, 4421BW KAPELLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497547@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261121T171500
+DURATION:PT2H
+SUMMARY:Scheldesport Basketball X14-1 - WBB Giants X14-3
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497547
+LOCATION:Vliegende Vaart\, Vliegende Vaart 2\, 4537DH TERNEUZEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497557@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261128T173000
+DURATION:PT2H
+SUMMARY:Scheldesport Basketball X14-1 - Mevo '80 X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497557
+LOCATION:Vliegende Vaart\, Vliegende Vaart 2\, 4537DH TERNEUZEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497560@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261212T134500
+DURATION:PT2H
+SUMMARY:Simple Dribble X14-1 - Scheldesport Basketball X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497560
+LOCATION:'t Cromwiel\, Krommeweg 1\, 4651RN STEENBERGEN NB
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

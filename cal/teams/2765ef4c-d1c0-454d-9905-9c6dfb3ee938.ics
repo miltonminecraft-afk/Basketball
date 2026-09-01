@@ -1,0 +1,120 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Quick Runners X12-1
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-493832@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260912T090000
+DURATION:PT2H
+SUMMARY:Quick Runners X12-1 - Break Stars X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493832
+LOCATION:Sporthal  Wolfskamer\, IJsselmeerstraat 3 D\, 1271AA HUIZEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493835@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260919T130000
+DURATION:PT2H
+SUMMARY:Almere Pioneers X12-4 - Quick Runners X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493835
+LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493837@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260926T090000
+DURATION:PT2H
+SUMMARY:Quick Runners X12-1 - Red Stars X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493837
+LOCATION:Sporthal  Wolfskamer\, IJsselmeerstraat 3 D\, 1271AA HUIZEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493841@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261003T090000
+DURATION:PT2H
+SUMMARY:Quick Runners X12-1 - Almere Pioneers X12-3
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493841
+LOCATION:Sporthal  Wolfskamer\, IJsselmeerstraat 3 D\, 1271AA HUIZEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493843@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261024T163000
+DURATION:PT2H
+SUMMARY:Flevo Musketiers X12-1 - Quick Runners X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493843
+LOCATION:Rietlanden 2\, Grietenij 22 22 06\, 8233BZ LELYSTAD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493846@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261031T140000
+DURATION:PT2H
+SUMMARY:Red Stars X12-1 - Quick Runners X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493846
+LOCATION:Sportboulevard De Engh\, Dalweg 181\, 3762AW SOEST
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493850@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261114T090000
+DURATION:PT2H
+SUMMARY:Quick Runners X12-1 - Flevo Musketiers X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493850
+LOCATION:Sporthal  Wolfskamer\, IJsselmeerstraat 3 D\, 1271AA HUIZEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493853@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261121T140000
+DURATION:PT2H
+SUMMARY:Almere Pioneers X12-3 - Quick Runners X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493853
+LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493856@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261128T090000
+DURATION:PT2H
+SUMMARY:Quick Runners X12-1 - Almere Pioneers X12-4
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493856
+LOCATION:Sporthal  Wolfskamer\, IJsselmeerstraat 3 D\, 1271AA HUIZEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493860@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261212T143000
+DURATION:PT2H
+SUMMARY:Break Stars X12-1 - Quick Runners X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493860
+LOCATION:De Trits\, Goeman Borgesiuslaan 2\, 3741CR BAARN
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

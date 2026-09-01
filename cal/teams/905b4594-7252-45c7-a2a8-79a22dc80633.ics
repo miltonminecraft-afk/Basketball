@@ -1,0 +1,252 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hurricanes Basketball MSE-1
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-511581@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260912T115500
+DURATION:PT2H
+SUMMARY:M&F Security Typhoons'23 MSE-1 - Hurricanes Basketball MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511581
+LOCATION:Sportcentrum De Kalkwijck\, Nieuweweg 6\, 9603BM HOOGEZAND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-515177@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260919T193000
+DURATION:PT2H
+SUMMARY:Hurricanes Basketball MSE-1 - M&F Security Typhoons'23 MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 515177
+LOCATION:De Borgstee\, Dorpshuisweg 36\, 9617EV Harkstede
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511595@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260926T183000
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-2 - Hurricanes Basketball MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511595
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511608@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261010T123000
+DURATION:PT2H
+SUMMARY:M.A.C. MSE-1 - Hurricanes Basketball MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511608
+LOCATION:Bredeschool Noord\, Waddenweg 4\, 9933KH DELFZIJL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511613@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261031T193000
+DURATION:PT2H
+SUMMARY:Hurricanes Basketball MSE-1 - De Groene Uilen MSE-5
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511613
+LOCATION:De Borgstee\, Dorpshuisweg 36\, 9617EV Harkstede
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511621@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261106T200000
+DURATION:PT2H
+SUMMARY:BV Jahn II MSE-1 - Hurricanes Basketball MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511621
+LOCATION:Sportcentrum Bruinsma\, Navolaan 32\, 9501VJ STADSKANAAL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511627@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261114T123000
+DURATION:PT2H
+SUMMARY:Zuidlaren Trojans MSE-1 - Hurricanes Basketball MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511627
+LOCATION:De Zwet\, De Klencke 32\, 9472RN ZUIDLAREN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511633@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261121T193000
+DURATION:PT2H
+SUMMARY:Hurricanes Basketball MSE-1 - SIETSEMA Highlanders MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511633
+LOCATION:De Borgstee\, Dorpshuisweg 36\, 9617EV Harkstede
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511634@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261128T110000
+DURATION:PT2H
+SUMMARY:Five Pack MSE-3 - Hurricanes Basketball MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511634
+LOCATION:MFC de Wier\, De Telle 21\, 9247BH URETERP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511650@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270109T193000
+DURATION:PT2H
+SUMMARY:Hurricanes Basketball MSE-1 - M&F Security Typhoons'23 MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511650
+LOCATION:De Borgstee\, Dorpshuisweg 36\, 9617EV Harkstede
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-515188@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270116T135000
+DURATION:PT2H
+SUMMARY:M&F Security Typhoons'23 MSE-2 - Hurricanes Basketball MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 515188
+LOCATION:Sportcentrum De Kalkwijck\, Nieuweweg 6\, 9603BM HOOGEZAND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511661@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270123T193000
+DURATION:PT2H
+SUMMARY:Hurricanes Basketball MSE-1 - BV Millwings MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511661
+LOCATION:De Borgstee\, Dorpshuisweg 36\, 9617EV Harkstede
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511667@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270130T000000
+DURATION:PT2H
+SUMMARY:Assist MSE-1 - Hurricanes Basketball MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511667
+LOCATION:De Spreng\, Vredeveldseweg 57\, 9404CC ASSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511673@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270206T193000
+DURATION:PT2H
+SUMMARY:Hurricanes Basketball MSE-1 - M.A.C. MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511673
+LOCATION:De Borgstee\, Dorpshuisweg 36\, 9617EV Harkstede
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511680@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270213T153000
+DURATION:PT2H
+SUMMARY:De Groene Uilen MSE-5 - Hurricanes Basketball MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511680
+LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511601@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270227T193000
+DURATION:PT2H
+SUMMARY:Hurricanes Basketball MSE-1 - Assist MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511601
+LOCATION:De Borgstee\, Dorpshuisweg 36\, 9617EV Harkstede
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511685@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270306T193000
+DURATION:PT2H
+SUMMARY:Hurricanes Basketball MSE-1 - BV Jahn II MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511685
+LOCATION:De Borgstee\, Dorpshuisweg 36\, 9617EV Harkstede
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511693@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270313T193000
+DURATION:PT2H
+SUMMARY:Hurricanes Basketball MSE-1 - Zuidlaren Trojans MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511693
+LOCATION:De Borgstee\, Dorpshuisweg 36\, 9617EV Harkstede
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511698@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270320T190000
+DURATION:PT2H
+SUMMARY:SIETSEMA Highlanders MSE-1 - Hurricanes Basketball MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511698
+LOCATION:De Mencke\, Sportlaan 4\, 9981JZ UITHUIZEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511644@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270327T193000
+DURATION:PT2H
+SUMMARY:Hurricanes Basketball MSE-1 - GSBV Moestasj MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511644
+LOCATION:De Borgstee\, Dorpshuisweg 36\, 9617EV Harkstede
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511704@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270403T193000
+DURATION:PT2H
+SUMMARY:Hurricanes Basketball MSE-1 - Five Pack MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511704
+LOCATION:De Borgstee\, Dorpshuisweg 36\, 9617EV Harkstede
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511707@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270410T120000
+DURATION:PT2H
+SUMMARY:GSBV Moestasj MSE-3 - Hurricanes Basketball MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511707
+LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

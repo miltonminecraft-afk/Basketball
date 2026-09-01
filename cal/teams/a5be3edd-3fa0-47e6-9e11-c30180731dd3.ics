@@ -1,0 +1,252 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Faith & Fire VSE-1
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-504114@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260912T141500
+DURATION:PT2H
+SUMMARY:Klipperstars VSE-1 - Faith & Fire VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504114
+LOCATION:De Klipper\, Klipperstraat 20\, 2957EM NIEUW-LEKKERLAND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504125@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260919T150000
+DURATION:PT2H
+SUMMARY:Faith & Fire VSE-1 - Agathos VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504125
+LOCATION:Sporthal De Passie\, Maashaven Noordzijde 11\, 3072 AE Rotterdam
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504128@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260926T144500
+DURATION:PT2H
+SUMMARY:Flax Field Fighters VSE-1 - Faith & Fire VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504128
+LOCATION:Ridderhal\, Hoge Kade 60\, 3341BD HENDRIK-I.A.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504136@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261003T170000
+DURATION:PT2H
+SUMMARY:Faith & Fire VSE-1 - Scheldesport Basketball VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504136
+LOCATION:Sporthal De Passie\, Maashaven Noordzijde 11\, 3072 AE Rotterdam
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504141@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261010T150000
+DURATION:PT2H
+SUMMARY:Divine VSE-1 - Faith & Fire VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504141
+LOCATION:Sporthal Oostervant\, Oostervantstraat 25\, 3021PT ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504148@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261031T150000
+DURATION:PT2H
+SUMMARY:Faith & Fire VSE-1 - Devel Heroes VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504148
+LOCATION:Sporthal De Passie\, Maashaven Noordzijde 11\, 3072 AE Rotterdam
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504154@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261107T190000
+DURATION:PT2H
+SUMMARY:Rotterdam-Zuid VSE-1 - Faith & Fire VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504154
+LOCATION:Sportcentrum De Sportmotor\, Jan Ligthartstraat 95\, 3083AL ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504160@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261114T150000
+DURATION:PT2H
+SUMMARY:Faith & Fire VSE-1 - EBV Baros VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504160
+LOCATION:Sporthal De Passie\, Maashaven Noordzijde 11\, 3072 AE Rotterdam
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504167@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261121T130000
+DURATION:PT2H
+SUMMARY:CBV Binnenland VSE-3 - Faith & Fire VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504167
+LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504173@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261128T161500
+DURATION:PT2H
+SUMMARY:Barons Breda Basketball VSE-2 - Faith & Fire VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504173
+LOCATION:De Doelen\, Doelen 7\, 4813GP BREDA
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504179@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261212T170000
+DURATION:PT2H
+SUMMARY:Faith & Fire VSE-1 - Cady '73 VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504179
+LOCATION:Sporthal De Passie\, Maashaven Noordzijde 11\, 3072 AE Rotterdam
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504185@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270109T150000
+DURATION:PT2H
+SUMMARY:Faith & Fire VSE-1 - Klipperstars VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504185
+LOCATION:Sporthal De Passie\, Maashaven Noordzijde 11\, 3072 AE Rotterdam
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504187@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270116T000000
+DURATION:PT2H
+SUMMARY:Agathos VSE-1 - Faith & Fire VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504187
+LOCATION:Sporthal Dongemond\, Collegeweg 1\, 4942VC RAAMSDONKSVEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504196@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270123T130000
+DURATION:PT2H
+SUMMARY:Faith & Fire VSE-1 - Flax Field Fighters VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504196
+LOCATION:Sporthal De Passie\, Maashaven Noordzijde 11\, 3072 AE Rotterdam
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504200@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270130T181500
+DURATION:PT2H
+SUMMARY:Scheldesport Basketball VSE-1 - Faith & Fire VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504200
+LOCATION:Vliegende Vaart\, Vliegende Vaart 2\, 4537DH TERNEUZEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504208@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270206T130000
+DURATION:PT2H
+SUMMARY:Faith & Fire VSE-1 - Divine VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504208
+LOCATION:Sporthal De Passie\, Maashaven Noordzijde 11\, 3072 AE Rotterdam
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504213@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270213T000000
+DURATION:PT2H
+SUMMARY:Devel Heroes VSE-1 - Faith & Fire VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504213
+LOCATION:Develhal\, Parklaan 5\, 3335LM ZWIJNDRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504220@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270306T150000
+DURATION:PT2H
+SUMMARY:Faith & Fire VSE-1 - Rotterdam-Zuid VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504220
+LOCATION:Sporthal De Passie\, Maashaven Noordzijde 11\, 3072 AE Rotterdam
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504226@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270313T130000
+DURATION:PT2H
+SUMMARY:EBV Baros VSE-2 - Faith & Fire VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504226
+LOCATION:Woudestein\, Burgemeester Oudlaan 50\, 3062PA ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504232@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270320T130000
+DURATION:PT2H
+SUMMARY:Faith & Fire VSE-1 - CBV Binnenland VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504232
+LOCATION:Sporthal De Passie\, Maashaven Noordzijde 11\, 3072 AE Rotterdam
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504239@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270403T150000
+DURATION:PT2H
+SUMMARY:Faith & Fire VSE-1 - Barons Breda Basketball VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504239
+LOCATION:Sporthal De Passie\, Maashaven Noordzijde 11\, 3072 AE Rotterdam
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504240@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270410T140000
+DURATION:PT2H
+SUMMARY:Cady '73 VSE-2 - Faith & Fire VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504240
+LOCATION:Sporthal De Lijster\, Lijstersingel 20\, 2902JD CAPELLE AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

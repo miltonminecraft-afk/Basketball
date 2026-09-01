@@ -1,0 +1,230 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BV Zoetermeer Hammerheads MSE-1
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-511127@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260919T160000
+DURATION:PT2H
+SUMMARY:BV Zoetermeer Hammerheads MSE-1 - LUSV Basketbal MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511127
+LOCATION:Sporthal Willem-Alexanderplantsoen\, Willem-Alexanderplantsoen 6 B\, 2713VM ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511130@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260926T131500
+DURATION:PT2H
+SUMMARY:BV Voorne MSE-3 - BV Zoetermeer Hammerheads MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511130
+LOCATION:DukdalfBRES\, Reede 2 a\, 3232CV BRIELLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511137@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261003T160000
+DURATION:PT2H
+SUMMARY:BV Zoetermeer Hammerheads MSE-1 - BV Oegstgeest MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511137
+LOCATION:Sporthal Willem-Alexanderplantsoen\, Willem-Alexanderplantsoen 6 B\, 2713VM ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511141@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261010T144500
+DURATION:PT2H
+SUMMARY:CobraNova MSE-5 - BV Zoetermeer Hammerheads MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511141
+LOCATION:Forum Kwadraat\, De Vliegerlaan 2 4\, 2273BV VOORBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511167@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261024T123000
+DURATION:PT2H
+SUMMARY:HSB Nobles MSE-2 - BV Zoetermeer Hammerheads MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511167
+LOCATION:Sportcampus Zuiderpark\, Mr. P. Droogleever Fortuynweg 22\, 2533SR 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511146@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261101T160000
+DURATION:PT2H
+SUMMARY:BV Zoetermeer Hammerheads MSE-1 - BV Squirrels MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511146
+LOCATION:Sporthal Willem-Alexanderplantsoen\, Willem-Alexanderplantsoen 6 B\, 2713VM ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511156@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261114T160000
+DURATION:PT2H
+SUMMARY:BV Zoetermeer Hammerheads MSE-1 - Punch MSE-8
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511156
+LOCATION:Sporthal Willem-Alexanderplantsoen\, Willem-Alexanderplantsoen 6 B\, 2713VM ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511162@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261121T150000
+DURATION:PT2H
+SUMMARY:HBV The Jumpers MSE-2 - BV Zoetermeer Hammerheads MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511162
+LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511172@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261212T160000
+DURATION:PT2H
+SUMMARY:BV Zoetermeer Hammerheads MSE-1 - Zoebas MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511172
+LOCATION:Sporthal Willem-Alexanderplantsoen\, Willem-Alexanderplantsoen 6 B\, 2713VM ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511118@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261219T201500
+DURATION:PT2H
+SUMMARY:Zoebas MSE-3 - BV Zoetermeer Hammerheads MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511118
+LOCATION:Noordhove\, Lijnbaan 311\, 2728AG ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511177@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270109T160000
+DURATION:PT2H
+SUMMARY:BV Zoetermeer Hammerheads MSE-1 - Zoebas MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511177
+LOCATION:Sporthal Willem-Alexanderplantsoen\, Willem-Alexanderplantsoen 6 B\, 2713VM ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511179@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270116T120000
+DURATION:PT2H
+SUMMARY:LUSV Basketbal MSE-3 - BV Zoetermeer Hammerheads MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511179
+LOCATION:U.S.C.\, Goliuspad 22\, 2333BH Leiden
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511186@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270123T160000
+DURATION:PT2H
+SUMMARY:BV Zoetermeer Hammerheads MSE-1 - BV Voorne MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511186
+LOCATION:Sporthal Willem-Alexanderplantsoen\, Willem-Alexanderplantsoen 6 B\, 2713VM ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511190@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270131T000000
+DURATION:PT2H
+SUMMARY:BV Oegstgeest MSE-4 - BV Zoetermeer Hammerheads MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511190
+LOCATION:Sporthal De Cuyl\, de Voscuyl 36\, 2341BJ OEGSTGEEST
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511196@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270206T160000
+DURATION:PT2H
+SUMMARY:BV Zoetermeer Hammerheads MSE-1 - CobraNova MSE-5
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511196
+LOCATION:Sporthal Willem-Alexanderplantsoen\, Willem-Alexanderplantsoen 6 B\, 2713VM ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511201@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270213T000000
+DURATION:PT2H
+SUMMARY:BV Squirrels MSE-2 - BV Zoetermeer Hammerheads MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511201
+LOCATION:Sporthal Oostmeer\, Het Hoge Land 19\, 2652EA BERKEL EN RODENRIJS
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511211@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270313T110000
+DURATION:PT2H
+SUMMARY:Punch MSE-8 - BV Zoetermeer Hammerheads MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511211
+LOCATION:Sportcentr.TU Delft\, Mekelweg 8\, 2628CD DELFT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511216@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270320T160000
+DURATION:PT2H
+SUMMARY:BV Zoetermeer Hammerheads MSE-1 - HBV The Jumpers MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511216
+LOCATION:Sporthal Willem-Alexanderplantsoen\, Willem-Alexanderplantsoen 6 B\, 2713VM ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511222@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270403T160000
+DURATION:PT2H
+SUMMARY:BV Zoetermeer Hammerheads MSE-1 - HSB Nobles MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511222
+LOCATION:Sporthal Willem-Alexanderplantsoen\, Willem-Alexanderplantsoen 6 B\, 2713VM ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511223@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20270410T000000
+DURATION:PT2H
+SUMMARY:Zoebas MSE-2 - BV Zoetermeer Hammerheads MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511223
+LOCATION:Noordhove\, Lijnbaan 311\, 2728AG ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

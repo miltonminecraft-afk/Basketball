@@ -1,0 +1,142 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Amsterdam Warriors M16-2
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-515262@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260829T135000
+DURATION:PT2H
+SUMMARY:Amsterdam Warriors M16-1 26 - 23 Amsterdam Warriors M16-2
+DESCRIPTION:Status: Planned\nUitslag: 26 - 23\nFOYS wedstrijd-ID: 515262
+LOCATION:
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498633@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260912T133000
+DURATION:PT2H
+SUMMARY:Amsterdam Warriors M16-2 - Landslake Lions M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498633
+LOCATION:Bijlmer Sportcentrum\, Anton de Komplein 157\, 1102DR AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498641@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260920T110000
+DURATION:PT2H
+SUMMARY:Utrecht Basketball M16-3 M16-1 - Amsterdam Warriors M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498641
+LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498645@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260926T132500
+DURATION:PT2H
+SUMMARY:Amsterdam Warriors M16-2 - BC Utrecht Cangeroes M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498645
+LOCATION:Bijlmer Sportcentrum\, Anton de Komplein 157\, 1102DR AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498649@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261003T160000
+DURATION:PT2H
+SUMMARY:Almere Pioneers M16-2 - Amsterdam Warriors M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498649
+LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498656@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261024T113000
+DURATION:PT2H
+SUMMARY:Amsterdam Warriors M16-2 - Crackerjacks M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498656
+LOCATION:Bijlmer Sportcentrum\, Anton de Komplein 157\, 1102DR AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498663@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261031T140000
+DURATION:PT2H
+SUMMARY:Amsterdam Warriors M16-1 - Amsterdam Warriors M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498663
+LOCATION:Bijlmer Sportcentrum\, Anton de Komplein 157\, 1102DR AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498667@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261107T171500
+DURATION:PT2H
+SUMMARY:Amsterdam Warriors M16-2 - BC APOLLO Amsterdam M16-3
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498667
+LOCATION:Bijlmer Sportcentrum\, Anton de Komplein 157\, 1102DR AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498676@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261114T113000
+DURATION:PT2H
+SUMMARY:Amsterdam Warriors M16-2 - Onze Gezellen M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498676
+LOCATION:Bijlmer Sportcentrum\, Anton de Komplein 157\, 1102DR AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498680@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261122T120000
+DURATION:PT2H
+SUMMARY:BC APOLLO Amsterdam M16-2 - Amsterdam Warriors M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498680
+LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498688@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261128T131500
+DURATION:PT2H
+SUMMARY:Amsterdam Warriors M16-2 - BV Amsterdam M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498688
+LOCATION:Bijlmer Sportcentrum\, Anton de Komplein 157\, 1102DR AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498693@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261212T150000
+DURATION:PT2H
+SUMMARY:Hot Pepper Heat M16-1 - Amsterdam Warriors M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498693
+LOCATION:Dorpshuis Zwanenburg Halfweg\, Dennenlaan 133 A\, 1161CN ZWANENBURG
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Utrecht Basketball X14-1 X14-1
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-496015@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260912T110000
+DURATION:PT2H
+SUMMARY:Utrecht Basketball X14-1 X14-1 - Northside Ballers Amsterdam X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496015
+LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496021@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260919T123000
+DURATION:PT2H
+SUMMARY:CobraNova X14-1 - Utrecht Basketball X14-1 X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496021
+LOCATION:Forum Kwadraat\, De Vliegerlaan 2 4\, 2273BV VOORBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496027@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260927T100000
+DURATION:PT2H
+SUMMARY:Utrecht Basketball X14-1 X14-1 - BC APOLLO Amsterdam X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496027
+LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496034@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261003T110000
+DURATION:PT2H
+SUMMARY:Utrecht Basketball X14-1 X14-1 - BS Leiden X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496034
+LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496040@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261024T113000
+DURATION:PT2H
+SUMMARY:Amsterdam Warriors X14-1 - Utrecht Basketball X14-1 X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496040
+LOCATION:Bijlmer Sportcentrum\, Anton de Komplein 157\, 1102DR AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496046@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261101T130000
+DURATION:PT2H
+SUMMARY:Utrecht Basketball X14-1 X14-1 - Flashing Heiloo X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496046
+LOCATION:De Paperclip\, Parkzichtlaan 203\, 3451GX VLEUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496053@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261107T130000
+DURATION:PT2H
+SUMMARY:BV Hoofddorp X14-1 - Utrecht Basketball X14-1 X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496053
+LOCATION:Sportcomplex Koning Willem-Alexander\, Bennebroekerweg 800\, 2134AB HOOFDDORP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496058@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261114T110000
+DURATION:PT2H
+SUMMARY:Utrecht Basketball X14-1 X14-1 - BV Amsterdam X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496058
+LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496066@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261122T110000
+DURATION:PT2H
+SUMMARY:Landslake Lions X14-1 - Utrecht Basketball X14-1 X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496066
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496070@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261128T120000
+DURATION:PT2H
+SUMMARY:Utrecht Basketball X14-1 X14-1 - BV Noordkop X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496070
+LOCATION:De Paperclip\, Parkzichtlaan 203\, 3451GX VLEUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496079@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261212T100000
+DURATION:PT2H
+SUMMARY:Almere Pioneers X14-1 - Utrecht Basketball X14-1 X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496079
+LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

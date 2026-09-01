@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Almere Pioneers X14-1
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-496016@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260912T123000
+DURATION:PT2H
+SUMMARY:BS Leiden X14-1 - Almere Pioneers X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496016
+LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496025@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260919T150000
+DURATION:PT2H
+SUMMARY:Almere Pioneers X14-1 - Amsterdam Warriors X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496025
+LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496030@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260926T093000
+DURATION:PT2H
+SUMMARY:Flashing Heiloo X14-1 - Almere Pioneers X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496030
+LOCATION:Het Vennewater\, Het Zevenhuizen 48\, 1852JC HEILOO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496036@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261003T140000
+DURATION:PT2H
+SUMMARY:Almere Pioneers X14-1 - BV Hoofddorp X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496036
+LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496043@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261024T123000
+DURATION:PT2H
+SUMMARY:BV Amsterdam X14-1 - Almere Pioneers X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496043
+LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496048@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261031T100000
+DURATION:PT2H
+SUMMARY:Almere Pioneers X14-1 - Landslake Lions X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496048
+LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496056@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261107T120000
+DURATION:PT2H
+SUMMARY:BV Noordkop X14-1 - Almere Pioneers X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496056
+LOCATION:Sportcentrum Quelderduijn\, Schootenweg 2\, 1785LV DEN HELDER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496062@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261115T120000
+DURATION:PT2H
+SUMMARY:BC APOLLO Amsterdam X14-1 - Almere Pioneers X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496062
+LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496068@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261121T160000
+DURATION:PT2H
+SUMMARY:Almere Pioneers X14-1 - Northside Ballers Amsterdam X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496068
+LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496069@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261128T143000
+DURATION:PT2H
+SUMMARY:CobraNova X14-1 - Almere Pioneers X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496069
+LOCATION:Forum Kwadraat\, De Vliegerlaan 2 4\, 2273BV VOORBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496079@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261212T100000
+DURATION:PT2H
+SUMMARY:Almere Pioneers X14-1 - Utrecht Basketball X14-1 X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496079
+LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,120 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BV Zoetermeer Hammerheads M22-1
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-503259@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260912T160000
+DURATION:PT2H
+SUMMARY:BV Zoetermeer Hammerheads M22-1 - GBI van Dijk Grasshoppers M22-2
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503259
+LOCATION:Sporthal Willem-Alexanderplantsoen\, Willem-Alexanderplantsoen 6 B\, 2713VM ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503261@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260919T141500
+DURATION:PT2H
+SUMMARY:BV Alphia M22-1 - BV Zoetermeer Hammerheads M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503261
+LOCATION:Rijnstreekhal\, Dillenburg 1\, 2404EV ALPHEN AAN DEN RIJN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503266@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20260926T184500
+DURATION:PT2H
+SUMMARY:CobraNova M22-2 - BV Zoetermeer Hammerheads M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503266
+LOCATION:Forum Kwadraat\, De Vliegerlaan 2 4\, 2273BV VOORBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503277@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261004T160000
+DURATION:PT2H
+SUMMARY:BV Zoetermeer Hammerheads M22-1 - Mapleleaves M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503277
+LOCATION:Sporthal Willem-Alexanderplantsoen\, Willem-Alexanderplantsoen 6 B\, 2713VM ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503278@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261024T170000
+DURATION:PT2H
+SUMMARY:BV Hoofddorp M22-2 - BV Zoetermeer Hammerheads M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503278
+LOCATION:Sportcomplex Koning Willem-Alexander\, Bennebroekerweg 800\, 2134AB HOOFDDORP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503290@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261107T170000
+DURATION:PT2H
+SUMMARY:BV Hoofddorp M22-3 - BV Zoetermeer Hammerheads M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503290
+LOCATION:Sportcomplex Koning Willem-Alexander\, Bennebroekerweg 800\, 2134AB HOOFDDORP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503301@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261115T140000
+DURATION:PT2H
+SUMMARY:BV Zoetermeer Hammerheads M22-1 - BS Leiden M22-3
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503301
+LOCATION:Sporthal Willem-Alexanderplantsoen\, Willem-Alexanderplantsoen 6 B\, 2713VM ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503302@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261121T190000
+DURATION:PT2H
+SUMMARY:BV Lisse M22-1 - BV Zoetermeer Hammerheads M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503302
+LOCATION:De Waterkanten\, Sportlaan 21\, 2161VA LISSE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503313@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261128T140000
+DURATION:PT2H
+SUMMARY:BV Zoetermeer Hammerheads M22-1 - Dunkinn M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503313
+LOCATION:Sporthal Willem-Alexanderplantsoen\, Willem-Alexanderplantsoen 6 B\, 2713VM ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503314@basketball-agenda
+DTSTAMP:20260901T155911Z
+LAST-MODIFIED:20260901T155911Z
+DTSTART;TZID=Europe/Amsterdam:20261212T143000
+DURATION:PT2H
+SUMMARY:Zoebas M22-2 - BV Zoetermeer Hammerheads M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503314
+LOCATION:Noordhove\, Lijnbaan 311\, 2728AG ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
