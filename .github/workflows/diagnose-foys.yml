@@ -16,7 +16,7 @@ jobs:
         run: |
           set -euo pipefail
           python - <<'PY'
-          import re, urllib.request, urllib.parse, sys
+          import re, urllib.request, urllib.parse
           from html.parser import HTMLParser
 
           URLS = [
@@ -28,65 +28,77 @@ jobs:
 
           class Parser(HTMLParser):
               def __init__(self):
-                  super().__init__(); self.scripts=[]; self.iframes=[]
+                  super().__init__(); self.scripts=[]; self.widgets=[]
               def handle_starttag(self, tag, attrs):
                   d=dict(attrs)
                   if tag=='script' and d.get('src'): self.scripts.append(d['src'])
-                  if tag=='iframe' and d.get('src'): self.iframes.append(d['src'])
+                  if tag=='competition-widget': self.widgets.append(d)
 
-          scripts=set(); iframes=set(); htmls=[]
+          scripts=set()
           for url in URLS:
-              try:
-                  req=urllib.request.Request(url, headers=headers)
-                  with urllib.request.urlopen(req, timeout=30) as r:
-                      text=r.read().decode('utf-8','ignore')
-                  print('PAGE', url, 'bytes', len(text))
-                  htmls.append((url,text))
-                  p=Parser(); p.feed(text)
-                  for s in p.scripts: scripts.add(urllib.parse.urljoin(url,s))
-                  for i in p.iframes: iframes.add(urllib.parse.urljoin(url,i))
-                  for pat in [r'api\.foys\.io[^\"\'<> ]*',r'federation[^\"\'<>]{0,120}',r'public-api[^\"\'<> ]*',r'competition[^\"\'<>]{0,120}']:
-                      vals=re.findall(pat,text,re.I)
-                      if vals:
-                          print(' HTML MATCH', pat, vals[:20])
-              except Exception as e:
-                  print('PAGE ERROR',url,repr(e))
+              req=urllib.request.Request(url, headers=headers)
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  text=r.read().decode('utf-8','ignore')
+              print('PAGE', url, 'bytes', len(text))
+              p=Parser(); p.feed(text)
+              for w in p.widgets: print('WIDGET', w)
+              for s in p.scripts: scripts.add(urllib.parse.urljoin(url,s))
+              for m in re.finditer(r'<competition-widget\b[^>]*>',text,re.I|re.S):
+                  print('WIDGET RAW',re.sub(r'\s+',' ',m.group(0)))
 
-          print('IFRAMES', *sorted(iframes), sep='\n  ')
-          print('SCRIPTS', *sorted(scripts), sep='\n  ')
+          widget='https://competition-widget.foys.tech/competition-widget.js'
+          req=urllib.request.Request(widget, headers=headers)
+          with urllib.request.urlopen(req, timeout=30) as r:
+              js=r.read().decode('utf-8','ignore')
+          print('WIDGET JS bytes',len(js))
 
-          targets=list(sorted(scripts|iframes))
-          for target in targets:
-              try:
-                  req=urllib.request.Request(target, headers=headers)
-                  with urllib.request.urlopen(req, timeout=30) as r:
-                      data=r.read()
-                  text=data.decode('utf-8','ignore')
-                  low=text.lower()
-                  if any(k in low for k in ['foys','federation','public-api','matches/all']):
-                      print('\nTARGET',target,'bytes',len(text))
-                      for needle in ['api.foys.io','x-federationid','federationid','public-api','matches/all','organizations','teams']:
-                          pos=0; shown=0
-                          while shown<10:
-                              idx=low.find(needle.lower(),pos)
-                              if idx<0: break
-                              a=max(0,idx-220); b=min(len(text),idx+500)
-                              print(' MATCH',needle, re.sub(r'\s+',' ',text[a:b])[:900])
-                              pos=idx+len(needle); shown+=1
-              except Exception as e:
-                  print('TARGET ERROR',target,repr(e))
+          route_candidates=[]
+          for m in re.finditer(r'(["`])(/[^"`\\\n]{1,220})\1',js):
+              s=m.group(2)
+              if any(k in s.lower() for k in ('match','team','organisation','competition','standing','discipline','pool','season','calendar')):
+                  route_candidates.append(s)
+          print('ROUTE CANDIDATES')
+          for s in sorted(set(route_candidates)):
+              print(' ',s)
+
+          for needle in ['jo("matches"','jo("organisations"','jo("teams"','jo("competitions"','jo("standings"','calendar','ical','webcal','scoreHome','homeScore','awayScore','status']:
+              low=js.lower(); pos=0; shown=0
+              while shown<12:
+                  idx=low.find(needle.lower(),pos)
+                  if idx<0: break
+                  a=max(0,idx-700); b=min(len(js),idx+2200)
+                  print('\nCONTEXT',needle, re.sub(r'\s+',' ',js[a:b]))
+                  pos=idx+len(needle); shown+=1
           PY
 
-      - name: Probe known public endpoints without header
+      - name: Probe public API with discovered Basketball federation id
         shell: bash
         run: |
-          set +e
-          for u in \
-            'https://api.foys.io/competition/public-api/v1/matches/all' \
-            'https://api.foys.io/competition/public-api/v1/organizations' \
-            'https://api.foys.io/competition/public-api/v1/teams' \
-            'https://api.foys.io/competition/public-api/v1/clubs'; do
-            echo "=== $u ==="
-            curl -sS -D - -o /tmp/body "$u" | head -40
-            head -c 1000 /tmp/body; echo
-          done
+          set -euo pipefail
+          python - <<'PY'
+          import re, urllib.request
+          from html.parser import HTMLParser
+          page='https://basketball.nl/basketball/competities/programma/'
+          req=urllib.request.Request(page,headers={'User-Agent':'Mozilla/5.0'})
+          html=urllib.request.urlopen(req,timeout=30).read().decode('utf-8','ignore')
+          m=re.search(r'<competition-widget\b([^>]*)>',html,re.I|re.S)
+          if not m: raise SystemExit('no widget')
+          attrs=dict(re.findall(r'([\w-]+)\s*=\s*["\']([^"\']*)["\']',m.group(1)))
+          fed=attrs.get('federation-id','')
+          print('FEDERATION_ID',fed)
+          if not fed: raise SystemExit('no federation id')
+          urls=[
+            '/matches/all',
+            '/competitions'
+          ]
+          for path in urls:
+              u='https://api.foys.io/competition/public-api/v1'+path
+              r=urllib.request.Request(u,headers={'User-Agent':'Mozilla/5.0','X-FederationID':fed,'Accept':'application/json'})
+              try:
+                  with urllib.request.urlopen(r,timeout=30) as resp:
+                      body=resp.read().decode('utf-8','ignore')
+                      print('\nGET',path,'STATUS',resp.status,'BYTES',len(body))
+                      print(body[:8000])
+              except Exception as e:
+                  print('GET ERROR',path,repr(e))
+          PY
