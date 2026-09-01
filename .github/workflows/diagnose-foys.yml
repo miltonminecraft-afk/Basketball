@@ -1,0 +1,92 @@
+name: Diagnose FOYS public API
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/diagnose-foys.yml"
+  workflow_dispatch:
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect Basketball.nl widget configuration
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import re, urllib.request, urllib.parse, sys
+          from html.parser import HTMLParser
+
+          URLS = [
+            'https://basketball.nl/basketball/competities/programma/',
+            'https://basketball.nl/basketball/competities/uitslagen/',
+            'https://basketball.nl/basketball/competities/vereniging-zoeken/'
+          ]
+          headers={'User-Agent':'Mozilla/5.0'}
+
+          class Parser(HTMLParser):
+              def __init__(self):
+                  super().__init__(); self.scripts=[]; self.iframes=[]
+              def handle_starttag(self, tag, attrs):
+                  d=dict(attrs)
+                  if tag=='script' and d.get('src'): self.scripts.append(d['src'])
+                  if tag=='iframe' and d.get('src'): self.iframes.append(d['src'])
+
+          scripts=set(); iframes=set(); htmls=[]
+          for url in URLS:
+              try:
+                  req=urllib.request.Request(url, headers=headers)
+                  with urllib.request.urlopen(req, timeout=30) as r:
+                      text=r.read().decode('utf-8','ignore')
+                  print('PAGE', url, 'bytes', len(text))
+                  htmls.append((url,text))
+                  p=Parser(); p.feed(text)
+                  for s in p.scripts: scripts.add(urllib.parse.urljoin(url,s))
+                  for i in p.iframes: iframes.add(urllib.parse.urljoin(url,i))
+                  for pat in [r'api\.foys\.io[^\"\'<> ]*',r'federation[^\"\'<>]{0,120}',r'public-api[^\"\'<> ]*',r'competition[^\"\'<>]{0,120}']:
+                      vals=re.findall(pat,text,re.I)
+                      if vals:
+                          print(' HTML MATCH', pat, vals[:20])
+              except Exception as e:
+                  print('PAGE ERROR',url,repr(e))
+
+          print('IFRAMES', *sorted(iframes), sep='\n  ')
+          print('SCRIPTS', *sorted(scripts), sep='\n  ')
+
+          targets=list(sorted(scripts|iframes))
+          for target in targets:
+              try:
+                  req=urllib.request.Request(target, headers=headers)
+                  with urllib.request.urlopen(req, timeout=30) as r:
+                      data=r.read()
+                  text=data.decode('utf-8','ignore')
+                  low=text.lower()
+                  if any(k in low for k in ['foys','federation','public-api','matches/all']):
+                      print('\nTARGET',target,'bytes',len(text))
+                      for needle in ['api.foys.io','x-federationid','federationid','public-api','matches/all','organizations','teams']:
+                          pos=0; shown=0
+                          while shown<10:
+                              idx=low.find(needle.lower(),pos)
+                              if idx<0: break
+                              a=max(0,idx-220); b=min(len(text),idx+500)
+                              print(' MATCH',needle, re.sub(r'\s+',' ',text[a:b])[:900])
+                              pos=idx+len(needle); shown+=1
+              except Exception as e:
+                  print('TARGET ERROR',target,repr(e))
+          PY
+
+      - name: Probe known public endpoints without header
+        shell: bash
+        run: |
+          set +e
+          for u in \
+            'https://api.foys.io/competition/public-api/v1/matches/all' \
+            'https://api.foys.io/competition/public-api/v1/organizations' \
+            'https://api.foys.io/competition/public-api/v1/teams' \
+            'https://api.foys.io/competition/public-api/v1/clubs'; do
+            echo "=== $u ==="
+            curl -sS -D - -o /tmp/body "$u" | head -40
+            head -c 1000 /tmp/body; echo
+          done
