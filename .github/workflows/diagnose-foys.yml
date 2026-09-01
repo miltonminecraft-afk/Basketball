@@ -11,51 +11,25 @@ jobs:
   diagnose:
     runs-on: ubuntu-latest
     steps:
-      - name: Verify Argon live data and browser access
+      - name: Inspect calendar-related widget code
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
-          import json,urllib.request,urllib.parse
-          FED='52cfa65e-9782-4a81-ab35-e2f981fcb7a9'
-          ORIGIN='https://miltonminecraft-afk.github.io'
-          PUB='https://api.foys.io/competition/public-api/v1'
-          FOYS='https://api.foys.io/foys/api'
-          UA='Mozilla/5.0'
-
-          def request_json(url, extra=None):
-              h={'User-Agent':UA,'Accept':'application/json','Origin':ORIGIN}
-              if extra: h.update(extra)
-              req=urllib.request.Request(url,headers=h)
-              with urllib.request.urlopen(req,timeout=60) as r:
-                  body=r.read().decode('utf-8','ignore')
-                  print('\nURL',url,'STATUS',r.status,'BYTES',len(body))
-                  print('ALLOW-ORIGIN',r.headers.get('Access-Control-Allow-Origin'))
-                  data=json.loads(body) if body else None
-                  print('DATA',json.dumps(data,ensure_ascii=False)[:16000])
-                  return data
-
-          q=urllib.parse.urlencode({'quickSearch':'Argon','maxResultCount':20,'skipCount':0})
-          clubs=request_json(f'{FOYS}/v2/pub/organisations/{FED}/clubs?{q}')
-          items=(clubs or {}).get('items',[])
-          argon=next((x for x in items if 'argon' in x.get('name','').lower()),None)
-          if not argon: raise SystemExit('SV Argon not found')
-          club=argon['id']; print('ARGON_ID',club)
-
-          teams=request_json(f'{PUB}/organisations/{club}/teams',{'X-FederationID':FED})
-          mse2=next((x for x in teams if x.get('name','').upper()=='MSE-2'),None)
-          if not mse2: raise SystemExit('MSE-2 not found')
-          print('MSE2',json.dumps(mse2,ensure_ascii=False))
-          guid=mse2['guid']
-
-          params={
-            'startDate':'2026-07-01','endDate':'2027-06-30','teamGuid':guid,
-            'skipCount':0,'maxResultCount':100,'sorting':'date asc, startTime asc'
-          }
-          matches=request_json(f'{PUB}/matches?'+urllib.parse.urlencode(params),{'X-FederationID':FED})
-          print('MATCH_COUNT',matches.get('totalCount') if isinstance(matches,dict) else len(matches or []))
-
-          # Results-only style query used by widget: endDate=today, same team.
-          params2={'endDate':'2026-09-01','teamGuid':guid,'skipCount':0,'maxResultCount':100,'sorting':'date desc, startTime desc'}
-          request_json(f'{PUB}/matches?'+urllib.parse.urlencode(params2),{'X-FederationID':FED})
+          import re,urllib.request
+          url='https://competition-widget.foys.tech/competition-widget.js'
+          js=urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'}),timeout=60).read().decode('utf-8','ignore')
+          low=js.lower()
+          for needle in ['calendar','ical','ics','webcal','agenda','subscribe','subscription','sendcalendar','calendarlink']:
+              print('\n==========',needle,'==========')
+              pos=0; shown=0
+              while shown<30:
+                  i=low.find(needle,pos)
+                  if i<0: break
+                  print(re.sub(r'\s+',' ',js[max(0,i-1200):min(len(js),i+2600)]))
+                  pos=i+len(needle);shown+=1
+          print('\nROUTES')
+          routes=sorted(set(re.findall(r'(["`])(/[^"`\\\n]{1,180})\1',js)))
+          for _,route in routes:
+              if any(x in route.lower() for x in ['calendar','ical','ics','subscription']):print(route)
           PY
