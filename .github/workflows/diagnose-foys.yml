@@ -11,83 +11,51 @@ jobs:
   diagnose:
     runs-on: ubuntu-latest
     steps:
-      - name: Probe exact FOYS endpoints
+      - name: Verify Argon live data and browser access
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
-          import json,re,urllib.request,urllib.parse
+          import json,urllib.request,urllib.parse
           FED='52cfa65e-9782-4a81-ab35-e2f981fcb7a9'
-          UA='Mozilla/5.0'
+          ORIGIN='https://miltonminecraft-afk.github.io'
           PUB='https://api.foys.io/competition/public-api/v1'
           FOYS='https://api.foys.io/foys/api'
+          UA='Mozilla/5.0'
 
-          def get(url, headers=None):
-              h={'User-Agent':UA,'Accept':'application/json'}
-              if headers: h.update(headers)
+          def request_json(url, extra=None):
+              h={'User-Agent':UA,'Accept':'application/json','Origin':ORIGIN}
+              if extra: h.update(extra)
               req=urllib.request.Request(url,headers=h)
               with urllib.request.urlopen(req,timeout=60) as r:
-                  b=r.read().decode('utf-8','ignore')
-                  print('\nGET',url,'STATUS',r.status,'BYTES',len(b))
-                  print('CORS',r.headers.get('access-control-allow-origin'),r.headers.get('access-control-allow-headers'))
-                  return json.loads(b) if b else None
+                  body=r.read().decode('utf-8','ignore')
+                  print('\nURL',url,'STATUS',r.status,'BYTES',len(body))
+                  print('ALLOW-ORIGIN',r.headers.get('Access-Control-Allow-Origin'))
+                  data=json.loads(body) if body else None
+                  print('DATA',json.dumps(data,ensure_ascii=False)[:16000])
+                  return data
 
-          # Find real public clubs list.
-          for path in [f'/v2/pub/organisations/{FED}/clubs',f'/v2/pub/organisations/{FED}']:
-              try:
-                  data=get(FOYS+path)
-                  print('SAMPLE',json.dumps(data,ensure_ascii=False)[:6000])
-                  if path.endswith('/clubs'):
-                      clubs=data
-              except Exception as e: print('ERROR',path,repr(e))
+          q=urllib.parse.urlencode({'quickSearch':'Argon','maxResultCount':20,'skipCount':0})
+          clubs=request_json(f'{FOYS}/v2/pub/organisations/{FED}/clubs?{q}')
+          items=(clubs or {}).get('items',[])
+          argon=next((x for x in items if 'argon' in x.get('name','').lower()),None)
+          if not argon: raise SystemExit('SV Argon not found')
+          club=argon['id']; print('ARGON_ID',club)
 
-          # Discover SV Argon club from clubs response.
-          candidates=[]
-          def walk(x):
-              if isinstance(x,dict):
-                  if 'argon' in str(x.get('name','')).lower(): candidates.append(x)
-                  for v in x.values(): walk(v)
-              elif isinstance(x,list):
-                  for v in x: walk(v)
-          try: walk(clubs)
-          except: pass
-          print('\nARGON CLUB CANDIDATES',json.dumps(candidates,ensure_ascii=False)[:12000])
-          clubid=None
-          for c in candidates:
-              clubid=c.get('id') or c.get('organisationId') or c.get('organizationId')
-              if clubid: break
+          teams=request_json(f'{PUB}/organisations/{club}/teams',{'X-FederationID':FED})
+          mse2=next((x for x in teams if x.get('name','').upper()=='MSE-2'),None)
+          if not mse2: raise SystemExit('MSE-2 not found')
+          print('MSE2',json.dumps(mse2,ensure_ascii=False))
+          guid=mse2['guid']
 
-          # If clubs endpoint isn't enough, identify Argon from match data but stream JSON is too large;
-          # query /matches with common widget parameters once club id is known.
-          if clubid:
-              for path in [f'/organisations/{clubid}/teams']:
-                  try:
-                      teams=get(PUB+path,{'X-FederationID':FED,'Origin':'https://miltonminecraft-afk.github.io'})
-                      print('TEAMS',json.dumps(teams,ensure_ascii=False)[:20000])
-                  except Exception as e: print('TEAM ERROR',repr(e))
+          params={
+            'startDate':'2026-07-01','endDate':'2027-06-30','teamGuid':guid,
+            'skipCount':0,'maxResultCount':100,'sorting':'date asc, startTime asc'
+          }
+          matches=request_json(f'{PUB}/matches?'+urllib.parse.urlencode(params),{'X-FederationID':FED})
+          print('MATCH_COUNT',matches.get('totalCount') if isinstance(matches,dict) else len(matches or []))
 
-          # Inspect JS call sites for query parameter names used by /matches and organisation search.
-          js=urllib.request.urlopen(urllib.request.Request('https://competition-widget.foys.tech/competition-widget.js',headers={'User-Agent':UA}),timeout=60).read().decode('utf-8','ignore')
-          for needle in ['getUpcomingMatches(', 'getResultMatches(', 'getOrganisations(', 'getClubs(', 'getTeams(']:
-              print('\n=== CALLS',needle,'===')
-              low=js.lower(); start=0; count=0
-              while count<20:
-                  i=low.find(needle.lower(),start)
-                  if i<0: break
-                  print(re.sub(r'\s+',' ',js[max(0,i-1400):min(len(js),i+3200)]))
-                  start=i+len(needle); count+=1
-
-          # Browser CORS preflight for public API.
-          pre=urllib.request.Request(PUB+'/matches',method='OPTIONS',headers={
-              'Origin':'https://miltonminecraft-afk.github.io',
-              'Access-Control-Request-Method':'GET',
-              'Access-Control-Request-Headers':'x-federationid',
-              'User-Agent':UA
-          })
-          try:
-              with urllib.request.urlopen(pre,timeout=30) as r:
-                  print('\nOPTIONS STATUS',r.status)
-                  for k,v in r.headers.items():
-                      if k.lower().startswith('access-control'): print(k,v)
-          except Exception as e: print('OPTIONS ERROR',repr(e))
+          # Results-only style query used by widget: endDate=today, same team.
+          params2={'endDate':'2026-09-01','teamGuid':guid,'skipCount':0,'maxResultCount':100,'sorting':'date desc, startTime desc'}
+          request_json(f'{PUB}/matches?'+urllib.parse.urlencode(params2),{'X-FederationID':FED})
           PY
