@@ -11,94 +11,83 @@ jobs:
   diagnose:
     runs-on: ubuntu-latest
     steps:
-      - name: Inspect Basketball.nl widget configuration
+      - name: Probe exact FOYS endpoints
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
-          import re, urllib.request, urllib.parse
-          from html.parser import HTMLParser
+          import json,re,urllib.request,urllib.parse
+          FED='52cfa65e-9782-4a81-ab35-e2f981fcb7a9'
+          UA='Mozilla/5.0'
+          PUB='https://api.foys.io/competition/public-api/v1'
+          FOYS='https://api.foys.io/foys/api'
 
-          URLS = [
-            'https://basketball.nl/basketball/competities/programma/',
-            'https://basketball.nl/basketball/competities/uitslagen/',
-            'https://basketball.nl/basketball/competities/vereniging-zoeken/'
-          ]
-          headers={'User-Agent':'Mozilla/5.0'}
+          def get(url, headers=None):
+              h={'User-Agent':UA,'Accept':'application/json'}
+              if headers: h.update(headers)
+              req=urllib.request.Request(url,headers=h)
+              with urllib.request.urlopen(req,timeout=60) as r:
+                  b=r.read().decode('utf-8','ignore')
+                  print('\nGET',url,'STATUS',r.status,'BYTES',len(b))
+                  print('CORS',r.headers.get('access-control-allow-origin'),r.headers.get('access-control-allow-headers'))
+                  return json.loads(b) if b else None
 
-          class Parser(HTMLParser):
-              def __init__(self):
-                  super().__init__(); self.scripts=[]; self.widgets=[]
-              def handle_starttag(self, tag, attrs):
-                  d=dict(attrs)
-                  if tag=='script' and d.get('src'): self.scripts.append(d['src'])
-                  if tag=='competition-widget': self.widgets.append(d)
-
-          scripts=set()
-          for url in URLS:
-              req=urllib.request.Request(url, headers=headers)
-              with urllib.request.urlopen(req, timeout=30) as r:
-                  text=r.read().decode('utf-8','ignore')
-              print('PAGE', url, 'bytes', len(text))
-              p=Parser(); p.feed(text)
-              for w in p.widgets: print('WIDGET', w)
-              for s in p.scripts: scripts.add(urllib.parse.urljoin(url,s))
-              for m in re.finditer(r'<competition-widget\b[^>]*>',text,re.I|re.S):
-                  print('WIDGET RAW',re.sub(r'\s+',' ',m.group(0)))
-
-          widget='https://competition-widget.foys.tech/competition-widget.js'
-          req=urllib.request.Request(widget, headers=headers)
-          with urllib.request.urlopen(req, timeout=30) as r:
-              js=r.read().decode('utf-8','ignore')
-          print('WIDGET JS bytes',len(js))
-
-          route_candidates=[]
-          for m in re.finditer(r'(["`])(/[^"`\\\n]{1,220})\1',js):
-              s=m.group(2)
-              if any(k in s.lower() for k in ('match','team','organisation','competition','standing','discipline','pool','season','calendar')):
-                  route_candidates.append(s)
-          print('ROUTE CANDIDATES')
-          for s in sorted(set(route_candidates)):
-              print(' ',s)
-
-          for needle in ['jo("matches"','jo("organisations"','jo("teams"','jo("competitions"','jo("standings"','calendar','ical','webcal','scoreHome','homeScore','awayScore','status']:
-              low=js.lower(); pos=0; shown=0
-              while shown<12:
-                  idx=low.find(needle.lower(),pos)
-                  if idx<0: break
-                  a=max(0,idx-700); b=min(len(js),idx+2200)
-                  print('\nCONTEXT',needle, re.sub(r'\s+',' ',js[a:b]))
-                  pos=idx+len(needle); shown+=1
-          PY
-
-      - name: Probe public API with discovered Basketball federation id
-        shell: bash
-        run: |
-          set -euo pipefail
-          python - <<'PY'
-          import re, urllib.request
-          from html.parser import HTMLParser
-          page='https://basketball.nl/basketball/competities/programma/'
-          req=urllib.request.Request(page,headers={'User-Agent':'Mozilla/5.0'})
-          html=urllib.request.urlopen(req,timeout=30).read().decode('utf-8','ignore')
-          m=re.search(r'<competition-widget\b([^>]*)>',html,re.I|re.S)
-          if not m: raise SystemExit('no widget')
-          attrs=dict(re.findall(r'([\w-]+)\s*=\s*["\']([^"\']*)["\']',m.group(1)))
-          fed=attrs.get('federation-id','')
-          print('FEDERATION_ID',fed)
-          if not fed: raise SystemExit('no federation id')
-          urls=[
-            '/matches/all',
-            '/competitions'
-          ]
-          for path in urls:
-              u='https://api.foys.io/competition/public-api/v1'+path
-              r=urllib.request.Request(u,headers={'User-Agent':'Mozilla/5.0','X-FederationID':fed,'Accept':'application/json'})
+          # Find real public clubs list.
+          for path in [f'/v2/pub/organisations/{FED}/clubs',f'/v2/pub/organisations/{FED}']:
               try:
-                  with urllib.request.urlopen(r,timeout=30) as resp:
-                      body=resp.read().decode('utf-8','ignore')
-                      print('\nGET',path,'STATUS',resp.status,'BYTES',len(body))
-                      print(body[:8000])
-              except Exception as e:
-                  print('GET ERROR',path,repr(e))
+                  data=get(FOYS+path)
+                  print('SAMPLE',json.dumps(data,ensure_ascii=False)[:6000])
+                  if path.endswith('/clubs'):
+                      clubs=data
+              except Exception as e: print('ERROR',path,repr(e))
+
+          # Discover SV Argon club from clubs response.
+          candidates=[]
+          def walk(x):
+              if isinstance(x,dict):
+                  if 'argon' in str(x.get('name','')).lower(): candidates.append(x)
+                  for v in x.values(): walk(v)
+              elif isinstance(x,list):
+                  for v in x: walk(v)
+          try: walk(clubs)
+          except: pass
+          print('\nARGON CLUB CANDIDATES',json.dumps(candidates,ensure_ascii=False)[:12000])
+          clubid=None
+          for c in candidates:
+              clubid=c.get('id') or c.get('organisationId') or c.get('organizationId')
+              if clubid: break
+
+          # If clubs endpoint isn't enough, identify Argon from match data but stream JSON is too large;
+          # query /matches with common widget parameters once club id is known.
+          if clubid:
+              for path in [f'/organisations/{clubid}/teams']:
+                  try:
+                      teams=get(PUB+path,{'X-FederationID':FED,'Origin':'https://miltonminecraft-afk.github.io'})
+                      print('TEAMS',json.dumps(teams,ensure_ascii=False)[:20000])
+                  except Exception as e: print('TEAM ERROR',repr(e))
+
+          # Inspect JS call sites for query parameter names used by /matches and organisation search.
+          js=urllib.request.urlopen(urllib.request.Request('https://competition-widget.foys.tech/competition-widget.js',headers={'User-Agent':UA}),timeout=60).read().decode('utf-8','ignore')
+          for needle in ['getUpcomingMatches(', 'getResultMatches(', 'getOrganisations(', 'getClubs(', 'getTeams(']:
+              print('\n=== CALLS',needle,'===')
+              low=js.lower(); start=0; count=0
+              while count<20:
+                  i=low.find(needle.lower(),start)
+                  if i<0: break
+                  print(re.sub(r'\s+',' ',js[max(0,i-1400):min(len(js),i+3200)]))
+                  start=i+len(needle); count+=1
+
+          # Browser CORS preflight for public API.
+          pre=urllib.request.Request(PUB+'/matches',method='OPTIONS',headers={
+              'Origin':'https://miltonminecraft-afk.github.io',
+              'Access-Control-Request-Method':'GET',
+              'Access-Control-Request-Headers':'x-federationid',
+              'User-Agent':UA
+          })
+          try:
+              with urllib.request.urlopen(pre,timeout=30) as r:
+                  print('\nOPTIONS STATUS',r.status)
+                  for k,v in r.headers.items():
+                      if k.lower().startswith('access-control'): print(k,v)
+          except Exception as e: print('OPTIONS ERROR',repr(e))
           PY
