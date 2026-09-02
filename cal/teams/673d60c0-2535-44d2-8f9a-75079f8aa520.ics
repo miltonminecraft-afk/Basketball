@@ -118,16 +118,6 @@ LOCATION:Sporthal Laco\, Lange Blokweg 27 A\, 4301 NW Zierikzee
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-509200@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270116T120000
-DURATION:PT2H
-SUMMARY:HSB Nobles MSE-1 - Green Eagles MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509200
-LOCATION:Sportcampus Zuiderpark\, Mr. P. Droogleever Fortuynweg 22\, 2533SR 'S-GRAVENHAGE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-509210@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270130T110000
@@ -184,6 +174,16 @@ DTSTART;TZID=Europe/Amsterdam:20270320T160000
 DURATION:PT2H
 SUMMARY:HSB Nobles MSE-1 - Smokkelhoek MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509235
+LOCATION:Sportcampus Zuiderpark\, Mr. P. Droogleever Fortuynweg 22\, 2533SR 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509200@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270327T160000
+DURATION:PT2H
+SUMMARY:HSB Nobles MSE-1 - Green Eagles MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509200
 LOCATION:Sportcampus Zuiderpark\, Mr. P. Droogleever Fortuynweg 22\, 2533SR 'S-GRAVENHAGE
 STATUS:CONFIRMED
 END:VEVENT

@@ -48,16 +48,6 @@ LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-498396@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T140000
-DURATION:PT2H
-SUMMARY:WBB Giants V16-1 - Marathon V16-1
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498396
-LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-498398@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261120T190000
@@ -75,6 +65,16 @@ DURATION:PT2H
 SUMMARY:BV Volharding V16-1 - Marathon V16-1
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498402
 LOCATION:Omnium\, Zwembadweg 3\, 4463AB GOES
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498396@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T120000
+DURATION:PT2H
+SUMMARY:WBB Giants V16-1 - Marathon V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498396
+LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
