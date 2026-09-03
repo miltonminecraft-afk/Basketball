@@ -58,6 +58,16 @@ LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-496487@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261015T000000
+DURATION:PT2H
+SUMMARY:Eem '78 X14-1 - ABC Amigos X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496487
+LOCATION:Huis van Eemnes\, Noordersingel 4\, 3755EZ EEMNES
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-496466@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T140000
@@ -105,16 +115,6 @@ DURATION:PT2H
 SUMMARY:ABC Amigos X14-2 - BC Flying Oost X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496497
 LOCATION:Sporthuis Abcoude\, Geinplein 1\, 1391 JN Abcoude
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-496487@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270206T150000
-DURATION:PT2H
-SUMMARY:Eem '78 X14-1 - ABC Amigos X14-2
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496487
-LOCATION:Huis van Eemnes\, Noordersingel 4\, 3755EZ EEMNES
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR

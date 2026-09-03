@@ -88,16 +88,6 @@ LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-507909@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T130000
-DURATION:PT2H
-SUMMARY:De Dunckers MSE-2 - Almere Pioneers MSE-4
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507909
-LOCATION:Dudok Arena\, Arena 303\, 1213NW HILVERSUM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-507917@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T150000
@@ -195,16 +185,6 @@ DURATION:PT2H
 SUMMARY:Basketbalclub Weesp MSE-1 - Almere Pioneers MSE-4
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507968
 LOCATION:Aetsveld\, Mr.C. Kooimancentrum 17\, 1383ED WEESP
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-507977@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270320T000000
-DURATION:PT2H
-SUMMARY:Almere Pioneers MSE-4 - De Dunckers MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507977
-LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

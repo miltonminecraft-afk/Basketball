@@ -98,16 +98,6 @@ LOCATION:Korf De\, De Smidse 1\, 3831NT LEUSDEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-507920@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T144500
-DURATION:PT2H
-SUMMARY:De Dunckers MSE-2 - Green Giants MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507920
-LOCATION:Dudok Arena\, Arena 303\, 1213NW HILVERSUM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-507926@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270109T161500
@@ -215,16 +205,6 @@ DURATION:PT2H
 SUMMARY:BC Schrobbelaar MSE-2 - Green Giants MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507985
 LOCATION:Sportcentrum Universum\, Science Park 306\, 1098XH AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-507991@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270410T130000
-DURATION:PT2H
-SUMMARY:Green Giants MSE-1 - De Dunckers MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507991
-LOCATION:Korf De\, De Smidse 1\, 3831NT LEUSDEN
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR

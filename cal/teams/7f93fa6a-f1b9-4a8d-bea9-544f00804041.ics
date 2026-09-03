@@ -18,16 +18,6 @@ LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-513831@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260919T160000
-DURATION:PT2H
-SUMMARY:Pigeons V18-1 - Challenge V18-1
-DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513831
-LOCATION:Triominos\, Eltensestraat 4\, 6922JB DUIVEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-513835@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T121500
@@ -95,6 +85,16 @@ DURATION:PT2H
 SUMMARY:Challenge V18-1 - Pigeons V18-1
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513852
 LOCATION:De Tinnegieter\, Leigraaf 2\, 6641DH BEUNINGEN GLD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513831@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261204T193000
+DURATION:PT2H
+SUMMARY:Pigeons V18-1 - Challenge V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513831
+LOCATION:Triominos\, Eltensestraat 4\, 6922JB DUIVEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

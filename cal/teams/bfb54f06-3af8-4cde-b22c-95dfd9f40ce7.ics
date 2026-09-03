@@ -68,22 +68,22 @@ LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-493534@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261205T154500
-DURATION:PT2H
-SUMMARY:Bedum Blues X12-2 - BV Groningen X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493534
-LOCATION:De Beemden\, Sportlaan 14\, 9781CL BEDUM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-493538@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T154500
 DURATION:PT2H
 SUMMARY:Bedum Blues X12-2 - Aquila X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493538
+LOCATION:De Beemden\, Sportlaan 14\, 9781CL BEDUM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493534@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261219T154500
+DURATION:PT2H
+SUMMARY:Bedum Blues X12-2 - BV Groningen X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493534
 LOCATION:De Beemden\, Sportlaan 14\, 9781CL BEDUM
 STATUS:CONFIRMED
 END:VEVENT

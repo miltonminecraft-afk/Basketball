@@ -38,16 +38,6 @@ LOCATION:Sosefhal\, Strijphorst 1\, 2675WN HONSELERSDIJK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-498174@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261010T133000
-DURATION:PT2H
-SUMMARY:BV Squirrels V16-1 - Westland Stars V16-1
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498174
-LOCATION:Sporthal Oostmeer\, Het Hoge Land 19\, 2652EA BERKEL EN RODENRIJS
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-498152@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T140000
@@ -95,6 +85,16 @@ DURATION:PT2H
 SUMMARY:DAS V16-1 - Westland Stars V16-1
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498196
 LOCATION:Korba sporthal\, Schoemakerstraat 340\, 2629HP DELFT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498174@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T120000
+DURATION:PT2H
+SUMMARY:BV Squirrels V16-1 - Westland Stars V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498174
+LOCATION:Sporthal Oostmeer\, Het Hoge Land 19\, 2652EA BERKEL EN RODENRIJS
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

@@ -98,16 +98,6 @@ LOCATION:Aetsveld\, Mr.C. Kooimancentrum 17\, 1383ED WEESP
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-507918@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261129T093000
-DURATION:PT2H
-SUMMARY:Basketbalclub Weesp MSE-1 - De Dunckers MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507918
-LOCATION:Aetsveld\, Mr.C. Kooimancentrum 17\, 1383ED WEESP
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-507921@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261211T204500
@@ -205,16 +195,6 @@ DURATION:PT2H
 SUMMARY:Green Giants MSE-1 - Basketbalclub Weesp MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507979
 LOCATION:Korf De\, De Smidse 1\, 3831NT LEUSDEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-507980@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270403T144500
-DURATION:PT2H
-SUMMARY:De Dunckers MSE-2 - Basketbalclub Weesp MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507980
-LOCATION:Dudok Arena\, Arena 303\, 1213NW HILVERSUM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

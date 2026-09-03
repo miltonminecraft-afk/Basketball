@@ -18,16 +18,6 @@ LOCATION:Pica Mare 2\, Picardie 34\, 6591JE GENNEP
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-512599@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260927T114500
-DURATION:PT2H
-SUMMARY:Black Shots X10-1 - Gennep Cougars X10-1
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512599
-LOCATION:Veka-sportcentrum\, Deltaweg 201 -203\, 5709AB HELMOND
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-491638@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T093000
@@ -85,6 +75,16 @@ DURATION:PT2H
 SUMMARY:Gennep Cougars X10-1 - Yellow Sox X10-1
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512601
 LOCATION:Pica Mare 2\, Picardie 34\, 6591JE GENNEP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-512599@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261231T000000
+DURATION:PT2H
+SUMMARY:Black Shots X10-1 - Gennep Cougars X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512599
+LOCATION:Veka-sportcentrum\, Deltaweg 201 -203\, 5709AB HELMOND
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR

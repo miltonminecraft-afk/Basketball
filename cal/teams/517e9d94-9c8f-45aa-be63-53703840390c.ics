@@ -28,16 +28,6 @@ LOCATION:Tarthorst\, Tarthorst 152\, 6708JD WAGENINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-493324@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260927T110000
-DURATION:PT2H
-SUMMARY:Nimma Gemina X12-2 - B.V. Batouwe X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493324
-LOCATION:Ark van Oost\, Cipresstraat 154\, 6523HR NIJMEGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-493328@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T110000
@@ -55,16 +45,6 @@ DURATION:PT2H
 SUMMARY:OBC X12-1 - Nimma Gemina X12-2
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493330
 LOCATION:De Ruivert\, de Ruivert 3\, 5342CM OSS
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-493333@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T130000
-DURATION:PT2H
-SUMMARY:B.V. Batouwe X12-2 - Nimma Gemina X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493333
-LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

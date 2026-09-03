@@ -58,6 +58,16 @@ LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-497791@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261025T143000
+DURATION:PT2H
+SUMMARY:Basketbal Academie Limburg X14-2 - Springfield '75 X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497791
+LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-497761@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T150000
@@ -105,16 +115,6 @@ DURATION:PT2H
 SUMMARY:BC Titans X14-2 - Basketbal Academie Limburg X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497789
 LOCATION:Sporthal Vie\, Vieboulevard 21\, 6461ND KERKRADE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-497791@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T113000
-DURATION:PT2H
-SUMMARY:Basketbal Academie Limburg X14-2 - Springfield '75 X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497791
-LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR

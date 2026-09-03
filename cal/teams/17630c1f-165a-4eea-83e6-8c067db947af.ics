@@ -58,16 +58,6 @@ LOCATION:De Ruivert\, de Ruivert 3\, 5342CM OSS
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-493327@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T131500
-DURATION:PT2H
-SUMMARY:B.V. Batouwe X12-2 - OBC X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493327
-LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-493330@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T110000
@@ -95,16 +85,6 @@ DURATION:PT2H
 SUMMARY:Nimma Gemina X12-2 - OBC X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493337
 LOCATION:Ark van Oost\, Cipresstraat 154\, 6523HR NIJMEGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-493339@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T093000
-DURATION:PT2H
-SUMMARY:OBC X12-1 - B.V. Batouwe X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493339
-LOCATION:De Ruivert\, de Ruivert 3\, 5342CM OSS
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

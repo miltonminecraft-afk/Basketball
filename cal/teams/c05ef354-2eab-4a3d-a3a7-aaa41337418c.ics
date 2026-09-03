@@ -78,16 +78,6 @@ LOCATION:Aetsveld\, Mr.C. Kooimancentrum 17\, 1383ED WEESP
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-507904@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T183000
-DURATION:PT2H
-SUMMARY:De Snipers MSE-2 - De Dunckers MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507904
-LOCATION:Het Baken\, Horsterweg 25\, 3891EV ZEEWOLDE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-507910@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261120T190000
@@ -175,16 +165,6 @@ DURATION:PT2H
 SUMMARY:De Snipers MSE-2 - Basketbalclub Weesp MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507964
 LOCATION:Het Baken\, Horsterweg 25\, 3891EV ZEEWOLDE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-507969@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270313T144500
-DURATION:PT2H
-SUMMARY:De Dunckers MSE-2 - De Snipers MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507969
-LOCATION:Dudok Arena\, Arena 303\, 1213NW HILVERSUM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

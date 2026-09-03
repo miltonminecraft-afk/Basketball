@@ -48,16 +48,6 @@ LOCATION:Sportcentrum Universum\, Science Park 306\, 1098XH AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-507887@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261024T144500
-DURATION:PT2H
-SUMMARY:De Dunckers MSE-2 - BC Schrobbelaar MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507887
-LOCATION:Dudok Arena\, Arena 303\, 1213NW HILVERSUM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-507894@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T140000
@@ -155,16 +145,6 @@ DURATION:PT2H
 SUMMARY:Basketbalclub Weesp MSE-1 - BC Schrobbelaar MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507946
 LOCATION:Aetsveld\, Mr.C. Kooimancentrum 17\, 1383ED WEESP
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-507954@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270206T160000
-DURATION:PT2H
-SUMMARY:BC Schrobbelaar MSE-2 - De Dunckers MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507954
-LOCATION:Sportcentrum Universum\, Science Park 306\, 1098XH AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
