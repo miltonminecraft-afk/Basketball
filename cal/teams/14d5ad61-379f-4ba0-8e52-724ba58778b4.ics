@@ -117,14 +117,4 @@ DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Plann
 LOCATION:De Weeren\, Beemsterstraat 656\, 1027ED AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-514169@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270501T120000
-DURATION:PT2H
-SUMMARY:VBC Akrides M18-1 8 - 8 VBC Akrides M18-2
-DESCRIPTION:Status: Planned\nUitslag: 8 - 8\nFOYS wedstrijd-ID: 514169
-LOCATION:Sporthal IJmuiden-Oost\, Tiberiusplein 6\, 1971HN IJMUIDEN
-STATUS:CONFIRMED
-END:VEVENT
 END:VCALENDAR

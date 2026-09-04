@@ -48,16 +48,6 @@ LOCATION:Proosdijhal\, Edisonstraat 6\, 1433KA KUDELSTAART
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-506710@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T130000
-DURATION:PT2H
-SUMMARY:BV Aalsmeer MSE-1 - Amsterdam Warriors MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506710
-LOCATION:Proosdijhal\, Edisonstraat 6\, 1433KA KUDELSTAART
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-506715@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T114500
@@ -135,16 +125,6 @@ DURATION:PT2H
 SUMMARY:BV Aalsmeer MSE-1 - Novo Stars MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506762
 LOCATION:Proosdijhal\, Edisonstraat 6\, 1433KA KUDELSTAART
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-506774@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270213T180000
-DURATION:PT2H
-SUMMARY:Amsterdam Warriors MSE-1 - BV Aalsmeer MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506774
-LOCATION:Bijlmer Sportcentrum\, Anton de Komplein 157\, 1102DR AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

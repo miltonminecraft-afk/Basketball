@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Basketball Agenda//NL
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Twente Hoops M16-1
+X-WR-CALNAME:Felloo | Twente Hoops M16-1
 X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
@@ -12,7 +12,7 @@ UID:foys-match-495481@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T160000
 DURATION:PT2H
-SUMMARY:Basketbal Academie Limburg M16-1 - Twente Hoops M16-1
+SUMMARY:Basketbal Academie Limburg M16-1 - Felloo | Twente Hoops M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495481
 LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
 STATUS:CONFIRMED
@@ -22,7 +22,7 @@ UID:foys-match-495425@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260920T130000
 DURATION:PT2H
-SUMMARY:Twente Hoops M16-1 - Basketball Academy Utrecht M16-2 M16-2
+SUMMARY:Felloo | Twente Hoops M16-1 - Basketball Academy Utrecht M16-2 M16-2
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495425
 LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
 STATUS:CONFIRMED
@@ -32,7 +32,7 @@ UID:foys-match-495429@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T153000
 DURATION:PT2H
-SUMMARY:De Dunckers M16-1 - Twente Hoops M16-1
+SUMMARY:De Dunckers M16-1 - Felloo | Twente Hoops M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495429
 LOCATION:Dudok Arena\, Arena 303\, 1213NW HILVERSUM
 STATUS:CONFIRMED
@@ -42,7 +42,7 @@ UID:foys-match-495433@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T160000
 DURATION:PT2H
-SUMMARY:Twente Hoops M16-1 - Landstede Hammers M16-1
+SUMMARY:Felloo | Twente Hoops M16-1 - Landstede Hammers M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495433
 LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
 STATUS:CONFIRMED
@@ -52,7 +52,7 @@ UID:foys-match-495436@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261025T144500
 DURATION:PT2H
-SUMMARY:BV Groningen M16-1 - Twente Hoops M16-1
+SUMMARY:BV Groningen M16-1 - Felloo | Twente Hoops M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495436
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
@@ -62,7 +62,7 @@ UID:foys-match-495441@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261101T120000
 DURATION:PT2H
-SUMMARY:Twente Hoops M16-1 - Dukes Unlimited M16-2
+SUMMARY:Felloo | Twente Hoops M16-1 - Heroes Den Bosch M16-2
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495441
 LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
 STATUS:CONFIRMED
@@ -72,7 +72,7 @@ UID:foys-match-495444@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T140000
 DURATION:PT2H
-SUMMARY:Twente Hoops M16-1 - BS Leiden M16-2
+SUMMARY:Felloo | Twente Hoops M16-1 - BS Leiden M16-2
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495444
 LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
 STATUS:CONFIRMED
@@ -82,7 +82,7 @@ UID:foys-match-495448@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T000000
 DURATION:PT2H
-SUMMARY:BV Hoofddorp M16-1 - Twente Hoops M16-1
+SUMMARY:BV Hoofddorp M16-1 - Felloo | Twente Hoops M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495448
 LOCATION:Sportcomplex Koning Willem-Alexander\, Bennebroekerweg 800\, 2134AB HOOFDDORP
 STATUS:CONFIRMED
@@ -92,7 +92,7 @@ UID:foys-match-495489@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T140000
 DURATION:PT2H
-SUMMARY:Twente Hoops M16-1 - HBV The Jumpers M16-1
+SUMMARY:Felloo | Twente Hoops M16-1 - HBV The Jumpers M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495489
 LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
 STATUS:CONFIRMED
@@ -102,7 +102,7 @@ UID:foys-match-495497@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T113000
 DURATION:PT2H
-SUMMARY:High Five M16-1 - Twente Hoops M16-1
+SUMMARY:High Five M16-1 - Felloo | Twente Hoops M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495497
 LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
 STATUS:CONFIRMED
@@ -112,7 +112,7 @@ UID:foys-match-495454@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T190000
 DURATION:PT2H
-SUMMARY:Basketball Academy Utrecht M16-2 M16-2 - Twente Hoops M16-1
+SUMMARY:Basketball Academy Utrecht M16-2 M16-2 - Felloo | Twente Hoops M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495454
 LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
@@ -122,7 +122,7 @@ UID:foys-match-495505@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270110T130000
 DURATION:PT2H
-SUMMARY:Twente Hoops M16-1 - BV Noordkop M16-1
+SUMMARY:Felloo | Twente Hoops M16-1 - BV Noordkop M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495505
 LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
 STATUS:CONFIRMED
@@ -132,7 +132,7 @@ UID:foys-match-495457@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270117T130000
 DURATION:PT2H
-SUMMARY:Twente Hoops M16-1 - De Dunckers M16-1
+SUMMARY:Felloo | Twente Hoops M16-1 - De Dunckers M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495457
 LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
 STATUS:CONFIRMED
@@ -142,7 +142,7 @@ UID:foys-match-495461@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270124T143000
 DURATION:PT2H
-SUMMARY:Landstede Hammers M16-1 - Twente Hoops M16-1
+SUMMARY:Landstede Hammers M16-1 - Felloo | Twente Hoops M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495461
 LOCATION:Het Victorium\, Hogeland 10\, 8024AZ ZWOLLE
 STATUS:CONFIRMED
@@ -152,7 +152,7 @@ UID:foys-match-495513@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270131T140000
 DURATION:PT2H
-SUMMARY:BC Triple ThreaT M16-2 - Twente Hoops M16-1
+SUMMARY:BC Triple ThreaT M16-2 - Felloo | Twente Hoops M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495513
 LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
 STATUS:CONFIRMED
@@ -162,7 +162,7 @@ UID:foys-match-495521@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270207T110000
 DURATION:PT2H
-SUMMARY:Twente Hoops M16-1 - MBCA A'veen M16-2
+SUMMARY:Felloo | Twente Hoops M16-1 - MBCA A'veen M16-2
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495521
 LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
 STATUS:CONFIRMED
@@ -172,7 +172,7 @@ UID:foys-match-495465@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270214T130000
 DURATION:PT2H
-SUMMARY:Twente Hoops M16-1 - BV Groningen M16-1
+SUMMARY:Felloo | Twente Hoops M16-1 - BV Groningen M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495465
 LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
 STATUS:CONFIRMED
@@ -182,7 +182,7 @@ UID:foys-match-495529@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270306T153000
 DURATION:PT2H
-SUMMARY:Northside Ballers Amsterdam M16-1 - Twente Hoops M16-1
+SUMMARY:Northside Ballers Amsterdam M16-1 - Felloo | Twente Hoops M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495529
 LOCATION:De Weeren\, Beemsterstraat 656\, 1027ED AMSTERDAM
 STATUS:CONFIRMED
@@ -192,7 +192,7 @@ UID:foys-match-495468@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270314T140000
 DURATION:PT2H
-SUMMARY:Dukes Unlimited M16-2 - Twente Hoops M16-1
+SUMMARY:Heroes Den Bosch M16-2 - Felloo | Twente Hoops M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495468
 LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
@@ -202,7 +202,7 @@ UID:foys-match-495475@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270320T143000
 DURATION:PT2H
-SUMMARY:BS Leiden M16-2 - Twente Hoops M16-1
+SUMMARY:BS Leiden M16-2 - Felloo | Twente Hoops M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495475
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
@@ -212,7 +212,7 @@ UID:foys-match-495537@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270404T120000
 DURATION:PT2H
-SUMMARY:Twente Hoops M16-1 - Marathon M16-1
+SUMMARY:Felloo | Twente Hoops M16-1 - Marathon M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495537
 LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
 STATUS:CONFIRMED
@@ -222,7 +222,7 @@ UID:foys-match-495476@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270411T110000
 DURATION:PT2H
-SUMMARY:Twente Hoops M16-1 - BV Hoofddorp M16-1
+SUMMARY:Felloo | Twente Hoops M16-1 - BV Hoofddorp M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495476
 LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
 STATUS:CONFIRMED

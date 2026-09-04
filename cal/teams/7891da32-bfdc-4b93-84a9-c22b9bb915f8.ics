@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Basketball Agenda//NL
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Dukes Unlimited M14-1
+X-WR-CALNAME:Heroes Den Bosch M14-1
 X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
@@ -12,7 +12,7 @@ UID:foys-match-515271@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260905T100000
 DURATION:PT2H
-SUMMARY:Basketball Academy Utrecht M14-1 M14-1 - Dukes Unlimited M14-1
+SUMMARY:Basketball Academy Utrecht M14-1 M14-1 - Heroes Den Bosch M14-1
 DESCRIPTION:Status: Planned\nFOYS wedstrijd-ID: 515271
 LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
@@ -22,7 +22,7 @@ UID:foys-match-492437@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T100000
 DURATION:PT2H
-SUMMARY:Basketball Academy Utrecht M14-1 M14-1 - Dukes Unlimited M14-1
+SUMMARY:Basketball Academy Utrecht M14-1 M14-1 - Heroes Den Bosch M14-1
 DESCRIPTION:Mannen U14 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 492437
 LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
@@ -30,9 +30,9 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-492451@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260927T110000
+DTSTART;TZID=Europe/Amsterdam:20260927T160000
 DURATION:PT2H
-SUMMARY:Landstede Hammers M14-1 - Dukes Unlimited M14-1
+SUMMARY:Landstede Hammers M14-1 - Heroes Den Bosch M14-1
 DESCRIPTION:Mannen U14 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 492451
 LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
 STATUS:CONFIRMED
@@ -42,7 +42,7 @@ UID:foys-match-492464@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261011T133000
 DURATION:PT2H
-SUMMARY:Rotterdam Basketbal M14-1 - Dukes Unlimited M14-1
+SUMMARY:Rotterdam Basketbal M14-1 - Heroes Den Bosch M14-1
 DESCRIPTION:Mannen U14 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 492464
 LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
 STATUS:CONFIRMED
@@ -52,7 +52,7 @@ UID:foys-match-492455@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261025T140000
 DURATION:PT2H
-SUMMARY:Dukes Unlimited M14-1 - Lokomotief M14-1
+SUMMARY:Heroes Den Bosch M14-1 - Lokomotief M14-1
 DESCRIPTION:Mannen U14 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 492455
 LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
@@ -62,7 +62,7 @@ UID:foys-match-492470@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T124500
 DURATION:PT2H
-SUMMARY:Celeritas-Donar M14-1 - Dukes Unlimited M14-1
+SUMMARY:Celeritas-Donar M14-1 - Heroes Den Bosch M14-1
 DESCRIPTION:Mannen U14 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 492470
 LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
 STATUS:CONFIRMED
@@ -72,7 +72,7 @@ UID:foys-match-492476@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T140000
 DURATION:PT2H
-SUMMARY:Dukes Unlimited M14-1 - Amsterdam Warriors M14-1
+SUMMARY:Heroes Den Bosch M14-1 - Amsterdam Warriors M14-1
 DESCRIPTION:Mannen U14 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 492476
 LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
@@ -82,7 +82,7 @@ UID:foys-match-492481@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261115T160000
 DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam M14-1 - Dukes Unlimited M14-1
+SUMMARY:BC APOLLO Amsterdam M14-1 - Heroes Den Bosch M14-1
 DESCRIPTION:Mannen U14 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 492481
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
@@ -92,7 +92,7 @@ UID:foys-match-492487@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T130000
 DURATION:PT2H
-SUMMARY:Dukes Unlimited M14-1 - BC Triple ThreaT M14-1
+SUMMARY:Heroes Den Bosch M14-1 - BC Triple ThreaT M14-1
 DESCRIPTION:Mannen U14 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 492487
 LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
@@ -102,7 +102,7 @@ UID:foys-match-492490@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T170000
 DURATION:PT2H
-SUMMARY:MBCA A'veen M14-1 - Dukes Unlimited M14-1
+SUMMARY:MBCA A'veen M14-1 - Heroes Den Bosch M14-1
 DESCRIPTION:Mannen U14 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 492490
 LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
 STATUS:CONFIRMED
@@ -112,7 +112,7 @@ UID:foys-match-492444@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261206T130000
 DURATION:PT2H
-SUMMARY:Dukes Unlimited M14-1 - BS Leiden M14-1
+SUMMARY:Heroes Den Bosch M14-1 - Zorg en Zekerheid M14-1
 DESCRIPTION:Mannen U14 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 492444
 LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
@@ -122,7 +122,7 @@ UID:foys-match-492498@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261213T110000
 DURATION:PT2H
-SUMMARY:Dukes Unlimited M14-1 - HBV The Jumpers M14-1
+SUMMARY:Heroes Den Bosch M14-1 - HBV The Jumpers M14-1
 DESCRIPTION:Mannen U14 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 492498
 LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
 STATUS:CONFIRMED

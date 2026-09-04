@@ -8,6 +8,16 @@ X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:foys-match-516575@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260905T173000
+DURATION:PT2H
+SUMMARY:Dyna '75 M22-1 - BV Penta MSE-1
+DESCRIPTION:Status: Planned\nFOYS wedstrijd-ID: 516575
+LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-512255@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T190000
@@ -62,7 +72,7 @@ UID:foys-match-512275@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T120000
 DURATION:PT2H
-SUMMARY:Twente Hoops M22-1 - Dyna '75 M22-1
+SUMMARY:Felloo | Twente Hoops M22-1 - Dyna '75 M22-1
 DESCRIPTION:Mannen U22 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512275
 LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
 STATUS:CONFIRMED
@@ -192,7 +202,7 @@ UID:foys-match-512306@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270320T151500
 DURATION:PT2H
-SUMMARY:Dyna '75 M22-1 - Twente Hoops M22-1
+SUMMARY:Dyna '75 M22-1 - Felloo | Twente Hoops M22-1
 DESCRIPTION:Mannen U22 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512306
 LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
 STATUS:CONFIRMED

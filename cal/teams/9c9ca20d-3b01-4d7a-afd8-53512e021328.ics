@@ -107,14 +107,4 @@ DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Plan
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-496077@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261213T110000
-DURATION:PT2H
-SUMMARY:Landslake Lions X14-1 - Amsterdam Warriors X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496077
-LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
-STATUS:CONFIRMED
-END:VEVENT
 END:VCALENDAR

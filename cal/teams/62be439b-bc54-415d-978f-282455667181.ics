@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Basketball Agenda//NL
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Dukes Unlimited M19-1
+X-WR-CALNAME:Heroes Den Bosch M19-1
 X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
@@ -12,7 +12,7 @@ UID:foys-match-515225@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260907T200000
 DURATION:PT2H
-SUMMARY:Dukes Unlimited M19-1 - GET United M19-1
+SUMMARY:Heroes Den Bosch M19-1 - GET United M19-1
 DESCRIPTION:Status: Planned\nFOYS wedstrijd-ID: 515225
 LOCATION:De Maaspoort\, Marathonloop 1\, 5235AA 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
@@ -22,7 +22,7 @@ UID:foys-match-505557@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T133000
 DURATION:PT2H
-SUMMARY:Landstede Hammers M19-1 - Dukes Unlimited M19-1
+SUMMARY:Landstede Hammers M19-1 - Heroes Den Bosch M19-1
 DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505557
 LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
 STATUS:CONFIRMED
@@ -32,7 +32,7 @@ UID:foys-match-505568@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260920T130000
 DURATION:PT2H
-SUMMARY:Dukes Unlimited M19-1 - Basketbal Academie Limburg M19-1
+SUMMARY:Heroes Den Bosch M19-1 - Basketbal Academie Limburg M19-1
 DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505568
 LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
@@ -42,7 +42,7 @@ UID:foys-match-505571@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260927T163000
 DURATION:PT2H
-SUMMARY:BS Leiden M19-1 - Dukes Unlimited M19-1
+SUMMARY:Zorg en Zekerheid M19-1 - Heroes Den Bosch M19-1
 DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505571
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
@@ -52,7 +52,7 @@ UID:foys-match-505579@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T171500
 DURATION:PT2H
-SUMMARY:Dukes Unlimited M19-1 - Basketball Academy Utrecht M19-1 M19-1
+SUMMARY:Heroes Den Bosch M19-1 - Basketball Academy Utrecht M19-1 M19-1
 DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505579
 LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
@@ -62,7 +62,7 @@ UID:foys-match-505584@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261011T173000
 DURATION:PT2H
-SUMMARY:Rotterdam Basketbal M19-1 - Dukes Unlimited M19-1
+SUMMARY:Rotterdam Basketbal M19-1 - Heroes Den Bosch M19-1
 DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505584
 LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
 STATUS:CONFIRMED
@@ -72,7 +72,7 @@ UID:foys-match-505591@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261101T140000
 DURATION:PT2H
-SUMMARY:Dukes Unlimited M19-1 - GET United M19-1
+SUMMARY:Heroes Den Bosch M19-1 - GET United M19-1
 DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505591
 LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
@@ -82,7 +82,7 @@ UID:foys-match-505597@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T174500
 DURATION:PT2H
-SUMMARY:Lokomotief M19-1 - Dukes Unlimited M19-1
+SUMMARY:Lokomotief M19-1 - Heroes Den Bosch M19-1
 DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505597
 LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
 STATUS:CONFIRMED
@@ -92,7 +92,7 @@ UID:foys-match-505603@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261115T130000
 DURATION:PT2H
-SUMMARY:Dukes Unlimited M19-1 - BC APOLLO Amsterdam M19-1
+SUMMARY:Heroes Den Bosch M19-1 - BC APOLLO Amsterdam M19-1
 DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505603
 LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
@@ -102,7 +102,7 @@ UID:foys-match-505610@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T160000
 DURATION:PT2H
-SUMMARY:Donar Groningen M19-1 - Dukes Unlimited M19-1
+SUMMARY:Donar Groningen M19-1 - Heroes Den Bosch M19-1
 DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505610
 LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
 STATUS:CONFIRMED
@@ -112,7 +112,7 @@ UID:foys-match-505616@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T170000
 DURATION:PT2H
-SUMMARY:Landslake Lions M19-1 - Dukes Unlimited M19-1
+SUMMARY:Landslake Lions M19-1 - Heroes Den Bosch M19-1
 DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505616
 LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
 STATUS:CONFIRMED
@@ -122,7 +122,7 @@ UID:foys-match-505622@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261213T150000
 DURATION:PT2H
-SUMMARY:Dukes Unlimited M19-1 - MBCA A'veen M19-1
+SUMMARY:Heroes Den Bosch M19-1 - MBCA A'veen M19-1
 DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505622
 LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
