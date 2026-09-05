@@ -28,16 +28,6 @@ LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-498509@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261004T100000
-DURATION:PT2H
-SUMMARY:JRC V16-1 - Attacus V16-1
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498509
-LOCATION:De Braken\, De Braken 1 a\, 5282JJ BOXTEL
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-498516@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T170000
@@ -75,6 +65,16 @@ DURATION:PT2H
 SUMMARY:Attacus V16-1 - Achilles '71 V16-1
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498536
 LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498509@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T134500
+DURATION:PT2H
+SUMMARY:JRC V16-1 - Attacus V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498509
+LOCATION:De Braken\, De Braken 1 a\, 5282JJ BOXTEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
