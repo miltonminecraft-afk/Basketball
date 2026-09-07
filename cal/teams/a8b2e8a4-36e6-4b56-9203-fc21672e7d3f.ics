@@ -8,16 +8,6 @@ X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:foys-match-505250@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260912T121500
-DURATION:PT2H
-SUMMARY:HBV Hornets VSE-1 - De Groene Uilen VSE-4
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505250
-LOCATION:De Hege Fiif\, Van Helsdingenstraat 6\, 9254CE HURDEGARYP
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-505254@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T120000
@@ -35,6 +25,16 @@ DURATION:PT2H
 SUMMARY:De Groene Uilen VSE-4 - BV Groningen VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505258
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505250@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261001T203000
+DURATION:PT2H
+SUMMARY:HBV Hornets VSE-1 - De Groene Uilen VSE-4
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505250
+LOCATION:De Hege Fiif\, Van Helsdingenstraat 6\, 9254CE HURDEGARYP
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

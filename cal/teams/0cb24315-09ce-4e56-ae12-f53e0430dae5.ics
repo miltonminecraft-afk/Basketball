@@ -48,16 +48,6 @@ LOCATION:Sporthal Lunetten\, Zwarte Woud 201\, 3524SG UTRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-510289@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261011T120000
-DURATION:PT2H
-SUMMARY:Utrecht Basketball - MSE-3 MSE-2 - BC Utrecht Cangeroes MSE-5
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510289
-LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-510295@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T181500
@@ -155,16 +145,6 @@ DURATION:PT2H
 SUMMARY:Utrecht Basketball - MSE-2 MSE-1 - BC Utrecht Cangeroes MSE-5
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510348
 LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-510352@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270207T130000
-DURATION:PT2H
-SUMMARY:BC Utrecht Cangeroes MSE-5 - Utrecht Basketball - MSE-3 MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510352
-LOCATION:Sporthal Lunetten\, Zwarte Woud 201\, 3524SG UTRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

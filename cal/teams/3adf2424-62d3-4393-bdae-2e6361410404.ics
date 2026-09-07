@@ -8,16 +8,6 @@ X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:foys-match-503808@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260912T203000
-DURATION:PT2H
-SUMMARY:Utrecht Bull's VSE-2 - CobraNova VSE-2
-DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503808
-LOCATION:Galgenwaard\, Herculesplein 341\, 3584AA UTRECHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-503816@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260918T210000
@@ -115,6 +105,16 @@ DURATION:PT2H
 SUMMARY:Punch VSE-1 - Utrecht Bull's VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503868
 LOCATION:Sportcentr.TU Delft\, Mekelweg 8\, 2628CD DELFT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503808@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261219T143000
+DURATION:PT2H
+SUMMARY:Utrecht Bull's VSE-2 - CobraNova VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503808
+LOCATION:Galgenwaard\, Herculesplein 341\, 3584AA UTRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

@@ -108,16 +108,6 @@ LOCATION:Galgenwaard\, Herculesplein 341\, 3584AA UTRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-510322@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T210000
-DURATION:PT2H
-SUMMARY:Utrecht Basketball - MSE-3 MSE-2 - UBV "The Eagles" MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510322
-LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-510329@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270110T130000
@@ -215,16 +205,6 @@ DURATION:PT2H
 SUMMARY:Utrecht Basketball - MSE-2 MSE-1 - UBV "The Eagles" MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510381
 LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-510389@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270410T183000
-DURATION:PT2H
-SUMMARY:UBV "The Eagles" MSE-2 - Utrecht Basketball - MSE-3 MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510389
-LOCATION:Galgenwaard\, Herculesplein 341\, 3584AA UTRECHT
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR

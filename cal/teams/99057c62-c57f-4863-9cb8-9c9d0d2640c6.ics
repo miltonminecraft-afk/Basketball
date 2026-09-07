@@ -18,16 +18,6 @@ LOCATION:De Weeren\, Beemsterstraat 656\, 1027ED AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-504903@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260920T160000
-DURATION:PT2H
-SUMMARY:Dozy BV Den Helder VSE-2 - U.S. VSE-6
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504903
-LOCATION:Sportcentrum Quelderduijn\, Schootenweg 2\, 1785LV DEN HELDER
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-504975@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T110000
@@ -125,16 +115,6 @@ DURATION:PT2H
 SUMMARY:Dozy BV Den Helder VSE-2 - Northside Ballers Amsterdam VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504963
 LOCATION:Sportcentrum Quelderduijn\, Schootenweg 2\, 1785LV DEN HELDER
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-504973@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270117T150000
-DURATION:PT2H
-SUMMARY:U.S. VSE-6 - Dozy BV Den Helder VSE-2
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504973
-LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

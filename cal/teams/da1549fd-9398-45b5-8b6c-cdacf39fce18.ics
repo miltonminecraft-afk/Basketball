@@ -78,16 +78,6 @@ LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-504943@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261115T110000
-DURATION:PT2H
-SUMMARY:U.S. VSE-6 - BC APOLLO Amsterdam VSE-2
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504943
-LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-504949@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T180000
@@ -184,16 +174,6 @@ DTSTART;TZID=Europe/Amsterdam:20270306T180000
 DURATION:PT2H
 SUMMARY:BC APOLLO Amsterdam VSE-2 - Landslake Lions VSE-3
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505001
-LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-505009@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270313T180000
-DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam VSE-2 - U.S. VSE-6
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505009
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT

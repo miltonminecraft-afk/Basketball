@@ -58,16 +58,6 @@ LOCATION:Sportcentrum Quelderduijn\, Schootenweg 2\, 1785LV DEN HELDER
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-504920@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261024T150000
-DURATION:PT2H
-SUMMARY:Harlemlakers VSE-1 - U.S. VSE-6
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504920
-LOCATION:Calandhal Hal 1\, Eliza van Calcarstraat 2\, 1068RR AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-504928@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T160000
@@ -155,16 +145,6 @@ DURATION:PT2H
 SUMMARY:Harlemlakers VSE-1 - U.S. VSE-5
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504980
 LOCATION:Calandhal Hal 1\, Eliza van Calcarstraat 2\, 1068RR AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-504991@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270207T150000
-DURATION:PT2H
-SUMMARY:U.S. VSE-6 - Harlemlakers VSE-1
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504991
-LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

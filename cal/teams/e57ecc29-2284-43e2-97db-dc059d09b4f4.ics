@@ -78,16 +78,6 @@ LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-510302@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T183000
-DURATION:PT2H
-SUMMARY:Woodpeckers MSE-3 - Utrecht Basketball - MSE-3 MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510302
-LOCATION:De Slinger\, Kamillehof 24\, 3991GZ HOUTEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-510312@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T130000
@@ -185,16 +175,6 @@ DURATION:PT2H
 SUMMARY:Woodpeckers MSE-3 - Utrecht Basketball - MSE-2 MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510362
 LOCATION:De Slinger\, Kamillehof 24\, 3991GZ HOUTEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-510371@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270313T000000
-DURATION:PT2H
-SUMMARY:Utrecht Basketball - MSE-3 MSE-2 - Woodpeckers MSE-3
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510371
-LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

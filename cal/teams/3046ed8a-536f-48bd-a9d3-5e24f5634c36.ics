@@ -28,16 +28,6 @@ LOCATION:Bibian Mentel Sporthal\, Foekje Dillemastraat 118\, 1095 MK Amsterdam
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-504908@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260927T150000
-DURATION:PT2H
-SUMMARY:U.S. VSE-5 - U.S. VSE-6
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504908
-LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-504915@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T150000
@@ -134,16 +124,6 @@ DTSTART;TZID=Europe/Amsterdam:20270117T110000
 DURATION:PT2H
 SUMMARY:U.S. VSE-5 - BV Amsterdam VSE-4
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504968
-LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-504979@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270124T151500
-DURATION:PT2H
-SUMMARY:U.S. VSE-6 - U.S. VSE-5
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504979
 LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT

@@ -8,16 +8,6 @@ X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:foys-match-510263@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260912T163000
-DURATION:PT2H
-SUMMARY:Utrecht Bull's MSE-5 - Utrecht Basketball - MSE-3 MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510263
-LOCATION:Galgenwaard\, Herculesplein 341\, 3584AA UTRECHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-510269@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T190000
@@ -114,16 +104,6 @@ DTSTART;TZID=Europe/Amsterdam:20261213T120000
 DURATION:PT2H
 SUMMARY:Utrecht Basketball - MSE-2 MSE-1 - Utrecht Bull's MSE-5
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510321
-LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-510328@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270109T000000
-DURATION:PT2H
-SUMMARY:Utrecht Basketball - MSE-3 MSE-2 - Utrecht Bull's MSE-5
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510328
 LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT

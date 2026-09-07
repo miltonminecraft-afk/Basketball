@@ -18,16 +18,6 @@ LOCATION:Sporthal  Wolfskamer\, IJsselmeerstraat 3 D\, 1271AA HUIZEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-504660@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260918T190000
-DURATION:PT2H
-SUMMARY:S.B.U. VSE-4 - Quick Runners VSE-1
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504660
-LOCATION:Sportcentrum Olympos\, Uppsalalaan 3\, 3584CT UTRECHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-504666@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T160000
@@ -125,16 +115,6 @@ DURATION:PT2H
 SUMMARY:Tower Jumpers VSE-1 - Quick Runners VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504725
 LOCATION:Oosterboshal\, Wethouder Rebellaan 138\, 3771KA BARNEVELD
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-504726@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270116T160000
-DURATION:PT2H
-SUMMARY:Quick Runners VSE-1 - S.B.U. VSE-4
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504726
-LOCATION:Sporthal  Wolfskamer\, IJsselmeerstraat 3 D\, 1271AA HUIZEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

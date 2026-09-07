@@ -38,16 +38,6 @@ LOCATION:Vredehof\, Vredehofstraat 5\, 1624XC HOORN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-504919@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261004T170000
-DURATION:PT2H
-SUMMARY:U.S. VSE-6 - De Hoppers VSE-1
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504919
-LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-504925@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T143000
@@ -145,16 +135,6 @@ DURATION:PT2H
 SUMMARY:Dozy BV Den Helder VSE-2 - De Hoppers VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504913
 LOCATION:Sportcentrum Quelderduijn\, Schootenweg 2\, 1785LV DEN HELDER
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-504985@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270130T124500
-DURATION:PT2H
-SUMMARY:De Hoppers VSE-1 - U.S. VSE-6
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504985
-LOCATION:Vredehof\, Vredehofstraat 5\, 1624XC HOORN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

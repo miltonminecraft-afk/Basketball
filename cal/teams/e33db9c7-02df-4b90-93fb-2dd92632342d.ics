@@ -107,14 +107,4 @@ DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Plann
 LOCATION:De Beuk\, Beukenlaan 4\, 4731CG OUDENBOSCH
 STATUS:CONFIRMED
 END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-500607@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T160000
-DURATION:PT2H
-SUMMARY:BV Souburg M16-1 - Barons Breda Basketball M16-3
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500607
-LOCATION:Het Kroonjuweel\, Kroonjuweel 5\, 4388MD OOST-SOUBURG
-STATUS:CONFIRMED
-END:VEVENT
 END:VCALENDAR
