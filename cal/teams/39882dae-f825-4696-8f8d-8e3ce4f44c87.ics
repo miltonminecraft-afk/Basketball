@@ -28,16 +28,6 @@ LOCATION:De Stamper\, Schout Doddestraat 11\, 7671GT VRIEZENVEEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-498608@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260926T143000
-DURATION:PT2H
-SUMMARY:The Jugglers V16-3 - Peatminers V16-1
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498608
-LOCATION:Deppenbroek\, Rijnstraat 11\, 7523GD ENSCHEDE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-498624@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T180000
@@ -55,16 +45,6 @@ DURATION:PT2H
 SUMMARY:The Valley Bucketeers V16-1 - Peatminers V16-1
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498614
 LOCATION:Het Ravijn\, Piet Heinweg 18\, 7441GZ NIJVERDAL
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-498618@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T130000
-DURATION:PT2H
-SUMMARY:Peatminers V16-1 - The Jugglers V16-3
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498618
-LOCATION:De Stamper\, Schout Doddestraat 11\, 7671GT VRIEZENVEEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

@@ -88,6 +88,16 @@ LOCATION:Sportboulevard\, Fanny Blankers-Koenweg 10\, 3318AX DORDRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-499326@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261113T203000
+DURATION:PT2H
+SUMMARY:D.B.V. Rowic M16-1 - Klipperstars M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499326
+LOCATION:Sportboulevard\, Fanny Blankers-Koenweg 10\, 3318AX DORDRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-499310@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261115T151500
@@ -115,16 +125,6 @@ DURATION:PT2H
 SUMMARY:Rebound M16-1 - D.B.V. Rowic M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499324
 LOCATION:De Schenkel\, Schenkeltje 7 b\, 3295KK 'S-GRAVENDEEL
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-499326@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261205T134500
-DURATION:PT2H
-SUMMARY:D.B.V. Rowic M16-1 - Klipperstars M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499326
-LOCATION:Sportboulevard\, Fanny Blankers-Koenweg 10\, 3318AX DORDRECHT
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR

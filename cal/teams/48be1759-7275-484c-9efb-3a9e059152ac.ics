@@ -38,16 +38,6 @@ LOCATION:Noordhove\, Lijnbaan 311\, 2728AG ZOETERMEER
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-492844@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T110000
-DURATION:PT2H
-SUMMARY:Faith & Fire V12-1 - Zoebas V12-1
-DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492844
-LOCATION:Sporthal De Passie\, Maashaven Noordzijde 11\, 3072 AE Rotterdam
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-492848@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T110000
@@ -95,16 +85,6 @@ DURATION:PT2H
 SUMMARY:Zoebas V12-1 - CBV Binnenland V12-1
 DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492870
 LOCATION:Noordhove\, Lijnbaan 311\, 2728AG ZOETERMEER
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-492883@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T090000
-DURATION:PT2H
-SUMMARY:BV Alphia V12-2 - Zoebas V12-1
-DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492883
-LOCATION:Rijnstreekhal\, Dillenburg 1\, 2404EV ALPHEN AAN DEN RIJN
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
