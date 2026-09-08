@@ -58,6 +58,16 @@ LOCATION:Sporthal Lunetten\, Zwarte Woud 201\, 3524SG UTRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-494944@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T124500
+DURATION:PT2H
+SUMMARY:Blue Arrows X12-2 - Valley Vultures X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494944
+LOCATION:Hoenderdaal\, Hoendersteeg 7\, 3972NA DRIEBERGEN-RIJSENBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-494955@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T143000
@@ -85,16 +95,6 @@ DURATION:PT2H
 SUMMARY:BCE'78 X12-1 - Blue Arrows X12-2
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494941
 LOCATION:De Peppel\, Peppelensteeg 1 a\, 6715CV EDE GLD
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-494944@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T124500
-DURATION:PT2H
-SUMMARY:Blue Arrows X12-2 - Valley Vultures X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494944
-LOCATION:Hoenderdaal\, Hoendersteeg 7\, 3972NA DRIEBERGEN-RIJSENBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

@@ -58,16 +58,6 @@ LOCATION:De Bongerd\, Bornsesteeg 2\, 6708PE WAGENINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-505391@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T143000
-DURATION:PT2H
-SUMMARY:Trajanum VSE-3 - Arnhem Eagles VSE-2
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505391
-LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-505396@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261213T120000
@@ -185,16 +175,6 @@ DURATION:PT2H
 SUMMARY:Trajanum VSE-3 - Vido VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505379
 LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-505455@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270403T090000
-DURATION:PT2H
-SUMMARY:Arnhem Eagles VSE-2 - Trajanum VSE-3
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505455
-LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

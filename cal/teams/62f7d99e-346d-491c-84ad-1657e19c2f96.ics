@@ -18,16 +18,6 @@ LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-505351@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260926T123000
-DURATION:PT2H
-SUMMARY:Arnhem Eagles VSE-2 - Achilles '71 VSE-2
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505351
-LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-505357@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T121500
@@ -125,16 +115,6 @@ DURATION:PT2H
 SUMMARY:SBA Sphinx VSE-2 - Achilles '71 VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 516546
 LOCATION:De Bongerd\, Bornsesteeg 2\, 6708PE WAGENINGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-505413@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270124T120000
-DURATION:PT2H
-SUMMARY:Achilles '71 VSE-2 - Arnhem Eagles VSE-2
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505413
-LOCATION:De Klumper\, Papenhoef 2\, 5737BS LIESHOUT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
