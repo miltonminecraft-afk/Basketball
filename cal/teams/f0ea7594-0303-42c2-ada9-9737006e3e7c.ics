@@ -58,16 +58,6 @@ LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-512905@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261017T080000
-DURATION:PT2H
-SUMMARY:Lokomotief V21-1 - Basketbal Academie Limburg V21-1
-DESCRIPTION:Vrouwen U21 (Basketball Cup) - Groepsfase\nStatus: Planned\nFOYS wedstrijd-ID: 512905
-LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-506335@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261030T201500
@@ -128,12 +118,12 @@ LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-512907@basketball-agenda
+UID:foys-match-516784@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261219T080000
 DURATION:PT2H
 SUMMARY:Basketbal Academie Limburg V21-1 - Basketball Academy Utrecht V21-1 V21-1
-DESCRIPTION:Vrouwen U21 (Basketball Cup) - Groepsfase\nStatus: Planned\nFOYS wedstrijd-ID: 512907
+DESCRIPTION:Vrouwen U21 (Basketball Cup) - Groepsfase\nStatus: Planned\nFOYS wedstrijd-ID: 516784
 LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
 STATUS:CONFIRMED
 END:VEVENT

@@ -68,16 +68,6 @@ LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-512908@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261017T080000
-DURATION:PT2H
-SUMMARY:Den Helder Suns V21-1 - CBV Binnenland V21-1
-DESCRIPTION:Vrouwen U21 (Basketball Cup) - Groepsfase\nStatus: Planned\nFOYS wedstrijd-ID: 512908
-LOCATION:Sportcentrum Quelderduijn\, Schootenweg 2\, 1785LV DEN HELDER
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-506345@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T130000
@@ -138,12 +128,12 @@ LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-512910@basketball-agenda
+UID:foys-match-516785@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261219T080000
 DURATION:PT2H
 SUMMARY:CBV Binnenland V21-1 - Landstede Hammers V21-1
-DESCRIPTION:Vrouwen U21 (Basketball Cup) - Groepsfase\nStatus: Planned\nFOYS wedstrijd-ID: 512910
+DESCRIPTION:Vrouwen U21 (Basketball Cup) - Groepsfase\nStatus: Planned\nFOYS wedstrijd-ID: 516785
 LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
 STATUS:CONFIRMED
 END:VEVENT

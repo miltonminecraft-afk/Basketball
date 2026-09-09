@@ -8,16 +8,6 @@ X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:foys-match-513328@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260912T143000
-DURATION:PT2H
-SUMMARY:BV Amsterdam VSE-3 - U.S. VSE-3
-DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513328
-LOCATION:Bibian Mentel Sporthal\, Foekje Dillemastraat 118\, 1095 MK Amsterdam
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-513329@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T151500
@@ -115,6 +105,16 @@ DURATION:PT2H
 SUMMARY:BV Hoofddorp VSE-2 - BV Amsterdam VSE-3
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513338
 LOCATION:Sportcomplex Koning Willem-Alexander\, Bennebroekerweg 800\, 2134AB HOOFDDORP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513328@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261230T143000
+DURATION:PT2H
+SUMMARY:BV Amsterdam VSE-3 - U.S. VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513328
+LOCATION:Bibian Mentel Sporthal\, Foekje Dillemastraat 118\, 1095 MK Amsterdam
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

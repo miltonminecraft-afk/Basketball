@@ -108,16 +108,6 @@ LOCATION:Sporthal De Lijster\, Lijstersingel 20\, 2902JD CAPELLE AAN DEN IJSSEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-504179@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T170000
-DURATION:PT2H
-SUMMARY:Faith & Fire VSE-1 - Cady '73 VSE-2
-DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504179
-LOCATION:Sporthal De Passie\, Maashaven Noordzijde 11\, 3072 AE Rotterdam
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-504180@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270109T160000
@@ -215,16 +205,6 @@ DURATION:PT2H
 SUMMARY:CBV Binnenland VSE-3 - Cady '73 VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504238
 LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-504240@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270410T140000
-DURATION:PT2H
-SUMMARY:Cady '73 VSE-2 - Faith & Fire VSE-1
-DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504240
-LOCATION:Sporthal De Lijster\, Lijstersingel 20\, 2902JD CAPELLE AAN DEN IJSSEL
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR

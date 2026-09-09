@@ -38,16 +38,6 @@ LOCATION:Vliegende Vaart\, Vliegende Vaart 2\, 4537DH TERNEUZEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-504136@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T170000
-DURATION:PT2H
-SUMMARY:Faith & Fire VSE-1 - Scheldesport Basketball VSE-1
-DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504136
-LOCATION:Sporthal De Passie\, Maashaven Noordzijde 11\, 3072 AE Rotterdam
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-504140@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T161500
@@ -155,16 +145,6 @@ DURATION:PT2H
 SUMMARY:CBV Binnenland VSE-3 - Scheldesport Basketball VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504195
 LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-504200@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270130T181500
-DURATION:PT2H
-SUMMARY:Scheldesport Basketball VSE-1 - Faith & Fire VSE-1
-DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504200
-LOCATION:Vliegende Vaart\, Vliegende Vaart 2\, 4537DH TERNEUZEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

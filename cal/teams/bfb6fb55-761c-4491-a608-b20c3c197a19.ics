@@ -18,16 +18,6 @@ LOCATION:Universitair Sportcentrum Randwijck\, P Debyeplein 15\, 6229HA MAASTRIC
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-508642@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260927T100000
-DURATION:PT2H
-SUMMARY:Fanatics '71 MSE-1 - Springfield '75 MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508642
-LOCATION:Jo Gerrishal\, Achilleslaan 2 a\, 6042JV ROERMOND
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-508653@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T101500
@@ -124,16 +114,6 @@ DTSTART;TZID=Europe/Amsterdam:20270117T101500
 DURATION:PT2H
 SUMMARY:Springfield '75 MSE-1 - Maastricht Knights MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508707
-LOCATION:Het Anker\, Ankersweg 52\, 6121AT BUCHTEN-BORN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-508713@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270124T101500
-DURATION:PT2H
-SUMMARY:Springfield '75 MSE-1 - Fanatics '71 MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508713
 LOCATION:Het Anker\, Ankersweg 52\, 6121AT BUCHTEN-BORN
 STATUS:CONFIRMED
 END:VEVENT

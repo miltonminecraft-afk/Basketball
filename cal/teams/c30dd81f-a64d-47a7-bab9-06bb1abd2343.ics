@@ -88,32 +88,12 @@ LOCATION:De Klumper\, Papenhoef 2\, 5737BS LIESHOUT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-508721@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261124T200000
-DURATION:PT2H
-SUMMARY:Fanatics '71 MSE-1 - Jumping Giants MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508721
-LOCATION:Jo Gerrishal\, Achilleslaan 2 a\, 6042JV ROERMOND
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-508687@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261129T183000
 DURATION:PT2H
 SUMMARY:Jumping Giants MSE-1 - Maastricht Knights MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508687
-LOCATION:sporthal Nederweert\, De Bengele 8\, 6031TZ NEDERWEERT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-508655@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261204T203000
-DURATION:PT2H
-SUMMARY:Jumping Giants MSE-1 - Fanatics '71 MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508655
 LOCATION:sporthal Nederweert\, De Bengele 8\, 6031TZ NEDERWEERT
 STATUS:CONFIRMED
 END:VEVENT

@@ -8,16 +8,6 @@ X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:foys-match-495545@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260912T131500
-DURATION:PT2H
-SUMMARY:BC Shooters V14-1 - Faith & Fire V14-1
-DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495545
-LOCATION:De Kuil\, Torenvalk 47\, 3752SJ BUNSCHOTEN-SPAKENBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-495549@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T131500
@@ -35,16 +25,6 @@ DURATION:PT2H
 SUMMARY:BC Shooters V14-1 - High Five V14-1
 DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495554
 LOCATION:De Kuil\, Torenvalk 47\, 3752SJ BUNSCHOTEN-SPAKENBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-495556@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T130000
-DURATION:PT2H
-SUMMARY:Faith & Fire V14-1 - BC Shooters V14-1
-DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495556
-LOCATION:Sporthal De Passie\, Maashaven Noordzijde 11\, 3072 AE Rotterdam
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

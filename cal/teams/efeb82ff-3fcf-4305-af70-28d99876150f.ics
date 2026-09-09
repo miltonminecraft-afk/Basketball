@@ -18,16 +18,6 @@ LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-504799@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260926T164500
-DURATION:PT2H
-SUMMARY:CobraNova VSE-3 - River Trotters VSE-3
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504799
-LOCATION:Forum Kwadraat\, De Vliegerlaan 2 4\, 2273BV VOORBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-504805@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261002T190000
@@ -105,16 +95,6 @@ DURATION:PT2H
 SUMMARY:CobraNova VSE-3 - HBV The Jumpers VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504849
 LOCATION:Forum Kwadraat\, De Vliegerlaan 2 4\, 2273BV VOORBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-504853@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270123T000000
-DURATION:PT2H
-SUMMARY:River Trotters VSE-3 - CobraNova VSE-3
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504853
-LOCATION:De Wielewaal\, Cornelisweer 2\, 3371PH HARDINXVELD-GIESSENDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
