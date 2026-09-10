@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-516552@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270320T000000
+DTSTART;TZID=Europe/Amsterdam:20270320T123000
 DURATION:PT2H
 SUMMARY:Trajanum VSE-3 - SBA Sphinx VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 516552
