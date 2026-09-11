@@ -78,16 +78,6 @@ LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-509655@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T140000
-DURATION:PT2H
-SUMMARY:EBV Mustangs MSE-1 - HBV Falcons MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509655
-LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-509664@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T171500
@@ -165,16 +155,6 @@ DURATION:PT2H
 SUMMARY:BV Vikings MSE-2 - EBV Mustangs MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509710
 LOCATION:De Kamp\, Dr Albert Schweitzerlaan 1\, 7772EC HARDENBERG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-509723@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270403T174500
-DURATION:PT2H
-SUMMARY:HBV Falcons MSE-2 - EBV Mustangs MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509723
-LOCATION:Valkenlaan\, Valkenlaan 1\, 7905AA HOOGEVEEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

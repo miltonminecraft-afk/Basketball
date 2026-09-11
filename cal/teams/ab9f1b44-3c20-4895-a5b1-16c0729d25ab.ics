@@ -78,16 +78,6 @@ LOCATION:De Kamp\, Dr Albert Schweitzerlaan 1\, 7772EC HARDENBERG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-509663@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T174500
-DURATION:PT2H
-SUMMARY:HBV Falcons MSE-2 - Peatminers MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509663
-LOCATION:Valkenlaan\, Valkenlaan 1\, 7905AA HOOGEVEEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-509670@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270109T171500
@@ -174,16 +164,6 @@ DTSTART;TZID=Europe/Amsterdam:20270326T200000
 DURATION:PT2H
 SUMMARY:Peatminers MSE-2 - Amical MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509613
-LOCATION:De Stamper\, Schout Doddestraat 11\, 7671GT VRIEZENVEEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-509728@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270410T161500
-DURATION:PT2H
-SUMMARY:Peatminers MSE-2 - HBV Falcons MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509728
 LOCATION:De Stamper\, Schout Doddestraat 11\, 7671GT VRIEZENVEEN
 STATUS:CONFIRMED
 END:VEVENT

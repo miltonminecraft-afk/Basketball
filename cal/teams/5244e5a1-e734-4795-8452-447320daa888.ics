@@ -8,16 +8,6 @@ X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:foys-match-498099@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260912T121500
-DURATION:PT2H
-SUMMARY:The Valley Bucketeers X14-2 - Olstars X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498099
-LOCATION:Het Ravijn\, Piet Heinweg 18\, 7441GZ NIJVERDAL
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-498101@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260918T191500
@@ -94,6 +84,16 @@ DTSTART;TZID=Europe/Amsterdam:20261128T090000
 DURATION:PT2H
 SUMMARY:The Valley Bucketeers X14-2 - Risne Stars X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498144
+LOCATION:Het Ravijn\, Piet Heinweg 18\, 7441GZ NIJVERDAL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498099@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261204T190000
+DURATION:PT2H
+SUMMARY:The Valley Bucketeers X14-2 - Olstars X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498099
 LOCATION:Het Ravijn\, Piet Heinweg 18\, 7441GZ NIJVERDAL
 STATUS:CONFIRMED
 END:VEVENT

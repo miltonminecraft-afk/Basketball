@@ -38,16 +38,6 @@ LOCATION:De Duikelaar\, Zuidplaslaan 550\, 2743CT WADDINXVEEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-501268@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261002T191500
-DURATION:PT2H
-SUMMARY:Bouncers Basketball M18-1 - BS Leiden M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501268
-LOCATION:De Duikelaar\, Zuidplaslaan 550\, 2743CT WADDINXVEEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-501274@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T160000
@@ -55,6 +45,16 @@ DURATION:PT2H
 SUMMARY:NIEUW Generation Basketball M18-2 - Bouncers Basketball M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501274
 LOCATION:Sporthal Gaslaan\, Gaslaan 200\, 2562LN 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501268@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T150000
+DURATION:PT2H
+SUMMARY:Bouncers Basketball M18-1 - BS Leiden M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501268
+LOCATION:De Duikelaar\, Zuidplaslaan 550\, 2743CT WADDINXVEEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

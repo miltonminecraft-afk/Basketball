@@ -68,16 +68,6 @@ LOCATION:Reggehal\, Nieuwlandsweg 1\, 7461VP RIJSSEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-509646@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T204500
-DURATION:PT2H
-SUMMARY:Risne Stars MSE-2 - HBV Falcons MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509646
-LOCATION:Reggehal\, Nieuwlandsweg 1\, 7461VP RIJSSEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-509653@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T191500
@@ -155,16 +145,6 @@ DURATION:PT2H
 SUMMARY:BV Vikings MSE-2 - Risne Stars MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509699
 LOCATION:De Kamp\, Dr Albert Schweitzerlaan 1\, 7772EC HARDENBERG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-509712@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270313T174500
-DURATION:PT2H
-SUMMARY:HBV Falcons MSE-2 - Risne Stars MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509712
-LOCATION:Valkenlaan\, Valkenlaan 1\, 7905AA HOOGEVEEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

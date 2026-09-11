@@ -8,16 +8,6 @@ X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:foys-match-508501@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260912T180000
-DURATION:PT2H
-SUMMARY:Alkm.Guardians MSE-1 - Windmills MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508501
-LOCATION:Hoornse Vaart\, Hertog Aalbrechtweg 4\, 1823DL ALKMAAR
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-508507@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T170000
@@ -105,6 +95,16 @@ DURATION:PT2H
 SUMMARY:Northside Ballers Amsterdam MSE-1 - Alkm.Guardians MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508559
 LOCATION:De Weeren\, Beemsterstraat 656\, 1027ED AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508501@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261219T180000
+DURATION:PT2H
+SUMMARY:Alkm.Guardians MSE-1 - Windmills MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508501
+LOCATION:Hoornse Vaart\, Hertog Aalbrechtweg 4\, 1823DL ALKMAAR
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
