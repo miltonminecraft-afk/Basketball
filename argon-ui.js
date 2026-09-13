@@ -94,9 +94,7 @@ function detailTeams(){
  const parts=title.split(/\s+[—–-]\s+/).map(x=>x.trim()).filter(Boolean);
  return {title,home:parts[0]||'',away:parts[1]||''};
 }
-function detailLocation(){
- const spans=[...document.querySelectorAll('#matchDetailBody .match-summary span')];return spans.at(-1)?.textContent?.trim()||'';
-}
+function detailLocation(){const spans=[...document.querySelectorAll('#matchDetailBody .match-summary span')];return spans.at(-1)?.textContent?.trim()||''}
 function isAwayDetail(home,away,location){return !isArgon(home)&&isArgon(away)&&!/eendracht|phoenix/i.test(location)}
 function argonTeamName(home,away){const side=isArgon(home)?home:isArgon(away)?away:'';return side.replace(/^SV Argon\s*/i,'').trim()}
 function resolveMatchId(title){
@@ -136,14 +134,18 @@ async function configureDetail(){
   const dt=detailTeams(),matchId=resolveMatchId(dt.title);if(!matchId)return;
   const context=await memberContext();if(!context)return;
   const teamName=argonTeamName(dt.home,dt.away),team=context.teams.find(x=>norm(x.team_name)===norm(teamName));if(!team)return;
-  const away=isAwayDetail(dt.home,dt.away,detailLocation()),ctx={matchId,team,away};
+  const away=isAwayDetail(dt.home,dt.away,detailLocation()),ctx={matchId,team,away},input=document.getElementById('drive');
+  const signature=`${matchId}:${team.id}:${away?'away':'home'}`;
+  const alreadyBound=overlay.dataset.argonDetailSignature===signature&&(!yes||yes.dataset.argonBound==='1')&&(!no||no.dataset.argonBound==='1')&&(!input||input.dataset.argonBound==='1')&&(!away||!!document.querySelector('#matchDetailBody .drivers-list'));
+  if(alreadyBound)return;
+  overlay.dataset.argonDetailSignature=signature;
   if(toggle){toggle.style.display=away?'flex':'none';toggle.classList.remove('disabled')}
-  const input=document.getElementById('drive');if(input){input.disabled=!away;input.onchange=null;if(!input.dataset.argonBound){input.dataset.argonBound='1';input.addEventListener('change',()=>saveDriving(ctx,input.checked))}}
+  if(input){input.disabled=!away;input.onchange=null;if(!input.dataset.argonBound){input.dataset.argonBound='1';input.addEventListener('change',()=>saveDriving(ctx,input.checked))}}
   for(const [button,value] of [[yes,true],[no,false]])if(button){button.onclick=null;if(!button.dataset.argonBound){button.dataset.argonBound='1';button.addEventListener('click',()=>saveAttendance(ctx,value))}}
   let state=await ownAttendance(matchId,context.member.id);
   if(!away&&state?.driving){const s=await getClient(),{data}=await s.rpc('set_match_attendance',{p_match_id:matchId,p_team_id:team.id,p_attending:state.attending===true,p_driving:false});state=data||state}
   applyAttendanceVisual(state,away);
-  const old=document.querySelector('#matchDetailBody .drivers-list');if(!away){old?.remove()}else await renderDrivers(matchId);
+  const old=document.querySelector('#matchDetailBody .drivers-list');if(!away)old?.remove();else await renderDrivers(matchId);
  }finally{detailBusy=false}
 }
 let queued=false;
