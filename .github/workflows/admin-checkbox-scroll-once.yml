@@ -1,0 +1,79 @@
+name: Update member admin checkbox once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/admin-checkbox-scroll-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Update member admin controls
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          club = Path('club.js')
+          s = club.read_text(encoding='utf-8')
+
+          old_role = '''<label>Rol<select id="memberRole"><option value="member" ${edit?.role!=='admin'?'selected':''}>Lid</option><option value="admin" ${edit?.role==='admin'?'selected':''}>Admin</option></select></label>'''
+          new_role = '''<label class="member-admin-option"><input id="memberAdmin" type="checkbox" ${edit?.role==='admin'?'checked':''}> Admin</label>'''
+          if old_role not in s:
+              raise SystemExit('member role selector target not found')
+          s = s.replace(old_role, new_role, 1)
+
+          old_payload = "role:$('memberRole').value,active:$('memberActive').checked"
+          new_payload = "role:$('memberAdmin').checked?'admin':'member',active:$('memberActive').checked"
+          if old_payload not in s:
+              raise SystemExit('member role payload target not found')
+          s = s.replace(old_payload, new_payload, 1)
+
+          old_edit = "target.querySelectorAll('[data-edit-member]').forEach(b=>b.onclick=()=>renderAdminMembers(b.dataset.editMember));"
+          new_edit = "target.querySelectorAll('[data-edit-member]').forEach(b=>b.onclick=()=>{renderAdminMembers(b.dataset.editMember);requestAnimationFrame(()=>document.getElementById('memberForm')?.scrollIntoView({behavior:'smooth',block:'start'}));});"
+          if old_edit not in s:
+              raise SystemExit('member edit click target not found')
+          s = s.replace(old_edit, new_edit, 1)
+          club.write_text(s, encoding='utf-8')
+
+          helper = Path('club-members-admin.js')
+          h = helper.read_text(encoding='utf-8')
+          h2, count = re.subn(r'\nfunction hideRoleSelector\(\)\{.*?\n\}\n\nasync function enhanceBootstrapAdmin', '\nasync function enhanceBootstrapAdmin', h, count=1, flags=re.S)
+          if count != 1:
+              raise SystemExit('hideRoleSelector block target not found')
+          h3, count = re.subn(r'\nasync function enhanceAdminMembers\(\)\{.*?\n\}\n\nconst observer=', '\nconst observer=', h2, count=1, flags=re.S)
+          if count != 1:
+              raise SystemExit('enhanceAdminMembers block target not found')
+          h3 = h3.replace("const observer=new MutationObserver(()=>{enhanceBootstrapAdmin();enhanceAdminMembers()});", "const observer=new MutationObserver(()=>{enhanceBootstrapAdmin()});")
+          h3 = h3.replace("  enhanceAdminMembers();\n", "")
+          helper.write_text(h3, encoding='utf-8')
+
+          index = Path('index.html')
+          x = index.read_text(encoding='utf-8')
+          if 'club.js?v=2' not in x or 'club-members-admin.js?v=3' not in x:
+              raise SystemExit('index cache version targets not found')
+          x = x.replace('club.js?v=2', 'club.js?v=3').replace('club-members-admin.js?v=3', 'club-members-admin.js?v=4')
+          index.write_text(x, encoding='utf-8')
+
+          sw = Path('sw.js')
+          w = sw.read_text(encoding='utf-8')
+          w = w.replace("basketball-agenda-v9", "basketball-agenda-v10")
+          w = w.replace('club.js?v=2', 'club.js?v=3').replace('club-members-admin.js?v=3', 'club-members-admin.js?v=4')
+          sw.write_text(w, encoding='utf-8')
+
+          Path('.github/workflows/admin-checkbox-scroll-once.yml').unlink()
+      - name: Commit update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add club.js club-members-admin.js index.html sw.js .github/workflows/admin-checkbox-scroll-once.yml
+          git commit -m "Add admin checkbox and scroll member editor into view"
+          git push origin HEAD:main
