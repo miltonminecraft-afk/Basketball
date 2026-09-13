@@ -65,24 +65,22 @@ async function ensureBootstrapData(){
     if(!admin)return;
 
     await syncArgonTeams(supabase);
-    const [{data:members},{count}]=await Promise.all([
-      supabase.from('members').select('id,full_name,active'),
-      supabase.from('task_events').select('id',{count:'exact',head:true})
-    ]);
-
-    if(count){
-      await linkExistingAssignments(supabase,members||[]);
-      return;
-    }
-
     const taskResponse=await fetch('./data/tasks.json',{cache:'no-store'});
     if(!taskResponse.ok)return;
     const json=await taskResponse.json();
-    const {data:teams}=await supabase.from('teams').select('id,team_name');
+
+    const [{data:members},{data:teams},{data:existingEvents}]=await Promise.all([
+      supabase.from('members').select('id,full_name,active'),
+      supabase.from('teams').select('id,team_name'),
+      supabase.from('task_events').select('id,legacy_id')
+    ]);
+
     const memberByName=new Map((members||[]).filter(m=>m.active&&m.full_name).map(m=>[norm(m.full_name),m.id]));
     const teamByName=new Map((teams||[]).map(t=>[norm(t.team_name),t.id]));
+    const existingLegacyIds=new Set((existingEvents||[]).map(e=>e.legacy_id).filter(Boolean));
 
     for(const row of json.tasks||[]){
+      if(existingLegacyIds.has(row.id))continue;
       const shortHome=String(row.home||'').replace(/^SV Argon\s+/i,'').trim();
       const {data:event,error}=await supabase.from('task_events').insert({
         legacy_id:row.id,
@@ -103,7 +101,10 @@ async function ensureBootstrapData(){
       (row.referees||[]).forEach((name,index)=>assignments.push({task_event_id:event.id,assigned_name:name,assigned_member_id:memberByName.get(norm(name))||null,role:'referee',slot:index+1}));
       (row.table||[]).forEach((name,index)=>assignments.push({task_event_id:event.id,assigned_name:name,assigned_member_id:memberByName.get(norm(name))||null,role:'table',slot:index+1}));
       if(assignments.length)await supabase.from('task_assignments').insert(assignments);
+      existingLegacyIds.add(row.id);
     }
+
+    await linkExistingAssignments(supabase,members||[]);
   }catch(error){
     console.error(error);
   }finally{
