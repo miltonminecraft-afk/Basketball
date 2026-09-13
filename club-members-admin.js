@@ -1,130 +1,41 @@
 (()=>{
 'use strict';
-const SUPABASE_URL='https://elpnfmlrkoemjrnzaeok.supabase.co';
-const SUPABASE_KEY='sb_publishable_GPzLwaKeevg3e8CNjw9oAQ_50NW2xlg';
-const FEDERATION_ID='52cfa65e-9782-4a81-ab35-e2f981fcb7a9';
-const ARGON_CLUB_ID='a4a2e2fa-0635-46a5-8969-1d0fef40444f';
-const ARGON_CLUB_NAME='SV Argon';
-let client=null;
-let adminLoading=false;
-let bootstrapLoading=false;
-let dataBootstrapRunning=false;
-
-const esc=value=>String(value??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));
-const norm=value=>String(value||'').trim().toLowerCase();
-
-function toast(message){
-  const el=document.getElementById('toast');
-  if(!el){alert(message);return;}
-  el.textContent=message;
-  el.classList.add('show');
-  setTimeout(()=>el.classList.remove('show'),2600);
-}
-
-async function getClient(){
-  if(client)return client;
-  const mod=await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm');
-  client=mod.createClient(SUPABASE_URL,SUPABASE_KEY,{auth:{persistSession:true,detectSessionInUrl:true,autoRefreshToken:true}});
-  return client;
-}
-
-async function currentAdmin(){
-  const supabase=await getClient();
-  const {data:{user}}=await supabase.auth.getUser();
-  if(!user)return null;
-  const {data}=await supabase.from('members').select('id,role,active').eq('auth_user_id',user.id).maybeSingle();
-  return data?.role==='admin'&&data.active?data:null;
-}
-
-async function syncArgonTeams(supabase){
-  try{
-    const response=await fetch(`https://api.foys.io/competition/public-api/v1/organisations/${ARGON_CLUB_ID}/teams`,{headers:{Accept:'application/json','X-FederationID':FEDERATION_ID},cache:'no-store'});
-    if(!response.ok)return;
-    const rows=await response.json();
-    const payload=(Array.isArray(rows)?rows:[]).filter(x=>x.guid).map(x=>({club_id:ARGON_CLUB_ID,club_name:ARGON_CLUB_NAME,foy_team_guid:x.guid,foy_team_id:x.id,team_name:x.name,active:true}));
-    if(payload.length)await supabase.from('teams').upsert(payload,{onConflict:'foy_team_guid'});
-  }catch(error){console.warn(error);}
-}
-
-async function linkExistingAssignments(supabase,members){
-  const {data:rows,error}=await supabase.from('task_assignments').select('id,assigned_name,assigned_member_id').is('assigned_member_id',null);
-  if(error||!rows?.length)return;
-  const byName=new Map((members||[]).filter(m=>m.active&&m.full_name).map(m=>[norm(m.full_name),m.id]));
-  for(const row of rows){
-    const id=byName.get(norm(row.assigned_name));
-    if(id)await supabase.from('task_assignments').update({assigned_member_id:id}).eq('id',row.id);
-  }
-}
-
-async function ensureBootstrapData(){
-  if(dataBootstrapRunning)return;
-  dataBootstrapRunning=true;
-  try{
-    const supabase=await getClient();
-    const admin=await currentAdmin();
-    if(!admin)return;
-    await syncArgonTeams(supabase);
-    const taskResponse=await fetch('./data/tasks.json',{cache:'no-store'});
-    if(!taskResponse.ok)return;
-    const json=await taskResponse.json();
-    const [{data:members},{data:teams},{data:existingEvents}]=await Promise.all([
-      supabase.from('members').select('id,full_name,active'),
-      supabase.from('teams').select('id,team_name'),
-      supabase.from('task_events').select('id,legacy_id')
-    ]);
-    const memberByName=new Map((members||[]).filter(m=>m.active&&m.full_name).map(m=>[norm(m.full_name),m.id]));
-    const teamByName=new Map((teams||[]).map(t=>[norm(t.team_name),t.id]));
-    const existingLegacyIds=new Set((existingEvents||[]).map(e=>e.legacy_id).filter(Boolean));
-    for(const row of json.tasks||[]){
-      if(existingLegacyIds.has(row.id))continue;
-      const shortHome=String(row.home||'').replace(/^SV Argon\s+/i,'').trim();
-      const {data:event,error}=await supabase.from('task_events').insert({legacy_id:row.id,team_id:teamByName.get(norm(shortHome))||null,event_date:row.date,arrival_time:row.arrivalTime,start_time:row.startTime,home:row.home,away:row.away,location:row.location,field:row.field,active:true,created_by:admin.id}).select().single();
-      if(error){if(error.code==='23505')continue;console.warn(error);continue;}
-      const assignments=[];
-      (row.referees||[]).forEach((name,index)=>assignments.push({task_event_id:event.id,assigned_name:name,assigned_member_id:memberByName.get(norm(name))||null,role:'referee',slot:index+1}));
-      (row.table||[]).forEach((name,index)=>assignments.push({task_event_id:event.id,assigned_name:name,assigned_member_id:memberByName.get(norm(name))||null,role:'table',slot:index+1}));
-      if(assignments.length)await supabase.from('task_assignments').insert(assignments);
-      existingLegacyIds.add(row.id);
-    }
-    await linkExistingAssignments(supabase,members||[]);
-  }catch(error){console.error(error)}finally{dataBootstrapRunning=false}
-}
-
-async function enhanceBootstrapAdmin(){
-  const oldForm=document.getElementById('claimAdminForm');
-  if(!oldForm||oldForm.dataset.recoveryReady==='1'||bootstrapLoading)return;
-  bootstrapLoading=true;
-  try{
-    const supabase=await getClient();
-    const {data,error}=await supabase.rpc('bootstrap_admin_member_choices');
-    if(error)throw error;
-    const current=document.getElementById('claimAdminForm');
-    if(!current)return;
-    const members=data||[];
-    const form=current.cloneNode(false);
-    form.id='claimAdminForm';
-    form.dataset.recoveryReady='1';
-    form.className='club-form';
-    form.innerHTML=`<label>Bestaand lid<select id="bootstrapMemberSelect" required>${members.length?members.map(m=>`<option value="${m.id}">${esc(m.full_name)}</option>`).join(''):'<option value="">Geen bestaand lid beschikbaar</option>'}</select></label><button class="primary-button" type="submit" ${members.length?'':'disabled'}>Herstel en maak geselecteerd lid admin</button>`;
-    current.replaceWith(form);
-    form.addEventListener('submit',async event=>{
-      event.preventDefault();
-      const memberId=document.getElementById('bootstrapMemberSelect')?.value;
-      if(!memberId)return;
-      const button=form.querySelector('button[type="submit"]');
-      if(button)button.disabled=true;
-      const {error:claimError}=await supabase.rpc('recover_first_admin_existing',{p_member_id:memberId});
-      if(claimError){if(button)button.disabled=false;toast(claimError.message);return}
-      toast('Adminaccount hersteld.');
-      setTimeout(()=>location.reload(),400);
-    });
-  }catch(error){console.error(error)}finally{bootstrapLoading=false}
-}
-
-const observer=new MutationObserver(()=>{enhanceBootstrapAdmin()});
-document.addEventListener('DOMContentLoaded',()=>{
-  observer.observe(document.documentElement,{childList:true,subtree:true});
-  enhanceBootstrapAdmin();
-  ensureBootstrapData();
-});
+const U='https://elpnfmlrkoemjrnzaeok.supabase.co',K='sb_publishable_GPzLwaKeevg3e8CNjw9oAQ_50NW2xlg',F='52cfa65e-9782-4a81-ab35-e2f981fcb7a9',A='a4a2e2fa-0635-46a5-8969-1d0fef40444f',API='https://api.foys.io/competition/public-api/v1';
+let sb=null,member=null,teams=[],allMatches=null,current=null,promptDismissed=false,promptBusy=false;
+const $=id=>document.getElementById(id),esc=v=>String(v??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c])),norm=v=>String(v||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,''),d=v=>String(v||'').slice(0,10),t=v=>String(v||'').slice(0,5),role=r=>r==='referee'?'Scheidsrechter':r==='table'?'Tafel':'Taak';
+function season(){const n=new Date(),y=n.getMonth()>=6?n.getFullYear():n.getFullYear()-1;return{start:`${y}-07-01`,end:`${y+1}-06-30`}}
+function fmt(v){try{return new Intl.DateTimeFormat('nl-NL',{weekday:'long',day:'2-digit',month:'long',year:'numeric'}).format(new Date(`${d(v)}T12:00:00`))}catch{return v}}
+function label(m,s){return[m?.[`${s}TeamSponsorClubName`]||m?.[`${s}Organisation`]?.name,m?.[`${s}TeamName`]].filter(Boolean).join(' ').trim()||'Onbekend team'}
+function toast(m){const e=$('toast');if(!e)return alert(m);e.textContent=m;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),2800)}
+async function client(){if(sb)return sb;const mod=await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm');return sb=mod.createClient(U,K,{auth:{persistSession:true,detectSessionInUrl:true,autoRefreshToken:true}})}
+async function identity(){const s=await client(),{data:{session}}=await s.auth.getSession();if(!session){member=null;teams=[];return false}const{data:m,error}=await s.rpc('sync_current_member');if(error||!m?.active){member=null;teams=[];return false}member=m;const{data:r}=await s.from('member_teams').select('team_id,teams(id,team_name,foy_team_guid)').eq('member_id',m.id);teams=(r||[]).map(x=>x.teams?{...x.teams,id:x.team_id}:null).filter(Boolean);return true}
+async function matches(){if(allMatches)return allMatches;const q=season(),p=new URLSearchParams({startDate:q.start,endDate:q.end,teamGuid:`all-${A}`,skipCount:'0',maxResultCount:'100',sorting:'date asc, startTime asc'}),r=await fetch(`${API}/matches?${p}`,{headers:{Accept:'application/json','X-FederationID':F},cache:'no-store'});if(!r.ok)throw new Error('Wedstrijden konden niet worden opgehaald');const j=await r.json();return allMatches=Array.isArray(j?.items)?j.items:[]}
+function teamFor(m){if(!m)return null;const names=[m.homeTeamName,m.awayTeamName,m.homeTeam?.name,m.awayTeam?.name].filter(Boolean).map(norm),guids=[m.homeTeamGuid,m.awayTeamGuid,m.homeTeam?.guid,m.awayTeam?.guid].filter(Boolean).map(String);return teams.find(x=>guids.includes(String(x.foy_team_guid))||names.includes(norm(x.team_name)))||null}
+async function syncBusy(){if(!member)return;const rows=[];for(const m of await matches()){const tm=teamFor(m);if(tm)rows.push({team_id:tm.id,foy_match_id:Number(m.id),match_date:d(m.date),start_time:t(m.startTime)})}const{error}=await sb.rpc('sync_member_match_busy',{p_rows:rows});if(error)console.warn(error)}
+function same(ev,m){return ev&&m&&d(ev.event_date)===d(m.date)&&norm(ev.home)===norm(label(m,'home'))&&norm(ev.away)===norm(label(m,'away'))&&(!t(ev.start_time)||!t(m.startTime)||t(ev.start_time)===t(m.startTime))}
+async function eventForMatch(m){let r=await sb.from('task_events').select('*,task_assignments(*)').eq('active',true).eq('foy_match_id',Number(m.id)).maybeSingle();if(r.data)return r.data;r=await sb.from('task_events').select('*,task_assignments(*)').eq('active',true).eq('event_date',d(m.date));return(r.data||[]).find(x=>same(x,m))||null}
+async function eventByLegacy(id){const{data}=await sb.from('task_events').select('*,task_assignments(*)').eq('active',true).eq('legacy_id',id).maybeSingle();return data||null}
+async function matchForEvent(ev){const ms=await matches();return ev?.foy_match_id?ms.find(x=>String(x.id)===String(ev.foy_match_id))||null:ms.find(x=>same(ev,x))||null}
+async function attendance(mid){const{data}=await sb.from('attendance').select('*').eq('foy_match_id',Number(mid)).eq('member_id',member.id).maybeSingle();return data||null}
+async function openSwaps(as){const ids=(as||[]).map(x=>x.id);if(!ids.length)return[];const{data}=await sb.from('task_swap_requests').select('*').eq('status','open').in('assignment_id',ids);return data||[]}
+function mine(a){return a&&(a.assigned_member_id===member?.id||(!a.assigned_member_id&&norm(a.assigned_name)===norm(member?.full_name)))}
+function ui(){if($('matchDetailOverlay'))return;const o=document.createElement('div');o.id='matchDetailOverlay';o.className='match-detail-overlay';o.hidden=true;o.innerHTML=`<div class="match-detail-sheet"><div class="match-detail-grabber"></div><div class="match-detail-head"><div><span id="matchDetailKicker" class="match-detail-kicker">Wedstrijd</span><h2 id="matchDetailTitle">Wedstrijd</h2></div><button class="match-detail-close" data-close-detail>×</button></div><div id="matchDetailBody"></div></div>`;document.body.appendChild(o);o.onclick=e=>{if(e.target===o||e.target.closest('[data-close-detail]'))close()}}
+function shell(title='Wedstrijd',kick='Wedstrijd'){ui();$('matchDetailTitle').textContent=title;$('matchDetailKicker').textContent=kick;$('matchDetailBody').innerHTML='<div class="match-detail-loading">Gegevens laden…</div>';$('matchDetailOverlay').hidden=false;document.body.classList.add('match-detail-open')}
+function close(){$('matchDetailOverlay').hidden=true;document.body.classList.remove('match-detail-open');current=null}
+function loginNeeded(){shell('Ledenlogin nodig','Beveiligd');$('matchDetailBody').innerHTML=`<div class="match-detail-message"><strong>Log eerst in als lid</strong><p>Aanwezigheid, rijden en taakwissels zijn alleen beschikbaar voor ingelogde actieve leden.</p><button class="match-action primary" id="goClub">Naar Club</button></div>`;$('goClub').onclick=()=>{close();document.querySelector('.tab[data-view="club"]')?.click()}}
+function summary(m,e){return m?{title:`${label(m,'home')} — ${label(m,'away')}`,date:d(m.date),start:t(m.startTime),arrival:e?.arrival_time?t(e.arrival_time):'',loc:[m.accommodationName,m.fieldName].filter(Boolean).join(' · ')||e?.location||''}:{title:`${e?.home||'Wedstrijd'} — ${e?.away||''}`,date:d(e?.event_date),start:t(e?.start_time),arrival:t(e?.arrival_time),loc:[e?.location,e?.field].filter(Boolean).join(' · ')}}
+function taskHtml(a,sw){let act='';if(mine(a))act=sw?`<div class="detail-task-actions"><button class="match-action" data-cancel="${sw.id}">Wissel annuleren</button><span class="swap-open-label">Wissel staat open</span></div>`:`<div class="detail-task-actions"><button class="match-action primary" data-request="${a.id}">Taak wisselen</button></div>`;else if(sw)act=`<div class="detail-task-actions"><button class="match-action primary" data-take="${sw.id}">Taak overnemen</button></div>`;return`<div class="detail-task ${mine(a)?'mine':''}"><span class="detail-task-role">${role(a.role)}</span><strong>${esc(a.assigned_name||'Niet toegewezen')}</strong>${act}</div>`}
+async function render(m,e){const as=(e?.task_assignments||[]).sort((a,b)=>(a.role||'').localeCompare(b.role||'')||a.slot-b.slot),ss=await openSwaps(as),sm=new Map(ss.map(x=>[x.assignment_id,x])),tm=m?teamFor(m):(e?.team_id?teams.find(x=>x.id===e.team_id):null),at=m&&tm?await attendance(m.id):null,s=summary(m,e);current={m,e,tm,at};$('matchDetailTitle').textContent=s.title;$('matchDetailKicker').textContent=e?'Wedstrijd & taken':'Wedstrijd';const pres=m?(tm?`<div class="match-detail-section"><h3>Mijn wedstrijd</h3><div class="presence-segment"><button class="match-action ${at?.attending===true?'selected yes':''}" data-pres="yes">Aanwezig</button><button class="match-action ${at?.attending===false?'selected no':''}" data-pres="no">Afwezig</button></div><label class="drive-toggle ${at?.attending===true?'':'disabled'}"><input id="drive" type="checkbox" ${at?.driving?'checked':''} ${at?.attending===true?'':'disabled'}><span>Ik rijd</span></label><p class="match-muted">Alleen beschikbaar voor teams waaraan je als lid bent gekoppeld.</p></div>`:`<div class="match-detail-section"><h3>Aanwezigheid</h3><p class="match-muted">Je bent niet aan dit team gekoppeld. Aanwezigheid en rijden kunnen daarom niet worden aangepast.</p></div>`):'';$('matchDetailBody').innerHTML=`<div class="match-summary"><strong>${esc(fmt(s.date))}</strong><span>${s.arrival?`Aanwezig ${esc(s.arrival)} · `:''}Start ${esc(s.start||'—')}</span><span>${esc(s.loc||'Locatie nog niet bekend')}</span></div>${pres}<div class="match-detail-section"><h3>Taken</h3>${as.length?`<div class="detail-task-list">${as.map(a=>taskHtml(a,sm.get(a.id))).join('')}</div>`:'<p class="match-muted">Voor deze wedstrijd zijn geen clubtaken gekoppeld.</p>'}</div>`;document.querySelectorAll('[data-pres]').forEach(b=>b.onclick=()=>savePresence(b.dataset.pres==='yes'));if($('drive'))$('drive').onchange=()=>saveDrive($('drive').checked);document.querySelectorAll('[data-request]').forEach(b=>b.onclick=()=>request(b.dataset.request));document.querySelectorAll('[data-cancel]').forEach(b=>b.onclick=()=>cancelSwap(b.dataset.cancel));document.querySelectorAll('[data-take]').forEach(b=>b.onclick=()=>take(b.dataset.take))}
+async function savePresence(v){if(!current?.m||!current.tm)return;const{data,error}=await sb.rpc('set_match_attendance',{p_match_id:Number(current.m.id),p_team_id:current.tm.id,p_attending:v,p_driving:v&&!!current.at?.driving});if(error)return toast(error.message);current.at=data;toast(v?'Aanwezig opgeslagen.':'Afwezig opgeslagen.');await render(current.m,current.e)}
+async function saveDrive(v){if(!current?.at?.attending)return toast('Kies eerst Aanwezig.');const{data,error}=await sb.rpc('set_match_attendance',{p_match_id:Number(current.m.id),p_team_id:current.tm.id,p_attending:true,p_driving:v});if(error)return toast(error.message);current.at=data;toast(v?'Rijden opgeslagen.':'Rijden uitgezet.');await render(current.m,current.e)}
+async function request(id){const{error}=await sb.rpc('request_task_swap',{p_assignment_id:id});if(error)return toast(error.message);toast('Taakwissel staat open.');await refresh()}
+async function cancelSwap(id){const{error}=await sb.rpc('cancel_task_swap',{p_request_id:id});if(error)return toast(error.message);toast('Taakwissel geannuleerd.');await refresh()}
+async function take(id){await syncBusy();const{data:c,error:ce}=await sb.rpc('check_task_swap_conflict',{p_request_id:id});if(ce)return toast(ce.message);if(c)return toast(c);const{error}=await sb.rpc('accept_task_swap',{p_request_id:id});if(error)return toast(error.message);toast('Taak is aan jou toegewezen.');await refresh()}
+async function refresh(){if(!current)return;if(current.m)await render(current.m,await eventForMatch(current.m));else if(current.e){const e=await eventByLegacy(current.e.legacy_id);await render(await matchForEvent(e),e)}}
+async function openMatch(id){if(!(await identity()))return loginNeeded();shell('Wedstrijd laden…');try{const m=(await matches()).find(x=>String(x.id)===String(id));if(!m)throw Error('Wedstrijd niet gevonden');await render(m,await eventForMatch(m))}catch(e){$('matchDetailBody').innerHTML=`<div class="match-detail-message"><strong>Niet beschikbaar</strong><p>${esc(e.message)}</p></div>`}}
+async function openTask(id){if(!(await identity()))return loginNeeded();shell('Taak laden…','Taak');try{const e=await eventByLegacy(id);if(!e)throw Error('Taak niet gevonden');await render(await matchForEvent(e),e)}catch(e){$('matchDetailBody').innerHTML=`<div class="match-detail-message"><strong>Niet beschikbaar</strong><p>${esc(e.message)}</p></div>`}}
+async function promptSwap(){if(promptDismissed||promptBusy||!member)return;promptBusy=true;try{const[{data:o},{data:r}]=await Promise.all([sb.from('task_swap_requests').select('*,task_assignments(*,task_events(*))').eq('status','open').order('created_at'),sb.from('task_swap_responses').select('request_id,response').eq('member_id',member.id)]),no=new Set((r||[]).filter(x=>x.response==='declined').map(x=>x.request_id)),s=(o||[]).find(x=>x.requested_by!==member.id&&!no.has(x.id));if(!s)return;await syncBusy();const{data:c}=await sb.rpc('check_task_swap_conflict',{p_request_id:s.id}),a=s.task_assignments||{},e=a.task_events||{};shell('Taak overnemen?','Open taakwissel');$('matchDetailBody').innerHTML=`<div class="swap-popup-card"><span class="detail-task-role">${role(a.role)}</span><h3>${esc(e.home||'Taak')} — ${esc(e.away||'')}</h3><p>${esc(fmt(e.event_date||s.created_at))} · aanwezig ${esc(t(e.arrival_time||e.start_time))} · start ${esc(t(e.start_time))}</p><p>Van: <strong>${esc(a.assigned_name||'Lid')}</strong></p>${c?`<div class="swap-conflict">${esc(c)}</div>`:''}</div><div class="swap-popup-actions"><button class="match-action primary" id="swapYes" ${c?'disabled':''}>Ja</button><button class="match-action no" id="swapNo">Nee</button><button class="match-action" id="swapLater">× Wegdrukken</button></div>`;$('swapLater').onclick=()=>{promptDismissed=true;close()};$('swapNo').onclick=async()=>{const{error}=await sb.rpc('decline_task_swap',{p_request_id:s.id});if(error)return toast(error.message);close();promptBusy=false;setTimeout(promptSwap,120)};$('swapYes').onclick=async()=>{const{error}=await sb.rpc('accept_task_swap',{p_request_id:s.id});if(error)return toast(error.message);toast('Taak is aan jou toegewezen.');close();promptBusy=false;setTimeout(promptSwap,120)}}catch(e){console.warn(e)}finally{promptBusy=false}}
+async function bootstrap(){try{const s=await client(),ok=await identity();if(ok){await syncBusy();setTimeout(promptSwap,250)}s.auth.onAuthStateChange(async()=>{allMatches=null;if(await identity()){await syncBusy();setTimeout(promptSwap,220)}})}catch(e){console.warn(e)}}
+document.addEventListener('click',e=>{const c=e.target.closest('article.event[data-match-id],article.event[data-task-id]');if(!c||e.target.closest('button,a,input,select,label'))return;e.preventDefault();c.dataset.matchId?openMatch(c.dataset.matchId):openTask(c.dataset.taskId)},true);
+document.addEventListener('DOMContentLoaded',()=>{ui();bootstrap()});
 })();
