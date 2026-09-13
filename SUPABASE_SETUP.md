@@ -9,16 +9,27 @@ Open in Supabase het project **Basketball** en ga naar **Authentication → URL 
 - Site URL: `https://miltonminecraft-afk.github.io/Basketball/`
 - Redirect URLs: voeg `https://miltonminecraft-afk.github.io/Basketball/**` toe.
 
-De app gebruikt aanvankelijk passwordless e-mail-login (Magic Link). Een nieuw ingelogd account krijgt pas clubtoegang als het overeenkomt met een actief lid in de ledenadministratie. De eerste beheerder gebruikt daarnaast de eenmalige bootstrapcode die buiten de repository wordt bewaard.
+De app gebruikt aanvankelijk passwordless e-mail-login (Magic Link). Een nieuw ingelogd account krijgt pas clubtoegang als het overeenkomt met een actief lid in de ledenadministratie.
 
-## Andere leden toegang geven
+## Eerste administrator
+
+De leden uit het aangeleverde scheidsrechter- en tafelschema staan vooraf in de ledenlijst. De eerste administrator wordt niet als los nieuw adminaccount aangemaakt:
+
+1. Log in via **Club** met je e-mailadres.
+2. Vul de eenmalige bootstrapcode in.
+3. Kies in **Bestaand lid** jouw bestaande ledenregel.
+4. Bevestig met **Maak geselecteerd lid eerste admin**.
+
+De gekozen ledenregel wordt aan het ingelogde Supabase-account gekoppeld en krijgt de rol **Admin**. De bootstrapcode kan daarna niet opnieuw worden gebruikt.
+
+## Leden en extra administrators
 
 1. Log als admin in en open **Club → Admin → Leden**.
-2. Kies **Nieuw lid**.
-3. Vul naam en minimaal het e-mailadres in waarmee het lid gaat inloggen. Telefoon kan ook administratief worden opgeslagen.
-4. Kies **Lid** of **Admin** en laat **Actief** ingeschakeld.
-5. Vink één of meerdere teams aan en sla op.
-6. Het lid opent dezelfde GitHub Pages-app, gaat naar **Club**, vult dat e-mailadres in en gebruikt de ontvangen eenmalige inloglink.
+2. Bestaande leden uit het aangeleverde schema staan al in de lijst.
+3. Open **Wijzigen** om e-mailadres, telefoon, actief-status en één of meerdere teams aan een lid toe te voegen.
+4. Voor een persoon die nog niet bestaat gebruik je **Nieuw lid**. Nieuwe personen worden altijd eerst als normaal **Lid** aangemaakt.
+5. Om een extra administrator te maken kies je onder **Administrator toevoegen** een bestaand lid en druk je op **Maak geselecteerd lid admin**.
+6. Het lid opent dezelfde GitHub Pages-app, gaat naar **Club**, vult het gekoppelde e-mailadres in en gebruikt de ontvangen eenmalige inloglink.
 7. Bij de eerste login wordt het Supabase-account automatisch aan de bestaande ledenregel gekoppeld.
 
 Een lid kan aan meerdere teams gekoppeld zijn. Een admin kan deze koppelingen later altijd wijzigen.
