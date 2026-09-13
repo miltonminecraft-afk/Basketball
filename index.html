@@ -9,12 +9,13 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="styles.css?v=3">
   <style id="playedMatchTimeFix">
-    #agendaList article.event:has(.badge-final) .time-col .event-time,
-    #gamesList article.event:has(.badge-final) .time-col .event-time,
     #agendaList .final-start,
     #agendaList .final-start-compact,
     #gamesList .final-start,
     #gamesList .final-start-compact{display:none!important}
+    .tabs{grid-template-columns:repeat(7,minmax(0,1fr))!important}
+    .tabs .tab{min-width:0;white-space:nowrap}
+    @media(max-width:480px){.tabs .tab{font-size:5.8px!important}}
   </style>
 </head>
 <body>
