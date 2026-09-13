@@ -6,6 +6,7 @@ on:
     paths:
       - ".github/workflows/update-calendars.yml"
       - "scripts/generate_calendars.py"
+      - "scripts/generate_club_calendars.py"
       - "scripts/normalize_calendars.py"
       - "data/tasks.json"
   workflow_dispatch:
@@ -29,6 +30,7 @@ jobs:
       - name: Generate ICS subscriptions
         run: |
           python scripts/generate_calendars.py
+          python scripts/generate_club_calendars.py
           python scripts/normalize_calendars.py
 
       - name: Commit changed calendar feeds
