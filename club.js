@@ -94,7 +94,7 @@ async function importLegacyTasks(){
  }catch(e){console.error('Import taken',e);toast('Bestaand takenschema kon niet volledig worden geïmporteerd.');}
 }
 async function loadMemberMatches(){
- const source=member.role==='admin'?teams:memberTeams;const guids=[...new Set(source.map(t=>t.foy_team_guid).filter(Boolean))];if(!guids.length){matchRows=[];return}
+ const source=memberTeams;const guids=[...new Set(source.map(t=>t.foy_team_guid).filter(Boolean))];if(!guids.length){matchRows=[];return}
  const range=seasonRange(),byId=new Map();let cursor=0;
  const workers=Array.from({length:Math.min(4,guids.length)},async()=>{while(cursor<guids.length){const guid=guids[cursor++];let skip=0,total=Infinity;while(skip<total){const p=new URLSearchParams({startDate:range.start,endDate:range.end,teamGuid:guid,skipCount:String(skip),maxResultCount:'100',sorting:'date asc, startTime asc'});const r=await fetch(`https://api.foys.io/competition/public-api/v1/matches?${p}`,{headers:{Accept:'application/json','X-FederationID':FEDERATION_ID},cache:'no-store'});if(!r.ok)break;const j=await r.json(),rows=j.items||[];rows.forEach(x=>byId.set(String(x.id),x));total=Number(j.totalCount)||rows.length;skip+=rows.length;if(!rows.length||rows.length<100)break;}}});
  await Promise.all(workers);matchRows=[...byId.values()].sort((a,b)=>`${a.date}T${a.startTime}`.localeCompare(`${b.date}T${b.startTime}`));
