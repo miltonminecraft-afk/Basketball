@@ -258,11 +258,12 @@ function observe(){
  obs.observe(document.documentElement,{childList:true,subtree:true});
 }
 
-document.addEventListener('DOMContentLoaded',()=>{
+function init(){
  injectCss();
  $('teamSelect')?.addEventListener('change',()=>schedule(true));
  $('personSelect')?.addEventListener('change',()=>schedule());
  observe();schedule(true);
  setInterval(()=>{cleanupClubAgenda();schedule()},2500);
-});
+}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
