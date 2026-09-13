@@ -8,6 +8,14 @@
   <title>Basketball Agenda</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="styles.css?v=3">
+  <style id="playedMatchTimeFix">
+    #agendaList article.event:has(.badge-final) .time-col .event-time,
+    #gamesList article.event:has(.badge-final) .time-col .event-time,
+    #agendaList .final-start,
+    #agendaList .final-start-compact,
+    #gamesList .final-start,
+    #gamesList .final-start-compact{display:none!important}
+  </style>
 </head>
 <body>
   <div class="app-shell">
