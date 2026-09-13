@@ -7,3 +7,4 @@ async function fix(){const root=document.getElementById('agendaList');if(!root)r
 function schedule(){clearTimeout(timer);timer=setTimeout(fix,250)}
 document.addEventListener('DOMContentLoaded',()=>{schedule();new MutationObserver(schedule).observe(document.documentElement,{subtree:true,childList:true})});
 })();
+import('./ux-v3.js?v=1').catch(error=>console.warn('UX v3 kon niet worden geladen',error));
