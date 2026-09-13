@@ -1,0 +1,1210 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Akros - alle teams
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-497908@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T143000
+DURATION:PT2H
+SUMMARY:BV Rush X14-1 97 - 16 Akros X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 97 - 16\nFOYS wedstrijd-ID: 497908
+LOCATION:De Stigt\, Kapelstraat 100\, 5401EC UDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511712@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T173000
+DURATION:PT2H
+SUMMARY:Yellow Sox MSE-2 55 - 53 Akros MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 55 - 53\nFOYS wedstrijd-ID: 511712
+LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500943@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T181500
+DURATION:PT2H
+SUMMARY:BC Bladel V18-1 55 - 30 Akros V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 55 - 30\nFOYS wedstrijd-ID: 500943
+LOCATION:Sporthal X-Sport\, Lange Trekken 32\, 5531PZ BLADEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494230@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T093000
+DURATION:PT2H
+SUMMARY:Nimma Gemina X12-3 26 - 44 Akros X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 26 - 44\nFOYS wedstrijd-ID: 494230
+LOCATION:Ark van Oost\, Cipresstraat 154\, 6523HR NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494231@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T111500
+DURATION:PT2H
+SUMMARY:UNLIMITED X12-2 20 - 0 Akros X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 494231
+LOCATION:De Helster\, Schubertstraat 1\, 6661AW Elst
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502151@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T130000
+DURATION:PT2H
+SUMMARY:BV Rooi M18-1 - Akros M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502151
+LOCATION:De Kienehoef\, Wilhelminastraat 19\, 5491 JL Sint-Oedenrode
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502692@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T160000
+DURATION:PT2H
+SUMMARY:Vlijmscherp SVH V22-1 50 - 39 Akros V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 50 - 39\nFOYS wedstrijd-ID: 502692
+LOCATION:Die Heygrave\, Burgemeester Zwaansweg 4\, 5251CJ VLIJMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494240@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T121500
+DURATION:PT2H
+SUMMARY:Akros X12-2 - Challenge X12-3
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494240
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494241@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T121500
+DURATION:PT2H
+SUMMARY:Akros X12-1 - UNLIMITED X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494241
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497917@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T140000
+DURATION:PT2H
+SUMMARY:Akros X14-1 - Wildcats X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497917
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500396@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T140000
+DURATION:PT2H
+SUMMARY:Akros M16-1 - BeCeGe '74 M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500396
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500946@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T160000
+DURATION:PT2H
+SUMMARY:Akros V18-1 - Achilles '71 V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500946
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502162@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T160000
+DURATION:PT2H
+SUMMARY:Akros M18-1 - Achilles '71 M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502162
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503448@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T180000
+DURATION:PT2H
+SUMMARY:Akros M22-1 - ABC Basketball M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503448
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511723@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T180000
+DURATION:PT2H
+SUMMARY:Akros MSE-2 - Tantalus MSE-5
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511723
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508641@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T200000
+DURATION:PT2H
+SUMMARY:Akros MSE-1 - Yellow Sox MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508641
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494245@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T100000
+DURATION:PT2H
+SUMMARY:Joy-M X12-1 - Akros X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494245
+LOCATION:De Veldschuur\, Veldsingel 29\, 6581TC MALDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502165@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T103000
+DURATION:PT2H
+SUMMARY:The Black Eagles M18-2 - Akros M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502165
+LOCATION:De Hazelaar\, T.M. Kortenhorstlaan 6\, 5244GD ROSMALEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494244@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T113000
+DURATION:PT2H
+SUMMARY:Challenge X12-3 - Akros X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494244
+LOCATION:De Tinnegieter\, Leigraaf 2\, 6641DH BEUNINGEN GLD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500398@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T130000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M16-3 - Akros M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500398
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502703@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T140000
+DURATION:PT2H
+SUMMARY:BC Eindhoven V22-1 - Akros V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502703
+LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497920@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T160000
+DURATION:PT2H
+SUMMARY:WYBA basketbalvereniging X14-1 - Akros X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497920
+LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500951@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T173000
+DURATION:PT2H
+SUMMARY:Yellow Sox V18-1 - Akros V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500951
+LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508644@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T120000
+DURATION:PT2H
+SUMMARY:Jumping Giants MSE-1 - Akros MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508644
+LOCATION:sporthal Nederweert\, De Bengele 8\, 6031TZ NEDERWEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503453@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T150000
+DURATION:PT2H
+SUMMARY:Nimma Gemina M22-2 - Akros M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503453
+LOCATION:Ark van Oost\, Cipresstraat 154\, 6523HR NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511726@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-4 - Akros MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511726
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503457@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T104500
+DURATION:PT2H
+SUMMARY:Akros M22-1 - Black Stars M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503457
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494252@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T123000
+DURATION:PT2H
+SUMMARY:Akros X12-1 - Joy-M X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494252
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497926@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T140000
+DURATION:PT2H
+SUMMARY:Akros X14-1 - Valley Vultures X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497926
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500403@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T140000
+DURATION:PT2H
+SUMMARY:Akros M16-1 - Joy-M M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500403
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500954@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T160000
+DURATION:PT2H
+SUMMARY:Akros V18-1 - BC Bladel V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500954
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502173@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T160000
+DURATION:PT2H
+SUMMARY:Akros M18-1 - Springfield M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502173
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502708@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T180000
+DURATION:PT2H
+SUMMARY:Akros V22-1 - The Black Eagles V22-2
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502708
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511734@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T180000
+DURATION:PT2H
+SUMMARY:Akros MSE-2 - BC LIESHOUT MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511734
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508652@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T200000
+DURATION:PT2H
+SUMMARY:Akros MSE-1 - BC Deurne Pioniers MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508652
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502178@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T114500
+DURATION:PT2H
+SUMMARY:BC LIESHOUT M18-1 - Akros M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502178
+LOCATION:De Klumper\, Papenhoef 2\, 5737BS LIESHOUT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494258@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T120000
+DURATION:PT2H
+SUMMARY:Pigeons X12-1 - Akros X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494258
+LOCATION:Triominos\, Eltensestraat 4\, 6922JB DUIVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500960@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T120000
+DURATION:PT2H
+SUMMARY:BC Eindhoven V18-1 - Akros V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500960
+LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511739@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T124500
+DURATION:PT2H
+SUMMARY:OBC MSE-3 - Akros MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511739
+LOCATION:De Ruivert\, de Ruivert 3\, 5342CM OSS
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502714@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T130000
+DURATION:PT2H
+SUMMARY:Attacus V22-1 - Akros V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502714
+LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503464@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T140000
+DURATION:PT2H
+SUMMARY:The Black Eagles M22-1 - Akros M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503464
+LOCATION:De Hazelaar\, T.M. Kortenhorstlaan 6\, 5244GD ROSMALEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497931@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T150000
+DURATION:PT2H
+SUMMARY:Flip Stars X14-1 - Akros X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497931
+LOCATION:Westroyen\, Predikbroedersweg 14\, 4003AL TIEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508657@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T151500
+DURATION:PT2H
+SUMMARY:BC LIESHOUT MSE-1 - Akros MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508657
+LOCATION:De Klumper\, Papenhoef 2\, 5737BS LIESHOUT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494263@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T121500
+DURATION:PT2H
+SUMMARY:Akros X12-2 - Gennep Cougars X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494263
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494264@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T121500
+DURATION:PT2H
+SUMMARY:Akros X12-1 - Pigeons X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494264
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497936@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T140000
+DURATION:PT2H
+SUMMARY:Akros X14-1 - Wildcats X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497936
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500411@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T140000
+DURATION:PT2H
+SUMMARY:Akros M16-1 - Wildcats M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500411
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503469@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T153000
+DURATION:PT2H
+SUMMARY:Basketiers '71 M22-1 - Akros M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503469
+LOCATION:Heerenmaten\, Heerenmaten 8\, 6904GZ ZEVENAAR
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500962@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T160000
+DURATION:PT2H
+SUMMARY:Akros V18-1 - Springfield V18-2
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500962
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502185@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T160000
+DURATION:PT2H
+SUMMARY:Akros M18-1 - Wildcats M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502185
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502718@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T180000
+DURATION:PT2H
+SUMMARY:Akros V22-1 - Dunatos V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502718
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511746@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T180000
+DURATION:PT2H
+SUMMARY:Akros MSE-2 - BV Schijndel MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511746
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508664@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T200000
+DURATION:PT2H
+SUMMARY:Akros MSE-1 - Maastricht Knights MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508664
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503474@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T130000
+DURATION:PT2H
+SUMMARY:Akros M22-1 - BC Langstraat Shooters M22-3
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503474
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497942@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T160000
+DURATION:PT2H
+SUMMARY:Black Stars X14-1 - Akros X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497942
+LOCATION:Feel Fit Center Rhenen\, Groeneweg 58\, 3911PG RHENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508670@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T173000
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-1 - Akros MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508670
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494270@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T093000
+DURATION:PT2H
+SUMMARY:Gennep Cougars X12-2 - Akros X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494270
+LOCATION:Pica Mare 2\, Picardie 34\, 6591JE GENNEP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494271@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T093000
+DURATION:PT2H
+SUMMARY:Gennep Cougars X12-1 - Akros X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494271
+LOCATION:Pica Mare 2\, Picardie 34\, 6591JE GENNEP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500416@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T110000
+DURATION:PT2H
+SUMMARY:Gennep Cougars M16-2 - Akros M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500416
+LOCATION:Pica Mare 2\, Picardie 34\, 6591JE GENNEP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500968@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T140000
+DURATION:PT2H
+SUMMARY:BC Kimbria V18-1 - Akros V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500968
+LOCATION:Geusselt\, Olympiaweg 68\, 6225XX MAASTRICHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502725@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T143000
+DURATION:PT2H
+SUMMARY:Gennep Cougars V22-1 - Akros V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502725
+LOCATION:Pica Mare 2\, Picardie 34\, 6591JE GENNEP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502191@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T153000
+DURATION:PT2H
+SUMMARY:BV Schijndel M18-1 - Akros M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502191
+LOCATION:sporthal Bunderstraat\, Bunderstraat 6\, 5481KD SCHIJNDEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-514109@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T160000
+DURATION:PT2H
+SUMMARY:Jumping Giants MSE-3 - Akros MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 514109
+LOCATION:sporthal Nederweert\, De Bengele 8\, 6031TZ NEDERWEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494277@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T100000
+DURATION:PT2H
+SUMMARY:Challenge X12-2 - Akros X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494277
+LOCATION:De Tinnegieter\, Leigraaf 2\, 6641DH BEUNINGEN GLD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494276@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T140000
+DURATION:PT2H
+SUMMARY:Akros X12-1 - Gennep Cougars X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494276
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497947@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T140000
+DURATION:PT2H
+SUMMARY:Akros X14-1 - Gennep Cougars X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497947
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500420@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T160000
+DURATION:PT2H
+SUMMARY:Akros M16-1 - Gennep Cougars M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500420
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500970@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T160000
+DURATION:PT2H
+SUMMARY:Akros V18-1 - High Five V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500970
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502197@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T180000
+DURATION:PT2H
+SUMMARY:Akros M18-1 - Gennep Cougars M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502197
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511758@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T180000
+DURATION:PT2H
+SUMMARY:Akros MSE-2 - Gennep Cougars MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511758
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508676@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T200000
+DURATION:PT2H
+SUMMARY:Akros MSE-1 - Valkenswaard Falcons MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508676
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502730@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T154500
+DURATION:PT2H
+SUMMARY:Oirschot V22-1 - Akros V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502730
+LOCATION:sportcentrum De Kemmer\, Bloemendaal 5\, 5688GP OIRSCHOT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494283@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T120000
+DURATION:PT2H
+SUMMARY:Akros X12-2 - Akros X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494283
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502735@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T120000
+DURATION:PT2H
+SUMMARY:Akros V22-1 - WYBA basketbalvereniging V22-2
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502735
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502204@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T130000
+DURATION:PT2H
+SUMMARY:Attacus M18-1 - Akros M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502204
+LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503484@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T134500
+DURATION:PT2H
+SUMMARY:Akros M22-1 - Ardito M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503484
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500976@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T124500
+DURATION:PT2H
+SUMMARY:Springfield V18-2 - Akros V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500976
+LOCATION:De Run\, Runweg 11\, 5258BK BERLICUM NB
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508683@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T150000
+DURATION:PT2H
+SUMMARY:BC Kimbria MSE-1 - Akros MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508683
+LOCATION:Geusselt\, Olympiaweg 68\, 6225XX MAASTRICHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511765@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T161500
+DURATION:PT2H
+SUMMARY:Den Dungk MSE-3 - Akros MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511765
+LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494284@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T100000
+DURATION:PT2H
+SUMMARY:Wildcats X12-2 - Akros X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494284
+LOCATION:De Horstacker\, Horstacker 1401\, 6546EK NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494289@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T100000
+DURATION:PT2H
+SUMMARY:Challenge X12-2 - Akros X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494289
+LOCATION:De Tinnegieter\, Leigraaf 2\, 6641DH BEUNINGEN GLD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502736@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T110000
+DURATION:PT2H
+SUMMARY:BC Bumpers V22-1 - Akros V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502736
+LOCATION:Stadssporthal\, Stadswegske 8\, 6131AG SITTARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502210@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T160000
+DURATION:PT2H
+SUMMARY:WYBA basketbalvereniging M18-1 - Akros M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502210
+LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497957@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T170000
+DURATION:PT2H
+SUMMARY:BV Rush X14-2 - Akros X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497957
+LOCATION:De Stigt\, Kapelstraat 100\, 5401EC UDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500981@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T170000
+DURATION:PT2H
+SUMMARY:High Five V18-1 - Akros V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500981
+LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503486@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T184500
+DURATION:PT2H
+SUMMARY:BV Rush M22-1 - Akros M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503486
+LOCATION:De Stigt\, Kapelstraat 100\, 5401EC UDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508689@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T101500
+DURATION:PT2H
+SUMMARY:Springfield '75 MSE-1 - Akros MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508689
+LOCATION:Het Anker\, Ankersweg 52\, 6121AT BUCHTEN-BORN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500429@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T143000
+DURATION:PT2H
+SUMMARY:Nimma Gemina M16-2 - Akros M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500429
+LOCATION:Ark van Oost\, Cipresstraat 154\, 6523HR NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511771@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T184500
+DURATION:PT2H
+SUMMARY:Springfield MSE-3 - Akros MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511771
+LOCATION:De Run\, Runweg 11\, 5258BK BERLICUM NB
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497962@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T111500
+DURATION:PT2H
+SUMMARY:Akros X14-1 - BCE'78 X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497962
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494294@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T130000
+DURATION:PT2H
+SUMMARY:Akros X12-2 - Nimma Gemina X12-3
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494294
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494295@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T130000
+DURATION:PT2H
+SUMMARY:Akros X12-1 - Wildcats X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494295
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500433@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T143000
+DURATION:PT2H
+SUMMARY:Akros M16-1 - WYBA basketbalvereniging M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500433
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502216@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T143000
+DURATION:PT2H
+SUMMARY:Akros M18-1 - OBC M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502216
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500982@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T161500
+DURATION:PT2H
+SUMMARY:Akros V18-1 - BC Eindhoven V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500982
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503493@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T161500
+DURATION:PT2H
+SUMMARY:Akros M22-1 - Arnhem Eagles M22-3
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503493
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502744@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T180000
+DURATION:PT2H
+SUMMARY:Akros V22-1 - Tracks Parkstad V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502744
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511777@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T180000
+DURATION:PT2H
+SUMMARY:Akros MSE-2 - Lasers Basketball Club MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511777
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508695@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T200000
+DURATION:PT2H
+SUMMARY:Akros MSE-1 - BC Bumpers MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508695
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511783@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T180000
+DURATION:PT2H
+SUMMARY:Akros MSE-2 - Yellow Sox MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511783
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511785@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T113000
+DURATION:PT2H
+SUMMARY:Tantalus MSE-5 - Akros MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511785
+LOCATION:SSC Sportcentrum\, Onze Lieve Vrouwestraat 1\, 5612AW EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508703@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T190000
+DURATION:PT2H
+SUMMARY:Yellow Sox MSE-1 - Akros MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508703
+LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511794@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T180000
+DURATION:PT2H
+SUMMARY:Akros MSE-2 - Achilles '71 MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511794
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508712@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T200000
+DURATION:PT2H
+SUMMARY:Akros MSE-1 - Jumping Giants MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508712
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511798@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T133000
+DURATION:PT2H
+SUMMARY:BC LIESHOUT MSE-2 - Akros MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511798
+LOCATION:De Klumper\, Papenhoef 2\, 5737BS LIESHOUT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508716@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T170000
+DURATION:PT2H
+SUMMARY:BC Deurne Pioniers MSE-2 - Akros MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508716
+LOCATION:De Peelhorst\, St. Jozefstraat 70\, 5753AV DEURNE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511806@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T180000
+DURATION:PT2H
+SUMMARY:Akros MSE-2 - OBC MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511806
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508724@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T200000
+DURATION:PT2H
+SUMMARY:Akros MSE-1 - BC LIESHOUT MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508724
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511811@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270227T171500
+DURATION:PT2H
+SUMMARY:BV Schijndel MSE-1 - Akros MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511811
+LOCATION:sporthal Bunderstraat\, Bunderstraat 6\, 5481KD SCHIJNDEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508729@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270228T110000
+DURATION:PT2H
+SUMMARY:Maastricht Knights MSE-2 - Akros MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508729
+LOCATION:Universitair Sportcentrum Randwijck\, P Debyeplein 15\, 6229HA MAASTRICHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-514120@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T180000
+DURATION:PT2H
+SUMMARY:Akros MSE-2 - Jumping Giants MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 514120
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508736@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T200000
+DURATION:PT2H
+SUMMARY:Akros MSE-1 - E.B.C.G. MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508736
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508742@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270313T200000
+DURATION:PT2H
+SUMMARY:Valkenswaard Falcons MSE-1 - Akros MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508742
+LOCATION:De Wedert\, Past. Heerkensdreef 29\, 5552BG VALKENSWAARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511824@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270314T100000
+DURATION:PT2H
+SUMMARY:Gennep Cougars MSE-2 - Akros MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511824
+LOCATION:Pica Mare 2\, Picardie 34\, 6591JE GENNEP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511830@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270320T000000
+DURATION:PT2H
+SUMMARY:Akros MSE-2 - Den Dungk MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511830
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508748@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270320T200000
+DURATION:PT2H
+SUMMARY:Akros MSE-1 - BC Kimbria MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508748
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511837@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270403T180000
+DURATION:PT2H
+SUMMARY:Akros MSE-2 - Springfield MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511837
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508755@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270403T200000
+DURATION:PT2H
+SUMMARY:Akros MSE-1 - Springfield '75 MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508755
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508756@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270410T130000
+DURATION:PT2H
+SUMMARY:BC Bumpers MSE-1 - Akros MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508756
+LOCATION:Stadssporthal\, Stadswegske 8\, 6131AG SITTARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511838@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270410T150000
+DURATION:PT2H
+SUMMARY:Lasers Basketball Club MSE-1 - Akros MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511838
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

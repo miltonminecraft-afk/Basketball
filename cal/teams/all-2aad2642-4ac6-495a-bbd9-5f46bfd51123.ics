@@ -1,0 +1,1810 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Tracks Parkstad - alle teams
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-512942@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260905T140000
+DURATION:PT2H
+SUMMARY:BV Leeuwarden M22-1 49 - 116 Tracks Parkstad M22-1
+DESCRIPTION:Mannen U22 (Basketball Cup) - Voorrondes\nStatus: Final\nUitslag: 49 - 116\nFOYS wedstrijd-ID: 512942
+LOCATION:Sporthal Merwestein\, Merweplein 1\, 3432GN NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492615@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T140000
+DURATION:PT2H
+SUMMARY:AFGELAST: Tracks Parkstad M14-1 - Heroes Den Bosch M14-2
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 492615
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502398@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T140000
+DURATION:PT2H
+SUMMARY:AFGELAST: Tracks Parkstad M18-1 - Basketbal Academie Limburg M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 502398
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502691@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T140000
+DURATION:PT2H
+SUMMARY:AFGELAST: Tracks Parkstad V22-1 - WYBA basketbalvereniging V22-2
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 502691
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506241@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T150000
+DURATION:PT2H
+SUMMARY:BC Triple ThreaT M19-1 93 - 75 Tracks Parkstad M19-1
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Final\nUitslag: 93 - 75\nFOYS wedstrijd-ID: 506241
+LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496086@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T153000
+DURATION:PT2H
+SUMMARY:Lokomotief X14-1 113 - 64 Tracks Parkstad X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nUitslag: 113 - 64\nFOYS wedstrijd-ID: 496086
+LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499716@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T160000
+DURATION:PT2H
+SUMMARY:AFGELAST: Tracks Parkstad M16-3 - Venlo Sport Crusaders M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 499716
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504334@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T160000
+DURATION:PT2H
+SUMMARY:AFGELAST: Tracks Parkstad VSE-1 - OBC VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 504334
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498768@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T180000
+DURATION:PT2H
+SUMMARY:AFGELAST: Tracks Parkstad M16-2 - Woodpeckers M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 498768
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510660@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T180000
+DURATION:PT2H
+SUMMARY:AFGELAST: Tracks Parkstad MSE-1 - Basketbal Academie Limburg MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 510660
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494649@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T100000
+DURATION:PT2H
+SUMMARY:Fanatics '71 X12-1 20 - 0 Tracks Parkstad X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 494649
+LOCATION:Jo Gerrishal\, Achilleslaan 2 a\, 6042JV ROERMOND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495302@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T140000
+DURATION:PT2H
+SUMMARY:AFGELAST: Tracks Parkstad M16-1 - MBCA A'veen M16-1
+DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 495302
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497060@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T140000
+DURATION:PT2H
+SUMMARY:BC Kimbria X14-1 79 - 26 Tracks Parkstad X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 79 - 26\nFOYS wedstrijd-ID: 497060
+LOCATION:Geusselt\, Olympiaweg 68\, 6225XX MAASTRICHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502400@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T114500
+DURATION:PT2H
+SUMMARY:Black Shots M18-1 - Tracks Parkstad M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502400
+LOCATION:Veka-sportcentrum\, Deltaweg 201 -203\, 5709AB HELMOND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492503@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M14-1 - BC Triple ThreaT M14-2
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492503
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494653@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X12-2 - Springfield '75 X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494653
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502851@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M22-1 - BV Carnisse Sharks M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502851
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499719@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T124500
+DURATION:PT2H
+SUMMARY:Valkenswaard Falcons M16-1 - Tracks Parkstad M16-3
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499719
+LOCATION:De Wedert\, Past. Heerkensdreef 29\, 5552BG VALKENSWAARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502696@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T130000
+DURATION:PT2H
+SUMMARY:BC Bumpers V22-1 - Tracks Parkstad V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502696
+LOCATION:Stadssporthal\, Stadswegske 8\, 6131AG SITTARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496087@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X14-1 - B.V. Batouwe X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496087
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498770@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T154500
+DURATION:PT2H
+SUMMARY:Biks Shots M16-1 - Tracks Parkstad M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498770
+LOCATION:De Roodloop\, Roodloop 6\, 5081XZ HILVARENBEEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495308@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T160000
+DURATION:PT2H
+SUMMARY:BC Triple ThreaT M16-1 - Tracks Parkstad M16-1
+DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 495308
+LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493301@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T110000
+DURATION:PT2H
+SUMMARY:BC Kimbria X12-1 - Tracks Parkstad X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493301
+LOCATION:Geusselt\, Olympiaweg 68\, 6225XX MAASTRICHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506185@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M19-1 - Hot Pepper Heat M19-1
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506185
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504336@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T130000
+DURATION:PT2H
+SUMMARY:Maastricht Knights VSE-1 - Tracks Parkstad VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504336
+LOCATION:Universitair Sportcentrum Randwijck\, P Debyeplein 15\, 6229HA MAASTRICHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510662@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T150000
+DURATION:PT2H
+SUMMARY:BC Heeze MSE-2 - Tracks Parkstad MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510662
+LOCATION:De Pompenmaker\, De Pompenmaker 4\, 5591NE HEEZE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493302@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X12-1 - Yellow Sox X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493302
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502852@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T120000
+DURATION:PT2H
+SUMMARY:Rotterdam-Zuid M22-1 - Tracks Parkstad M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502852
+LOCATION:Sportcentrum De Sportmotor\, Jan Ligthartstraat 95\, 3083AL ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506191@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T120000
+DURATION:PT2H
+SUMMARY:WBB Giants M19-1 - Tracks Parkstad M19-1
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506191
+LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496094@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T123000
+DURATION:PT2H
+SUMMARY:HBV The Jumpers X14-1 - Tracks Parkstad X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496094
+LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499721@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M16-3 - BC Bumpers M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499721
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502701@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad V22-1 - Oirschot V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502701
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492505@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T150000
+DURATION:PT2H
+SUMMARY:Almere Pioneers M14-1 - Tracks Parkstad M14-1
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492505
+LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498775@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T163000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M16-1 - Tracks Parkstad M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498775
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494655@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T110000
+DURATION:PT2H
+SUMMARY:BC Titans X12-1 - Tracks Parkstad X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494655
+LOCATION:Sporthal Vie\, Vieboulevard 21\, 6461ND KERKRADE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510666@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T111500
+DURATION:PT2H
+SUMMARY:Vido MSE-2 - Tracks Parkstad MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510666
+LOCATION:Den Ekkerman\, Wal 150\, 5501HP VELDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502405@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T120000
+DURATION:PT2H
+SUMMARY:Fanatics '71 M18-1 - Tracks Parkstad M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502405
+LOCATION:Jo Gerrishal\, Achilleslaan 2 a\, 6042JV ROERMOND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495314@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M16-1 - Lokomotief M16-1
+DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 495314
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504340@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 VSE-1 - Tracks Parkstad VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504340
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497064@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T150000
+DURATION:PT2H
+SUMMARY:BC Titans X14-1 - Tracks Parkstad X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497064
+LOCATION:Sporthal Vie\, Vieboulevard 21\, 6461ND KERKRADE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492511@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M14-1 - High Five M14-1
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492511
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493305@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X12-1 - Achilles '71 X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493305
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502706@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad V22-1 - Vlijmscherp SVH V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502706
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495321@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M16-1 - BC APOLLO Amsterdam M16-1
+DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 495321
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496099@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X14-1 - Achilles '71 X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496099
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504349@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad VSE-1 - Dunatos VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504349
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494659@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T160000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X12-2 - BC Kimbria X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494659
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497067@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T160000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X14-2 - BC Bumpers X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497067
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506193@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T160000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M19-1 - BV Groningen M19-1
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506193
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498786@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T180000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M16-2 - E.B.C.G. M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498786
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499725@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T180000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M16-3 - Dunatos M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499725
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510675@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T180000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad MSE-1 - E.B.C.G. MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510675
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502416@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T200000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M18-1 - Dunatos M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502416
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502859@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T200000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M22-1 - Dunatos M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502859
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493306@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T090000
+DURATION:PT2H
+SUMMARY:Basketbal Academie Limburg X12-1 - Tracks Parkstad X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493306
+LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494661@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T110000
+DURATION:PT2H
+SUMMARY:BC Bumpers X12-2 - Tracks Parkstad X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494661
+LOCATION:Stadssporthal\, Stadswegske 8\, 6131AG SITTARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498787@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T123000
+DURATION:PT2H
+SUMMARY:Pluto M16-1 - Tracks Parkstad M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498787
+LOCATION:Tarthorst\, Tarthorst 152\, 6708JD WAGENINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504350@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T123000
+DURATION:PT2H
+SUMMARY:Trajanum VSE-2 - Tracks Parkstad VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504350
+LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502417@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T130000
+DURATION:PT2H
+SUMMARY:BC Bumpers M18-1 - Tracks Parkstad M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502417
+LOCATION:Stadssporthal\, Stadswegske 8\, 6131AG SITTARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502860@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T140000
+DURATION:PT2H
+SUMMARY:Hurricanes M22-1 - Tracks Parkstad M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502860
+LOCATION:Den Oert\, J. Witteveenlaan 1\, 3201LX SPIJKENISSE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496107@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T150000
+DURATION:PT2H
+SUMMARY:CBV Binnenland X14-1 - Tracks Parkstad X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496107
+LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492516@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T163000
+DURATION:PT2H
+SUMMARY:BS Leiden M14-2 - Tracks Parkstad M14-1
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492516
+LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506198@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T183000
+DURATION:PT2H
+SUMMARY:BS Leiden M19-2 - Tracks Parkstad M19-1
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506198
+LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499727@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T130000
+DURATION:PT2H
+SUMMARY:BC Titans M16-1 - Tracks Parkstad M16-3
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499727
+LOCATION:Sporthal Vie\, Vieboulevard 21\, 6461ND KERKRADE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495327@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T143000
+DURATION:PT2H
+SUMMARY:Zorg en Zekerheid M16-1 - Tracks Parkstad M16-1
+DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 495327
+LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497069@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T150000
+DURATION:PT2H
+SUMMARY:Dunatos X14-1 - Tracks Parkstad X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497069
+LOCATION:Marsana\, Molenveldweg 4\, 6231RX MEERSSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502847@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261018T130000
+DURATION:PT2H
+SUMMARY:Dunatos M22-1 - Tracks Parkstad M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502847
+LOCATION:Marsana\, Molenveldweg 4\, 6231RX MEERSSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502428@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261030T200000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M18-1 - Valkenswaard Falcons M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502428
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493308@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T104500
+DURATION:PT2H
+SUMMARY:Yellow Sox X12-1 - Tracks Parkstad X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493308
+LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494665@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X12-2 - BC Titans X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494665
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495333@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M16-1 - Basketball Academy Utrecht M16-1 M16-1
+DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 495333
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499730@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T130000
+DURATION:PT2H
+SUMMARY:BC Bumpers M16-1 - Tracks Parkstad M16-3
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499730
+LOCATION:Stadssporthal\, Stadswegske 8\, 6131AG SITTARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496111@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X14-1 - Divine X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496111
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502717@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad V22-1 - BC Eindhoven V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502717
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506201@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M19-1 - High Five M19-1
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506201
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497071@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T160000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X14-2 - BC Titans X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497071
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502867@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T160000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M22-1 - B.C. Virtus M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502867
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504359@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T160000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad VSE-1 - Valkenswaard Falcons VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504359
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492518@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T163000
+DURATION:PT2H
+SUMMARY:GET United M14-1 - Tracks Parkstad M14-1
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492518
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498798@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T180000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M16-2 - Barons Breda Basketball M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498798
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510685@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T180000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad MSE-1 - Valkenswaard Falcons MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510685
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492522@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M14-1 - Marathon M14-1
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492522
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502871@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M22-1 - Nimma Gemina M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502871
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506206@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T140000
+DURATION:PT2H
+SUMMARY:GET United M19-2 - Tracks Parkstad M19-1
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506206
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496120@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T142000
+DURATION:PT2H
+SUMMARY:The Black Eagles X14-1 - Tracks Parkstad X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496120
+LOCATION:De Hazelaar\, T.M. Kortenhorstlaan 6\, 5244GD ROSMALEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502722@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T160500
+DURATION:PT2H
+SUMMARY:The Black Eagles V22-2 - Tracks Parkstad V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502722
+LOCATION:De Hazelaar\, T.M. Kortenhorstlaan 6\, 5244GD ROSMALEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504360@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T181500
+DURATION:PT2H
+SUMMARY:BC Bladel VSE-1 - Tracks Parkstad VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504360
+LOCATION:Sporthal X-Sport\, Lange Trekken 32\, 5531PZ BLADEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498799@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T113000
+DURATION:PT2H
+SUMMARY:Arnhem Eagles M16-1 - Tracks Parkstad M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498799
+LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510686@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T120000
+DURATION:PT2H
+SUMMARY:Jumping Giants MSE-2 - Tracks Parkstad MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510686
+LOCATION:sporthal Nederweert\, De Bengele 8\, 6031TZ NEDERWEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502429@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T140000
+DURATION:PT2H
+SUMMARY:Jumping Giants M18-1 - Tracks Parkstad M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502429
+LOCATION:sporthal Nederweert\, De Bengele 8\, 6031TZ NEDERWEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495340@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T150000
+DURATION:PT2H
+SUMMARY:GET United M16-1 - Tracks Parkstad M16-1
+DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 495340
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502440@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261113T200000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M18-1 - E.B.C.G. M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502440
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493311@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X12-1 - Basketbal Academie Limburg X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493311
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495345@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M16-1 - Almere Pioneers M16-1
+DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 495345
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494668@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X12-2 - BC Bumpers X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494668
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496123@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X14-1 - Rotterdam Basketbal X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496123
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506209@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M19-1 - Lokomotief M19-2
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506209
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497073@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T160000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X14-2 - Dunatos X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497073
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499734@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T160000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M16-3 - BC Titans M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499734
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502727@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T160000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad V22-1 - Attacus V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502727
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498810@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T180000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M16-2 - Nimma Gemina M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498810
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504369@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T180000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad VSE-1 - High Five VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504369
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510695@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T200000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad MSE-1 - Jumpers '76 MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510695
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496133@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T111500
+DURATION:PT2H
+SUMMARY:High Five X14-2 - Tracks Parkstad X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496133
+LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497075@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T130000
+DURATION:PT2H
+SUMMARY:BC Bumpers X14-1 - Tracks Parkstad X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497075
+LOCATION:Stadssporthal\, Stadswegske 8\, 6131AG SITTARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495353@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T163000
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal M16-1 - Tracks Parkstad M16-1
+DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 495353
+LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492622@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T170000
+DURATION:PT2H
+SUMMARY:Basketball Academy Utrecht M14-2 M14-2 - Tracks Parkstad M14-1
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492622
+LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502879@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T170000
+DURATION:PT2H
+SUMMARY:B.C. Virtus M22-1 - Tracks Parkstad M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502879
+LOCATION:De Crosser\, Raadhuislaan 19\, 4251VS WERKENDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510696@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T183000
+DURATION:PT2H
+SUMMARY:Tantalus MSE-6 - Tracks Parkstad MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510696
+LOCATION:SSC Sportcentrum\, Onze Lieve Vrouwestraat 1\, 5612AW EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493313@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X12-1 - Tracks Parkstad X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493313
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499737@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T110000
+DURATION:PT2H
+SUMMARY:Dunatos M16-1 - Tracks Parkstad M16-3
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499737
+LOCATION:Marsana\, Molenveldweg 4\, 6231RX MEERSSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494671@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T130000
+DURATION:PT2H
+SUMMARY:BC Kimbria X12-2 - Tracks Parkstad X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494671
+LOCATION:Geusselt\, Olympiaweg 68\, 6225XX MAASTRICHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506249@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T133000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M19-1 - Quick Lions M19-1
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506249
+LOCATION:De Varenbeuk\, Hei-Carisborgweg 19\, 6414NL HEERLEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498811@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T150000
+DURATION:PT2H
+SUMMARY:Marathon M16-2 - Tracks Parkstad M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498811
+LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502441@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T150000
+DURATION:PT2H
+SUMMARY:BC Titans M18-1 - Tracks Parkstad M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502441
+LOCATION:Sporthal Vie\, Vieboulevard 21\, 6461ND KERKRADE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502733@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T150000
+DURATION:PT2H
+SUMMARY:Dunatos V22-1 - Tracks Parkstad V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502733
+LOCATION:Marsana\, Molenveldweg 4\, 6231RX MEERSSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492629@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M14-1 - BC APOLLO Amsterdam M14-2
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492629
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493314@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X12-1 - BC Kimbria X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493314
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499740@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M16-3 - Valkenswaard Falcons M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499740
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502737@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad V22-1 - Gennep Cougars V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502737
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496135@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T160000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X14-1 - Nimma Gemina X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496135
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502452@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T160000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M18-1 - Venlo Sport Crusaders M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502452
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510705@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T160000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad MSE-1 - Venlo Sport Crusaders MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510705
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506257@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T190000
+DURATION:PT2H
+SUMMARY:HBV The Jumpers M19-1 - Tracks Parkstad M19-1
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506257
+LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495357@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M16-1 - Heroes Den Bosch M16-1
+DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 495357
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494672@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T121500
+DURATION:PT2H
+SUMMARY:Springfield '75 X12-1 - Tracks Parkstad X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494672
+LOCATION:Het Anker\, Ankersweg 52\, 6121AT BUCHTEN-BORN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492527@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T124000
+DURATION:PT2H
+SUMMARY:MBCA A'veen M14-2 - Tracks Parkstad M14-1
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492527
+LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510706@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261211T210000
+DURATION:PT2H
+SUMMARY:BC Titans MSE-1 - Tracks Parkstad MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510706
+LOCATION:Sporthal Vie\, Vieboulevard 21\, 6461ND KERKRADE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494677@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X12-2 - Fanatics '71 X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494677
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497079@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X14-2 - BC Kimbria X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497079
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502453@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T133000
+DURATION:PT2H
+SUMMARY:Basketbal Academie Limburg M18-3 - Tracks Parkstad M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502453
+LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504380@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T133000
+DURATION:PT2H
+SUMMARY:BC LIESHOUT VSE-1 - Tracks Parkstad VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504380
+LOCATION:De Klumper\, Papenhoef 2\, 5737BS LIESHOUT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496146@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T134500
+DURATION:PT2H
+SUMMARY:B.O.B. X14-1 - Tracks Parkstad X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496146
+LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502887@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M22-1 - Hurricanes M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502887
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492530@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T163000
+DURATION:PT2H
+SUMMARY:BC Triple ThreaT M14-2 - Tracks Parkstad M14-1
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492530
+LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506216@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T164500
+DURATION:PT2H
+SUMMARY:Hot Pepper Heat M19-1 - Tracks Parkstad M19-1
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506216
+LOCATION:Dorpshuis Zwanenburg Halfweg\, Dennenlaan 133 A\, 1161CN ZWANENBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502744@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T180000
+DURATION:PT2H
+SUMMARY:Akros V22-1 - Tracks Parkstad V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502744
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495366@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T130000
+DURATION:PT2H
+SUMMARY:Celeritas-Donar M16-1 - Tracks Parkstad M16-1
+DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 495366
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499744@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T160000
+DURATION:PT2H
+SUMMARY:Venlo Sport Crusaders M16-1 - Tracks Parkstad M16-3
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499744
+LOCATION:Egerbos II\, Drie Decembersingel 34\, 5922BD VENLO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510711@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T000000
+DURATION:PT2H
+SUMMARY:Basketbal Academie Limburg MSE-3 - Tracks Parkstad MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510711
+LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492644@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M14-1 - Northside Ballers Amsterdam M14-1
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492644
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506265@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M19-1 - BC APOLLO Amsterdam M19-2
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506265
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504385@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T201500
+DURATION:PT2H
+SUMMARY:OBC VSE-1 - Tracks Parkstad VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504385
+LOCATION:De Ruivert\, de Ruivert 3\, 5342CM OSS
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492535@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M14-1 - Almere Pioneers M14-1
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492535
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504394@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad VSE-1 - Maastricht Knights VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504394
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506217@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M19-1 - WBB Giants M19-1
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506217
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510720@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T160000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad MSE-1 - BC Heeze MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510720
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492537@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T000000
+DURATION:PT2H
+SUMMARY:High Five M14-1 - Tracks Parkstad M14-1
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492537
+LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504399@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad VSE-1 - Achilles '71 VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504399
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510725@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T160000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad MSE-1 - Vido MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510725
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506223@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270124T150000
+DURATION:PT2H
+SUMMARY:BV Groningen M19-1 - Tracks Parkstad M19-1
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506223
+LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492651@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T000000
+DURATION:PT2H
+SUMMARY:Crackerjacks M14-1 - Tracks Parkstad M14-1
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492651
+LOCATION:Zielhorst\, Trompetstraat 3\, 3822CK AMERSFOORT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506273@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T190000
+DURATION:PT2H
+SUMMARY:De Dunckers M19-1 - Tracks Parkstad M19-1
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506273
+LOCATION:Dudok Arena\, Arena 303\, 1213NW HILVERSUM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510730@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T191500
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-2 - Tracks Parkstad MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510730
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504404@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270131T000000
+DURATION:PT2H
+SUMMARY:Dunatos VSE-1 - Tracks Parkstad VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504404
+LOCATION:Marsana\, Molenveldweg 4\, 6231RX MEERSSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492658@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M14-1 - De Dunckers M14-1
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492658
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504409@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad VSE-1 - Trajanum VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504409
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506281@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M19-1 - Basketball Academy Utrecht M19-2 M19-2
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506281
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492543@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270213T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M14-1 - BS Leiden M14-2
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492543
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506225@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270213T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M19-1 - BS Leiden M19-2
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506225
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504414@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270213T143000
+DURATION:PT2H
+SUMMARY:Valkenswaard Falcons VSE-1 - Tracks Parkstad VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504414
+LOCATION:De Wedert\, Past. Heerkensdreef 29\, 5552BG VALKENSWAARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510740@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270213T180000
+DURATION:PT2H
+SUMMARY:Valkenswaard Falcons MSE-2 - Tracks Parkstad MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510740
+LOCATION:De Wedert\, Past. Heerkensdreef 29\, 5552BG VALKENSWAARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492665@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T000000
+DURATION:PT2H
+SUMMARY:Basketbal Academie Limburg M14-1 - Tracks Parkstad M14-1
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492665
+LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504419@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T000000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad VSE-1 - BC Bladel VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504419
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510745@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T000000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad MSE-1 - Jumping Giants MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510745
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506289@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T124000
+DURATION:PT2H
+SUMMARY:MBCA A'veen M19-2 - Tracks Parkstad M19-1
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506289
+LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492545@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270313T000000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M14-1 - GET United M14-1
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492545
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504424@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270313T000000
+DURATION:PT2H
+SUMMARY:High Five VSE-2 - Tracks Parkstad VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504424
+LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506230@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270313T000000
+DURATION:PT2H
+SUMMARY:High Five M19-1 - Tracks Parkstad M19-1
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506230
+LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510750@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270313T160000
+DURATION:PT2H
+SUMMARY:Jumpers '76 MSE-1 - Tracks Parkstad MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510750
+LOCATION:De Wetteling\, Zuidsingel 2\, 5802EG VENRAY
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506233@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270320T000000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M19-1 - GET United M19-2
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506233
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510755@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270320T000000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad MSE-1 - Tantalus MSE-6
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510755
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492549@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270321T103000
+DURATION:PT2H
+SUMMARY:Marathon M14-1 - Tracks Parkstad M14-1
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492549
+LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506297@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270403T000000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M19-1 - Celeritas-Donar M19-1
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506297
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492672@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270404T110000
+DURATION:PT2H
+SUMMARY:BV Groningen M14-1 - Tracks Parkstad M14-1
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492672
+LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510760@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270404T120000
+DURATION:PT2H
+SUMMARY:Venlo Sport Crusaders MSE-1 - Tracks Parkstad MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510760
+LOCATION:Egerbos II\, Drie Decembersingel 34\, 5922BD VENLO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492554@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270410T000000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M14-1 - MBCA A'veen M14-2
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492554
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504439@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270410T000000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad VSE-1 - BC LIESHOUT VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504439
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510765@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270410T000000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad MSE-1 - BC Titans MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510765
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506237@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270410T190000
+DURATION:PT2H
+SUMMARY:Lokomotief M19-2 - Tracks Parkstad M19-1
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506237
+LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

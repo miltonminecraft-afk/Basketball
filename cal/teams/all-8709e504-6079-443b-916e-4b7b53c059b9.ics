@@ -1,0 +1,1060 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BV Penta - alle teams
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-515214@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260830T120000
+DURATION:PT2H
+SUMMARY:Landstede Hammers V14-1 86 - 28 BV Penta V16-1
+DESCRIPTION:Status: Final\nUitslag: 86 - 28\nFOYS wedstrijd-ID: 515214
+LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-515267@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260830T120800
+DURATION:PT2H
+SUMMARY:Landstede Hammers V16-1 - BV Penta V16-1
+DESCRIPTION:Status: Planned\nFOYS wedstrijd-ID: 515267
+LOCATION:
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-515215@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260830T140000
+DURATION:PT2H
+SUMMARY:AFGELAST: Landstede Hammers V16-1 - BV Penta V16-1
+DESCRIPTION:Status: Cancelled\nFOYS wedstrijd-ID: 515215
+LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516575@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260905T173000
+DURATION:PT2H
+SUMMARY:Dyna '75 M22-1 - BV Penta MSE-1
+DESCRIPTION:Status: Planned\nFOYS wedstrijd-ID: 516575
+LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491737@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T100000
+DURATION:PT2H
+SUMMARY:BV Arrows X10-1 23 - 40 BV Penta X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 23 - 40\nFOYS wedstrijd-ID: 491737
+LOCATION:De Doelstien\, Woudweg 142\, 9101VL DOKKUM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501951@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T120000
+DURATION:PT2H
+SUMMARY:BV Arrows M18-1 66 - 71 BV Penta M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 66 - 71\nFOYS wedstrijd-ID: 501951
+LOCATION:De Doelstien\, Woudweg 142\, 9101VL DOKKUM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498558@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T130000
+DURATION:PT2H
+SUMMARY:Celeritas-Donar V18-1 68 - 44 BV Penta V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 68 - 44\nFOYS wedstrijd-ID: 498558
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495085@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T133000
+DURATION:PT2H
+SUMMARY:Dyna '75 X12-1 - BV Penta X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495085
+LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500434@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T140000
+DURATION:PT2H
+SUMMARY:BV Arrows M16-1 81 - 37 BV Penta M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 81 - 37\nFOYS wedstrijd-ID: 500434
+LOCATION:De Doelstien\, Woudweg 142\, 9101VL DOKKUM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507010@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T153000
+DURATION:PT2H
+SUMMARY:De Groene Uilen MSE-3 64 - 58 BV Penta MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Final\nUitslag: 64 - 58\nFOYS wedstrijd-ID: 507010
+LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510128@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T173000
+DURATION:PT2H
+SUMMARY:Bedum Blues MSE-2 51 - 60 BV Penta MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 51 - 60\nFOYS wedstrijd-ID: 510128
+LOCATION:De Beemden\, Sportlaan 14\, 9781CL BEDUM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497208@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T133000
+DURATION:PT2H
+SUMMARY:BV Penta X14-1 - BV Arrows X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497208
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498561@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T133000
+DURATION:PT2H
+SUMMARY:BV Penta V16-1 - BV Leeuwarden V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498561
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510139@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T151500
+DURATION:PT2H
+SUMMARY:BV Penta MSE-2 - HBV Hornets MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510139
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491744@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T170000
+DURATION:PT2H
+SUMMARY:BV Penta X10-1 - BV Exercitia '73 X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491744
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495094@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T170000
+DURATION:PT2H
+SUMMARY:BV Penta X12-1 - HBV Hornets X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495094
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500443@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T184500
+DURATION:PT2H
+SUMMARY:BV Penta M16-1 - HBV Hornets M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500443
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501958@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T184500
+DURATION:PT2H
+SUMMARY:BV Penta M18-1 - HBV Hornets M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501958
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507021@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T203000
+DURATION:PT2H
+SUMMARY:BV Penta MSE-1 - Scylla MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507021
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491747@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T090000
+DURATION:PT2H
+SUMMARY:Celeritas-Donar X10-1 - BV Penta X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491747
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495096@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T100000
+DURATION:PT2H
+SUMMARY:BV Leeuwarden X12-2 - BV Penta X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495096
+LOCATION:Sporthal Julianalaan\, Julianalaan 95 B\, 8931AH LEEUWARDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497210@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T114500
+DURATION:PT2H
+SUMMARY:Dyna '75 X14-2 - BV Penta X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497210
+LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498566@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T120000
+DURATION:PT2H
+SUMMARY:Celeritas-Donar V16-1 - BV Penta V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498566
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510142@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T120000
+DURATION:PT2H
+SUMMARY:BV Leeuwarden MSE-2 - BV Penta MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510142
+LOCATION:Sporthal Julianalaan\, Julianalaan 95 B\, 8931AH LEEUWARDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500446@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T131500
+DURATION:PT2H
+SUMMARY:Celeritas-Donar M16-5 - BV Penta M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500446
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501961@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T133000
+DURATION:PT2H
+SUMMARY:Dyna '75 M18-2 - BV Penta M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501961
+LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507024@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T140000
+DURATION:PT2H
+SUMMARY:BV Leeuwarden MSE-1 - BV Penta MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507024
+LOCATION:Sporthal Julianalaan\, Julianalaan 95 B\, 8931AH LEEUWARDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497215@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T133000
+DURATION:PT2H
+SUMMARY:BV Penta X14-1 - Ceres X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497215
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498569@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T133000
+DURATION:PT2H
+SUMMARY:BV Penta V16-1 - Celeritas-Donar V18-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498569
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510150@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T151500
+DURATION:PT2H
+SUMMARY:BV Penta MSE-2 - GSBV Moestasj MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510150
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491751@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T170000
+DURATION:PT2H
+SUMMARY:BV Penta X10-1 - BV Groningen X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491751
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495104@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T170000
+DURATION:PT2H
+SUMMARY:BV Penta X12-1 - Flying Red X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495104
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500452@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T184500
+DURATION:PT2H
+SUMMARY:BV Penta M16-1 - Flying Red M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500452
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501966@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T184500
+DURATION:PT2H
+SUMMARY:BV Penta M18-1 - Flying Red M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501966
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507032@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T203000
+DURATION:PT2H
+SUMMARY:BV Penta MSE-1 - BV Groningen MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507032
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500467@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T133000
+DURATION:PT2H
+SUMMARY:RHINO Basketball M16-1 - BV Penta M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500467
+LOCATION:De Boekhorst\, De Haer 1\, 8431GS OOSTERWOLDE FR
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501979@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T151500
+DURATION:PT2H
+SUMMARY:RHINO Basketball M18-1 - BV Penta M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501979
+LOCATION:De Boekhorst\, De Haer 1\, 8431GS OOSTERWOLDE FR
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495107@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261023T190000
+DURATION:PT2H
+SUMMARY:Arta X12-1 - BV Penta X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495107
+LOCATION:De Waterwijck\, Gagelsweg 25\, 8331CM STEENWIJK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500457@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261023T193000
+DURATION:PT2H
+SUMMARY:Arta M16-1 - BV Penta M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500457
+LOCATION:De Waterwijck\, Gagelsweg 25\, 8331CM STEENWIJK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497219@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T111500
+DURATION:PT2H
+SUMMARY:Green Lions X14-1 - BV Penta X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497219
+LOCATION:Waddenhal\, Westerzeedijk 15\, 8862PK HARLINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498575@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T120000
+DURATION:PT2H
+SUMMARY:Aquila V16-1 - BV Penta V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498575
+LOCATION:Wildervanckhal\, Woortmanslaan 1\, 9648AA WILDERVANK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510155@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T134500
+DURATION:PT2H
+SUMMARY:De Groene Uilen MSE-6 - BV Penta MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510155
+LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501971@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T154500
+DURATION:PT2H
+SUMMARY:Ceres M18-1 - BV Penta M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501971
+LOCATION:Bosbadhal\, Boslaan 30\, 8302AB EMMELOORD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507037@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T181500
+DURATION:PT2H
+SUMMARY:BV Exercitia '73 MSE-1 - BV Penta MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507037
+LOCATION:Sporthal Groote Veen\, Boomgaard 7\, 9761TM EELDE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495114@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T170000
+DURATION:PT2H
+SUMMARY:BV Penta X12-1 - Flying Red X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495114
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497224@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T170000
+DURATION:PT2H
+SUMMARY:BV Penta X14-1 - BV Orca's X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497224
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498577@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T184500
+DURATION:PT2H
+SUMMARY:BV Penta V16-1 - BV Groningen V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498577
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510162@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T184500
+DURATION:PT2H
+SUMMARY:BV Penta MSE-2 - H.S.V. Basketball MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510162
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507044@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T203000
+DURATION:PT2H
+SUMMARY:BV Penta MSE-1 - Celeritas-Donar MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507044
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497228@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261106T190000
+DURATION:PT2H
+SUMMARY:ESBC Menhir X14-2 - BV Penta X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497228
+LOCATION:De Sneker Sporthal\, van Giffenstraat 3\, 8601EX SNEEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498583@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T090000
+DURATION:PT2H
+SUMMARY:Zuidlaren Trojans V16-1 - BV Penta V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498583
+LOCATION:De Zwet\, De Klencke 32\, 9472RN ZUIDLAREN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495118@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T091500
+DURATION:PT2H
+SUMMARY:ESBC Menhir X12-1 - BV Penta X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495118
+LOCATION:Duinterpenhal\, Keizersmantel 1\, 8607GM SNEEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510168@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T120000
+DURATION:PT2H
+SUMMARY:De Groene Uilen MSE-7 - BV Penta MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510168
+LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507050@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T211500
+DURATION:PT2H
+SUMMARY:Jumping Five MSE-1 - BV Penta MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507050
+LOCATION:Sporthal Peize\, Hereweg 1 a\, 9321CL PEIZE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491762@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T151500
+DURATION:PT2H
+SUMMARY:BV Penta X10-1 - H.S.V. Basketball X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491762
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495124@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T170000
+DURATION:PT2H
+SUMMARY:BV Penta X12-1 - BV Leeuwarden X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495124
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498585@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T170000
+DURATION:PT2H
+SUMMARY:BV Penta V16-1 - H.S.V. Basketball V16-2
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498585
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500472@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T184500
+DURATION:PT2H
+SUMMARY:BV Penta M16-1 - ESBC Menhir M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500472
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510174@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T184500
+DURATION:PT2H
+SUMMARY:BV Penta MSE-2 - Celeritas-Donar MSE-5
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510174
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507056@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T203000
+DURATION:PT2H
+SUMMARY:BV Penta MSE-1 - Scylla MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507056
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498591@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T090000
+DURATION:PT2H
+SUMMARY:BV Groningen V16-1 - BV Penta V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498591
+LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491766@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T103000
+DURATION:PT2H
+SUMMARY:BV Dunk X10-1 - BV Penta X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491766
+LOCATION:De Noordster\, Rijksstraatweg 1\, 9801AM ZUIDHORN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507063@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T123000
+DURATION:PT2H
+SUMMARY:BV Groningen MSE-3 - BV Penta MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507063
+LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495129@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T134500
+DURATION:PT2H
+SUMMARY:BV Oaters Joure X12-1 - BV Penta X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495129
+LOCATION:Sportfun\, Sewei 3\, 8501SP JOURE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497236@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T134500
+DURATION:PT2H
+SUMMARY:BV Oaters Joure X14-1 - BV Penta X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497236
+LOCATION:Sportfun\, Sewei 3\, 8501SP JOURE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500478@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T153000
+DURATION:PT2H
+SUMMARY:BV Oaters Joure M16-2 - BV Penta M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500478
+LOCATION:Sportfun\, Sewei 3\, 8501SP JOURE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501987@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T170000
+DURATION:PT2H
+SUMMARY:BV Dunk M18-1 - BV Penta M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501987
+LOCATION:De Noordster\, Rijksstraatweg 1\, 9801AM ZUIDHORN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510181@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T184500
+DURATION:PT2H
+SUMMARY:BV Dunk MSE-1 - BV Penta MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510181
+LOCATION:De Noordster\, Rijksstraatweg 1\, 9801AM ZUIDHORN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510187@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261127T191500
+DURATION:PT2H
+SUMMARY:Five Pack MSE-2 - BV Penta MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510187
+LOCATION:MFC de Wier\, De Telle 21\, 9247BH URETERP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501991@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261127T204500
+DURATION:PT2H
+SUMMARY:ESBC Menhir M18-1 - BV Penta M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501991
+LOCATION:De Sneker Sporthal\, van Giffenstraat 3\, 8601EX SNEEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498596@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T093000
+DURATION:PT2H
+SUMMARY:H.S.V. Basketball V16-2 - BV Penta V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498596
+LOCATION:Scharlakenhof\, Geertsemaweg 3\, 9751XA HAREN GN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491769@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T100000
+DURATION:PT2H
+SUMMARY:BV Leeuwarden X10-1 - BV Penta X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491769
+LOCATION:Sporthal Julianalaan\, Julianalaan 95 B\, 8931AH LEEUWARDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-515207@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T100000
+DURATION:PT2H
+SUMMARY:M&F Security Typhoons'23 X12-2 - BV Penta X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 515207
+LOCATION:Sportcentrum De Kalkwijck\, Nieuweweg 6\, 9603BM HOOGEZAND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497241@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T160000
+DURATION:PT2H
+SUMMARY:BV Groningen X14-4 - BV Penta X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497241
+LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507069@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T191500
+DURATION:PT2H
+SUMMARY:Bedum Blues MSE-1 - BV Penta MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507069
+LOCATION:De Beemden\, Sportlaan 14\, 9781CL BEDUM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497245@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T133000
+DURATION:PT2H
+SUMMARY:BV Penta X14-1 - Arta X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497245
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498597@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T133000
+DURATION:PT2H
+SUMMARY:BV Penta V16-1 - Aquila V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498597
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510193@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T151500
+DURATION:PT2H
+SUMMARY:BV Penta MSE-2 - BV Groningen MSE-5
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510193
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491772@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T170000
+DURATION:PT2H
+SUMMARY:BV Penta X10-1 - Assist X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491772
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495139@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T170000
+DURATION:PT2H
+SUMMARY:BV Penta X12-1 - BV Arrows X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495139
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500488@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T184500
+DURATION:PT2H
+SUMMARY:BV Penta M16-1 - BV Dunk M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500488
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501995@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T184500
+DURATION:PT2H
+SUMMARY:BV Penta M18-1 - Arta M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501995
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507075@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T203000
+DURATION:PT2H
+SUMMARY:BV Penta MSE-1 - Celeritas-Donar MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507075
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510199@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T151500
+DURATION:PT2H
+SUMMARY:BV Penta MSE-2 - Bedum Blues MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510199
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507081@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T203000
+DURATION:PT2H
+SUMMARY:BV Penta MSE-1 - De Groene Uilen MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507081
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510201@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T154500
+DURATION:PT2H
+SUMMARY:HBV Hornets MSE-2 - BV Penta MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510201
+LOCATION:De Hege Fiif\, Van Helsdingenstraat 6\, 9254CE HURDEGARYP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507083@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T203000
+DURATION:PT2H
+SUMMARY:Scylla MSE-2 - BV Penta MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507083
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510210@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T151500
+DURATION:PT2H
+SUMMARY:BV Penta MSE-2 - BV Leeuwarden MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510210
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507092@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T203000
+DURATION:PT2H
+SUMMARY:BV Penta MSE-1 - BV Leeuwarden MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507092
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507096@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T000000
+DURATION:PT2H
+SUMMARY:BV Groningen MSE-2 - BV Penta MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507096
+LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510214@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T134500
+DURATION:PT2H
+SUMMARY:GSBV Moestasj MSE-2 - BV Penta MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510214
+LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510222@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T184500
+DURATION:PT2H
+SUMMARY:BV Penta MSE-2 - De Groene Uilen MSE-6
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510222
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507104@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T203000
+DURATION:PT2H
+SUMMARY:BV Penta MSE-1 - BV Exercitia '73 MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507104
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510227@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270213T190000
+DURATION:PT2H
+SUMMARY:H.S.V. Basketball MSE-2 - BV Penta MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510227
+LOCATION:Scharlakenhof\, Geertsemaweg 3\, 9751XA HAREN GN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507109@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270213T201500
+DURATION:PT2H
+SUMMARY:Celeritas-Donar MSE-2 - BV Penta MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507109
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510234@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T151500
+DURATION:PT2H
+SUMMARY:BV Penta MSE-2 - De Groene Uilen MSE-7
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510234
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507116@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T203000
+DURATION:PT2H
+SUMMARY:BV Penta MSE-1 - Jumping Five MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507116
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507122@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270313T184500
+DURATION:PT2H
+SUMMARY:Scylla MSE-3 - BV Penta MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507122
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510240@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270313T201500
+DURATION:PT2H
+SUMMARY:Celeritas-Donar MSE-5 - BV Penta MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510240
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510246@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270320T151500
+DURATION:PT2H
+SUMMARY:BV Penta MSE-2 - BV Dunk MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510246
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507128@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270320T203000
+DURATION:PT2H
+SUMMARY:BV Penta MSE-1 - BV Groningen MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507128
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510253@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270403T151500
+DURATION:PT2H
+SUMMARY:BV Penta MSE-2 - Five Pack MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510253
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507135@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270403T203000
+DURATION:PT2H
+SUMMARY:BV Penta MSE-1 - Bedum Blues MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507135
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507136@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270410T183000
+DURATION:PT2H
+SUMMARY:Celeritas-Donar MSE-3 - BV Penta MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507136
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510254@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270410T190000
+DURATION:PT2H
+SUMMARY:BV Groningen MSE-5 - BV Penta MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510254
+LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

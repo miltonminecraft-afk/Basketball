@@ -1,0 +1,950 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BV Millwings - alle teams
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-501579@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260905T100000
+DURATION:PT2H
+SUMMARY:BV Millwings M18-1 85 - 38 H.S.V. Basketball M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 85 - 38\nFOYS wedstrijd-ID: 501579
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500171@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260905T114500
+DURATION:PT2H
+SUMMARY:BV Millwings M16-1 44 - 72 M.A.C. M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 44 - 72\nFOYS wedstrijd-ID: 500171
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497370@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T131500
+DURATION:PT2H
+SUMMARY:BV Millwings X14-1 - BV Exercitia '73 X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497370
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511589@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260918T200000
+DURATION:PT2H
+SUMMARY:BV Jahn II MSE-1 - BV Millwings MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511589
+LOCATION:Sportcentrum Bruinsma\, Navolaan 32\, 9501VJ STADSKANAAL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500173@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T100000
+DURATION:PT2H
+SUMMARY:M&F Security Typhoons'23 M16-2 - BV Millwings M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500173
+LOCATION:Sportcentrum De Kalkwijck\, Nieuweweg 6\, 9603BM HOOGEZAND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502058@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T111500
+DURATION:PT2H
+SUMMARY:BV Jahn II M18-1 - BV Millwings M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502058
+LOCATION:Sportcentrum Bruinsma\, Navolaan 32\, 9501VJ STADSKANAAL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501580@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T120000
+DURATION:PT2H
+SUMMARY:BV Leeuwarden M18-1 - BV Millwings M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501580
+LOCATION:Sporthal Julianalaan\, Julianalaan 95 B\, 8931AH LEEUWARDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495149@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T143000
+DURATION:PT2H
+SUMMARY:HBV Falcons X12-1 - BV Millwings X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495149
+LOCATION:Valkenlaan\, Valkenlaan 1\, 7905AA HOOGEVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497376@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T170000
+DURATION:PT2H
+SUMMARY:Flying Red X14-2 - BV Millwings X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497376
+LOCATION:De Hullen\, Ceintuurbaan Zuid 6\, 9301HX RODEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508001@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T203000
+DURATION:PT2H
+SUMMARY:Scylla MSE-4 - BV Millwings MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508001
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495155@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T100000
+DURATION:PT2H
+SUMMARY:BV Millwings X12-1 - BV Dunk X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495155
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497382@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T113000
+DURATION:PT2H
+SUMMARY:BV Millwings X14-1 - BV Dunk X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497382
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500178@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T131500
+DURATION:PT2H
+SUMMARY:BV Millwings M16-1 - HBV Falcons M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500178
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502064@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T150000
+DURATION:PT2H
+SUMMARY:BV Millwings M18-2 - HBV Falcons M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502064
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501584@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T164500
+DURATION:PT2H
+SUMMARY:BV Millwings M18-1 - BV Groningen M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501584
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511595@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T183000
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-2 - Hurricanes Basketball MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511595
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508007@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T201500
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-1 - BV Oaters Joure MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508007
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495162@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T104500
+DURATION:PT2H
+SUMMARY:Assist X12-1 - BV Millwings X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495162
+LOCATION:De Spreng\, Vredeveldseweg 57\, 9404CC ASSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502070@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T104500
+DURATION:PT2H
+SUMMARY:BV Groningen M18-3 - BV Millwings M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502070
+LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500183@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T111500
+DURATION:PT2H
+SUMMARY:BV Jahn II M16-1 - BV Millwings M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500183
+LOCATION:Sportcentrum Bruinsma\, Navolaan 32\, 9501VJ STADSKANAAL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501586@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T111500
+DURATION:PT2H
+SUMMARY:BV Exercitia '73 M18-1 - BV Millwings M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501586
+LOCATION:Sporthal Groote Veen\, Boomgaard 7\, 9761TM EELDE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508014@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T134500
+DURATION:PT2H
+SUMMARY:De Groene Uilen MSE-4 - BV Millwings MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508014
+LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497389@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T153000
+DURATION:PT2H
+SUMMARY:SIETSEMA Highlanders X14-1 - BV Millwings X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497389
+LOCATION:De Mencke\, Sportlaan 4\, 9981JZ UITHUIZEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511602@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T190000
+DURATION:PT2H
+SUMMARY:SIETSEMA Highlanders MSE-1 - BV Millwings MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511602
+LOCATION:De Mencke\, Sportlaan 4\, 9981JZ UITHUIZEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495143@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T151500
+DURATION:PT2H
+SUMMARY:BV Millwings X12-1 - BV Groningen X12-3
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495143
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497415@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T164500
+DURATION:PT2H
+SUMMARY:BV Millwings X14-1 - H.S.V. Basketball X14-3
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497415
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511583@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T183000
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-2 - De Groene Uilen MSE-5
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511583
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507995@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T201500
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-1 - ESBC Menhir MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507995
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495166@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T100000
+DURATION:PT2H
+SUMMARY:BV Millwings X12-1 - Zuidlaren Trojans X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495166
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497393@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T113000
+DURATION:PT2H
+SUMMARY:BV Millwings X14-1 - Zuidlaren Trojans X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497393
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500185@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T131500
+DURATION:PT2H
+SUMMARY:BV Millwings M16-1 - Aquila M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500185
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502073@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T150000
+DURATION:PT2H
+SUMMARY:BV Millwings M18-2 - Assist M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502073
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501589@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T164500
+DURATION:PT2H
+SUMMARY:BV Millwings M18-1 - Celeritas-Donar M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501589
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511606@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T183000
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-2 - Five Pack MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511606
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508018@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T201500
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-1 - Five Pack MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508018
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495171@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T103000
+DURATION:PT2H
+SUMMARY:EBV Mustangs X12-1 - BV Millwings X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495171
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500188@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T103000
+DURATION:PT2H
+SUMMARY:Zuidlaren Trojans M16-1 - BV Millwings M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500188
+LOCATION:De Zwet\, De Klencke 32\, 9472RN ZUIDLAREN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511611@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T120000
+DURATION:PT2H
+SUMMARY:GSBV Moestasj MSE-3 - BV Millwings MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511611
+LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501594@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T123000
+DURATION:PT2H
+SUMMARY:BV Groningen M18-2 - BV Millwings M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501594
+LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497398@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T150000
+DURATION:PT2H
+SUMMARY:Celeritas-Donar X14-3 - BV Millwings X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497398
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508023@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T163000
+DURATION:PT2H
+SUMMARY:Celeritas-Donar MSE-4 - BV Millwings MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508023
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502077@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T171500
+DURATION:PT2H
+SUMMARY:SIETSEMA Highlanders M18-1 - BV Millwings M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502077
+LOCATION:De Mencke\, Sportlaan 4\, 9981JZ UITHUIZEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495177@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T130000
+DURATION:PT2H
+SUMMARY:BV Millwings X12-1 - M&F Security Typhoons'23 X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495177
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500192@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T143000
+DURATION:PT2H
+SUMMARY:BV Millwings M16-1 - Assist M16-3
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500192
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502082@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T161500
+DURATION:PT2H
+SUMMARY:BV Millwings M18-2 - H.S.V. Basketball M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502082
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511617@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T180000
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-2 - M&F Security Typhoons'23 MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511617
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508029@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T194500
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-1 - HBV Hornets MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508029
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495185@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T093000
+DURATION:PT2H
+SUMMARY:H.S.V. Basketball X12-3 - BV Millwings X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495185
+LOCATION:Scharlakenhof\, Geertsemaweg 3\, 9751XA HAREN GN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497412@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T111500
+DURATION:PT2H
+SUMMARY:H.S.V. Basketball X14-2 - BV Millwings X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497412
+LOCATION:Scharlakenhof\, Geertsemaweg 3\, 9751XA HAREN GN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-515183@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T113000
+DURATION:PT2H
+SUMMARY:M&F Security Typhoons'23 MSE-2 - BV Millwings MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 515183
+LOCATION:Sportcentrum De Kalkwijck\, Nieuweweg 6\, 9603BM HOOGEZAND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502088@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T121500
+DURATION:PT2H
+SUMMARY:EBV Mustangs M18-1 - BV Millwings M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502088
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500198@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T130000
+DURATION:PT2H
+SUMMARY:H.S.V. Basketball M16-2 - BV Millwings M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500198
+LOCATION:Scharlakenhof\, Geertsemaweg 3\, 9751XA HAREN GN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501596@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T134500
+DURATION:PT2H
+SUMMARY:Celeritas-Donar M18-2 - BV Millwings M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501596
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508037@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T164500
+DURATION:PT2H
+SUMMARY:Scylla MSE-5 - BV Millwings MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508037
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495188@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T000000
+DURATION:PT2H
+SUMMARY:BV Millwings X12-1 - BV Exercitia '73 X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495188
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500200@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T123000
+DURATION:PT2H
+SUMMARY:BV Millwings M16-1 - M&F Security Typhoons'23 M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500200
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502091@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T141500
+DURATION:PT2H
+SUMMARY:BV Millwings M18-2 - Bedum Blues M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502091
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501598@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T160000
+DURATION:PT2H
+SUMMARY:BV Millwings M18-1 - BV Exercitia '73 M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501598
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511628@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T174500
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-2 - Zuidlaren Trojans MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511628
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508040@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T193000
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-1 - GSBV Moestasj MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508040
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495198@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T114500
+DURATION:PT2H
+SUMMARY:BV Millwings X12-1 - Aquila X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495198
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497425@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T131500
+DURATION:PT2H
+SUMMARY:BV Millwings X14-1 - Aquila X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497425
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502099@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T150000
+DURATION:PT2H
+SUMMARY:BV Millwings M18-2 - Aquila M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502099
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501603@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T164500
+DURATION:PT2H
+SUMMARY:BV Millwings M18-1 - BV Leeuwarden M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501603
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511638@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T183000
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-2 - Assist MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511638
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508050@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T201500
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-1 - Dyna '75 MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508050
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495201@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T093000
+DURATION:PT2H
+SUMMARY:M.A.C. X12-1 - BV Millwings X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495201
+LOCATION:Bredeschool Noord\, Waddenweg 4\, 9933KH DELFZIJL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497428@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T093000
+DURATION:PT2H
+SUMMARY:M.A.C. X14-1 - BV Millwings X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497428
+LOCATION:Bredeschool Noord\, Waddenweg 4\, 9933KH DELFZIJL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502102@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T111500
+DURATION:PT2H
+SUMMARY:M.A.C. M18-1 - BV Millwings M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502102
+LOCATION:Bredeschool Noord\, Waddenweg 4\, 9933KH DELFZIJL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511641@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T130000
+DURATION:PT2H
+SUMMARY:M.A.C. MSE-1 - BV Millwings MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511641
+LOCATION:Bredeschool Noord\, Waddenweg 4\, 9933KH DELFZIJL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501605@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T170000
+DURATION:PT2H
+SUMMARY:H.S.V. Basketball M18-1 - BV Millwings M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501605
+LOCATION:Scharlakenhof\, Geertsemaweg 3\, 9751XA HAREN GN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508053@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T213000
+DURATION:PT2H
+SUMMARY:BV Groningen MSE-4 - BV Millwings MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508053
+LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508060@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270108T204500
+DURATION:PT2H
+SUMMARY:ESBC Menhir MSE-1 - BV Millwings MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508060
+LOCATION:De Sneker Sporthal\, van Giffenstraat 3\, 8601EX SNEEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511648@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T120000
+DURATION:PT2H
+SUMMARY:De Groene Uilen MSE-5 - BV Millwings MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511648
+LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511655@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T183000
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-2 - BV Jahn II MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511655
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508067@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T201500
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-1 - Scylla MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508067
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508073@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T184500
+DURATION:PT2H
+SUMMARY:BV Oaters Joure MSE-1 - BV Millwings MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508073
+LOCATION:Sportfun\, Sewei 3\, 8501SP JOURE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511661@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T193000
+DURATION:PT2H
+SUMMARY:Hurricanes Basketball MSE-1 - BV Millwings MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511661
+LOCATION:De Borgstee\, Dorpshuisweg 36\, 9617EV Harkstede
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511666@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T183000
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-2 - SIETSEMA Highlanders MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511666
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508078@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T201500
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-1 - De Groene Uilen MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508078
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508082@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270205T210000
+DURATION:PT2H
+SUMMARY:Five Pack MSE-1 - BV Millwings MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508082
+LOCATION:MFC de Wier\, De Telle 21\, 9247BH URETERP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511670@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T110000
+DURATION:PT2H
+SUMMARY:Five Pack MSE-3 - BV Millwings MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511670
+LOCATION:MFC de Wier\, De Telle 21\, 9247BH URETERP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511677@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270213T183000
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-2 - GSBV Moestasj MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511677
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508089@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270213T201500
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-1 - Celeritas-Donar MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508089
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511684@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T120000
+DURATION:PT2H
+SUMMARY:M&F Security Typhoons'23 MSE-1 - BV Millwings MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511684
+LOCATION:Sportcentrum De Kalkwijck\, Nieuweweg 6\, 9603BM HOOGEZAND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508096@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T140000
+DURATION:PT2H
+SUMMARY:HBV Hornets MSE-1 - BV Millwings MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508096
+LOCATION:De Hege Fiif\, Van Helsdingenstraat 6\, 9254CE HURDEGARYP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-515194@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270313T000000
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-2 - M&F Security Typhoons'23 MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 515194
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508100@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270313T201500
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-1 - Scylla MSE-5
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508100
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511699@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270320T123000
+DURATION:PT2H
+SUMMARY:Zuidlaren Trojans MSE-1 - BV Millwings MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511699
+LOCATION:De Zwet\, De Klencke 32\, 9472RN ZUIDLAREN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508111@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270320T134500
+DURATION:PT2H
+SUMMARY:GSBV Moestasj MSE-1 - BV Millwings MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508111
+LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511700@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270403T000000
+DURATION:PT2H
+SUMMARY:Assist MSE-1 - BV Millwings MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511700
+LOCATION:De Spreng\, Vredeveldseweg 57\, 9404CC ASSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508112@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270403T190000
+DURATION:PT2H
+SUMMARY:Dyna '75 MSE-2 - BV Millwings MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508112
+LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511710@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270410T183000
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-2 - M.A.C. MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511710
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508122@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270410T201500
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-1 - BV Groningen MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508122
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

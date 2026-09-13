@@ -1,0 +1,1140 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jolly Jumpers - alle teams
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-493801@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260911T190000
+DURATION:PT2H
+SUMMARY:Amical X12-1 40 - 30 Jolly Jumpers X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 40 - 30\nFOYS wedstrijd-ID: 493801
+LOCATION:Diekmanhal\, J.J. van Deinselaan 22\, 7541BR ENSCHEDE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495985@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T103000
+DURATION:PT2H
+SUMMARY:EBV Mustangs V14-1 111 - 7 Jolly Jumpers V14-2
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 111 - 7\nFOYS wedstrijd-ID: 495985
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494123@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T113000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers X12-2 22 - 51 Amical V12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 22 - 51\nFOYS wedstrijd-ID: 494123
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500490@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T133000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers M16-1 56 - 22 Risne Stars M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 56 - 22\nFOYS wedstrijd-ID: 500490
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495987@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T143000
+DURATION:PT2H
+SUMMARY:The Jugglers V14-1 35 - 29 Jolly Jumpers V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 35 - 29\nFOYS wedstrijd-ID: 495987
+LOCATION:Diekmanhal\, J.J. van Deinselaan 22\, 7541BR ENSCHEDE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506306@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T140000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers V21-1 96 - 76 Landstede Hammers V21-1
+DESCRIPTION:Vrouwen U21 Landelijk - V21 Eredivisie\nStatus: Final\nUitslag: 96 - 76\nFOYS wedstrijd-ID: 506306
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506547@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T163000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-2 45 - 61 Nimma Gemina VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Final\nUitslag: 45 - 61\nFOYS wedstrijd-ID: 506547
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506316@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260918T204500
+DURATION:PT2H
+SUMMARY:CBV Binnenland V21-1 - Jolly Jumpers V21-1
+DESCRIPTION:Vrouwen U21 Landelijk - V21 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 506316
+LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494127@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T104500
+DURATION:PT2H
+SUMMARY:Kikkers X12-2 - Jolly Jumpers X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494127
+LOCATION:'t Wooldrik\, 't Wooldrik 1\, 7621AH BORNE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495988@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T113000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers V14-2 - The Jugglers V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495988
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500498@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T150000
+DURATION:PT2H
+SUMMARY:BV Vikings M16-1 - Jolly Jumpers M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500498
+LOCATION:De Kamp\, Dr Albert Schweitzerlaan 1\, 7772EC HARDENBERG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505472@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T163000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-3 - Kikkers VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505472
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506373@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T190000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-1 - Orange Lions Academy VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506373
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506557@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T130000
+DURATION:PT2H
+SUMMARY:BC Utrecht Cangeroes VSE-1 - Jolly Jumpers VSE-2
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506557
+LOCATION:Sporthal Lunetten\, Zwarte Woud 201\, 3524SG UTRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493804@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T140000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers X12-1 - Uitsmijters X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493804
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493809@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T113000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers X12-1 - Kikkers X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493809
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494135@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T131500
+DURATION:PT2H
+SUMMARY:Jolly Jumpers X12-2 - TONEGO '65 X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494135
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495993@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T150000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers V14-2 - Jolly Jumpers V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495993
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516705@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T170000
+DURATION:PT2H
+SUMMARY:D.B.V. Arriba VSE-2 - Jolly Jumpers VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 516705
+LOCATION:Sportcentrum UT\, De Hems 20\, 7522NL ENSCHEDE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506377@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T193000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-1 - GBI van Dijk Grasshoppers VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506377
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506318@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T140000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers V21-1 - BC APOLLO Amsterdam V21-1
+DESCRIPTION:Vrouwen U21 Landelijk - V21 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 506318
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506559@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T163000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-2 - S.B.U. VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506559
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506565@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261002T210000
+DURATION:PT2H
+SUMMARY:EBV Baros VSE-1 - Jolly Jumpers VSE-2
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506565
+LOCATION:Woudestein\, Burgemeester Oudlaan 50\, 3062PA ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494140@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T103000
+DURATION:PT2H
+SUMMARY:The Jugglers X12-2 - Jolly Jumpers X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494140
+LOCATION:Deppenbroek\, Rijnstraat 11\, 7523GD ENSCHEDE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493811@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T123000
+DURATION:PT2H
+SUMMARY:Twente Buzzards X12-1 - Jolly Jumpers X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493811
+LOCATION:Hasseler Es\, Henry Woodstraat 1\, 7558CM HENGELO OV
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495996@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T123000
+DURATION:PT2H
+SUMMARY:Twente Buzzards V14-1 - Jolly Jumpers V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495996
+LOCATION:Hasseler Es\, Henry Woodstraat 1\, 7558CM HENGELO OV
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500505@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T143000
+DURATION:PT2H
+SUMMARY:Twente Buzzards M16-2 - Jolly Jumpers M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500505
+LOCATION:Hasseler Es\, Henry Woodstraat 1\, 7558CM HENGELO OV
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505480@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T160000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-3 - Red Giants VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505480
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506383@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T181500
+DURATION:PT2H
+SUMMARY:Startportaal-Renza Airflow Binnenland VSE-1 - Jolly Jumpers VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506383
+LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506324@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T123000
+DURATION:PT2H
+SUMMARY:BS Leiden V21-1 - Jolly Jumpers V21-1
+DESCRIPTION:Vrouwen U21 Landelijk - V21 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 506324
+LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493814@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T113000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers X12-1 - The Valley Bucketeers X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493814
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494146@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T131500
+DURATION:PT2H
+SUMMARY:Jolly Jumpers X12-2 - The Jugglers X12-3
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494146
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506387@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T190000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-1 - Zorg en Zekerheid VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506387
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506570@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T140000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-2 - GET United VSE-2
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506570
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506329@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T163000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers V21-1 - Lokomotief V21-1
+DESCRIPTION:Vrouwen U21 Landelijk - V21 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 506329
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506391@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T193000
+DURATION:PT2H
+SUMMARY:GET United VSE-1 - Jolly Jumpers VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506391
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505486@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261023T204500
+DURATION:PT2H
+SUMMARY:V.U.A.S. VSE-1 - Jolly Jumpers VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505486
+LOCATION:Sporthal 't Dok\, Educalaan 3\, 8251GC DRONTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495998@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T113000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers V14-2 - Twente Buzzards V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495998
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495999@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T133000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers V14-1 - EBV Mustangs V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495999
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500509@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T153000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers M16-1 - Amical M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500509
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506403@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T190000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-1 - TopKip Lions VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506403
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493817@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T100000
+DURATION:PT2H
+SUMMARY:Kikkers X12-1 - Jolly Jumpers X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493817
+LOCATION:'t Wooldrik\, 't Wooldrik 1\, 7621AH BORNE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500515@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T113000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers M16-1 - Uitsmijters M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500515
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494149@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T123000
+DURATION:PT2H
+SUMMARY:Twente Buzzards X12-2 - Jolly Jumpers X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494149
+LOCATION:Hasseler Es\, Henry Woodstraat 1\, 7558CM HENGELO OV
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496001@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T133000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers V14-1 - Jolly Jumpers V14-2
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496001
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506407@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T190000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-1 - BC Triple ThreaT VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506407
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506578@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T210000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-2 - Utrecht Bull's VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506578
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506337@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T140000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers V21-1 - Basketball Academy Utrecht V21-1 V21-1
+DESCRIPTION:Vrouwen U21 Landelijk - V21 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 506337
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506342@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261106T204500
+DURATION:PT2H
+SUMMARY:GBI van Dijk Grasshoppers V21-1 - Jolly Jumpers V21-1
+DESCRIPTION:Vrouwen U21 Landelijk - V21 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 506342
+LOCATION:Cleyn Duin\, Stadhoudersdreef 1\, 2224BN KATWIJK ZH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494157@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T113000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers X12-2 - Peatminers X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494157
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505494@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T163000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-3 - The Valley Bucketeers VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505494
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500520@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T180000
+DURATION:PT2H
+SUMMARY:TONEGO '65 M16-1 - Jolly Jumpers M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500520
+LOCATION:De Els\, Trompstraat 20\, 7482VX HAAKSBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506414@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T190000
+DURATION:PT2H
+SUMMARY:Den Helder Suns VSE-1 - Jolly Jumpers VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506414
+LOCATION:Sportcentrum Quelderduijn\, Schootenweg 2\, 1785LV DEN HELDER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506583@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T173000
+DURATION:PT2H
+SUMMARY:BV Amsterdam VSE-1 - Jolly Jumpers VSE-2
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506583
+LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493821@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T090000
+DURATION:PT2H
+SUMMARY:The Valley Bucketeers X12-1 - Jolly Jumpers X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493821
+LOCATION:Het Ravijn\, Piet Heinweg 18\, 7441GZ NIJVERDAL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496003@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T103000
+DURATION:PT2H
+SUMMARY:EBV Mustangs V14-1 - Jolly Jumpers V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496003
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496005@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T123000
+DURATION:PT2H
+SUMMARY:Twente Buzzards V14-1 - Jolly Jumpers V14-2
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496005
+LOCATION:Hasseler Es\, Henry Woodstraat 1\, 7558CM HENGELO OV
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506590@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T190000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-2 - BC Shooters VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506590
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494163@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T100000
+DURATION:PT2H
+SUMMARY:Uitsmijters X12-3 - Jolly Jumpers X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494163
+LOCATION:IISPA Breedtesporthal\, Stadionlaan 60\, 7606JZ ALMELO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506349@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T140000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers V21-1 - Basketbal Academie Limburg V21-1
+DESCRIPTION:Vrouwen U21 Landelijk - V21 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 506349
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493823@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T113000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers X12-1 - Twente Buzzards X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493823
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500530@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T124500
+DURATION:PT2H
+SUMMARY:Kikkers M16-2 - Jolly Jumpers M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500530
+LOCATION:'t Wooldrik\, 't Wooldrik 1\, 7621AH BORNE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496008@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T131500
+DURATION:PT2H
+SUMMARY:Jolly Jumpers V14-1 - Twente Buzzards V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496008
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506355@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T140000
+DURATION:PT2H
+SUMMARY:Celeritas-Donar V21-1 - Jolly Jumpers V21-1
+DESCRIPTION:Vrouwen U21 Landelijk - V21 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 506355
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505502@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T173000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-3 - Twente Buzzards VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505502
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506596@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T180000
+DURATION:PT2H
+SUMMARY:High Five VSE-1 - Jolly Jumpers VSE-2
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506596
+LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494168@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T140000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers X12-2 - The Valley Bucketeers V12-3
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494168
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506418@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T170000
+DURATION:PT2H
+SUMMARY:Orange Lions Academy VSE-1 - Jolly Jumpers VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506418
+LOCATION:Sporthallen Zuid\, Burgerweeshuispad 54\, 1076EP AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494177@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T090000
+DURATION:PT2H
+SUMMARY:Uitsmijters X12-4 - Jolly Jumpers X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494177
+LOCATION:IISPA Breedtesporthal\, Stadionlaan 60\, 7606JZ ALMELO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493827@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T134500
+DURATION:PT2H
+SUMMARY:Uitsmijters X12-2 - Jolly Jumpers X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493827
+LOCATION:IISPA Breedtesporthal\, Stadionlaan 60\, 7606JZ ALMELO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496011@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T143000
+DURATION:PT2H
+SUMMARY:The Jugglers V14-1 - Jolly Jumpers V14-2
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496011
+LOCATION:Deppenbroek\, Rijnstraat 11\, 7523GD ENSCHEDE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505504@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T143000
+DURATION:PT2H
+SUMMARY:Twente Buzzards VSE-3 - Jolly Jumpers VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505504
+LOCATION:Hasseler Es\, Henry Woodstraat 1\, 7558CM HENGELO OV
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506602@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T190000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-2 - Trajanum VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506602
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506425@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T191500
+DURATION:PT2H
+SUMMARY:GBI van Dijk Grasshoppers VSE-1 - Jolly Jumpers VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506425
+LOCATION:Cleyn Duin\, Stadhoudersdreef 1\, 2224BN KATWIJK ZH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506361@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T153000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers V21-1 - BC Triple ThreaT V21-1
+DESCRIPTION:Vrouwen U21 Landelijk - V21 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 506361
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506427@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T190000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-1 - Comfective Hammers VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506427
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493828@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T113000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers X12-1 - Amical X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493828
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494179@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T131500
+DURATION:PT2H
+SUMMARY:Jolly Jumpers X12-2 - Amical X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494179
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496012@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T150000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers V14-2 - EBV Mustangs V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496012
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505509@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T170000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-3 - Amical VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505509
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506609@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T203000
+DURATION:PT2H
+SUMMARY:River Trotters VSE-1 - Jolly Jumpers VSE-2
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506609
+LOCATION:De Wielewaal\, Cornelisweer 2\, 3371PH HARDINXVELD-GIESSENDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496013@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T140000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers V14-1 - The Jugglers V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496013
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500541@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T143000
+DURATION:PT2H
+SUMMARY:The Jugglers M16-3 - Jolly Jumpers M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500541
+LOCATION:Deppenbroek\, Rijnstraat 11\, 7523GD ENSCHEDE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506368@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T160000
+DURATION:PT2H
+SUMMARY:Den Helder Suns V21-1 - Jolly Jumpers V21-1
+DESCRIPTION:Vrouwen U21 Landelijk - V21 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 506368
+LOCATION:Sportcentrum Quelderduijn\, Schootenweg 2\, 1785LV DEN HELDER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506432@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T160000
+DURATION:PT2H
+SUMMARY:Zorg en Zekerheid VSE-1 - Jolly Jumpers VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506432
+LOCATION:Sportcomplex 1574\, Telderskade 399\, 2321TR LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516783@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261220T153000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers V21-1 - BC Triple ThreaT V21-1
+DESCRIPTION:Vrouwen U21 (Basketball Cup) - Groepsfase\nStatus: Planned\nFOYS wedstrijd-ID: 516783
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505513@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T163000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-3 - Uitsmijters VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505513
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506438@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T190000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-1 - GET United VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506438
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506616@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270110T163000
+DURATION:PT2H
+SUMMARY:Nimma Gemina VSE-1 - Jolly Jumpers VSE-2
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506616
+LOCATION:Ark van Oost\, Cipresstraat 154\, 6523HR NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505517@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T110000
+DURATION:PT2H
+SUMMARY:Kikkers VSE-1 - Jolly Jumpers VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505517
+LOCATION:'t Wooldrik\, 't Wooldrik 1\, 7621AH BORNE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506443@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T190000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-1 - Startportaal-Renza Airflow Binnenland VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506443
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506619@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T210000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-2 - BC Utrecht Cangeroes VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506619
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516714@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T190000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-3 - D.B.V. Arriba VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 516714
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506449@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T193000
+DURATION:PT2H
+SUMMARY:TopKip Lions VSE-1 - Jolly Jumpers VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506449
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506624@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270124T130000
+DURATION:PT2H
+SUMMARY:S.B.U. VSE-1 - Jolly Jumpers VSE-2
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506624
+LOCATION:Sportcentrum Olympos\, Uppsalalaan 3\, 3584CT UTRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505525@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T153000
+DURATION:PT2H
+SUMMARY:Red Giants VSE-1 - Jolly Jumpers VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505525
+LOCATION:Sporthal Ezinge\, Ezingerweg 58\, 7943AZ MEPPEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506630@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T190000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-2 - EBV Baros VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506630
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506454@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T210000
+DURATION:PT2H
+SUMMARY:BC Triple ThreaT VSE-1 - Jolly Jumpers VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506454
+LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506641@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T110000
+DURATION:PT2H
+SUMMARY:GET United VSE-2 - Jolly Jumpers VSE-2
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506641
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505529@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T163000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-3 - V.U.A.S. VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505529
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506457@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T190000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-1 - Den Helder Suns VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506457
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506642@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270213T203000
+DURATION:PT2H
+SUMMARY:Utrecht Bull's VSE-1 - Jolly Jumpers VSE-2
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506642
+LOCATION:Galgenwaard\, Herculesplein 341\, 3584AA UTRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506396@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270221T140000
+DURATION:PT2H
+SUMMARY:Comfective Hammers VSE-1 - Jolly Jumpers VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506396
+LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505538@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270226T210000
+DURATION:PT2H
+SUMMARY:The Valley Bucketeers VSE-1 - Jolly Jumpers VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505538
+LOCATION:Het Ravijn\, Piet Heinweg 18\, 7441GZ NIJVERDAL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506650@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T210000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-2 - BV Amsterdam VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506650
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506655@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270313T000000
+DURATION:PT2H
+SUMMARY:BC Shooters VSE-1 - Jolly Jumpers VSE-2
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506655
+LOCATION:De Kuil\, Torenvalk 47\, 3752SJ BUNSCHOTEN-SPAKENBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505544@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270320T163000
+DURATION:PT2H
+SUMMARY:Twente Buzzards VSE-2 - Jolly Jumpers VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505544
+LOCATION:Hasseler Es\, Henry Woodstraat 1\, 7558CM HENGELO OV
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506662@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270320T210000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-2 - High Five VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506662
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505550@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270403T163000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-3 - Twente Buzzards VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505550
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506668@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270403T170000
+DURATION:PT2H
+SUMMARY:Trajanum VSE-1 - Jolly Jumpers VSE-2
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506668
+LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505553@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270409T210000
+DURATION:PT2H
+SUMMARY:Amical VSE-1 - Jolly Jumpers VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505553
+LOCATION:Diekmanhal\, J.J. van Deinselaan 22\, 7541BR ENSCHEDE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506674@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270410T210000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-2 - River Trotters VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506674
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505467@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270430T171500
+DURATION:PT2H
+SUMMARY:Uitsmijters VSE-1 - Jolly Jumpers VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505467
+LOCATION:IISPA Breedtesporthal\, Stadionlaan 60\, 7606JZ ALMELO
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,1680 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:B.V. Batouwe - alle teams
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-515244@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260905T160000
+DURATION:PT2H
+SUMMARY:WYBA basketbalvereniging V14-1 - B.V. Batouwe V14-1
+DESCRIPTION:Status: Planned\nFOYS wedstrijd-ID: 515244
+LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493113@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T093000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X12-1 23 - 55 High Five X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 23 - 55\nFOYS wedstrijd-ID: 493113
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495865@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T093000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe V14-1 - OBC V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495865
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493029@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T111500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe V12-1 - WYBA basketbalvereniging V12-1
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493029
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496081@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T111500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X14-1 - B.O.B. X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496081
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493892@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T130000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X12-3 22 - 73 WYBA basketbalvereniging X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 22 - 73\nFOYS wedstrijd-ID: 493892
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502217@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T130000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M18-2 61 - 47 Challenge M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 61 - 47\nFOYS wedstrijd-ID: 502217
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492131@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T144500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X10-1 81 - 31 OBC X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 81 - 31\nFOYS wedstrijd-ID: 492131
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503175@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T144500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M22-1 49 - 77 WYBA basketbalvereniging M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 49 - 77\nFOYS wedstrijd-ID: 503175
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491708@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T163000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X10-3 13 - 42 Pigeons X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 13 - 42\nFOYS wedstrijd-ID: 491708
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497001@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T163000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X14-2 24 - 86 Challenge X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 24 - 86\nFOYS wedstrijd-ID: 497001
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509030@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T180000
+DURATION:PT2H
+SUMMARY:WSV MSE-1 47 - 49 B.V. Batouwe MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nUitslag: 47 - 49\nFOYS wedstrijd-ID: 509030
+LOCATION:WSV Sporthal\, De Voorwaarts 450\, 7321MG APELDOORN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500390@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T183000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M16-3 73 - 63 Gennep Cougars M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 73 - 63\nFOYS wedstrijd-ID: 500390
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501192@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T183000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M18-1 66 - 102 Heroes Den Bosch M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 66 - 102\nFOYS wedstrijd-ID: 501192
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492132@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T103000
+DURATION:PT2H
+SUMMARY:Vlijmscherp SVH X10-1 35 - 22 B.V. Batouwe X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 35 - 22\nFOYS wedstrijd-ID: 492132
+LOCATION:Die Heygrave\, Burgemeester Zwaansweg 4\, 5251CJ VLIJMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491651@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T123000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X10-4 31 - 19 Challenge X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 31 - 19\nFOYS wedstrijd-ID: 491651
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497438@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T143000
+DURATION:PT2H
+SUMMARY:Nimma Gemina X14-4 33 - 64 B.V. Batouwe X14-3
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 33 - 64\nFOYS wedstrijd-ID: 497438
+LOCATION:Ark van Oost\, Cipresstraat 154\, 6523HR NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491711@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T093000
+DURATION:PT2H
+SUMMARY:Arnhem Eagles X10-2 - B.V. Batouwe X10-3
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491711
+LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492134@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T093000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X10-2 - B.V. Batouwe X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492134
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497439@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T093000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X14-3 - UNLIMITED X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497439
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495869@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T094500
+DURATION:PT2H
+SUMMARY:BCE'78 V14-1 - B.V. Batouwe V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495869
+LOCATION:De Peppel\, Peppelensteeg 1 a\, 6715CV EDE GLD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509031@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T111500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe MSE-1 - Challenge MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509031
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497004@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T113000
+DURATION:PT2H
+SUMMARY:Challenge X14-2 - B.V. Batouwe X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497004
+LOCATION:De Tinnegieter\, Leigraaf 2\, 6641DH BEUNINGEN GLD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491654@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T120000
+DURATION:PT2H
+SUMMARY:WYBA basketbalvereniging X10-1 - B.V. Batouwe X10-4
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491654
+LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498769@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T131500
+DURATION:PT2H
+SUMMARY:Woodpeckers M16-1 - B.V. Batouwe M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498769
+LOCATION:De Slinger\, Kamillehof 24\, 3991GZ HOUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496087@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X14-1 - B.V. Batouwe X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496087
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493895@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T150000
+DURATION:PT2H
+SUMMARY:Pluto X12-2 - B.V. Batouwe X12-3
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493895
+LOCATION:Tarthorst\, Tarthorst 152\, 6708JD WAGENINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501197@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T150000
+DURATION:PT2H
+SUMMARY:Woodpeckers M18-1 - B.V. Batouwe M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501197
+LOCATION:De Slinger\, Kamillehof 24\, 3991GZ HOUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503178@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T150000
+DURATION:PT2H
+SUMMARY:Attacus M22-1 - B.V. Batouwe M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503178
+LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502222@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T160000
+DURATION:PT2H
+SUMMARY:WYBA basketbalvereniging M18-2 - B.V. Batouwe M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502222
+LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493118@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T111500
+DURATION:PT2H
+SUMMARY:New Stars X12-1 - B.V. Batouwe X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493118
+LOCATION:Sporthal De Waterlelie\, Heemraadsweide 13\, 3437CA NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493032@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 V12-1 - B.V. Batouwe V12-1
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493032
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492138@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T090000
+DURATION:PT2H
+SUMMARY:The Black Eagles X10-1 - B.V. Batouwe X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492138
+LOCATION:De Hazelaar\, T.M. Kortenhorstlaan 6\, 5244GD ROSMALEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493123@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T093000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X12-1 - Nimma Gemina X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493123
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495873@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T093000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe V14-1 - WSV V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495873
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493034@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T111500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe V12-1 - Yellow Sox V12-1
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493034
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496093@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T111500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X14-1 - Lokomotief X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496093
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493897@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T130000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X12-3 - Arnhem Eagles X12-3
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493897
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500398@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T130000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M16-3 - Akros M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500398
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497446@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T131500
+DURATION:PT2H
+SUMMARY:Dedein X14-1 - B.V. Batouwe X14-3
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497446
+LOCATION:'t Raland\, Reinskamp 2\, 6942RZ DIDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491713@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T144500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X10-3 - Arnhem Eagles X10-3
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491713
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501202@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T144500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M18-1 - High Five M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501202
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497006@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T163000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X14-2 - Nimma Gemina X14-3
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497006
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498775@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T163000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M16-1 - Tracks Parkstad M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498775
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502248@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T180000
+DURATION:PT2H
+SUMMARY:Give and Go M18-1 - B.V. Batouwe M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502248
+LOCATION:Sporthal Stationsplein\, Landbouwstraat 1\, 7122VM AALTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492136@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T123000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X10-1 - Arnhem Eagles X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492136
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503180@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T141500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M22-1 - Eindhoven Lumineers M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503180
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492141@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T090000
+DURATION:PT2H
+SUMMARY:OBC X10-1 - B.V. Batouwe X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492141
+LOCATION:De Ruivert\, de Ruivert 3\, 5342CM OSS
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493038@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T093000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe V12-1 - Arnhem Eagles V12-1
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493038
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493129@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T093000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X12-1 - Arnhem Eagles X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493129
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495879@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T111500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe V14-1 - Pluto V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495879
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496100@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T111500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X14-1 - HBV The Jumpers X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496100
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491662@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T131500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X10-4 - Pluto X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491662
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492140@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T150000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X10-1 - The Black Eagles X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492140
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502233@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T150000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M18-2 - Dedein M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502233
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500401@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T160000
+DURATION:PT2H
+SUMMARY:WYBA basketbalvereniging M16-2 - B.V. Batouwe M16-3
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500401
+LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493901@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T164500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X12-3 - Challenge X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493901
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498782@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T164500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M16-1 - Pluto M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498782
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501208@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T183000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M18-1 - Arnhem Eagles M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501208
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509041@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T183000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe MSE-1 - Trajanum MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509041
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491717@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T122000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X10-3 - UNLIMITED X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491717
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497010@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T122000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X14-2 - Give and Go X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497010
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497451@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T140500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X14-3 - Pigeons X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497451
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503184@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T140500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M22-1 - Arnhem Eagles M22-2
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503184
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497459@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T090000
+DURATION:PT2H
+SUMMARY:BeCeGe '74 X14-2 - B.V. Batouwe X14-3
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497459
+LOCATION:De Bongerd\, de Bongerd 81\, 7006NH DOETINCHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492144@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T093000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X10-2 - Arnhem Eagles X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492144
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503186@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T123000
+DURATION:PT2H
+SUMMARY:BeCeGe '74 M22-1 - B.V. Batouwe M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503186
+LOCATION:De Bongerd\, de Bongerd 81\, 7006NH DOETINCHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509047@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T133000
+DURATION:PT2H
+SUMMARY:Wildcats MSE-2 - B.V. Batouwe MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509047
+LOCATION:De Horstacker\, Horstacker 1401\, 6546EK NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493040@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T144500
+DURATION:PT2H
+SUMMARY:BC Bladel V12-1 - B.V. Batouwe V12-1
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493040
+LOCATION:Sporthal X-Sport\, Lange Trekken 32\, 5531PZ BLADEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497012@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T160000
+DURATION:PT2H
+SUMMARY:BeCeGe '74 X14-1 - B.V. Batouwe X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497012
+LOCATION:De Bongerd\, de Bongerd 81\, 7006NH DOETINCHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491665@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T093000
+DURATION:PT2H
+SUMMARY:Nimma Gemina X10-1 - B.V. Batouwe X10-4
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491665
+LOCATION:Ark van Oost\, Cipresstraat 154\, 6523HR NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501213@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T110000
+DURATION:PT2H
+SUMMARY:Nimma Gemina M18-1 - B.V. Batouwe M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501213
+LOCATION:Ark van Oost\, Cipresstraat 154\, 6523HR NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492142@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T121500
+DURATION:PT2H
+SUMMARY:Vlijmscherp SVH X10-1 - B.V. Batouwe X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492142
+LOCATION:Die Heygrave\, Burgemeester Zwaansweg 4\, 5251CJ VLIJMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502237@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T130000
+DURATION:PT2H
+SUMMARY:Pluto M18-2 - B.V. Batouwe M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502237
+LOCATION:Tarthorst\, Tarthorst 152\, 6708JD WAGENINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496106@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T180000
+DURATION:PT2H
+SUMMARY:Achilles '71 X14-1 - B.V. Batouwe X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496106
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495883@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T164500
+DURATION:PT2H
+SUMMARY:Arnhem Eagles V14-2 - B.V. Batouwe V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495883
+LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498788@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261025T123000
+DURATION:PT2H
+SUMMARY:Arnhem Eagles M16-1 - B.V. Batouwe M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498788
+LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493139@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T093000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X12-1 - Woodpeckers X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493139
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495887@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T093000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe V14-1 - Challenge V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495887
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493043@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T104500
+DURATION:PT2H
+SUMMARY:Yellow Sox V12-1 - B.V. Batouwe V12-1
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493043
+LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491669@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T111500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X10-4 - Challenge X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491669
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496112@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T111500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X14-1 - CBV Binnenland X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496112
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502243@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T130000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M18-2 - BeCeGe '74 M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502243
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500409@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T140000
+DURATION:PT2H
+SUMMARY:BeCeGe '74 M16-1 - B.V. Batouwe M16-3
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500409
+LOCATION:De Bongerd\, de Bongerd 81\, 7006NH DOETINCHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492146@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T144500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X10-2 - The Black Eagles X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492146
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501218@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T144500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M18-1 - Basketbal Academie Limburg M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501218
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491722@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T153000
+DURATION:PT2H
+SUMMARY:Arnhem Eagles X10-3 - B.V. Batouwe X10-3
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491722
+LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493906@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T153000
+DURATION:PT2H
+SUMMARY:Arnhem Eagles X12-3 - B.V. Batouwe X12-3
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493906
+LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497463@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T164500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X14-3 - Give and Go X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497463
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509051@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T164500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe MSE-1 - WYBA basketbalvereniging MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509051
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498794@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T184500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M16-1 - Marathon M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498794
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492145@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T110000
+DURATION:PT2H
+SUMMARY:Arnhem Eagles X10-1 - B.V. Batouwe X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492145
+LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497015@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T110000
+DURATION:PT2H
+SUMMARY:Nimma Gemina X14-3 - B.V. Batouwe X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497015
+LOCATION:Ark van Oost\, Cipresstraat 154\, 6523HR NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503189@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T140000
+DURATION:PT2H
+SUMMARY:Eindhoven Lumineers M22-1 - B.V. Batouwe M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503189
+LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491673@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T100000
+DURATION:PT2H
+SUMMARY:BCE'78 X10-1 - B.V. Batouwe X10-4
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491673
+LOCATION:De Peppel\, Peppelensteeg 1 a\, 6715CV EDE GLD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493145@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T100000
+DURATION:PT2H
+SUMMARY:Almere Pioneers X12-1 - B.V. Batouwe X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493145
+LOCATION:Almere Haven\, Parkwerf 138\, 1354EB ALMERE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496119@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T110000
+DURATION:PT2H
+SUMMARY:Divine X14-1 - B.V. Batouwe X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496119
+LOCATION:Sporthal Oostervant\, Oostervantstraat 25\, 3021PT ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500413@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T113000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M16-3 - Nimma Gemina M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500413
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495892@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T140000
+DURATION:PT2H
+SUMMARY:WYBA basketbalvereniging V14-1 - B.V. Batouwe V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495892
+LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497472@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T140000
+DURATION:PT2H
+SUMMARY:Pigeons X14-1 - B.V. Batouwe X14-3
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497472
+LOCATION:Triominos\, Eltensestraat 4\, 6922JB DUIVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509058@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T160000
+DURATION:PT2H
+SUMMARY:Pigeons MSE-2 - B.V. Batouwe MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509058
+LOCATION:Triominos\, Eltensestraat 4\, 6922JB DUIVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493903@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T150000
+DURATION:PT2H
+SUMMARY:UNLIMITED X12-1 - B.V. Batouwe X12-3
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493903
+LOCATION:De Helster\, Schubertstraat 1\, 6661AW Elst
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501224@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T150000
+DURATION:PT2H
+SUMMARY:The Black Eagles M18-1 - B.V. Batouwe M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501224
+LOCATION:De Hazelaar\, T.M. Kortenhorstlaan 6\, 5244GD ROSMALEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493047@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T093000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe V12-1 - BC Bladel V12-1
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493047
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493148@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T093000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X12-1 - Crackerjacks X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493148
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492148@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T100000
+DURATION:PT2H
+SUMMARY:Arnhem Eagles X10-1 - B.V. Batouwe X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492148
+LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502253@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T111500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M18-2 - Pigeons M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502253
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492149@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T130000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X10-1 - Vlijmscherp SVH X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492149
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493910@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T130000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X12-3 - UNLIMITED X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493910
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496124@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T144500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X14-1 - The Black Eagles X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496124
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503193@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T144500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M22-1 - BeCeGe '74 M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503193
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497475@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T164500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X14-3 - Hanze Stars X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497475
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500419@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T164500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M16-3 - Joy-M M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500419
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497019@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T123000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X14-2 - BeCeGe '74 X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497019
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498806@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T123000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M16-1 - Biks Shots M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498806
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509061@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T143000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe MSE-1 - Gennep Cougars MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509061
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492152@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T090000
+DURATION:PT2H
+SUMMARY:The Black Eagles X10-1 - B.V. Batouwe X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492152
+LOCATION:De Hazelaar\, T.M. Kortenhorstlaan 6\, 5244GD ROSMALEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491679@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T093000
+DURATION:PT2H
+SUMMARY:OBC X10-2 - B.V. Batouwe X10-4
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491679
+LOCATION:De Ruivert\, de Ruivert 3\, 5342CM OSS
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493913@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T100000
+DURATION:PT2H
+SUMMARY:Challenge X12-1 - B.V. Batouwe X12-3
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493913
+LOCATION:De Tinnegieter\, Leigraaf 2\, 6641DH BEUNINGEN GLD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492153@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T130000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X10-2 - OBC X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492153
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497485@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T141500
+DURATION:PT2H
+SUMMARY:B.V. Isala X14-2 - B.V. Batouwe X14-3
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497485
+LOCATION:De Kroon\, Koningin Wilhelminalaan 11\, 7415KP DEVENTER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497022@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T143000
+DURATION:PT2H
+SUMMARY:Give and Go X14-1 - B.V. Batouwe X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497022
+LOCATION:Sporthal Stationsplein\, Landbouwstraat 1\, 7122VM AALTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498814@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T154500
+DURATION:PT2H
+SUMMARY:E.B.C.G. M16-1 - B.V. Batouwe M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498814
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501235@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T154500
+DURATION:PT2H
+SUMMARY:E.B.C.G. M18-1 - B.V. Batouwe M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501235
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496132@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T100000
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal X14-1 - B.V. Batouwe X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496132
+LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493050@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T110000
+DURATION:PT2H
+SUMMARY:Arnhem Eagles V12-1 - B.V. Batouwe V12-1
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493050
+LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491729@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T111500
+DURATION:PT2H
+SUMMARY:UNLIMITED X10-1 - B.V. Batouwe X10-3
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491729
+LOCATION:De Helster\, Schubertstraat 1\, 6661AW Elst
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502259@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T123000
+DURATION:PT2H
+SUMMARY:Arnhem Eagles M18-3 - B.V. Batouwe M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502259
+LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503196@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T150000
+DURATION:PT2H
+SUMMARY:Arnhem Eagles M22-2 - B.V. Batouwe M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503196
+LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493159@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T093000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X12-1 - BC Eindhoven X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493159
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495903@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T093000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe V14-1 - Gennep Cougars V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495903
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493053@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T111500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe V12-1 - Achilles '71 V12-1
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493053
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497025@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T111500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X14-2 - Challenge X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497025
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493916@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T130000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X12-3 - Pluto X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493916
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496136@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T130000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X14-1 - High Five X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496136
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491732@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T144500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X10-3 - Arnhem Eagles X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491732
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497487@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T163000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X14-3 - Green Wolves X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497487
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500428@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T163000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M16-3 - Wildcats M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500428
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498818@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T183000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M16-1 - Barons Breda Basketball M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498818
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509071@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T183000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe MSE-1 - Nimma Gemina MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509071
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492155@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T123000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X10-1 - B.V. Batouwe X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492155
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501237@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T123000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M18-1 - Pluto M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501237
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503199@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T141500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe M22-1 - Attacus M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503199
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492159@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T091500
+DURATION:PT2H
+SUMMARY:OBC X10-1 - B.V. Batouwe X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492159
+LOCATION:De Ruivert\, de Ruivert 3\, 5342CM OSS
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492158@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T093000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe X10-2 - Vlijmscherp SVH X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492158
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497498@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T113000
+DURATION:PT2H
+SUMMARY:Basketiers '71 X14-1 - B.V. Batouwe X14-3
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497498
+LOCATION:Heerenmaten\, Heerenmaten 8\, 6904GZ ZEVENAAR
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491736@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T120000
+DURATION:PT2H
+SUMMARY:Pigeons X10-1 - B.V. Batouwe X10-3
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491736
+LOCATION:Triominos\, Eltensestraat 4\, 6922JB DUIVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493920@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T120000
+DURATION:PT2H
+SUMMARY:WYBA basketbalvereniging X12-1 - B.V. Batouwe X12-3
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493920
+LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493166@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T121500
+DURATION:PT2H
+SUMMARY:The Black Eagles X12-1 - B.V. Batouwe X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493166
+LOCATION:De Hazelaar\, T.M. Kortenhorstlaan 6\, 5244GD ROSMALEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497029@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T131500
+DURATION:PT2H
+SUMMARY:Challenge X14-1 - B.V. Batouwe X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497029
+LOCATION:De Tinnegieter\, Leigraaf 2\, 6641DH BEUNINGEN GLD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493057@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T140000
+DURATION:PT2H
+SUMMARY:WYBA basketbalvereniging V12-1 - B.V. Batouwe V12-1
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493057
+LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503203@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T160000
+DURATION:PT2H
+SUMMARY:WYBA basketbalvereniging M22-1 - B.V. Batouwe M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503203
+LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509080@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T173000
+DURATION:PT2H
+SUMMARY:Basketiers '71 MSE-2 - B.V. Batouwe MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509080
+LOCATION:Heerenmaten\, Heerenmaten 8\, 6904GZ ZEVENAAR
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491685@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T093000
+DURATION:PT2H
+SUMMARY:Nimma Gemina X10-2 - B.V. Batouwe X10-4
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491685
+LOCATION:Ark van Oost\, Cipresstraat 154\, 6523HR NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496145@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T093000
+DURATION:PT2H
+SUMMARY:Nimma Gemina X14-1 - B.V. Batouwe X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496145
+LOCATION:Ark van Oost\, Cipresstraat 154\, 6523HR NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498827@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T111500
+DURATION:PT2H
+SUMMARY:Nimma Gemina M16-1 - B.V. Batouwe M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498827
+LOCATION:Ark van Oost\, Cipresstraat 154\, 6523HR NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500431@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T124500
+DURATION:PT2H
+SUMMARY:Gennep Cougars M16-2 - B.V. Batouwe M16-3
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500431
+LOCATION:Pica Mare 2\, Picardie 34\, 6591JE GENNEP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495908@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T160000
+DURATION:PT2H
+SUMMARY:Den Dungk V14-1 - B.V. Batouwe V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495908
+LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509081@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T193000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe MSE-1 - WSV MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509081
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509086@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T151500
+DURATION:PT2H
+SUMMARY:Challenge MSE-2 - B.V. Batouwe MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509086
+LOCATION:De Tinnegieter\, Leigraaf 2\, 6641DH BEUNINGEN GLD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509096@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T143000
+DURATION:PT2H
+SUMMARY:Trajanum MSE-3 - B.V. Batouwe MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509096
+LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509101@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T193000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe MSE-1 - Wildcats MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509101
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509107@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270213T160000
+DURATION:PT2H
+SUMMARY:WYBA basketbalvereniging MSE-3 - B.V. Batouwe MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509107
+LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509111@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T193000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe MSE-1 - Pigeons MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509111
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509118@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270314T114500
+DURATION:PT2H
+SUMMARY:Gennep Cougars MSE-1 - B.V. Batouwe MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509118
+LOCATION:Pica Mare 2\, Picardie 34\, 6591JE GENNEP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509129@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270404T200000
+DURATION:PT2H
+SUMMARY:Nimma Gemina MSE-2 - B.V. Batouwe MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509129
+LOCATION:Ark van Oost\, Cipresstraat 154\, 6523HR NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509131@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270410T193000
+DURATION:PT2H
+SUMMARY:B.V. Batouwe MSE-1 - Basketiers '71 MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509131
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,2430 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Achilles '71 - alle teams
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-493298@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T104500
+DURATION:PT2H
+SUMMARY:Yellow Sox X12-1 - Achilles '71 X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493298
+LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495822@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T120000
+DURATION:PT2H
+SUMMARY:BC Eindhoven V14-1 - Achilles '71 V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495822
+LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491444@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T130000
+DURATION:PT2H
+SUMMARY:AFGELAST: Attacus X10-2 - Achilles '71 X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 491444
+LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493030@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T144500
+DURATION:PT2H
+SUMMARY:BC Bladel V12-1 44 - 23 Achilles '71 V12-1
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 44 - 23\nFOYS wedstrijd-ID: 493030
+LOCATION:Sporthal X-Sport\, Lange Trekken 32\, 5531PZ BLADEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500942@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T173000
+DURATION:PT2H
+SUMMARY:Yellow Sox V18-1 41 - 105 Achilles '71 V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 41 - 105\nFOYS wedstrijd-ID: 500942
+LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492070@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X10-1 7 - 58 Biks Shots X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 7 - 58\nFOYS wedstrijd-ID: 492070
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496840@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X14-2 30 - 100 Valkenswaard Falcons X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 30 - 100\nFOYS wedstrijd-ID: 496840
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500611@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T114500
+DURATION:PT2H
+SUMMARY:BC Heeze M16-1 82 - 34 Achilles '71 M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 82 - 34\nFOYS wedstrijd-ID: 500611
+LOCATION:De Pompenmaker\, De Pompenmaker 4\, 5591NE HEEZE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501503@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 M18-1 77 - 61 Valkenswaard Falcons M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 77 - 61\nFOYS wedstrijd-ID: 501503
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502152@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 M18-2 29 - 95 Attacus M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 29 - 95\nFOYS wedstrijd-ID: 502152
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499038@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 M16-1 40 - 74 Attacus M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 40 - 74\nFOYS wedstrijd-ID: 499038
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511714@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-4 45 - 87 Gennep Cougars MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 45 - 87\nFOYS wedstrijd-ID: 511714
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496083@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 X14-1 64 - 30 High Five X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 64 - 30\nFOYS wedstrijd-ID: 496083
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516536@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T000000
+DURATION:PT2H
+SUMMARY:Achilles '71 VSE-2 - SBA Sphinx VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 516536
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492075@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T121500
+DURATION:PT2H
+SUMMARY:High Five X10-2 - Achilles '71 X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492075
+LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496848@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T160000
+DURATION:PT2H
+SUMMARY:Jumpers '76 X14-1 - Achilles '71 X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496848
+LOCATION:De Wetteling\, Zuidsingel 2\, 5802EG VENRAY
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500946@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T160000
+DURATION:PT2H
+SUMMARY:Akros V18-1 - Achilles '71 V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500946
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502162@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T160000
+DURATION:PT2H
+SUMMARY:Akros M18-1 - Achilles '71 M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502162
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496091@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T093000
+DURATION:PT2H
+SUMMARY:Nimma Gemina X14-1 - Achilles '71 X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496091
+LOCATION:Ark van Oost\, Cipresstraat 154\, 6523HR NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491445@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X10-2 - Yellow Sox X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491445
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494738@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X12-2 - BC Heeze X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494738
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493300@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 X12-1 - Basketbal Academie Limburg X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493300
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-512848@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-3 - EBBC MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512848
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498500@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T130000
+DURATION:PT2H
+SUMMARY:BC Kimbria V16-1 - Achilles '71 V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498500
+LOCATION:Geusselt\, Olympiaweg 68\, 6225XX MAASTRICHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499042@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T130000
+DURATION:PT2H
+SUMMARY:The Black Eagles M16-1 - Achilles '71 M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499042
+LOCATION:De Hazelaar\, T.M. Kortenhorstlaan 6\, 5244GD ROSMALEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495825@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 V14-1 - Springfield V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495825
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507293@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-2 - Vido MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507293
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511722@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T143000
+DURATION:PT2H
+SUMMARY:Den Dungk MSE-3 - Achilles '71 MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511722
+LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493032@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 V12-1 - B.V. Batouwe V12-1
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493032
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500620@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 M16-2 - Vido M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500620
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492076@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T090000
+DURATION:PT2H
+SUMMARY:Basketbal Academie Limburg X10-1 - Achilles '71 X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492076
+LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493036@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T090000
+DURATION:PT2H
+SUMMARY:Arnhem Eagles V12-1 - Achilles '71 V12-1
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493036
+LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495831@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T123000
+DURATION:PT2H
+SUMMARY:Barons Breda Basketball V14-2 - Achilles '71 V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495831
+LOCATION:De Doelen\, Doelen 7\, 4813GP BREDA
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507296@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T150000
+DURATION:PT2H
+SUMMARY:Attacus MSE-2 - Achilles '71 MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507296
+LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500625@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T163000
+DURATION:PT2H
+SUMMARY:BC Bladel M16-1 - Achilles '71 M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500625
+LOCATION:Sporthal X-Sport\, Lange Trekken 32\, 5531PZ BLADEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507295@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T201500
+DURATION:PT2H
+SUMMARY:BC Bladel MSE-1 - Achilles '71 MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507295
+LOCATION:Sporthal X-Sport\, Lange Trekken 32\, 5531PZ BLADEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491452@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T093000
+DURATION:PT2H
+SUMMARY:Vido X10-1 - Achilles '71 X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491452
+LOCATION:Den Ekkerman\, Wal 150\, 5501HP VELDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493303@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X12-1 - BC Kimbria X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493303
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496852@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X14-2 - The Black Eagles X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496852
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494743@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T111500
+DURATION:PT2H
+SUMMARY:Vido X12-1 - Achilles '71 X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494743
+LOCATION:Den Ekkerman\, Wal 150\, 5501HP VELDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501514@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 M18-1 - BC Eindhoven M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501514
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502164@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 M18-2 - OBC M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502164
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499048@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 M16-1 - Vlijmscherp SVH M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499048
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504340@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 VSE-1 - Tracks Parkstad VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504340
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500950@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 V18-1 - High Five V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500950
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511726@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-4 - Akros MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511726
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501517@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T104500
+DURATION:PT2H
+SUMMARY:OBC M18-1 - Achilles '71 M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501517
+LOCATION:De Ruivert\, de Ruivert 3\, 5342CM OSS
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493305@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T120000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X12-1 - Achilles '71 X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493305
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511730@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T120000
+DURATION:PT2H
+SUMMARY:Lasers Basketball Club MSE-1 - Achilles '71 MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511730
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493039@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T140000
+DURATION:PT2H
+SUMMARY:WYBA basketbalvereniging V12-1 - Achilles '71 V12-1
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493039
+LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496099@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad X14-1 - Achilles '71 X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496099
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498513@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T170000
+DURATION:PT2H
+SUMMARY:BBF MIGLIORE V16-1 - Achilles '71 V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498513
+LOCATION:sporthal Den Butter\, Hannie Schaftlaan 20\, 5122LH RIJEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491457@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X10-2 - Vlijmscherp SVH X10-3
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491457
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492079@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X10-1 - BC Eindhoven X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492079
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494748@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X12-2 - Jumping Giants X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494748
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495835@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T120000
+DURATION:PT2H
+SUMMARY:Vlijmscherp SVH V14-1 - Achilles '71 V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495835
+LOCATION:Die Heygrave\, Burgemeester Zwaansweg 4\, 5251CJ VLIJMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496856@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T120000
+DURATION:PT2H
+SUMMARY:JRC X14-1 - Achilles '71 X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496856
+LOCATION:De Braken\, De Braken 1 a\, 5282JJ BOXTEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500955@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 V18-1 - Yellow Sox V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500955
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507299@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-3 - BC Heeze MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507299
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505357@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T121500
+DURATION:PT2H
+SUMMARY:Oirschot VSE-1 - Achilles '71 VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505357
+LOCATION:sportcentrum De Kemmer\, Bloemendaal 5\, 5688GP OIRSCHOT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502170@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T130000
+DURATION:PT2H
+SUMMARY:BV Rooi M18-1 - Achilles '71 M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502170
+LOCATION:De Kienehoef\, Wilhelminastraat 19\, 5491 JL Sint-Oedenrode
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500631@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 M16-2 - BC LIESHOUT M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500631
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504346@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 VSE-1 - Trajanum VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504346
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-512850@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-2 - EBBC MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512850
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492084@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T093000
+DURATION:PT2H
+SUMMARY:High Five X10-1 - Achilles '71 X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492084
+LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513002@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T103000
+DURATION:PT2H
+SUMMARY:Achilles '71 RSE-1 - Barons Breda Basketball RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513002
+LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491465@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T113000
+DURATION:PT2H
+SUMMARY:Springfield X10-1 - Achilles '71 X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491465
+LOCATION:De Run\, Runweg 11\, 5258BK BERLICUM NB
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513004@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T121500
+DURATION:PT2H
+SUMMARY:SC Antilope Utrecht RSE-2 - Achilles '71 RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513004
+LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494754@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T150000
+DURATION:PT2H
+SUMMARY:BC Deurne Pioniers X12-1 - Achilles '71 X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494754
+LOCATION:De Peelhorst\, St. Jozefstraat 70\, 5753AV DEURNE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507304@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T170000
+DURATION:PT2H
+SUMMARY:Attacus MSE-2 - Achilles '71 MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507304
+LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500959@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T181500
+DURATION:PT2H
+SUMMARY:BC Bladel V18-1 - Achilles '71 V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500959
+LOCATION:Sporthal X-Sport\, Lange Trekken 32\, 5531PZ BLADEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504351@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T181500
+DURATION:PT2H
+SUMMARY:BC Bladel VSE-1 - Achilles '71 VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504351
+LOCATION:Sporthal X-Sport\, Lange Trekken 32\, 5531PZ BLADEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493042@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 V12-1 - Yellow Sox V12-1
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493042
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500638@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T114500
+DURATION:PT2H
+SUMMARY:Black Shots M16-1 - Achilles '71 M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500638
+LOCATION:Veka-sportcentrum\, Deltaweg 201 -203\, 5709AB HELMOND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501523@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 M18-1 - Yellow Sox M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501523
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502175@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 M18-2 - WYBA basketbalvereniging M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502175
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498517@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 V16-1 - JRC V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498517
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511737@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-4 - Yellow Sox MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511737
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507306@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T150000
+DURATION:PT2H
+SUMMARY:Dunatos MSE-1 - Achilles '71 MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507306
+LOCATION:Marsana\, Molenveldweg 4\, 6231RX MEERSSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495839@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 V14-1 - BC Kimbria V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495839
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505363@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 VSE-2 - Vlijmscherp SVH VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505363
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496106@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T180000
+DURATION:PT2H
+SUMMARY:Achilles '71 X14-1 - B.V. Batouwe X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496106
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499058@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T180000
+DURATION:PT2H
+SUMMARY:Achilles '71 M16-1 - BBF MIGLIORE M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499058
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496113@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T110000
+DURATION:PT2H
+SUMMARY:HBV The Jumpers X14-1 - Achilles '71 X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496113
+LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499060@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T113000
+DURATION:PT2H
+SUMMARY:High Five M16-2 - Achilles '71 M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499060
+LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511744@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T113000
+DURATION:PT2H
+SUMMARY:Tantalus MSE-5 - Achilles '71 MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511744
+LOCATION:SSC Sportcentrum\, Onze Lieve Vrouwestraat 1\, 5612AW EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496870@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T121500
+DURATION:PT2H
+SUMMARY:Yellow Sox X14-1 - Achilles '71 X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496870
+LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507310@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T133000
+DURATION:PT2H
+SUMMARY:Tantalus MSE-3 - Achilles '71 MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507310
+LOCATION:SSC Sportcentrum\, Onze Lieve Vrouwestraat 1\, 5612AW EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498522@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T154500
+DURATION:PT2H
+SUMMARY:Yellow Sox V16-1 - Achilles '71 V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498522
+LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491469@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X10-2 - EVBV Octopus X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491469
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492085@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X10-1 - Basketbal Academie Limburg X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492085
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494758@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 X12-2 - BC LIESHOUT X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494758
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502183@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 M18-2 - The Black Eagles M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502183
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493044@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 V12-1 - Arnhem Eagles V12-1
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493044
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493309@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T140000
+DURATION:PT2H
+SUMMARY:BC Kimbria X12-1 - Achilles '71 X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493309
+LOCATION:Geusselt\, Olympiaweg 68\, 6225XX MAASTRICHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507309@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-2 - BC Heeze MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507309
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500643@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 M16-2 - E.B.C.G. M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500643
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500963@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 V18-1 - BC Eindhoven V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500963
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501529@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T160000
+DURATION:PT2H
+SUMMARY:BC Kimbria M18-1 - Achilles '71 M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501529
+LOCATION:Geusselt\, Olympiaweg 68\, 6225XX MAASTRICHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505337@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T171500
+DURATION:PT2H
+SUMMARY:Vido VSE-2 - Achilles '71 VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505337
+LOCATION:Den Ekkerman\, Wal 150\, 5501HP VELDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513121@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T121500
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal RSE-3 - Achilles '71 RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513121
+LOCATION:De Kragt\, Terheijdenseweg 416\, 4826AB BREDA
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513124@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 RSE-1 - R.B.V.M. RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513124
+LOCATION:De Kragt\, Terheijdenseweg 416\, 4826AB BREDA
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500651@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T161500
+DURATION:PT2H
+SUMMARY:Valkenswaard Falcons M16-2 - Achilles '71 M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500651
+LOCATION:De Wedert\, Past. Heerkensdreef 29\, 5552BG VALKENSWAARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500967@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T164500
+DURATION:PT2H
+SUMMARY:Springfield V18-2 - Achilles '71 V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500967
+LOCATION:De Run\, Runweg 11\, 5258BK BERLICUM NB
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494765@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T100000
+DURATION:PT2H
+SUMMARY:Black Shots X12-1 - Achilles '71 X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494765
+LOCATION:Veka-sportcentrum\, Deltaweg 201 -203\, 5709AB HELMOND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496874@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X14-2 - Eindhoven Lumineers X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496874
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498528@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 V16-1 - Vlijmscherp SVH V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498528
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501532@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 M18-1 - Eindhoven Lumineers M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501532
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511911@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 VSE-2 - TSBV Pendragon VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511911
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502188@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T130000
+DURATION:PT2H
+SUMMARY:Springfield M18-1 - Achilles '71 M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502188
+LOCATION:De Run\, Runweg 11\, 5258BK BERLICUM NB
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499067@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 M16-1 - Yellow Sox M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499067
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507314@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-3 - Den Dungk MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507314
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507313@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T150000
+DURATION:PT2H
+SUMMARY:Dunatos MSE-1 - Achilles '71 MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507313
+LOCATION:Marsana\, Molenveldweg 4\, 6231RX MEERSSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496117@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 X14-1 - Lokomotief X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496117
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511748@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-4 - Springfield MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511748
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495847@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T180000
+DURATION:PT2H
+SUMMARY:Achilles '71 V14-1 - The Black Eagles V14-2
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495847
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505376@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T140000
+DURATION:PT2H
+SUMMARY:The Black Eagles VSE-1 - Achilles '71 VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505376
+LOCATION:De Hazelaar\, T.M. Kortenhorstlaan 6\, 5244GD ROSMALEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498536@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T150000
+DURATION:PT2H
+SUMMARY:Attacus V16-1 - Achilles '71 V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498536
+LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496126@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T153000
+DURATION:PT2H
+SUMMARY:Achilles '71 X14-1 - CBV Binnenland X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496126
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491481@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X10-2 - BV Schijndel X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491481
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492088@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X10-1 - High Five X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492088
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494768@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X12-2 - E.B.C.G. X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494768
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502195@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 M18-2 - BC LIESHOUT M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502195
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511757@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-4 - BC LIESHOUT MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511757
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500657@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T121500
+DURATION:PT2H
+SUMMARY:Springfield '75 M16-1 - Achilles '71 M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500657
+LOCATION:Het Anker\, Ankersweg 52\, 6121AT BUCHTEN-BORN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499072@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T130000
+DURATION:PT2H
+SUMMARY:BC Kimbria M16-1 - Achilles '71 M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499072
+LOCATION:Geusselt\, Olympiaweg 68\, 6225XX MAASTRICHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507317@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-2 - Achilles '71 MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507317
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501540@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 M18-1 - Joy-M M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501540
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504366@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 VSE-1 - Maastricht Knights VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504366
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496883@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T180000
+DURATION:PT2H
+SUMMARY:Achilles '71 X14-2 - Springfield X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496883
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500971@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T180000
+DURATION:PT2H
+SUMMARY:Achilles '71 V18-1 - BC Kimbria V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500971
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496130@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T090000
+DURATION:PT2H
+SUMMARY:Divine X14-1 - Achilles '71 X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496130
+LOCATION:Sporthal Oostervant\, Oostervantstraat 25\, 3021PT ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491491@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T110000
+DURATION:PT2H
+SUMMARY:Valkenswaard Falcons X10-2 - Achilles '71 X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491491
+LOCATION:De Wedert\, Past. Heerkensdreef 29\, 5552BG VALKENSWAARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492091@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T120000
+DURATION:PT2H
+SUMMARY:BC Eindhoven X10-1 - Achilles '71 X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492091
+LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496887@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T120000
+DURATION:PT2H
+SUMMARY:EVBV Octopus X14-2 - Achilles '71 X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496887
+LOCATION:Elzenburg\, Brabantlaan 1\, 5262GW VUGHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494776@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T124500
+DURATION:PT2H
+SUMMARY:Valkenswaard Falcons X12-2 - Achilles '71 X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494776
+LOCATION:De Wedert\, Past. Heerkensdreef 29\, 5552BG VALKENSWAARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511761@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T124500
+DURATION:PT2H
+SUMMARY:OBC MSE-3 - Achilles '71 MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511761
+LOCATION:De Ruivert\, de Ruivert 3\, 5342CM OSS
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500975@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T140000
+DURATION:PT2H
+SUMMARY:BC Eindhoven V18-1 - Achilles '71 V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500975
+LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501543@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T164500
+DURATION:PT2H
+SUMMARY:BC Deurne Pioniers M18-1 - Achilles '71 M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501543
+LOCATION:De Peelhorst\, St. Jozefstraat 70\, 5753AV DEURNE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493051@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 V12-1 - WYBA basketbalvereniging V12-1
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493051
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493313@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X12-1 - Tracks Parkstad X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493313
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502201@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T114500
+DURATION:PT2H
+SUMMARY:Wildcats M18-2 - Achilles '71 M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502201
+LOCATION:De Horstacker\, Horstacker 1401\, 6546EK NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495855@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 V14-1 - Yellow Sox V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495855
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505385@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 VSE-2 - BV Rush VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505385
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504372@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T130000
+DURATION:PT2H
+SUMMARY:Dunatos VSE-1 - Achilles '71 VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504372
+LOCATION:Marsana\, Molenveldweg 4\, 6231RX MEERSSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511986@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-3 - BC Eindhoven MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511986
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498539@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 V16-1 - The Black Eagles V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498539
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499076@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 M16-1 - Blauw-Wit M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499076
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507322@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T180000
+DURATION:PT2H
+SUMMARY:Den Dungk MSE-1 - Achilles '71 MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507322
+LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493315@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T100000
+DURATION:PT2H
+SUMMARY:Basketbal Academie Limburg X12-1 - Achilles '71 X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493315
+LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493053@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T111500
+DURATION:PT2H
+SUMMARY:B.V. Batouwe V12-1 - Achilles '71 V12-1
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493053
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495857@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T121500
+DURATION:PT2H
+SUMMARY:Yellow Sox V14-2 - Achilles '71 V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495857
+LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507326@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T140000
+DURATION:PT2H
+SUMMARY:Tantalus MSE-3 - Achilles '71 MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507326
+LOCATION:SSC Sportcentrum\, Onze Lieve Vrouwestraat 1\, 5612AW EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499083@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T180000
+DURATION:PT2H
+SUMMARY:BC Deurne Pioniers M16-1 - Achilles '71 M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499083
+LOCATION:De Peelhorst\, St. Jozefstraat 70\, 5753AV DEURNE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496895@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T000000
+DURATION:PT2H
+SUMMARY:Achilles '71 X14-2 - Attacus X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496895
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498549@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T000000
+DURATION:PT2H
+SUMMARY:Achilles '71 V16-1 - Barons Breda Basketball V16-2
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498549
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491493@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X10-2 - The Black Eagles X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491493
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492094@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X10-1 - High Five X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492094
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501549@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 M18-1 - High Five M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501549
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504376@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 VSE-1 - Valkenswaard Falcons VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504376
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505390@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T123000
+DURATION:PT2H
+SUMMARY:Tantalus VSE-2 - Achilles '71 VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505390
+LOCATION:SSC Sportcentrum\, Onze Lieve Vrouwestraat 1\, 5612AW EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507323@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T123000
+DURATION:PT2H
+SUMMARY:Tantalus MSE-2 - Achilles '71 MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507323
+LOCATION:SSC Sportcentrum\, Onze Lieve Vrouwestraat 1\, 5612AW EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502207@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 M18-2 - BV Schijndel M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502207
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511769@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-4 - BV Schijndel MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511769
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494778@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 X12-2 - Jumpers '76 X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494778
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496138@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 X14-1 - The Black Eagles X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496138
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500978@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T160000
+DURATION:PT2H
+SUMMARY:BC Kimbria V18-1 - Achilles '71 V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500978
+LOCATION:Geusselt\, Olympiaweg 68\, 6225XX MAASTRICHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494787@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T113000
+DURATION:PT2H
+SUMMARY:Basketbal Academie Limburg X12-2 - Achilles '71 X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494787
+LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501554@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T114500
+DURATION:PT2H
+SUMMARY:Arnhem Eagles M18-2 - Achilles '71 M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501554
+LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492097@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T121500
+DURATION:PT2H
+SUMMARY:Biks Shots X10-1 - Achilles '71 X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492097
+LOCATION:De Roodloop\, Roodloop 6\, 5081XZ HILVARENBEEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496900@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T153000
+DURATION:PT2H
+SUMMARY:BV Schijndel X14-1 - Achilles '71 X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496900
+LOCATION:sporthal Bunderstraat\, Bunderstraat 6\, 5481KD SCHIJNDEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504383@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T154500
+DURATION:PT2H
+SUMMARY:High Five VSE-2 - Achilles '71 VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504383
+LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493056@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 V12-1 - BC Bladel V12-1
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493056
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493316@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X12-1 - Yellow Sox X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493316
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496143@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T100000
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal X14-1 - Achilles '71 X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496143
+LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500983@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 V18-1 - BC Bladel V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500983
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505396@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 VSE-2 - Trajanum VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505396
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-514113@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T120000
+DURATION:PT2H
+SUMMARY:Jumping Giants MSE-3 - Achilles '71 MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 514113
+LOCATION:sporthal Nederweert\, De Bengele 8\, 6031TZ NEDERWEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498552@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T124500
+DURATION:PT2H
+SUMMARY:High Five V16-1 - Achilles '71 V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498552
+LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491504@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T130000
+DURATION:PT2H
+SUMMARY:Den Dungk X10-2 - Achilles '71 X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491504
+LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499085@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 M16-1 - WBB Giants M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499085
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507329@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-3 - Vido MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507329
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502214@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T143000
+DURATION:PT2H
+SUMMARY:Gennep Cougars M18-1 - Achilles '71 M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502214
+LOCATION:Pica Mare 2\, Picardie 34\, 6591JE GENNEP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495863@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 V14-1 - BC Bladel V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495863
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500675@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 M16-2 - Fanatics '71 M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500675
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511988@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T180000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-2 - BC Eindhoven MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511988
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493046@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261219T121500
+DURATION:PT2H
+SUMMARY:Yellow Sox V12-1 - Achilles '71 V12-1
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493046
+LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496095@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261219T143000
+DURATION:PT2H
+SUMMARY:Achilles '71 X14-1 - B.O.B. X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496095
+LOCATION:De Klumper\, Papenhoef 2\, 5737BS LIESHOUT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511781@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270110T100000
+DURATION:PT2H
+SUMMARY:Gennep Cougars MSE-2 - Achilles '71 MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511781
+LOCATION:Pica Mare 2\, Picardie 34\, 6591JE GENNEP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505402@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270110T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 VSE-2 - Vido VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505402
+LOCATION:De Klumper\, Papenhoef 2\, 5737BS LIESHOUT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507332@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270110T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-3 - BC Bladel MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507332
+LOCATION:De Klumper\, Papenhoef 2\, 5737BS LIESHOUT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507334@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270110T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-2 - Tantalus MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507334
+LOCATION:De Klumper\, Papenhoef 2\, 5737BS LIESHOUT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-512859@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T000000
+DURATION:PT2H
+SUMMARY:EBBC MSE-2 - Achilles '71 MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512859
+LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516546@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T150000
+DURATION:PT2H
+SUMMARY:SBA Sphinx VSE-2 - Achilles '71 VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 516546
+LOCATION:De Bongerd\, Bornsesteeg 2\, 6708PE WAGENINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507335@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270117T000000
+DURATION:PT2H
+SUMMARY:Vido MSE-1 - Achilles '71 MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507335
+LOCATION:Den Ekkerman\, Wal 150\, 5501HP VELDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504390@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270117T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 VSE-1 - OBC VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504390
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511786@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270117T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-4 - Den Dungk MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511786
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504399@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T140000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad VSE-1 - Achilles '71 VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504399
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511794@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T180000
+DURATION:PT2H
+SUMMARY:Akros MSE-2 - Achilles '71 MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511794
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507340@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270124T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-3 - Attacus MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507340
+LOCATION:De Klumper\, Papenhoef 2\, 5737BS LIESHOUT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507341@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270124T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-2 - BC Bladel MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507341
+LOCATION:De Klumper\, Papenhoef 2\, 5737BS LIESHOUT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-512861@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T000000
+DURATION:PT2H
+SUMMARY:EBBC MSE-2 - Achilles '71 MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512861
+LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504400@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T143000
+DURATION:PT2H
+SUMMARY:Trajanum VSE-2 - Achilles '71 VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504400
+LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505423@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270131T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 VSE-2 - Oirschot VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505423
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511797@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270131T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-4 - Lasers Basketball Club MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511797
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507345@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270131T164500
+DURATION:PT2H
+SUMMARY:BC Heeze MSE-1 - Achilles '71 MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507345
+LOCATION:De Pompenmaker\, De Pompenmaker 4\, 5591NE HEEZE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507350@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T000000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-2 - Attacus MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507350
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511803@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T171500
+DURATION:PT2H
+SUMMARY:Yellow Sox MSE-2 - Achilles '71 MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511803
+LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504405@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270207T000000
+DURATION:PT2H
+SUMMARY:Achilles '71 VSE-1 - BC Bladel VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504405
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507348@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270207T000000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-3 - Dunatos MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507348
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507355@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270214T000000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-3 - Tantalus MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507355
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507353@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270214T160000
+DURATION:PT2H
+SUMMARY:BC Heeze MSE-1 - Achilles '71 MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507353
+LOCATION:De Pompenmaker\, De Pompenmaker 4\, 5591NE HEEZE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505426@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270221T140000
+DURATION:PT2H
+SUMMARY:Vlijmscherp SVH VSE-1 - Achilles '71 VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505426
+LOCATION:Die Heygrave\, Burgemeester Zwaansweg 4\, 5251CJ VLIJMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507288@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270227T201500
+DURATION:PT2H
+SUMMARY:BC Bladel MSE-1 - Achilles '71 MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507288
+LOCATION:Sporthal X-Sport\, Lange Trekken 32\, 5531PZ BLADEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511808@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270228T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-4 - Tantalus MSE-5
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511808
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511819@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T210000
+DURATION:PT2H
+SUMMARY:Springfield MSE-3 - Achilles '71 MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511819
+LOCATION:De Run\, Runweg 11\, 5258BK BERLICUM NB
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504416@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270307T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 VSE-1 - BC LIESHOUT VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504416
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507358@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270307T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-2 - Dunatos MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507358
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507357@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270307T180000
+DURATION:PT2H
+SUMMARY:Den Dungk MSE-1 - Achilles '71 MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507357
+LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511820@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270313T133000
+DURATION:PT2H
+SUMMARY:BC LIESHOUT MSE-2 - Achilles '71 MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511820
+LOCATION:De Klumper\, Papenhoef 2\, 5737BS LIESHOUT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505445@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270314T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 VSE-2 - The Black Eagles VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505445
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504421@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270314T130000
+DURATION:PT2H
+SUMMARY:Maastricht Knights VSE-1 - Achilles '71 VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504421
+LOCATION:Universitair Sportcentrum Randwijck\, P Debyeplein 15\, 6229HA MAASTRICHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507362@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270314T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-3 - Achilles '71 MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507362
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505449@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270320T130000
+DURATION:PT2H
+SUMMARY:BV Rush VSE-1 - Achilles '71 VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505449
+LOCATION:De Stigt\, Kapelstraat 100\, 5401EC UDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511996@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270320T200000
+DURATION:PT2H
+SUMMARY:BC Eindhoven MSE-1 - Achilles '71 MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511996
+LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504426@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270321T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 VSE-1 - Dunatos VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504426
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511829@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270321T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-4 - OBC MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511829
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507367@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270321T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-2 - Den Dungk MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507367
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507286@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270327T143000
+DURATION:PT2H
+SUMMARY:Tantalus MSE-2 - Achilles '71 MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507286
+LOCATION:SSC Sportcentrum\, Onze Lieve Vrouwestraat 1\, 5612AW EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504432@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270403T143000
+DURATION:PT2H
+SUMMARY:Valkenswaard Falcons VSE-1 - Achilles '71 VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504432
+LOCATION:De Wedert\, Past. Heerkensdreef 29\, 5552BG VALKENSWAARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504361@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270403T152000
+DURATION:PT2H
+SUMMARY:BC LIESHOUT VSE-1 - Achilles '71 VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504361
+LOCATION:De Klumper\, Papenhoef 2\, 5737BS LIESHOUT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511833@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270403T171500
+DURATION:PT2H
+SUMMARY:BV Schijndel MSE-1 - Achilles '71 MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511833
+LOCATION:sporthal Bunderstraat\, Bunderstraat 6\, 5481KD SCHIJNDEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505456@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270404T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 VSE-2 - Tantalus VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505456
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507370@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270404T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-3 - Tantalus MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507370
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507371@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270404T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-2 - Tantalus MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507371
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505463@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270410T143000
+DURATION:PT2H
+SUMMARY:Trajanum VSE-3 - Achilles '71 VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505463
+LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511998@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270410T200000
+DURATION:PT2H
+SUMMARY:BC Eindhoven MSE-1 - Achilles '71 MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511998
+LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507373@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270411T000000
+DURATION:PT2H
+SUMMARY:Vido MSE-1 - Achilles '71 MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507373
+LOCATION:Den Ekkerman\, Wal 150\, 5501HP VELDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504436@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270411T120000
+DURATION:PT2H
+SUMMARY:Achilles '71 VSE-1 - High Five VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504436
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-514124@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270411T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-4 - Jumping Giants MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 514124
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511922@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270416T190000
+DURATION:PT2H
+SUMMARY:TSBV Pendragon VSE-2 - Achilles '71 VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511922
+LOCATION:Studentensporthal KUB\, Academielaan 5\, 5037ET TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504335@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270417T110000
+DURATION:PT2H
+SUMMARY:OBC VSE-1 - Achilles '71 VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504335
+LOCATION:De Ruivert\, de Ruivert 3\, 5342CM OSS
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

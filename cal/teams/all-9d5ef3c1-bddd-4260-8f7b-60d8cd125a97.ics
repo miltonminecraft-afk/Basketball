@@ -1,0 +1,810 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BV Krimpen - alle teams
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-515258@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260905T140000
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-1 66 - 64 Smokkelhoek MSE-1
+DESCRIPTION:Status: Final\nUitslag: 66 - 64\nFOYS wedstrijd-ID: 515258
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-514174@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260908T183000
+DURATION:PT2H
+SUMMARY:Cady '73 M16-2 51 - 63 BV Krimpen M18-1
+DESCRIPTION:Status: Final\nUitslag: 51 - 63\nFOYS wedstrijd-ID: 514174
+LOCATION:Sporthal De Lijster\, Lijstersingel 20\, 2902JD CAPELLE AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511474@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260911T210000
+DURATION:PT2H
+SUMMARY:EBV Baros MSE-7 50 - 70 BV Krimpen MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 50 - 70\nFOYS wedstrijd-ID: 511474
+LOCATION:Woudestein\, Burgemeester Oudlaan 50\, 3062PA ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494968@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T091500
+DURATION:PT2H
+SUMMARY:Klipperstars X12-1 - BV Krimpen X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494968
+LOCATION:De Klipper\, Klipperstraat 20\, 2957EM NIEUW-LEKKERLAND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494967@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T120000
+DURATION:PT2H
+SUMMARY:D.B.V. Rowic X12-2 1 - 52 BV Krimpen X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 1 - 52\nFOYS wedstrijd-ID: 494967
+LOCATION:Sportboulevard\, Fanny Blankers-Koenweg 10\, 3318AX DORDRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496615@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T103000
+DURATION:PT2H
+SUMMARY:CobraNova X14-3 49 - 63 BV Krimpen X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 49 - 63\nFOYS wedstrijd-ID: 496615
+LOCATION:Forum Kwadraat\, De Vliegerlaan 2 4\, 2273BV VOORBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508371@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T160000
+DURATION:PT2H
+SUMMARY:Orange Basketball Club MSE-1 - BV Krimpen MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508371
+LOCATION:Gymzaal Viandenlaan\, Viandenlaan 2\, 4835 EG Breda
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494970@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T093000
+DURATION:PT2H
+SUMMARY:BV Krimpen X12-2 - Klipperstars X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494970
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494969@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T110000
+DURATION:PT2H
+SUMMARY:BV Krimpen X12-1 - BV Carnisse Sharks X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494969
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496616@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T123000
+DURATION:PT2H
+SUMMARY:BV Krimpen X14-1 - Bouncers Basketball X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496616
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508372@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T141500
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-1 - High Five MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508372
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511475@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T160000
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-2 - Rotterdam-Zuid MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511475
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494975@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T100000
+DURATION:PT2H
+SUMMARY:Rotterdam-Zuid X12-2 - BV Krimpen X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494975
+LOCATION:Sportcentrum De Sportmotor\, Jan Ligthartstraat 95\, 3083AL ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501727@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T100000
+DURATION:PT2H
+SUMMARY:BV Krimpen M18-1 - Klipperstars M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501727
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508379@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T124500
+DURATION:PT2H
+SUMMARY:Agathos MSE-1 - BV Krimpen MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508379
+LOCATION:Sporthal Dongemond\, Collegeweg 1\, 4942VC RAAMSDONKSVEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511481@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T143000
+DURATION:PT2H
+SUMMARY:UBV "The Eagles" MSE-3 - BV Krimpen MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511481
+LOCATION:Galgenwaard\, Herculesplein 341\, 3584AA UTRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496623@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T133000
+DURATION:PT2H
+SUMMARY:SC Amforça X14-1 - BV Krimpen X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496623
+LOCATION:Houtrust\, Laan van Poot 22\, 2566EC 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494979@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T093000
+DURATION:PT2H
+SUMMARY:BV Krimpen X12-1 - Rebound X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494979
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496628@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T110000
+DURATION:PT2H
+SUMMARY:BV Krimpen X14-1 - HBV The Jumpers X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496628
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494981@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T120000
+DURATION:PT2H
+SUMMARY:Hurricanes X12-2 - BV Krimpen X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494981
+LOCATION:Den Oert\, J. Witteveenlaan 1\, 3201LX SPIJKENISSE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501732@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T124500
+DURATION:PT2H
+SUMMARY:BV Krimpen M18-1 - Cady '73 M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501732
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511485@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T143000
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-2 - EBV Baros MSE-5
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511485
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508384@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T161500
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-1 - TSBV Pendragon MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508384
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494988@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T090000
+DURATION:PT2H
+SUMMARY:BV Krimpen X12-2 - Waterdragers X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494988
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496636@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T124000
+DURATION:PT2H
+SUMMARY:NIEUW Generation Basketball X14-1 - BV Krimpen X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496636
+LOCATION:Sporthal Gaslaan\, Gaslaan 200\, 2562LN 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508392@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T133000
+DURATION:PT2H
+SUMMARY:Tantalus MSE-4 - BV Krimpen MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508392
+LOCATION:SSC Sportcentrum\, Onze Lieve Vrouwestraat 1\, 5612AW EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494986@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T144500
+DURATION:PT2H
+SUMMARY:Flax Field Fighters X12-1 - BV Krimpen X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494986
+LOCATION:Ridderhal\, Hoge Kade 60\, 3341BD HENDRIK-I.A.
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511492@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T160000
+DURATION:PT2H
+SUMMARY:Utrecht Bull's MSE-6 - BV Krimpen MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511492
+LOCATION:Galgenwaard\, Herculesplein 341\, 3584AA UTRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501736@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T193000
+DURATION:PT2H
+SUMMARY:Devel Heroes M18-1 - BV Krimpen M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501736
+LOCATION:De Sophiahal\, Sophiapromenade 9\, 3344PL HENDRIK-IDO-AMBACHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494989@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T093000
+DURATION:PT2H
+SUMMARY:BV Krimpen X12-1 - D.B.V. Rowic X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494989
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496640@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T110000
+DURATION:PT2H
+SUMMARY:BV Krimpen X14-1 - DAS X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496640
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501740@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T124500
+DURATION:PT2H
+SUMMARY:BV Krimpen M18-1 - Rebound M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501740
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494992@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T130000
+DURATION:PT2H
+SUMMARY:Devel Heroes X12-2 - BV Krimpen X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494992
+LOCATION:Develhal\, Parklaan 5\, 3335LM ZWIJNDRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508396@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T143000
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-1 - Blauw-Wit MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508396
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511495@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T161500
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-2 - Klipperstars MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511495
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508405@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261106T210000
+DURATION:PT2H
+SUMMARY:B.O.B. MSE-2 - BV Krimpen MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508405
+LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494997@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T100000
+DURATION:PT2H
+SUMMARY:BV Krimpen X12-2 - BV Krimpen X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494997
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496649@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T100000
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal X14-2 - BV Krimpen X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496649
+LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501745@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T114500
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal M18-3 - BV Krimpen M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501745
+LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496652@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T100000
+DURATION:PT2H
+SUMMARY:BV Krimpen X14-1 - Lokomotief X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496652
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494999@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T104500
+DURATION:PT2H
+SUMMARY:BV Carnisse Sharks X12-2 - BV Krimpen X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494999
+LOCATION:Waterpoort\, Middeldijkerplein 9\, 2993DL BARENDRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501748@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T114500
+DURATION:PT2H
+SUMMARY:BV Krimpen M18-1 - B.O.B. M18-3
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501748
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511505@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T133000
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-2 - Punch MSE-6
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511505
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508408@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T151500
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-1 - CBV Binnenland MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508408
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495007@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T120000
+DURATION:PT2H
+SUMMARY:Hurricanes X12-2 - BV Krimpen X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495007
+LOCATION:Den Oert\, J. Witteveenlaan 1\, 3201LX SPIJKENISSE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496662@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T160000
+DURATION:PT2H
+SUMMARY:Rotterdam-Zuid X14-1 - BV Krimpen X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496662
+LOCATION:Sportcentrum De Sportmotor\, Jan Ligthartstraat 95\, 3083AL ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508418@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T170000
+DURATION:PT2H
+SUMMARY:Devel Heroes MSE-1 - BV Krimpen MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508418
+LOCATION:Develhal\, Parklaan 5\, 3335LM ZWIJNDRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511513@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T170000
+DURATION:PT2H
+SUMMARY:SBV Juventus MSE-5 - BV Krimpen MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511513
+LOCATION:Sporthal Margriet\, Nieuwe Damlaan 5\, 3119 KA Schiedam
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495011@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T095000
+DURATION:PT2H
+SUMMARY:Rebound X12-1 - BV Krimpen X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495011
+LOCATION:De Schenkel\, Schenkeltje 7 b\, 3295KK 'S-GRAVENDEEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501757@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T183000
+DURATION:PT2H
+SUMMARY:BV Krimpen M18-1 - Waterdragers M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501757
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511515@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T201500
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-2 - Silvertown Lions MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511515
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495009@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T120000
+DURATION:PT2H
+SUMMARY:BV Krimpen X12-1 - Waterdragers X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495009
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495006@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T133000
+DURATION:PT2H
+SUMMARY:BV Krimpen X12-2 - Rotterdam-Zuid X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495006
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496664@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T150000
+DURATION:PT2H
+SUMMARY:BV Krimpen X14-1 - CobraNova X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496664
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501763@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T094500
+DURATION:PT2H
+SUMMARY:CBV Binnenland M18-2 - BV Krimpen M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501763
+LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495015@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T100000
+DURATION:PT2H
+SUMMARY:BV Krimpen X12-2 - Flax Field Fighters X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495015
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495018@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T130000
+DURATION:PT2H
+SUMMARY:Devel Heroes X12-2 - BV Krimpen X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495018
+LOCATION:De Sophiahal\, Sophiapromenade 9\, 3344PL HENDRIK-IDO-AMBACHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508431@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T130000
+DURATION:PT2H
+SUMMARY:EBV Baros MSE-3 - BV Krimpen MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508431
+LOCATION:Woudestein\, Burgemeester Oudlaan 50\, 3062PA ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511524@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T171000
+DURATION:PT2H
+SUMMARY:Waterdragers MSE-1 - BV Krimpen MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511524
+LOCATION:Parkzoomhal\, Iersestraat 15\, 2912TH NIEUWERKERK AD IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496675@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T140000
+DURATION:PT2H
+SUMMARY:BV Zoetermeer Hammerheads X14-1 - BV Krimpen X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496675
+LOCATION:Sporthal Willem-Alexanderplantsoen\, Willem-Alexanderplantsoen 6 B\, 2713VM ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508432@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T150000
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-1 - Orange Basketball Club MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508432
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511525@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T150000
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-2 - EBV Baros MSE-7
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511525
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508438@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T000000
+DURATION:PT2H
+SUMMARY:High Five MSE-3 - BV Krimpen MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508438
+LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511530@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T203000
+DURATION:PT2H
+SUMMARY:Rotterdam-Zuid MSE-3 - BV Krimpen MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511530
+LOCATION:Sportcentrum De Sportmotor\, Jan Ligthartstraat 95\, 3083AL ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508444@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T150000
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-1 - Agathos MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508444
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511535@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T150000
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-2 - UBV "The Eagles" MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511535
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508451@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270129T190000
+DURATION:PT2H
+SUMMARY:TSBV Pendragon MSE-3 - BV Krimpen MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508451
+LOCATION:Studentensporthal KUB\, Academielaan 5\, 5037ET TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511541@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T110000
+DURATION:PT2H
+SUMMARY:EBV Baros MSE-5 - BV Krimpen MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511541
+LOCATION:Woudestein\, Burgemeester Oudlaan 50\, 3062PA ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508456@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T150000
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-1 - Tantalus MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508456
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511545@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T150000
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-2 - Utrecht Bull's MSE-6
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511545
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511552@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270213T140000
+DURATION:PT2H
+SUMMARY:Klipperstars MSE-2 - BV Krimpen MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511552
+LOCATION:De Klipper\, Klipperstraat 20\, 2957EM NIEUW-LEKKERLAND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508464@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270227T000000
+DURATION:PT2H
+SUMMARY:Blauw-Wit MSE-2 - BV Krimpen MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508464
+LOCATION:In de Roos\, Commandobaan 8\, 4706CL ROOSENDAAL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508468@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T150000
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-1 - B.O.B. MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508468
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508477@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270313T000000
+DURATION:PT2H
+SUMMARY:CBV Binnenland MSE-4 - BV Krimpen MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508477
+LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511562@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270313T130000
+DURATION:PT2H
+SUMMARY:Punch MSE-6 - BV Krimpen MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511562
+LOCATION:Sportcentr.TU Delft\, Mekelweg 8\, 2628CD DELFT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508480@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270320T150000
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-1 - Devel Heroes MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508480
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511565@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270320T150000
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-2 - SBV Juventus MSE-5
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511565
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511573@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270402T210000
+DURATION:PT2H
+SUMMARY:Silvertown Lions MSE-1 - BV Krimpen MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511573
+LOCATION:De Meent\, Bergambachterstraat 1A\, 2871WG Schoonhoven
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508492@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270410T150000
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-1 - EBV Baros MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508492
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511575@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270410T150000
+DURATION:PT2H
+SUMMARY:BV Krimpen MSE-2 - Waterdragers MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511575
+LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

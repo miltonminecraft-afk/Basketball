@@ -1,0 +1,430 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Donar Groningen - alle teams
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-514150@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T160000
+DURATION:PT2H
+SUMMARY:Landstede Hammers MSE-1 70 - 62 Donar Groningen MSE-1
+DESCRIPTION:Supercup Mannen Senioren - BNXT Supercup\nStatus: Final\nUitslag: 70 - 62\nFOYS wedstrijd-ID: 514150
+LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505558@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260913T163000
+DURATION:PT2H
+SUMMARY:Basketbal Academie Limburg M19-1 61 - 58 Donar Groningen M19-1
+DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nUitslag: 61 - 58\nFOYS wedstrijd-ID: 505558
+LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505567@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260920T123000
+DURATION:PT2H
+SUMMARY:Donar Groningen M19-1 - Zorg en Zekerheid M19-1
+DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505567
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505572@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T190000
+DURATION:PT2H
+SUMMARY:Basketball Academy Utrecht M19-1 M19-1 - Donar Groningen M19-1
+DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505572
+LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516406@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261002T200000
+DURATION:PT2H
+SUMMARY:House of Talents Spurs Kortrijk MSE-3 - Donar Groningen MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516406
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505578@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T161500
+DURATION:PT2H
+SUMMARY:Donar Groningen M19-1 - Rotterdam Basketbal M19-1
+DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505578
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516408@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261006T193000
+DURATION:PT2H
+SUMMARY:Donar Groningen MSE-1 - AB InBev Leuven Bears MSE-6
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516408
+LOCATION:Martiniplaza\, Leonard Springerlaan 2\, 9727KB GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505585@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T163000
+DURATION:PT2H
+SUMMARY:GET United M19-1 - Donar Groningen M19-1
+DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505585
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516412@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261014T193000
+DURATION:PT2H
+SUMMARY:Donar Groningen MSE-1 - Val-Dieu Spirou Basket MSE-7
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516412
+LOCATION:Martiniplaza\, Leonard Springerlaan 2\, 9727KB GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516421@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261025T150000
+DURATION:PT2H
+SUMMARY:Partena Professional Okapi Aalst MSE-4 - Donar Groningen MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516421
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516424@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T200000
+DURATION:PT2H
+SUMMARY:Zorg en Zekerheid MSE-1 - Donar Groningen MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516424
+LOCATION:Sportcomplex 1574\, Telderskade 399\, 2321TR LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505590@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T163000
+DURATION:PT2H
+SUMMARY:Donar Groningen M19-1 - Lokomotief M19-1
+DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505590
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505598@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T160000
+DURATION:PT2H
+SUMMARY:BC APOLLO Amsterdam M19-1 - Donar Groningen M19-1
+DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505598
+LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516430@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T160000
+DURATION:PT2H
+SUMMARY:Donar Groningen MSE-1 - Hubo Limburg United MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516430
+LOCATION:Martiniplaza\, Leonard Springerlaan 2\, 9727KB GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505604@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T170000
+DURATION:PT2H
+SUMMARY:Landslake Lions M19-1 - Donar Groningen M19-1
+DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505604
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516434@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T140000
+DURATION:PT2H
+SUMMARY:Zeeuw en Zeeuw Rotterdam City MSE-1 - Donar Groningen MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516434
+LOCATION:Topsportcentrum\, Van Zandvlietplein 20\, 3077AA ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505610@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T160000
+DURATION:PT2H
+SUMMARY:Donar Groningen M19-1 - Heroes Den Bosch M19-1
+DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505610
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505611@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T153000
+DURATION:PT2H
+SUMMARY:MBCA A'veen M19-1 - Donar Groningen M19-1
+DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505611
+LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516438@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261204T203000
+DURATION:PT2H
+SUMMARY:Brussels Basketball MSE-10 - Donar Groningen MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516438
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516443@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261208T193000
+DURATION:PT2H
+SUMMARY:Donar Groningen MSE-1 - Landstede Hammers MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516443
+LOCATION:Martiniplaza\, Leonard Springerlaan 2\, 9727KB GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505621@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T150000
+DURATION:PT2H
+SUMMARY:Donar Groningen M19-1 - Landstede Hammers M19-1
+DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505621
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516446@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T183000
+DURATION:PT2H
+SUMMARY:Donar Groningen MSE-1 - Heroes Den Bosch MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516446
+LOCATION:Martiniplaza\, Leonard Springerlaan 2\, 9727KB GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516448@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261215T193000
+DURATION:PT2H
+SUMMARY:Donar Groningen MSE-1 - Kangoeroes Basket Mechelen MSE-2
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516448
+LOCATION:Martiniplaza\, Leonard Springerlaan 2\, 9727KB GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516450@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261231T080000
+DURATION:PT2H
+SUMMARY:Windrose Giants Antwerp MSE-9 - Donar Groningen MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516450
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516460@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T203000
+DURATION:PT2H
+SUMMARY:CityX Mons MSE-8 - Donar Groningen MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516460
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516462@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T193000
+DURATION:PT2H
+SUMMARY:Donar Groningen MSE-1 - Coretec Oostende MSE-5
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516462
+LOCATION:Martiniplaza\, Leonard Springerlaan 2\, 9727KB GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516465@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270122T203000
+DURATION:PT2H
+SUMMARY:CB Liège MSE-11 - Donar Groningen MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516465
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516470@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270126T193000
+DURATION:PT2H
+SUMMARY:Donar Groningen MSE-1 - House of Talents Spurs Kortrijk MSE-3
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516470
+LOCATION:Martiniplaza\, Leonard Springerlaan 2\, 9727KB GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516478@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270131T150000
+DURATION:PT2H
+SUMMARY:Hubo Limburg United MSE-1 - Donar Groningen MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516478
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516479@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T193000
+DURATION:PT2H
+SUMMARY:Donar Groningen MSE-1 - Zeeuw en Zeeuw Rotterdam City MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516479
+LOCATION:Martiniplaza\, Leonard Springerlaan 2\, 9727KB GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516485@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270217T203000
+DURATION:PT2H
+SUMMARY:AB InBev Leuven Bears MSE-6 - Donar Groningen MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516485
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516488@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270220T193000
+DURATION:PT2H
+SUMMARY:Donar Groningen MSE-1 - Windrose Giants Antwerp MSE-9
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516488
+LOCATION:Martiniplaza\, Leonard Springerlaan 2\, 9727KB GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516493@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T193000
+DURATION:PT2H
+SUMMARY:Donar Groningen MSE-1 - Brussels Basketball MSE-10
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516493
+LOCATION:Martiniplaza\, Leonard Springerlaan 2\, 9727KB GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516500@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270314T140000
+DURATION:PT2H
+SUMMARY:Landstede Hammers MSE-1 - Donar Groningen MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516500
+LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516502@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270325T200000
+DURATION:PT2H
+SUMMARY:Heroes Den Bosch MSE-1 - Donar Groningen MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516502
+LOCATION:De Maaspoort\, Marathonloop 1\, 5235AA 'S-HERTOGENBOSCH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516506@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270403T193000
+DURATION:PT2H
+SUMMARY:Donar Groningen MSE-1 - CityX Mons MSE-8
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516506
+LOCATION:Martiniplaza\, Leonard Springerlaan 2\, 9727KB GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516514@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270411T160000
+DURATION:PT2H
+SUMMARY:Kangoeroes Basket Mechelen MSE-2 - Donar Groningen MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516514
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516518@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270418T150000
+DURATION:PT2H
+SUMMARY:Donar Groningen MSE-1 - CB Liège MSE-11
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516518
+LOCATION:Martiniplaza\, Leonard Springerlaan 2\, 9727KB GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516522@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270424T193000
+DURATION:PT2H
+SUMMARY:Donar Groningen MSE-1 - Partena Professional Okapi Aalst MSE-4
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516522
+LOCATION:Martiniplaza\, Leonard Springerlaan 2\, 9727KB GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516526@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270428T203000
+DURATION:PT2H
+SUMMARY:Val-Dieu Spirou Basket MSE-7 - Donar Groningen MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516526
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516530@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270501T203000
+DURATION:PT2H
+SUMMARY:Coretec Oostende MSE-5 - Donar Groningen MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516530
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516533@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270508T203000
+DURATION:PT2H
+SUMMARY:Donar Groningen MSE-1 - Zorg en Zekerheid MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516533
+LOCATION:Martiniplaza\, Leonard Springerlaan 2\, 9727KB GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,760 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:EBV Mustangs - alle teams
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-495140@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T103000
+DURATION:PT2H
+SUMMARY:EBV Mustangs X12-1 38 - 21 Assist X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 38 - 21\nFOYS wedstrijd-ID: 495140
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495985@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T103000
+DURATION:PT2H
+SUMMARY:EBV Mustangs V14-1 111 - 7 Jolly Jumpers V14-2
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 111 - 7\nFOYS wedstrijd-ID: 495985
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496808@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T121500
+DURATION:PT2H
+SUMMARY:EBV Mustangs X14-1 81 - 25 Amical X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 81 - 25\nFOYS wedstrijd-ID: 496808
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502053@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T121500
+DURATION:PT2H
+SUMMARY:EBV Mustangs M18-1 60 - 48 BV Jahn II M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 60 - 48\nFOYS wedstrijd-ID: 502053
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499553@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T140000
+DURATION:PT2H
+SUMMARY:EBV Mustangs M16-1 57 - 26 BV Groningen M16-4
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 57 - 26\nFOYS wedstrijd-ID: 499553
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509600@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T140000
+DURATION:PT2H
+SUMMARY:EBV Mustangs MSE-1 20 - 0 Risne Stars MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 509600
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509606@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260918T210000
+DURATION:PT2H
+SUMMARY:Amical MSE-2 - EBV Mustangs MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509606
+LOCATION:Diekmanhal\, J.J. van Deinselaan 22\, 7541BR ENSCHEDE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499559@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T121500
+DURATION:PT2H
+SUMMARY:Assist M16-2 - EBV Mustangs M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499559
+LOCATION:De Spreng\, Vredeveldseweg 57\, 9404CC ASSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495146@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T123000
+DURATION:PT2H
+SUMMARY:Zuidlaren Trojans X12-1 - EBV Mustangs X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495146
+LOCATION:De Zwet\, De Klencke 32\, 9472RN ZUIDLAREN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495990@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T123000
+DURATION:PT2H
+SUMMARY:Twente Buzzards V14-1 - EBV Mustangs V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495990
+LOCATION:Hasseler Es\, Henry Woodstraat 1\, 7558CM HENGELO OV
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496813@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T123000
+DURATION:PT2H
+SUMMARY:Twente Buzzards X14-1 - EBV Mustangs X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496813
+LOCATION:Hasseler Es\, Henry Woodstraat 1\, 7558CM HENGELO OV
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497151@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T144500
+DURATION:PT2H
+SUMMARY:Lay Back Kampen X14-1 - EBV Mustangs X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497151
+LOCATION:Cellesbroek\, Akelei 1\, 8265KA KAMPEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502059@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T174500
+DURATION:PT2H
+SUMMARY:HBV Falcons M18-1 - EBV Mustangs M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502059
+LOCATION:Valkenlaan\, Valkenlaan 1\, 7905AA HOOGEVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495152@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T103000
+DURATION:PT2H
+SUMMARY:EBV Mustangs X12-1 - BV Exercitia '73 X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495152
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502063@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T103000
+DURATION:PT2H
+SUMMARY:EBV Mustangs M18-1 - BV Groningen M18-3
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502063
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497156@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T121500
+DURATION:PT2H
+SUMMARY:EBV Mustangs X14-2 - Be Quick '28 X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497156
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499565@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T121500
+DURATION:PT2H
+SUMMARY:EBV Mustangs M16-1 - BV Exercitia '73 M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499565
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496814@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T123000
+DURATION:PT2H
+SUMMARY:The Jugglers X14-2 - EBV Mustangs X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496814
+LOCATION:Diekmanhal\, J.J. van Deinselaan 22\, 7541BR ENSCHEDE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495994@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T103000
+DURATION:PT2H
+SUMMARY:EBV Mustangs V14-1 - The Jugglers V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495994
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496817@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T103000
+DURATION:PT2H
+SUMMARY:EBV Mustangs X14-1 - Risne Stars X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496817
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495159@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T121500
+DURATION:PT2H
+SUMMARY:EBV Mustangs X12-1 - M&F Security Typhoons'23 X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495159
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509619@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T121500
+DURATION:PT2H
+SUMMARY:EBV Mustangs MSE-1 - Peatminers MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509619
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497162@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T140000
+DURATION:PT2H
+SUMMARY:EBV Mustangs X14-2 - G.S. Stars X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497162
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499572@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T140000
+DURATION:PT2H
+SUMMARY:EBV Mustangs M16-1 - V.U.A.S. M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499572
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502066@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T141500
+DURATION:PT2H
+SUMMARY:Assist M18-1 - EBV Mustangs M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502066
+LOCATION:De Spreng\, Vredeveldseweg 57\, 9404CC ASSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495165@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T093000
+DURATION:PT2H
+SUMMARY:H.S.V. Basketball X12-3 - EBV Mustangs X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495165
+LOCATION:Scharlakenhof\, Geertsemaweg 3\, 9751XA HAREN GN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502072@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T103000
+DURATION:PT2H
+SUMMARY:EBV Mustangs M18-1 - SIETSEMA Highlanders M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502072
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499578@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T120000
+DURATION:PT2H
+SUMMARY:BV Leeuwarden M16-2 - EBV Mustangs M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499578
+LOCATION:Kalverdijkje\, Kalverdijkje 77 a\, 8924JJ LEEUWARDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497167@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T131500
+DURATION:PT2H
+SUMMARY:Basketball All Stars Epe X14-1 - EBV Mustangs X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497167
+LOCATION:PWA Hal\, Sportlaan 1\, 8162BE EPE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495999@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T133000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers V14-1 - EBV Mustangs V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495999
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496822@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T143000
+DURATION:PT2H
+SUMMARY:The Jugglers X14-3 - EBV Mustangs X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496822
+LOCATION:Deppenbroek\, Rijnstraat 11\, 7523GD ENSCHEDE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509625@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T180000
+DURATION:PT2H
+SUMMARY:TONEGO '65 MSE-1 - EBV Mustangs MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509625
+LOCATION:De Els\, Trompstraat 20\, 7482VX HAAKSBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495171@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T103000
+DURATION:PT2H
+SUMMARY:EBV Mustangs X12-1 - BV Millwings X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495171
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497172@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T103000
+DURATION:PT2H
+SUMMARY:EBV Mustangs X14-2 - LB-ZAC X14-5
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497172
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496823@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T121500
+DURATION:PT2H
+SUMMARY:EBV Mustangs X14-1 - The Jugglers X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496823
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499584@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T121500
+DURATION:PT2H
+SUMMARY:EBV Mustangs M16-1 - Dyna '75 M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499584
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509631@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T140000
+DURATION:PT2H
+SUMMARY:EBV Mustangs MSE-1 - SVZW Basketbal MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509631
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502078@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T141500
+DURATION:PT2H
+SUMMARY:H.S.V. Basketball M18-2 - EBV Mustangs M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502078
+LOCATION:Scharlakenhof\, Geertsemaweg 3\, 9751XA HAREN GN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495178@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T100000
+DURATION:PT2H
+SUMMARY:Aquila X12-2 - EBV Mustangs X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495178
+LOCATION:Wildervanckhal\, Woortmanslaan 1\, 9648AA WILDERVANK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502081@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T103000
+DURATION:PT2H
+SUMMARY:EBV Mustangs M18-1 - Bedum Blues M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502081
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499591@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T120000
+DURATION:PT2H
+SUMMARY:Celeritas-Donar M16-4 - EBV Mustangs M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499591
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509638@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T130000
+DURATION:PT2H
+SUMMARY:Kikkers MSE-1 - EBV Mustangs MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509638
+LOCATION:'t Wooldrik\, 't Wooldrik 1\, 7621AH BORNE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497178@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T150000
+DURATION:PT2H
+SUMMARY:BV Vikings X14-1 - EBV Mustangs X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497178
+LOCATION:De Kamp\, Dr Albert Schweitzerlaan 1\, 7772EC HARDENBERG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496829@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T161500
+DURATION:PT2H
+SUMMARY:Risne Stars X14-1 - EBV Mustangs X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496829
+LOCATION:Reggehal\, Nieuwlandsweg 1\, 7461VP RIJSSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495183@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T103000
+DURATION:PT2H
+SUMMARY:EBV Mustangs X12-1 - M.A.C. X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495183
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496003@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T103000
+DURATION:PT2H
+SUMMARY:EBV Mustangs V14-1 - Jolly Jumpers V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496003
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496826@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T121500
+DURATION:PT2H
+SUMMARY:EBV Mustangs X14-1 - The Jugglers X14-3
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496826
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502088@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T121500
+DURATION:PT2H
+SUMMARY:EBV Mustangs M18-1 - BV Millwings M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502088
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499596@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T140000
+DURATION:PT2H
+SUMMARY:EBV Mustangs M16-1 - Red Giants M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499596
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509643@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T140000
+DURATION:PT2H
+SUMMARY:EBV Mustangs MSE-1 - BV Vikings MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509643
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497181@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T154500
+DURATION:PT2H
+SUMMARY:EBV Mustangs X14-2 - Red Giants X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497181
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499604@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261120T190000
+DURATION:PT2H
+SUMMARY:V.U.A.S. M16-1 - EBV Mustangs M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499604
+LOCATION:Sporthal 't Dok\, Educalaan 3\, 8251GC DRONTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502092@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T133000
+DURATION:PT2H
+SUMMARY:Aquila M18-1 - EBV Mustangs M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502092
+LOCATION:Wildervanckhal\, Woortmanslaan 1\, 9648AA WILDERVANK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495191@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T141500
+DURATION:PT2H
+SUMMARY:BV Groningen X12-3 - EBV Mustangs X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495191
+LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496006@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T163000
+DURATION:PT2H
+SUMMARY:The Jugglers V14-1 - EBV Mustangs V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496006
+LOCATION:Deppenbroek\, Rijnstraat 11\, 7523GD ENSCHEDE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496009@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T103000
+DURATION:PT2H
+SUMMARY:EBV Mustangs V14-1 - Twente Buzzards V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496009
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497192@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T103000
+DURATION:PT2H
+SUMMARY:EBV Mustangs X14-2 - HBV Falcons X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497192
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496832@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T121500
+DURATION:PT2H
+SUMMARY:EBV Mustangs X14-1 - Twente Buzzards X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496832
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502098@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T121500
+DURATION:PT2H
+SUMMARY:EBV Mustangs M18-1 - M.A.C. M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502098
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495195@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T140000
+DURATION:PT2H
+SUMMARY:EBV Mustangs X12-1 - HBV Falcons X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495195
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499608@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T154500
+DURATION:PT2H
+SUMMARY:EBV Mustangs M16-1 - LB-ZAC M16-3
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499608
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496835@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261211T191500
+DURATION:PT2H
+SUMMARY:Amical X14-1 - EBV Mustangs X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496835
+LOCATION:Diekmanhal\, J.J. van Deinselaan 22\, 7541BR ENSCHEDE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499617@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T110000
+DURATION:PT2H
+SUMMARY:BV Oaters Joure M16-1 - EBV Mustangs M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499617
+LOCATION:Sportfun\, Sewei 3\, 8501SP JOURE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495204@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T120000
+DURATION:PT2H
+SUMMARY:BV Dunk X12-1 - EBV Mustangs X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495204
+LOCATION:De Noordster\, Rijksstraatweg 1\, 9801AM ZUIDHORN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496012@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T150000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers V14-2 - EBV Mustangs V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496012
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497199@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T163000
+DURATION:PT2H
+SUMMARY:Flevo Musketiers X14-2 - EBV Mustangs X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497199
+LOCATION:Rietlanden 2\, Grietenij 22 22 06\, 8233BZ LELYSTAD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509664@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T171500
+DURATION:PT2H
+SUMMARY:SVZW Basketbal MSE-1 - EBV Mustangs MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509664
+LOCATION:'n Dikken\, Dikkensweg 1\, 7641CC WIERDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509671@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T190000
+DURATION:PT2H
+SUMMARY:Risne Stars MSE-2 - EBV Mustangs MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509671
+LOCATION:Reggehal\, Nieuwlandsweg 1\, 7461VP RIJSSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509672@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T000000
+DURATION:PT2H
+SUMMARY:EBV Mustangs MSE-1 - Amical MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509672
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509684@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270129T200000
+DURATION:PT2H
+SUMMARY:Peatminers MSE-2 - EBV Mustangs MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509684
+LOCATION:De Stamper\, Schout Doddestraat 11\, 7671GT VRIEZENVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509691@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T000000
+DURATION:PT2H
+SUMMARY:EBV Mustangs MSE-1 - TONEGO '65 MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509691
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509697@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270213T191500
+DURATION:PT2H
+SUMMARY:SVZW Basketbal MSE-2 - EBV Mustangs MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509697
+LOCATION:'n Dikken\, Dikkensweg 1\, 7641CC WIERDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509703@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T000000
+DURATION:PT2H
+SUMMARY:EBV Mustangs MSE-1 - Kikkers MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509703
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509710@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270313T190000
+DURATION:PT2H
+SUMMARY:BV Vikings MSE-2 - EBV Mustangs MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509710
+LOCATION:De Kamp\, Dr Albert Schweitzerlaan 1\, 7772EC HARDENBERG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509727@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270410T000000
+DURATION:PT2H
+SUMMARY:EBV Mustangs MSE-1 - SVZW Basketbal MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509727
+LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

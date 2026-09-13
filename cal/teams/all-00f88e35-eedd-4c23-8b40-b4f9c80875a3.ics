@@ -1,0 +1,1270 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:E.B.C.G. - alle teams
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-513907@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260829T120000
+DURATION:PT2H
+SUMMARY:E.B.C.G. X14-2 32 - 101 Valkenswaard Falcons X14-1
+DESCRIPTION:Status: Final\nUitslag: 32 - 101\nFOYS wedstrijd-ID: 513907
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-514136@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260829T120000
+DURATION:PT2H
+SUMMARY:E.B.C.G. X12-1 6 - 56 BC Kimbria X12-2
+DESCRIPTION:Status: Final\nUitslag: 6 - 56\nFOYS wedstrijd-ID: 514136
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513908@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260829T134500
+DURATION:PT2H
+SUMMARY:E.B.C.G. M16-2 32 - 80 Vido M16-1
+DESCRIPTION:Status: Final\nUitslag: 32 - 80\nFOYS wedstrijd-ID: 513908
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513909@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260829T153000
+DURATION:PT2H
+SUMMARY:E.B.C.G. X14-1 86 - 14 BC Heeze X14-1
+DESCRIPTION:Status: Final\nUitslag: 86 - 14\nFOYS wedstrijd-ID: 513909
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513915@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260829T153000
+DURATION:PT2H
+SUMMARY:E.B.C.G. M18-1 61 - 58 Northside Ballers Amsterdam M18-1
+DESCRIPTION:Status: Final\nUitslag: 61 - 58\nFOYS wedstrijd-ID: 513915
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513911@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260829T171500
+DURATION:PT2H
+SUMMARY:E.B.C.G. M22-1 41 - 103 Eindhoven Lumineers M22-1
+DESCRIPTION:Status: Final\nUitslag: 41 - 103\nFOYS wedstrijd-ID: 513911
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513914@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260829T171500
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-2 - Northside Ballers Amsterdam MSE-1
+DESCRIPTION:Status: Planned\nFOYS wedstrijd-ID: 513914
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513912@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260829T190000
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-1 55 - 62 BC Heeze MSE-1
+DESCRIPTION:Status: Final\nUitslag: 55 - 62\nFOYS wedstrijd-ID: 513912
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513913@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260829T190000
+DURATION:PT2H
+SUMMARY:E.B.C.G. M18-2 46 - 77 Yellow Sox M18-1
+DESCRIPTION:Status: Final\nUitslag: 46 - 77\nFOYS wedstrijd-ID: 513913
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498766@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T110000
+DURATION:PT2H
+SUMMARY:Marathon M16-2 80 - 75 E.B.C.G. M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 80 - 75\nFOYS wedstrijd-ID: 498766
+LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502394@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T130000
+DURATION:PT2H
+SUMMARY:BC Bumpers M18-1 20 - 0 E.B.C.G. M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 502394
+LOCATION:Stadssporthal\, Stadswegske 8\, 6131AG SITTARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494736@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T144500
+DURATION:PT2H
+SUMMARY:BC Deurne Pioniers X12-1 65 - 24 E.B.C.G. X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 65 - 24\nFOYS wedstrijd-ID: 494736
+LOCATION:De Peelhorst\, St. Jozefstraat 70\, 5753AV DEURNE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500613@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T144500
+DURATION:PT2H
+SUMMARY:BC Bladel M16-1 111 - 13 E.B.C.G. M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 111 - 13\nFOYS wedstrijd-ID: 500613
+LOCATION:Sporthal X-Sport\, Lange Trekken 32\, 5531PZ BLADEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496331@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T161500
+DURATION:PT2H
+SUMMARY:BC Deurne Pioniers X14-1 35 - 69 E.B.C.G. X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 35 - 69\nFOYS wedstrijd-ID: 496331
+LOCATION:De Peelhorst\, St. Jozefstraat 70\, 5753AV DEURNE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501194@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T180000
+DURATION:PT2H
+SUMMARY:Basketbal Academie Limburg M18-1 85 - 73 E.B.C.G. M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 85 - 73\nFOYS wedstrijd-ID: 501194
+LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508633@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T180000
+DURATION:PT2H
+SUMMARY:BC Deurne Pioniers MSE-2 57 - 42 E.B.C.G. MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Final\nUitslag: 57 - 42\nFOYS wedstrijd-ID: 508633
+LOCATION:De Peelhorst\, St. Jozefstraat 70\, 5753AV DEURNE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496334@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T121500
+DURATION:PT2H
+SUMMARY:E.B.C.G. X14-1 - EVBV Octopus X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496334
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494739@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T122500
+DURATION:PT2H
+SUMMARY:E.B.C.G. X12-1 - BC LIESHOUT X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494739
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497740@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T140000
+DURATION:PT2H
+SUMMARY:E.B.C.G. X14-2 - BC Titans X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497740
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500618@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T140000
+DURATION:PT2H
+SUMMARY:E.B.C.G. M16-2 - BC LIESHOUT M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500618
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501199@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T154500
+DURATION:PT2H
+SUMMARY:E.B.C.G. M18-1 - The Black Eagles M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501199
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502403@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T173000
+DURATION:PT2H
+SUMMARY:E.B.C.G. M18-2 - Jumping Giants M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502403
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508638@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T173000
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-1 - BC LIESHOUT MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508638
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503654@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T191500
+DURATION:PT2H
+SUMMARY:E.B.C.G. M22-1 - Oirschot M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503654
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510663@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T191500
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-2 - BC Titans MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510663
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497747@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T090000
+DURATION:PT2H
+SUMMARY:Basketbal Academie Limburg X14-2 - E.B.C.G. X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497747
+LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498780@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T154500
+DURATION:PT2H
+SUMMARY:Biks Shots M16-1 - E.B.C.G. M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498780
+LOCATION:De Roodloop\, Roodloop 6\, 5081XZ HILVARENBEEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500627@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T100000
+DURATION:PT2H
+SUMMARY:Black Shots M16-1 - E.B.C.G. M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500627
+LOCATION:Veka-sportcentrum\, Deltaweg 201 -203\, 5709AB HELMOND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508647@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T110000
+DURATION:PT2H
+SUMMARY:Maastricht Knights MSE-2 - E.B.C.G. MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508647
+LOCATION:Universitair Sportcentrum Randwijck\, P Debyeplein 15\, 6229HA MAASTRICHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503657@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T114500
+DURATION:PT2H
+SUMMARY:Black Shots M22-1 - E.B.C.G. M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503657
+LOCATION:Veka-sportcentrum\, Deltaweg 201 -203\, 5709AB HELMOND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494747@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T133000
+DURATION:PT2H
+SUMMARY:Black Shots X12-1 - E.B.C.G. X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494747
+LOCATION:Veka-sportcentrum\, Deltaweg 201 -203\, 5709AB HELMOND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510670@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T133000
+DURATION:PT2H
+SUMMARY:BC Heeze MSE-2 - E.B.C.G. MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510670
+LOCATION:De Pompenmaker\, De Pompenmaker 4\, 5591NE HEEZE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502408@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T150000
+DURATION:PT2H
+SUMMARY:BC Titans M18-1 - E.B.C.G. M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502408
+LOCATION:Sporthal Vie\, Vieboulevard 21\, 6461ND KERKRADE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497751@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T140000
+DURATION:PT2H
+SUMMARY:E.B.C.G. X14-2 - Black Shots X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497751
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503659@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T140000
+DURATION:PT2H
+SUMMARY:Jumpers '76 M22-1 - E.B.C.G. M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503659
+LOCATION:De Wetteling\, Zuidsingel 2\, 5802EG VENRAY
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496347@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T150000
+DURATION:PT2H
+SUMMARY:Attacus X14-1 - E.B.C.G. X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496347
+LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502414@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T154500
+DURATION:PT2H
+SUMMARY:E.B.C.G. M18-2 - Basketbal Academie Limburg M18-3
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502414
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498786@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T180000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M16-2 - E.B.C.G. M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498786
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510675@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T180000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad MSE-1 - E.B.C.G. MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510675
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501211@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T181500
+DURATION:PT2H
+SUMMARY:High Five M18-1 - E.B.C.G. M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501211
+LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508653@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T101500
+DURATION:PT2H
+SUMMARY:Springfield '75 MSE-1 - E.B.C.G. MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508653
+LOCATION:Het Anker\, Ankersweg 52\, 6121AT BUCHTEN-BORN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500633@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T121500
+DURATION:PT2H
+SUMMARY:Springfield '75 M16-1 - E.B.C.G. M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500633
+LOCATION:Het Anker\, Ankersweg 52\, 6121AT BUCHTEN-BORN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494757@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T140000
+DURATION:PT2H
+SUMMARY:E.B.C.G. X12-1 - Valkenswaard Falcons X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494757
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500639@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T140000
+DURATION:PT2H
+SUMMARY:E.B.C.G. M16-2 - Valkenswaard Falcons M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500639
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496352@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T154500
+DURATION:PT2H
+SUMMARY:E.B.C.G. X14-1 - Vlijmscherp SVH X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496352
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498792@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T154500
+DURATION:PT2H
+SUMMARY:E.B.C.G. M16-1 - Barons Breda Basketball M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498792
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503661@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T173000
+DURATION:PT2H
+SUMMARY:E.B.C.G. M22-1 - BC Heeze M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503661
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508659@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T173000
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-1 - Valkenswaard Falcons MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508659
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501216@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T191500
+DURATION:PT2H
+SUMMARY:E.B.C.G. M18-1 - Pluto M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501216
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510680@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T191500
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-2 - Valkenswaard Falcons MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510680
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497760@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T114500
+DURATION:PT2H
+SUMMARY:BC Heeze X14-1 - E.B.C.G. X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497760
+LOCATION:De Pompenmaker\, De Pompenmaker 4\, 5591NE HEEZE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502421@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T133000
+DURATION:PT2H
+SUMMARY:Black Shots M18-1 - E.B.C.G. M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502421
+LOCATION:Veka-sportcentrum\, Deltaweg 201 -203\, 5709AB HELMOND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510658@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T143000
+DURATION:PT2H
+SUMMARY:Tantalus MSE-6 - E.B.C.G. MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510658
+LOCATION:SSC Sportcentrum\, Onze Lieve Vrouwestraat 1\, 5612AW EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497733@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261025T130000
+DURATION:PT2H
+SUMMARY:Jumping Giants X14-1 - E.B.C.G. X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497733
+LOCATION:sporthal Nederweert\, De Bengele 8\, 6031TZ NEDERWEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494761@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T120000
+DURATION:PT2H
+SUMMARY:Jumpers '76 X12-2 - E.B.C.G. X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494761
+LOCATION:De Wetteling\, Zuidsingel 2\, 5802EG VENRAY
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496356@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T143000
+DURATION:PT2H
+SUMMARY:OBC X14-1 - E.B.C.G. X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496356
+LOCATION:De Ruivert\, de Ruivert 3\, 5342CM OSS
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502426@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T154500
+DURATION:PT2H
+SUMMARY:E.B.C.G. M18-2 - Dunatos M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502426
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510683@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T160000
+DURATION:PT2H
+SUMMARY:Jumpers '76 MSE-1 - E.B.C.G. MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510683
+LOCATION:De Wetteling\, Zuidsingel 2\, 5802EG VENRAY
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503663@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T173000
+DURATION:PT2H
+SUMMARY:E.B.C.G. M22-1 - Black Shots M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503663
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497766@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T101500
+DURATION:PT2H
+SUMMARY:Springfield '75 X14-1 - E.B.C.G. X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497766
+LOCATION:Het Anker\, Ankersweg 52\, 6121AT BUCHTEN-BORN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500643@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 M16-2 - E.B.C.G. M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500643
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498796@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T180000
+DURATION:PT2H
+SUMMARY:Nimma Gemina M16-1 - E.B.C.G. M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498796
+LOCATION:Ark van Oost\, Cipresstraat 154\, 6523HR NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508663@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T180000
+DURATION:PT2H
+SUMMARY:BC Kimbria MSE-1 - E.B.C.G. MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508663
+LOCATION:Geusselt\, Olympiaweg 68\, 6225XX MAASTRICHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494766@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T123000
+DURATION:PT2H
+SUMMARY:E.B.C.G. X12-1 - Basketbal Academie Limburg X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494766
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496361@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T140000
+DURATION:PT2H
+SUMMARY:E.B.C.G. X14-1 - BC Eindhoven X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496361
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497772@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T140000
+DURATION:PT2H
+SUMMARY:E.B.C.G. X14-2 - Jumpers '76 X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497772
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501226@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T154500
+DURATION:PT2H
+SUMMARY:E.B.C.G. M18-1 - Heroes Den Bosch M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501226
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508670@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T173000
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-1 - Akros MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508670
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502434@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T180000
+DURATION:PT2H
+SUMMARY:Valkenswaard Falcons M18-2 - E.B.C.G. M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502434
+LOCATION:De Wedert\, Past. Heerkensdreef 29\, 5552BG VALKENSWAARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510689@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T191500
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-2 - Venlo Sport Crusaders MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510689
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502440@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261113T200000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M18-1 - E.B.C.G. M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502440
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496363@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T120000
+DURATION:PT2H
+SUMMARY:Basketbal Academie Limburg X14-1 - E.B.C.G. X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496363
+LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498805@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T131500
+DURATION:PT2H
+SUMMARY:Woodpeckers M16-1 - E.B.C.G. M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498805
+LOCATION:De Slinger\, Kamillehof 24\, 3991GZ HOUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501227@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T150000
+DURATION:PT2H
+SUMMARY:Woodpeckers M18-1 - E.B.C.G. M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501227
+LOCATION:De Slinger\, Kamillehof 24\, 3991GZ HOUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508672@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T150000
+DURATION:PT2H
+SUMMARY:BC Bumpers MSE-1 - E.B.C.G. MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508672
+LOCATION:Stadssporthal\, Stadswegske 8\, 6131AG SITTARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510691@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T170000
+DURATION:PT2H
+SUMMARY:Basketbal Academie Limburg MSE-3 - E.B.C.G. MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510691
+LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494768@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T100000
+DURATION:PT2H
+SUMMARY:Achilles '71 X12-2 - E.B.C.G. X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494768
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497777@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T120000
+DURATION:PT2H
+SUMMARY:Venlo Sport Crusaders X14-1 - E.B.C.G. X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497777
+LOCATION:Egerbos II\, Drie Decembersingel 34\, 5922BD VENLO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503664@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261115T133000
+DURATION:PT2H
+SUMMARY:BC Heeze M22-1 - E.B.C.G. M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503664
+LOCATION:De Pompenmaker\, De Pompenmaker 4\, 5591NE HEEZE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494775@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T121500
+DURATION:PT2H
+SUMMARY:E.B.C.G. X12-1 - BC Heeze X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494775
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496370@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T121500
+DURATION:PT2H
+SUMMARY:E.B.C.G. X14-1 - Nimma Gemina X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496370
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497783@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T140000
+DURATION:PT2H
+SUMMARY:E.B.C.G. X14-2 - BC Bumpers X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497783
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500662@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T140000
+DURATION:PT2H
+SUMMARY:E.B.C.G. M16-2 - Fanatics '71 M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500662
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498814@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T154500
+DURATION:PT2H
+SUMMARY:E.B.C.G. M16-1 - B.V. Batouwe M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498814
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501235@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T154500
+DURATION:PT2H
+SUMMARY:E.B.C.G. M18-1 - B.V. Batouwe M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501235
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502446@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T173000
+DURATION:PT2H
+SUMMARY:E.B.C.G. M18-2 - Venlo Sport Crusaders M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502446
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503667@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T191500
+DURATION:PT2H
+SUMMARY:E.B.C.G. M22-1 - Jumpers '76 M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503667
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510698@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T191500
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-2 - Vido MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510698
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496375@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T131500
+DURATION:PT2H
+SUMMARY:Pluto X14-1 - E.B.C.G. X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496375
+LOCATION:Tarthorst\, Tarthorst 152\, 6708JD WAGENINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498819@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T151500
+DURATION:PT2H
+SUMMARY:Pluto M16-1 - E.B.C.G. M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498819
+LOCATION:Tarthorst\, Tarthorst 152\, 6708JD WAGENINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502447@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T170000
+DURATION:PT2H
+SUMMARY:Basketbal Academie Limburg M18-2 - E.B.C.G. M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502447
+LOCATION:De Grenslibel\, Oude Trambaan 3\, 6039GN STRAMPROY
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508686@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T191500
+DURATION:PT2H
+SUMMARY:Yellow Sox MSE-1 - E.B.C.G. MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508686
+LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494780@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T111500
+DURATION:PT2H
+SUMMARY:Vido X12-1 - E.B.C.G. X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494780
+LOCATION:Den Ekkerman\, Wal 150\, 5501HP VELDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501238@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T113000
+DURATION:PT2H
+SUMMARY:Arnhem Eagles M18-1 - E.B.C.G. M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501238
+LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500667@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T114500
+DURATION:PT2H
+SUMMARY:BC Heeze M16-1 - E.B.C.G. M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500667
+LOCATION:De Pompenmaker\, De Pompenmaker 4\, 5591NE HEEZE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497786@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T120000
+DURATION:PT2H
+SUMMARY:Fanatics '71 X14-1 - E.B.C.G. X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497786
+LOCATION:Jo Gerrishal\, Achilleslaan 2 a\, 6042JV ROERMOND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503669@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T140000
+DURATION:PT2H
+SUMMARY:Oirschot M22-1 - E.B.C.G. M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503669
+LOCATION:sportcentrum De Kemmer\, Bloemendaal 5\, 5688GP OIRSCHOT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494784@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T121500
+DURATION:PT2H
+SUMMARY:E.B.C.G. X12-1 - Jumping Giants X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494784
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496379@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T121500
+DURATION:PT2H
+SUMMARY:E.B.C.G. X14-1 - Arnhem Eagles X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496379
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497794@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T140000
+DURATION:PT2H
+SUMMARY:E.B.C.G. X14-2 - Vido X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497794
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500673@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T140000
+DURATION:PT2H
+SUMMARY:E.B.C.G. M16-2 - Vido M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500673
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498825@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T154500
+DURATION:PT2H
+SUMMARY:E.B.C.G. M16-1 - Arnhem Eagles M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498825
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501244@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T154500
+DURATION:PT2H
+SUMMARY:E.B.C.G. M18-1 - Nimma Gemina M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501244
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502457@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T173000
+DURATION:PT2H
+SUMMARY:E.B.C.G. M18-2 - Fanatics '71 M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502457
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508692@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T173000
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-1 - Jumping Giants MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508692
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510708@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T191500
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-2 - Jumping Giants MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510708
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508698@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T173000
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-1 - BC Deurne Pioniers MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508698
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510713@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T191500
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-2 - Tantalus MSE-6
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510713
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508706@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T151500
+DURATION:PT2H
+SUMMARY:BC LIESHOUT MSE-1 - E.B.C.G. MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508706
+LOCATION:De Klumper\, Papenhoef 2\, 5737BS LIESHOUT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510719@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270117T130000
+DURATION:PT2H
+SUMMARY:BC Titans MSE-1 - E.B.C.G. MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510719
+LOCATION:Sporthal Vie\, Vieboulevard 21\, 6461ND KERKRADE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508709@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T173000
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-1 - Maastricht Knights MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508709
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510721@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T191500
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-2 - BC Heeze MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510721
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508719@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T173000
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-1 - Springfield '75 MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508719
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510730@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T191500
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-2 - Tracks Parkstad MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510730
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510733@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T180000
+DURATION:PT2H
+SUMMARY:Valkenswaard Falcons MSE-2 - E.B.C.G. MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510733
+LOCATION:De Wedert\, Past. Heerkensdreef 29\, 5552BG VALKENSWAARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508722@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T200000
+DURATION:PT2H
+SUMMARY:Valkenswaard Falcons MSE-1 - E.B.C.G. MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508722
+LOCATION:De Wedert\, Past. Heerkensdreef 29\, 5552BG VALKENSWAARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508730@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270227T173000
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-1 - BC Kimbria MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508730
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510739@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270227T191500
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-2 - Jumpers '76 MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510739
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508736@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T200000
+DURATION:PT2H
+SUMMARY:Akros MSE-1 - E.B.C.G. MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508736
+LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510744@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270307T120000
+DURATION:PT2H
+SUMMARY:Venlo Sport Crusaders MSE-1 - E.B.C.G. MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510744
+LOCATION:Egerbos II\, Drie Decembersingel 34\, 5922BD VENLO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508741@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270313T173000
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-1 - BC Bumpers MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508741
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510748@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270313T191500
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-2 - Basketbal Academie Limburg MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510748
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510752@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270321T000000
+DURATION:PT2H
+SUMMARY:Vido MSE-2 - E.B.C.G. MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510752
+LOCATION:Den Ekkerman\, Wal 150\, 5501HP VELDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508752@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270403T173000
+DURATION:PT2H
+SUMMARY:E.B.C.G. MSE-1 - Yellow Sox MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508752
+LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508759@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270411T123000
+DURATION:PT2H
+SUMMARY:Jumping Giants MSE-1 - E.B.C.G. MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508759
+LOCATION:sporthal Nederweert\, De Bengele 8\, 6031TZ NEDERWEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510763@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270411T143000
+DURATION:PT2H
+SUMMARY:Jumping Giants MSE-2 - E.B.C.G. MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510763
+LOCATION:sporthal Nederweert\, De Bengele 8\, 6031TZ NEDERWEERT
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

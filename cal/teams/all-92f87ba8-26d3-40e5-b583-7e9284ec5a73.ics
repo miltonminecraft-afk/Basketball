@@ -1,0 +1,190 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Basketball Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:R.B.V.M. - alle teams
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:foys-match-512986@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T121500
+DURATION:PT2H
+SUMMARY:BC Langstraat Shooters RSE-2 - R.B.V.M. RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512986
+LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-512988@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T140000
+DURATION:PT2H
+SUMMARY:R.B.V.M. RSE-2 - Rotterdam Basketbal RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512988
+LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513003@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T121500
+DURATION:PT2H
+SUMMARY:R.B.V.M. RSE-3 - Rotterdam Basketbal RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513003
+LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513006@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T140000
+DURATION:PT2H
+SUMMARY:Barons Breda Basketball RSE-1 - R.B.V.M. RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513006
+LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511937@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T143000
+DURATION:PT2H
+SUMMARY:Hubo Limburg United on Wheels RSE-1 - R.B.V.M. RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 511937
+LOCATION:Sportcomplex Herkules\, Ursulinenstraat 1\, 3540 Herk-de-Stad
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513108@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T103000
+DURATION:PT2H
+SUMMARY:SC Antilope Utrecht RSE-1 - R.B.V.M. RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513108
+LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513113@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T140000
+DURATION:PT2H
+SUMMARY:R.B.V.M. RSE-2 - I.S.R. RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513113
+LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511942@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T160000
+DURATION:PT2H
+SUMMARY:R.B.V.M. RSE-1 - s.c. DeVeDo RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 511942
+LOCATION:De Sprong\, De Aanloop 1\, 4335AS MIDDELBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513120@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T103000
+DURATION:PT2H
+SUMMARY:R.B.V.M. RSE-3 - BS Leiden RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513120
+LOCATION:De Kragt\, Terheijdenseweg 416\, 4826AB BREDA
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513124@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 RSE-1 - R.B.V.M. RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513124
+LOCATION:De Kragt\, Terheijdenseweg 416\, 4826AB BREDA
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511948@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T183000
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal RSE-1 - R.B.V.M. RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 511948
+LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511951@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T160000
+DURATION:PT2H
+SUMMARY:R.B.V.M. RSE-1 - BC Langstraat Shooters RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 511951
+LOCATION:De Sprong\, De Aanloop 1\, 4335AS MIDDELBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511957@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261219T160000
+DURATION:PT2H
+SUMMARY:R.B.V.M. RSE-1 - Only Friends RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 511957
+LOCATION:De Sprong\, De Aanloop 1\, 4335AS MIDDELBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511960@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T160000
+DURATION:PT2H
+SUMMARY:R.B.V.M. RSE-1 - Hubo Limburg United on Wheels RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 511960
+LOCATION:De Sprong\, De Aanloop 1\, 4335AS MIDDELBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511961@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T190000
+DURATION:PT2H
+SUMMARY:s.c. DeVeDo RSE-1 - R.B.V.M. RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 511961
+LOCATION:Sportcentrum Zanderij\, Oude Telgterweg 205\, 3853PG ERMELO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511969@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270227T160000
+DURATION:PT2H
+SUMMARY:R.B.V.M. RSE-1 - Rotterdam Basketbal RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 511969
+LOCATION:De Sprong\, De Aanloop 1\, 4335AS MIDDELBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511972@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270305T201500
+DURATION:PT2H
+SUMMARY:BC Langstraat Shooters RSE-1 - R.B.V.M. RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 511972
+LOCATION:Sporthal Zidewinde\, Julianalaan 3\, 5161BA SPRANG-CAPELLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511977@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270403T170000
+DURATION:PT2H
+SUMMARY:Only Friends RSE-1 - R.B.V.M. RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 511977
+LOCATION:Friendship Sports Centre\, Beemsterstraat 652\, 1027ED AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
