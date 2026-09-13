@@ -1,70 +1,268 @@
 (()=>{
 'use strict';
-const U='https://elpnfmlrkoemjrnzaeok.supabase.co';
-const K='sb_publishable_GPzLwaKeevg3e8CNjw9oAQ_50NW2xlg';
-const F='52cfa65e-9782-4a81-ab35-e2f981fcb7a9';
+
+const SUPABASE_URL='https://elpnfmlrkoemjrnzaeok.supabase.co';
+const SUPABASE_KEY='sb_publishable_GPzLwaKeevg3e8CNjw9oAQ_50NW2xlg';
+const FEDERATION_ID='52cfa65e-9782-4a81-ab35-e2f981fcb7a9';
+const ARGON_ID='a4a2e2fa-0635-46a5-8969-1d0fef40444f';
 const API='https://api.foys.io/competition/public-api/v1';
+const CLUB_API='https://api.foys.io/foys/api/v2/pub';
 const STORE='basketballApp.selection.v3';
 const CACHE_PREFIX='basketballApp.matches.v3.';
+
 const $=id=>document.getElementById(id);
 const esc=v=>String(v??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));
+const d=v=>String(v||'').slice(0,10);
+const t=v=>String(v||'').slice(0,5);
 const norm=v=>String(v||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');
-const d=v=>String(v||'').slice(0,10),t=v=>String(v||'').slice(0,5);
-const headers=()=>({Accept:'application/json','X-FederationID':F});
-let sb=null,ctxCache=null,ctxAt=0,taskJson=null,taskJsonAt=0,refreshBusy=false,refreshQueued=false;
-const matchCache=new Map(),extraMatches=new Map();
-const DAYS={1:'Maandag',2:'Dinsdag',3:'Woensdag',4:'Donderdag',5:'Vrijdag',6:'Zaterdag',7:'Zondag'};
-function season(){const n=new Date(),y=n.getMonth()>=6?n.getFullYear():n.getFullYear()-1;return{start:`${y}-07-01`,end:`${y+1}-06-30`}}
+
+let sb=null,ctx=null,ctxAt=0,busy=false,queued=false,taskCache=null;
+const matchCache=new Map(),logoCache=new Map(),clubLogoCache=new Map(),orgTeamsCache=new Map();
+
 function selection(){try{return JSON.parse(localStorage.getItem(STORE)||'null')}catch{return null}}
-function toast(msg){const n=$('toast');if(!n)return alert(msg);n.textContent=msg;n.classList.add('show');setTimeout(()=>n.classList.remove('show'),2500)}
-function fmtDate(v){try{return new Intl.DateTimeFormat('nl-NL',{weekday:'short',day:'2-digit',month:'short',year:'numeric'}).format(new Date(`${d(v)}T12:00:00`))}catch{return d(v)}}
-function formatDay(v){try{return new Intl.DateTimeFormat('nl-NL',{weekday:'long',day:'2-digit',month:'long',year:'numeric'}).format(new Date(`${d(v)}T12:00:00`)).toUpperCase()}catch{return d(v)}}
-function isArgon(v){return /^SV Argon(?:\s|$)/i.test(String(v||'').trim())}
-function teamLabel(m,side){return [m?.[`${side}TeamSponsorClubName`]||m?.[`${side}Organisation`]?.name,m?.[`${side}TeamName`]].filter(Boolean).join(' ').trim()||'Onbekend team'}
-function teamGuid(m,side){return String(m?.[`${side}TeamGuid`]||m?.[`${side}Team`]?.guid||'')}
+function season(){const n=new Date(),y=n.getMonth()>=6?n.getFullYear():n.getFullYear()-1;return{start:`${y}-07-01`,end:`${y+1}-06-30`}}
+function headers(){return{Accept:'application/json','X-FederationID':FEDERATION_ID}}
 function hasScore(m){return m?.homeScore!==null&&m?.homeScore!==undefined&&m?.awayScore!==null&&m?.awayScore!==undefined}
-function address(m){const a=m?.address||{},street=[a.address1,a.houseNumber,a.houseNumberExtension].filter(Boolean).join(' '),city=[a.zipCode,a.city].filter(Boolean).join(' ');return [street,city].filter(Boolean).join(', ')}
-async function client(){if(sb)return sb;const mod=await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm');sb=mod.createClient(U,K,{auth:{persistSession:true,detectSessionInUrl:true,autoRefreshToken:true}});sb.auth.onAuthStateChange(()=>{ctxCache=null;ctxAt=0;schedule(true)});return sb}
-async function context(force=false){if(!force&&ctxCache&&Date.now()-ctxAt<12000)return ctxCache;const s=await client(),{data:{session}}=await s.auth.getSession();if(!session){ctxCache=null;return null}const {data:m,error}=await s.rpc('sync_current_member');if(error||!m?.active){ctxCache=null;return null}const [pt,tt,teams,slots]=await Promise.all([
- s.from('member_teams').select('team_id,teams(id,team_name,foy_team_guid)').eq('member_id',m.id),
- s.from('member_trainer_teams').select('team_id,teams(id,team_name,foy_team_guid)').eq('member_id',m.id),
- s.from('teams').select('id,team_name,foy_team_guid').eq('active',true).order('team_name'),
- s.from('training_slots').select('*,teams(id,team_name,foy_team_guid)').eq('active',true).order('weekday').order('start_time')
-]);
- const mapRows=r=>(r.data||[]).map(x=>x.teams?{...x.teams,id:x.team_id}:null).filter(Boolean);ctxCache={member:m,memberTeams:mapRows(pt),trainerTeams:mapRows(tt),allTeams:teams.data||[],slots:slots.data||[]};ctxAt=Date.now();return ctxCache}
-async function teamMatches(guid){if(matchCache.has(guid))return matchCache.get(guid);const q=season(),rows=[];let skip=0,total=Infinity;while(skip<total){const p=new URLSearchParams({startDate:q.start,endDate:q.end,teamGuid:guid,skipCount:String(skip),maxResultCount:'100',sorting:'date asc, startTime asc'}),r=await fetch(`${API}/matches?${p}`,{headers:headers(),cache:'no-store'});if(!r.ok)break;const j=await r.json(),a=Array.isArray(j?.items)?j.items:[];rows.push(...a);total=Number(j?.totalCount)||a.length;skip+=a.length;if(!a.length||a.length<100)break}matchCache.set(guid,rows);rows.forEach(x=>extraMatches.set(String(x.id),x));return rows}
-async function legacyTasks(){if(taskJson&&Date.now()-taskJsonAt<60000)return taskJson;try{const r=await fetch('./data/tasks.json',{cache:'no-store'}),j=await r.json();taskJson=Array.isArray(j?.tasks)?j.tasks:[]}catch{taskJson=[]}taskJsonAt=Date.now();return taskJson}
-function storedMatches(){const map=new Map(extraMatches);for(let i=0;i<localStorage.length;i++){const key=localStorage.key(i);if(!key?.startsWith(CACHE_PREFIX))continue;try{for(const m of JSON.parse(localStorage.getItem(key)||'{}')?.matches||[])map.set(String(m.id),m)}catch{}}return map}
-function relevantTeamIds(c){const ids=new Set([...c.memberTeams,...c.trainerTeams].map(x=>x.id));const sel=selection();if(sel?.teamGuid&&!String(sel.teamGuid).startsWith('all-')){const tm=c.allTeams.find(x=>String(x.foy_team_guid)===String(sel.teamGuid));if(tm)ids.add(tm.id)}return ids}
-function occurrences(slots,startDate,endDate){const start=new Date(`${startDate}T12:00:00`),end=new Date(`${endDate}T12:00:00`),out=[];for(let cur=new Date(start);cur<=end;cur.setDate(cur.getDate()+1)){const wd=cur.getDay()||7,date=cur.toISOString().slice(0,10);for(const s of slots)if(Number(s.weekday)===wd)out.push({date,slot:s})}return out}
-function matchCard(m,extra=true){const score=hasScore(m)?`${m.homeScore} – ${m.awayScore}`:t(m.startTime),status=hasScore(m)?'Eindstand':(m.status==='Cancelled'?'Afgelast':'Gepland'),badge=hasScore(m)?'<span class="badge badge-final">Uitslag</span>':'<span class="badge badge-game">Wedstrijd</span>',loc=[m.accommodationName,m.fieldName].filter(Boolean).join(' · '),addr=address(m);return `<article class="event ${extra?'polish-extra-match':''}" data-match-id="${esc(m.id)}" data-polish-time="${esc(t(m.startTime))}"><div class="event-row"><div class="time-col"><div class="event-time${hasScore(m)?' score':''}">${esc(score)}</div><span class="event-status">${esc(status)}</span></div><div class="event-main">${badge}<div class="match-title">${esc(teamLabel(m,'home'))} — ${esc(teamLabel(m,'away'))}</div>${hasScore(m)?`<div class="score-line">${esc(score)}</div>`:''}<div class="meta">${esc(loc||'Locatie niet bekend')}${addr?`<br>${esc(addr)}`:''}</div><div class="competition">${esc(m.competition?.name||'')} · wedstrijd-ID ${esc(m.id)}</div></div></div></article>`}
-function trainingCard(o){const s=o.slot,team=s.teams?.team_name||'Team';return `<article class="event polish-training" data-polish-time="${esc(t(s.start_time))}"><div class="event-row"><div class="time-col"><div class="event-time">${esc(t(s.start_time))}</div><span class="event-status">Training</span></div><div class="event-main"><span class="badge badge-training">Training</span><div class="match-title">SV Argon ${esc(team)}</div><div class="meta">${esc(t(s.start_time))} - ${esc(t(s.end_time))}${s.location?` · ${esc(s.location)}`:''}</div></div></div></article>`}
-function taskCard(ev){const as=ev.task_assignments||[],refs=as.filter(x=>x.role==='referee').map(x=>x.assigned_name),table=as.filter(x=>x.role==='table').map(x=>x.assigned_name);return `<article class="event polish-task-new" data-polish-task-event="${esc(ev.id)}" data-polish-time="${esc(t(ev.arrival_time||ev.start_time))}"><div class="event-row"><div class="time-col"><div class="event-time">${esc(t(ev.arrival_time||ev.start_time))}</div><span class="event-status">Aanwezig</span></div><div class="event-main"><span class="badge badge-task">Taak</span><div class="match-title">${esc(ev.home)} — ${esc(ev.away)}</div><div class="meta">Wedstrijd ${esc(t(ev.start_time))}${ev.location?` · ${esc(ev.location)}`:''}${ev.field?` · ${esc(ev.field)}`:''}</div>${as.length?`<div class="officials">${refs.length?`<b>Scheidsrechter:</b> ${esc(refs.join(', '))}<br>`:''}${table.length?`<b>Tafel:</b> ${esc(table.join(', '))}`:''}</div>`:''}</div></div></article>`}
-function getDay(root,date){let day=[...root.querySelectorAll('.day')].find(x=>x.dataset.polishDate===date);if(day)return day;day=document.createElement('section');day.className='day';day.dataset.polishDate=date;day.innerHTML=`<div class="day-head">${esc(formatDay(date))}</div>`;root.appendChild(day);return day}
-async function tagExistingDays(root){const mm=storedMatches(),tasks=await legacyTasks(),tm=new Map(tasks.map(x=>[String(x.id),x]));for(const day of root.querySelectorAll('.day')){if(day.dataset.polishDate)continue;const card=day.querySelector('article.event');let date='';if(card?.dataset.matchId)date=d(mm.get(String(card.dataset.matchId))?.date);else if(card?.dataset.taskId)date=d(tm.get(String(card.dataset.taskId))?.date);if(date)day.dataset.polishDate=date}for(const card of root.querySelectorAll('article.event')){if(card.dataset.polishTime)continue;if(card.dataset.matchId)card.dataset.polishTime=t(mm.get(String(card.dataset.matchId))?.startTime);else if(card.dataset.taskId)card.dataset.polishTime=t(tm.get(String(card.dataset.taskId))?.arrivalTime||tm.get(String(card.dataset.taskId))?.startTime)}}
-function sortAgenda(root){const days=[...root.querySelectorAll('.day')];days.sort((a,b)=>(a.dataset.polishDate||'9999').localeCompare(b.dataset.polishDate||'9999')).forEach(x=>root.appendChild(x));for(const day of days){const cards=[...day.querySelectorAll(':scope > article.event')];cards.sort((a,b)=>(a.dataset.polishTime||'99:99').localeCompare(b.dataset.polishTime||'99:99')).forEach(x=>day.appendChild(x))}}
-async function dynamicTasks(c){const s=await client(),{data}=await s.from('task_events').select('*,task_assignments(*)').eq('active',true).order('event_date').order('start_time');return data||[]}
-async function enhanceMainAgenda(){const root=$('agendaList');if(!root)return;const c=await context();root.querySelectorAll('.polish-training,.polish-extra-match,.polish-task-new').forEach(x=>x.remove());await tagExistingDays(root);if(!c)return;const taskEvents=await dynamicTasks(c),person=$('personSelect')?.value||'__all__';for(const ev of taskEvents){const visible=person==='__all__'||(ev.task_assignments||[]).some(a=>String(a.assigned_name||'')===person);const legacy=ev.legacy_id?root.querySelector(`article.event[data-task-id="${CSS.escape(String(ev.legacy_id))}"]`):null;if(legacy){if(!visible){legacy.style.display='none';continue}legacy.style.display='';legacy.dataset.polishTime=t(ev.arrival_time||ev.start_time);const title=legacy.querySelector('.match-title');if(title)title.textContent=`${ev.home} — ${ev.away}`;const meta=legacy.querySelector('.meta');if(meta)meta.textContent=`Wedstrijd ${t(ev.start_time)}${ev.location?` · ${ev.location}`:''}${ev.field?` · ${ev.field}`:''}`;continue}if(!visible)continue;const day=getDay(root,d(ev.event_date)),wrap=document.createElement('div');wrap.innerHTML=taskCard(ev);day.appendChild(wrap.firstElementChild)}
- const sel=selection(),baseAll=String(sel?.teamGuid||'').startsWith('all-'),guids=[...new Set([...c.memberTeams,...c.trainerTeams].map(x=>x.foy_team_guid).filter(Boolean))];if(!baseAll&&sel?.teamGuid)guids.push(sel.teamGuid);const existing=new Set([...root.querySelectorAll('article[data-match-id]')].map(x=>String(x.dataset.matchId)));for(const guid of [...new Set(guids)])for(const m of await teamMatches(guid)){if(existing.has(String(m.id)))continue;existing.add(String(m.id));const day=getDay(root,d(m.date)),wrap=document.createElement('div');wrap.innerHTML=matchCard(m,true);day.appendChild(wrap.firstElementChild)}
- const relIds=relevantTeamIds(c),slots=c.slots.filter(x=>relIds.has(x.team_id)),q=season(),today=new Date().toISOString().slice(0,10);for(const o of occurrences(slots,today,q.end)){const day=getDay(root,o.date),wrap=document.createElement('div');wrap.innerHTML=trainingCard(o);day.appendChild(wrap.firstElementChild)}sortAgenda(root);polishCards()}
-function polishCards(){const mm=storedMatches();for(const card of document.querySelectorAll('#agendaList article.event[data-match-id],#gamesList article.event[data-match-id]')){const m=mm.get(String(card.dataset.matchId));const old=card.querySelector('.final-start');old?.remove();if(m&&hasScore(m)){let compact=card.querySelector('.final-start-compact');if(!compact){compact=document.createElement('span');compact.className='final-start-compact';card.querySelector('.time-col')?.appendChild(compact)}compact.textContent=`Start ${t(m.startTime)}`}
- const pc=card.querySelector('.player-count');if(pc){const meta=card.querySelector('.meta'),br=meta?.querySelector('br');pc.classList.add('player-count-inline');if(meta&&br)meta.insertBefore(pc,br);else if(meta)meta.appendChild(pc)}}}
-function linkedTeamForTitle(c,title){const parts=String(title||'').split(/\s+[—–-]\s+/),side=parts.find(isArgon)||'',name=side.replace(/^SV Argon\s*/i,'').trim();return c.memberTeams.find(x=>norm(x.team_name)===norm(name))||null}
-async function polishDetail(){const overlay=$('matchDetailOverlay');if(!overlay||overlay.hidden)return;const c=await context();if(!c)return;const title=$('matchDetailTitle')?.textContent||'',linked=linkedTeamForTitle(c,title);const body=$('matchDetailBody');if(!body)return;for(const p of body.querySelectorAll('p.match-muted'))if(/alleen beschikbaar voor teams waaraan je als lid|niet aan dit team gekoppeld/i.test(p.textContent||''))p.remove();for(const section of body.querySelectorAll('.match-detail-section')){const h=section.querySelector('h3')?.textContent?.trim();if((h==='Mijn wedstrijd'||h==='Aanwezigheid')&&!linked)section.remove();if(h==='Taken'&&/geen clubtaken gekoppeld/i.test(section.textContent||'')){const parts=title.split(/\s+[—–-]\s+/);if(parts.length>1&&isArgon(parts[1]))section.remove()}}}
-async function presencePanel(force=false){const target=$('club-sub-presence');if(!target||(!target.classList.contains('active')&&!force))return;const c=await context(force);if(!c)return;const teamByGuid=new Map(c.memberTeams.map(x=>[String(x.foy_team_guid),x])),byId=new Map(),today=new Date().toISOString().slice(0,10);for(const tm of c.memberTeams)for(const m of await teamMatches(tm.foy_team_guid))if(d(m.date)>=today)byId.set(String(m.id),m);const s=await client(),{data:ats}=await s.from('attendance').select('foy_match_id,attending').eq('member_id',c.member.id),am=new Map((ats||[]).map(x=>[String(x.foy_match_id),x.attending])),rows=[...byId.values()].sort((a,b)=>`${d(a.date)}T${t(a.startTime)}`.localeCompare(`${d(b.date)}T${t(b.startTime)}`));target.innerHTML=`<div class="club-card-panel"><h2>Aanwezigheid</h2><p>Kies per wedstrijd Ja of Nee. Dezelfde keuze zie je direct terug bij de wedstrijd in Agenda en Wedstrijden.</p><div class="club-list">${rows.length?rows.map(m=>{const g=[teamGuid(m,'home'),teamGuid(m,'away')].find(x=>teamByGuid.has(x)),tm=teamByGuid.get(g),v=am.get(String(m.id));return `<div class="club-row"><strong>${esc(teamLabel(m,'home'))} — ${esc(teamLabel(m,'away'))}</strong><small>${esc(fmtDate(m.date))} · ${esc(t(m.startTime))} · ${esc(m.accommodationName||'')}</small><div class="attendance-choice"><button class="mini-button yes ${v===true?'selected':''}" data-polish-attend="yes" data-mid="${esc(m.id)}" data-tid="${esc(tm?.id||'')}">Ja</button><button class="mini-button no ${v===false?'selected':''}" data-polish-attend="no" data-mid="${esc(m.id)}" data-tid="${esc(tm?.id||'')}">Nee</button></div></div>`}).join(''):'<div class="club-empty">Geen komende wedstrijden voor jouw teams.</div>'}</div></div>`;target.querySelectorAll('[data-polish-attend]').forEach(b=>b.onclick=async()=>{const {error}=await s.rpc('set_match_attendance',{p_match_id:Number(b.dataset.mid),p_team_id:b.dataset.tid,p_attending:b.dataset.polishAttend==='yes',p_driving:false});if(error)return toast(error.message);toast(b.dataset.polishAttend==='yes'?'Aanwezig: Ja':'Aanwezig: Nee');await presencePanel(true);setTimeout(()=>{polishCards();schedule(true)},100)})}
-function clubAgendaOccurrences(slots){const start=new Date().toISOString().slice(0,10),end=new Date(Date.now()+1000*60*60*24*70).toISOString().slice(0,10);return occurrences(slots,start,end)}
-function teamOptions(c,selected=''){return c.allTeams.map(x=>`<option value="${esc(x.id)}" ${x.id===selected?'selected':''}>${esc(x.team_name)}</option>`).join('')}
-function weekdayOptions(selected=1){return Object.entries(DAYS).map(([n,v])=>`<option value="${n}" ${Number(n)===Number(selected)?'selected':''}>${v}</option>`).join('')}
-async function clubAgenda(force=false){const target=$('club-sub-clubagenda');if(!target||(!target.classList.contains('active')&&!force))return;const c=await context(force);if(!c)return;const s=await client(),[{data:events},{data:members}]=await Promise.all([s.from('task_events').select('*,task_assignments(*)').eq('active',true).order('event_date').order('start_time'),c.member.role==='admin'?s.from('members').select('id,full_name').eq('active',true).order('full_name'):Promise.resolve({data:[]})]);const trainerIds=new Set(c.trainerTeams.map(x=>x.id)),admin=c.member.role==='admin',rows=[];for(const o of clubAgendaOccurrences(c.slots))rows.push({kind:'training',date:o.date,time:t(o.slot.start_time),slot:o.slot});for(const ev of events||[])if(d(ev.event_date)>=new Date().toISOString().slice(0,10))rows.push({kind:'task',date:d(ev.event_date),time:t(ev.arrival_time||ev.start_time),event:ev});rows.sort((a,b)=>`${a.date}T${a.time}`.localeCompare(`${b.date}T${b.time}`));target.querySelector('#trainingAgendaExtra')?.remove();target.innerHTML=`<div class="club-card-panel club-agenda-unified"><div class="club-row-head"><div><h2>Clubagenda</h2><p>Trainingen en taken op één plek.${admin?' Je kunt ze hier direct toevoegen en wijzigen.':''}</p></div></div>${admin?'<div class="club-actions"><button class="mini-button primary" data-agenda-add="training">Training toevoegen</button><button class="mini-button primary" data-agenda-add="task">Taak toevoegen</button></div><div id="clubAgendaEditor"></div>':''}<div class="club-list">${rows.length?rows.map(x=>x.kind==='training'?`<div class="club-row"><span class="club-pill">Training</span><strong>SV Argon ${esc(x.slot.teams?.team_name||'Team')}</strong><small>${esc(fmtDate(x.date))} · ${esc(t(x.slot.start_time))} - ${esc(t(x.slot.end_time))}${x.slot.location?` · ${esc(x.slot.location)}`:''}</small>${admin||trainerIds.has(x.slot.team_id)?`<div class="mini-actions"><button class="mini-button" data-edit-slot="${esc(x.slot.id)}">Tijd/schema wijzigen</button>${admin?`<button class="mini-button danger" data-delete-slot="${esc(x.slot.id)}">Verwijderen</button>`:''}</div>`:''}</div>`:`<div class="club-row"><span class="club-pill">Taak</span><strong>${esc(x.event.home)} — ${esc(x.event.away)}</strong><small>${esc(fmtDate(x.event.event_date))} · aanwezig ${esc(t(x.event.arrival_time||x.event.start_time))} · start ${esc(t(x.event.start_time))}${x.event.location?` · ${esc(x.event.location)}`:''}</small>${(x.event.task_assignments||[]).length?`<small>${(x.event.task_assignments||[]).map(a=>`${a.role==='referee'?'Scheidsrechter':a.role==='table'?'Tafel':'Taak'}: ${esc(a.assigned_name||'Niet toegewezen')}`).join('<br>')}</small>`:''}${admin?`<div class="mini-actions"><button class="mini-button" data-edit-task="${esc(x.event.id)}">Wijzigen</button><button class="mini-button danger" data-delete-task="${esc(x.event.id)}">Verwijderen</button></div>`:''}</div>`).join(''):'<div class="club-empty">Nog geen trainingen of taken.</div>'}</div></div>`;const editor=$('clubAgendaEditor');target.querySelectorAll('[data-agenda-add]').forEach(b=>b.onclick=()=>showEditor(c,editor,b.dataset.agendaAdd,null,members||[],events||[]));target.querySelectorAll('[data-edit-slot]').forEach(b=>b.onclick=()=>showEditor(c,editor,'training',c.slots.find(x=>x.id===b.dataset.editSlot),members||[],events||[]));target.querySelectorAll('[data-edit-task]').forEach(b=>b.onclick=()=>showEditor(c,editor,'task',(events||[]).find(x=>x.id===b.dataset.editTask),members||[],events||[]));target.querySelectorAll('[data-delete-slot]').forEach(b=>b.onclick=async()=>{if(!confirm('Training verwijderen?'))return;const r=await s.from('training_slots').delete().eq('id',b.dataset.deleteSlot);if(r.error)return toast(r.error.message);ctxCache=null;await clubAgenda(true);schedule(true)});target.querySelectorAll('[data-delete-task]').forEach(b=>b.onclick=async()=>{if(!confirm('Taakmoment en toewijzingen verwijderen?'))return;const r=await s.from('task_events').delete().eq('id',b.dataset.deleteTask);if(r.error)return toast(r.error.message);await clubAgenda(true);schedule(true)})}
-function showEditor(c,editor,type,item,members,events){if(!editor)return;editor.scrollIntoView({behavior:'smooth',block:'nearest'});if(type==='training'){const trainerOnly=c.member.role!=='admin',slot=item||{};editor.innerHTML=`<div class="club-agenda-editor"><h3>${item?'Training wijzigen':'Training toevoegen'}</h3><form id="unifiedTrainingForm" class="club-form"><div class="club-form two">${trainerOnly?`<label>Team<input value="${esc(slot.teams?.team_name||'')}" disabled></label>`:`<label>Team<select id="uTrainTeam">${teamOptions(c,slot.team_id||'')}</select></label><label>Dag<select id="uTrainDay">${weekdayOptions(slot.weekday||1)}</select></label>`}<label>Start<input id="uTrainStart" type="time" required value="${esc(t(slot.start_time||''))}"></label><label>Einde<input id="uTrainEnd" type="time" required value="${esc(t(slot.end_time||''))}"></label>${trainerOnly?'':`<label>Locatie<input id="uTrainLocation" value="${esc(slot.location||'')}"></label>`}</div><div class="club-actions"><button class="primary-button" type="submit">Opslaan</button><button class="mini-button" type="button" id="uCancel">Annuleren</button></div></form></div>`;$('uCancel').onclick=()=>editor.innerHTML='';$('unifiedTrainingForm').onsubmit=async e=>{e.preventDefault();const s=await client();if(trainerOnly){const r=await s.rpc('trainer_update_training_slot',{p_slot_id:slot.id,p_start_time:$('uTrainStart').value,p_end_time:$('uTrainEnd').value});if(r.error)return toast(r.error.message)}else{const p={team_id:$('uTrainTeam').value,weekday:Number($('uTrainDay').value),start_time:$('uTrainStart').value,end_time:$('uTrainEnd').value,location:$('uTrainLocation').value.trim()||null,active:true,created_by:c.member.id},r=item?await s.from('training_slots').update(p).eq('id',item.id):await s.from('training_slots').insert(p);if(r.error)return toast(r.error.message)}toast('Training opgeslagen.');ctxCache=null;await clubAgenda(true);schedule(true)}}else{const ev=item||{};editor.innerHTML=`<div class="club-agenda-editor"><h3>${item?'Taak wijzigen':'Taak toevoegen'}</h3><form id="unifiedTaskForm" class="club-form"><div class="club-form two"><label>Team<select id="uTaskTeam"><option value="">Geen team</option>${teamOptions(c,ev.team_id||'')}</select></label><label>Datum<input id="uTaskDate" type="date" required value="${esc(d(ev.event_date||''))}"></label><label>Aanwezig<input id="uTaskArrival" type="time" value="${esc(t(ev.arrival_time||''))}"></label><label>Start<input id="uTaskStart" type="time" required value="${esc(t(ev.start_time||''))}"></label><label>Thuis<input id="uTaskHome" required value="${esc(ev.home||'')}"></label><label>Uit<input id="uTaskAway" required value="${esc(ev.away||'')}"></label><label>Locatie<input id="uTaskLocation" value="${esc(ev.location||'')}"></label><label>Veld<input id="uTaskField" value="${esc(ev.field||'')}"></label></div><label>Opmerking<textarea id="uTaskNotes">${esc(ev.notes||'')}</textarea></label><div class="club-actions"><button class="primary-button" type="submit">Opslaan</button><button class="mini-button" type="button" id="uCancel">Annuleren</button></div></form>${item?`<div id="uAssignments"><h3>Taken/toewijzingen</h3>${(ev.task_assignments||[]).map(a=>assignmentRow(a,members)).join('')}<button class="mini-button primary" data-add-assignment="${esc(ev.id)}">Taak toevoegen</button></div>`:''}</div>`;$('uCancel').onclick=()=>editor.innerHTML='';$('unifiedTaskForm').onsubmit=async e=>{e.preventDefault();const s=await client(),p={team_id:$('uTaskTeam').value||null,event_date:$('uTaskDate').value,arrival_time:$('uTaskArrival').value||null,start_time:$('uTaskStart').value,home:$('uTaskHome').value.trim(),away:$('uTaskAway').value.trim(),location:$('uTaskLocation').value.trim()||null,field:$('uTaskField').value.trim()||null,notes:$('uTaskNotes').value.trim()||null,active:true,created_by:c.member.id},r=item?await s.from('task_events').update(p).eq('id',item.id):await s.from('task_events').insert(p);if(r.error)return toast(r.error.message);toast('Taak opgeslagen.');await clubAgenda(true);schedule(true)};editor.querySelectorAll('[data-save-assignment]').forEach(b=>b.onclick=()=>saveAssignment(b.dataset.saveAssignment,members));editor.querySelectorAll('[data-delete-assignment]').forEach(b=>b.onclick=()=>deleteAssignment(b.dataset.deleteAssignment));editor.querySelector('[data-add-assignment]')?.addEventListener('click',async()=>{const s=await client(),used=(ev.task_assignments||[]).map(x=>x.slot),slot=Math.max(0,...used)+1,r=await s.from('task_assignments').insert({task_event_id:ev.id,assigned_name:'Niet toegewezen',role:'table',slot});if(r.error)return toast(r.error.message);await clubAgenda(true);setTimeout(()=>document.querySelector(`[data-edit-task="${CSS.escape(ev.id)}"]`)?.click(),80)})}}
-function assignmentRow(a,members){return `<div class="assignment-row unified-assignment"><select id="uRole-${esc(a.id)}"><option value="referee" ${a.role==='referee'?'selected':''}>Scheidsrechter</option><option value="table" ${a.role==='table'?'selected':''}>Tafel</option><option value="other" ${a.role==='other'?'selected':''}>Taak</option></select><select id="uMember-${esc(a.id)}"><option value="">Niet toegewezen</option>${members.map(m=>`<option value="${esc(m.id)}" ${m.id===a.assigned_member_id?'selected':''}>${esc(m.full_name)}</option>`).join('')}</select><div class="mini-actions"><button class="mini-button" type="button" data-save-assignment="${esc(a.id)}">Opslaan</button><button class="mini-button danger" type="button" data-delete-assignment="${esc(a.id)}">×</button></div></div>`}
-async function saveAssignment(id,members){const s=await client(),mid=$(`uMember-${id}`).value||null,m=members.find(x=>x.id===mid),r=await s.from('task_assignments').update({assigned_member_id:mid,assigned_name:m?.full_name||'Niet toegewezen',role:$(`uRole-${id}`).value}).eq('id',id);if(r.error)return toast(r.error.message);toast('Toewijzing opgeslagen.');await clubAgenda(true);schedule(true)}
-async function deleteAssignment(id){if(!confirm('Taak verwijderen?'))return;const s=await client(),r=await s.from('task_assignments').delete().eq('id',id);if(r.error)return toast(r.error.message);toast('Taak verwijderd.');await clubAgenda(true);schedule(true)}
-function polishClubStructure(){const tabs=$('clubTabs'),admin=tabs?.querySelector('[data-clubview="admin"]'),agenda=tabs?.querySelector('[data-clubview="clubagenda"]');if(admin&&agenda)tabs.insertBefore(admin,agenda);const adminAgendaBtn=$('adminTabs')?.querySelector('[data-adminview="agenda"]');if(adminAgendaBtn)adminAgendaBtn.style.display='none';const old=$('admin-agenda');if(old)old.hidden=true;const membersBtn=$('adminTabs')?.querySelector('[data-adminview="members"]');if(membersBtn&&!membersBtn.classList.contains('active'))membersBtn.click()}
-function css(){if($('agendaPolishStyle'))return;const s=document.createElement('style');s.id='agendaPolishStyle';s.textContent='.badge-training{background:#eef1ff;color:var(--navy)}.final-start-compact{display:block;margin-top:4px;font-size:8px;font-weight:850;color:var(--muted)}.player-count-inline{display:inline!important;margin:0!important;font-size:inherit!important;font-weight:850!important;color:var(--navy)!important}.drive-toggle{font-size:10px!important;font-weight:750!important}.drive-toggle input{width:20px!important;height:20px!important;margin:0!important}.club-agenda-editor{margin:12px 0;padding:12px;border:1px solid var(--line);border-radius:12px;background:#fafbfc}.club-agenda-unified>.club-actions{margin-bottom:10px}.unified-assignment{grid-template-columns:1fr 1.3fr auto}.polish-training .event-status{color:var(--navy)}@media(max-width:480px){.unified-assignment{grid-template-columns:1fr}.unified-assignment .mini-actions{grid-column:1}}';document.head.appendChild(s)}
-async function refresh(force=false){if(refreshBusy){refreshQueued=true;return}refreshBusy=true;try{css();polishClubStructure();polishCards();await polishDetail();if($('view-agenda')?.classList.contains('active'))await enhanceMainAgenda();if($('club-sub-presence')?.classList.contains('active'))await presencePanel(force);if($('club-sub-clubagenda')?.classList.contains('active'))await clubAgenda(force)}catch(e){console.warn('Agenda polish',e)}finally{refreshBusy=false;if(refreshQueued){refreshQueued=false;setTimeout(()=>refresh(force),80)}}}
-function schedule(force=false){clearTimeout(schedule.timer);schedule.timer=setTimeout(()=>refresh(force),180)}
-document.addEventListener('click',e=>{if(e.target.closest('.polish-task-new')){e.preventDefault();e.stopPropagation();document.querySelector('.tab[data-view="club"]')?.click();setTimeout(()=>document.querySelector('#clubTabs [data-clubview="clubagenda"]')?.click(),100)}setTimeout(()=>schedule(),60)},true);
-document.addEventListener('change',e=>{if(e.target.id==='teamSelect'||e.target.id==='personSelect'){matchCache.clear();setTimeout(()=>schedule(true),420)}});
-document.addEventListener('DOMContentLoaded',()=>{css();schedule(true);new MutationObserver(()=>schedule()).observe(document.documentElement,{subtree:true,childList:true,attributes:true,attributeFilter:['class','hidden']});setInterval(()=>{if($('view-agenda')?.classList.contains('active')||$('view-club')?.classList.contains('active'))schedule()},5000)});
+function teamGuid(m,side){return String(m?.[`${side}TeamGuid`]||m?.[`${side}Team`]?.guid||'')}
+function teamName(m,side){return [m?.[`${side}TeamSponsorClubName`]||m?.[`${side}Organisation`]?.name,m?.[`${side}TeamName`]||m?.[`${side}Team`]?.name].filter(Boolean).join(' ').trim()||'Onbekend team'}
+function clubName(m,side){return String(m?.[`${side}TeamSponsorClubName`]||m?.[`${side}Organisation`]?.name||'').trim()}
+function formatDay(v){return new Intl.DateTimeFormat('nl-NL',{weekday:'long',day:'2-digit',month:'long',year:'numeric'}).format(new Date(`${v}T12:00:00`)).toUpperCase()}
+
+async function client(){
+ if(sb)return sb;
+ const mod=await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm');
+ sb=mod.createClient(SUPABASE_URL,SUPABASE_KEY,{auth:{persistSession:true,detectSessionInUrl:true,autoRefreshToken:true}});
+ sb.auth.onAuthStateChange(()=>{ctx=null;ctxAt=0;schedule(true)});
+ return sb;
+}
+
+async function context(force=false){
+ if(!force&&ctx&&Date.now()-ctxAt<10000)return ctx;
+ const s=await client();
+ const {data:{session}}=await s.auth.getSession();
+ let member=null,memberTeams=[],trainerTeams=[];
+ if(session){
+  const {data:m}=await s.rpc('sync_current_member');
+  if(m?.active){
+   member=m;
+   const [pt,tt]=await Promise.all([
+    s.from('member_teams').select('team_id,teams(id,team_name,foy_team_guid)').eq('member_id',m.id),
+    s.from('member_trainer_teams').select('team_id,teams(id,team_name,foy_team_guid)').eq('member_id',m.id)
+   ]);
+   const map=r=>(r.data||[]).map(x=>x.teams?{...x.teams,id:x.team_id}:null).filter(Boolean);
+   memberTeams=map(pt);trainerTeams=map(tt);
+  }
+ }
+ const [teamsRes,slotsRes]=await Promise.all([
+  s.from('teams').select('id,team_name,foy_team_guid').eq('active',true),
+  s.from('training_slots').select('*,teams(id,team_name,foy_team_guid)').eq('active',true).order('weekday').order('start_time')
+ ]);
+ ctx={member,memberTeams,trainerTeams,allTeams:teamsRes.data||[],slots:slotsRes.data||[]};
+ ctxAt=Date.now();
+ return ctx;
+}
+
+async function teamMatches(guid){
+ if(!guid||String(guid).startsWith('all-'))return[];
+ if(matchCache.has(guid))return matchCache.get(guid);
+ const q=season(),rows=[];let skip=0,total=Infinity;
+ while(skip<total){
+  const p=new URLSearchParams({startDate:q.start,endDate:q.end,teamGuid:guid,skipCount:String(skip),maxResultCount:'100',sorting:'date asc, startTime asc'});
+  const r=await fetch(`${API}/matches?${p}`,{headers:headers(),cache:'no-store'});
+  if(!r.ok)break;
+  const j=await r.json(),part=Array.isArray(j?.items)?j.items:[];
+  rows.push(...part);total=Number(j?.totalCount)||part.length;skip+=part.length;
+  if(!part.length||part.length<100)break;
+ }
+ matchCache.set(guid,rows);
+ return rows;
+}
+
+function localMatchMap(){
+ const map=new Map();
+ for(let i=0;i<localStorage.length;i++){
+  const key=localStorage.key(i);if(!key?.startsWith(CACHE_PREFIX))continue;
+  try{for(const m of JSON.parse(localStorage.getItem(key)||'{}')?.matches||[])map.set(String(m.id),m)}catch{}
+ }
+ for(const rows of matchCache.values())for(const m of rows)map.set(String(m.id),m);
+ return map;
+}
+
+async function legacyTasks(){
+ if(taskCache)return taskCache;
+ try{const r=await fetch('./data/tasks.json',{cache:'no-store'}),j=await r.json();taskCache=Array.isArray(j?.tasks)?j.tasks:[]}catch{taskCache=[]}
+ return taskCache;
+}
+
+function directLogo(m,side){
+ return m?.[`${side}TeamLogoUrl`]||m?.[`${side}Team`]?.logoUrl||m?.[`${side}Organisation`]?.logoUrl||m?.[`${side}TeamSponsorClubLogoUrl`]||m?.[`${side}ClubLogoUrl`]||'';
+}
+function organisationId(m,side){return String(m?.[`${side}Organisation`]?.id||m?.[`${side}Organisation`]?.guid||m?.[`${side}OrganisationId`]||m?.[`${side}OrganisationGuid`]||m?.[`${side}ClubId`]||m?.[`${side}ClubGuid`]||'')}
+async function orgTeams(id){
+ if(!id)return[];if(orgTeamsCache.has(id))return orgTeamsCache.get(id);
+ try{const r=await fetch(`${API}/organisations/${encodeURIComponent(id)}/teams`,{headers:headers(),cache:'no-store'});if(!r.ok)throw 0;const rows=await r.json(),list=Array.isArray(rows)?rows:[];orgTeamsCache.set(id,list);return list}catch{orgTeamsCache.set(id,[]);return[]}
+}
+async function clubLogo(name){
+ const key=norm(name);if(!key)return'';if(clubLogoCache.has(key))return clubLogoCache.get(key);
+ try{
+  const p=new URLSearchParams({quickSearch:name,maxResultCount:'20',skipCount:'0'});
+  const r=await fetch(`${CLUB_API}/organisations/${FEDERATION_ID}/clubs?${p}`,{cache:'no-store'});if(!r.ok)throw 0;
+  const j=await r.json(),rows=Array.isArray(j)?j:(j?.items||[]);
+  const hit=rows.find(x=>norm(x.name)===key)||rows[0],src=hit?.logoUrl||hit?.logo||'';
+  clubLogoCache.set(key,src);return src;
+ }catch{clubLogoCache.set(key,'');return''}
+}
+async function logoFor(m,side){
+ const g=teamGuid(m,side);if(g&&logoCache.has(g))return logoCache.get(g);
+ let src=directLogo(m,side);
+ if(!src){const oid=organisationId(m,side);if(oid){const rows=await orgTeams(oid),tm=rows.find(x=>String(x.guid)===g);src=tm?.logoUrl||''}}
+ if(!src)src=await clubLogo(clubName(m,side));
+ if(g)logoCache.set(g,src||'');
+ return src||'';
+}
+
+function injectCss(){
+ if($('agendaPolishCss'))return;
+ const s=document.createElement('style');s.id='agendaPolishCss';s.textContent=`
+ .agenda-team-title{display:flex;align-items:center;flex-wrap:wrap;gap:4px 6px}
+ .agenda-team-side{display:inline-flex;align-items:center;gap:5px;min-width:0}
+ .agenda-team-logo{width:18px;height:18px;object-fit:contain;flex:0 0 18px;border-radius:4px;background:#fff}
+ .agenda-team-sep{color:var(--navy);font-weight:800}
+ .agenda-training .event-main{min-width:0}
+ .agenda-training .badge{background:#eef1ff;color:var(--navy)}
+ .agenda-training .match-title{margin-top:4px}
+ .agenda-training .meta{margin-top:4px}
+ `;document.head.appendChild(s);
+}
+
+function cleanupClubAgenda(){
+ const tabs=$('clubTabs');if(!tabs)return;
+ const agendaBtn=tabs.querySelector('[data-clubview="clubagenda"]');
+ const agendaView=$('club-sub-clubagenda');
+ if(!agendaBtn&&!agendaView)return;
+ const wasActive=agendaBtn?.classList.contains('active')||agendaView?.classList.contains('active');
+ const adminAgenda=$('admin-agenda'),adminHost=$('club-sub-admin');
+ if(adminAgenda&&agendaView?.contains(adminAgenda)&&adminHost){
+  adminAgenda.classList.remove('in-club-agenda');adminAgenda.style.display='';adminHost.appendChild(adminAgenda);
+ }
+ const adminAgendaBtn=$('adminTabs')?.querySelector('[data-adminview="agenda"]');if(adminAgendaBtn)adminAgendaBtn.style.display='';
+ agendaBtn?.remove();agendaView?.remove();
+ if(wasActive){
+  const next=tabs.querySelector('[data-clubview="admin"]')||tabs.querySelector('[data-clubview="trainer"]')||tabs.querySelector('[data-clubview="presence"]')||tabs.querySelector('button');
+  next?.click();
+ }
+}
+
+async function tagExistingDays(root,map){
+ const tasks=await legacyTasks(),taskMap=new Map(tasks.map(x=>[String(x.id),x]));
+ for(const day of root.querySelectorAll('.day')){
+  let date=day.dataset.agendaDate||day.dataset.polishDate||day.dataset.reworkDate||'';
+  if(!date){
+   const matchCard=day.querySelector('article[data-match-id]');
+   if(matchCard)date=d(map.get(String(matchCard.dataset.matchId))?.date);
+   if(!date){const task=day.querySelector('article[data-task-id]'),row=task?taskMap.get(String(task.dataset.taskId)):null;if(row)date=d(row.date)}
+  }
+  if(date)day.dataset.agendaDate=date;
+ }
+ for(const card of root.querySelectorAll('article.event')){
+  if(card.dataset.agendaTime)continue;
+  if(card.dataset.matchId)card.dataset.agendaTime=t(map.get(String(card.dataset.matchId))?.startTime);
+  else if(card.dataset.taskId){const row=taskMap.get(String(card.dataset.taskId));card.dataset.agendaTime=t(row?.arrivalTime||row?.startTime)}
+ }
+}
+function findDay(root,date){
+ let day=[...root.querySelectorAll('.day')].find(x=>(x.dataset.agendaDate||x.dataset.polishDate||x.dataset.reworkDate)===date);
+ if(day){day.dataset.agendaDate=date;return day}
+ day=document.createElement('section');day.className='day';day.dataset.agendaDate=date;day.innerHTML=`<div class="day-head">${esc(formatDay(date))}</div>`;root.appendChild(day);return day;
+}
+function occurrences(slots,start,end){
+ const out=[],a=new Date(`${start}T12:00:00`),b=new Date(`${end}T12:00:00`);
+ for(let cur=new Date(a);cur<=b;cur.setDate(cur.getDate()+1)){
+  const wd=cur.getDay()||7,date=cur.toISOString().slice(0,10);
+  for(const slot of slots)if(Number(slot.weekday)===wd)out.push({date,slot});
+ }
+ return out;
+}
+function trainingCard(o){
+ const s=o.slot,team=s.teams?.team_name||'Alle teams';
+ return `<article class="event agenda-training" data-agenda-time="${esc(t(s.start_time))}" data-training-slot="${esc(s.id)}"><div class="event-row"><div class="time-col"><div class="event-time">${esc(t(s.start_time))}</div><span class="event-status">Training</span></div><div class="event-main"><span class="badge">Training</span><div class="match-title">SV Argon ${esc(team)}</div><div class="meta">${esc(t(s.start_time))} - ${esc(t(s.end_time))}${s.location?` · ${esc(s.location)}`:''}</div></div></div></article>`;
+}
+function sortAgenda(root){
+ for(const day of root.querySelectorAll('.day')){
+  const cards=[...day.querySelectorAll(':scope > article.event')];
+  cards.sort((a,b)=>(a.dataset.agendaTime||a.dataset.polishTime||a.dataset.reworkTime||'99:99').localeCompare(b.dataset.agendaTime||b.dataset.polishTime||b.dataset.reworkTime||'99:99')).forEach(c=>day.appendChild(c));
+ }
+ [...root.querySelectorAll('.day')].sort((a,b)=>(a.dataset.agendaDate||a.dataset.polishDate||a.dataset.reworkDate||'9999-99-99').localeCompare(b.dataset.agendaDate||b.dataset.polishDate||b.dataset.reworkDate||'9999-99-99')).forEach(x=>root.appendChild(x));
+}
+
+async function polishMatchCards(map){
+ const cards=[...document.querySelectorAll('#agendaList article.event[data-match-id],#gamesList article.event[data-match-id]')];
+ await Promise.all(cards.map(async card=>{
+  const m=map.get(String(card.dataset.matchId));if(!m)return;
+  card.dataset.agendaTime=t(m.startTime);
+  if(hasScore(m)){
+   const timeEl=card.querySelector('.time-col .event-time');if(timeEl){timeEl.textContent=t(m.startTime);timeEl.classList.remove('score')}
+   card.querySelectorAll('.final-start,.final-start-compact').forEach(x=>x.remove());
+  }
+  const title=card.querySelector('.match-title');if(!title)return;
+  const home=teamName(m,'home'),away=teamName(m,'away');
+  const [hl,al]=await Promise.all([logoFor(m,'home'),logoFor(m,'away')]);
+  title.classList.add('agenda-team-title');
+  title.innerHTML=`<span class="agenda-team-side">${hl?`<img class="agenda-team-logo" src="${esc(hl)}" alt="">`:''}<span>${esc(home)}</span></span><span class="agenda-team-sep">—</span><span class="agenda-team-side">${al?`<img class="agenda-team-logo" src="${esc(al)}" alt="">`:''}<span>${esc(away)}</span></span>`;
+ }));
+}
+
+async function renderAgenda(){
+ const root=$('agendaList');if(!root||busy)return;busy=true;
+ try{
+  injectCss();cleanupClubAgenda();
+  const c=await context(),sel=selection();
+  const guids=new Set();
+  if(sel?.teamGuid&&!String(sel.teamGuid).startsWith('all-'))guids.add(String(sel.teamGuid));
+  for(const x of c.memberTeams||[])if(x.foy_team_guid)guids.add(String(x.foy_team_guid));
+  for(const x of c.trainerTeams||[])if(x.foy_team_guid)guids.add(String(x.foy_team_guid));
+  await Promise.all([...guids].map(teamMatches));
+  const map=localMatchMap();
+  await tagExistingDays(root,map);
+  root.querySelectorAll('.agenda-training').forEach(x=>x.remove());
+
+  const relevantIds=new Set([...(c.memberTeams||[]),...(c.trainerTeams||[])].map(x=>String(x.id)));
+  if(sel?.teamGuid&&!String(sel.teamGuid).startsWith('all-')){
+   const tm=(c.allTeams||[]).find(x=>String(x.foy_team_guid)===String(sel.teamGuid));if(tm)relevantIds.add(String(tm.id));
+  }
+  const slots=(c.slots||[]).filter(s=>{
+   const name=norm(s.teams?.team_name),guid=String(s.teams?.foy_team_guid||'');
+   return name==='alleteams'||guid.startsWith('all-')||relevantIds.has(String(s.team_id));
+  });
+  const q=season(),today=new Date().toISOString().slice(0,10);
+  for(const occ of occurrences(slots,today,q.end)){
+   const day=findDay(root,occ.date),wrap=document.createElement('div');wrap.innerHTML=trainingCard(occ);day.appendChild(wrap.firstElementChild);
+  }
+  await polishMatchCards(map);
+  sortAgenda(root);
+ }catch(e){console.warn('Agenda kon niet volledig worden bijgewerkt',e)}finally{busy=false}
+}
+
+function schedule(force=false){
+ if(force){ctx=null;ctxAt=0}
+ if(queued)return;queued=true;setTimeout(()=>{queued=false;renderAgenda()},180);
+}
+
+function observe(){
+ const obs=new MutationObserver(muts=>{
+  for(const m of muts){
+   const el=m.target?.nodeType===1?m.target:m.target?.parentElement;
+   if(el?.closest?.('#agendaList,#gamesList,#clubRoot')||el?.id==='agendaList'||el?.id==='clubRoot'){schedule();break}
+  }
+ });
+ obs.observe(document.documentElement,{childList:true,subtree:true});
+}
+
+document.addEventListener('DOMContentLoaded',()=>{
+ injectCss();
+ $('teamSelect')?.addEventListener('change',()=>schedule(true));
+ $('personSelect')?.addEventListener('change',()=>schedule());
+ observe();schedule(true);
+ setInterval(()=>{cleanupClubAgenda();schedule()},2500);
+});
 })();
