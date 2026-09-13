@@ -3,7 +3,10 @@
 const SUPABASE_URL='https://elpnfmlrkoemjrnzaeok.supabase.co';
 const SUPABASE_KEY='sb_publishable_GPzLwaKeevg3e8CNjw9oAQ_50NW2xlg';
 let client=null;
-let loading=false;
+let adminLoading=false;
+let bootstrapLoading=false;
+
+const esc=value=>String(value??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));
 
 function toast(message){
   const el=document.getElementById('toast');
@@ -32,12 +35,56 @@ function hideRoleSelector(){
   }
 }
 
+async function enhanceBootstrapAdmin(){
+  const form=document.getElementById('claimAdminForm');
+  if(!form||document.getElementById('bootstrapMemberSelect')||bootstrapLoading)return;
+  bootstrapLoading=true;
+  try{
+    const supabase=await getClient();
+    const {data,error}=await supabase.rpc('bootstrap_admin_member_choices');
+    if(error)throw error;
+    if(!document.getElementById('claimAdminForm'))return;
+
+    const members=data||[];
+    const selectLabel=document.createElement('label');
+    selectLabel.innerHTML=`Bestaand lid<select id="bootstrapMemberSelect" required>${members.length?members.map(m=>`<option value="${m.id}">${esc(m.full_name)}</option>`).join(''):'<option value="">Geen bestaand lid beschikbaar</option>'}</select>`;
+    form.insertBefore(selectLabel,form.firstElementChild);
+
+    const submit=form.querySelector('button[type="submit"]');
+    if(submit){
+      submit.textContent='Maak geselecteerd lid eerste admin';
+      if(!members.length)submit.disabled=true;
+    }
+
+    form.addEventListener('submit',async event=>{
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      const memberId=document.getElementById('bootstrapMemberSelect')?.value;
+      const code=document.getElementById('adminSetupCode')?.value.trim();
+      if(!memberId||!code)return;
+      if(submit)submit.disabled=true;
+      const {error:claimError}=await supabase.rpc('claim_first_admin_existing',{p_code:code,p_member_id:memberId});
+      if(claimError){
+        if(submit)submit.disabled=false;
+        toast(claimError.message);
+        return;
+      }
+      toast('Bestaand lid is als eerste administrator geactiveerd.');
+      setTimeout(()=>location.reload(),500);
+    },true);
+  }catch(error){
+    console.error(error);
+  }finally{
+    bootstrapLoading=false;
+  }
+}
+
 async function enhanceAdminMembers(){
   const target=document.getElementById('admin-members');
   if(!target)return;
   hideRoleSelector();
-  if(document.getElementById('adminPromotePanel')||loading)return;
-  loading=true;
+  if(document.getElementById('adminPromotePanel')||adminLoading)return;
+  adminLoading=true;
   try{
     const supabase=await getClient();
     const {data:members,error}=await supabase
@@ -61,16 +108,12 @@ async function enhanceAdminMembers(){
       <div class="club-form">
         <label>Bestaand lid
           <select id="promoteMemberSelect" ${candidates.length?'':'disabled'}>
-            ${candidates.length
-              ? candidates.map(m=>`<option value="${m.id}">${String(m.full_name||m.email||'Lid').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]))}</option>`).join('')
-              : '<option value="">Geen leden beschikbaar</option>'}
+            ${candidates.length?candidates.map(m=>`<option value="${m.id}">${esc(m.full_name||m.email||'Lid')}</option>`).join(''):'<option value="">Geen leden beschikbaar</option>'}
           </select>
         </label>
         <button class="primary-button" id="promoteMemberBtn" type="button" ${candidates.length?'':'disabled'}>Maak geselecteerd lid admin</button>
       </div>
-      <div style="margin-top:10px;font-size:9px;color:#707384">
-        Huidige admins: ${admins.length?admins.map(m=>String(m.full_name||m.email||'Admin').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]))).join(', '):'geen'}
-      </div>`;
+      <div style="margin-top:10px;font-size:9px;color:#707384">Huidige admins: ${admins.length?admins.map(m=>esc(m.full_name||m.email||'Admin')).join(', '):'geen'}</div>`;
 
     const listHeading=[...target.querySelectorAll('h3')].find(h=>h.textContent.trim()==='Leden');
     if(listHeading)target.insertBefore(panel,listHeading);
@@ -89,13 +132,18 @@ async function enhanceAdminMembers(){
   }catch(error){
     console.error(error);
   }finally{
-    loading=false;
+    adminLoading=false;
   }
 }
 
-const observer=new MutationObserver(()=>enhanceAdminMembers());
+const observer=new MutationObserver(()=>{
+  enhanceBootstrapAdmin();
+  enhanceAdminMembers();
+});
+
 document.addEventListener('DOMContentLoaded',()=>{
   observer.observe(document.documentElement,{childList:true,subtree:true});
+  enhanceBootstrapAdmin();
   enhanceAdminMembers();
 });
 })();
