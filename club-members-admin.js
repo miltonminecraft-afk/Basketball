@@ -50,9 +50,9 @@ async function linkExistingAssignments(supabase,members){
   const {data:rows,error}=await supabase.from('task_assignments').select('id,assigned_name,assigned_member_id').is('assigned_member_id',null);
   if(error||!rows?.length)return;
   const byName=new Map((members||[]).filter(m=>m.active&&m.full_name).map(m=>[norm(m.full_name),m.id]));
-  const updates=rows.map(row=>({row,id:byName.get(norm(row.assigned_name))})).filter(x=>x.id);
-  for(const item of updates){
-    await supabase.from('task_assignments').update({assigned_member_id:item.id}).eq('id',item.row.id);
+  for(const row of rows){
+    const id=byName.get(norm(row.assigned_name));
+    if(id)await supabase.from('task_assignments').update({assigned_member_id:id}).eq('id',row.id);
   }
 }
 
@@ -63,53 +63,31 @@ async function ensureBootstrapData(){
     const supabase=await getClient();
     const admin=await currentAdmin();
     if(!admin)return;
-
     await syncArgonTeams(supabase);
     const taskResponse=await fetch('./data/tasks.json',{cache:'no-store'});
     if(!taskResponse.ok)return;
     const json=await taskResponse.json();
-
     const [{data:members},{data:teams},{data:existingEvents}]=await Promise.all([
       supabase.from('members').select('id,full_name,active'),
       supabase.from('teams').select('id,team_name'),
       supabase.from('task_events').select('id,legacy_id')
     ]);
-
     const memberByName=new Map((members||[]).filter(m=>m.active&&m.full_name).map(m=>[norm(m.full_name),m.id]));
     const teamByName=new Map((teams||[]).map(t=>[norm(t.team_name),t.id]));
     const existingLegacyIds=new Set((existingEvents||[]).map(e=>e.legacy_id).filter(Boolean));
-
     for(const row of json.tasks||[]){
       if(existingLegacyIds.has(row.id))continue;
       const shortHome=String(row.home||'').replace(/^SV Argon\s+/i,'').trim();
-      const {data:event,error}=await supabase.from('task_events').insert({
-        legacy_id:row.id,
-        team_id:teamByName.get(norm(shortHome))||null,
-        event_date:row.date,
-        arrival_time:row.arrivalTime,
-        start_time:row.startTime,
-        home:row.home,
-        away:row.away,
-        location:row.location,
-        field:row.field,
-        active:true,
-        created_by:admin.id
-      }).select().single();
+      const {data:event,error}=await supabase.from('task_events').insert({legacy_id:row.id,team_id:teamByName.get(norm(shortHome))||null,event_date:row.date,arrival_time:row.arrivalTime,start_time:row.startTime,home:row.home,away:row.away,location:row.location,field:row.field,active:true,created_by:admin.id}).select().single();
       if(error){if(error.code==='23505')continue;console.warn(error);continue;}
-
       const assignments=[];
       (row.referees||[]).forEach((name,index)=>assignments.push({task_event_id:event.id,assigned_name:name,assigned_member_id:memberByName.get(norm(name))||null,role:'referee',slot:index+1}));
       (row.table||[]).forEach((name,index)=>assignments.push({task_event_id:event.id,assigned_name:name,assigned_member_id:memberByName.get(norm(name))||null,role:'table',slot:index+1}));
       if(assignments.length)await supabase.from('task_assignments').insert(assignments);
       existingLegacyIds.add(row.id);
     }
-
     await linkExistingAssignments(supabase,members||[]);
-  }catch(error){
-    console.error(error);
-  }finally{
-    dataBootstrapRunning=false;
-  }
+  }catch(error){console.error(error)}finally{dataBootstrapRunning=false}
 }
 
 function hideRoleSelector(){
@@ -118,55 +96,38 @@ function hideRoleSelector(){
   const memberId=document.getElementById('memberId');
   if(!memberId?.value)role.value='member';
   const label=role.closest('label');
-  if(label){
-    label.hidden=true;
-    label.setAttribute('aria-hidden','true');
-  }
+  if(label){label.hidden=true;label.setAttribute('aria-hidden','true')}
 }
 
 async function enhanceBootstrapAdmin(){
-  const form=document.getElementById('claimAdminForm');
-  if(!form||document.getElementById('bootstrapMemberSelect')||bootstrapLoading)return;
+  const oldForm=document.getElementById('claimAdminForm');
+  if(!oldForm||oldForm.dataset.recoveryReady==='1'||bootstrapLoading)return;
   bootstrapLoading=true;
   try{
     const supabase=await getClient();
     const {data,error}=await supabase.rpc('bootstrap_admin_member_choices');
     if(error)throw error;
-    if(!document.getElementById('claimAdminForm'))return;
-
+    const current=document.getElementById('claimAdminForm');
+    if(!current)return;
     const members=data||[];
-    const selectLabel=document.createElement('label');
-    selectLabel.innerHTML=`Bestaand lid<select id="bootstrapMemberSelect" required>${members.length?members.map(m=>`<option value="${m.id}">${esc(m.full_name)}</option>`).join(''):'<option value="">Geen bestaand lid beschikbaar</option>'}</select>`;
-    form.insertBefore(selectLabel,form.firstElementChild);
-
-    const submit=form.querySelector('button[type="submit"]');
-    if(submit){
-      submit.textContent='Maak geselecteerd lid eerste admin';
-      if(!members.length)submit.disabled=true;
-    }
-
+    const form=current.cloneNode(false);
+    form.id='claimAdminForm';
+    form.dataset.recoveryReady='1';
+    form.className='club-form';
+    form.innerHTML=`<label>Bestaand lid<select id="bootstrapMemberSelect" required>${members.length?members.map(m=>`<option value="${m.id}">${esc(m.full_name)}</option>`).join(''):'<option value="">Geen bestaand lid beschikbaar</option>'}</select></label><button class="primary-button" type="submit" ${members.length?'':'disabled'}>Herstel en maak geselecteerd lid admin</button>`;
+    current.replaceWith(form);
     form.addEventListener('submit',async event=>{
       event.preventDefault();
-      event.stopImmediatePropagation();
       const memberId=document.getElementById('bootstrapMemberSelect')?.value;
-      const code=document.getElementById('adminSetupCode')?.value.trim();
-      if(!memberId||!code)return;
-      if(submit)submit.disabled=true;
-      const {error:claimError}=await supabase.rpc('claim_first_admin_existing',{p_code:code,p_member_id:memberId});
-      if(claimError){
-        if(submit)submit.disabled=false;
-        toast(claimError.message);
-        return;
-      }
-      toast('Bestaand lid is als eerste administrator geactiveerd.');
-      await ensureBootstrapData();
-      location.reload();
-    },true);
-  }catch(error){
-    console.error(error);
-  }finally{
-    bootstrapLoading=false;
-  }
+      if(!memberId)return;
+      const button=form.querySelector('button[type="submit"]');
+      if(button)button.disabled=true;
+      const {error:claimError}=await supabase.rpc('recover_first_admin_existing',{p_member_id:memberId});
+      if(claimError){if(button)button.disabled=false;toast(claimError.message);return}
+      toast('Adminaccount hersteld.');
+      setTimeout(()=>location.reload(),400);
+    });
+  }catch(error){console.error(error)}finally{bootstrapLoading=false}
 }
 
 async function enhanceAdminMembers(){
@@ -179,55 +140,31 @@ async function enhanceAdminMembers(){
     const supabase=await getClient();
     const {data:members,error}=await supabase.from('members').select('id,full_name,email,role,active').order('full_name');
     if(error)throw error;
-
     if(!document.getElementById('admin-members'))return;
     const activeMembers=(members||[]).filter(m=>m.active);
     const candidates=activeMembers.filter(m=>m.role!=='admin');
     const admins=activeMembers.filter(m=>m.role==='admin');
-
     const panel=document.createElement('div');
     panel.id='adminPromotePanel';
     panel.className='club-card-panel';
     panel.style.margin='12px 0';
-    panel.innerHTML=`
-      <h3>Administrator toevoegen</h3>
-      <p>Een administrator wordt altijd gekozen uit de bestaande ledenlijst. Nieuwe personen worden eerst als normaal lid toegevoegd.</p>
-      <div class="club-form">
-        <label>Bestaand lid
-          <select id="promoteMemberSelect" ${candidates.length?'':'disabled'}>
-            ${candidates.length?candidates.map(m=>`<option value="${m.id}">${esc(m.full_name||m.email||'Lid')}</option>`).join(''):'<option value="">Geen leden beschikbaar</option>'}
-          </select>
-        </label>
-        <button class="primary-button" id="promoteMemberBtn" type="button" ${candidates.length?'':'disabled'}>Maak geselecteerd lid admin</button>
-      </div>
-      <div style="margin-top:10px;font-size:9px;color:#707384">Huidige admins: ${admins.length?admins.map(m=>esc(m.full_name||m.email||'Admin')).join(', '):'geen'}</div>`;
-
+    panel.innerHTML=`<h3>Administrator toevoegen</h3><p>Een administrator wordt altijd gekozen uit de bestaande ledenlijst.</p><div class="club-form"><label>Bestaand lid<select id="promoteMemberSelect" ${candidates.length?'':'disabled'}>${candidates.length?candidates.map(m=>`<option value="${m.id}">${esc(m.full_name||m.email||'Lid')}</option>`).join(''):'<option value="">Geen leden beschikbaar</option>'}</select></label><button class="primary-button" id="promoteMemberBtn" type="button" ${candidates.length?'':'disabled'}>Maak geselecteerd lid admin</button></div><div style="margin-top:10px;font-size:9px;color:#707384">Huidige admins: ${admins.length?admins.map(m=>esc(m.full_name||m.email||'Admin')).join(', '):'geen'}</div>`;
     const listHeading=[...target.querySelectorAll('h3')].find(h=>h.textContent.trim()==='Leden');
-    if(listHeading)target.insertBefore(panel,listHeading);
-    else target.prepend(panel);
-
+    if(listHeading)target.insertBefore(panel,listHeading);else target.prepend(panel);
     const btn=document.getElementById('promoteMemberBtn');
     if(btn)btn.onclick=async()=>{
       const id=document.getElementById('promoteMemberSelect')?.value;
       if(!id)return;
       btn.disabled=true;
       const {error:updateError}=await supabase.from('members').update({role:'admin',updated_at:new Date().toISOString()}).eq('id',id);
-      if(updateError){btn.disabled=false;toast(updateError.message);return;}
+      if(updateError){btn.disabled=false;toast(updateError.message);return}
       toast('Lid is administrator gemaakt.');
       location.reload();
     };
-  }catch(error){
-    console.error(error);
-  }finally{
-    adminLoading=false;
-  }
+  }catch(error){console.error(error)}finally{adminLoading=false}
 }
 
-const observer=new MutationObserver(()=>{
-  enhanceBootstrapAdmin();
-  enhanceAdminMembers();
-});
-
+const observer=new MutationObserver(()=>{enhanceBootstrapAdmin();enhanceAdminMembers()});
 document.addEventListener('DOMContentLoaded',()=>{
   observer.observe(document.documentElement,{childList:true,subtree:true});
   enhanceBootstrapAdmin();
