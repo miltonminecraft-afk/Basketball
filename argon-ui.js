@@ -3,8 +3,24 @@
 const ARGON_ID='a4a2e2fa-0635-46a5-8969-1d0fef40444f';
 const ARGON_NAME='SV Argon';
 const STORE='basketballApp.selection.v3';
+const SUPABASE_URL='https://elpnfmlrkoemjrnzaeok.supabase.co';
+const SUPABASE_KEY='sb_publishable_GPzLwaKeevg3e8CNjw9oAQ_50NW2xlg';
 const DEFAULT_SELECTION={clubId:ARGON_ID,clubName:ARGON_NAME,clubLogo:'https://images.foys.io/foys/a4a2e2fa-0635-46a5-8969-1d0fef40444f/CC586FA3B4D02C36D9D21FBE50E20E47.gif',teamId:50553,teamGuid:'9b807e1c-8acb-442f-8bb0-35d16bc76e78',teamName:'MSE-2',teamLogo:'https://images.foys.io/foys/a4a2e2fa-0635-46a5-8969-1d0fef40444f/CC586FA3B4D02C36D9D21FBE50E20E47.gif?w=200'};
+let sb=null,memberContextCache=null,memberContextAt=0,clubLabelAt=0,clubLabelBusy=false,detailBusy=false,activeMatchId=null,activeMatchTitle='';
+const norm=v=>String(v||'').trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');
+const isArgon=v=>/^SV Argon(?:\s|$)/i.test(String(v||'').trim());
 
+function injectStyle(){
+ if(document.getElementById('argonUiStyle'))return;
+ const style=document.createElement('style');style.id='argonUiStyle';style.textContent='.maps-link{font-weight:850;color:#245d9c;text-decoration:none}.drivers-list{margin-top:10px;border:1px solid var(--line);border-radius:10px;padding:10px}.drivers-list strong{display:block;font-size:10px;margin-bottom:5px}.drivers-names{display:flex;gap:5px;flex-wrap:wrap}.driver-name{display:inline-flex;border-radius:999px;padding:5px 8px;background:#eef0f5;color:var(--navy);font-size:8px;font-weight:850}.club-tab-label{display:block}';document.head.appendChild(style);
+}
+async function getClient(){
+ if(sb)return sb;
+ const mod=await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm');
+ sb=mod.createClient(SUPABASE_URL,SUPABASE_KEY,{auth:{persistSession:true,detectSessionInUrl:true,autoRefreshToken:true}});
+ sb.auth.onAuthStateChange(()=>{memberContextCache=null;memberContextAt=0;clubLabelAt=0;schedule();});
+ return sb;
+}
 function lockSelection(){
  try{
   const raw=localStorage.getItem(STORE);
@@ -20,97 +36,120 @@ if(lockSelection())return;
 
 function fixTeamUi(){
  const select=document.getElementById('teamSelect');
- if(select){
-  [...select.options].filter(o=>o.value==='__change_club__').forEach(o=>o.remove());
- }
- const button=document.getElementById('changeTeamBtn');
- if(button)button.textContent='Team wijzigen';
- const settingsClub=document.getElementById('settingsClub');
- if(settingsClub)settingsClub.textContent=ARGON_NAME;
- const title=document.getElementById('teamModalTitle');
- if(title)title.textContent='Team kiezen';
+ if(select)[...select.options].filter(o=>o.value==='__change_club__').forEach(o=>o.remove());
+ const button=document.getElementById('changeTeamBtn');if(button)button.textContent='Team wijzigen';
+ const settingsClub=document.getElementById('settingsClub');if(settingsClub)settingsClub.textContent=ARGON_NAME;
+ const title=document.getElementById('teamModalTitle');if(title)title.textContent='Team kiezen';
  const sheet=document.querySelector('#teamModal .team-sheet');
  if(sheet){
-  const intro=sheet.querySelector('.sheet-title-row p');
-  if(intro)intro.textContent='Kies een team van SV Argon of Alle teams.';
+  const intro=sheet.querySelector('.sheet-title-row p');if(intro)intro.textContent='Kies een team van SV Argon of Alle teams.';
   sheet.querySelectorAll('.search-label,.search-row,.search-status,.club-results,.chosen-club-head').forEach(el=>el.style.display='none');
-  const chosen=document.getElementById('chosenClub');
-  if(chosen)chosen.hidden=false;
-  const name=document.getElementById('chosenClubName');
-  if(name)name.textContent=ARGON_NAME;
+  const chosen=document.getElementById('chosenClub');if(chosen)chosen.hidden=false;
+  const name=document.getElementById('chosenClubName');if(name)name.textContent=ARGON_NAME;
  }
 }
-
 function addressAfterBreak(meta){
  let after=false,text='';
  for(const node of meta.childNodes){
   if(node.nodeName==='BR'){after=true;continue}
-  if(after&&!node.classList?.contains('maps-link'))text+=node.textContent||'';
+  if(after&&node.nodeType===Node.TEXT_NODE)text+=node.textContent||'';
  }
- return text.replace(/\s*·\s*Maps\s*$/i,'').trim();
+ return text.trim();
 }
 function addMapsLinks(){
  document.querySelectorAll('article.event[data-match-id] .meta').forEach(meta=>{
   if(meta.querySelector('.maps-link'))return;
-  const address=addressAfterBreak(meta);
-  if(!address)return;
-  const link=document.createElement('a');
-  link.className='maps-link';
-  link.href=`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
-  link.target='_blank';
-  link.rel='noopener noreferrer';
-  link.textContent='Maps';
-  link.setAttribute('aria-label',`Open ${address} in Google Maps`);
-  meta.append(document.createTextNode(' · '),link);
+  const address=addressAfterBreak(meta);if(!address)return;
+  const link=document.createElement('a');link.className='maps-link';link.href=`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;link.target='_blank';link.rel='noopener noreferrer';link.textContent='Maps';link.setAttribute('aria-label',`Open ${address} in Google Maps`);meta.append(document.createTextNode(' · '),link);
  });
 }
-
-function isArgon(side){return /^SV Argon(?:\s|$)/i.test(String(side||'').trim())}
-function fixDriving(){
- const overlay=document.getElementById('matchDetailOverlay');
- const toggle=overlay?.querySelector('.drive-toggle');
- if(!toggle)return;
- const title=document.getElementById('matchDetailTitle')?.textContent||'';
- const parts=title.split(/\s+[—–-]\s+/);
- const away=parts.length>1&&!isArgon(parts[0])&&isArgon(parts[1]);
- toggle.style.display=away?'flex':'none';
- const input=toggle.querySelector('input');
- if(input&&!away)input.disabled=true;
+function setClubLabel(label){
+ const tab=document.querySelector('.tab[data-view="club"]');if(!tab)return;
+ const current=tab.querySelector('.club-tab-label')?.textContent||'';if(current===label)return;
+ tab.innerHTML=`<span class="tab-icon">●</span><span class="club-tab-label">${label}</span>`;
 }
-
-function updateClubTab(){
- const tab=document.querySelector('.tab[data-view="club"]');
- if(!tab)return;
- let label='Club';
- const root=document.getElementById('clubRoot');
- const loginTitle=root?.querySelector('.auth-box h2')?.textContent?.trim()||'';
- if(/Ledenlogin/i.test(loginTitle))label='Club/inloggen';
- else if(root?.querySelector('[data-clubview="admin"]'))label='Club/admin';
- let labelEl=tab.querySelector('.club-tab-label');
- if(!labelEl){
-  [...tab.childNodes].filter(n=>n.nodeType===Node.TEXT_NODE).forEach(n=>n.remove());
-  labelEl=document.createElement('span');
-  labelEl.className='club-tab-label';
-  tab.appendChild(labelEl);
- }
- if(labelEl.textContent!==label)labelEl.textContent=label;
+async function updateClubTab(force=false){
+ if(clubLabelBusy||(!force&&Date.now()-clubLabelAt<900))return;
+ const tab=document.querySelector('.tab[data-view="club"]');if(!tab)return;
+ clubLabelBusy=true;
+ try{
+  const s=await getClient(),{data:{session}}=await s.auth.getSession();
+  if(!session){setClubLabel('Club/inloggen');return}
+  const {data:m,error}=await s.rpc('sync_current_member');
+  if(error){setClubLabel('Club');return}
+  setClubLabel(m?.active&&m?.role==='admin'?'Club/admin':'Club');
+ }catch{
+  const root=document.getElementById('clubRoot');setClubLabel(root?.querySelector('[data-clubview="admin"]')?'Club/admin':root?.querySelector('.auth-box h2')?'Club/inloggen':'Club');
+ }finally{clubLabelAt=Date.now();clubLabelBusy=false}
 }
-
+async function memberContext(force=false){
+ if(!force&&memberContextCache&&Date.now()-memberContextAt<15000)return memberContextCache;
+ const s=await getClient(),{data:{session}}=await s.auth.getSession();if(!session)return null;
+ const {data:m,error}=await s.rpc('sync_current_member');if(error||!m?.active)return null;
+ const {data:rows}=await s.from('member_teams').select('team_id,teams(id,team_name,foy_team_guid)').eq('member_id',m.id);
+ memberContextCache={member:m,teams:(rows||[]).map(x=>x.teams?{...x.teams,id:x.team_id}:null).filter(Boolean)};memberContextAt=Date.now();return memberContextCache;
+}
+function detailTeams(){
+ const title=document.getElementById('matchDetailTitle')?.textContent?.trim()||'';
+ const parts=title.split(/\s+[—–-]\s+/).map(x=>x.trim()).filter(Boolean);
+ return {title,home:parts[0]||'',away:parts[1]||''};
+}
+function detailLocation(){
+ const spans=[...document.querySelectorAll('#matchDetailBody .match-summary span')];return spans.at(-1)?.textContent?.trim()||'';
+}
+function isAwayDetail(home,away,location){return !isArgon(home)&&isArgon(away)&&!/eendracht|phoenix/i.test(location)}
+function argonTeamName(home,away){const side=isArgon(home)?home:isArgon(away)?away:'';return side.replace(/^SV Argon\s*/i,'').trim()}
+function resolveMatchId(title){
+ if(activeMatchId&&(!activeMatchTitle||norm(activeMatchTitle)===norm(title)))return Number(activeMatchId);
+ const card=[...document.querySelectorAll('article.event[data-match-id]')].find(c=>norm(c.querySelector('.match-title')?.textContent)===norm(title));return card?Number(card.dataset.matchId):null;
+}
+async function ownAttendance(matchId,memberId){const s=await getClient(),{data}=await s.from('attendance').select('attending,driving').eq('foy_match_id',Number(matchId)).eq('member_id',memberId).maybeSingle();return data||null}
+async function drivers(matchId){const s=await getClient(),{data,error}=await s.rpc('get_match_drivers',{p_match_id:Number(matchId)});if(error)return[];return data||[]}
+function applyAttendanceVisual(state,away){
+ const yes=document.querySelector('#matchDetailBody [data-pres="yes"]'),no=document.querySelector('#matchDetailBody [data-pres="no"]'),input=document.getElementById('drive');
+ if(yes){yes.classList.toggle('selected',state?.attending===true);yes.classList.toggle('yes',state?.attending===true)}
+ if(no){no.classList.toggle('selected',state?.attending===false);no.classList.toggle('no',state?.attending===false)}
+ if(input){input.checked=away&&state?.driving===true;input.disabled=!away}
+}
+async function renderDrivers(matchId){
+ let box=document.querySelector('#matchDetailBody .drivers-list');if(!box){const toggle=document.querySelector('#matchDetailBody .drive-toggle');if(!toggle)return;box=document.createElement('div');box.className='drivers-list';toggle.insertAdjacentElement('afterend',box)}
+ const rows=await drivers(matchId);box.innerHTML=`<strong>Rijders</strong><div class="drivers-names">${rows.length?rows.map(r=>`<span class="driver-name">${String(r.full_name||'Lid').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]))}</span>`).join(''):'<span class="match-muted">Nog niemand heeft aangegeven te rijden.</span>'}</div>`;
+}
+async function saveAttendance(ctx,attending){
+ const input=document.getElementById('drive'),driving=!!(attending&&ctx.away&&input?.checked),s=await getClient();
+ const {data,error}=await s.rpc('set_match_attendance',{p_match_id:ctx.matchId,p_team_id:ctx.team.id,p_attending:attending,p_driving:driving});
+ if(error){window.alert(error.message);return}
+ applyAttendanceVisual(data,ctx.away);if(ctx.away)await renderDrivers(ctx.matchId);
+}
+async function saveDriving(ctx,checked){
+ const s=await getClient(),{data,error}=await s.rpc('set_match_attendance',{p_match_id:ctx.matchId,p_team_id:ctx.team.id,p_attending:true,p_driving:!!checked});
+ if(error){window.alert(error.message);return}
+ applyAttendanceVisual(data,true);await renderDrivers(ctx.matchId);
+}
+async function configureDetail(){
+ if(detailBusy)return;
+ const overlay=document.getElementById('matchDetailOverlay');if(!overlay||overlay.hidden)return;
+ const yes=document.querySelector('#matchDetailBody [data-pres="yes"]'),no=document.querySelector('#matchDetailBody [data-pres="no"]'),toggle=document.querySelector('#matchDetailBody .drive-toggle');
+ if(!yes&&!no&&!toggle)return;
+ detailBusy=true;
+ try{
+  const dt=detailTeams(),matchId=resolveMatchId(dt.title);if(!matchId)return;
+  const context=await memberContext();if(!context)return;
+  const teamName=argonTeamName(dt.home,dt.away),team=context.teams.find(x=>norm(x.team_name)===norm(teamName));if(!team)return;
+  const away=isAwayDetail(dt.home,dt.away,detailLocation()),ctx={matchId,team,away};
+  if(toggle){toggle.style.display=away?'flex':'none';toggle.classList.remove('disabled')}
+  const input=document.getElementById('drive');if(input){input.disabled=!away;input.onchange=null;if(!input.dataset.argonBound){input.dataset.argonBound='1';input.addEventListener('change',()=>saveDriving(ctx,input.checked))}}
+  for(const [button,value] of [[yes,true],[no,false]])if(button){button.onclick=null;if(!button.dataset.argonBound){button.dataset.argonBound='1';button.addEventListener('click',()=>saveAttendance(ctx,value))}}
+  let state=await ownAttendance(matchId,context.member.id);
+  if(!away&&state?.driving){const s=await getClient(),{data}=await s.rpc('set_match_attendance',{p_match_id:matchId,p_team_id:team.id,p_attending:state.attending===true,p_driving:false});state=data||state}
+  applyAttendanceVisual(state,away);
+  const old=document.querySelector('#matchDetailBody .drivers-list');if(!away){old?.remove()}else await renderDrivers(matchId);
+ }finally{detailBusy=false}
+}
 let queued=false;
-function apply(){
- queued=false;
- fixTeamUi();
- addMapsLinks();
- fixDriving();
- updateClubTab();
-}
-function schedule(){
- if(queued)return;
- queued=true;
- requestAnimationFrame(apply);
-}
+async function apply(){queued=false;injectStyle();fixTeamUi();addMapsLinks();await updateClubTab();await configureDetail()}
+function schedule(){if(queued)return;queued=true;setTimeout(apply,0)}
+document.addEventListener('click',e=>{const card=e.target.closest('article.event[data-match-id],article.event[data-task-id]');if(card){if(card.dataset.matchId){activeMatchId=Number(card.dataset.matchId);activeMatchTitle=card.querySelector('.match-title')?.textContent||''}else{activeMatchId=null;activeMatchTitle=''}}schedule()},true);
 new MutationObserver(schedule).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:['hidden','class']});
-document.addEventListener('DOMContentLoaded',schedule);
-document.addEventListener('click',schedule,true);
-setTimeout(schedule,300);
+document.addEventListener('DOMContentLoaded',()=>{schedule();setTimeout(()=>updateClubTab(true),500)});
 })();
