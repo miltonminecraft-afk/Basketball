@@ -33,15 +33,15 @@ async function json(url,opts={}){const r=await fetch(url,{cache:'no-store',heade
 function injectCss(){
  if($('feedV5Css'))return;
  const s=document.createElement('style');s.id='feedV5Css';s.textContent=`
- #view-feed .section-head{margin-bottom:12px}
- .feed-standing-grid{display:grid;gap:8px;margin:0 0 12px}
- .feed-standing-item{display:grid;grid-template-columns:34px minmax(0,1fr) auto auto;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:10px 12px}
- .feed-standing-logo{width:34px;height:34px;object-fit:contain;border-radius:8px;background:#fff}
- .feed-standing-name{font-weight:850;min-width:0}
- .feed-pos{display:inline-flex;align-items:center;justify-content:center;min-width:34px;height:28px;padding:0 9px;border-radius:999px;background:#fff0e8;color:#ef6500;font-weight:900;white-space:nowrap}
- .feed-of{color:var(--muted);font-size:12px;white-space:nowrap}
- .feed-filter-card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:12px;margin:0 0 14px}
- .feed-filter-card label{display:block;font-weight:800;margin-bottom:7px}
+ #view-feed .section-head{margin-bottom:10px}
+ .feed-standing-grid{display:grid;gap:5px;margin:0 0 10px}
+ .feed-standing-item{display:flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px 8px;min-height:38px}
+ .feed-standing-logo{width:24px;height:24px;object-fit:contain;flex:0 0 24px;border-radius:6px;background:#fff}
+ .feed-standing-name{font-size:11px;font-weight:850;line-height:1.15;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ .feed-pos{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:20px;padding:0 6px;border-radius:999px;background:#fff0e8;color:#ef6500;font-size:9px;font-weight:900;line-height:1;white-space:nowrap;flex:0 0 auto}
+ .feed-of{color:var(--muted);font-size:9px;line-height:1;white-space:nowrap;flex:0 0 auto}
+ .feed-filter-card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:9px 10px;margin:0 0 12px}
+ .feed-filter-card label{display:block;font-size:10px;font-weight:800;margin-bottom:6px}
  .feed-filter-card select{width:100%}
  .feed-event{padding:14px 14px 13px}
  .feed-card-head{display:flex;align-items:center;justify-content:flex-start;margin-bottom:10px}
@@ -59,11 +59,15 @@ function injectCss(){
  .feed-location{text-align:center;margin-top:0}
  .feed-event .competition{text-align:center}
  @media(max-width:480px){
+  .feed-standing-item{gap:5px;padding:5px 7px;min-height:34px}
+  .feed-standing-logo{width:22px;height:22px;flex-basis:22px}
+  .feed-standing-name{font-size:10px}
+  .feed-pos{min-width:22px;height:18px;padding:0 5px;font-size:8px}
+  .feed-of{font-size:8px}
   .feed-event{padding:12px}
   .feed-matchup-horizontal{gap:8px}
   .feed-team-logo{width:32px;height:32px;flex-basis:32px}
   .feed-team-name{font-size:14px}
-  .feed-pos{min-width:30px;height:26px;padding:0 7px;font-size:12px}
   .feed-score{font-size:34px;margin-top:14px}
  }
  `;document.head.appendChild(s);
