@@ -1,0 +1,96 @@
+(()=>{
+  'use strict';
+
+  const PREFIX='all-';
+  const TEAM_PATH='/competition/public-api/v1/organisations/';
+  const MATCH_PATH='/competition/public-api/v1/matches';
+  const originalFetch=window.fetch.bind(window);
+  const clubTeamsCache=new Map();
+
+  function isFoys(url){return url.hostname==='api.foys.io'}
+  function clubIdFromTeamsUrl(url){
+    const path=url.pathname;
+    if(!path.includes(TEAM_PATH)||!path.endsWith('/teams'))return '';
+    const rest=path.split(TEAM_PATH)[1]||'';
+    return decodeURIComponent(rest.slice(0,-'/teams'.length));
+  }
+  function allGuid(clubId){return `${PREFIX}${clubId}`}
+  function clubIdFromAllGuid(guid){return String(guid||'').startsWith(PREFIX)?String(guid).slice(PREFIX.length):''}
+  function syntheticTeam(clubId,teams){
+    const first=teams[0]||{};
+    return {id:null,guid:allGuid(clubId),name:'Alle teams',organisationName:first.organisationName||first.organisation?.name||'Vereniging',logoUrl:first.logoUrl||''};
+  }
+  function jsonResponse(data,sourceResponse){
+    const headers=new Headers(sourceResponse?.headers||{});
+    headers.set('Content-Type','application/json; charset=utf-8');
+    return new Response(JSON.stringify(data),{status:200,statusText:'OK',headers});
+  }
+  async function loadRealTeams(clubId,requestInit){
+    if(clubTeamsCache.has(clubId))return clubTeamsCache.get(clubId);
+    const url=`https://api.foys.io/competition/public-api/v1/organisations/${encodeURIComponent(clubId)}/teams`;
+    const response=await originalFetch(url,{...requestInit,cache:'no-store'});
+    if(!response.ok)throw new Error(`Teams ophalen mislukt: ${response.status}`);
+    const data=await response.json();
+    const teams=(Array.isArray(data)?data:[]).filter(team=>team?.guid&&!String(team.guid).startsWith(PREFIX));
+    clubTeamsCache.set(clubId,teams);
+    return teams;
+  }
+  async function fetchTeamMatches(guid,baseUrl,requestInit){
+    const rows=[];let skip=0,total=Infinity;const pageSize=100;
+    while(skip<total){
+      const url=new URL(baseUrl.href);
+      url.searchParams.set('teamGuid',guid);
+      url.searchParams.set('skipCount',String(skip));
+      url.searchParams.set('maxResultCount',String(pageSize));
+      const response=await originalFetch(url.href,{...requestInit,cache:'no-store'});
+      if(!response.ok)throw new Error(`Wedstrijden ophalen mislukt: ${response.status}`);
+      const data=await response.json();
+      const items=Array.isArray(data?.items)?data.items:[];
+      total=Number.isFinite(Number(data?.totalCount))?Number(data.totalCount):items.length;
+      rows.push(...items);skip+=items.length;
+      if(!items.length||items.length<pageSize)break;
+    }
+    return rows;
+  }
+  async function fetchAllClubMatches(url,clubId,requestInit){
+    const teams=await loadRealTeams(clubId,requestInit);
+    const guids=[...new Set(teams.map(team=>team.guid).filter(Boolean))];
+    const byId=new Map();let cursor=0;
+    const workers=Array.from({length:Math.min(4,Math.max(1,guids.length))},async()=>{
+      while(cursor<guids.length){
+        const index=cursor++;
+        const rows=await fetchTeamMatches(guids[index],url,requestInit);
+        rows.forEach(match=>byId.set(String(match.id),match));
+      }
+    });
+    await Promise.all(workers);
+    const items=[...byId.values()].sort((a,b)=>`${String(a.date||'')}T${String(a.startTime||'')}`.localeCompare(`${String(b.date||'')}T${String(b.startTime||'')}`));
+    return {items,totalCount:items.length};
+  }
+
+  window.fetch=async function(input,init={}){
+    const request=input instanceof Request?input:null;
+    const rawUrl=request?request.url:String(input);
+    let url;
+    try{url=new URL(rawUrl,location.href)}catch{return originalFetch(input,init)}
+    if(!isFoys(url))return originalFetch(input,init);
+    const requestInit=request?{method:request.method,headers:request.headers,credentials:request.credentials,mode:request.mode,redirect:request.redirect,referrer:request.referrer,referrerPolicy:request.referrerPolicy,integrity:request.integrity,keepalive:request.keepalive,signal:request.signal,...init}:init;
+
+    const clubId=clubIdFromTeamsUrl(url);
+    if(clubId){
+      const response=await originalFetch(input,init);
+      if(!response.ok)return response;
+      const data=await response.clone().json();
+      if(!Array.isArray(data))return response;
+      const real=data.filter(team=>team?.guid&&!String(team.guid).startsWith(PREFIX));
+      clubTeamsCache.set(clubId,real);
+      return jsonResponse([syntheticTeam(clubId,real),...real],response);
+    }
+    if(url.pathname.endsWith(MATCH_PATH)){
+      const teamGuid=url.searchParams.get('teamGuid')||'';
+      const allClubId=clubIdFromAllGuid(teamGuid);
+      if(allClubId)return jsonResponse(await fetchAllClubMatches(url,allClubId,requestInit));
+    }
+    return originalFetch(input,init);
+  };
+})();
