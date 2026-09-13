@@ -38,7 +38,7 @@ async function refreshMember(){
  if(!session){member=null;renderLoggedOut();return}
  try{
   const {data,error}=await supabase.rpc('sync_current_member');if(error)throw error;member=data;
-  if(member?.active){await loadBaseData();setupRealtime();}
+  if(member?.active){await loadBaseData();try{setupRealtime();}catch(realtimeError){console.warn('Realtime kon niet starten; Club blijft bruikbaar.',realtimeError);}}
   renderClub();
  }catch(e){console.error(e);$('clubRoot').innerHTML=`<div class="empty error-box">${esc(e.message||'Account kon niet worden geladen.')}</div>`}
 }
@@ -154,6 +154,6 @@ async function addAssignment(eventId){const ev=taskEvents.find(x=>x.id===eventId
 async function saveAssignment(id){const memberId=$(`assignmentMember-${id}`).value||null,m=members.find(x=>x.id===memberId),role=$(`assignmentRole-${id}`).value;const {error}=await supabase.from('task_assignments').update({assigned_member_id:memberId,assigned_name:m?.full_name||'Niet toegewezen',role}).eq('id',id);if(error)return toast(error.message);toast('Toewijzing opgeslagen.');await reloadDynamic();switchClubView('admin')}
 async function deleteAssignment(id){const {error}=await supabase.from('task_assignments').delete().eq('id',id);if(error)return toast(error.message);await reloadDynamic();switchClubView('admin')}
 function clearRealtime(){realtimeChannels.forEach(c=>supabase?.removeChannel(c));realtimeChannels=[]}
-function setupRealtime(){if(!supabase||!member)return;const channel=supabase.channel(`club-${member.id}`).on('postgres_changes',{event:'*',schema:'public',table:'notifications',filter:`recipient_member_id=eq.${member.id}`},reloadDynamic).on('postgres_changes',{event:'*',schema:'public',table:'task_swap_requests'},reloadDynamic).on('postgres_changes',{event:'*',schema:'public',table:'task_assignments'},reloadDynamic).on('postgres_changes',{event:'*',schema:'public',table:'training_sessions'},reloadDynamic).subscribe();realtimeChannels=[channel]}
+function setupRealtime(){if(!supabase||!member)return;const topic=`club-${member.id}-${Date.now()}-${Math.random().toString(36).slice(2)}`;const channel=supabase.channel(topic);channel.on('postgres_changes',{event:'*',schema:'public',table:'notifications',filter:`recipient_member_id=eq.${member.id}`},reloadDynamic);channel.on('postgres_changes',{event:'*',schema:'public',table:'task_swap_requests'},reloadDynamic);channel.on('postgres_changes',{event:'*',schema:'public',table:'task_assignments'},reloadDynamic);channel.on('postgres_changes',{event:'*',schema:'public',table:'training_sessions'},reloadDynamic);realtimeChannels=[channel];channel.subscribe(status=>{if(status==='CHANNEL_ERROR'||status==='TIMED_OUT')console.warn('Realtime status:',status);});}
 document.addEventListener('DOMContentLoaded',init);
 })();
