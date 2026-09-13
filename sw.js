@@ -1,5 +1,5 @@
-const CACHE='basketball-agenda-v3';
-const SHELL=['./','./index.html','./styles.css?v=3','./app.js?v=3','./manifest.webmanifest','./data/tasks.json'];
+const CACHE='basketball-agenda-v4';
+const SHELL=['./','./index.html','./styles.css?v=3','./all-teams.js?v=4','./app.js?v=3','./manifest.webmanifest','./data/tasks.json'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
 self.addEventListener('fetch',event=>{
