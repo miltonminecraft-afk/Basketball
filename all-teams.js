@@ -94,5 +94,3 @@
     return originalFetch(input,init);
   };
 })();
-
-import('./argon-ui.js?v=1').catch(error=>console.warn('Argon UI kon niet laden',error));
