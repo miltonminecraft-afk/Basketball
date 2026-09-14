@@ -8,9 +8,8 @@ const CACHE_PREFIX='basketballApp.matches.v3.';
 const STORE='basketballApp.selection.v3';
 
 const memory=new Map();
-let argonGuids=null,argonGuidsPromise=null,activeToken=0;
+let argonGuids=null,argonGuidsPromise=null;
 
-const d=v=>String(v||'').slice(0,10);
 const norm=v=>String(v||'').trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');
 const guid=(m,side)=>String(m?.[`${side}TeamGuid`]||m?.[`${side}Team`]?.guid||'');
 const clubName=(m,side)=>String(m?.[`${side}TeamSponsorClubName`]||m?.[`${side}Organisation`]?.name||m?.[`${side}ClubName`]||'').trim();
@@ -51,21 +50,30 @@ async function fetchMatches(teamGuid){
   if(!teamGuid)return[];
   const q=season(),out=[];let skip=0,total=Infinity;
   while(skip<total){
-    const p=new URLSearchParams({startDate:q.start,endDate:q.end,teamGuid,skipCount:String(skip),maxResultCount:'100',sorting:'date asc, startTime asc'});
+    const p=new URLSearchParams({
+      startDate:q.start,endDate:q.end,teamGuid,skipCount:String(skip),maxResultCount:'100',sorting:'date asc, startTime asc'
+    });
     const r=await fetch(`${API}/matches?${p}`,{headers:{Accept:'application/json','X-FederationID':FED},cache:'no-store'});
     if(!r.ok)break;
     const j=await r.json(),rows=Array.isArray(j?.items)?j.items:[];
     rows.forEach(m=>memory.set(String(m.id),m));
-    out.push(...rows);total=Number(j?.totalCount)||rows.length;skip+=rows.length;
+    out.push(...rows);
+    total=Number(j?.totalCount)||rows.length;
+    skip+=rows.length;
     if(!rows.length||rows.length<100)break;
   }
   return out;
 }
 async function matchById(id){
-  const key=String(id||'');if(!key)return null;
-  let hit=cachedMatch(key);if(hit)return hit;
+  const key=String(id||'');
+  if(!key)return null;
+  let hit=cachedMatch(key);
+  if(hit)return hit;
   const selected=selectedGuid();
-  if(selected){hit=(await fetchMatches(selected)).find(x=>String(x.id)===key);if(hit)return hit}
+  if(selected){
+    hit=(await fetchMatches(selected)).find(x=>String(x.id)===key);
+    if(hit)return hit;
+  }
   hit=(await fetchMatches(`all-${ARGON}`)).find(x=>String(x.id)===key);
   return hit||cachedMatch(key);
 }
@@ -81,7 +89,8 @@ async function loadArgonGuids(){
         for(const team of Array.isArray(rows)?rows:[])if(team?.guid&&!String(team.guid).startsWith('all-'))set.add(String(team.guid));
       }
     }catch{}
-    argonGuids=set;return set;
+    argonGuids=set;
+    return set;
   })();
   return argonGuidsPromise;
 }
@@ -102,39 +111,6 @@ async function classify(m){
   return{played:false,side,away:side==='away',home:side==='home'};
 }
 
-function injectCss(){
-  if(document.getElementById('centralMatchRulesCss'))return;
-  const style=document.createElement('style');style.id='centralMatchRulesCss';
-  style.textContent=`#matchDetailOverlay .drive-toggle{display:none!important}#matchDetailOverlay.match-drive-allowed .drive-toggle{display:flex!important}#matchDetailOverlay.match-presence-closed #matchDetailBody .match-detail-section:has(.presence-segment),#matchDetailOverlay.match-presence-closed #matchDetailBody .attendees-section,#matchDetailOverlay.match-presence-closed #matchDetailBody .drivers-list{display:none!important}`;
-  document.head.appendChild(style);
-}
-function presenceSection(){
-  const body=document.getElementById('matchDetailBody');if(!body)return null;
-  return [...body.querySelectorAll('.match-detail-section')].find(section=>norm(section.querySelector('h3')?.textContent)==='mijnwedstrijd')||null;
-}
-async function enforceDetail(matchId,token){
-  const match=await matchById(matchId);if(token!==activeToken||!match)return;
-  const state=await classify(match);if(token!==activeToken)return;
-  const apply=()=>{
-    if(token!==activeToken)return false;
-    const overlay=document.getElementById('matchDetailOverlay');
-    if(!overlay||overlay.hidden)return false;
-    overlay.classList.toggle('match-drive-allowed',!state.played&&state.away);
-    overlay.classList.toggle('match-presence-closed',state.played);
-    if(state.played){
-      presenceSection()?.remove();
-      document.querySelector('#matchDetailBody .attendees-section')?.remove();
-      document.querySelector('#matchDetailBody .drivers-list')?.remove();
-    }else if(!state.away){
-      document.querySelector('#matchDetailBody .drivers-list')?.remove();
-    }
-    return true;
-  };
-  let tries=0;
-  const run=()=>{if(token!==activeToken)return;apply();if(++tries<24)setTimeout(run,50)};
-  run();
-}
-
 async function enforceClubPresence(){
   const rows=[...document.querySelectorAll('.personal-presence-card .club-row')];
   for(const row of rows){
@@ -142,7 +118,8 @@ async function enforceClubPresence(){
     const id=row.dataset.matchRuleId||source?.dataset.match||'';
     if(!id)continue;
     row.dataset.matchRuleId=id;
-    const match=await matchById(id);if(!match)continue;
+    const match=await matchById(id);
+    if(!match)continue;
     const state=await classify(match);
     const actions=row.querySelector('.attendance-choice');
     if(state.played){actions?.remove();continue}
@@ -152,19 +129,11 @@ async function enforceClubPresence(){
 function scheduleClubEnforcement(){
   [80,240,650].forEach(delay=>setTimeout(()=>enforceClubPresence().catch(console.warn),delay));
 }
-
 function init(){
-  injectCss();
-  document.addEventListener('click',event=>{
-    const card=event.target.closest?.('article.event[data-match-id]');
-    if(!card)return;
-    const id=Number(card.dataset.matchId);if(!Number.isFinite(id))return;
-    const token=++activeToken;
-    const overlay=document.getElementById('matchDetailOverlay');if(overlay){overlay.classList.remove('match-drive-allowed');overlay.classList.remove('match-presence-closed')}
-    enforceDetail(id,token).catch(console.warn);
-  },true);
   document.addEventListener('basketball-club-rendered',scheduleClubEnforcement);
-  document.addEventListener('basketball-club-view-changed',event=>{if(event.detail?.view==='presence')scheduleClubEnforcement()});
+  document.addEventListener('basketball-club-view-changed',event=>{
+    if(event.detail?.view==='presence')scheduleClubEnforcement();
+  });
   document.addEventListener('basketball-attendance-changed',scheduleClubEnforcement);
 }
 
