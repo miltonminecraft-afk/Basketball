@@ -1,1 +1,1 @@
-import('./all-teams-v2.js?v=2');
+import('./all-teams-v2.js?v=3');
