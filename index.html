@@ -32,7 +32,7 @@
       </div>
       <div class="filters">
         <div class="field"><label for="teamSelect">Team</label><select id="teamSelect" aria-label="Team kiezen"></select></div>
-        <div class="field"><label for="personSelect">Persoon voor taken</label><select id="personSelect" aria-label="Persoon kiezen"></select></div>
+        <div class="field"><label for="personSelect">Persoon voor taken</label><select id="personSelect" aria-label="Persoon voor taken"></select></div>
       </div>
     </header>
     <main>
@@ -43,7 +43,6 @@
       <section id="view-calendar" class="view">
         <div class="section-head"><div><h1>Agenda koppelen</h1><p>Abonneer je agenda zodat wijzigingen automatisch kunnen worden bijgewerkt.</p></div></div>
         <div class="settings-card"><div class="card-title-row"><div><h2>Wedstrijden</h2><p id="calendarTeamLabel">Geselecteerd team</p></div><span class="badge badge-game">LIVE</span></div><p>Deze abonnementslink bevat het programma van het geselecteerde team. Wanneer FOYS een tijd, locatie, status of uitslag wijzigt, wordt dezelfde wedstrijd via het wedstrijd-ID bijgewerkt.</p><div class="provider-grid" data-feed="team"><button class="provider-button" data-provider="google" type="button">Google Agenda</button><button class="provider-button" data-provider="outlook" type="button">Outlook</button><button class="provider-button" data-provider="webcal" type="button">Apple / andere</button><button class="provider-button secondary" data-provider="copy" type="button">Link kopiëren</button></div><div class="feed-url" id="teamFeedUrl">Nog geen team geselecteerd.</div></div>
-        <div class="settings-card"><div class="card-title-row"><div><h2>Taken</h2><p id="calendarTaskLabel">Alle personen</p></div><span class="badge badge-task">TAKEN</span></div><p id="taskCalendarHelp">Kies bovenaan een persoon om alleen diens scheidsrechter- en tafeltaken als abonnement toe te voegen. Bij ‘Alle personen’ bevat de link het volledige takenschema.</p><div class="provider-grid" data-feed="tasks"><button class="provider-button" data-provider="google" type="button">Google Agenda</button><button class="provider-button" data-provider="outlook" type="button">Outlook</button><button class="provider-button" data-provider="webcal" type="button">Apple / andere</button><button class="provider-button secondary" data-provider="copy" type="button">Link kopiëren</button></div><div class="feed-url" id="taskFeedUrl">Taken worden geladen…</div></div>
         <div class="settings-card"><h2>Eenmalige gecombineerde export</h2><p>Wil je geen abonnement, dan kun je de op dit moment geladen wedstrijden en taken als één .ics-bestand downloaden. Dit bestand werkt bij vrijwel iedere agenda-aanbieder, maar verandert daarna niet automatisch mee.</p><button class="primary-button" id="downloadIcsBtn" type="button">Gecombineerde .ics downloaden</button></div>
         <div class="info-card"><strong>Automatisch bijwerken</strong><p>Voor volledige synchronisatie voeg je de wedstrijdlink én de takenlink als abonnement toe. Agenda-aanbieders bepalen zelf hoe vaak een abonnementsagenda wordt ververst.</p></div>
       </section>
@@ -68,8 +67,8 @@
   <script src="admin-agenda-v4.js?v=1" defer></script>
   <script src="club-members-admin.js?v=6" defer></script>
   <script src="feed.js?v=6" defer></script>
-  <script src="argon-ui.js?v=5" defer></script>
-  <script src="presence-ui-v5.js?v=3" defer></script>
+  <script src="argon-ui.js?v=6" defer></script>
+  <script src="presence-ui-v5.js?v=4" defer></script>
   <script src="training-manager-v7.js?v=1" defer></script>
   <script src="trainer-driving-v1.js?v=2" defer></script>
   <script src="agenda-polish-v4.js?v=1" data-agenda-polish="1" defer></script>
