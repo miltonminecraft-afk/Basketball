@@ -1,4 +1,4 @@
-const CACHE='basketball-agenda-v55';
+const CACHE='basketball-agenda-v56';
 const DATA_CACHE='basketball-foys-data-v1';
 const SHELL=['./','./index.html','./styles.css?v=3','./club.css?v=2','./all-teams.js?v=5','./app.js?v=3','./ui-state-v2.js?v=5','./club-v6.js?v=1','./admin-agenda-v4.js?v=1','./club-members-admin.js?v=6','./feed.js?v=6','./argon-ui.js?v=5','./presence-ui-v5.js?v=1','./training-manager-v7.js?v=1','./trainer-driving-v1.js?v=2','./agenda-polish-v4.js?v=1','./manifest.webmanifest','./data/tasks.json'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting()))});
@@ -14,5 +14,5 @@ self.addEventListener('fetch',event=>{
   })());return;
  }
  if(url.origin!==location.origin)return;
- event.respondWith(fetch(event.request).then(response=>{const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy));return response}).catch(()=>caches.match(event.request).then(r=>r||caches.match('./index.html'))));
+ event.respondWith(fetch(event.request,{cache:'no-store'}).then(response=>{const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy));return response}).catch(()=>caches.match(event.request).then(r=>r||caches.match('./index.html'))));
 });
