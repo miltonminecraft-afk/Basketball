@@ -1,45 +1,335 @@
 (()=>{
 'use strict';
-const U='https://elpnfmlrkoemjrnzaeok.supabase.co',K='sb_publishable_GPzLwaKeevg3e8CNjw9oAQ_50NW2xlg';
-const DAYS={1:'Ma',2:'Di',3:'Wo',4:'Do',5:'Vr',6:'Za',7:'Zo'},FULL={1:'Maandag',2:'Dinsdag',3:'Woensdag',4:'Donderdag',5:'Vrijdag',6:'Zaterdag',7:'Zondag'};
-let sb=null,me=null,teams=[],trainerRows=[],slots=[],overrides=[],members=[],editSlot='',clubTimer=0,agendaTimer=0,clubObserver=null,agendaObserver=null,agendaBusy=false,weeklyDirty=true,trainerDirty=true,loading=false;
-const $=id=>document.getElementById(id),esc=v=>String(v??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c])),tm=v=>String(v||'').slice(0,5),iso=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+
+const U='https://elpnfmlrkoemjrnzaeok.supabase.co';
+const K='sb_publishable_GPzLwaKeevg3e8CNjw9oAQ_50NW2xlg';
+const STATE_KEY='basketballApp.uiState.v2';
+const DAYS={1:'Ma',2:'Di',3:'Wo',4:'Do',5:'Vr',6:'Za',7:'Zo'};
+const FULL={1:'Maandag',2:'Dinsdag',3:'Woensdag',4:'Donderdag',5:'Vrijdag',6:'Zaterdag',7:'Zondag'};
+
+let sb=null;
+let me=null;
+let teams=[];
+let trainerRows=[];
+let slots=[];
+let overrides=[];
+let members=[];
+let editSlot='';
+let weeklyDirty=true;
+let trainerDirty=true;
+let loading=false;
+let reloadTimer=0;
+let agendaTimer=0;
+let agendaObserver=null;
+let agendaBusy=false;
+
+const $=id=>document.getElementById(id);
+const esc=v=>String(v??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));
+const tm=v=>String(v||'').slice(0,5);
+const norm=v=>String(v||'').trim().toLowerCase();
+const iso=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+
+function readState(){try{return JSON.parse(localStorage.getItem(STATE_KEY)||'{}')}catch{return {}}}
+function writeState(patch){try{localStorage.setItem(STATE_KEY,JSON.stringify({...readState(),...patch,updatedAt:Date.now()}))}catch{}}
 function toast(x){const n=$('toast');if(!n)return alert(x);n.textContent=x;n.classList.add('show');setTimeout(()=>n.classList.remove('show'),2400)}
-async function client(){if(sb)return sb;const mod=await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm');sb=mod.createClient(U,K,{auth:{persistSession:true,detectSessionInUrl:true,autoRefreshToken:true}});sb.auth.onAuthStateChange(()=>setTimeout(load,100));return sb}
-function css(){if($('trainingStableCss'))return;const s=document.createElement('style');s.id='trainingStableCss';s.textContent=`#weeklyTrainingAdminHost[hidden],#club-sub-trainer[hidden]{display:none!important}.training-v2-panel{margin:0 0 14px;padding:12px;border:1px solid var(--line);border-radius:16px;background:var(--card)}.training-v2-panel h3{margin:0 0 4px;font-size:16px}.training-v2-panel>p{margin:0 0 12px;color:var(--muted);font-size:10px;line-height:1.4}.training-v2-form{display:grid;grid-template-columns:1fr 1fr;gap:9px}.training-v2-form label{font-size:10px;font-weight:800;color:var(--muted)}.training-v2-form select,.training-v2-form input{width:100%;margin-top:4px;min-height:42px;border:1px solid var(--line);border-radius:11px;background:var(--card);padding:0 10px;font:inherit;font-size:12px;color:var(--ink)}.training-v2-days{grid-column:1/-1}.training-v2-days strong{display:block;margin-bottom:6px;font-size:10px;color:var(--muted)}.training-v2-day-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}.training-v2-day{display:flex!important;align-items:center;justify-content:center;gap:3px;min-height:38px;border:1px solid var(--line);border-radius:10px;background:#f5f6fa;color:var(--ink)!important;font-size:10px!important;font-weight:800!important}.training-v2-day input{width:15px!important;height:15px!important;min-height:0!important;margin:0!important;padding:0!important}.training-v2-actions{grid-column:1/-1;display:flex;gap:7px;flex-wrap:wrap}.training-v2-list{display:grid;gap:6px;margin-top:12px}.training-v2-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:center;padding:9px 10px;border:1px solid var(--line);border-radius:12px}.training-v2-row strong{display:block;font-size:11px}.training-v2-row small{display:block;margin-top:2px;font-size:9px;color:var(--muted)}.trainer-v2-card{padding:11px;border:1px solid var(--line);border-radius:14px;margin-top:8px}.trainer-v2-card>strong{display:block;font-size:12px}.trainer-v2-card>small{display:block;margin:2px 0 9px;color:var(--muted);font-size:9px}.trainer-v2-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.trainer-v2-grid label{font-size:9px;font-weight:800;color:var(--muted)}.trainer-v2-grid select,.trainer-v2-grid input{width:100%;margin-top:3px;min-height:39px;border:1px solid var(--line);border-radius:10px;background:var(--card);padding:0 8px;font:inherit;font-size:11px;color:var(--ink)}.trainer-v2-grid .wide{grid-column:1/-1}.trainer-v2-actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:8px}.trainer-v2-note{margin-top:5px;font-size:9px;color:#a34a00;font-weight:800}.trainer-check{display:flex!important;align-items:center;gap:9px;min-height:44px;font-size:14px!important;font-weight:750}.trainer-check input{width:22px!important;height:22px!important;margin:0!important}.trainer-teams{margin:12px 0}.trainer-teams>strong{display:block;font-size:14px;margin-bottom:8px}.trainer-grid{display:grid;gap:7px}.trainer-grid label{display:flex;align-items:center;gap:9px;border:1px solid var(--line);border-radius:11px;padding:9px 11px;font-size:12px;font-weight:700}.trainer-grid input{width:19px;height:19px;margin:0}.agenda-training[hidden]{display:none!important}@media(max-width:560px){.training-v2-day-grid{grid-template-columns:repeat(4,1fr)}}`;document.head.appendChild(s)}
-async function load(){if(loading)return;loading=true;try{const s=await client(),{data:{session}}=await s.auth.getSession();if(!session){me=null;teams=[];trainerRows=[];slots=[];overrides=[];members=[];weeklyDirty=trainerDirty=true;return scheduleClub()}const {data:m,error}=await s.rpc('sync_current_member');if(error||!m?.active){me=null;weeklyDirty=trainerDirty=true;return scheduleClub()}me=m;const qs=[s.from('teams').select('id,team_name').eq('active',true).order('team_name'),s.from('member_trainer_teams').select('member_id,team_id'),s.from('training_slots').select('*,teams(team_name)').eq('active',true).order('team_id').order('weekday').order('start_time'),s.from('training_overrides').select('*').order('original_date')];if(m.role==='admin')qs.push(s.from('members').select('id,is_trainer'));const a=await Promise.all(qs);teams=a[0].data||[];trainerRows=a[1].data||[];slots=a[2].data||[];overrides=a[3].data||[];members=a[4]?.data||[];weeklyDirty=trainerDirty=true;scheduleClub();scheduleAgenda()}catch(e){console.warn('Trainingbeheer laden',e)}finally{loading=false}}
-const trainerIds=id=>new Set(trainerRows.filter(x=>String(x.member_id)===String(id)).map(x=>String(x.team_id)));
-function updateNav(){const n=document.querySelector('.tab[data-view="club"]');if(!n)return;let l=n.querySelector('.club-tab-label');if(!l){n.innerHTML='<span class="tab-icon">●</span><span class="club-tab-label"></span>';l=n.querySelector('.club-tab-label')}const text=!me?'Club/inloggen':me.role==='admin'&&me.is_trainer?'Club/admin/trainer':me.role==='admin'?'Club/admin':me.is_trainer?'Club/trainer':'Club';if(l.textContent!==text)l.textContent=text}
-function cleanupLegacy(){document.querySelector('#restoredTrainingAdmin')?.remove();document.querySelector('#adminTrainingHost')?.remove();const f=document.querySelector('#admin-agenda #trainingForm');if(f){const h=f.previousElementSibling;if(h?.tagName==='H3'&&/training/i.test(h.textContent||''))h.remove();f.remove()}const t=document.querySelector('#admin-agenda #taskEventForm');if(t){const h=t.previousElementSibling;if(h?.tagName==='H3')h.remove();t.remove()}}
-function enhanceMemberForm(){if(me?.role!=='admin')return;const f=$('memberForm');if(!f||f.dataset.trainingStable==='1')return;f.dataset.trainingStable='1';const id=$('memberId')?.value||'',row=members.find(x=>String(x.id)===String(id)),selected=trainerIds(id),two=f.querySelector('.club-form.two');if(two&&!$('memberTrainer')){const lab=document.createElement('label');lab.className='trainer-check';lab.innerHTML=`<input id="memberTrainer" type="checkbox" ${row?.is_trainer?'checked':''}> Trainer`;two.appendChild(lab)}$('memberActive')?.closest('label')?.classList.add('trainer-check');if(!$('trainerTeams')){const box=document.createElement('div');box.id='trainerTeams';box.className='trainer-teams';box.hidden=!row?.is_trainer;box.innerHTML=`<strong>Teams als trainer</strong><div class="trainer-grid">${teams.map(t=>`<label><input name="trainerTeam" type="checkbox" value="${esc(t.id)}" ${selected.has(String(t.id))?'checked':''}>${esc(t.team_name)}</label>`).join('')}</div>`;f.querySelector('.member-team-grid')?.parentElement?.insertAdjacentElement('afterend',box)}$('memberTrainer')?.addEventListener('change',ev=>{$('trainerTeams').hidden=!ev.target.checked});f.onsubmit=null;f.addEventListener('submit',saveMember,true)}
-async function saveMember(ev){ev.preventDefault();ev.stopImmediatePropagation();const s=await client(),id=$('memberId').value||null,p={full_name:$('memberName').value.trim(),email:$('memberEmail').value.trim()||null,phone:$('memberPhone').value.trim()||null,role:$('memberAdmin').checked?'admin':'member',is_trainer:!!$('memberTrainer')?.checked,active:$('memberActive').checked};let mid=id;if(id){const r=await s.from('members').update(p).eq('id',id);if(r.error)return toast(r.error.message)}else{const r=await s.from('members').insert(p).select().single();if(r.error)return toast(r.error.message);mid=r.data.id}const player=[...document.querySelectorAll('input[name="memberTeam"]:checked')].map(x=>x.value),trainer=p.is_trainer?[...document.querySelectorAll('input[name="trainerTeam"]:checked')].map(x=>x.value):[];let r=await s.from('member_teams').delete().eq('member_id',mid);if(r.error)return toast(r.error.message);if(player.length){r=await s.from('member_teams').insert(player.map(team_id=>({member_id:mid,team_id})));if(r.error)return toast(r.error.message)}r=await s.from('member_trainer_teams').delete().eq('member_id',mid);if(r.error)return toast(r.error.message);if(trainer.length){r=await s.from('member_trainer_teams').insert(trainer.map(team_id=>({member_id:mid,team_id})));if(r.error)return toast(r.error.message)}toast('Lid opgeslagen.');setTimeout(()=>location.reload(),250)}
-const teamOptions=sel=>teams.map(t=>`<option value="${esc(t.id)}" ${String(sel)===String(t.id)?'selected':''}>${esc(t.team_name)}</option>`).join('');
+async function client(){
+  if(sb)return sb;
+  const mod=await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm');
+  sb=mod.createClient(U,K,{auth:{persistSession:true,detectSessionInUrl:true,autoRefreshToken:true}});
+  sb.auth.onAuthStateChange(()=>scheduleReload(80));
+  return sb;
+}
+
+function css(){
+  if($('trainingStableCss'))return;
+  const s=document.createElement('style');
+  s.id='trainingStableCss';
+  s.textContent=`#weeklyTrainingAdminHost[hidden],#club-sub-trainer[hidden]{display:none!important}.training-v2-panel{margin:0 0 14px;padding:12px;border:1px solid var(--line);border-radius:16px;background:var(--card)}.training-v2-panel h3{margin:0 0 4px;font-size:16px}.training-v2-panel>p{margin:0 0 12px;color:var(--muted);font-size:10px;line-height:1.4}.training-v2-form{display:grid;grid-template-columns:1fr 1fr;gap:9px}.training-v2-form label{font-size:10px;font-weight:800;color:var(--muted)}.training-v2-form select,.training-v2-form input{width:100%;margin-top:4px;min-height:42px;border:1px solid var(--line);border-radius:11px;background:var(--card);padding:0 10px;font:inherit;font-size:12px;color:var(--ink)}.training-v2-days{grid-column:1/-1}.training-v2-days strong{display:block;margin-bottom:6px;font-size:10px;color:var(--muted)}.training-v2-day-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}.training-v2-day{display:flex!important;align-items:center;justify-content:center;gap:3px;min-height:38px;border:1px solid var(--line);border-radius:10px;background:#f5f6fa;color:var(--ink)!important;font-size:10px!important;font-weight:800!important}.training-v2-day input{width:15px!important;height:15px!important;min-height:0!important;margin:0!important;padding:0!important}.training-v2-actions{grid-column:1/-1;display:flex;gap:7px;flex-wrap:wrap}.training-v2-list{display:grid;gap:6px;margin-top:12px}.training-v2-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:center;padding:9px 10px;border:1px solid var(--line);border-radius:12px}.training-v2-row strong{display:block;font-size:11px}.training-v2-row small{display:block;margin-top:2px;font-size:9px;color:var(--muted)}.trainer-v2-card{padding:11px;border:1px solid var(--line);border-radius:14px;margin-top:8px}.trainer-v2-card>strong{display:block;font-size:12px}.trainer-v2-card>small{display:block;margin:2px 0 9px;color:var(--muted);font-size:9px}.trainer-v2-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.trainer-v2-grid label{font-size:9px;font-weight:800;color:var(--muted)}.trainer-v2-grid select,.trainer-v2-grid input{width:100%;margin-top:3px;min-height:39px;border:1px solid var(--line);border-radius:10px;background:var(--card);padding:0 8px;font:inherit;font-size:11px;color:var(--ink)}.trainer-v2-grid .wide{grid-column:1/-1}.trainer-v2-actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:8px}.trainer-v2-note{margin-top:5px;font-size:9px;color:#a34a00;font-weight:800}.trainer-check{display:flex!important;align-items:center;gap:9px;min-height:44px;font-size:14px!important;font-weight:750}.trainer-check input{width:22px!important;height:22px!important;margin:0!important}.trainer-teams{margin:12px 0}.trainer-teams>strong{display:block;font-size:14px;margin-bottom:8px}.trainer-grid{display:grid;gap:7px}.trainer-grid label{display:flex;align-items:center;gap:9px;border:1px solid var(--line);border-radius:11px;padding:9px 11px;font-size:12px;font-weight:700}.trainer-grid input{width:19px;height:19px;margin:0}.agenda-training[hidden]{display:none!important}@media(max-width:560px){.training-v2-day-grid{grid-template-columns:repeat(4,1fr)}}`;
+  document.head.appendChild(s);
+}
+
+async function load(){
+  if(loading)return;
+  loading=true;
+  try{
+    const s=await client();
+    const {data:{session}}=await s.auth.getSession();
+    if(!session){me=null;teams=[];trainerRows=[];slots=[];overrides=[];members=[];weeklyDirty=trainerDirty=true;enhance();return}
+    const {data:m,error}=await s.rpc('sync_current_member');
+    if(error||!m?.active){me=null;teams=[];trainerRows=[];slots=[];overrides=[];members=[];weeklyDirty=trainerDirty=true;enhance();return}
+    me=m;
+    const qs=[
+      s.from('teams').select('id,team_name').eq('active',true).order('team_name'),
+      s.from('member_trainer_teams').select('member_id,team_id'),
+      s.from('training_slots').select('*,teams(team_name)').eq('active',true).order('team_id').order('weekday').order('start_time'),
+      s.from('training_overrides').select('*').order('original_date')
+    ];
+    if(m.role==='admin')qs.push(s.from('members').select('id,is_trainer'));
+    const a=await Promise.all(qs);
+    teams=a[0].data||[];
+    trainerRows=a[1].data||[];
+    slots=a[2].data||[];
+    overrides=a[3].data||[];
+    members=a[4]?.data||[];
+    weeklyDirty=true;
+    trainerDirty=true;
+    enhance();
+    scheduleAgenda();
+  }catch(e){console.warn('Trainingbeheer laden',e)}finally{loading=false}
+}
+function scheduleReload(delay=80){clearTimeout(reloadTimer);reloadTimer=setTimeout(load,delay)}
+
+function updateNav(){
+  const n=document.querySelector('.tab[data-view="club"]');
+  if(!n)return;
+  let l=n.querySelector('.club-tab-label');
+  if(!l){n.innerHTML='<span class="tab-icon">●</span><span class="club-tab-label"></span>';l=n.querySelector('.club-tab-label')}
+  const text=!me?'Club/inloggen':me.role==='admin'&&me.is_trainer?'Club/admin/trainer':me.role==='admin'?'Club/admin':me.is_trainer?'Club/trainer':'Club';
+  if(l.textContent!==text)l.textContent=text;
+}
+
+function cleanupLegacy(){
+  document.querySelector('#restoredTrainingAdmin')?.remove();
+  document.querySelector('#adminTrainingHost')?.remove();
+  const f=document.querySelector('#admin-agenda #trainingForm');
+  if(f){const h=f.previousElementSibling;if(h?.tagName==='H3'&&/training/i.test(h.textContent||''))h.remove();f.remove()}
+  const t=document.querySelector('#admin-agenda #taskEventForm');
+  if(t){const h=t.previousElementSibling;if(h?.tagName==='H3')h.remove();t.remove()}
+}
+
+function trainerIds(id){return new Set(trainerRows.filter(x=>String(x.member_id)===String(id)).map(x=>String(x.team_id)))}
+function trainerHasAllTeams(id){
+  const ids=trainerIds(id);
+  return teams.some(t=>ids.has(String(t.id))&&norm(t.team_name)==='alle teams');
+}
+function trainerSlots(id){
+  if(trainerHasAllTeams(id))return slots.slice();
+  const ids=trainerIds(id);
+  return slots.filter(x=>ids.has(String(x.team_id)));
+}
+
+function enhanceMemberForm(){
+  if(me?.role!=='admin')return;
+  const f=$('memberForm');
+  if(!f||f.dataset.trainingStable==='1')return;
+  f.dataset.trainingStable='1';
+  const id=$('memberId')?.value||'';
+  const row=members.find(x=>String(x.id)===String(id));
+  const selected=trainerIds(id);
+  const two=f.querySelector('.club-form.two');
+  if(two&&!$('memberTrainer')){
+    const lab=document.createElement('label');
+    lab.className='trainer-check';
+    lab.innerHTML=`<input id="memberTrainer" type="checkbox" ${row?.is_trainer?'checked':''}> Trainer`;
+    two.appendChild(lab);
+  }
+  $('memberActive')?.closest('label')?.classList.add('trainer-check');
+  if(!$('trainerTeams')){
+    const box=document.createElement('div');
+    box.id='trainerTeams';
+    box.className='trainer-teams';
+    box.hidden=!row?.is_trainer;
+    box.innerHTML=`<strong>Teams als trainer</strong><div class="trainer-grid">${teams.map(t=>`<label><input name="trainerTeam" type="checkbox" value="${esc(t.id)}" ${selected.has(String(t.id))?'checked':''}>${esc(t.team_name)}</label>`).join('')}</div>`;
+    f.querySelector('.member-team-grid')?.parentElement?.insertAdjacentElement('afterend',box);
+  }
+  $('memberTrainer')?.addEventListener('change',ev=>{$('trainerTeams').hidden=!ev.target.checked});
+  f.onsubmit=null;
+  f.addEventListener('submit',saveMember,true);
+}
+
+async function saveMember(ev){
+  ev.preventDefault();ev.stopImmediatePropagation();
+  const s=await client();
+  const id=$('memberId').value||null;
+  const p={full_name:$('memberName').value.trim(),email:$('memberEmail').value.trim()||null,phone:$('memberPhone').value.trim()||null,role:$('memberAdmin').checked?'admin':'member',is_trainer:!!$('memberTrainer')?.checked,active:$('memberActive').checked};
+  let mid=id;
+  if(id){const r=await s.from('members').update(p).eq('id',id);if(r.error)return toast(r.error.message)}
+  else{const r=await s.from('members').insert(p).select().single();if(r.error)return toast(r.error.message);mid=r.data.id}
+  const player=[...document.querySelectorAll('input[name="memberTeam"]:checked')].map(x=>x.value);
+  const trainer=p.is_trainer?[...document.querySelectorAll('input[name="trainerTeam"]:checked')].map(x=>x.value):[];
+  let r=await s.from('member_teams').delete().eq('member_id',mid);if(r.error)return toast(r.error.message);
+  if(player.length){r=await s.from('member_teams').insert(player.map(team_id=>({member_id:mid,team_id})));if(r.error)return toast(r.error.message)}
+  r=await s.from('member_trainer_teams').delete().eq('member_id',mid);if(r.error)return toast(r.error.message);
+  if(trainer.length){r=await s.from('member_trainer_teams').insert(trainer.map(team_id=>({member_id:mid,team_id})));if(r.error)return toast(r.error.message)}
+  toast('Lid opgeslagen.');
+  setTimeout(()=>location.reload(),250);
+}
+
+const teamOptions=sel=>teams.filter(t=>norm(t.team_name)!=='alle teams').map(t=>`<option value="${esc(t.id)}" ${String(sel)===String(t.id)?'selected':''}>${esc(t.team_name)}</option>`).join('');
 const dayChecks=sel=>Object.entries(DAYS).map(([n,d])=>`<label class="training-v2-day"><input type="checkbox" name="trainingDay" value="${n}" ${sel.includes(Number(n))?'checked':''}>${d}</label>`).join('');
-function ensureWeekly(){if(me?.role!=='admin')return;const agenda=$('admin-agenda');if(!agenda)return;let host=$('weeklyTrainingAdminHost');if(!host){host=document.createElement('div');host.id='weeklyTrainingAdminHost';agenda.insertAdjacentElement('beforebegin',host);weeklyDirty=true}const visible=!agenda.hidden;host.hidden=!visible;if(visible&&weeklyDirty){renderWeekly(host);weeklyDirty=false}}
-function renderWeekly(host){const ed=slots.find(x=>String(x.id)===String(editSlot));host.innerHTML=`<div class="training-v2-panel"><h3>Trainingen per week</h3><p>Kies een team, één of meerdere dagen en het tijdslot. Een team kan meerdere trainingen per week hebben.</p><form id="weeklyTrainingForm" class="training-v2-form"><label>Team<select id="weeklyTeam">${teamOptions(ed?.team_id||'')}</select></label><div class="training-v2-days"><strong>Dag(en)</strong><div class="training-v2-day-grid">${dayChecks(ed?[Number(ed.weekday)]:[])}</div></div><label>Start<input id="weeklyStart" type="time" required value="${esc(tm(ed?.start_time||''))}"></label><label>Einde<input id="weeklyEnd" type="time" required value="${esc(tm(ed?.end_time||''))}"></label><div class="training-v2-actions"><button class="primary-button" type="submit">${ed?'Training wijzigen':'Training(en) toevoegen'}</button>${ed?'<button class="mini-button" type="button" id="weeklyCancel">Annuleren</button>':''}</div></form><div class="training-v2-list">${slots.length?slots.map(s=>`<div class="training-v2-row"><div><strong>${esc(s.teams?.team_name||'Team')} · ${FULL[s.weekday]}</strong><small>${tm(s.start_time)} - ${tm(s.end_time)}</small></div><div class="mini-actions"><button class="mini-button" data-weekly-edit="${s.id}">Wijzigen</button><button class="mini-button danger" data-weekly-delete="${s.id}">Verwijderen</button></div></div>`).join(''):'<div class="club-empty">Nog geen trainingen ingesteld.</div>'}</div></div>`;$('weeklyTrainingForm').onsubmit=saveWeekly;$('weeklyCancel')?.addEventListener('click',()=>{editSlot='';weeklyDirty=true;ensureWeekly()});host.querySelectorAll('[data-weekly-edit]').forEach(b=>b.onclick=()=>{editSlot=b.dataset.weeklyEdit;weeklyDirty=true;ensureWeekly();requestAnimationFrame(()=>host.scrollIntoView({behavior:'smooth',block:'start'}))});host.querySelectorAll('[data-weekly-delete]').forEach(b=>b.onclick=()=>deleteWeekly(b.dataset.weeklyDelete))}
-async function saveWeekly(ev){ev.preventDefault();const team=$('weeklyTeam')?.value,days=[...document.querySelectorAll('input[name="trainingDay"]:checked')].map(x=>Number(x.value)),start=$('weeklyStart')?.value,end=$('weeklyEnd')?.value;if(!team||!days.length||!start||!end)return toast('Kies team, minimaal één dag en beide tijden.');if(end<=start)return toast('Eindtijd moet na starttijd liggen.');const s=await client();if(editSlot){if(days.length!==1)return toast('Bij wijzigen kies je één dag.');const r=await s.from('training_slots').update({team_id:team,weekday:days[0],start_time:start,end_time:end,updated_at:new Date().toISOString()}).eq('id',editSlot);if(r.error)return toast(r.error.message);editSlot='';toast('Training gewijzigd.')}else{const known=new Set(slots.map(x=>`${x.team_id}|${x.weekday}|${tm(x.start_time)}|${tm(x.end_time)}`)),rows=days.filter(d=>!known.has(`${team}|${d}|${start}|${end}`)).map(weekday=>({team_id:team,weekday,start_time:start,end_time:end,active:true,created_by:me.id}));if(!rows.length)return toast('Deze training(en) bestaan al.');const r=await s.from('training_slots').insert(rows);if(r.error)return toast(r.error.message);toast(rows.length===1?'Training toegevoegd.':`${rows.length} trainingen toegevoegd.`)}await reloadTraining()}
-async function deleteWeekly(id){if(!confirm('Deze wekelijkse training verwijderen?'))return;const s=await client(),r=await s.from('training_slots').delete().eq('id',id);if(r.error)return toast(r.error.message);if(String(editSlot)===String(id))editSlot='';toast('Training verwijderd.');await reloadTraining()}
-function ensureTrainer(){const tabs=$('clubTabs');if(!tabs||!me)return;let btn=tabs.querySelector('[data-clubview="trainer"]'),view=$('club-sub-trainer');if(!me.is_trainer){btn?.remove();view?.remove();return}const admin=tabs.querySelector('[data-clubview="admin"]');if(!btn){btn=document.createElement('button');btn.type='button';btn.dataset.clubview='trainer';btn.textContent='Trainer';admin?admin.insertAdjacentElement('afterend',btn):tabs.appendChild(btn)}if(!view){view=document.createElement('div');view.id='club-sub-trainer';view.className='club-subview';$('clubRoot')?.appendChild(view);trainerDirty=true}btn.onclick=()=>{document.querySelectorAll('#clubTabs button').forEach(x=>x.classList.toggle('active',x===btn));document.querySelectorAll('.club-subview').forEach(x=>x.classList.toggle('active',x===view));trainerDirty=true;renderTrainer(view)};if(view.classList.contains('active')&&trainerDirty)renderTrainer(view)}
+
+function ensureWeekly(){
+  if(me?.role!=='admin')return;
+  const agenda=$('admin-agenda');
+  if(!agenda)return;
+  let host=$('weeklyTrainingAdminHost');
+  if(!host){host=document.createElement('div');host.id='weeklyTrainingAdminHost';agenda.insertAdjacentElement('beforebegin',host);weeklyDirty=true}
+  const visible=!agenda.hidden;
+  host.hidden=!visible;
+  if(visible&&weeklyDirty){renderWeekly(host);weeklyDirty=false}
+}
+
+function renderWeekly(host){
+  const ed=slots.find(x=>String(x.id)===String(editSlot));
+  host.innerHTML=`<div class="training-v2-panel"><h3>Trainingen per week</h3><p>Kies een team, één of meerdere dagen en het tijdslot. Een team kan meerdere trainingen per week hebben.</p><form id="weeklyTrainingForm" class="training-v2-form"><label>Team<select id="weeklyTeam">${teamOptions(ed?.team_id||'')}</select></label><div class="training-v2-days"><strong>Dag(en)</strong><div class="training-v2-day-grid">${dayChecks(ed?[Number(ed.weekday)]:[])}</div></div><label>Start<input id="weeklyStart" type="time" required value="${esc(tm(ed?.start_time||''))}"></label><label>Einde<input id="weeklyEnd" type="time" required value="${esc(tm(ed?.end_time||''))}"></label><div class="training-v2-actions"><button class="primary-button" type="submit">${ed?'Training wijzigen':'Training(en) toevoegen'}</button>${ed?'<button class="mini-button" type="button" id="weeklyCancel">Annuleren</button>':''}</div></form><div class="training-v2-list">${slots.length?slots.map(s=>`<div class="training-v2-row"><div><strong>${esc(s.teams?.team_name||'Team')} · ${FULL[s.weekday]}</strong><small>${tm(s.start_time)} - ${tm(s.end_time)}</small></div><div class="mini-actions"><button class="mini-button" data-weekly-edit="${s.id}">Wijzigen</button><button class="mini-button danger" data-weekly-delete="${s.id}">Verwijderen</button></div></div>`).join(''):'<div class="club-empty">Nog geen trainingen ingesteld.</div>'}</div></div>`;
+  $('weeklyTrainingForm').onsubmit=saveWeekly;
+  $('weeklyCancel')?.addEventListener('click',()=>{editSlot='';weeklyDirty=true;ensureWeekly()});
+  host.querySelectorAll('[data-weekly-edit]').forEach(b=>b.onclick=()=>{editSlot=b.dataset.weeklyEdit;weeklyDirty=true;ensureWeekly();requestAnimationFrame(()=>host.scrollIntoView({behavior:'smooth',block:'start'}))});
+  host.querySelectorAll('[data-weekly-delete]').forEach(b=>b.onclick=()=>deleteWeekly(b.dataset.weeklyDelete));
+  document.dispatchEvent(new CustomEvent('weekly-training-rendered'));
+}
+
+async function saveWeekly(ev){
+  ev.preventDefault();
+  const team=$('weeklyTeam')?.value;
+  const days=[...document.querySelectorAll('input[name="trainingDay"]:checked')].map(x=>Number(x.value));
+  const start=$('weeklyStart')?.value,end=$('weeklyEnd')?.value;
+  if(!team||!days.length||!start||!end)return toast('Kies team, minimaal één dag en beide tijden.');
+  if(end<=start)return toast('Eindtijd moet na starttijd liggen.');
+  const s=await client();
+  if(editSlot){
+    if(days.length!==1)return toast('Bij wijzigen kies je één dag.');
+    const r=await s.from('training_slots').update({team_id:team,weekday:days[0],start_time:start,end_time:end,updated_at:new Date().toISOString()}).eq('id',editSlot);
+    if(r.error)return toast(r.error.message);
+    editSlot='';toast('Training gewijzigd.');
+  }else{
+    const known=new Set(slots.map(x=>`${x.team_id}|${x.weekday}|${tm(x.start_time)}|${tm(x.end_time)}`));
+    const rows=days.filter(d=>!known.has(`${team}|${d}|${start}|${end}`)).map(weekday=>({team_id:team,weekday,start_time:start,end_time:end,active:true,created_by:me.id}));
+    if(!rows.length)return toast('Deze training(en) bestaan al.');
+    const r=await s.from('training_slots').insert(rows);if(r.error)return toast(r.error.message);
+    toast(rows.length===1?'Training toegevoegd.':`${rows.length} trainingen toegevoegd.`);
+  }
+  await reloadTraining();
+}
+
+async function deleteWeekly(id){
+  if(!confirm('Deze wekelijkse training verwijderen?'))return;
+  const s=await client(),r=await s.from('training_slots').delete().eq('id',id);
+  if(r.error)return toast(r.error.message);
+  if(String(editSlot)===String(id))editSlot='';
+  toast('Training verwijderd.');
+  await reloadTraining();
+}
+
+function activateClubView(name){
+  const root=$('clubRoot');if(!root)return;
+  root.querySelectorAll('#clubTabs [data-clubview]').forEach(x=>x.classList.toggle('active',x.dataset.clubview===name));
+  root.querySelectorAll(':scope > .club-subview').forEach(x=>x.classList.toggle('active',x.id===`club-sub-${name}`));
+}
+
+function ensureTrainer(){
+  const tabs=$('clubTabs');
+  if(!tabs||!me)return;
+  let btn=tabs.querySelector('[data-clubview="trainer"]');
+  let view=$('club-sub-trainer');
+  if(!me.is_trainer){btn?.remove();view?.remove();return}
+  const admin=tabs.querySelector('[data-clubview="admin"]');
+  if(!btn){btn=document.createElement('button');btn.type='button';btn.dataset.clubview='trainer';btn.textContent='Trainer';admin?admin.insertAdjacentElement('afterend',btn):tabs.prepend(btn)}
+  if(!view){view=document.createElement('div');view.id='club-sub-trainer';view.className='club-subview';$('clubRoot')?.appendChild(view);trainerDirty=true}
+  btn.onclick=()=>{writeState({main:'club',club:'trainer'});activateClubView('trainer');trainerDirty=true;renderTrainer(view);document.dispatchEvent(new CustomEvent('basketball-club-view-changed',{detail:{view:'trainer'}}))};
+  if(readState().main==='club'&&readState().club==='trainer'){activateClubView('trainer')}
+  if(view.classList.contains('active')&&trainerDirty)renderTrainer(view);
+}
+
 const nextDates=slot=>{const out=[],today=new Date();today.setHours(12,0,0,0);for(let i=0;i<90&&out.length<10;i++){const d=new Date(today);d.setDate(today.getDate()+i);if((d.getDay()||7)===Number(slot.weekday))out.push(iso(d))}return out};
 const findOverride=(slot,date)=>overrides.find(x=>String(x.slot_id)===String(slot)&&String(x.original_date)===String(date));
 const dateLabel=v=>new Intl.DateTimeFormat('nl-NL',{weekday:'short',day:'2-digit',month:'short'}).format(new Date(`${v}T12:00:00`));
 function trainerCard(s){return `<div class="trainer-v2-card" data-slot="${s.id}"><strong>${esc(s.teams?.team_name||'Team')} · ${FULL[s.weekday]}</strong><small>Normaal ${tm(s.start_time)} - ${tm(s.end_time)}</small><div class="trainer-v2-grid"><label class="wide">Welke training<select data-original>${nextDates(s).map(x=>`<option value="${x}">${esc(dateLabel(x))}</option>`).join('')}</select></label><label>Datum<input data-date type="date"></label><label>Start<input data-start type="time"></label><label>Einde<input data-end type="time"></label></div><div class="trainer-v2-actions"><button class="mini-button primary" data-save-override>Deze training aanpassen</button><button class="mini-button danger" data-reset-override hidden>Standaard herstellen</button></div><div class="trainer-v2-note" data-note></div></div>`}
-function renderTrainer(view){const ids=trainerIds(me.id),mine=slots.filter(x=>ids.has(String(x.team_id)));view.innerHTML=`<div class="club-card-panel"><h2>Trainer</h2><p>Pas datum en/of tijd aan voor één specifieke training. Andere weken blijven volgens het weekschema.</p>${mine.length?mine.map(trainerCard).join(''):'<div class="club-empty">Nog geen trainingen voor jouw trainerteam(s).</div>'}</div>`;view.querySelectorAll('[data-original]').forEach(x=>x.onchange=()=>fillTrainer(x.closest('.trainer-v2-card')));view.querySelectorAll('[data-save-override]').forEach(x=>x.onclick=()=>saveOverride(x.closest('.trainer-v2-card')));view.querySelectorAll('[data-reset-override]').forEach(x=>x.onclick=()=>resetOverride(x.closest('.trainer-v2-card')));view.querySelectorAll('.trainer-v2-card').forEach(fillTrainer);trainerDirty=false}
-function fillTrainer(c){const s=slots.find(x=>String(x.id)===String(c.dataset.slot));if(!s)return;const original=c.querySelector('[data-original]').value,o=findOverride(s.id,original);c.querySelector('[data-date]').value=o?.training_date||original;c.querySelector('[data-start]').value=tm(o?.start_time||s.start_time);c.querySelector('[data-end]').value=tm(o?.end_time||s.end_time);c.querySelector('[data-reset-override]').hidden=!o;c.querySelector('[data-note]').textContent=o?`Aangepast naar ${dateLabel(o.training_date)} · ${tm(o.start_time)} - ${tm(o.end_time)}`:''}
-async function saveOverride(c){const s=await client(),p={p_slot_id:c.dataset.slot,p_original_date:c.querySelector('[data-original]').value,p_training_date:c.querySelector('[data-date]').value,p_start_time:c.querySelector('[data-start]').value,p_end_time:c.querySelector('[data-end]').value};if(!p.p_training_date||!p.p_start_time||!p.p_end_time)return toast('Vul datum en tijden in.');if(p.p_end_time<=p.p_start_time)return toast('Eindtijd moet na starttijd liggen.');const r=await s.rpc('trainer_upsert_training_override',p);if(r.error)return toast(r.error.message);toast('Deze training is aangepast.');await reloadTraining()}
-async function resetOverride(c){const s=await client(),r=await s.rpc('trainer_delete_training_override',{p_slot_id:c.dataset.slot,p_original_date:c.querySelector('[data-original]').value});if(r.error)return toast(r.error.message);toast('Weekschema hersteld voor deze training.');await reloadTraining()}
-async function reloadTraining(){const s=await client(),a=await Promise.all([s.from('training_slots').select('*,teams(team_name)').eq('active',true).order('team_id').order('weekday').order('start_time'),s.from('training_overrides').select('*').order('original_date')]);slots=a[0].data||[];overrides=a[1].data||[];weeklyDirty=trainerDirty=true;ensureWeekly();const v=$('club-sub-trainer');if(v?.classList.contains('active'))renderTrainer(v);scheduleAgenda();document.dispatchEvent(new CustomEvent('training-data-changed'))}
+
+function renderTrainer(view){
+  const mine=trainerSlots(me.id);
+  const allNote=trainerHasAllTeams(me.id)?'<p>Trainer is gekoppeld aan Alle teams; alle ingestelde trainingen zijn hieronder beschikbaar.</p>':'';
+  view.innerHTML=`<div class="club-card-panel"><h2>Trainer</h2><p>Pas datum en/of tijd aan voor één specifieke training. Andere weken blijven volgens het weekschema.</p>${allNote}${mine.length?mine.map(trainerCard).join(''):'<div class="club-empty">Nog geen trainingen voor jouw trainerteam(s).</div>'}</div>`;
+  view.querySelectorAll('[data-original]').forEach(x=>x.onchange=()=>fillTrainer(x.closest('.trainer-v2-card')));
+  view.querySelectorAll('[data-save-override]').forEach(x=>x.onclick=()=>saveOverride(x.closest('.trainer-v2-card')));
+  view.querySelectorAll('[data-reset-override]').forEach(x=>x.onclick=()=>resetOverride(x.closest('.trainer-v2-card')));
+  view.querySelectorAll('.trainer-v2-card').forEach(fillTrainer);
+  trainerDirty=false;
+}
+
+function fillTrainer(c){
+  const s=slots.find(x=>String(x.id)===String(c.dataset.slot));if(!s)return;
+  const original=c.querySelector('[data-original]')?.value||'';
+  if(!original)return;
+  const o=findOverride(s.id,original);
+  c.querySelector('[data-date]').value=o?.training_date||original;
+  c.querySelector('[data-start]').value=tm(o?.start_time||s.start_time);
+  c.querySelector('[data-end]').value=tm(o?.end_time||s.end_time);
+  c.querySelector('[data-reset-override]').hidden=!o;
+  c.querySelector('[data-note]').textContent=o?`Aangepast naar ${dateLabel(o.training_date)} · ${tm(o.start_time)} - ${tm(o.end_time)}`:'';
+}
+
+async function saveOverride(c){
+  const s=await client();
+  const p={p_slot_id:c.dataset.slot,p_original_date:c.querySelector('[data-original]').value,p_training_date:c.querySelector('[data-date]').value,p_start_time:c.querySelector('[data-start]').value,p_end_time:c.querySelector('[data-end]').value};
+  if(!p.p_training_date||!p.p_start_time||!p.p_end_time)return toast('Vul datum en tijden in.');
+  if(p.p_end_time<=p.p_start_time)return toast('Eindtijd moet na starttijd liggen.');
+  const r=await s.rpc('trainer_upsert_training_override',p);if(r.error)return toast(r.error.message);
+  toast('Deze training is aangepast.');
+  await reloadTraining();
+}
+
+async function resetOverride(c){
+  const s=await client(),r=await s.rpc('trainer_delete_training_override',{p_slot_id:c.dataset.slot,p_original_date:c.querySelector('[data-original]').value});
+  if(r.error)return toast(r.error.message);
+  toast('Weekschema hersteld voor deze training.');
+  await reloadTraining();
+}
+
+async function reloadTraining(){
+  const s=await client();
+  const a=await Promise.all([
+    s.from('training_slots').select('*,teams(team_name)').eq('active',true).order('team_id').order('weekday').order('start_time'),
+    s.from('training_overrides').select('*').order('original_date')
+  ]);
+  slots=a[0].data||[];overrides=a[1].data||[];
+  weeklyDirty=true;trainerDirty=true;
+  ensureWeekly();ensureTrainer();
+  const v=$('club-sub-trainer');if(v?.classList.contains('active'))renderTrainer(v);
+  scheduleAgenda();
+  document.dispatchEvent(new CustomEvent('training-data-changed'));
+}
+
 function formatDay(v){return new Intl.DateTimeFormat('nl-NL',{weekday:'long',day:'2-digit',month:'long',year:'numeric'}).format(new Date(`${v}T12:00:00`)).toUpperCase()}
 function ensureDay(root,date){let d=[...root.querySelectorAll('.day')].find(x=>x.dataset.agendaDate===date);if(d)return d;d=document.createElement('section');d.className='day';d.dataset.agendaDate=date;d.innerHTML=`<div class="day-head">${esc(formatDay(date))}</div>`;root.appendChild(d);return d}
 function restoreCard(c){if(!c.dataset.trainingDefaultTime){c.dataset.trainingDefaultTime=c.querySelector('.event-time')?.textContent||'';c.dataset.trainingDefaultMeta=c.querySelector('.meta')?.textContent||''}const te=c.querySelector('.event-time'),meta=c.querySelector('.meta');if(te)te.textContent=c.dataset.trainingDefaultTime;if(meta)meta.textContent=c.dataset.trainingDefaultMeta;c.dataset.agendaTime=c.dataset.trainingDefaultTime;c.hidden=false}
 function applyCard(c,o){const st=tm(o.start_time),en=tm(o.end_time),te=c.querySelector('.event-time'),meta=c.querySelector('.meta');if(te)te.textContent=st;c.dataset.agendaTime=st;if(meta){const base=c.dataset.trainingDefaultMeta||meta.textContent||'',suffix=base.replace(/^\d{2}:\d{2}\s*-\s*\d{2}:\d{2}/,'');meta.textContent=`${st} - ${en}${suffix}`}}
 function sortAgenda(root){for(const d of root.querySelectorAll('.day'))[...d.querySelectorAll(':scope>article.event')].sort((a,b)=>(a.dataset.agendaTime||'99:99').localeCompare(b.dataset.agendaTime||'99:99')).forEach(x=>d.appendChild(x));[...root.querySelectorAll('.day')].sort((a,b)=>(a.dataset.agendaDate||'').localeCompare(b.dataset.agendaDate||'')).forEach(x=>root.appendChild(x))}
-function applyAgenda(){const root=$('agendaList');if(!root||agendaBusy)return;agendaBusy=true;agendaObserver?.disconnect();try{root.querySelectorAll('.agenda-training[data-training-moved="1"]').forEach(x=>x.remove());for(const c of root.querySelectorAll('.agenda-training[data-training-slot]:not([data-training-moved="1"])')){restoreCard(c);const original=c.closest('.day')?.dataset.agendaDate,o=findOverride(c.dataset.trainingSlot,original);if(!o)continue;if(String(o.training_date)===String(original))applyCard(c,o);else{c.hidden=true;const clone=c.cloneNode(true);clone.hidden=false;clone.dataset.trainingMoved='1';applyCard(clone,o);ensureDay(root,String(o.training_date)).appendChild(clone)}}sortAgenda(root)}finally{agendaBusy=false;observeAgenda()}}
+function applyAgenda(){
+  const root=$('agendaList');if(!root||agendaBusy)return;
+  agendaBusy=true;agendaObserver?.disconnect();
+  try{
+    root.querySelectorAll('.agenda-training[data-training-moved="1"]').forEach(x=>x.remove());
+    for(const c of root.querySelectorAll('.agenda-training[data-training-slot]:not([data-training-moved="1"])')){
+      restoreCard(c);
+      const original=c.closest('.day')?.dataset.agendaDate,o=findOverride(c.dataset.trainingSlot,original);
+      if(!o)continue;
+      if(String(o.training_date)===String(original))applyCard(c,o);
+      else{c.hidden=true;const clone=c.cloneNode(true);clone.hidden=false;clone.dataset.trainingMoved='1';applyCard(clone,o);ensureDay(root,String(o.training_date)).appendChild(clone)}
+    }
+    sortAgenda(root);
+  }finally{agendaBusy=false;observeAgenda()}
+}
 function observeAgenda(){const root=$('agendaList');if(!root)return;if(!agendaObserver)agendaObserver=new MutationObserver(()=>scheduleAgenda());agendaObserver.disconnect();agendaObserver.observe(root,{childList:true,subtree:true})}
-function scheduleAgenda(){clearTimeout(agendaTimer);agendaTimer=setTimeout(applyAgenda,140)}
-function enhance(){css();updateNav();cleanupLegacy();enhanceMemberForm();ensureWeekly();ensureTrainer();observeAgenda()}
-function scheduleClub(){clearTimeout(clubTimer);clubTimer=setTimeout(enhance,80)}
-function observeClub(){const body=document.body;if(!body)return;if(clubObserver)clubObserver.disconnect();clubObserver=new MutationObserver(ms=>{if(ms.some(m=>m.target?.closest?.('#clubRoot')||m.addedNodes&&[...m.addedNodes].some(n=>n.nodeType===1&&(n.id==='clubRoot'||n.querySelector?.('#clubRoot')))))scheduleClub()});clubObserver.observe(body,{childList:true,subtree:true})}
-document.addEventListener('click',e=>{if(e.target.closest?.('[data-clubview],[data-adminview],[data-edit-member]'))setTimeout(scheduleClub,20)},true);
-document.addEventListener('DOMContentLoaded',async()=>{css();observeClub();observeAgenda();await load();scheduleClub();scheduleAgenda()});
+function scheduleAgenda(){clearTimeout(agendaTimer);agendaTimer=setTimeout(applyAgenda,120)}
+
+function enhance(){
+  css();updateNav();cleanupLegacy();enhanceMemberForm();ensureWeekly();ensureTrainer();observeAgenda();
+}
+
+function onClubRendered(){enhance()}
+function onClubViewChanged(e){if(e.detail?.view==='trainer'){ensureTrainer();const v=$('club-sub-trainer');if(v)renderTrainer(v)}else ensureTrainer()}
+function onAdminViewChanged(){weeklyDirty=true;ensureWeekly();enhanceMemberForm()}
+
+document.addEventListener('basketball-club-rendered',onClubRendered);
+document.addEventListener('basketball-club-view-changed',onClubViewChanged);
+document.addEventListener('basketball-admin-view-changed',onAdminViewChanged);
+document.addEventListener('admin-agenda-refreshed',()=>{weeklyDirty=true;ensureWeekly()});
+document.addEventListener('training-data-changed',()=>scheduleReload(60));
+document.addEventListener('click',e=>{if(e.target.closest?.('[data-edit-member]'))setTimeout(enhanceMemberForm,0)},true);
+
+css();
+load();
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>{enhance();observeAgenda();scheduleAgenda()},{once:true});
+else{enhance();observeAgenda();scheduleAgenda()}
 })();
