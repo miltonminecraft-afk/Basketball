@@ -72,12 +72,10 @@ function css(){
   .training-row strong{display:block;font-size:11px}.training-row small{display:block;margin-top:2px;font-size:9px;color:var(--muted)}
   .trainer-week-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:10px}
   .trainer-week-title{min-width:0}.trainer-week-title strong{display:block;font-size:14px}.trainer-week-title span{display:block;margin-top:2px;font-size:10px;color:var(--muted)}
-  .trainer-week-nav{display:flex;gap:5px;flex-wrap:wrap}
   .trainer-week-days{display:grid;gap:8px}
   .trainer-day{border:1px solid var(--line);border-radius:13px;overflow:hidden;background:var(--card)}
   .trainer-day-head{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 10px;background:#f5f6fa;font-size:11px;font-weight:900}
   .trainer-day-head span{color:var(--muted);font-size:9px;font-weight:800}
-  .trainer-day-empty{padding:10px;color:var(--muted);font-size:10px}
   .trainer-occurrence{padding:10px;border-top:1px solid var(--line)}
   .trainer-occurrence:first-of-type{border-top:0}
   .trainer-occurrence-top{display:grid;grid-template-columns:54px minmax(0,1fr) auto;gap:8px;align-items:start}
@@ -298,10 +296,6 @@ function baseOccurrences(slotList){
   }
   return out.sort((a,b)=>`${a.date}T${a.start}`.localeCompare(`${b.date}T${b.start}`));
 }
-function weekLabel(start){
-  const end=iso(addDays(start,6));
-  return `${formatShort(start)} – ${formatShort(end)}`;
-}
 function occurrenceCard(o){
   const editing=editOccurrence===o.key;
   return `<div class="trainer-occurrence" data-occurrence="${esc(o.key)}">
@@ -327,30 +321,23 @@ function occurrenceEditor(o){
 }
 function renderTrainer(){
   const view=$('club-sub-trainer');if(!view||!me?.is_trainer)return;
-  const mine=trainerSlots(me.id);
-  let ws=readState().trainerWeek||weekStart(new Date());
-  if(!/^\d{4}-\d{2}-\d{2}$/.test(ws))ws=weekStart(new Date());
-  const we=iso(addDays(ws,6));
-  const all=baseOccurrences(mine),visible=all.filter(x=>x.date>=ws&&x.date<=we);
+  const today=iso(new Date()),mine=trainerSlots(me.id);
+  const upcoming=baseOccurrences(mine).filter(x=>x.date>=today);
   const byDay=new Map();
-  for(let i=0;i<7;i++)byDay.set(iso(addDays(ws,i)),[]);
-  for(const o of visible){if(byDay.has(o.date))byDay.get(o.date).push(o)}
+  for(const o of upcoming){if(!byDay.has(o.date))byDay.set(o.date,[]);byDay.get(o.date).push(o)}
   const note=trainerHasAllTeams(me.id)?'<div class="trainer-scope-note">Trainer is gekoppeld aan Alle teams; alle ingestelde trainingen zijn zichtbaar.</div>':'';
+  const days=[...byDay.entries()].map(([date,rows])=>`<section class="trainer-day"><div class="trainer-day-head"><strong>${esc(formatShort(date))}</strong><span>${rows.length} training${rows.length===1?'':'en'}</span></div>${rows.map(occurrenceCard).join('')}</section>`).join('');
   view.innerHTML=`<div class="trainer-week-panel">
-    <div class="trainer-week-head"><div class="trainer-week-title"><strong>Trainer agenda</strong><span>${esc(weekLabel(ws))}</span></div><div class="trainer-week-nav"><button class="mini-button" data-week-prev>‹</button><button class="mini-button" data-week-today>Deze week</button><button class="mini-button" data-week-next>›</button></div></div>
-    <p class="training-help">Tik op een training om alleen die specifieke datum of tijd te wijzigen. Het vaste weekschema blijft ongewijzigd.</p>
+    <div class="trainer-week-head"><div class="trainer-week-title"><strong>Trainer agenda</strong></div></div>
+    <p class="training-help">Alle komende trainingen staan chronologisch onder elkaar. Tik op een training om alleen die specifieke datum of tijd te wijzigen.</p>
     ${note}
-    <div class="trainer-week-days">${[...byDay.entries()].map(([date,rows])=>`<section class="trainer-day"><div class="trainer-day-head"><strong>${esc(formatShort(date))}</strong><span>${rows.length?`${rows.length} training${rows.length===1?'':'en'}`:'Geen training'}</span></div>${rows.length?rows.map(occurrenceCard).join(''):'<div class="trainer-day-empty">Geen training.</div>'}</section>`).join('')}</div>
+    <div class="trainer-week-days">${days||'<div class="club-empty">Geen komende trainingen.</div>'}</div>
   </div>`;
-  view.querySelector('[data-week-prev]')?.addEventListener('click',()=>setTrainerWeek(iso(addDays(ws,-7))));
-  view.querySelector('[data-week-next]')?.addEventListener('click',()=>setTrainerWeek(iso(addDays(ws,7))));
-  view.querySelector('[data-week-today]')?.addEventListener('click',()=>setTrainerWeek(weekStart(new Date())));
   view.querySelectorAll('[data-edit-occurrence]').forEach(b=>b.onclick=()=>{editOccurrence=b.dataset.editOccurrence;renderTrainer()});
   view.querySelectorAll('[data-close-occurrence]').forEach(b=>b.onclick=()=>{editOccurrence='';renderTrainer()});
   view.querySelectorAll('[data-save-occurrence]').forEach(b=>b.onclick=()=>saveOccurrence(b.dataset.saveOccurrence));
   view.querySelectorAll('[data-reset-occurrence]').forEach(b=>b.onclick=()=>resetOccurrence(b.dataset.resetOccurrence));
 }
-function setTrainerWeek(v){writeState({main:'club',club:'trainer',trainerWeek:weekStart(v)});editOccurrence='';renderTrainer()}
 function occurrenceByKey(key){return baseOccurrences(trainerSlots(me.id)).find(x=>x.key===key)||null}
 async function saveOccurrence(key){
   const o=occurrenceByKey(key),row=document.querySelector(`[data-occurrence="${CSS.escape(key)}"]`);if(!o||!row)return;
@@ -360,7 +347,7 @@ async function saveOccurrence(key){
   if(end<=start)return toast('Eindtijd moet na starttijd liggen.');
   const s=await client(),r=await s.rpc('trainer_upsert_training_override',{p_slot_id:o.slot.id,p_original_date:o.originalDate,p_training_date:date,p_start_time:start,p_end_time:end});
   if(r.error)return toast(r.error.message);
-  writeState({main:'club',club:'trainer',trainerWeek:weekStart(date)});
+  writeState({main:'club',club:'trainer'});
   editOccurrence='';
   toast(date===o.originalDate?'Trainingstijd aangepast.':'Training verplaatst.');
   await reloadTrainingData();
@@ -369,7 +356,7 @@ async function resetOccurrence(key){
   const o=occurrenceByKey(key);if(!o)return;
   const s=await client(),r=await s.rpc('trainer_delete_training_override',{p_slot_id:o.slot.id,p_original_date:o.originalDate});
   if(r.error)return toast(r.error.message);
-  writeState({main:'club',club:'trainer',trainerWeek:weekStart(o.originalDate)});
+  writeState({main:'club',club:'trainer'});
   editOccurrence='';toast('Standaard weekschema hersteld.');await reloadTrainingData();
 }
 
