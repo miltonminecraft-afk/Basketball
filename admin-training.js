@@ -1,1 +1,1 @@
-import('./all-teams-v2.js?v=3');
+(()=>{const s=document.createElement('style');s.textContent='#restoredTrainingAdmin{display:none!important}';document.head.appendChild(s);import('./all-teams-v2.js?v=3');})();
