@@ -112,23 +112,31 @@ async function matches(){
   return allMatches;
 }
 
-function teamFromList(m,list){
-  if(!m)return null;
+function argonTeamRef(m){
   const side=argonSide(m);
-  if(!side)return null;
-  const guid=teamGuid(m,side);
-  if(guid)return (list||[]).find(x=>String(x.foy_team_guid)===guid)||null;
-  const name=norm(sideTeamName(m,side));
-  if(!name)return null;
-  return (list||[]).find(x=>norm(x.team_name)===name)||null;
+  if(!side)return{side:'',guid:'',name:''};
+  return{side,guid:teamGuid(m,side),name:norm(sideTeamName(m,side))};
+}
+function matchesTeamRef(team,ref){
+  if(!team||!ref?.side)return false;
+  if(ref.guid)return String(team.foy_team_guid||'')===ref.guid;
+  return !!ref.name&&norm(team.team_name)===ref.name;
+}
+function teamFromList(m,list){
+  const ref=argonTeamRef(m);
+  if(!ref.side)return null;
+  return (list||[]).find(x=>matchesTeamRef(x,ref))||null;
 }
 function teamFor(m){return teamFromList(m,teams)}
 function relationFor(m){
-  const team=teamFromList(m,allTeams);
-  if(!team)return{team:null,player:false,trainer:false};
-  const player=teams.some(x=>String(x.id)===String(team.id));
-  const trainer=!!member?.is_trainer&&(trainerAll||trainerTeams.some(x=>String(x.id)===String(team.id)));
-  return{team,player,trainer};
+  const ref=argonTeamRef(m);
+  if(!ref.side)return{team:null,player:false,trainer:false};
+  const canonical=(allTeams||[]).find(x=>matchesTeamRef(x,ref))||null;
+  const playerTeam=(teams||[]).find(x=>matchesTeamRef(x,ref))||null;
+  const directTrainerTeam=(trainerTeams||[]).find(x=>matchesTeamRef(x,ref))||null;
+  const player=!!playerTeam;
+  const trainer=!!member?.is_trainer&&(trainerAll||!!directTrainerTeam);
+  return{team:canonical||playerTeam||directTrainerTeam||null,player,trainer};
 }
 async function classify(m){
   if(window.BasketballMatchRules?.classify){
