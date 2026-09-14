@@ -103,7 +103,7 @@ async function classify(m){
 function injectCss(){
   if(document.getElementById('centralMatchRulesCss'))return;
   const style=document.createElement('style');style.id='centralMatchRulesCss';
-  style.textContent=`#matchDetailOverlay .drive-toggle{display:none!important}#matchDetailOverlay.match-drive-allowed .drive-toggle{display:flex!important}`;
+  style.textContent=`#matchDetailOverlay .drive-toggle{display:none!important}#matchDetailOverlay.match-drive-allowed .drive-toggle{display:flex!important}#matchDetailOverlay.match-presence-closed #matchDetailBody .match-detail-section:has(.presence-segment),#matchDetailOverlay.match-presence-closed #matchDetailBody .attendees-section,#matchDetailOverlay.match-presence-closed #matchDetailBody .drivers-list{display:none!important}`;
   document.head.appendChild(style);
 }
 function presenceSection(){
@@ -118,6 +118,7 @@ async function enforceDetail(matchId,token){
     const overlay=document.getElementById('matchDetailOverlay');
     if(!overlay||overlay.hidden)return false;
     overlay.classList.toggle('match-drive-allowed',!state.played&&state.away);
+    overlay.classList.toggle('match-presence-closed',state.played);
     if(state.played){
       presenceSection()?.remove();
       document.querySelector('#matchDetailBody .attendees-section')?.remove();
@@ -157,7 +158,7 @@ function init(){
     if(!card)return;
     const id=Number(card.dataset.matchId);if(!Number.isFinite(id))return;
     const token=++activeToken;
-    const overlay=document.getElementById('matchDetailOverlay');if(overlay)overlay.classList.remove('match-drive-allowed');
+    const overlay=document.getElementById('matchDetailOverlay');if(overlay){overlay.classList.remove('match-drive-allowed');overlay.classList.remove('match-presence-closed')}
     enforceDetail(id,token).catch(console.warn);
   },true);
   document.addEventListener('basketball-club-rendered',scheduleClubEnforcement);
