@@ -92,6 +92,16 @@ async function resolveMatch(id){
   }
   return null;
 }
+async function isAwayMatch(m){
+  if(!m)return false;
+  if(window.BasketballMatchRules?.argonSide){
+    try{return (await window.BasketballMatchRules.argonSide(m))==='away'}catch{}
+  }
+  const home=norm(label(m,'home')),away=norm(label(m,'away'));
+  if(home.startsWith('svargon'))return false;
+  if(away.startsWith('svargon'))return true;
+  return false;
+}
 
 function injectCss(){
   if($('presenceUiV5Css'))return;
@@ -111,21 +121,23 @@ function ensureCountSpan(meta){
   if(count)return count;
   count=document.createElement('span');
   count.className='presence-inline-count';
-  count.textContent=` · Spelers: … · Auto's: …`;
+  count.textContent=' · Spelers: …';
   const br=meta.querySelector('br');
   if(br)meta.insertBefore(count,br);else meta.appendChild(count);
   return count;
 }
-function formatCardMeta(card,m){
+function formatCardMeta(card,m,showCars){
   const meta=card.querySelector('.meta');if(!meta)return null;
   if(!m)return ensureCountSpan(meta);
   const location=[m.accommodationName,m.fieldName].filter(Boolean).join(' · ')||'Locatie nog niet bekend';
-  const address=addressText(m),href=mapsHref(m),signature=`${location}|${address}|${href}`;
+  const address=addressText(m),href=mapsHref(m),signature=`${location}|${address}|${href}|${showCars?'cars':'players'}`;
   let count=meta.querySelector('.presence-inline-count');
   if(meta.dataset.presenceMetaSignature!==signature||!count){
-    const countText=count?.textContent||` · Spelers: … · Auto's: …`;
+    const countText=showCars
+      ?(count?.dataset.showCars==='1'?count.textContent:` · Spelers: … · Auto's: …`)
+      :' · Spelers: …';
     meta.replaceChildren(document.createTextNode(location));
-    count=document.createElement('span');count.className='presence-inline-count';count.textContent=countText;meta.appendChild(count);
+    count=document.createElement('span');count.className='presence-inline-count';count.dataset.showCars=showCars?'1':'0';count.textContent=countText;meta.appendChild(count);
     if(address){
       meta.appendChild(document.createElement('br'));
       meta.appendChild(document.createTextNode(address));
@@ -135,7 +147,7 @@ function formatCardMeta(card,m){
       }
     }
     meta.dataset.presenceMetaSignature=signature;
-  }
+  }else count.dataset.showCars=showCars?'1':'0';
   return count;
 }
 async function refreshCountRules(){
@@ -145,14 +157,17 @@ async function refreshCountRules(){
   if(!ids.length)return;
   countBusy=true;
   try{
-    const resolved=await Promise.all(cards.map(async card=>({card,match:await resolveMatch(card.dataset.matchId)})));
+    const resolved=await Promise.all(cards.map(async card=>{
+      const match=await resolveMatch(card.dataset.matchId);
+      return{card,match,away:match?await isAwayMatch(match):false};
+    }));
     const spans=new Map();
-    for(const {card,match} of resolved)spans.set(card,formatCardMeta(card,match));
+    for(const {card,match,away} of resolved)spans.set(card,formatCardMeta(card,match,away));
     const counts=await stableCounts(ids);
-    for(const {card} of resolved){
+    for(const {card,away} of resolved){
       const count=spans.get(card),c=counts.get(String(card.dataset.matchId));
       if(!count||!c)continue;
-      const text=` · Spelers: ${c.players} · Auto's: ${c.cars}`;
+      const text=away?` · Spelers: ${c.players} · Auto's: ${c.cars}`:` · Spelers: ${c.players}`;
       if(count.textContent!==text)count.textContent=text;
     }
   }finally{
@@ -196,12 +211,14 @@ async function renderPresence(force=false){
     const am=new Map((attendance||[]).map(x=>[String(x.foy_match_id),x]));
     target.innerHTML=`<div class="club-card-panel personal-presence-card"><h2>Aanwezigheid</h2><p>Ja/Nee geldt alleen voor jouw spelerteam(s). Bij uitwedstrijden kun je als speler of trainer aangeven dat je rijdt.</p><div class="club-list">${rows.length?rows.map(({m,team,isPlayer,isTrainer,away})=>{
       const v=am.get(String(m.id)),cnt=counts.get(String(m.id))||{players:'…',cars:'…'};
-      const yesNo=isPlayer?`<button class="mini-button yes ${v?.attending===true?'selected':''}" data-presence-att="yes" data-match="${esc(m.id)}" data-team="${esc(team.id)}">Ja</button><button class="mini-button no ${v?.attending===false?'selected':''}" data-presence-att="no" data-match="${esc(m.id)}" data-team="${esc(team.id)}">Nee</button>`:'';
+      const yesNo=isPlayer?`<button class="mini-button yes ${v?.attending===true?'selected':''}" data-presence-att="yes" data-match="${esc(m.id)}" data-team="${esc(team.id)}" data-away="${away?'1':'0'}">Ja</button><button class="mini-button no ${v?.attending===false?'selected':''}" data-presence-att="no" data-match="${esc(m.id)}" data-team="${esc(team.id)}" data-away="${away?'1':'0'}">Nee</button>`:'';
       const drive=away&&(isPlayer||isTrainer)?`<button class="mini-button drive-button ${v?.driving===true?'selected':''}" data-presence-drive data-match="${esc(m.id)}" data-team="${esc(team.id)}" data-player="${isPlayer?'1':'0'}">${v?.driving===true?'Ik rijd ✓':'Ik rijd'}</button>`:'';
-      return `<div class="club-row"><strong>${esc(label(m,'home'))} — ${esc(label(m,'away'))}</strong><small>${esc(shortDate(m.date))} · ${esc(t(m.startTime))} · ${esc(m.accommodationName||'')}</small><small class="presence-counts">Spelers: ${cnt.players} · Auto's: ${cnt.cars}</small><div class="attendance-choice">${yesNo}${drive}</div></div>`;
+      const countText=away?`Spelers: ${cnt.players} · Auto's: ${cnt.cars}`:`Spelers: ${cnt.players}`;
+      return `<div class="club-row"><strong>${esc(label(m,'home'))} — ${esc(label(m,'away'))}</strong><small>${esc(shortDate(m.date))} · ${esc(t(m.startTime))} · ${esc(m.accommodationName||'')}</small><small class="presence-counts">${countText}</small><div class="attendance-choice">${yesNo}${drive}</div></div>`;
     }).join(''):'<div class="club-empty">Geen komende wedstrijden voor jouw spelerteam(s) of trainer-uitwedstrijden.</div>'}</div></div>`;
     target.querySelectorAll('[data-presence-att]').forEach(b=>b.onclick=async()=>{
-      const yes=b.dataset.presenceAtt==='yes',old=am.get(String(b.dataset.match));const {error}=await s.rpc('set_match_attendance',{p_match_id:Number(b.dataset.match),p_team_id:b.dataset.team,p_attending:yes,p_driving:yes&&old?.driving===true});if(error)return toast(error.message);
+      const yes=b.dataset.presenceAtt==='yes',old=am.get(String(b.dataset.match)),away=b.dataset.away==='1';
+      const {error}=await s.rpc('set_match_attendance',{p_match_id:Number(b.dataset.match),p_team_id:b.dataset.team,p_attending:yes,p_driving:yes&&away&&old?.driving===true});if(error)return toast(error.message);
       toast(yes?'Aanwezig: Ja':'Aanwezig: Nee');document.dispatchEvent(new CustomEvent('basketball-attendance-changed',{detail:{matchId:Number(b.dataset.match)}}));await renderPresence(true);scheduleCounts(20);
     });
     target.querySelectorAll('[data-presence-drive]').forEach(b=>b.onclick=async()=>{
