@@ -118,10 +118,10 @@ async function renderPresence(force=false){
     const rows=[...byId.values()].sort((a,b)=>`${d(a.m.date)}T${t(a.m.startTime)}`.localeCompare(`${d(b.m.date)}T${t(b.m.startTime)}`)),s=await client();
     const [{data:attendance,error:ae},counts]=await Promise.all([s.from('attendance').select('foy_match_id,attending,driving,team_id').eq('member_id',c.member.id),matchCounts(rows.map(x=>Number(x.m.id)))]);if(ae)throw ae;
     const am=new Map((attendance||[]).map(x=>[String(x.foy_match_id),x]));
-    target.innerHTML=`<div class="club-card-panel personal-presence-card"><h2>Aanwezigheid</h2><p>Ja/Nee geldt voor spelers. Bij uitwedstrijden is Ik rijd dezelfde registratie als in de Agenda.</p><div class="club-list">${rows.length?rows.map(({m,team,isPlayer,isTrainer})=>{
+    target.innerHTML=`<div class="club-card-panel personal-presence-card"><h2>Aanwezigheid</h2><p>Ja/Nee geldt voor jouw speler- en trainerteams. Bij uitwedstrijden is Ik rijd dezelfde registratie als in de Agenda.</p><div class="club-list">${rows.length?rows.map(({m,team,isPlayer,isTrainer})=>{
       const v=am.get(String(m.id)),away=isAwayForTeam(m,team),cnt=counts.get(String(m.id))||{players:0,cars:0};
-      const yesNo=isPlayer?`<button class="mini-button yes ${v?.attending===true?'selected':''}" data-presence-att="yes" data-match="${esc(m.id)}" data-team="${esc(team.id)}">Ja</button><button class="mini-button no ${v?.attending===false?'selected':''}" data-presence-att="no" data-match="${esc(m.id)}" data-team="${esc(team.id)}">Nee</button>`:'';
-      const drive=away&&(isPlayer||isTrainer)?`<button class="mini-button drive-button ${v?.driving===true?'selected':''}" data-presence-drive data-match="${esc(m.id)}" data-team="${esc(team.id)}" data-player="${isPlayer?'1':'0'}">${v?.driving===true?'Ik rijd ✓':'Ik rijd'}</button>`:'';
+      const yesNo=(isPlayer||isTrainer)?`<button class="mini-button yes ${v?.attending===true?'selected':''}" data-presence-att="yes" data-match="${esc(m.id)}" data-team="${esc(team.id)}">Ja</button><button class="mini-button no ${v?.attending===false?'selected':''}" data-presence-att="no" data-match="${esc(m.id)}" data-team="${esc(team.id)}">Nee</button>`:'';
+      const drive=away&&(isPlayer||isTrainer)?`<button class="mini-button drive-button ${v?.driving===true?'selected':''}" data-presence-drive data-match="${esc(m.id)}" data-team="${esc(team.id)}">${v?.driving===true?'Ik rijd ✓':'Ik rijd'}</button>`:'';
       return `<div class="club-row"><strong>${esc(label(m,'home'))} — ${esc(label(m,'away'))}</strong><small>${esc(shortDate(m.date))} · ${esc(t(m.startTime))} · ${esc(m.accommodationName||'')}</small><small class="presence-counts">Spelers: ${cnt.players} · Auto's: ${cnt.cars}</small><div class="attendance-choice">${yesNo}${drive}</div></div>`;
     }).join(''):'<div class="club-empty">Geen komende wedstrijden voor jouw speler- of trainerteam(s).</div>'}</div></div>`;
     target.querySelectorAll('[data-presence-att]').forEach(b=>b.onclick=async()=>{
@@ -129,7 +129,7 @@ async function renderPresence(force=false){
       toast(yes?'Aanwezig: Ja':'Aanwezig: Nee');document.dispatchEvent(new CustomEvent('basketball-attendance-changed',{detail:{matchId:Number(b.dataset.match)}}));await renderPresence(true);scheduleCounts(20);
     });
     target.querySelectorAll('[data-presence-drive]').forEach(b=>b.onclick=async()=>{
-      const old=am.get(String(b.dataset.match)),next=old?.driving!==true,isPlayer=b.dataset.player==='1',attending=isPlayer?(next?true:old?.attending===true):false;
+      const old=am.get(String(b.dataset.match)),next=old?.driving!==true,attending=next?true:old?.attending===true;
       const {error}=await s.rpc('set_match_attendance',{p_match_id:Number(b.dataset.match),p_team_id:b.dataset.team,p_attending:attending,p_driving:next});if(error)return toast(error.message);
       toast(next?'Ik rijd':'Rijden uitgeschakeld');document.dispatchEvent(new CustomEvent('basketball-attendance-changed',{detail:{matchId:Number(b.dataset.match)}}));await renderPresence(true);scheduleCounts(20);
     });
