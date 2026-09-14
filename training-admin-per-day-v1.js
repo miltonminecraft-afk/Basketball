@@ -55,6 +55,7 @@ function renderDayRows(){
 function hideLegacyFields(form){
   for(const id of ['weeklyStart','weeklyEnd','weeklyLocation']){
     const el=$(id),label=el?.closest('label');
+    if(el)el.disabled=true;
     if(label)label.hidden=true;
   }
 }
