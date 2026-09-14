@@ -163,6 +163,8 @@ function resetPlayedMode(){
   if(!overlay)return;
   overlay.classList.remove('played-result-mode');
   overlay.querySelector('.played-head-matchup')?.remove();
+  const body=document.getElementById('matchDetailBody');
+  if(body)delete body.dataset.playedReportMatch;
 }
 function teamHead(side,away=false){
   const logo=side.logo
@@ -203,8 +205,9 @@ function isQuarterLike(periods){
   });
 }
 function finalScore(report,fallback){
-  const h=Number(report?.match?.homeScore),a=Number(report?.match?.awayScore);
-  if(Number.isFinite(h)&&Number.isFinite(a))return{home:h,away:a};
+  const hv=report?.match?.homeScore,av=report?.match?.awayScore;
+  const h=Number(hv),a=Number(av);
+  if(hv!==null&&hv!==undefined&&hv!==''&&av!==null&&av!==undefined&&av!==''&&Number.isFinite(h)&&Number.isFinite(a))return{home:h,away:a};
   return fallback?.score||null;
 }
 function scoreHtml(score){
@@ -277,7 +280,8 @@ async function fillReport(section,id,fallback,includePlayers){
   }
 }
 function attachMainReport(body,id,card){
-  if(!body||body.dataset.playedReportMatch===String(id))return;
+  if(!body)return;
+  if(body.querySelector(`[data-played-report-id="${CSS.escape(String(id))}"]`))return;
   body.dataset.playedReportMatch=String(id);
   body.querySelector('.match-people-section')?.remove();
   const summary=body.querySelector('.match-summary');
@@ -323,7 +327,10 @@ function openFeedPlayed(card){
 function init(){
   injectCss();
   document.addEventListener('click',e=>{
+    if(e.target.closest('[data-close-detail]')){setTimeout(resetPlayedMode,0);return}
     if(e.target.closest('button,a,input,select,label'))return;
+    const taskCard=e.target.closest('article.event[data-task-id]');
+    if(taskCard){resetPlayedMode();return}
     const feed=e.target.closest('article.feed-event[data-feed-match]');
     if(feed){
       e.preventDefault();
