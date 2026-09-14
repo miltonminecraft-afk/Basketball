@@ -6,6 +6,7 @@ const K='sb_publishable_GPzLwaKeevg3e8CNjw9oAQ_50NW2xlg';
 const F='52cfa65e-9782-4a81-ab35-e2f981fcb7a9';
 const A='a4a2e2fa-0635-46a5-8969-1d0fef40444f';
 const API='https://api.foys.io/competition/public-api/v1';
+const CLUB_API='https://api.foys.io/foys/api/v2/pub';
 
 let sb=null;
 let member=null;
@@ -17,6 +18,10 @@ let allMatches=null;
 let current=null;
 let promptDismissed=false;
 let promptBusy=false;
+
+const logoCache=new Map();
+const clubLogoCache=new Map();
+const orgTeamsCache=new Map();
 
 const $=id=>document.getElementById(id);
 const esc=v=>String(v??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));
@@ -47,6 +52,72 @@ function sideClubName(m,s){
 }
 function sideTeamName(m,s){
   return String(m?.[`${s}TeamName`]||m?.[`${s}Team`]?.name||'').trim();
+}
+function directLogo(m,side){
+  return m?.[`${side}TeamLogoUrl`]
+    ||m?.[`${side}Team`]?.logoUrl
+    ||m?.[`${side}Organisation`]?.logoUrl
+    ||m?.[`${side}TeamSponsorClubLogoUrl`]
+    ||m?.[`${side}ClubLogoUrl`]
+    ||'';
+}
+function organisationId(m,side){
+  return String(
+    m?.[`${side}Organisation`]?.id
+    ||m?.[`${side}Organisation`]?.guid
+    ||m?.[`${side}OrganisationId`]
+    ||m?.[`${side}OrganisationGuid`]
+    ||m?.[`${side}ClubId`]
+    ||m?.[`${side}ClubGuid`]
+    ||''
+  );
+}
+async function orgTeams(id){
+  if(!id)return[];
+  if(orgTeamsCache.has(id))return orgTeamsCache.get(id);
+  try{
+    const r=await fetch(`${API}/organisations/${encodeURIComponent(id)}/teams`,{headers:{Accept:'application/json','X-FederationID':F},cache:'no-store'});
+    if(!r.ok)throw 0;
+    const rows=await r.json(),list=Array.isArray(rows)?rows:[];
+    orgTeamsCache.set(id,list);
+    return list;
+  }catch{
+    orgTeamsCache.set(id,[]);
+    return[];
+  }
+}
+async function clubLogo(name){
+  const key=norm(name);
+  if(!key)return'';
+  if(clubLogoCache.has(key))return clubLogoCache.get(key);
+  try{
+    const p=new URLSearchParams({quickSearch:name,maxResultCount:'20',skipCount:'0'});
+    const r=await fetch(`${CLUB_API}/organisations/${F}/clubs?${p}`,{cache:'no-store'});
+    if(!r.ok)throw 0;
+    const j=await r.json(),rows=Array.isArray(j)?j:(j?.items||[]);
+    const hit=rows.find(x=>norm(x.name)===key)||rows[0];
+    const src=hit?.logoUrl||hit?.logo||'';
+    clubLogoCache.set(key,src);
+    return src;
+  }catch{
+    clubLogoCache.set(key,'');
+    return'';
+  }
+}
+async function logoFor(m,side){
+  const g=teamGuid(m,side);
+  if(g&&logoCache.has(g))return logoCache.get(g);
+  let src=directLogo(m,side);
+  if(!src){
+    const oid=organisationId(m,side);
+    if(oid){
+      const list=await orgTeams(oid),tm=list.find(x=>String(x.guid)===g);
+      src=tm?.logoUrl||'';
+    }
+  }
+  if(!src)src=await clubLogo(sideClubName(m,side));
+  if(g)logoCache.set(g,src||'');
+  return src||'';
 }
 function argonSide(m){
   if(!m)return'';
@@ -204,14 +275,24 @@ function mine(a){
 }
 
 function injectDetailStyle(){
-  if($('centralMatchDetailStyleV1'))return;
+  if($('centralMatchDetailStyleV2'))return;
+  $('centralMatchDetailStyleV1')?.remove();
   const style=document.createElement('style');
-  style.id='centralMatchDetailStyleV1';
+  style.id='centralMatchDetailStyleV2';
   style.textContent=`
     #matchDetailOverlay .match-detail-sheet{padding:14px 18px 24px}
     #matchDetailOverlay .match-detail-head{align-items:flex-start;gap:12px}
     #matchDetailOverlay .match-detail-kicker{display:block;color:var(--muted);font-size:12px;line-height:1.2;margin-bottom:5px}
     #matchDetailOverlay #matchDetailTitle{margin:0 0 16px;font-size:clamp(27px,7vw,40px);line-height:1.08;overflow-wrap:anywhere}
+    #matchDetailOverlay.central-compact-head #matchDetailTitle{display:none!important}
+    #matchDetailOverlay .central-head-matchup{display:grid;grid-template-columns:minmax(0,1fr) 14px minmax(0,1fr);gap:7px;align-items:center;margin:3px 0 8px}
+    #matchDetailOverlay .central-head-team{display:flex;align-items:center;gap:7px;min-width:0}
+    #matchDetailOverlay .central-head-team.away{justify-content:flex-end}
+    #matchDetailOverlay .central-head-team.away .central-head-name{text-align:right}
+    #matchDetailOverlay .central-head-logo{width:34px;height:34px;flex:0 0 34px;object-fit:contain;border-radius:7px;background:#fff}
+    #matchDetailOverlay .central-head-logo-empty{display:block;background:#eef0f5}
+    #matchDetailOverlay .central-head-name{font-size:11.5px;font-weight:900;line-height:1.12;overflow-wrap:anywhere;min-width:0}
+    #matchDetailOverlay .central-head-sep{text-align:center;font-size:11px;font-weight:950;color:var(--muted)}
     #matchDetailOverlay .match-detail-close{flex:0 0 44px;width:44px;height:44px;font-size:28px}
     #matchDetailOverlay .match-summary{border:0!important;border-radius:0!important;background:transparent!important;padding:0 0 15px!important;margin:0!important;border-bottom:1px solid var(--line)!important}
     #matchDetailOverlay .match-summary-date{display:block;font-size:17px;font-weight:900;line-height:1.25;margin-bottom:9px}
@@ -236,6 +317,8 @@ function injectDetailStyle(){
     @media(max-width:480px){
       #matchDetailOverlay .match-detail-sheet{padding:13px 16px 22px}
       #matchDetailOverlay #matchDetailTitle{font-size:31px}
+      #matchDetailOverlay .central-head-logo{width:30px;height:30px;flex-basis:30px}
+      #matchDetailOverlay .central-head-name{font-size:10.5px}
       #matchDetailOverlay .match-summary-row{grid-template-columns:68px minmax(0,1fr);font-size:13px}
     }
   `;
@@ -252,8 +335,39 @@ function ui(){
   document.body.appendChild(o);
   o.onclick=e=>{if(e.target===o||e.target.closest('[data-close-detail]'))close()};
 }
+function clearCompactMatchHead(){
+  const overlay=$('matchDetailOverlay');
+  if(!overlay)return;
+  overlay.classList.remove('central-compact-head');
+  overlay.querySelector('.central-head-matchup')?.remove();
+  const title=$('matchDetailTitle');
+  if(title)title.hidden=false;
+}
+function centralHeadTeam(name,logo,away=false){
+  const image=logo
+    ?`<img class="central-head-logo" src="${esc(logo)}" alt="">`
+    :'<span class="central-head-logo central-head-logo-empty" aria-hidden="true"></span>';
+  return `<div class="central-head-team ${away?'away':''}">${away?`<span class="central-head-name">${esc(name)}</span>${image}`:`${image}<span class="central-head-name">${esc(name)}</span>`}</div>`;
+}
+async function setCompactMatchHead(m,kicker){
+  if(!m)return false;
+  const [homeLogo,awayLogo]=await Promise.all([logoFor(m,'home'),logoFor(m,'away')]);
+  const overlay=$('matchDetailOverlay'),wrap=overlay?.querySelector('.match-detail-head>div:first-child');
+  if(!overlay||!wrap)return false;
+  clearCompactMatchHead();
+  const box=document.createElement('div');
+  box.className='central-head-matchup';
+  box.innerHTML=`${centralHeadTeam(label(m,'home'),homeLogo)}<span class="central-head-sep">—</span>${centralHeadTeam(label(m,'away'),awayLogo,true)}`;
+  wrap.appendChild(box);
+  overlay.classList.add('central-compact-head');
+  const title=$('matchDetailTitle');
+  if(title)title.hidden=true;
+  $('matchDetailKicker').textContent=kicker;
+  return true;
+}
 function shell(title='Wedstrijd',kick='Wedstrijd'){
   ui();
+  clearCompactMatchHead();
   $('matchDetailTitle').textContent=title;
   $('matchDetailKicker').textContent=kick;
   $('matchDetailBody').innerHTML='<div class="match-detail-loading">Gegevens laden…</div>';
@@ -261,6 +375,7 @@ function shell(title='Wedstrijd',kick='Wedstrijd'){
   document.body.classList.add('match-detail-open');
 }
 function close(){
+  clearCompactMatchHead();
   $('matchDetailOverlay').hidden=true;
   document.body.classList.remove('match-detail-open');
   current=null;
@@ -313,8 +428,10 @@ async function render(m,e){
   const s=summary(m,e);
   current={m,e,relation,at,state};
 
+  clearCompactMatchHead();
   $('matchDetailTitle').textContent=s.title;
   $('matchDetailKicker').textContent=e?'Wedstrijd & taken':'Wedstrijd';
+  if(m&&!state.played)await setCompactMatchHead(m,e?'Wedstrijd & taken':'Wedstrijd');
 
   const summaryHtml=`<div class="match-summary">
     <strong class="match-summary-date">${esc(fmt(s.date))}</strong>
