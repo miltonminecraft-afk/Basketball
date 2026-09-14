@@ -86,7 +86,7 @@ async function configure(matchId){
 
     const input=document.getElementById('drive'),toggle=document.querySelector('#matchDetailBody .drive-toggle');
     const player=hasTeam(c.playerTeams,team);
-    const trainer=hasTeam(c.trainerTeams,team)||hasAllTeams(c.trainerTeams);
+    const trainer=!!c.member.is_trainer&&(hasTeam(c.trainerTeams,team)||hasAllTeams(c.trainerTeams));
 
     // Spelers blijven volledig door de bestaande Agenda-code afgehandeld.
     if(player){clearTrainerBinding(input);return}
