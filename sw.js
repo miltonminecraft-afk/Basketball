@@ -1,4 +1,4 @@
-const CACHE='basketball-agenda-v42';
+const CACHE='basketball-agenda-v43';
 const DATA_CACHE='basketball-foys-data-v1';
 const SHELL=['./','./index.html','./styles.css?v=3','./club.css?v=2','./all-teams.js?v=5','./app.js?v=3','./club.js?v=3','./admin-agenda-v3.js?v=1','./club-members-admin.js?v=6','./feed.js?v=6','./argon-ui.js?v=5','./final-fixes.js?v=2','./all-teams-v2.js?v=4','./training-periods.js?v=1','./agenda-polish.js?v=3','./ui-state-v2.js?v=1','./manifest.webmanifest','./data/tasks.json'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting()))});
