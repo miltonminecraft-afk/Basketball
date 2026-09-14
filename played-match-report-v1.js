@@ -3,346 +3,86 @@
 
 const REPORT_API='https://elpnfmlrkoemjrnzaeok.supabase.co/functions/v1/foys-match-detail';
 const reportCache=new Map();
-
 const esc=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const txt=(el,sel)=>String(el?.querySelector(sel)?.textContent||'').trim();
 
-function reportId(card){
-  return String(card?.dataset?.feedMatch||card?.dataset?.matchId||'');
-}
-function scoreFromCard(card){
-  const source=txt(card,'.final-score')||txt(card,'.feed-score')||txt(card,'.score-line')||card?.textContent||'';
-  const m=source.match(/(\d+)\s*[–—-]\s*(\d+)/);
-  return m?{home:Number(m[1]),away:Number(m[2])}:null;
-}
-function isPlayedCard(card){
-  if(!card)return false;
-  if(card.matches('.feed-event[data-feed-match]'))return true;
-  const s=`${card.className} ${card.textContent||''}`;
-  return !!card.querySelector('.badge-final,.final-score,.score-line,.final-start-compact')||/\b(Uitslag|EINDSTAND)\b/i.test(s);
-}
-function sideFromMain(card,index){
-  const side=[...card.querySelectorAll('.agenda-team-side')][index];
-  if(!side)return null;
-  const name=String(side.querySelector('span:last-child')?.textContent||side.textContent||'').trim();
-  const logo=side.querySelector('img')?.src||'';
-  return{name,logo};
-}
-function sideFromFeed(card,which){
-  const side=card.querySelector(`.feed-side.${which}`);
-  if(!side)return null;
-  return{
-    name:String(side.querySelector('.feed-team-name')?.textContent||'').trim(),
-    logo:side.querySelector('img.feed-team-logo')?.src||''
-  };
-}
-function splitTitle(card){
-  const title=txt(card,'.match-title');
-  if(!title)return[];
-  return title.split(/\s+[—–]\s+/).map(x=>x.trim()).filter(Boolean);
-}
+function reportId(card){return String(card?.dataset?.feedMatch||card?.dataset?.matchId||'')}
+function scoreFromCard(card){const source=txt(card,'.final-score')||txt(card,'.feed-score')||txt(card,'.score-line')||card?.textContent||'';const m=source.match(/(\d+)\s*[–—-]\s*(\d+)/);return m?{home:Number(m[1]),away:Number(m[2])}:null}
+function isPlayedCard(card){if(!card)return false;if(card.matches('.feed-event[data-feed-match]'))return true;const s=`${card.className} ${card.textContent||''}`;return !!card.querySelector('.badge-final,.final-score,.score-line,.final-start-compact')||/\b(Uitslag|EINDSTAND)\b/i.test(s)}
+function sideFromMain(card,index){const side=[...card.querySelectorAll('.agenda-team-side')][index];if(!side)return null;return{name:String(side.querySelector('span:last-child')?.textContent||side.textContent||'').trim(),logo:side.querySelector('img')?.src||''}}
+function sideFromFeed(card,which){const side=card.querySelector(`.feed-side.${which}`);if(!side)return null;return{name:String(side.querySelector('.feed-team-name')?.textContent||'').trim(),logo:side.querySelector('img.feed-team-logo')?.src||''}}
+function splitTitle(card){const title=txt(card,'.match-title');return title?title.split(/\s+[—–]\s+/).map(x=>x.trim()).filter(Boolean):[]}
 function cardFallback(card){
   const feed=card?.matches('.feed-event[data-feed-match]');
-  let home=feed?sideFromFeed(card,'home'):sideFromMain(card,0);
-  let away=feed?sideFromFeed(card,'away'):sideFromMain(card,1);
-  const titleParts=splitTitle(card);
-  if(!home?.name)home={name:titleParts[0]||'Thuisteam',logo:home?.logo||''};
-  if(!away?.name)away={name:titleParts[1]||'Uitteam',logo:away?.logo||''};
-  const day=String(card?.closest('.day')?.querySelector('.day-head')?.textContent||'').trim();
-  const time=String(card?.querySelector('.event-time')?.textContent||'').trim();
-  const location=feed
-    ?txt(card,'.feed-location')
-    :String(card?.querySelector('.meta')?.childNodes?.[0]?.textContent||txt(card,'.meta')).trim();
-  return{
-    id:reportId(card),
-    home:home.name,away:away.name,
-    homeLogo:home.logo||'',awayLogo:away.logo||'',
-    score:scoreFromCard(card),day,time,location
-  };
+  let home=feed?sideFromFeed(card,'home'):sideFromMain(card,0),away=feed?sideFromFeed(card,'away'):sideFromMain(card,1);const parts=splitTitle(card);
+  if(!home?.name)home={name:parts[0]||'Thuisteam',logo:home?.logo||''};if(!away?.name)away={name:parts[1]||'Uitteam',logo:away?.logo||''};
+  const day=String(card?.closest('.day')?.querySelector('.day-head')?.textContent||'').trim(),time=String(card?.querySelector('.event-time')?.textContent||'').trim();
+  const location=feed?txt(card,'.feed-location'):String(card?.querySelector('.meta')?.childNodes?.[0]?.textContent||txt(card,'.meta')).trim();
+  return{id:reportId(card),home:home.name,away:away.name,homeLogo:home.logo||'',awayLogo:away.logo||'',score:scoreFromCard(card),day,time,location};
 }
 async function loadReport(id){
-  const key=String(id||'');
-  if(!/^\d+$/.test(key))throw new Error('Ongeldig wedstrijd-ID');
-  if(reportCache.has(key))return reportCache.get(key);
-  const promise=(async()=>{
-    const ctrl=new AbortController();
-    const timer=setTimeout(()=>ctrl.abort(),3500);
-    try{
-      const r=await fetch(`${REPORT_API}?matchId=${encodeURIComponent(key)}`,{cache:'no-store',signal:ctrl.signal});
-      if(!r.ok)throw new Error('Aanvullende wedstrijdgegevens niet beschikbaar');
-      const j=await r.json();
-      if(j?.error)throw new Error(String(j.error));
-      return j||{};
-    }finally{
-      clearTimeout(timer);
-    }
-  })();
-  reportCache.set(key,promise);
-  try{return await promise}
-  catch(e){reportCache.delete(key);throw e}
+  const key=String(id||'');if(!/^\d+$/.test(key))throw new Error('Ongeldig wedstrijd-ID');if(reportCache.has(key))return reportCache.get(key);
+  const promise=(async()=>{const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),5200);try{const r=await fetch(`${REPORT_API}?matchId=${encodeURIComponent(key)}`,{cache:'no-store',signal:ctrl.signal});if(!r.ok)throw new Error('Aanvullende wedstrijdgegevens niet beschikbaar');const j=await r.json();if(j?.error)throw new Error(String(j.error));return j||{}}finally{clearTimeout(timer)}})();
+  reportCache.set(key,promise);try{return await promise}catch(e){reportCache.delete(key);throw e}
 }
 function injectCss(){
-  if(document.getElementById('playedMatchReportCssV2'))return;
-  const s=document.createElement('style');
-  s.id='playedMatchReportCssV2';
-  s.textContent=`
-    #matchDetailOverlay .detail-task-role::after{content:': ';white-space:pre}
-    #matchDetailOverlay .detail-task-role{margin-right:3px}
-    #matchDetailOverlay.played-result-mode #matchDetailTitle{display:none!important}
-    #matchDetailOverlay.played-result-mode .match-detail-head>div:first-child{min-width:0;flex:1}
-    #matchDetailOverlay .played-head-matchup{display:grid;grid-template-columns:minmax(0,1fr) 14px minmax(0,1fr);gap:7px;align-items:center;margin:4px 0 10px;max-width:100%}
-    #matchDetailOverlay .played-head-team{display:flex;align-items:center;gap:7px;min-width:0}
-    #matchDetailOverlay .played-head-team.away{justify-content:flex-end}
-    #matchDetailOverlay .played-head-team.away .played-head-name{text-align:right}
-    #matchDetailOverlay .played-head-logo{width:36px;height:36px;flex:0 0 36px;object-fit:contain;border-radius:7px;background:#fff}
-    #matchDetailOverlay .played-head-logo-placeholder{display:block;background:#eef0f5}
-    #matchDetailOverlay .played-head-name{font-size:12.5px;font-weight:900;line-height:1.15;overflow-wrap:anywhere;min-width:0}
-    #matchDetailOverlay .played-head-sep{text-align:center;font-weight:900;color:var(--muted)}
-    #matchDetailOverlay .played-report{padding-top:18px}
-    #matchDetailOverlay .played-report h3{margin:0 0 12px;font-size:20px;line-height:1.15}
-    #matchDetailOverlay .played-final-score{display:flex;align-items:center;justify-content:center;gap:12px;margin:0 0 15px;font-size:32px;font-weight:950;color:var(--navy);line-height:1}
-    #matchDetailOverlay .played-period-title{margin:0 0 8px;font-size:13px;font-weight:900;color:var(--navy)}
-    #matchDetailOverlay .played-period-wrap{overflow-x:auto;padding-bottom:3px;-webkit-overflow-scrolling:touch}
-    #matchDetailOverlay .played-period-table{display:grid;grid-template-columns:minmax(86px,1fr) repeat(var(--period-count),minmax(45px,52px));min-width:max-content;border-top:1px solid var(--line);border-left:1px solid var(--line);border-radius:10px;overflow:hidden}
-    #matchDetailOverlay .played-period-cell{padding:7px 8px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff;text-align:center;font-size:11px;font-weight:800}
-    #matchDetailOverlay .played-period-cell.label{text-align:left;background:#f6f7fa;font-weight:900;position:sticky;left:0;z-index:1}
-    #matchDetailOverlay .played-period-cell.head{background:#f0f1f5;font-size:10px;color:var(--muted);font-weight:900}
-    #matchDetailOverlay .played-period-empty{margin:0;color:var(--muted);font-size:11px;line-height:1.45}
-    #matchDetailOverlay .played-report-button{width:100%;margin-top:12px;min-height:43px;border:0;border-radius:10px;background:#eef0f5;color:var(--navy);font:inherit;font-size:12px;font-weight:900;cursor:pointer}
-    #matchDetailOverlay .played-expanded{margin-top:12px;padding-top:12px;border-top:1px solid var(--line)}
-    #matchDetailOverlay .played-expanded[hidden]{display:none!important}
-    #matchDetailOverlay .played-extra-grid{display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 12px;margin:0 0 14px;font-size:11px;line-height:1.35}
-    #matchDetailOverlay .played-extra-grid dt{color:var(--muted);font-weight:800}
-    #matchDetailOverlay .played-extra-grid dd{margin:0;font-weight:800;overflow-wrap:anywhere}
-    #matchDetailOverlay .played-players{margin-top:17px;padding-top:16px;border-top:1px solid var(--line)}
-    #matchDetailOverlay .played-players h3{margin-bottom:11px}
-    #matchDetailOverlay .played-rosters{display:grid;gap:14px}
-    #matchDetailOverlay .played-roster-title{margin:0 0 7px;font-size:12px;font-weight:900}
-    #matchDetailOverlay .played-player-chips{display:flex;flex-wrap:wrap;gap:6px}
-    #matchDetailOverlay .played-player-chip{display:inline-flex;gap:5px;align-items:center;padding:6px 9px;border-radius:999px;background:#eef0f5;color:var(--navy);font-size:10px;font-weight:850}
-    #matchDetailOverlay .played-player-number{color:var(--muted)}
-    #matchDetailOverlay .played-stats-block{margin-top:15px}
-    #matchDetailOverlay .played-stats-title{margin:0 0 7px;font-size:12px;font-weight:900}
-    #matchDetailOverlay .played-stat-player{padding:9px 0;border-top:1px solid var(--line)}
-    #matchDetailOverlay .played-stat-player:first-of-type{border-top:0}
-    #matchDetailOverlay .played-stat-player>strong{display:block;margin-bottom:6px;font-size:11px}
-    #matchDetailOverlay .played-stat-grid{display:flex;flex-wrap:wrap;gap:5px 9px;font-size:9.5px}
-    #matchDetailOverlay .played-stat-item{display:inline-flex;gap:3px}
-    #matchDetailOverlay .played-stat-key{color:var(--muted);font-weight:750}
-    #matchDetailOverlay .played-stat-value{font-weight:900}
-    #matchDetailOverlay .played-loading{color:var(--muted);font-size:11px;padding:3px 0}
-    @media(max-width:480px){
-      #matchDetailOverlay .played-head-logo{width:32px;height:32px;flex-basis:32px}
-      #matchDetailOverlay .played-head-name{font-size:11.5px}
-      #matchDetailOverlay .played-final-score{font-size:29px}
-      #matchDetailOverlay .played-period-cell{padding:6px 7px;font-size:10px}
-    }
-  `;
-  document.head.appendChild(s);
+  if(document.getElementById('playedMatchReportCssV3'))return;document.getElementById('playedMatchReportCssV2')?.remove();
+  const s=document.createElement('style');s.id='playedMatchReportCssV3';s.textContent=`
+  #matchDetailOverlay .detail-task-role::after{content:': ';white-space:pre}#matchDetailOverlay .detail-task-role{margin-right:3px}
+  #matchDetailOverlay.played-result-mode #matchDetailTitle{display:none!important}#matchDetailOverlay.played-result-mode .match-detail-head>div:first-child{min-width:0;flex:1}
+  #matchDetailOverlay .played-head-matchup{display:grid;grid-template-columns:minmax(0,1fr) 16px minmax(0,1fr);gap:8px;align-items:center;margin:3px 0 8px;max-width:100%}
+  #matchDetailOverlay .played-head-team{display:flex;align-items:center;gap:8px;min-width:0}#matchDetailOverlay .played-head-team.away{justify-content:flex-end}#matchDetailOverlay .played-head-team.away .played-head-name{text-align:right}
+  #matchDetailOverlay .played-head-logo{width:38px;height:38px;flex:0 0 38px;object-fit:contain;border-radius:8px;background:#fff}#matchDetailOverlay .played-head-logo-placeholder{display:block;background:#eef0f5}
+  #matchDetailOverlay .played-head-name{font-size:12px;font-weight:900;line-height:1.15;overflow-wrap:anywhere;min-width:0}#matchDetailOverlay .played-head-sep{text-align:center;font-size:12px;font-weight:950;color:var(--muted)}
+  #matchDetailOverlay.played-result-mode .match-summary{border:0!important;background:transparent!important;padding:6px 0 15px!important;margin:0!important;border-radius:0!important}
+  #matchDetailOverlay .played-info{display:grid;grid-template-columns:1fr 1fr;gap:8px 18px;padding:12px 0 2px}#matchDetailOverlay .played-info-item{min-width:0}#matchDetailOverlay .played-info-item.wide{grid-column:1/-1}
+  #matchDetailOverlay .played-info-label{display:block;margin-bottom:2px;font-size:10px;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:.03em}#matchDetailOverlay .played-info-value{display:block;font-size:12.5px;font-weight:850;color:var(--navy);line-height:1.3;overflow-wrap:anywhere}
+  #matchDetailOverlay .played-report{padding:18px 0 0;border-top:1px solid var(--line)}#matchDetailOverlay .played-score-label{text-align:center;margin:0 0 7px;font-size:10px;font-weight:900;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+  #matchDetailOverlay .played-final-score{display:flex;align-items:center;justify-content:center;gap:13px;margin:0 0 17px;font-size:35px;font-weight:950;color:var(--navy);line-height:1}
+  #matchDetailOverlay .played-period-title{margin:0 0 8px;font-size:12px;font-weight:900;color:var(--navy)}#matchDetailOverlay .played-period-wrap{overflow-x:auto;padding-bottom:3px;-webkit-overflow-scrolling:touch}
+  #matchDetailOverlay .played-period-table{display:grid;grid-template-columns:minmax(95px,1fr) repeat(var(--period-count),minmax(44px,50px));min-width:max-content;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  #matchDetailOverlay .played-period-cell{padding:7px 8px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff;text-align:center;font-size:10.5px;font-weight:850}.played-period-cell:last-child{border-right:0}
+  #matchDetailOverlay .played-period-cell.label{text-align:left;background:#f7f8fb;font-weight:900;position:sticky;left:0;z-index:1;max-width:150px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#matchDetailOverlay .played-period-cell.head{background:#f2f3f7;font-size:9.5px;color:var(--muted);font-weight:900}
+  #matchDetailOverlay .played-period-empty{margin:0;color:var(--muted);font-size:11px;line-height:1.45}#matchDetailOverlay .played-loading{color:var(--muted);font-size:11px;padding:2px 0}
+  #matchDetailOverlay .played-report-button{width:100%;margin-top:13px;min-height:42px;border:0;border-radius:10px;background:#eef0f5;color:var(--navy);font:inherit;font-size:11.5px;font-weight:900;cursor:pointer}
+  #matchDetailOverlay .played-expanded{margin-top:13px;padding-top:13px;border-top:1px solid var(--line)}#matchDetailOverlay .played-expanded[hidden]{display:none!important}
+  #matchDetailOverlay .played-extra-grid{display:grid;grid-template-columns:92px minmax(0,1fr);gap:7px 12px;margin:0;font-size:11px;line-height:1.35}#matchDetailOverlay .played-extra-grid dt{color:var(--muted);font-weight:800}#matchDetailOverlay .played-extra-grid dd{margin:0;font-weight:850;overflow-wrap:anywhere}
+  #matchDetailOverlay .played-stats-block{margin-top:16px;padding-top:13px;border-top:1px solid var(--line)}#matchDetailOverlay .played-stats-title{margin:0 0 9px;font-size:12px;font-weight:900}
+  #matchDetailOverlay .played-stat-player{padding:8px 0;border-top:1px solid #ececf1}#matchDetailOverlay .played-stat-player:first-of-type{border-top:0}#matchDetailOverlay .played-stat-player>strong{display:block;margin-bottom:4px;font-size:10.8px}
+  #matchDetailOverlay .played-stat-grid{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:9.5px}.played-stat-item{display:inline-flex;gap:3px}.played-stat-key{color:var(--muted);font-weight:750}.played-stat-value{font-weight:900}
+  #matchDetailOverlay .played-players{margin-top:18px;padding-top:16px;border-top:1px solid var(--line)}#matchDetailOverlay .played-players-title{margin:0 0 11px;font-size:17px;font-weight:950;color:var(--navy)}
+  #matchDetailOverlay .played-rosters{display:grid;grid-template-columns:1fr 1fr;gap:12px}#matchDetailOverlay .played-roster{min-width:0}#matchDetailOverlay .played-roster-title{margin:0 0 7px;font-size:10.5px;font-weight:900;line-height:1.25}
+  #matchDetailOverlay .played-player-list{display:grid;gap:5px}#matchDetailOverlay .played-player-row{display:flex;gap:7px;align-items:baseline;padding:6px 8px;border-radius:8px;background:#f3f4f7;font-size:9.8px;font-weight:800;line-height:1.25;min-width:0}
+  #matchDetailOverlay .played-player-number{color:var(--muted);font-weight:900;flex:0 0 auto}#matchDetailOverlay .played-player-name{overflow-wrap:anywhere}
+  @media(max-width:480px){#matchDetailOverlay .played-head-logo{width:34px;height:34px;flex-basis:34px}#matchDetailOverlay .played-head-name{font-size:11px}#matchDetailOverlay .played-final-score{font-size:32px}#matchDetailOverlay .played-period-cell{padding:6px 7px;font-size:10px}#matchDetailOverlay .played-rosters{grid-template-columns:1fr}}
+  `;document.head.appendChild(s);
 }
-function ensureOverlay(){
-  let overlay=document.getElementById('matchDetailOverlay');
-  if(overlay)return overlay;
-  overlay=document.createElement('div');
-  overlay.id='matchDetailOverlay';
-  overlay.className='match-detail-overlay';
-  overlay.hidden=true;
-  overlay.innerHTML='<div class="match-detail-sheet"><div class="match-detail-grabber"></div><div class="match-detail-head"><div><span id="matchDetailKicker" class="match-detail-kicker">Uitslag</span><h2 id="matchDetailTitle">Wedstrijd</h2></div><button class="match-detail-close" data-close-detail>×</button></div><div id="matchDetailBody"></div></div>';
-  document.body.appendChild(overlay);
-  overlay.onclick=e=>{
-    if(e.target===overlay||e.target.closest('[data-close-detail]')){
-      overlay.hidden=true;
-      document.body.classList.remove('match-detail-open');
-      resetPlayedMode();
-    }
-  };
-  return overlay;
-}
-function resetPlayedMode(){
-  const overlay=document.getElementById('matchDetailOverlay');
-  if(!overlay)return;
-  overlay.classList.remove('played-result-mode');
-  overlay.querySelector('.played-head-matchup')?.remove();
-  const body=document.getElementById('matchDetailBody');
-  if(body)delete body.dataset.playedReportMatch;
-}
-function teamHead(side,away=false){
-  const logo=side.logo
-    ?`<img class="played-head-logo" src="${esc(side.logo)}" alt="">`
-    :'<span class="played-head-logo played-head-logo-placeholder" aria-hidden="true"></span>';
-  return `<div class="played-head-team ${away?'away':''}">${away?`<span class="played-head-name">${esc(side.name)}</span>${logo}`:`${logo}<span class="played-head-name">${esc(side.name)}</span>`}</div>`;
-}
-function preparePlayedHead(card){
-  const fallback=cardFallback(card),overlay=ensureOverlay();
-  overlay.classList.add('played-result-mode');
-  const wrap=overlay.querySelector('.match-detail-head>div:first-child');
-  if(!wrap)return fallback;
-  let box=wrap.querySelector('.played-head-matchup');
-  if(!box){
-    box=document.createElement('div');
-    box.className='played-head-matchup';
-    wrap.appendChild(box);
-  }
-  box.innerHTML=`${teamHead({name:fallback.home,logo:fallback.homeLogo})}<span class="played-head-sep">—</span>${teamHead({name:fallback.away,logo:fallback.awayLogo},true)}`;
-  const kicker=document.getElementById('matchDetailKicker');
-  if(kicker)kicker.textContent='Uitslag';
-  return fallback;
-}
-function labelForStat(k){
-  const known={points:'Punten',point:'Punten',score:'Punten',totalPoints:'Punten',fouls:'Fouten',personalFouls:'Fouten',threePointers:'3-punters',twoPointers:'2-punters',freeThrows:'Vrije worpen'};
-  if(known[k])return known[k];
-  return String(k).replace(/([a-z])([A-Z])/g,'$1 $2').replace(/[_-]+/g,' ').replace(/^./,c=>c.toUpperCase());
-}
-function periodLabel(p,index){
-  return String(p?.label||`P${index+1}`).replace(/^Period\s*/i,'P');
-}
-function isQuarterLike(periods){
-  if(!periods?.length)return true;
-  if(periods.length>5)return false;
-  return !periods.some((p,i)=>{
-    const n=Number(String(p?.label||'').replace(/\D/g,''));
-    return n>4||i>4;
-  });
-}
-function finalScore(report,fallback){
-  const hv=report?.match?.homeScore,av=report?.match?.awayScore;
-  const h=Number(hv),a=Number(av);
-  if(hv!==null&&hv!==undefined&&hv!==''&&av!==null&&av!==undefined&&av!==''&&Number.isFinite(h)&&Number.isFinite(a))return{home:h,away:a};
-  return fallback?.score||null;
-}
-function scoreHtml(score){
-  return score?`<div class="played-final-score"><span>${esc(score.home)}</span><span>–</span><span>${esc(score.away)}</span></div>`:'';
-}
-function periodsHtml(report,fallback,loading=false){
-  const periods=Array.isArray(report?.periods)?report.periods.filter(p=>Number.isFinite(Number(p?.home))&&Number.isFinite(Number(p?.away))):[];
-  const score=finalScore(report,fallback);
-  if(loading)return `${scoreHtml(score)}<p class="played-period-title">Score per kwart</p><p class="played-loading">Kwartstanden laden…</p>`;
-  if(!periods.length)return `${scoreHtml(score)}<p class="played-period-title">Score per kwart</p><p class="played-period-empty">Geen openbare kwartstanden beschikbaar voor deze wedstrijd.</p>`;
-  const title=isQuarterLike(periods)?'Score per kwart':'Score per periode';
-  const heads=periods.map((p,i)=>`<div class="played-period-cell head">${esc(periodLabel(p,i))}</div>`).join('');
-  const home=periods.map(p=>`<div class="played-period-cell">${esc(p.home)}</div>`).join('');
-  const away=periods.map(p=>`<div class="played-period-cell">${esc(p.away)}</div>`).join('');
-  return `${scoreHtml(score)}<p class="played-period-title">${title}</p><div class="played-period-wrap"><div class="played-period-table" style="--period-count:${periods.length}"><div class="played-period-cell label head">Team</div>${heads}<div class="played-period-cell label">${esc(fallback.home)}</div>${home}<div class="played-period-cell label">${esc(fallback.away)}</div>${away}</div></div>`;
-}
-function rosterBlock(title,rows){
-  if(!rows.length)return'';
-  return `<div class="played-roster"><p class="played-roster-title">${esc(title)}</p><div class="played-player-chips">${rows.map(p=>`<span class="played-player-chip">${p.number?`<span class="played-player-number">#${esc(p.number)}</span>`:''}<span>${esc(p.name||'Speler')}</span></span>`).join('')}</div></div>`;
-}
-function playersHtml(report,fallback){
-  const rows=Array.isArray(report?.players)?report.players.filter(p=>p?.name):[];
-  if(!rows.length)return `<div class="played-players"><h3>Gespeelde spelers</h3><p class="played-period-empty">Geen openbare spelerslijst beschikbaar voor deze wedstrijd.</p></div>`;
-  const home=rows.filter(p=>p.side==='home'),away=rows.filter(p=>p.side==='away'),other=rows.filter(p=>p.side!=='home'&&p.side!=='away');
-  return `<div class="played-players"><h3>Gespeelde spelers</h3><div class="played-rosters">${rosterBlock(fallback.home,home)}${rosterBlock(fallback.away,away)}${rosterBlock('Spelers',other)}</div></div>`;
-}
-function extraHtml(report){
-  const rows=Array.isArray(report?.extra)?report.extra.filter(x=>x?.label&&x?.value):[];
-  if(!rows.length)return'';
-  return `<dl class="played-extra-grid">${rows.map(x=>`<dt>${esc(x.label)}</dt><dd>${esc(x.value)}</dd>`).join('')}</dl>`;
-}
-function playerStatsHtml(report){
-  const rows=(Array.isArray(report?.players)?report.players:[]).filter(p=>p?.name&&p.stats&&Object.keys(p.stats).length);
-  if(!rows.length)return'';
-  return `<div class="played-stats-block"><p class="played-stats-title">Spelerstatistieken</p>${rows.map(p=>`<div class="played-stat-player"><strong>${esc(p.number?`#${p.number} ${p.name}`:p.name)}</strong><div class="played-stat-grid">${Object.entries(p.stats).map(([k,v])=>`<span class="played-stat-item"><span class="played-stat-key">${esc(labelForStat(k))}:</span><span class="played-stat-value">${esc(v)}</span></span>`).join('')}</div></div>`).join('')}</div>`;
-}
-function expandedHtml(report,includePlayers){
-  const extra=extraHtml(report);
-  const stats=includePlayers?playerStatsHtml(report):'';
-  return extra||stats?extra+stats:'<p class="played-period-empty">Geen aanvullende openbare wedstrijdinformatie beschikbaar.</p>';
-}
-function fullReportHtml(report,{includePlayers,fallback}){
-  return `<h3>Wedstrijdoverzicht</h3>${periodsHtml(report,fallback,false)}<button class="played-report-button" type="button" data-played-toggle>Uitgebreid overzicht</button><div class="played-expanded" hidden>${expandedHtml(report,includePlayers)}</div>${includePlayers?playersHtml(report,fallback):''}`;
-}
-function bindToggle(root){
-  const b=root?.querySelector('[data-played-toggle]'),x=root?.querySelector('.played-expanded');
-  if(!b||!x)return;
-  b.onclick=()=>{
-    const show=x.hidden;
-    x.hidden=!show;
-    b.textContent=show?'Minder tonen':'Uitgebreid overzicht';
-  };
-}
-function initialReportSection(fallback){
-  const el=document.createElement('section');
-  el.className='match-detail-section played-report';
-  el.dataset.playedReportId=String(fallback.id);
-  el.innerHTML=`<h3>Wedstrijdoverzicht</h3>${periodsHtml({},fallback,true)}`;
-  return el;
-}
-async function fillReport(section,id,fallback,includePlayers){
-  try{
-    const report=await loadReport(id);
-    if(!section.isConnected||section.dataset.playedReportId!==String(id))return;
-    section.innerHTML=fullReportHtml(report,{includePlayers,fallback});
-    bindToggle(section);
-  }catch{
-    if(!section.isConnected||section.dataset.playedReportId!==String(id))return;
-    section.innerHTML=`<h3>Wedstrijdoverzicht</h3>${periodsHtml({},fallback,false)}<p class="played-period-empty" style="margin-top:10px">Aanvullende wedstrijdgegevens zijn momenteel niet beschikbaar.</p>`;
-  }
-}
-function attachMainReport(body,id,card){
-  if(!body)return;
-  if(body.querySelector(`[data-played-report-id="${CSS.escape(String(id))}"]`))return;
-  body.dataset.playedReportMatch=String(id);
-  body.querySelector('.match-people-section')?.remove();
-  const summary=body.querySelector('.match-summary');
-  if(!summary)return;
-  const fallback=preparePlayedHead(card);
-  const section=initialReportSection(fallback);
-  summary.insertAdjacentElement('afterend',section);
-  fillReport(section,id,fallback,true);
-}
-function armMainPlayed(card){
-  const id=reportId(card),body=document.getElementById('matchDetailBody');
-  if(!id||!body)return;
-  preparePlayedHead(card);
-  let done=false;
-  const tryAttach=()=>{
-    if(done)return;
-    const summary=body.querySelector('.match-summary');
-    if(!summary||body.querySelector('.match-detail-loading'))return;
-    done=true;
-    observer.disconnect();
-    attachMainReport(body,id,card);
-  };
-  const observer=new MutationObserver(tryAttach);
-  observer.observe(body,{childList:true,subtree:false});
-  setTimeout(()=>{observer.disconnect();tryAttach()},5000);
-}
-function feedSummaryHtml(fallback){
-  return `<div class="match-summary">${fallback.day?`<strong class="match-summary-date">${esc(fallback.day.toLowerCase())}</strong>`:''}${fallback.time?`<div class="match-summary-row"><span class="match-summary-label">Start</span><span class="match-summary-value">${esc(fallback.time)}</span></div>`:''}${fallback.location?`<div class="match-summary-row"><span class="match-summary-label">Locatie</span><span class="match-summary-value">${esc(fallback.location)}</span></div>`:''}</div>`;
-}
-function openFeedPlayed(card){
-  const id=reportId(card);
-  if(!id)return;
-  const fallback=preparePlayedHead(card),overlay=ensureOverlay(),body=document.getElementById('matchDetailBody');
-  if(!body)return;
-  body.dataset.playedReportMatch=String(id);
-  const section=initialReportSection(fallback);
-  body.innerHTML=feedSummaryHtml(fallback);
-  body.appendChild(section);
-  overlay.hidden=false;
-  document.body.classList.add('match-detail-open');
-  fillReport(section,id,fallback,false);
-}
-function init(){
-  injectCss();
-  document.addEventListener('click',e=>{
-    if(e.target.closest('[data-close-detail]')){setTimeout(resetPlayedMode,0);return}
-    if(e.target.closest('button,a,input,select,label'))return;
-    const taskCard=e.target.closest('article.event[data-task-id]');
-    if(taskCard){resetPlayedMode();return}
-    const feed=e.target.closest('article.feed-event[data-feed-match]');
-    if(feed){
-      e.preventDefault();
-      e.stopImmediatePropagation();
-      openFeedPlayed(feed);
-      return;
-    }
-    const card=e.target.closest('#agendaList article.event[data-match-id],#gamesList article.event[data-match-id]');
-    if(!card)return;
-    if(isPlayedCard(card))armMainPlayed(card);
-    else resetPlayedMode();
-  },true);
-}
+function ensureOverlay(){let overlay=document.getElementById('matchDetailOverlay');if(overlay)return overlay;overlay=document.createElement('div');overlay.id='matchDetailOverlay';overlay.className='match-detail-overlay';overlay.hidden=true;overlay.innerHTML='<div class="match-detail-sheet"><div class="match-detail-grabber"></div><div class="match-detail-head"><div><span id="matchDetailKicker" class="match-detail-kicker">Uitslag</span><h2 id="matchDetailTitle">Wedstrijd</h2></div><button class="match-detail-close" data-close-detail>×</button></div><div id="matchDetailBody"></div></div>';document.body.appendChild(overlay);overlay.onclick=e=>{if(e.target===overlay||e.target.closest('[data-close-detail]')){overlay.hidden=true;document.body.classList.remove('match-detail-open');resetPlayedMode()}};return overlay}
+function resetPlayedMode(){const overlay=document.getElementById('matchDetailOverlay');if(!overlay)return;overlay.classList.remove('played-result-mode');overlay.querySelector('.played-head-matchup')?.remove();const body=document.getElementById('matchDetailBody');if(body)delete body.dataset.playedReportMatch}
+function teamHead(side,away=false){const logo=side.logo?`<img class="played-head-logo" src="${esc(side.logo)}" alt="">`:'<span class="played-head-logo played-head-logo-placeholder" aria-hidden="true"></span>';return `<div class="played-head-team ${away?'away':''}">${away?`<span class="played-head-name">${esc(side.name)}</span>${logo}`:`${logo}<span class="played-head-name">${esc(side.name)}</span>`}</div>`}
+function preparePlayedHead(card){const fallback=cardFallback(card),overlay=ensureOverlay();overlay.classList.add('played-result-mode');const wrap=overlay.querySelector('.match-detail-head>div:first-child');if(!wrap)return fallback;let box=wrap.querySelector('.played-head-matchup');if(!box){box=document.createElement('div');box.className='played-head-matchup';wrap.appendChild(box)}box.innerHTML=`${teamHead({name:fallback.home,logo:fallback.homeLogo})}<span class="played-head-sep">—</span>${teamHead({name:fallback.away,logo:fallback.awayLogo},true)}`;const kicker=document.getElementById('matchDetailKicker');if(kicker)kicker.textContent='Uitslag';return fallback}
+function summaryValue(summary,label){for(const row of summary?.querySelectorAll('.match-summary-row')||[]){if(String(row.querySelector('.match-summary-label')?.textContent||'').trim().toLowerCase()===label.toLowerCase())return String(row.querySelector('.match-summary-value')?.textContent||'').trim()}return''}
+function compactSummary(summary,fallback){if(!summary)return;const date=String(summary.querySelector('.match-summary-date')?.textContent||fallback.day||'').trim(),start=summaryValue(summary,'Start')||fallback.time,location=summaryValue(summary,'Locatie')||fallback.location;summary.innerHTML=`<div class="played-info">${date?`<div class="played-info-item wide"><span class="played-info-label">Datum</span><span class="played-info-value">${esc(date.toLowerCase())}</span></div>`:''}${start?`<div class="played-info-item"><span class="played-info-label">Start</span><span class="played-info-value">${esc(start)}</span></div>`:''}${location?`<div class="played-info-item ${start?'':'wide'}"><span class="played-info-label">Locatie</span><span class="played-info-value">${esc(location)}</span></div>`:''}</div>`}
+function finalScore(report,fallback){const hv=report?.match?.homeScore,av=report?.match?.awayScore,h=Number(hv),a=Number(av);if(hv!==null&&hv!==undefined&&hv!==''&&av!==null&&av!==undefined&&av!==''&&Number.isFinite(h)&&Number.isFinite(a))return{home:h,away:a};return fallback?.score||null}
+function scoreHtml(score){return score?`<div class="played-score-label">Eindstand</div><div class="played-final-score"><span>${esc(score.home)}</span><span>–</span><span>${esc(score.away)}</span></div>`:''}
+function periodLabel(p,index){const raw=String(p?.label||`P${index+1}`),n=Number(raw.replace(/\D/g,''));return n?`P${n}`:raw}
+function isQuarterLike(periods){return periods.length>0&&periods.length<=5&&!periods.some((p,i)=>(Number(String(p?.label||'').replace(/\D/g,''))||i+1)>4)}
+function periodsHtml(report,fallback,loading=false){const periods=Array.isArray(report?.periods)?report.periods.filter(p=>Number.isFinite(Number(p?.home))&&Number.isFinite(Number(p?.away))):[],score=finalScore(report,fallback);if(loading)return `${scoreHtml(score)}<p class="played-period-title">Score per kwart/periode</p><p class="played-loading">Kwartstanden laden…</p>`;if(!periods.length)return `${scoreHtml(score)}<p class="played-period-title">Score per kwart/periode</p><p class="played-period-empty">Voor deze wedstrijd zijn geen periode-uitslagen uit Basketball.nl/FOYS teruggekomen.</p>`;const title=isQuarterLike(periods)?'Score per kwart':'Score per periode',heads=periods.map((p,i)=>`<div class="played-period-cell head">${esc(isQuarterLike(periods)?`Q${i+1}`:periodLabel(p,i))}</div>`).join(''),home=periods.map(p=>`<div class="played-period-cell">${esc(p.home)}</div>`).join(''),away=periods.map(p=>`<div class="played-period-cell">${esc(p.away)}</div>`).join('');return `${scoreHtml(score)}<p class="played-period-title">${title}</p><div class="played-period-wrap"><div class="played-period-table" style="--period-count:${periods.length}"><div class="played-period-cell label head">Team</div>${heads}<div class="played-period-cell label" title="${esc(fallback.home)}">${esc(fallback.home)}</div>${home}<div class="played-period-cell label" title="${esc(fallback.away)}">${esc(fallback.away)}</div>${away}</div></div>`}
+function labelForStat(k){const known={points:'Punten',point:'Punten',totalPoints:'Punten',score:'Punten',fouls:'Fouten',personalFouls:'Fouten',assists:'Assists',rebounds:'Rebounds',offensiveRebounds:'Aanvallende rebounds',defensiveRebounds:'Defensieve rebounds',steals:'Steals',blocks:'Blocks',turnovers:'Turnovers',threePointers:'3-punters',twoPointers:'2-punters',freeThrows:'Vrije worpen',minutes:'Minuten'};return known[k]||String(k).replace(/([a-z])([A-Z])/g,'$1 $2').replace(/[_-]+/g,' ').replace(/^./,c=>c.toUpperCase())}
+function cleanPlayers(report){const rows=Array.isArray(report?.players)?report.players.filter(p=>p?.name):[],map=new Map();for(const p of rows){const key=`${p.side||''}|${p.number||''}|${String(p.name).toLowerCase()}`,old=map.get(key);if(!old)map.set(key,{...p});else map.set(key,{...old,side:old.side||p.side,number:old.number||p.number,stats:{...(old.stats||{}),...(p.stats||{})}})}return [...map.values()]}
+function rosterBlock(title,rows){if(!rows.length)return'';return `<div class="played-roster"><p class="played-roster-title">${esc(title)}</p><div class="played-player-list">${rows.map(p=>`<div class="played-player-row">${p.number?`<span class="played-player-number">#${esc(p.number)}</span>`:''}<span class="played-player-name">${esc(p.name)}</span></div>`).join('')}</div></div>`}
+function playersHtml(report,fallback){const rows=cleanPlayers(report);if(!rows.length)return `<section class="played-players"><h3 class="played-players-title">Gespeelde spelers</h3><p class="played-period-empty">Geen openbare spelerslijst beschikbaar voor deze wedstrijd.</p></section>`;const home=rows.filter(p=>p.side==='home'),away=rows.filter(p=>p.side==='away'),other=rows.filter(p=>p.side!=='home'&&p.side!=='away');return `<section class="played-players"><h3 class="played-players-title">Gespeelde spelers</h3><div class="played-rosters">${rosterBlock(fallback.home,home)}${rosterBlock(fallback.away,away)}${other.length?rosterBlock('Spelers',other):''}</div></section>`}
+function extraHtml(report){const rows=Array.isArray(report?.extra)?report.extra.filter(x=>x?.label&&x?.value):[];return rows.length?`<dl class="played-extra-grid">${rows.map(x=>`<dt>${esc(x.label)}</dt><dd>${esc(x.value)}</dd>`).join('')}</dl>`:''}
+function playerStatsHtml(report){const rows=cleanPlayers(report).filter(p=>p.stats&&Object.keys(p.stats).length);if(!rows.length)return'';return `<div class="played-stats-block"><p class="played-stats-title">Spelerstatistieken</p>${rows.map(p=>`<div class="played-stat-player"><strong>${esc(p.number?`#${p.number} ${p.name}`:p.name)}</strong><div class="played-stat-grid">${Object.entries(p.stats).map(([k,v])=>`<span class="played-stat-item"><span class="played-stat-key">${esc(labelForStat(k))}:</span><span class="played-stat-value">${esc(v)}</span></span>`).join('')}</div></div>`).join('')}</div>`}
+function expandedHtml(report,includePlayers){const extra=extraHtml(report),stats=includePlayers?playerStatsHtml(report):'';return extra||stats?extra+stats:'<p class="played-period-empty">Geen aanvullende openbare wedstrijdinformatie beschikbaar.</p>'}
+function fullReportHtml(report,{includePlayers,fallback}){return `${periodsHtml(report,fallback,false)}<button class="played-report-button" type="button" data-played-toggle>Uitgebreid overzicht</button><div class="played-expanded" hidden>${expandedHtml(report,includePlayers)}</div>${includePlayers?playersHtml(report,fallback):''}`}
+function bindToggle(root){const b=root?.querySelector('[data-played-toggle]'),x=root?.querySelector('.played-expanded');if(!b||!x)return;b.onclick=()=>{const show=x.hidden;x.hidden=!show;b.textContent=show?'Minder tonen':'Uitgebreid overzicht'}}
+function initialReportSection(fallback){const el=document.createElement('section');el.className='match-detail-section played-report';el.dataset.playedReportId=String(fallback.id);el.innerHTML=periodsHtml({},fallback,true);return el}
+async function fillReport(section,id,fallback,includePlayers){try{const report=await loadReport(id);if(!section.isConnected||section.dataset.playedReportId!==String(id))return;section.innerHTML=fullReportHtml(report,{includePlayers,fallback});bindToggle(section)}catch{if(!section.isConnected||section.dataset.playedReportId!==String(id))return;section.innerHTML=`${periodsHtml({},fallback,false)}<p class="played-period-empty" style="margin-top:10px">Aanvullende wedstrijdgegevens zijn momenteel niet beschikbaar.</p>`}}
+function attachMainReport(body,id,card){if(!body||body.querySelector(`[data-played-report-id="${CSS.escape(String(id))}"]`))return;body.dataset.playedReportMatch=String(id);body.querySelector('.match-people-section')?.remove();const summary=body.querySelector('.match-summary');if(!summary)return;const fallback=preparePlayedHead(card);compactSummary(summary,fallback);const section=initialReportSection(fallback);summary.insertAdjacentElement('afterend',section);fillReport(section,id,fallback,true)}
+function armMainPlayed(card){const id=reportId(card),body=document.getElementById('matchDetailBody');if(!id||!body)return;preparePlayedHead(card);let done=false;const tryAttach=()=>{if(done)return;const summary=body.querySelector('.match-summary');if(!summary||body.querySelector('.match-detail-loading'))return;done=true;observer.disconnect();attachMainReport(body,id,card)};const observer=new MutationObserver(tryAttach);observer.observe(body,{childList:true,subtree:false});setTimeout(()=>{observer.disconnect();tryAttach()},5000)}
+function feedSummaryHtml(fallback){return `<div class="match-summary"><div class="played-info">${fallback.day?`<div class="played-info-item wide"><span class="played-info-label">Datum</span><span class="played-info-value">${esc(fallback.day.toLowerCase())}</span></div>`:''}${fallback.time?`<div class="played-info-item"><span class="played-info-label">Start</span><span class="played-info-value">${esc(fallback.time)}</span></div>`:''}${fallback.location?`<div class="played-info-item ${fallback.time?'':'wide'}"><span class="played-info-label">Locatie</span><span class="played-info-value">${esc(fallback.location)}</span></div>`:''}</div></div>`}
+function openFeedPlayed(card){const id=reportId(card);if(!id)return;const fallback=preparePlayedHead(card),overlay=ensureOverlay(),body=document.getElementById('matchDetailBody');if(!body)return;body.dataset.playedReportMatch=String(id);const section=initialReportSection(fallback);body.innerHTML=feedSummaryHtml(fallback);body.appendChild(section);overlay.hidden=false;document.body.classList.add('match-detail-open');fillReport(section,id,fallback,false)}
+function init(){injectCss();document.addEventListener('click',e=>{if(e.target.closest('[data-close-detail]')){setTimeout(resetPlayedMode,0);return}if(e.target.closest('button,a,input,select,label'))return;const task=e.target.closest('article.event[data-task-id]');if(task){resetPlayedMode();return}const feed=e.target.closest('article.feed-event[data-feed-match]');if(feed){e.preventDefault();e.stopImmediatePropagation();openFeedPlayed(feed);return}const card=e.target.closest('#agendaList article.event[data-match-id],#gamesList article.event[data-match-id]');if(!card)return;if(isPlayedCard(card))armMainPlayed(card);else resetPlayedMode()},true)}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
