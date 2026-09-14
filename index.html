@@ -30,65 +30,25 @@
         </div>
         <button class="sync-button" id="syncBtn" type="button">Synchroniseren</button>
       </div>
-
       <div class="filters">
-        <div class="field">
-          <label for="teamSelect">Team</label>
-          <select id="teamSelect" aria-label="Team kiezen"></select>
-        </div>
-        <div class="field">
-          <label for="personSelect">Persoon voor taken</label>
-          <select id="personSelect" aria-label="Persoon kiezen"></select>
-        </div>
+        <div class="field"><label for="teamSelect">Team</label><select id="teamSelect" aria-label="Team kiezen"></select></div>
+        <div class="field"><label for="personSelect">Persoon voor taken</label><select id="personSelect" aria-label="Persoon kiezen"></select></div>
       </div>
     </header>
-
     <main>
-      <div id="sourceStatus" class="status-card status-loading">
-        <span>Wedstrijdbron</span><strong>Verbinden met Basketball.nl…</strong>
-      </div>
-
-      <section id="view-agenda" class="view active">
-        <div class="section-head"><div><h1>Agenda</h1><p>Wedstrijden van het gekozen team en het geselecteerde takenschema.</p></div></div>
-        <div id="agendaList"></div>
-      </section>
-
-      <section id="view-games" class="view">
-        <div class="section-head"><div><h1>Wedstrijden</h1><p id="gamesSubtitle">Live programma en uitslagen.</p></div></div>
-        <div id="gamesList"></div>
-      </section>
-
-      <section id="view-tasks" class="view">
-        <div class="section-head"><div><h1>Taken</h1><p id="tasksSubtitle">Scheidsrechter- en tafeltaken.</p></div></div>
-        <div id="tasksList"></div>
-      </section>
-
+      <div id="sourceStatus" class="status-card status-loading"><span>Wedstrijdbron</span><strong>Verbinden met Basketball.nl…</strong></div>
+      <section id="view-agenda" class="view active"><div class="section-head"><div><h1>Agenda</h1><p>Wedstrijden van het gekozen team en het geselecteerde takenschema.</p></div></div><div id="agendaList"></div></section>
+      <section id="view-games" class="view"><div class="section-head"><div><h1>Wedstrijden</h1><p id="gamesSubtitle">Live programma en uitslagen.</p></div></div><div id="gamesList"></div></section>
+      <section id="view-tasks" class="view"><div class="section-head"><div><h1>Taken</h1><p id="tasksSubtitle">Scheidsrechter- en tafeltaken.</p></div></div><div id="tasksList"></div></section>
       <section id="view-calendar" class="view">
         <div class="section-head"><div><h1>Agenda koppelen</h1><p>Abonneer je agenda zodat wijzigingen automatisch kunnen worden bijgewerkt.</p></div></div>
-        <div class="settings-card">
-          <div class="card-title-row"><div><h2>Wedstrijden</h2><p id="calendarTeamLabel">Geselecteerd team</p></div><span class="badge badge-game">LIVE</span></div>
-          <p>Deze abonnementslink bevat het programma van het geselecteerde team. Wanneer FOYS een tijd, locatie, status of uitslag wijzigt, wordt dezelfde wedstrijd via het wedstrijd-ID bijgewerkt.</p>
-          <div class="provider-grid" data-feed="team"><button class="provider-button" data-provider="google" type="button">Google Agenda</button><button class="provider-button" data-provider="outlook" type="button">Outlook</button><button class="provider-button" data-provider="webcal" type="button">Apple / andere</button><button class="provider-button secondary" data-provider="copy" type="button">Link kopiëren</button></div>
-          <div class="feed-url" id="teamFeedUrl">Nog geen team geselecteerd.</div>
-        </div>
-        <div class="settings-card">
-          <div class="card-title-row"><div><h2>Taken</h2><p id="calendarTaskLabel">Alle personen</p></div><span class="badge badge-task">TAKEN</span></div>
-          <p id="taskCalendarHelp">Kies bovenaan een persoon om alleen diens scheidsrechter- en tafeltaken als abonnement toe te voegen. Bij ‘Alle personen’ bevat de link het volledige takenschema.</p>
-          <div class="provider-grid" data-feed="tasks"><button class="provider-button" data-provider="google" type="button">Google Agenda</button><button class="provider-button" data-provider="outlook" type="button">Outlook</button><button class="provider-button" data-provider="webcal" type="button">Apple / andere</button><button class="provider-button secondary" data-provider="copy" type="button">Link kopiëren</button></div>
-          <div class="feed-url" id="taskFeedUrl">Taken worden geladen…</div>
-        </div>
+        <div class="settings-card"><div class="card-title-row"><div><h2>Wedstrijden</h2><p id="calendarTeamLabel">Geselecteerd team</p></div><span class="badge badge-game">LIVE</span></div><p>Deze abonnementslink bevat het programma van het geselecteerde team. Wanneer FOYS een tijd, locatie, status of uitslag wijzigt, wordt dezelfde wedstrijd via het wedstrijd-ID bijgewerkt.</p><div class="provider-grid" data-feed="team"><button class="provider-button" data-provider="google" type="button">Google Agenda</button><button class="provider-button" data-provider="outlook" type="button">Outlook</button><button class="provider-button" data-provider="webcal" type="button">Apple / andere</button><button class="provider-button secondary" data-provider="copy" type="button">Link kopiëren</button></div><div class="feed-url" id="teamFeedUrl">Nog geen team geselecteerd.</div></div>
+        <div class="settings-card"><div class="card-title-row"><div><h2>Taken</h2><p id="calendarTaskLabel">Alle personen</p></div><span class="badge badge-task">TAKEN</span></div><p id="taskCalendarHelp">Kies bovenaan een persoon om alleen diens scheidsrechter- en tafeltaken als abonnement toe te voegen. Bij ‘Alle personen’ bevat de link het volledige takenschema.</p><div class="provider-grid" data-feed="tasks"><button class="provider-button" data-provider="google" type="button">Google Agenda</button><button class="provider-button" data-provider="outlook" type="button">Outlook</button><button class="provider-button" data-provider="webcal" type="button">Apple / andere</button><button class="provider-button secondary" data-provider="copy" type="button">Link kopiëren</button></div><div class="feed-url" id="taskFeedUrl">Taken worden geladen…</div></div>
         <div class="settings-card"><h2>Eenmalige gecombineerde export</h2><p>Wil je geen abonnement, dan kun je de op dit moment geladen wedstrijden en taken als één .ics-bestand downloaden. Dit bestand werkt bij vrijwel iedere agenda-aanbieder, maar verandert daarna niet automatisch mee.</p><button class="primary-button" id="downloadIcsBtn" type="button">Gecombineerde .ics downloaden</button></div>
         <div class="info-card"><strong>Automatisch bijwerken</strong><p>Voor volledige synchronisatie voeg je de wedstrijdlink én de takenlink als abonnement toe. Agenda-aanbieders bepalen zelf hoe vaak een abonnementsagenda wordt ververst.</p></div>
       </section>
-
-      <section id="view-settings" class="view">
-        <div class="section-head"><div><h1>Instellingen</h1><p>Teamkeuze, online gegevens en lokale opslag.</p></div></div>
-        <div class="settings-card"><h2>Geselecteerd team</h2><div class="selection-summary"><img id="settingsLogo" alt="" hidden><div><strong id="settingsClub">Geen vereniging</strong><span id="settingsTeam">Geen team</span></div></div><button class="primary-button" id="changeTeamBtn" type="button">Vereniging of team wijzigen</button></div>
-        <div class="settings-card"><h2>Online bron</h2><p>Wedstrijden en uitslagen worden rechtstreeks opgehaald uit de publieke competitiegegevens die Basketball.nl gebruikt. Wedstrijden worden intern gekoppeld op hun FOYS-wedstrijd-ID.</p><div class="details-grid"><span>Seizoen</span><strong id="seasonValue">—</strong><span>Wedstrijden</span><strong id="gameCountValue">—</strong><span>Laatst bijgewerkt</span><strong id="updatedValue">—</strong></div></div>
-        <div class="settings-card"><h2>Lokale gegevens</h2><p>Het gekozen team, de gekozen persoon en de laatst succesvol opgehaalde wedstrijden worden op dit toestel bewaard. Daardoor blijft de agenda bruikbaar als de online bron tijdelijk niet bereikbaar is.</p><button class="danger-button" id="resetBtn" type="button">Lokale instellingen wissen</button></div>
-      </section>
+      <section id="view-settings" class="view"><div class="section-head"><div><h1>Instellingen</h1><p>Teamkeuze, online gegevens en lokale opslag.</p></div></div><div class="settings-card"><h2>Geselecteerd team</h2><div class="selection-summary"><img id="settingsLogo" alt="" hidden><div><strong id="settingsClub">Geen vereniging</strong><span id="settingsTeam">Geen team</span></div></div><button class="primary-button" id="changeTeamBtn" type="button">Vereniging of team wijzigen</button></div><div class="settings-card"><h2>Online bron</h2><p>Wedstrijden en uitslagen worden rechtstreeks opgehaald uit de publieke competitiegegevens die Basketball.nl gebruikt. Wedstrijden worden intern gekoppeld op hun FOYS-wedstrijd-ID.</p><div class="details-grid"><span>Seizoen</span><strong id="seasonValue">—</strong><span>Wedstrijden</span><strong id="gameCountValue">—</strong><span>Laatst bijgewerkt</span><strong id="updatedValue">—</strong></div></div><div class="settings-card"><h2>Lokale gegevens</h2><p>Het gekozen team, de gekozen persoon en de laatst succesvol opgehaalde wedstrijden worden op dit toestel bewaard. Daardoor blijft de agenda bruikbaar als de online bron tijdelijk niet bereikbaar is.</p><button class="danger-button" id="resetBtn" type="button">Lokale instellingen wissen</button></div></section>
     </main>
-
     <nav class="tabs" aria-label="Hoofdnavigatie">
       <button class="tab active" data-view="agenda" type="button"><span class="tab-icon">17</span>Agenda</button>
       <button class="tab" data-view="games" type="button"><span class="tab-icon ball-icon">●</span>Wedstrijden</button>
@@ -97,18 +57,7 @@
       <button class="tab" data-view="settings" type="button"><span class="tab-icon">⚙</span>Instellingen</button>
     </nav>
   </div>
-
-  <div class="modal" id="teamModal" aria-hidden="true">
-    <div class="sheet team-sheet" role="dialog" aria-modal="true" aria-labelledby="teamModalTitle">
-      <div class="sheet-grabber" aria-hidden="true"></div>
-      <div class="sheet-title-row"><div><h2 id="teamModalTitle">Vereniging en team kiezen</h2><p>Zoek een Nederlandse vereniging en kies daarna één team of alle teams van die vereniging.</p></div><button class="icon-button" id="closeTeamModal" type="button" aria-label="Sluiten">×</button></div>
-      <label class="search-label" for="clubSearch">Vereniging zoeken</label>
-      <div class="search-row"><input id="clubSearch" type="search" autocomplete="off" placeholder="Bijvoorbeeld SV Argon"><button class="primary-button compact" id="clubSearchBtn" type="button">Zoeken</button></div>
-      <div class="search-status" id="clubSearchStatus"></div><div class="club-results" id="clubResults"></div>
-      <div class="chosen-club" id="chosenClub" hidden><div class="chosen-club-head"><img id="chosenClubLogo" alt="" hidden><div><span>Vereniging</span><strong id="chosenClubName"></strong></div></div><h3>Teams</h3><div class="team-results" id="teamResults"></div></div>
-    </div>
-  </div>
-
+  <div class="modal" id="teamModal" aria-hidden="true"><div class="sheet team-sheet" role="dialog" aria-modal="true" aria-labelledby="teamModalTitle"><div class="sheet-grabber" aria-hidden="true"></div><div class="sheet-title-row"><div><h2 id="teamModalTitle">Vereniging en team kiezen</h2><p>Zoek een Nederlandse vereniging en kies daarna één team of alle teams van die vereniging.</p></div><button class="icon-button" id="closeTeamModal" type="button" aria-label="Sluiten">×</button></div><label class="search-label" for="clubSearch">Vereniging zoeken</label><div class="search-row"><input id="clubSearch" type="search" autocomplete="off" placeholder="Bijvoorbeeld SV Argon"><button class="primary-button compact" id="clubSearchBtn" type="button">Zoeken</button></div><div class="search-status" id="clubSearchStatus"></div><div class="club-results" id="clubResults"></div><div class="chosen-club" id="chosenClub" hidden><div class="chosen-club-head"><img id="chosenClubLogo" alt="" hidden><div><span>Vereniging</span><strong id="chosenClubName"></strong></div></div><h3>Teams</h3><div class="team-results" id="teamResults"></div></div></div></div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="all-teams.js?v=5" defer></script>
   <script src="app.js?v=3" defer></script>
@@ -118,10 +67,9 @@
   <script src="club-members-admin.js?v=6" defer></script>
   <script src="feed.js?v=6" defer></script>
   <script src="argon-ui.js?v=5" defer></script>
-  <script src="final-fixes-v4.js?v=2" defer></script>
-  <script src="training-manager-v6.js?v=2" defer></script>
-  <script src="training-admin-per-day-v1.js?v=2" defer></script>
+  <script src="presence-ui-v5.js?v=1" defer></script>
+  <script src="training-manager-v7.js?v=1" defer></script>
   <script src="trainer-driving-v1.js?v=2" defer></script>
-  <script src="agenda-polish.js?v=3" data-agenda-polish="1" defer></script>
+  <script src="agenda-polish-v4.js?v=1" data-agenda-polish="1" defer></script>
 </body>
 </html>
