@@ -8,11 +8,10 @@ const ARGON='a4a2e2fa-0635-46a5-8969-1d0fef40444f';
 const API='https://api.foys.io/competition/public-api/v1';
 const STORE='basketballApp.selection.v3';
 
-let sb=null,ctxCache=null,ctxAt=0,presenceBusy=false,presenceTimer=0,countBusy=false,countTimer=0,headerBusy=false;
+let sb=null,ctxCache=null,ctxAt=0,presenceBusy=false,presenceTimer=0,countBusy=false,countQueued=false,countTimer=0,headerBusy=false;
 const matchCache=new Map();
 const $=id=>document.getElementById(id);
 const esc=v=>String(v??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));
-const cssq=v=>String(v??'').replace(/\\/g,'\\\\').replace(/"/g,'\\"');
 const norm=v=>String(v||'').trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');
 const d=v=>String(v||'').slice(0,10),t=v=>String(v||'').slice(0,5);
 
@@ -21,6 +20,16 @@ function selection(){try{return JSON.parse(localStorage.getItem(STORE)||'null')}
 function label(m,side){return [m?.[`${side}TeamSponsorClubName`]||m?.[`${side}Organisation`]?.name,m?.[`${side}TeamName`]||m?.[`${side}Team`]?.name].filter(Boolean).join(' ').trim()||'Onbekend team'}
 function guid(m,side){return String(m?.[`${side}TeamGuid`]||m?.[`${side}Team`]?.guid||'')}
 function shortDate(v){try{return new Intl.DateTimeFormat('nl-NL',{weekday:'short',day:'2-digit',month:'short',year:'numeric'}).format(new Date(`${d(v)}T12:00:00`))}catch{return d(v)}}
+function addressText(m){
+  const a=m?.address;if(!a)return'';
+  const street=[a.address1,a.houseNumber,a.houseNumberExtension].filter(Boolean).join(' ');
+  const city=[a.zipCode,a.city].filter(Boolean).join(' ');
+  return[street,city].filter(Boolean).join(', ');
+}
+function mapsHref(m){
+  const address=addressText(m),query=[m?.accommodationName,address].filter(Boolean).join(', ');
+  return query?`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`:'';
+}
 function toast(msg){const el=$('toast');if(!el)return alert(msg);el.textContent=msg;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),2400)}
 
 async function client(){
@@ -64,6 +73,16 @@ async function matchCounts(ids){
   const s=await client(),{data,error}=await s.rpc('get_match_presence_counts',{p_match_ids:ids.map(Number)});if(error)throw error;
   return new Map((data||[]).map(x=>[String(x.foy_match_id),{players:Number(x.player_count)||0,cars:Number(x.car_count)||0}]));
 }
+async function resolveMatch(id){
+  const key=String(id||'');if(!key)return null;
+  if(window.BasketballMatchRules?.matchById){
+    try{const hit=await window.BasketballMatchRules.matchById(key);if(hit)return hit}catch{}
+  }
+  for(const rows of matchCache.values()){
+    const hit=rows.find(x=>String(x?.id)===key);if(hit)return hit;
+  }
+  return null;
+}
 
 function injectCss(){
   if($('presenceUiV5Css'))return;
@@ -71,28 +90,67 @@ function injectCss(){
     .brand-mark.has-team-logo{background:#fff!important;padding:3px!important;overflow:hidden}
     .brand-mark.has-team-logo img{display:block;width:100%;height:100%;object-fit:contain;border-radius:7px}
     .player-count{display:none!important}
+    .presence-inline-count{font-weight:850;color:var(--navy)}
     .personal-presence-card .attendance-choice{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}
     .personal-presence-card .mini-button.selected{box-shadow:0 0 0 2px var(--navy) inset}
     .personal-presence-card .drive-button.selected{background:var(--orange);color:#fff}
     .presence-counts{font-weight:850!important;color:var(--navy)!important}
-    #agendaList article.event[data-match-id] .meta::after,#gamesList article.event[data-match-id] .meta::after{content:" · Spelers: … · Auto's: …";font-weight:850;color:var(--navy)}
   `;document.head.appendChild(s);
-  const r=document.createElement('style');r.id='matchPresenceCountRules';document.head.appendChild(r);
+}
+function ensureCountSpan(meta){
+  let count=meta.querySelector('.presence-inline-count');
+  if(count)return count;
+  count=document.createElement('span');
+  count.className='presence-inline-count';
+  count.textContent=` · Spelers: … · Auto's: …`;
+  const br=meta.querySelector('br');
+  if(br)meta.insertBefore(count,br);else meta.appendChild(count);
+  return count;
+}
+function formatCardMeta(card,m){
+  const meta=card.querySelector('.meta');if(!meta)return null;
+  if(!m)return ensureCountSpan(meta);
+  const location=[m.accommodationName,m.fieldName].filter(Boolean).join(' · ')||'Locatie nog niet bekend';
+  const address=addressText(m),href=mapsHref(m),signature=`${location}|${address}|${href}`;
+  let count=meta.querySelector('.presence-inline-count');
+  if(meta.dataset.presenceMetaSignature!==signature||!count){
+    const countText=count?.textContent||` · Spelers: … · Auto's: …`;
+    meta.replaceChildren(document.createTextNode(location));
+    count=document.createElement('span');count.className='presence-inline-count';count.textContent=countText;meta.appendChild(count);
+    if(address){
+      meta.appendChild(document.createElement('br'));
+      meta.appendChild(document.createTextNode(address));
+      if(href){
+        meta.appendChild(document.createTextNode(' · '));
+        const link=document.createElement('a');link.className='match-maps-link';link.href=href;link.target='_blank';link.rel='noopener';link.textContent='Maps';meta.appendChild(link);
+      }
+    }
+    meta.dataset.presenceMetaSignature=signature;
+  }
+  return count;
 }
 async function refreshCountRules(){
-  if(countBusy)return;
+  if(countBusy){countQueued=true;return}
   const cards=[...document.querySelectorAll('#agendaList article.event[data-match-id],#gamesList article.event[data-match-id]')];
   const ids=[...new Set(cards.map(c=>Number(c.dataset.matchId)).filter(Number.isFinite))];
   if(!ids.length)return;
   countBusy=true;
   try{
-    const counts=await matchCounts(ids),rules=[];
-    for(const id of ids){
-      const c=counts.get(String(id))||{players:0,cars:0},text=` · Spelers: ${c.players} · Auto's: ${c.cars}`.replace(/\\/g,'\\\\').replace(/"/g,'\\"');
-      rules.push(`#agendaList article.event[data-match-id="${cssq(id)}"] .meta::after,#gamesList article.event[data-match-id="${cssq(id)}"] .meta::after{content:"${text}"}`);
+    const resolved=await Promise.all(cards.map(async card=>({card,match:await resolveMatch(card.dataset.matchId)})));
+    const spans=new Map();
+    for(const {card,match} of resolved)spans.set(card,formatCardMeta(card,match));
+    let counts=new Map();
+    try{counts=await matchCounts(ids)}catch(e){console.warn('Speler/autotelling kon niet worden geladen',e)}
+    for(const {card} of resolved){
+      const count=spans.get(card);if(!count)continue;
+      const c=counts.get(String(card.dataset.matchId))||{players:0,cars:0};
+      const text=` · Spelers: ${c.players} · Auto's: ${c.cars}`;
+      if(count.textContent!==text)count.textContent=text;
     }
-    const style=$('matchPresenceCountRules');if(style)style.textContent=rules.join('\n');
-  }catch(e){console.warn('Speler/autotelling kon niet worden geladen',e)}finally{countBusy=false}
+  }finally{
+    countBusy=false;
+    if(countQueued){countQueued=false;scheduleCounts(20)}
+  }
 }
 function scheduleCounts(delay=60){clearTimeout(countTimer);countTimer=setTimeout(refreshCountRules,delay)}
 
