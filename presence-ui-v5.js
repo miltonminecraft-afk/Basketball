@@ -9,7 +9,7 @@ const API='https://api.foys.io/competition/public-api/v1';
 const STORE='basketballApp.selection.v3';
 
 let sb=null,ctxCache=null,ctxAt=0,presenceBusy=false,presenceTimer=0,countBusy=false,countQueued=false,countTimer=0,headerBusy=false;
-const matchCache=new Map();
+const matchCache=new Map(),countCache=new Map();
 const $=id=>document.getElementById(id);
 const esc=v=>String(v??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));
 const norm=v=>String(v||'').trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');
@@ -36,7 +36,7 @@ async function client(){
   if(sb)return sb;
   const mod=await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm');
   sb=mod.createClient(U,K,{auth:{persistSession:true,detectSessionInUrl:true,autoRefreshToken:true}});
-  sb.auth.onAuthStateChange(()=>{ctxCache=null;ctxAt=0;matchCache.clear();schedulePresence(true);scheduleCounts(120)});
+  sb.auth.onAuthStateChange(()=>{ctxCache=null;ctxAt=0;matchCache.clear();countCache.clear();schedulePresence(true);scheduleCounts(120)});
   return sb;
 }
 async function context(force=false){
@@ -72,6 +72,15 @@ async function matchCounts(ids){
   if(!ids.length)return new Map();
   const s=await client(),{data,error}=await s.rpc('get_match_presence_counts',{p_match_ids:ids.map(Number)});if(error)throw error;
   return new Map((data||[]).map(x=>[String(x.foy_match_id),{players:Number(x.player_count)||0,cars:Number(x.car_count)||0}]));
+}
+async function stableCounts(ids){
+  const keys=[...new Set(ids.map(Number).filter(Number.isFinite))];
+  if(!keys.length)return new Map();
+  try{
+    const fresh=await matchCounts(keys);
+    for(const id of keys){const key=String(id);countCache.set(key,fresh.get(key)||{players:0,cars:0})}
+  }catch(e){console.warn('Speler/autotelling kon niet worden geladen; laatst bekende telling blijft staan',e)}
+  return new Map(keys.map(id=>[String(id),countCache.get(String(id))]).filter(([,v])=>!!v));
 }
 async function resolveMatch(id){
   const key=String(id||'');if(!key)return null;
@@ -139,11 +148,10 @@ async function refreshCountRules(){
     const resolved=await Promise.all(cards.map(async card=>({card,match:await resolveMatch(card.dataset.matchId)})));
     const spans=new Map();
     for(const {card,match} of resolved)spans.set(card,formatCardMeta(card,match));
-    let counts=new Map();
-    try{counts=await matchCounts(ids)}catch(e){console.warn('Speler/autotelling kon niet worden geladen',e)}
+    const counts=await stableCounts(ids);
     for(const {card} of resolved){
-      const count=spans.get(card);if(!count)continue;
-      const c=counts.get(String(card.dataset.matchId))||{players:0,cars:0};
+      const count=spans.get(card),c=counts.get(String(card.dataset.matchId));
+      if(!count||!c)continue;
       const text=` · Spelers: ${c.players} · Auto's: ${c.cars}`;
       if(count.textContent!==text)count.textContent=text;
     }
@@ -184,10 +192,10 @@ async function renderPresence(force=false){
       }
     }
     const rows=[...byId.values()].sort((a,b)=>`${d(a.m.date)}T${t(a.m.startTime)}`.localeCompare(`${d(b.m.date)}T${t(b.m.startTime)}`)),s=await client();
-    const [{data:attendance,error:ae},counts]=await Promise.all([s.from('attendance').select('foy_match_id,attending,driving,team_id').eq('member_id',c.member.id),matchCounts(rows.map(x=>Number(x.m.id)))]);if(ae)throw ae;
+    const [{data:attendance,error:ae},counts]=await Promise.all([s.from('attendance').select('foy_match_id,attending,driving,team_id').eq('member_id',c.member.id),stableCounts(rows.map(x=>Number(x.m.id)))]);if(ae)throw ae;
     const am=new Map((attendance||[]).map(x=>[String(x.foy_match_id),x]));
     target.innerHTML=`<div class="club-card-panel personal-presence-card"><h2>Aanwezigheid</h2><p>Ja/Nee geldt alleen voor jouw spelerteam(s). Bij uitwedstrijden kun je als speler of trainer aangeven dat je rijdt.</p><div class="club-list">${rows.length?rows.map(({m,team,isPlayer,isTrainer,away})=>{
-      const v=am.get(String(m.id)),cnt=counts.get(String(m.id))||{players:0,cars:0};
+      const v=am.get(String(m.id)),cnt=counts.get(String(m.id))||{players:'…',cars:'…'};
       const yesNo=isPlayer?`<button class="mini-button yes ${v?.attending===true?'selected':''}" data-presence-att="yes" data-match="${esc(m.id)}" data-team="${esc(team.id)}">Ja</button><button class="mini-button no ${v?.attending===false?'selected':''}" data-presence-att="no" data-match="${esc(m.id)}" data-team="${esc(team.id)}">Nee</button>`:'';
       const drive=away&&(isPlayer||isTrainer)?`<button class="mini-button drive-button ${v?.driving===true?'selected':''}" data-presence-drive data-match="${esc(m.id)}" data-team="${esc(team.id)}" data-player="${isPlayer?'1':'0'}">${v?.driving===true?'Ik rijd ✓':'Ik rijd'}</button>`:'';
       return `<div class="club-row"><strong>${esc(label(m,'home'))} — ${esc(label(m,'away'))}</strong><small>${esc(shortDate(m.date))} · ${esc(t(m.startTime))} · ${esc(m.accommodationName||'')}</small><small class="presence-counts">Spelers: ${cnt.players} · Auto's: ${cnt.cars}</small><div class="attendance-choice">${yesNo}${drive}</div></div>`;
