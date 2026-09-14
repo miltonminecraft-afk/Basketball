@@ -54,9 +54,9 @@ function argonTeamName(home,away){
 function hasTeam(list,team){return list.some(x=>String(x.id)===String(team.id))}
 function hasAllTeams(list){return list.some(x=>norm(x.team_name)==='alleteams')}
 
-async function ownDriving(matchId,memberId){
-  const s=await client(),{data}=await s.from('attendance').select('driving').eq('foy_match_id',Number(matchId)).eq('member_id',memberId).maybeSingle();
-  return data?.driving===true;
+async function ownState(matchId,memberId){
+  const s=await client(),{data}=await s.from('attendance').select('attending,driving').eq('foy_match_id',Number(matchId)).eq('member_id',memberId).maybeSingle();
+  return data||{attending:false,driving:false};
 }
 async function renderDrivers(matchId){
   const toggle=document.querySelector('#matchDetailBody .drive-toggle');
@@ -88,16 +88,15 @@ async function configure(matchId){
     const player=hasTeam(c.playerTeams,team);
     const trainer=!!c.member.is_trainer&&(hasTeam(c.trainerTeams,team)||hasAllTeams(c.trainerTeams));
 
-    // Spelers blijven volledig door de bestaande Agenda-code afgehandeld.
     if(player){clearTrainerBinding(input);return}
-    // Adminstatus op zichzelf geeft hier bewust geen rechten.
     if(!trainer){clearTrainerBinding(input);return}
 
     const away=isAway(dt.home,dt.away,detailLocation());
     if(toggle)toggle.style.display=away?'flex':'none';
     if(!input)return;
     input.disabled=!away;
-    input.checked=away&&await ownDriving(matchId,c.member.id);
+    const state=await ownState(matchId,c.member.id);
+    input.checked=away&&state.driving===true;
     if(!away){document.querySelector('#matchDetailBody .drivers-list')?.remove();return}
 
     const signature=`${matchId}:${team.id}`;
@@ -107,13 +106,15 @@ async function configure(matchId){
       input.onchange=async()=>{
         const checked=input.checked,s=await client();
         input.disabled=true;
+        const current=await ownState(matchId,c.member.id);
         const {data,error}=await s.rpc('set_match_attendance',{
-          p_match_id:Number(matchId),p_team_id:team.id,p_attending:false,p_driving:checked
+          p_match_id:Number(matchId),p_team_id:team.id,p_attending:checked?true:current.attending===true,p_driving:checked
         });
         input.disabled=false;
         if(error){input.checked=!checked;window.alert(error.message);return}
         input.checked=data?.driving===true;
         await renderDrivers(matchId);
+        document.dispatchEvent(new CustomEvent('basketball-attendance-changed',{detail:{matchId:Number(matchId)}}));
       };
     }
     await renderDrivers(matchId);
@@ -134,7 +135,6 @@ document.addEventListener('click',e=>{
   requestAnimationFrame(()=>waitForDetail(activeMatchId));
 },true);
 
-// Een admin krijgt Trainer-toegang, maar trainer-teams blijven apart bepalend voor rijrechten.
 document.addEventListener('change',e=>{
   if(e.target?.id!=='memberAdmin'||!e.target.checked)return;
   const trainer=document.getElementById('memberTrainer');
