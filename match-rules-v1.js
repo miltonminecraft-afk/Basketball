@@ -96,8 +96,10 @@ async function argonSide(m){
   return'';
 }
 async function classify(m){
+  const played=isPlayed(m);
+  if(played)return{played:true,side:'',away:false,home:false};
   const side=await argonSide(m);
-  return{played:isPlayed(m),side,away:side==='away',home:side==='home'};
+  return{played:false,side,away:side==='away',home:side==='home'};
 }
 
 function injectCss(){
