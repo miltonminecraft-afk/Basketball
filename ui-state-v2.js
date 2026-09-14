@@ -2,45 +2,14 @@
 'use strict';
 
 const KEY='basketballApp.uiState.v2';
-let restoring=false;
-let restoreTimer=0;
 
 function read(){try{return JSON.parse(localStorage.getItem(KEY)||'{}')}catch{return {}}}
 function write(state){try{localStorage.setItem(KEY,JSON.stringify(state))}catch{}}
-function activeMain(){return document.querySelector('.tab.active[data-view]')?.dataset.view||'agenda'}
-function activeClub(){return document.querySelector('#clubTabs button.active[data-clubview]')?.dataset.clubview||''}
-function activeAdmin(){return document.querySelector('#adminTabs button.active[data-adminview]')?.dataset.adminview||''}
-function save(){const state=read();state.main=activeMain();if(state.main==='club'){const club=activeClub();if(club)state.club=club;if(club==='admin'){const admin=activeAdmin();if(admin)state.admin=admin}}state.updatedAt=Date.now();write(state)}
-function restore(){
-  if(restoring)return;
-  restoring=true;
-  try{
-    const state=read();
-    const main=state.main||'agenda';
-    const mainTab=document.querySelector(`.tab[data-view="${CSS.escape(main)}"]`);
-    if(mainTab&&!mainTab.classList.contains('active'))mainTab.click();
-    if(main!=='club')return;
-
-    const club=String(state.club||'');
-    const clubBtn=club?document.querySelector(`#clubTabs [data-clubview="${CSS.escape(club)}"]`):null;
-    if(clubBtn&&!clubBtn.classList.contains('active'))clubBtn.click();
-
-    if(club==='admin'){
-      const admin=String(state.admin||'members');
-      const adminBtn=document.querySelector(`#adminTabs [data-adminview="${CSS.escape(admin)}"]`);
-      if(adminBtn&&!adminBtn.classList.contains('active'))adminBtn.click();
-    }
-  }finally{restoring=false}
-}
-function scheduleRestore(delay=30){clearTimeout(restoreTimer);restoreTimer=setTimeout(restore,delay)}
-function init(){
-  document.addEventListener('click',event=>{
-    if(event.target.closest?.('.tab[data-view],#clubTabs [data-clubview],#adminTabs [data-adminview]'))setTimeout(save,0);
-  },true);
-  document.addEventListener('basketball-club-structure-ready',()=>scheduleRestore(20));
-  window.addEventListener('pagehide',save);
-  document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden')save()});
-  scheduleRestore(40);
-}
+function sanitize(){const state=read();if(state.club==='clubagenda')state.club='admin';delete state.admin;write(state);return state}
+function applyStaticMain(){const state=read(),main=String(state.main||'agenda');if(main==='club')return;const tab=document.querySelector(`.tab[data-view="${CSS.escape(main)}"]`),view=document.getElementById(`view-${main}`);if(!tab||!view)return;document.querySelectorAll('.tab[data-view]').forEach(x=>x.classList.toggle('active',x===tab));document.querySelectorAll('.view').forEach(x=>x.classList.toggle('active',x===view))}
+function saveMain(name){const state=read();state.main=name;state.updatedAt=Date.now();write(state)}
+function saveClub(name){const state=read();state.main='club';state.club=name;state.updatedAt=Date.now();write(state)}
+function saveAdmin(name){const state=read();state.main='club';state.club='admin';state.admin=name;state.updatedAt=Date.now();write(state)}
+function init(){sanitize();applyStaticMain();document.addEventListener('click',event=>{const main=event.target.closest?.('.tab[data-view]');if(main){saveMain(main.dataset.view);return}const club=event.target.closest?.('#clubTabs [data-clubview]');if(club){saveClub(club.dataset.clubview);return}const admin=event.target.closest?.('#adminTabs [data-adminview]');if(admin)saveAdmin(admin.dataset.adminview)},true)}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
