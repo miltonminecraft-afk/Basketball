@@ -1,6 +1,6 @@
-const CACHE='basketball-agenda-v48';
+const CACHE='basketball-agenda-v49';
 const DATA_CACHE='basketball-foys-data-v1';
-const SHELL=['./','./index.html','./styles.css?v=3','./club.css?v=2','./all-teams.js?v=5','./app.js?v=3','./ui-state-v2.js?v=5','./club-v6.js?v=1','./admin-agenda-v4.js?v=1','./club-members-admin.js?v=6','./feed.js?v=6','./argon-ui.js?v=5','./final-fixes.js?v=2','./training-manager-v6.js?v=1','./agenda-polish.js?v=3','./manifest.webmanifest','./data/tasks.json'];
+const SHELL=['./','./index.html','./styles.css?v=3','./club.css?v=2','./all-teams.js?v=5','./app.js?v=3','./ui-state-v2.js?v=5','./club-v6.js?v=1','./admin-agenda-v4.js?v=1','./club-members-admin.js?v=6','./feed.js?v=6','./argon-ui.js?v=5','./final-fixes.js?v=2','./training-manager-v6.js?v=2','./agenda-polish.js?v=3','./manifest.webmanifest','./data/tasks.json'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE&&key!==DATA_CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()))});
 self.addEventListener('fetch',event=>{
