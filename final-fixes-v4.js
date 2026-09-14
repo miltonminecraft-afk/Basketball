@@ -219,12 +219,16 @@ async function applyCounts(){
       if(!pc){pc=document.createElement('span');pc.className='player-count';meta.appendChild(pc)}
       const c=counts.get(String(card.dataset.matchId))||{players:0,cars:0};
       const text=`Spelers: ${c.players} · Auto's: ${c.cars}`;
-      if(pc.textContent!==text)pc.textContent=text;
-      meta.querySelectorAll('.player-sep').forEach(x=>x.remove());
-      pc.remove();
-      const sep=document.createElement('span');sep.className='player-sep';sep.textContent=' · ';
       const br=meta.querySelector('br');
-      if(br){meta.insertBefore(sep,br);meta.insertBefore(pc,br)}else{meta.appendChild(sep);meta.appendChild(pc)}
+      const sepBefore=pc.previousElementSibling?.classList.contains('player-sep');
+      const placed=sepBefore&&(!br||pc.nextSibling===br);
+      if(pc.textContent!==text)pc.textContent=text;
+      if(!placed){
+        meta.querySelectorAll('.player-sep').forEach(x=>x.remove());
+        pc.remove();
+        const sep=document.createElement('span');sep.className='player-sep';sep.textContent=' · ';
+        if(br){meta.insertBefore(sep,br);meta.insertBefore(pc,br)}else{meta.appendChild(sep);meta.appendChild(pc)}
+      }
       pc.classList.add('player-count-inline-final');
     }
   }catch(e){console.warn('Speler/autotelling kon niet worden geladen',e)}
