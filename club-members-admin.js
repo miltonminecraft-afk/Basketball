@@ -42,6 +42,22 @@ function label(m,s){
 function teamGuid(m,s){
   return String(m?.[`${s}TeamGuid`]||m?.[`${s}Team`]?.guid||'');
 }
+function sideClubName(m,s){
+  return String(m?.[`${s}TeamSponsorClubName`]||m?.[`${s}Organisation`]?.name||m?.[`${s}ClubName`]||'').trim();
+}
+function sideTeamName(m,s){
+  return String(m?.[`${s}TeamName`]||m?.[`${s}Team`]?.name||'').trim();
+}
+function argonSide(m){
+  if(!m)return'';
+  const homeClub=norm(sideClubName(m,'home')),awayClub=norm(sideClubName(m,'away'));
+  if(homeClub==='svargon'||homeClub.startsWith('svargon'))return'home';
+  if(awayClub==='svargon'||awayClub.startsWith('svargon'))return'away';
+  const homeLabel=norm(label(m,'home')),awayLabel=norm(label(m,'away'));
+  if(homeLabel.startsWith('svargon'))return'home';
+  if(awayLabel.startsWith('svargon'))return'away';
+  return'';
+}
 function toast(m){
   const e=$('toast');
   if(!e)return alert(m);
@@ -98,10 +114,13 @@ async function matches(){
 
 function teamFromList(m,list){
   if(!m)return null;
-  const names=[m.homeTeamName,m.awayTeamName,m.homeTeam?.name,m.awayTeam?.name]
-    .filter(Boolean).map(norm);
-  const guids=[teamGuid(m,'home'),teamGuid(m,'away')].filter(Boolean);
-  return (list||[]).find(x=>guids.includes(String(x.foy_team_guid))||names.includes(norm(x.team_name)))||null;
+  const side=argonSide(m);
+  if(!side)return null;
+  const guid=teamGuid(m,side);
+  if(guid)return (list||[]).find(x=>String(x.foy_team_guid)===guid)||null;
+  const name=norm(sideTeamName(m,side));
+  if(!name)return null;
+  return (list||[]).find(x=>norm(x.team_name)===name)||null;
 }
 function teamFor(m){return teamFromList(m,teams)}
 function relationFor(m){
