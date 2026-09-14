@@ -1,1 +1,1 @@
-(()=>{'use strict';/* Trainingbeheer zit nu centraal in admin-agenda-v2.js. */})();
+import('./all-teams-v2.js?v=2');
