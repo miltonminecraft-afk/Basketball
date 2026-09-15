@@ -2,10 +2,10 @@
 'use strict';
 const U='https://elpnfmlrkoemjrnzaeok.supabase.co',K='sb_publishable_GPzLwaKeevg3e8CNjw9oAQ_50NW2xlg',FED='52cfa65e-9782-4a81-ab35-e2f981fcb7a9',ARGON='a4a2e2fa-0635-46a5-8969-1d0fef40444f',API='https://api.foys.io/competition/public-api/v1';
 const d=v=>String(v||'').slice(0,10),t=v=>String(v||'').slice(0,5);
-const norm=v=>window.BasketballTaskImportParsers?.norm?.(v)||String(v||'').toLowerCase().replace(/[^a-z0-9]/g,'');
+const norm=v=>window.BasketballTaskImportParsers?.norm?.(v)||String(v||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');
 const externalName=v=>/^(ouders?|inhuur|jury|nnb|ntb|vacature)\b/i.test(String(v||'').trim());
 let sb=null;
-const state={file:null,rows:[],matches:[],teams:[],members:[],events:[],resolved:[],missing:[],removed:[],busy:false};
+const state={file:null,rows:[],matches:[],teams:[],members:[],aliases:[],events:[],resolved:[],missing:[],removed:[],nameResolutions:{},busy:false};
 async function client(){if(sb)return sb;const mod=await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm');sb=mod.createClient(U,K,{auth:{persistSession:true,detectSessionInUrl:true,autoRefreshToken:true}});return sb}
 function season(){const n=new Date(),y=n.getMonth()>=6?n.getFullYear():n.getFullYear()-1;return{start:`${y}-07-01`,end:`${y+1}-06-30`}}
 function label(m,s){return [m?.[`${s}TeamSponsorClubName`]||m?.[`${s}Organisation`]?.name,m?.[`${s}TeamName`]||m?.[`${s}Team`]?.name].filter(Boolean).join(' ').trim()}
@@ -13,12 +13,35 @@ function teamGuid(m,s){return String(m?.[`${s}TeamGuid`]||m?.[`${s}Team`]?.guid|
 function side(home,away){if(norm(home).startsWith('svargon'))return'home';if(norm(away).startsWith('svargon'))return'away';return''}
 function pairKey(h,a){return`${norm(h)}|${norm(a)}`}
 function sameName(a,b){return norm(a)===norm(b)}
+function aliasForName(name){const key=norm(name);return state.aliases.find(a=>String(a.alias_key||'')===key)||null}
+function memberById(id){return state.members.find(m=>String(m.id)===String(id))||null}
 function memberForName(name){
  const raw=String(name||'').trim();let hit=state.members.find(m=>sameName(m.full_name,raw));if(hit)return hit;
- if(/\/[a-z]\d+$/i.test(raw)){const base=raw.replace(/\/[a-z]\d+$/i,'').trim();hit=state.members.find(m=>sameName(m.full_name,base))}
- return hit||null;
+ const alias=aliasForName(raw);if(alias){hit=memberById(alias.member_id);if(hit)return hit}
+ if(/\/[a-z]\d+$/i.test(raw)){
+  const base=raw.replace(/\/[a-z]\d+$/i,'').trim();hit=state.members.find(m=>sameName(m.full_name,base));if(hit)return hit;
+  const a=aliasForName(base);if(a){hit=memberById(a.member_id);if(hit)return hit}
+ }
+ return null;
 }
-function canonicalName(name){return memberForName(name)?.full_name||String(name||'').trim()}
+function words(v){return String(v||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim().split(/\s+/).filter(Boolean)}
+function lev(a,b){a=String(a||'');b=String(b||'');if(a===b)return 0;if(!a.length)return b.length;if(!b.length)return a.length;let prev=Array.from({length:b.length+1},(_,i)=>i);for(let i=1;i<=a.length;i++){const cur=[i];for(let j=1;j<=b.length;j++)cur[j]=Math.min(cur[j-1]+1,prev[j]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1));prev=cur}return prev[b.length]}
+function fuzzyScore(name,member){
+ const a=norm(name),b=norm(member?.full_name);if(!a||!b)return 0;if(a===b)return 1;
+ let s=1-lev(a,b)/Math.max(a.length,b.length);
+ const aw=words(name),bw=words(member?.full_name),al=aw.at(-1)||'',bl=bw.at(-1)||'';
+ if(al&&bl&&al===bl)s+=0.18;
+ if(aw[0]&&bw[0]&&aw[0][0]===bw[0][0])s+=0.05;
+ if(aw.length&&bw.length){const common=aw.filter(x=>bw.includes(x)).length;s+=Math.min(.12,common/Math.max(aw.length,bw.length)*.12)}
+ return Math.min(1,s);
+}
+function candidateMembers(name){return state.members.map(m=>({member:m,score:fuzzyScore(name,m)})).filter(x=>x.score>=.45).sort((a,b)=>b.score-a.score||String(a.member.full_name).localeCompare(String(b.member.full_name),'nl')).slice(0,6).map(x=>x.member)}
+function choiceFor(name){return state.nameResolutions[norm(name)]||null}
+function canonicalName(name){
+ const known=memberForName(name);if(known)return known.full_name;
+ const choice=choiceFor(name);if(choice?.action==='member'){const m=memberById(choice.member_id);if(m)return m.full_name}
+ return String(name||'').trim();
+}
 function softScore(row,m){
  let s=0;if(d(row.date)===d(m.date))s+=4;if(t(row.startTime)===t(m.startTime))s+=2;
  const rl=norm(row.location),ml=norm(m.accommodationName);if(rl&&ml&&(rl===ml||rl.includes(ml)||ml.includes(rl)))s++;
@@ -49,29 +72,40 @@ function resolveRow(row,index){
 function recompute(){
  state.resolved=state.rows.map(resolveRow);
  const names=[...new Set(state.rows.flatMap(r=>[...r.referees,...r.table]).map(x=>String(x||'').trim()).filter(Boolean))];
- state.missing=names.filter(n=>!externalName(n)&&!memberForName(n));
+ state.missing=names.filter(n=>!externalName(n)&&!memberForName(n)).map(name=>({name,key:norm(name),candidates:candidateMembers(name)}));
+ const validKeys=new Set(state.missing.map(x=>x.key));for(const k of Object.keys(state.nameResolutions))if(!validKeys.has(k))delete state.nameResolutions[k];
  const imported=new Set(state.resolved.map(x=>x.event?.id).filter(Boolean)),teams=new Set(state.resolved.map(x=>x.team?.id).filter(Boolean)),dates=state.rows.map(r=>d(r.date)).filter(Boolean).sort(),min=dates[0]||'',max=dates.at(-1)||'';
  state.removed=state.events.filter(e=>e.active!==false&&teams.has(e.team_id)&&!imported.has(e.id)&&(!min||d(e.event_date)>=min)&&(!max||d(e.event_date)<=max));
  return state;
 }
+function setNameResolution(name,value){
+ const key=norm(name);if(!key)return;
+ if(!value){delete state.nameResolutions[key];return recompute()}
+ if(value==='new')state.nameResolutions[key]={source_name:String(name).trim(),alias_key:key,action:'new'};
+ else if(String(value).startsWith('member:'))state.nameResolutions[key]={source_name:String(name).trim(),alias_key:key,action:'member',member_id:String(value).slice(7)};
+ else delete state.nameResolutions[key];
+ return recompute();
+}
 async function loadData(){
  const s=await client(),{data:{session}}=await s.auth.getSession();if(!session)throw Error('Niet ingelogd.');
  const {data:me,error:meErr}=await s.rpc('sync_current_member');if(meErr)throw meErr;if(me?.role!=='admin')throw Error('Alleen admins mogen importeren.');
- const [tr,mr,er]=await Promise.all([s.from('teams').select('*').eq('active',true),s.from('members').select('id,full_name,email,active').eq('active',true),s.from('task_events').select('*,task_assignments(*)').eq('active',true)]);
- for(const r of [tr,mr,er])if(r.error)throw r.error;state.teams=tr.data||[];state.members=mr.data||[];state.events=er.data||[];
+ const [tr,mr,er,ar]=await Promise.all([s.from('teams').select('*').eq('active',true),s.from('members').select('id,full_name,email,active').eq('active',true),s.from('task_events').select('*,task_assignments(*)').eq('active',true),s.rpc('get_member_name_aliases')]);
+ for(const r of [tr,mr,er,ar])if(r.error)throw r.error;state.teams=tr.data||[];state.members=mr.data||[];state.events=er.data||[];state.aliases=ar.data||[];
  const q=season(),all=[];let skip=0,total=Infinity;
  while(skip<total){const p=new URLSearchParams({startDate:q.start,endDate:q.end,teamGuid:`all-${ARGON}`,skipCount:String(skip),maxResultCount:'100',sorting:'date asc, startTime asc'}),r=await fetch(`${API}/matches?${p}`,{headers:{Accept:'application/json','X-FederationID':FED},cache:'no-store'});if(!r.ok)throw Error('Basketball.nl-wedstrijden konden niet worden opgehaald.');const j=await r.json(),part=Array.isArray(j?.items)?j.items:[];all.push(...part);total=Number(j?.totalCount)||part.length;skip+=part.length;if(!part.length||part.length<100)break}
  state.matches=all;return state;
 }
 function chooseMatch(index,id){const row=state.resolved[index];if(!row)return;row.match=state.matches.find(x=>String(x.id)===String(id))||null;row.ambiguous=row.match?[]:row.ambiguous;return recompute()}
-async function apply(createMembers){
+function unresolvedNames(){return state.missing.filter(x=>!state.nameResolutions[x.key])}
+async function apply(){
  if(state.busy)return;state.busy=true;
  try{
   if(state.resolved.some(x=>x.ambiguous.length&&!x.match))throw Error('Kies eerst de onduidelijke wedstrijden.');
+  if(unresolvedNames().length)throw Error('Controleer eerst alle onbekende namen.');
   const rows=state.resolved.map(x=>({event_id:x.event?.id||null,team_id:x.team?.id||null,foy_match_id:x.match?.id||x.event?.foy_match_id||null,event_date:x.row.date,arrival_time:x.row.arrivalTime,start_time:x.row.startTime,home:x.row.home,away:x.row.away,location:x.row.location,field:x.row.field,referees:x.row.referees.map(canonicalName),table:x.row.table.map(canonicalName),changes:x.changes}));
-  const s=await client(),{data,error}=await s.rpc('apply_task_schedule_import',{p_source_name:state.file?.name||'Takenschema',p_source_type:state.file?.name?.split('.').pop()?.toLowerCase()||'',p_rows:rows,p_create_members:createMembers||[],p_removed_event_ids:state.removed.map(x=>x.id)});
+  const resolutions=state.missing.map(x=>state.nameResolutions[x.key]).filter(Boolean),s=await client(),{data,error}=await s.rpc('apply_task_schedule_import_v2',{p_source_name:state.file?.name||'Takenschema',p_source_type:state.file?.name?.split('.').pop()?.toLowerCase()||'',p_rows:rows,p_name_resolutions:resolutions,p_removed_event_ids:state.removed.map(x=>x.id)});
   if(error)throw error;return data;
  }finally{state.busy=false}
 }
-window.BasketballTaskImportEngine={state,loadData,recompute,chooseMatch,apply,canonicalName,formatMatch:m=>`${d(m.date)} ${t(m.startTime)} · ${label(m,'home')} — ${label(m,'away')}`};
+window.BasketballTaskImportEngine={state,loadData,recompute,chooseMatch,setNameResolution,apply,canonicalName,memberForName,formatMatch:m=>`${d(m.date)} ${t(m.startTime)} · ${label(m,'home')} — ${label(m,'away')}`};
 })();
