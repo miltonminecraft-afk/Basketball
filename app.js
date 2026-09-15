@@ -41,6 +41,8 @@
   let updateMeta={mode:'loading',updatedAt:null,message:'Verbinden met Basketball.nl…'};
   let toastTimer=null;
   let searchTimer=null;
+  let syncRevision=0;
+  let syncController=null;
 
   function readJson(key,fallback){
     try{const value=localStorage.getItem(key);return value?JSON.parse(value):fallback}catch{return fallback}
@@ -214,6 +216,12 @@
       teamLogo:team.logoUrl||club.logoUrl||''
     };
     writeJson(STORE.selection,selection);
+    if(syncController){syncController.abort();syncController=null}
+    syncRevision++;
+    matches=[];
+    updateMeta={mode:'loading',updatedAt:null,message:'Live gegevens ophalen…'};
+    document.dispatchEvent(new CustomEvent('basketball-team-selection-changing',{detail:{teamGuid:selection.teamGuid}}));
+    renderAll();
     currentClubTeams=[];
     closeTeamModal();
     await loadCurrentClubTeams();
@@ -238,8 +246,14 @@
   function closeTeamModal(){E.teamModal.classList.remove('open');E.teamModal.setAttribute('aria-hidden','true')}
 
   async function syncMatches(){
+    const revision=++syncRevision;
+    if(syncController)syncController.abort();
+    const controller=new AbortController();
+    syncController=controller;
+    const targetGuid=String(selection.teamGuid||'');
+    const isCurrent=()=>revision===syncRevision&&String(selection.teamGuid||'')===targetGuid;
     const range=seasonRange();
-    const cacheKey=STORE.cachePrefix+selection.teamGuid;
+    const cacheKey=STORE.cachePrefix+targetGuid;
     E.syncBtn.disabled=true;
     E.syncBtn.textContent='Laden…';
     updateMeta={...updateMeta,mode:'loading',message:'Live gegevens ophalen…'};
@@ -249,19 +263,23 @@
       let skip=0,total=Infinity;
       const pageSize=100;
       while(skip<total){
-        const params=new URLSearchParams({startDate:range.start,endDate:range.end,teamGuid:selection.teamGuid,skipCount:String(skip),maxResultCount:String(pageSize),sorting:'date asc, startTime asc'});
-        const data=await fetchJson(`${PUBLIC_API}/matches?${params}`,{headers:apiHeaders()});
+        if(!isCurrent())return;
+        const params=new URLSearchParams({startDate:range.start,endDate:range.end,teamGuid:targetGuid,skipCount:String(skip),maxResultCount:String(pageSize),sorting:'date asc, startTime asc'});
+        const data=await fetchJson(`${PUBLIC_API}/matches?${params}`,{headers:apiHeaders(),signal:controller.signal});
+        if(!isCurrent())return;
         const items=Array.isArray(data?.items)?data.items:[];
         total=Number.isFinite(Number(data?.totalCount))?Number(data.totalCount):items.length;
         collected.push(...items);
         skip+=items.length;
         if(!items.length||items.length<pageSize)break;
       }
+      if(!isCurrent())return;
       matches=collected.sort((a,b)=>eventKey(a).localeCompare(eventKey(b)));
       const updatedAt=Date.now();
       writeJson(cacheKey,{updatedAt,matches});
       updateMeta={mode:'online',updatedAt,message:`Online · ${matches.length} wedstrijden`};
     }catch(error){
+      if(error?.name==='AbortError'||!isCurrent())return;
       console.error('Live synchronisatie mislukt',error);
       const cached=readJson(cacheKey,null);
       if(cached?.matches){
@@ -272,9 +290,12 @@
         updateMeta={mode:'error',updatedAt:null,message:'Online gegevens niet bereikbaar'};
       }
     }finally{
+      if(syncController===controller)syncController=null;
+      if(!isCurrent())return;
       E.syncBtn.disabled=false;
       E.syncBtn.textContent='Synchroniseren';
       renderAll();
+      document.dispatchEvent(new CustomEvent('basketball-team-data-rendered',{detail:{teamGuid:targetGuid,revision}}));
     }
   }
 
