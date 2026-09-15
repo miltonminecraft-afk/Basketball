@@ -32,38 +32,58 @@ async function parseExcel(file){
  if(teamIdx.length<2)throw Error('Twee Team-kolommen zijn niet gevonden.');
  return rows.slice(hi+1).map(r=>makeRow({date:r[di],arrival:r[ai],start:r[si],home:r[teamIdx[0]],away:r[teamIdx[1]],field:r[fi],location:r[li],officials:r.slice(oi>=0?oi:Math.max(fi,li)+1)})).filter(r=>r.date&&r.startTime&&r.home&&r.away);
 }
+function splitCombinedItem(item,bounds){
+ const text=String(item.text||'').trim(),x=Number(item.x)||0,w=Math.max(Number(item.w)||0,1),end=x+w;
+ const cuts=(bounds||[]).filter(c=>c>x+1&&c<end-1).sort((a,b)=>a-b);
+ if(!text||!cuts.length)return[{...item,text}];
+ const spaces=[...text.matchAll(/\s+/g)].map(m=>m.index+m[0].length).filter(i=>i>0&&i<text.length),picked=[];
+ let last=0;
+ for(const cut of cuts){
+  const rough=Math.round(((cut-x)/w)*text.length),candidates=spaces.filter(i=>i>last+1&&i<text.length-1);
+  let idx=candidates.length?candidates.reduce((best,i)=>Math.abs(i-rough)<Math.abs(best-rough)?i:best,candidates[0]):Math.max(last+1,Math.min(text.length-1,rough));
+  if(Math.abs(idx-rough)>8)idx=Math.max(last+1,Math.min(text.length-1,rough));
+  if(idx<=last)continue;picked.push({idx,cut});last=idx;
+ }
+ const out=[];let pos=0,px=x;
+ for(const p of picked){const part=text.slice(pos,p.idx).trim();if(part)out.push({text:part,x:px,y:item.y,w:Math.max(1,p.cut-px)});pos=p.idx;px=p.cut}
+ const tail=text.slice(pos).trim();if(tail)out.push({text:tail,x:px,y:item.y,w:Math.max(1,end-px)});
+ return out;
+}
 async function parsePdf(file){
  const pdfjs=await import('https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/pdf.min.mjs');
  pdfjs.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/pdf.worker.min.mjs';
  const pdf=await pdfjs.getDocument({data:new Uint8Array(await file.arrayBuffer())}).promise,out=[];
  for(let p=1;p<=pdf.numPages;p++){
-  const page=await pdf.getPage(p),tc=await page.getTextContent(),items=tc.items.map(i=>({text:String(i.str||'').trim(),x:i.transform[4],y:i.transform[5],w:Number(i.width)||0})).filter(i=>i.text);
-  const header=(name,n=0)=>items.filter(i=>norm(i.text)===name).sort((a,b)=>a.x-b.x)[n];
-  const datum=header('datum'),aanvang=header('aanvang'),start=header('starttijd'),team1=header('team',0),field=header('veld'),loc=header('sporthal'),officials=header('officials');
-  if(!datum||!aanvang||!start||!team1||!field||!loc||!officials)continue;
-  const dateCut=(datum.x+aanvang.x)/2,arrivalCut=(aanvang.x+start.x)/2,startCut=(start.x+team1.x)/2,fieldCut=field.x-5,locCut=loc.x-3,offCut=officials.x-5;
-  const groups=[];
-  for(const it of items.sort((a,b)=>b.y-a.y||a.x-b.x)){let g=groups.find(x=>Math.abs(x.y-it.y)<2.2);if(!g){g={y:it.y,items:[]};groups.push(g)}g.items.push(it)}
+  const page=await pdf.getPage(p),tc=await page.getTextContent(),items=tc.items.map(i=>({text:String(i.str||'').trim(),x:Number(i.transform?.[4])||0,y:Number(i.transform?.[5])||0,w:Number(i.width)||0})).filter(i=>i.text);
+  const exact=name=>items.filter(i=>norm(i.text)===name).sort((a,b)=>b.y-a.y||a.x-b.x)[0];
+  const field=exact('veld'),loc=exact('sporthal')||exact('locatie'),officials=exact('officials');
+  if(!field||!loc||!officials)continue;
+  const fieldStart=field.x-8,locStart=loc.x-8,offStart=officials.x-4,groups=[];
+  for(const it of [...items].sort((a,b)=>b.y-a.y||a.x-b.x)){let g=groups.find(x=>Math.abs(x.y-it.y)<2.2);if(!g){g={y:it.y,items:[]};groups.push(g)}g.items.push(it)}
   const dataGroups=groups.filter(g=>/\d{1,2}[-/.]\d{1,2}[-/.]\d{4}/.test(g.items.map(i=>i.text).join(' '))),freq=new Map();
-  for(const it of dataGroups.flatMap(g=>g.items).filter(i=>i.x>=offCut)){const k=Math.round(it.x/2)*2;freq.set(k,(freq.get(k)||0)+1)}
+  for(const it of dataGroups.flatMap(g=>g.items).filter(i=>i.x>=offStart)){const k=Math.round(it.x/2)*2;freq.set(k,(freq.get(k)||0)+1)}
   const anchors=[];
-  for(const [x,count] of [...freq.entries()].sort((a,b)=>b[1]-a[1]||a[0]-b[0])){if(count<2)continue;if(anchors.every(a=>Math.abs(a-x)>35))anchors.push(x);if(anchors.length>=6)break}
+  for(const [x,count] of [...freq.entries()].sort((a,b)=>b[1]-a[1]||a[0]-b[0])){if(count<2)continue;if(anchors.every(a=>Math.abs(a-x)>25))anchors.push(x);if(anchors.length>=6)break}
+  if(anchors.every(a=>Math.abs(a-officials.x)>18))anchors.push(officials.x);
   anchors.sort((a,b)=>a-b);
+  if(!anchors.length)anchors.push(officials.x);
   for(const g of dataGroups){
-   const its=[...g.items].sort((a,b)=>a.x-b.x),dateItems=its.filter(i=>i.x<dateCut),arrivalItems=its.filter(i=>i.x>=dateCut&&i.x<arrivalCut),startItems=its.filter(i=>i.x>=arrivalCut&&i.x<startCut),teamItems=its.filter(i=>i.x>=startCut&&i.x<fieldCut),vs=teamItems.findIndex(i=>norm(i.text)==='vs');
+   const its=[...g.items].sort((a,b)=>a.x-b.x),pre=its.filter(i=>i.x<fieldStart).map(i=>i.text).join(' ').replace(/\s+/g,' ').trim(),dateMatch=pre.match(/(\d{1,2}[-/.]\d{1,2}[-/.]\d{4})/g),times=[...pre.matchAll(/(?<!\d)(\d{1,2})[:.](\d{2})(?!\d)/g)];
+   if(!dateMatch?.length||times.length<2)continue;
+   const teamText=pre.slice(times[1].index+times[1][0].length).trim(),vs=teamText.search(/\bVS\b/i);
    if(vs<0)continue;
-   const fieldItems=its.filter(i=>i.x>=fieldCut&&i.x<locCut),locItems=its.filter(i=>i.x>=locCut&&i.x<offCut),offItems=its.filter(i=>i.x>=offCut);
-   let names=[];
-   if(anchors.length){
-    let cur=[],active=-1;
-    for(const it of offItems){const a=anchors.findIndex(x=>Math.abs(it.x-x)<=8);if(a>=0&&cur.length&&a!==active){names.push(cur.join(' ').trim());cur=[]}if(a>=0)active=a;cur.push(it.text)}
-    if(cur.length)names.push(cur.join(' ').trim());
-   }else{
-    let cur=[],prev=null;
-    for(const it of offItems){if(cur.length&&prev!==null&&it.x-prev>10){names.push(cur.map(x=>x.text).join(' '));cur=[]}cur.push(it);prev=it.x+it.w}
-    if(cur.length)names.push(cur.map(x=>x.text).join(' '));
+   const home=teamText.slice(0,vs).trim(),away=teamText.slice(vs).replace(/^\s*VS\s*/i,'').trim();
+   if(!home||!away)continue;
+   const fieldText=its.filter(i=>i.x>=fieldStart&&i.x<locStart).map(i=>i.text).join(' ').replace(/\s+/g,' ').trim(),frags=[];
+   for(const it of its){if(it.x+it.w<locStart)continue;frags.push(...splitCombinedItem(it,anchors))}
+   const firstAnchor=anchors[0],location=frags.filter(f=>f.x>=locStart&&f.x<firstAnchor-8).map(f=>f.text).join(' ').replace(/\s+/g,' ').trim(),slots=Array.from({length:anchors.length},()=>[]);
+   for(const f of frags){
+    if(f.x<firstAnchor-8)continue;
+    let slot=0;
+    for(let i=anchors.length-1;i>=0;i--){if(f.x>=anchors[i]-8){slot=i;break}}
+    slots[slot].push(f.text);
    }
-   const row=makeRow({date:dateItems.map(i=>i.text).join(' '),arrival:arrivalItems.map(i=>i.text).join(' '),start:startItems.map(i=>i.text).join(' '),home:teamItems.slice(0,vs).map(i=>i.text).join(' '),away:teamItems.slice(vs+1).map(i=>i.text).join(' '),field:fieldItems.map(i=>i.text).join(' '),location:locItems.map(i=>i.text).join(' '),officials:names});
+   const names=slots.map(s=>s.join(' ').replace(/\s+/g,' ').trim()).filter(Boolean),row=makeRow({date:dateMatch[0],arrival:times[0][0],start:times[1][0],home,away,field:fieldText,location,officials:names});
    if(row.date&&row.startTime&&row.home&&row.away)out.push(row);
   }
  }
