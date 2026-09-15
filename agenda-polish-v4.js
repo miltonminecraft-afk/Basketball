@@ -11,7 +11,7 @@ const $=id=>document.getElementById(id);
 const esc=v=>String(v??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));
 const d=v=>String(v||'').slice(0,10),t=v=>String(v||'').slice(0,5);
 const norm=v=>String(v||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');
-let sb=null,ctx=null,ctxAt=0,rendering=false,timer=null,taskCache=null;
+let sb=null,ctx=null,ctxAt=0,rendering=false,timer=null,taskCache=null,appTeamChanging=false;
 const matchCache=new Map(),logoCache=new Map(),clubLogoCache=new Map(),orgTeamsCache=new Map();
 let agendaObserver=null,gamesObserver=null;
 function selection(){try{return JSON.parse(localStorage.getItem(STORE)||'null')}catch{return null}}
@@ -52,11 +52,34 @@ async function polishMatches(map){const cards=[...document.querySelectorAll('#ag
 function pauseObservers(){agendaObserver?.disconnect();gamesObserver?.disconnect()}
 function resumeObservers(){const a=$('agendaList'),g=$('gamesList');if(a&&agendaObserver)agendaObserver.observe(a,{childList:true,subtree:true});if(g&&gamesObserver)gamesObserver.observe(g,{childList:true,subtree:true})}
 async function render(force=false){
- const root=$('agendaList');if(!root||rendering)return;rendering=true;pauseObservers();
- try{injectCss();cleanupClubAgenda();if(force){ctx=null;ctxAt=0;matchCache.clear()}const c=await context(force),sel=selection(),allSelected=String(sel?.teamGuid||'').startsWith('all-');const extraGuids=new Set([...c.memberTeams,...c.trainerTeams].map(x=>String(x.foy_team_guid||'')).filter(Boolean));if(sel?.teamGuid&&!allSelected)extraGuids.add(String(sel.teamGuid));await Promise.all([...extraGuids].map(teamMatches));let map=matchMap();await tagDays(root,map);root.querySelectorAll('.agenda-training,.agenda-extra-match').forEach(x=>x.remove());const existing=new Set([...root.querySelectorAll('[data-match-id]')].map(x=>String(x.dataset.matchId))),personalGuids=new Set([...c.memberTeams,...c.trainerTeams].map(x=>String(x.foy_team_guid||'')).filter(Boolean));for(const g of personalGuids)for(const m of matchCache.get(g)||[]){if(existing.has(String(m.id)))continue;existing.add(String(m.id));findDay(root,d(m.date)).insertAdjacentHTML('beforeend',extraMatchCard(m))}map=matchMap();await tagDays(root,map);const selectedTeam=c.allTeams.find(x=>String(x.foy_team_guid)===String(sel?.teamGuid||'')),relevantIds=new Set([...c.memberTeams,...c.trainerTeams].map(x=>x.id));if(selectedTeam)relevantIds.add(selectedTeam.id);const visibleSlots=c.slots.filter(slot=>allSelected||slot.team_id==null||!slot.teams||relevantIds.has(slot.team_id)),today=new Date().toISOString().slice(0,10);for(const o of trainingOccurrences(c,visibleSlots,today))findDay(root,o.date).insertAdjacentHTML('beforeend',trainingCard(o));await polishMatches(map);sortAgenda(root)}catch(e){console.warn('Agenda kon niet worden aangevuld',e)}finally{rendering=false;resumeObservers();document.dispatchEvent(new CustomEvent('basketball-agenda-polished'))}
+ const root=$('agendaList');if(!root||rendering||appTeamChanging||$('sourceStatus')?.classList.contains('status-loading'))return;rendering=true;pauseObservers();
+ try{
+  injectCss();cleanupClubAgenda();if(force){ctx=null;ctxAt=0;matchCache.clear()}
+  const c=await context(force),sel=selection(),allSelected=String(sel?.teamGuid||'').startsWith('all-');
+  let map=matchMap();
+  await tagDays(root,map);
+  root.querySelectorAll('.agenda-training,.agenda-extra-match').forEach(x=>x.remove());
+  map=matchMap();
+  await tagDays(root,map);
+  const selectedTeam=c.allTeams.find(x=>String(x.foy_team_guid)===String(sel?.teamGuid||''));
+  const visibleSlots=allSelected?c.slots:(selectedTeam?c.slots.filter(slot=>String(slot.team_id)===String(selectedTeam.id)):[]);
+  const today=new Date().toISOString().slice(0,10);
+  for(const o of trainingOccurrences(c,visibleSlots,today))findDay(root,o.date).insertAdjacentHTML('beforeend',trainingCard(o));
+  await polishMatches(map);
+  sortAgenda(root);
+ }catch(e){console.warn('Agenda kon niet worden aangevuld',e)}finally{rendering=false;resumeObservers();document.dispatchEvent(new CustomEvent('basketball-agenda-polished'))}
 }
 function schedule(force=false,delay=220){clearTimeout(timer);timer=setTimeout(()=>render(force),delay)}
-function installObservers(){agendaObserver=new MutationObserver(muts=>{if(rendering)return;if(muts.some(m=>m.addedNodes.length||m.removedNodes.length))schedule(false,180)});gamesObserver=new MutationObserver(muts=>{if(rendering)return;if(muts.some(m=>m.addedNodes.length||m.removedNodes.length))schedule(false,180)});resumeObservers()}
-function init(){injectCss();installObservers();schedule(true,450);$('teamSelect')?.addEventListener('change',()=>schedule(true,500));$('personSelect')?.addEventListener('change',()=>schedule(false,250));$('syncBtn')?.addEventListener('click',()=>schedule(true,1000));document.addEventListener('click',e=>{if(e.target.closest('.tab[data-view="agenda"],.tab[data-view="games"]'))schedule(false,120);if(e.target.closest('.tab[data-view="club"],[data-view="club"]'))setTimeout(cleanupClubAgenda,160)},true);document.addEventListener('basketball-attendance-changed',()=>schedule(false,120));document.addEventListener('training-data-changed',()=>{ctx=null;ctxAt=0;schedule(true,80)});setTimeout(cleanupClubAgenda,700)}
+function installObservers(){agendaObserver=new MutationObserver(muts=>{if(rendering||appTeamChanging)return;if(muts.some(m=>m.addedNodes.length||m.removedNodes.length))schedule(false,180)});gamesObserver=new MutationObserver(muts=>{if(rendering||appTeamChanging)return;if(muts.some(m=>m.addedNodes.length||m.removedNodes.length))schedule(false,180)});resumeObservers()}
+function init(){
+ injectCss();installObservers();schedule(true,450);
+ $('personSelect')?.addEventListener('change',()=>schedule(false,250));
+ document.addEventListener('basketball-team-selection-changing',()=>{appTeamChanging=true;clearTimeout(timer);$('agendaList')?.querySelectorAll('.agenda-training,.agenda-extra-match').forEach(x=>x.remove())});
+ document.addEventListener('basketball-team-data-rendered',()=>{appTeamChanging=false;ctx=null;ctxAt=0;matchCache.clear();schedule(true,40)});
+ document.addEventListener('click',e=>{if(e.target.closest('.tab[data-view="agenda"],.tab[data-view="games"]'))schedule(false,120);if(e.target.closest('.tab[data-view="club"],[data-view="club"]'))setTimeout(cleanupClubAgenda,160)},true);
+ document.addEventListener('basketball-attendance-changed',()=>schedule(false,120));
+ document.addEventListener('training-data-changed',()=>{ctx=null;ctxAt=0;schedule(true,80)});
+ setTimeout(cleanupClubAgenda,700);
+}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
