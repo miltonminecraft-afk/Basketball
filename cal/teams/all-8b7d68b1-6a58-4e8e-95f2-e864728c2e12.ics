@@ -82,8 +82,8 @@ UID:foys-match-498918@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T103000
 DURATION:PT2H
-SUMMARY:BV Amsterdam M16-3 - MBCA A'veen M16-3
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498918
+SUMMARY:BV Amsterdam M16-3 71 - 69 MBCA A'veen M16-3
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 71 - 69\nFOYS wedstrijd-ID: 498918
 LOCATION:Bibian Mentel Sporthal\, Foekje Dillemastraat 118\, 1095 MK Amsterdam
 STATUS:CONFIRMED
 END:VEVENT
@@ -92,8 +92,8 @@ UID:foys-match-496501@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T110000
 DURATION:PT2H
-SUMMARY:BV Oegstgeest X14-1 - MBCA A'veen X14-3
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496501
+SUMMARY:BV Oegstgeest X14-1 61 - 46 MBCA A'veen X14-3
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 61 - 46\nFOYS wedstrijd-ID: 496501
 LOCATION:Sporthal De Cuyl\, de Voscuyl 36\, 2341BJ OEGSTGEEST
 STATUS:CONFIRMED
 END:VEVENT
@@ -102,8 +102,8 @@ UID:foys-match-493458@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T113000
 DURATION:PT2H
-SUMMARY:Woodpeckers X12-2 - MBCA A'veen X12-3
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493458
+SUMMARY:Woodpeckers X12-2 70 - 21 MBCA A'veen X12-3
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 70 - 21\nFOYS wedstrijd-ID: 493458
 LOCATION:De Slinger\, Kamillehof 24\, 3991GZ HOUTEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -122,8 +122,8 @@ UID:foys-match-493379@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T124500
 DURATION:PT2H
-SUMMARY:MBCA A'veen X12-2 - BV Hoofddorp X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493379
+SUMMARY:MBCA A'veen X12-2 48 - 33 BV Hoofddorp X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 48 - 33\nFOYS wedstrijd-ID: 493379
 LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -132,8 +132,8 @@ UID:foys-match-496905@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T141500
 DURATION:PT2H
-SUMMARY:VBC Akrides X14-1 - MBCA A'veen X14-2
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496905
+SUMMARY:VBC Akrides X14-1 84 - 29 MBCA A'veen X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 84 - 29\nFOYS wedstrijd-ID: 496905
 LOCATION:Sporthal IJmuiden-Oost\, Tiberiusplein 6\, 1971HN IJMUIDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -1488,16 +1488,6 @@ LOCATION:Sportcentrum Quelderduijn\, Schootenweg 2\, 1785LV DEN HELDER
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-492054@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261024T124500
-DURATION:PT2H
-SUMMARY:MBCA A'veen X10-1 - GBI van Dijk Grasshoppers X10-1
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492054
-LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-498942@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T124500
@@ -2062,7 +2052,7 @@ UID:foys-match-494500@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T143000
 DURATION:PT2H
-SUMMARY:MBCA A'veen X12-4 - Novo Stars X12-1
+SUMMARY:MBCA A'veen X12-4 - Novo Stars X12-1*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494500
 LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
 STATUS:CONFIRMED
@@ -2395,16 +2385,6 @@ DURATION:PT2H
 SUMMARY:MBCA A'veen X12-3 - ABC Amigos X12-2
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493495
 LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-496951@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261115T111500
-DURATION:PT2H
-SUMMARY:Landslake Lions X14-2 - MBCA A'veen X14-2
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496951
-LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -3524,6 +3504,16 @@ DTSTART;TZID=Europe/Amsterdam:20261213T173000
 DURATION:PT2H
 SUMMARY:MBCA A'veen M16-1 - BC Triple ThreaT M16-1
 DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 495367
+LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492054@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261219T124500
+DURATION:PT2H
+SUMMARY:MBCA A'veen X10-1 - GBI van Dijk Grasshoppers X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492054
 LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
 STATUS:CONFIRMED
 END:VEVENT

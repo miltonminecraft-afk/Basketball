@@ -408,6 +408,16 @@ LOCATION:Sporthal Gaslaan\, Gaslaan 200\, 2562LN 'S-GRAVENHAGE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-501090@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T124000
+DURATION:PT2H
+SUMMARY:NIEUW Generation Basketball M18-1 - HBV The Jumpers M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501090
+LOCATION:Sporthal Gaslaan\, Gaslaan 200\, 2562LN 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-502994@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T130000
@@ -424,16 +434,6 @@ DTSTART;TZID=Europe/Amsterdam:20261003T142500
 DURATION:PT2H
 SUMMARY:NIEUW Generation Basketball V18-1 - CobraNova V18-1
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500697
-LOCATION:Sporthal Gaslaan\, Gaslaan 200\, 2562LN 'S-GRAVENHAGE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-501090@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T142500
-DURATION:PT2H
-SUMMARY:NIEUW Generation Basketball M18-1 - HBV The Jumpers M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501090
 LOCATION:Sporthal Gaslaan\, Gaslaan 200\, 2562LN 'S-GRAVENHAGE
 STATUS:CONFIRMED
 END:VEVENT

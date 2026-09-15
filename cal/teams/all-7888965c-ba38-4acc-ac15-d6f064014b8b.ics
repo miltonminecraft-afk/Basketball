@@ -232,8 +232,8 @@ UID:foys-match-493059@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T103000
 DURATION:PT2H
-SUMMARY:BS Leiden V12-1 - HBV The Jumpers X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493059
+SUMMARY:BS Leiden V12-1 63 - 10 HBV The Jumpers X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 63 - 10\nFOYS wedstrijd-ID: 493059
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -242,8 +242,8 @@ UID:foys-match-493671@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T103000
 DURATION:PT2H
-SUMMARY:BS Leiden X12-3 - Onze Gezellen X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493671
+SUMMARY:BS Leiden X12-3 75 - 22 Onze Gezellen X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 75 - 22\nFOYS wedstrijd-ID: 493671
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -272,8 +272,8 @@ UID:foys-match-496016@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T123000
 DURATION:PT2H
-SUMMARY:BS Leiden X14-1 - Almere Pioneers X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496016
+SUMMARY:BS Leiden X14-1 73 - 33 Almere Pioneers X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 73 - 33\nFOYS wedstrijd-ID: 496016
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -282,8 +282,8 @@ UID:foys-match-498236@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T123000
 DURATION:PT2H
-SUMMARY:BS Leiden V16-2 - BC Flying Oost V16-1
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498236
+SUMMARY:BS Leiden V16-2 38 - 42 BC Flying Oost V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 38 - 42\nFOYS wedstrijd-ID: 498236
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -312,8 +312,8 @@ UID:foys-match-493058@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T130000
 DURATION:PT2H
-SUMMARY:BC Triple ThreaT X12-1 - BS Leiden X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493058
+SUMMARY:BC Triple ThreaT X12-1 17 - 89 BS Leiden X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 17 - 89\nFOYS wedstrijd-ID: 493058
 LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
 STATUS:CONFIRMED
 END:VEVENT
@@ -352,8 +352,8 @@ UID:foys-match-499147@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T143000
 DURATION:PT2H
-SUMMARY:BS Leiden M16-5 - BV Alphia M16-2
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499147
+SUMMARY:BS Leiden M16-5 20 - 82 BV Alphia M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 20 - 82\nFOYS wedstrijd-ID: 499147
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -1935,16 +1935,6 @@ DURATION:PT2H
 SUMMARY:BV Alphia M22-1 - BS Leiden M22-3
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503282
 LOCATION:Rijnstreekhal\, Dillenburg 1\, 2404EV ALPHEN AAN DEN RIJN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-503833@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261010T180000
-DURATION:PT2H
-SUMMARY:VBC Akrides VSE-1 - BS Leiden VSE-2
-DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503833
-LOCATION:Sporthal IJmuiden-Oost\, Tiberiusplein 6\, 1971HN IJMUIDEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -3872,7 +3862,7 @@ UID:foys-match-494513@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T143000
 DURATION:PT2H
-SUMMARY:BS Leiden X12-4 - Novo Stars X12-1
+SUMMARY:BS Leiden X12-4 - Novo Stars X12-1*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494513
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
@@ -6285,6 +6275,16 @@ DURATION:PT2H
 SUMMARY:BS Leiden VSE-3 - LUSV Basketbal VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505029
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503833@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270417T180000
+DURATION:PT2H
+SUMMARY:VBC Akrides VSE-1 - BS Leiden VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503833
+LOCATION:Sporthal IJmuiden-Oost\, Tiberiusplein 6\, 1971HN IJMUIDEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

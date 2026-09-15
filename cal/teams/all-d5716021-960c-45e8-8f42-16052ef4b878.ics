@@ -102,8 +102,8 @@ UID:foys-match-493380@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T120000
 DURATION:PT2H
-SUMMARY:MSV Basketbal X12-1 31 - 2 HBV The Jumpers X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 31 - 2\nFOYS wedstrijd-ID: 493380
+SUMMARY:MSV Basketbal X12-1 52 - 2 HBV The Jumpers X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 52 - 2\nFOYS wedstrijd-ID: 493380
 LOCATION:Sportpark Duinwetering\, Duinwetering 105\, 2203HM NOORDWIJK ZH
 STATUS:CONFIRMED
 END:VEVENT
@@ -475,16 +475,6 @@ DURATION:PT2H
 SUMMARY:MSV Basketbal M22-1 - Lokomotief M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502905
 LOCATION:Sportpark Duinwetering\, Duinwetering 105\, 2203HM NOORDWIJK ZH
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-501290@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261017T160000
-DURATION:PT2H
-SUMMARY:HBV The Jumpers M18-2 - MSV Basketbal M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501290
-LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1005,6 +995,16 @@ DURATION:PT2H
 SUMMARY:NIEUW Generation Basketball X12-1 - MSV Basketbal X12-2
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494815
 LOCATION:Sportpark Duinwetering\, Duinwetering 105\, 2203HM NOORDWIJK ZH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501290@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T130000
+DURATION:PT2H
+SUMMARY:HBV The Jumpers M18-2 - MSV Basketbal M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501290
+LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

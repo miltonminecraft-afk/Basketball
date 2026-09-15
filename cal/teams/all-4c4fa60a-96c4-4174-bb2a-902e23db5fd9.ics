@@ -62,8 +62,8 @@ UID:foys-match-496404@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T113000
 DURATION:PT2H
-SUMMARY:Aquila X14-1 - Assist X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496404
+SUMMARY:Aquila X14-1 89 - 42 Assist X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 89 - 42\nFOYS wedstrijd-ID: 496404
 LOCATION:Wildervanckhal\, Woortmanslaan 1\, 9648AA WILDERVANK
 STATUS:CONFIRMED
 END:VEVENT
@@ -128,6 +128,16 @@ LOCATION:Scharlakenhof\, Geertsemaweg 3\, 9751XA HAREN GN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-500175@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T093000
+DURATION:PT2H
+SUMMARY:Aquila M16-2 - H.S.V. Basketball M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500175
+LOCATION:Wildervanckhal\, Woortmanslaan 1\, 9648AA WILDERVANK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-497375@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T094500
@@ -145,16 +155,6 @@ DURATION:PT2H
 SUMMARY:BV Leeuwarden V12-1 - Aquila V12-1
 DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493011
 LOCATION:Sporthal Julianalaan\, Julianalaan 95 B\, 8931AH LEEUWARDEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-500175@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260919T100000
-DURATION:PT2H
-SUMMARY:Aquila M16-2 - H.S.V. Basketball M16-2
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500175
-LOCATION:Wildervanckhal\, Woortmanslaan 1\, 9648AA WILDERVANK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -892,7 +892,7 @@ UID:foys-match-497425@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T131500
 DURATION:PT2H
-SUMMARY:BV Millwings X14-1 - Aquila X14-2
+SUMMARY:BV Millwings X14-1* - Aquila X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497425
 LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
 STATUS:CONFIRMED

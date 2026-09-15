@@ -22,8 +22,8 @@ UID:foys-match-493861@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T100000
 DURATION:PT2H
-SUMMARY:Eindhoven Lumineers X12-1 0 - 0 Dunatos X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 0 - 0\nFOYS wedstrijd-ID: 493861
+SUMMARY:Eindhoven Lumineers X12-1 56 - 34 Dunatos X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 56 - 34\nFOYS wedstrijd-ID: 493861
 LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -42,8 +42,8 @@ UID:foys-match-496843@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T120000
 DURATION:PT2H
-SUMMARY:Eindhoven Lumineers X14-1 0 - 0 JRC X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 0 - 0\nFOYS wedstrijd-ID: 496843
+SUMMARY:Eindhoven Lumineers X14-1 67 - 58 JRC X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 67 - 58\nFOYS wedstrijd-ID: 496843
 LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -62,8 +62,8 @@ UID:foys-match-503174@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T140000
 DURATION:PT2H
-SUMMARY:Eindhoven Lumineers M22-1 0 - 0 Arnhem Eagles M22-2
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 0 - 0\nFOYS wedstrijd-ID: 503174
+SUMMARY:Eindhoven Lumineers M22-1 59 - 62 Arnhem Eagles M22-2
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 59 - 62\nFOYS wedstrijd-ID: 503174
 LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -208,16 +208,6 @@ LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-503188@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261010T150000
-DURATION:PT2H
-SUMMARY:Attacus M22-1 - Eindhoven Lumineers M22-1
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503188
-LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-496862@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T171500
@@ -235,6 +225,16 @@ DURATION:PT2H
 SUMMARY:BC Kimbria M18-1 - Eindhoven Lumineers M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501522
 LOCATION:Geusselt\, Olympiaweg 68\, 6225XX MAASTRICHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503188@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T170000
+DURATION:PT2H
+SUMMARY:Attacus M22-1 - Eindhoven Lumineers M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503188
+LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

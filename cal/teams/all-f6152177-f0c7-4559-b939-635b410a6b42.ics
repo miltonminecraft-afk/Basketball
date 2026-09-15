@@ -22,8 +22,8 @@ UID:foys-match-499715@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T110000
 DURATION:PT2H
-SUMMARY:BC Bumpers M16-1 - Dunatos M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499715
+SUMMARY:BC Bumpers M16-1 56 - 62 Dunatos M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 56 - 62\nFOYS wedstrijd-ID: 499715
 LOCATION:Stadssporthal\, Stadswegske 8\, 6131AG SITTARD
 STATUS:CONFIRMED
 END:VEVENT
@@ -32,8 +32,8 @@ UID:foys-match-512847@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T120000
 DURATION:PT2H
-SUMMARY:EBBC MSE-2 0 - 0 Dunatos MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nUitslag: 0 - 0\nFOYS wedstrijd-ID: 512847
+SUMMARY:EBBC MSE-2 62 - 84 Dunatos MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Final\nUitslag: 62 - 84\nFOYS wedstrijd-ID: 512847
 LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
 END:VEVENT
@@ -42,8 +42,8 @@ UID:foys-match-502693@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T140000
 DURATION:PT2H
-SUMMARY:BC Eindhoven V22-1 0 - 0 Dunatos V22-1
-DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 0 - 0\nFOYS wedstrijd-ID: 502693
+SUMMARY:BC Eindhoven V22-1 61 - 34 Dunatos V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 61 - 34\nFOYS wedstrijd-ID: 502693
 LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -52,8 +52,8 @@ UID:foys-match-493861@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T100000
 DURATION:PT2H
-SUMMARY:Eindhoven Lumineers X12-1 0 - 0 Dunatos X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 0 - 0\nFOYS wedstrijd-ID: 493861
+SUMMARY:Eindhoven Lumineers X12-1 56 - 34 Dunatos X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 56 - 34\nFOYS wedstrijd-ID: 493861
 LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -452,7 +452,7 @@ UID:foys-match-502426@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T154500
 DURATION:PT2H
-SUMMARY:E.B.C.G. M18-2 - Dunatos M18-1
+SUMMARY:E.B.C.G. M18-2* - Dunatos M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502426
 LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
 STATUS:CONFIRMED

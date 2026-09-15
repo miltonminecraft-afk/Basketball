@@ -52,10 +52,10 @@ UID:foys-match-505755@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T200000
 DURATION:PT2H
-SUMMARY:AFGELAST: Cady '73 MSE-1 - LUSV Basketbal MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 505755
+SUMMARY:Cady '73 MSE-1 20 - 0 LUSV Basketbal MSE-1*
+DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 505755
 LOCATION:Sporthal De Lijster\, Lijstersingel 20\, 2902JD CAPELLE AAN DEN IJSSEL
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-511864@basketball-agenda
@@ -202,7 +202,7 @@ UID:foys-match-505814@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270227T120000
 DURATION:PT2H
-SUMMARY:LUSV Basketbal MSE-1 - Cady '73 MSE-1
+SUMMARY:LUSV Basketbal MSE-1* - Cady '73 MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505814
 LOCATION:U.S.C.\, Goliuspad 22\, 2333BH Leiden
 STATUS:CONFIRMED

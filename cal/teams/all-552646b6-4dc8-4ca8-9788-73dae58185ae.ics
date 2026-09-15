@@ -428,6 +428,16 @@ LOCATION:Wethouder Smithal\, Westeinde 96\, 3146BZ MAASSLUIS
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-501627@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T120000
+DURATION:PT2H
+SUMMARY:Green Eagles M18-1 - DAS M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501627
+LOCATION:Wethouder Smithal\, Westeinde 96\, 3146BZ MAASSLUIS
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-497633@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T123000
@@ -454,16 +464,6 @@ DTSTART;TZID=Europe/Amsterdam:20261003T140000
 DURATION:PT2H
 SUMMARY:Green Eagles X12-3 - Bouncers Basketball X12-3
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494697
-LOCATION:Wethouder Smithal\, Westeinde 96\, 3146BZ MAASSLUIS
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-501627@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T140000
-DURATION:PT2H
-SUMMARY:Green Eagles M18-1 - DAS M18-2
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501627
 LOCATION:Wethouder Smithal\, Westeinde 96\, 3146BZ MAASSLUIS
 STATUS:CONFIRMED
 END:VEVENT

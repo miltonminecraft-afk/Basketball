@@ -12,8 +12,8 @@ UID:foys-match-511716@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T110000
 DURATION:PT2H
-SUMMARY:OBC MSE-3 - BV Schijndel MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511716
+SUMMARY:OBC MSE-3 21 - 92 BV Schijndel MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 21 - 92\nFOYS wedstrijd-ID: 511716
 LOCATION:De Ruivert\, de Ruivert 3\, 5342CM OSS
 STATUS:CONFIRMED
 END:VEVENT
@@ -22,7 +22,7 @@ UID:foys-match-514104@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260920T103000
 DURATION:PT2H
-SUMMARY:Jumping Giants MSE-3 - OBC MSE-3
+SUMMARY:Jumping Giants MSE-3* - OBC MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 514104
 LOCATION:sporthal Nederweert\, De Bengele 8\, 6031TZ NEDERWEERT
 STATUS:CONFIRMED
@@ -132,7 +132,7 @@ UID:foys-match-514115@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270116T183000
 DURATION:PT2H
-SUMMARY:OBC MSE-3 - Jumping Giants MSE-3
+SUMMARY:OBC MSE-3 - Jumping Giants MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 514115
 LOCATION:De Ruivert\, de Ruivert 3\, 5342CM OSS
 STATUS:CONFIRMED

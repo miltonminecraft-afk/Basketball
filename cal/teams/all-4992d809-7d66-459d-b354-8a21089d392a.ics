@@ -12,10 +12,10 @@ UID:foys-match-506548@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T163000
 DURATION:PT2H
-SUMMARY:AFGELAST: Utrecht Bull's VSE-1 - River Trotters VSE-1
-DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 506548
+SUMMARY:Utrecht Bull's VSE-1 20 - 0 River Trotters VSE-1*
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 506548
 LOCATION:Galgenwaard\, Herculesplein 341\, 3584AA UTRECHT
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-508258@basketball-agenda
@@ -82,7 +82,7 @@ UID:foys-match-505764@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T120000
 DURATION:PT2H
-SUMMARY:LUSV Basketbal MSE-1 - Utrecht Bull's MSE-2
+SUMMARY:LUSV Basketbal MSE-1* - Utrecht Bull's MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505764
 LOCATION:U.S.C.\, Goliuspad 22\, 2333BH Leiden
 STATUS:CONFIRMED
@@ -145,16 +145,6 @@ DURATION:PT2H
 SUMMARY:Nimma Gemina VSE-1 - Utrecht Bull's VSE-1
 DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506556
 LOCATION:Ark van Oost\, Cipresstraat 154\, 6523HR NIJMEGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-504664@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260920T170000
-DURATION:PT2H
-SUMMARY:BC Utrecht Cangeroes VSE-4 - Utrecht Bull's VSE-5
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504664
-LOCATION:Sporthal Lunetten\, Zwarte Woud 201\, 3524SG UTRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -838,6 +828,16 @@ LOCATION:De Kuil\, Torenvalk 47\, 3752SJ BUNSCHOTEN-SPAKENBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-504664@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261125T194500
+DURATION:PT2H
+SUMMARY:BC Utrecht Cangeroes VSE-4 - Utrecht Bull's VSE-5
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504664
+LOCATION:Sporthal Lunetten\, Zwarte Woud 201\, 3524SG UTRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-504711@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T183000
@@ -1112,7 +1112,7 @@ UID:foys-match-506615@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270109T000000
 DURATION:PT2H
-SUMMARY:River Trotters VSE-1 - Utrecht Bull's VSE-1
+SUMMARY:River Trotters VSE-1* - Utrecht Bull's VSE-1
 DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506615
 LOCATION:De Wielewaal\, Cornelisweer 2\, 3371PH HARDINXVELD-GIESSENDAM
 STATUS:CONFIRMED
@@ -1232,7 +1232,7 @@ UID:foys-match-505816@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270116T180000
 DURATION:PT2H
-SUMMARY:Utrecht Bull's MSE-2 - LUSV Basketbal MSE-1
+SUMMARY:Utrecht Bull's MSE-2 - LUSV Basketbal MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505816
 LOCATION:Galgenwaard\, Herculesplein 341\, 3584AA UTRECHT
 STATUS:CONFIRMED

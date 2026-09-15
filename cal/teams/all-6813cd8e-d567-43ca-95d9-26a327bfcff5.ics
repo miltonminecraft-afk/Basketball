@@ -32,8 +32,8 @@ UID:foys-match-498983@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T111500
 DURATION:PT2H
-SUMMARY:De Dunckers M16-2 - Hanze Stars M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498983
+SUMMARY:De Dunckers M16-2 88 - 60 Hanze Stars M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 88 - 60\nFOYS wedstrijd-ID: 498983
 LOCATION:Dudok Arena\, Arena 303\, 1213NW HILVERSUM
 STATUS:CONFIRMED
 END:VEVENT
@@ -152,7 +152,7 @@ UID:foys-match-496553@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260920T133000
 DURATION:PT2H
-SUMMARY:Arnhem Eagles X14-3 - Hanze Stars X14-1
+SUMMARY:Arnhem Eagles X14-3* - Hanze Stars X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496553
 LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
 STATUS:CONFIRMED
@@ -402,7 +402,7 @@ UID:foys-match-506025@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T141500
 DURATION:PT2H
-SUMMARY:Hanze Stars MSE-1 - The Jugglers MSE-1
+SUMMARY:Hanze Stars MSE-1 - The Jugglers MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506025
 LOCATION:De Mene\, Markolle 1\, 7207PA ZUTPHEN
 STATUS:CONFIRMED
@@ -1072,7 +1072,7 @@ UID:foys-match-506090@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270206T203000
 DURATION:PT2H
-SUMMARY:The Jugglers MSE-1 - Hanze Stars MSE-1
+SUMMARY:The Jugglers MSE-1* - Hanze Stars MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506090
 LOCATION:Deppenbroek\, Rijnstraat 11\, 7523GD ENSCHEDE
 STATUS:CONFIRMED

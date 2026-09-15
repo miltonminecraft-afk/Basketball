@@ -32,8 +32,8 @@ UID:foys-match-497799@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T114500
 DURATION:PT2H
-SUMMARY:Rebound X14-1 - Devel Heroes X14-2
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497799
+SUMMARY:Rebound X14-1 20 - 0 Devel Heroes X14-2*
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 497799
 LOCATION:De Schenkel\, Schenkeltje 7 b\, 3295KK 'S-GRAVENDEEL
 STATUS:CONFIRMED
 END:VEVENT
@@ -42,8 +42,8 @@ UID:foys-match-499267@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T123000
 DURATION:PT2H
-SUMMARY:SC Amforça M16-1 - Devel Heroes M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499267
+SUMMARY:SC Amforça M16-1 54 - 56 Devel Heroes M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 54 - 56\nFOYS wedstrijd-ID: 499267
 LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
 END:VEVENT
@@ -182,7 +182,7 @@ UID:foys-match-497802@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T150000
 DURATION:PT2H
-SUMMARY:Devel Heroes X14-2 - Flax Field Fighters X14-1
+SUMMARY:Devel Heroes X14-2* - Flax Field Fighters X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497802
 LOCATION:Develhal\, Parklaan 5\, 3335LM ZWIJNDRECHT
 STATUS:CONFIRMED
@@ -262,7 +262,7 @@ UID:foys-match-497808@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T130000
 DURATION:PT2H
-SUMMARY:Flax Field Fighters X14-2 - Devel Heroes X14-2
+SUMMARY:Flax Field Fighters X14-2 - Devel Heroes X14-2*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497808
 LOCATION:Ridderhal\, Hoge Kade 60\, 3341BD HENDRIK-I.A.
 STATUS:CONFIRMED
@@ -562,7 +562,7 @@ UID:foys-match-497820@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T123000
 DURATION:PT2H
-SUMMARY:Waterdragers X14-1 - Devel Heroes X14-2
+SUMMARY:Waterdragers X14-1 - Devel Heroes X14-2*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497820
 LOCATION:Parkzoomhal\, Iersestraat 15\, 2912TH NIEUWERKERK AD IJSSEL
 STATUS:CONFIRMED
@@ -662,7 +662,7 @@ UID:foys-match-497825@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T130000
 DURATION:PT2H
-SUMMARY:Devel Heroes X14-2 - BV Leerdam X14-1
+SUMMARY:Devel Heroes X14-2* - BV Leerdam X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497825
 LOCATION:De Sophiahal\, Sophiapromenade 9\, 3344PL HENDRIK-IDO-AMBACHT
 STATUS:CONFIRMED
@@ -782,7 +782,7 @@ UID:foys-match-497826@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T140000
 DURATION:PT2H
-SUMMARY:New Stars X14-3 - Devel Heroes X14-2
+SUMMARY:New Stars X14-3 - Devel Heroes X14-2*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497826
 LOCATION:Sporthal De Waterlelie\, Heemraadsweide 13\, 3437CA NIEUWEGEIN
 STATUS:CONFIRMED
@@ -842,7 +842,7 @@ UID:foys-match-497832@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T130000
 DURATION:PT2H
-SUMMARY:Devel Heroes X14-2 - Quick Runners X14-3
+SUMMARY:Devel Heroes X14-2* - Quick Runners X14-3
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497832
 LOCATION:Develhal\, Parklaan 5\, 3335LM ZWIJNDRECHT
 STATUS:CONFIRMED
@@ -952,7 +952,7 @@ UID:foys-match-497835@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T100000
 DURATION:PT2H
-SUMMARY:Cady '73 X14-2 - Devel Heroes X14-2
+SUMMARY:Cady '73 X14-2 - Devel Heroes X14-2*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497835
 LOCATION:Sporthal De Lijster\, Lijstersingel 20\, 2902JD CAPELLE AAN DEN IJSSEL
 STATUS:CONFIRMED
@@ -1082,7 +1082,7 @@ UID:foys-match-497839@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T130000
 DURATION:PT2H
-SUMMARY:Devel Heroes X14-2 - Goba X14-1
+SUMMARY:Devel Heroes X14-2* - Goba X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497839
 LOCATION:De Sophiahal\, Sophiapromenade 9\, 3344PL HENDRIK-IDO-AMBACHT
 STATUS:CONFIRMED

@@ -132,8 +132,8 @@ UID:foys-match-491652@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T101500
 DURATION:PT2H
-SUMMARY:Pluto X10-1 - Nimma Gemina X10-2
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491652
+SUMMARY:Pluto X10-1 10 - 32 Nimma Gemina X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 10 - 32\nFOYS wedstrijd-ID: 491652
 LOCATION:Tarthorst\, Tarthorst 152\, 6708JD WAGENINGEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -142,8 +142,8 @@ UID:foys-match-493320@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T110000
 DURATION:PT2H
-SUMMARY:OBC X12-1 - Pluto X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493320
+SUMMARY:OBC X12-1 65 - 33 Pluto X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 65 - 33\nFOYS wedstrijd-ID: 493320
 LOCATION:De Ruivert\, de Ruivert 3\, 5342CM OSS
 STATUS:CONFIRMED
 END:VEVENT
@@ -152,8 +152,8 @@ UID:foys-match-495866@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T120000
 DURATION:PT2H
-SUMMARY:Pluto V14-1 - Den Dungk V14-1
-DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495866
+SUMMARY:Pluto V14-1 70 - 34 Den Dungk V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 70 - 34\nFOYS wedstrijd-ID: 495866
 LOCATION:Tarthorst\, Tarthorst 152\, 6708JD WAGENINGEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -1112,7 +1112,7 @@ UID:foys-match-491682@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T093000
 DURATION:PT2H
-SUMMARY:Pluto X10-1 - OBC X10-2
+SUMMARY:Pluto X10-1 - OBC X10-2*
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491682
 LOCATION:Tarthorst\, Tarthorst 152\, 6708JD WAGENINGEN
 STATUS:CONFIRMED

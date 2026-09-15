@@ -32,8 +32,8 @@ UID:foys-match-493229@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T120000
 DURATION:PT2H
-SUMMARY:WBB Giants X12-1 - E.L.B.C. X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493229
+SUMMARY:WBB Giants X12-1 76 - 53 E.L.B.C. X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 76 - 53\nFOYS wedstrijd-ID: 493229
 LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
@@ -488,6 +488,16 @@ LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-520070@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T160000
+DURATION:PT2H
+SUMMARY:Vossenberg V16-1 - WBB Giants V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 520070
+LOCATION:De Beuk\, Beukenlaan 4\, 4731CG OUDENBOSCH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-496696@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T173000
@@ -645,16 +655,6 @@ DURATION:PT2H
 SUMMARY:WBB Giants M22-1 - BC Langstraat Shooters M22-2
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513144
 LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-498389@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261011T130000
-DURATION:PT2H
-SUMMARY:Marathon V16-1 - WBB Giants V16-1
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498389
-LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1418,16 +1418,6 @@ LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-498396@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261205T120000
-DURATION:PT2H
-SUMMARY:WBB Giants V16-1 - Marathon V16-1
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498396
-LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-500604@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261211T190000
@@ -1575,6 +1565,16 @@ DURATION:PT2H
 SUMMARY:BC Langstraat Shooters M22-2 - WBB Giants M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513168
 LOCATION:De Zeine\, Olympiaweg 12 A\, 5143NA WAALWIJK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-520069@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261231T080000
+DURATION:PT2H
+SUMMARY:WBB Giants V16-1 - E.L.B.C. V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 520069
+LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

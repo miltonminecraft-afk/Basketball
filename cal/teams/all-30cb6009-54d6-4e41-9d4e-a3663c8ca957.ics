@@ -22,8 +22,8 @@ UID:foys-match-507012@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T120000
 DURATION:PT2H
-SUMMARY:BV Leeuwarden MSE-1 - Scylla MSE-3
-DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507012
+SUMMARY:BV Leeuwarden MSE-1 72 - 58 Scylla MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Final\nUitslag: 72 - 58\nFOYS wedstrijd-ID: 507012
 LOCATION:Kalverdijkje\, Kalverdijkje 77 a\, 8924JJ LEEUWARDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -542,7 +542,7 @@ UID:foys-match-506051@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T163000
 DURATION:PT2H
-SUMMARY:Scylla MSE-1 - The Jugglers MSE-1
+SUMMARY:Scylla MSE-1 - The Jugglers MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506051
 LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
 STATUS:CONFIRMED
@@ -1192,7 +1192,7 @@ UID:foys-match-506121@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270403T203000
 DURATION:PT2H
-SUMMARY:The Jugglers MSE-1 - Scylla MSE-1
+SUMMARY:The Jugglers MSE-1* - Scylla MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506121
 LOCATION:Deppenbroek\, Rijnstraat 11\, 7523GD ENSCHEDE
 STATUS:CONFIRMED

@@ -12,8 +12,8 @@ UID:foys-match-493674@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T101500
 DURATION:PT2H
-SUMMARY:Harlemlakers X12-2 - BV Alphia X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493674
+SUMMARY:Harlemlakers X12-2 48 - 71 BV Alphia X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 48 - 71\nFOYS wedstrijd-ID: 493674
 LOCATION:Calandhal Hal 1\, Eliza van Calcarstraat 2\, 1068RR AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -22,8 +22,8 @@ UID:foys-match-494466@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T101500
 DURATION:PT2H
-SUMMARY:Harlemlakers X12-3 - Novo Stars X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494466
+SUMMARY:Harlemlakers X12-3 - Novo Stars X12-1*
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nFOYS wedstrijd-ID: 494466
 LOCATION:Calandhal Hal 1\, Eliza van Calcarstraat 2\, 1068RR AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -32,8 +32,8 @@ UID:foys-match-493061@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T110000
 DURATION:PT2H
-SUMMARY:Rotterdam Basketbal X12-1 - Harlemlakers X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493061
+SUMMARY:Rotterdam Basketbal X12-1 32 - 71 Harlemlakers X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 32 - 71\nFOYS wedstrijd-ID: 493061
 LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -42,8 +42,8 @@ UID:foys-match-496178@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T120000
 DURATION:PT2H
-SUMMARY:Harlemlakers X14-2 - ABC Amigos X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496178
+SUMMARY:Harlemlakers X14-2 44 - 84 ABC Amigos X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 44 - 84\nFOYS wedstrijd-ID: 496178
 LOCATION:Calandhal Hal 1\, Eliza van Calcarstraat 2\, 1068RR AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -52,8 +52,8 @@ UID:foys-match-501320@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T120000
 DURATION:PT2H
-SUMMARY:Harlemlakers M18-1 - Landslake Lions M18-2
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501320
+SUMMARY:Harlemlakers M18-1 75 - 69 Landslake Lions M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 75 - 69\nFOYS wedstrijd-ID: 501320
 LOCATION:Calandhal Hal 1\, Eliza van Calcarstraat 2\, 1068RR AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -962,7 +962,7 @@ UID:foys-match-505794@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T184500
 DURATION:PT2H
-SUMMARY:Harlemlakers MSE-1 - LUSV Basketbal MSE-1
+SUMMARY:Harlemlakers MSE-1 - LUSV Basketbal MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505794
 LOCATION:Calandhal Hal 2\, Eliza van Calcarstraat 2\, 1068RR AMSTERDAM
 STATUS:CONFIRMED
@@ -1652,7 +1652,7 @@ UID:foys-match-505849@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270313T120000
 DURATION:PT2H
-SUMMARY:LUSV Basketbal MSE-1 - Harlemlakers MSE-1
+SUMMARY:LUSV Basketbal MSE-1* - Harlemlakers MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505849
 LOCATION:U.S.C.\, Goliuspad 22\, 2333BH Leiden
 STATUS:CONFIRMED

@@ -12,7 +12,7 @@ UID:foys-match-513913@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260829T190000
 DURATION:PT2H
-SUMMARY:E.B.C.G. M18-2 46 - 77 Yellow Sox M18-1
+SUMMARY:E.B.C.G. M18-2* 46 - 77 Yellow Sox M18-1
 DESCRIPTION:Status: Final\nUitslag: 46 - 77\nFOYS wedstrijd-ID: 513913
 LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
 STATUS:CONFIRMED
@@ -86,16 +86,6 @@ SUMMARY:Yellow Sox V16-1 32 - 71 BBF MIGLIORE V16-1
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 32 - 71\nFOYS wedstrijd-ID: 498491
 LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
 STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-501502@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260912T154500
-DURATION:PT2H
-SUMMARY:AFGELAST: Yellow Sox M18-1 - BC Eindhoven M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 501502
-LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
-STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-500942@basketball-agenda
@@ -1032,7 +1022,7 @@ UID:foys-match-514111@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T103000
 DURATION:PT2H
-SUMMARY:Jumping Giants MSE-3 - Yellow Sox MSE-2
+SUMMARY:Jumping Giants MSE-3* - Yellow Sox MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 514111
 LOCATION:sporthal Nederweert\, De Bengele 8\, 6031TZ NEDERWEERT
 STATUS:CONFIRMED
@@ -1358,6 +1348,16 @@ LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-501502@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261219T134500
+DURATION:PT2H
+SUMMARY:Yellow Sox M18-1 - BC Eindhoven M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501502
+LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-511783@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270109T180000
@@ -1512,7 +1512,7 @@ UID:foys-match-514122@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270320T171500
 DURATION:PT2H
-SUMMARY:Yellow Sox MSE-2 - Jumping Giants MSE-3
+SUMMARY:Yellow Sox MSE-2 - Jumping Giants MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 514122
 LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
 STATUS:CONFIRMED

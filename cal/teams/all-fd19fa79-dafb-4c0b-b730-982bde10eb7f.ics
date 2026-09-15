@@ -172,8 +172,8 @@ UID:foys-match-492618@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T111500
 DURATION:PT2H
-SUMMARY:De Dunckers M14-1 - BC Triple ThreaT M14-2
-DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492618
+SUMMARY:De Dunckers M14-1 72 - 86 BC Triple ThreaT M14-2
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Final\nUitslag: 72 - 86\nFOYS wedstrijd-ID: 492618
 LOCATION:Dudok Arena\, Arena 303\, 1213NW HILVERSUM
 STATUS:CONFIRMED
 END:VEVENT
@@ -182,8 +182,8 @@ UID:foys-match-493058@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T130000
 DURATION:PT2H
-SUMMARY:BC Triple ThreaT X12-1 - BS Leiden X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493058
+SUMMARY:BC Triple ThreaT X12-1 17 - 89 BS Leiden X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 17 - 89\nFOYS wedstrijd-ID: 493058
 LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
 STATUS:CONFIRMED
 END:VEVENT
@@ -192,8 +192,8 @@ UID:foys-match-498331@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T130000
 DURATION:PT2H
-SUMMARY:BC Triple ThreaT V16-2 - Landslake Lions V16-1
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498331
+SUMMARY:BC Triple ThreaT V16-2 58 - 24 Landslake Lions V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 58 - 24\nFOYS wedstrijd-ID: 498331
 LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
 STATUS:CONFIRMED
 END:VEVENT
@@ -978,6 +978,16 @@ LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-507786@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T153000
+DURATION:PT2H
+SUMMARY:BV Lisse MSE-1 - BC Triple ThreaT MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507786
+LOCATION:De Waterkanten\, Sportlaan 21\, 2161VA LISSE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-510549@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T180000
@@ -1705,16 +1715,6 @@ DURATION:PT2H
 SUMMARY:BC Shooters V16-2 - BC Triple ThreaT V16-1
 DESCRIPTION:Vrouwen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494043
 LOCATION:De Kuil\, Torenvalk 47\, 3752SJ BUNSCHOTEN-SPAKENBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-507786@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T150000
-DURATION:PT2H
-SUMMARY:BV Lisse MSE-1 - BC Triple ThreaT MSE-3
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507786
-LOCATION:De Waterkanten\, Sportlaan 21\, 2161VA LISSE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

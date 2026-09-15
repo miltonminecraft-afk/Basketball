@@ -42,8 +42,8 @@ UID:foys-match-493059@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T103000
 DURATION:PT2H
-SUMMARY:BS Leiden V12-1 - HBV The Jumpers X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493059
+SUMMARY:BS Leiden V12-1 63 - 10 HBV The Jumpers X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 63 - 10\nFOYS wedstrijd-ID: 493059
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -148,16 +148,6 @@ LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-495547@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260912T153000
-DURATION:PT2H
-SUMMARY:Lokomotief V14-1 - HBV The Jumpers V14-1
-DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495547
-LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-492436@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T163000
@@ -232,8 +222,8 @@ UID:foys-match-493380@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T120000
 DURATION:PT2H
-SUMMARY:MSV Basketbal X12-1 31 - 2 HBV The Jumpers X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 31 - 2\nFOYS wedstrijd-ID: 493380
+SUMMARY:MSV Basketbal X12-1 52 - 2 HBV The Jumpers X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 52 - 2\nFOYS wedstrijd-ID: 493380
 LOCATION:Sportpark Duinwetering\, Duinwetering 105\, 2203HM NOORDWIJK ZH
 STATUS:CONFIRMED
 END:VEVENT
@@ -268,16 +258,6 @@ LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-495551@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260919T103000
-DURATION:PT2H
-SUMMARY:HBV The Jumpers V14-1 - BV Hoofddorp V14-1
-DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495551
-LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-501082@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T110000
@@ -308,12 +288,12 @@ LOCATION:Sosefhal\, Strijphorst 1\, 2675WN HONSELERSDIJK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-502600@basketball-agenda
+UID:foys-match-495551@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T121500
 DURATION:PT2H
-SUMMARY:HBV The Jumpers V22-1 - BV Voorne V22-1
-DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502600
+SUMMARY:HBV The Jumpers V14-1 - BV Hoofddorp V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495551
 LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
 END:VEVENT
@@ -838,6 +818,16 @@ LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-501090@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T124000
+DURATION:PT2H
+SUMMARY:NIEUW Generation Basketball M18-1 - HBV The Jumpers M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501090
+LOCATION:Sporthal Gaslaan\, Gaslaan 200\, 2562LN 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-499164@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T140000
@@ -865,16 +855,6 @@ DURATION:PT2H
 SUMMARY:HBV The Jumpers VSE-1 - BV Squirrels VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504803
 LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-501090@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T142500
-DURATION:PT2H
-SUMMARY:NIEUW Generation Basketball M18-1 - HBV The Jumpers M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501090
-LOCATION:Sporthal Gaslaan\, Gaslaan 200\, 2562LN 'S-GRAVENHAGE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1128,6 +1108,16 @@ LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-495547@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T113000
+DURATION:PT2H
+SUMMARY:Lokomotief V14-1 - HBV The Jumpers V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495547
+LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-499169@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T120000
@@ -1168,16 +1158,6 @@ LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-501290@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261017T160000
-DURATION:PT2H
-SUMMARY:HBV The Jumpers M18-2 - MSV Basketbal M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501290
-LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-504838@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T160000
@@ -1195,6 +1175,16 @@ DURATION:PT2H
 SUMMARY:BV Noordkop M16-1 - HBV The Jumpers M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495372
 LOCATION:Sportcentrum Quelderduijn\, Schootenweg 2\, 1785LV DEN HELDER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502600@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T140000
+DURATION:PT2H
+SUMMARY:HBV The Jumpers V22-1 - BV Voorne V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502600
+LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -2288,6 +2278,16 @@ LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-501290@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T130000
+DURATION:PT2H
+SUMMARY:HBV The Jumpers M18-2 - MSV Basketbal M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501290
+LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-512059@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261211T204500
@@ -2348,16 +2348,6 @@ LOCATION:De Duikelaar\, Zuidplaslaan 550\, 2743CT WADDINXVEEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-502645@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T123000
-DURATION:PT2H
-SUMMARY:HBV The Jumpers V22-1 - BV Squirrels V22-1
-DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502645
-LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-511936@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T123000
@@ -2384,6 +2374,16 @@ DTSTART;TZID=Europe/Amsterdam:20261212T143000
 DURATION:PT2H
 SUMMARY:HBV The Jumpers M12-1 - Basketball Academy Utrecht M12-1 M12-1
 DESCRIPTION:Mannen U12 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 492432
+LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502645@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T143000
+DURATION:PT2H
+SUMMARY:HBV The Jumpers V22-1 - BV Squirrels V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502645
 LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
 END:VEVENT
