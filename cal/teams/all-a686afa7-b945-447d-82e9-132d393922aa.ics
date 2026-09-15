@@ -128,16 +128,6 @@ LOCATION:Marsana\, Molenveldweg 4\, 6231RX MEERSSEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-494655@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260927T110000
-DURATION:PT2H
-SUMMARY:BC Titans X12-1 - Tracks Parkstad X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494655
-LOCATION:Sporthal Vie\, Vieboulevard 21\, 6461ND KERKRADE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-497746@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260927T110000
@@ -308,16 +298,6 @@ LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-494665@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T120000
-DURATION:PT2H
-SUMMARY:Tracks Parkstad X12-2 - BC Titans X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494665
-LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-497071@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T160000
@@ -362,7 +342,7 @@ UID:foys-match-510687@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T130000
 DURATION:PT2H
-SUMMARY:BC Titans MSE-1 - Vido MSE-2
+SUMMARY:BC Titans MSE-1 - Vido MSE-2*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510687
 LOCATION:Sporthal Vie\, Vieboulevard 21\, 6461ND KERKRADE
 STATUS:CONFIRMED
@@ -672,7 +652,7 @@ UID:foys-match-510742@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270307T000000
 DURATION:PT2H
-SUMMARY:Vido MSE-2 - BC Titans MSE-1
+SUMMARY:Vido MSE-2* - BC Titans MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510742
 LOCATION:Den Ekkerman\, Wal 150\, 5501HP VELDHOVEN
 STATUS:CONFIRMED

@@ -28,16 +28,6 @@ LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-509336@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260911T200000
-DURATION:PT2H
-SUMMARY:AFGELAST: Landstede Hammers MSE-2 - Landslake Lions MSE-1
-DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 509336
-LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-509347@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T170000
@@ -195,6 +185,16 @@ DURATION:PT2H
 SUMMARY:GBI van Dijk Grasshoppers MSE-1 - Landslake Lions MSE-1
 DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509435
 LOCATION:Cleyn Duin\, Stadhoudersdreef 1\, 2224BN KATWIJK ZH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509336@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270219T200000
+DURATION:PT2H
+SUMMARY:Landstede Hammers MSE-2 - Landslake Lions MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509336
+LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

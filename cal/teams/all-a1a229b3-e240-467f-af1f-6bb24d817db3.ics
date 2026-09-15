@@ -42,8 +42,8 @@ UID:foys-match-510656@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T191500
 DURATION:PT2H
-SUMMARY:Vido MSE-2 - Venlo Sport Crusaders MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: IncompleteMatch\nFOYS wedstrijd-ID: 510656
+SUMMARY:Vido MSE-2* 0 - 20 Venlo Sport Crusaders MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 0 - 20\nFOYS wedstrijd-ID: 510656
 LOCATION:Den Ekkerman\, Wal 150\, 5501HP VELDHOVEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -432,7 +432,7 @@ UID:foys-match-510715@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270110T140000
 DURATION:PT2H
-SUMMARY:Venlo Sport Crusaders MSE-1 - Vido MSE-2
+SUMMARY:Venlo Sport Crusaders MSE-1 - Vido MSE-2*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510715
 LOCATION:Egerbos II\, Drie Decembersingel 34\, 5922BD VENLO
 STATUS:CONFIRMED

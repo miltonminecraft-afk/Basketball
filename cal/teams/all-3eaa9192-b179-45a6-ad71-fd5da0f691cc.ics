@@ -113,7 +113,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T160000
 DURATION:PT2H
 SUMMARY:Bouncers Basketball M16-3 11 - 83 NRG Basketball M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nUitslag: 11 - 83\nFOYS wedstrijd-ID: 512676
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 11 - 83\nFOYS wedstrijd-ID: 512676
 LOCATION:De Duikelaar\, Zuidplaslaan 550\, 2743CT WADDINXVEEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -143,7 +143,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T183000
 DURATION:PT2H
 SUMMARY:BS Leiden M22-2 118 - 21 Bouncers Basketball M22-2
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 118 - 21\nFOYS wedstrijd-ID: 502977
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 118 - 21\nFOYS wedstrijd-ID: 502977
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -830,7 +830,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-493539@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261017T123000
+DTSTART;TZID=Europe/Amsterdam:20261017T133000
 DURATION:PT2H
 SUMMARY:Bouncers Basketball X12-2 - BV Voorne X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493539

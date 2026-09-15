@@ -98,16 +98,6 @@ LOCATION:Sporthal X-Sport\, Lange Trekken 32\, 5531PZ BLADEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-510775@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260918T190000
-DURATION:PT2H
-SUMMARY:TSBV Pendragon MSE-4 - BC Bladel MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510775
-LOCATION:Studentensporthal KUB\, Academielaan 5\, 5037ET TILBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-493031@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T093000
@@ -1225,6 +1215,16 @@ DURATION:PT2H
 SUMMARY:Archipel MSE-2 - BC Bladel MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510842
 LOCATION:Interwey\, Sportlaan 1\, 4102HM CULEMBORG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510775@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270212T190000
+DURATION:PT2H
+SUMMARY:TSBV Pendragon MSE-4 - BC Bladel MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510775
+LOCATION:Studentensporthal KUB\, Academielaan 5\, 5037ET TILBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

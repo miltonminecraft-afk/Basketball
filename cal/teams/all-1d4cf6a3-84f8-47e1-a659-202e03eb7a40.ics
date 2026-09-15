@@ -232,10 +232,10 @@ UID:foys-match-495867@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T174500
 DURATION:PT2H
-SUMMARY:AFGELAST: Arnhem Eagles V14-2 - Gennep Cougars V14-1
-DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 495867
+SUMMARY:Arnhem Eagles V14-2 20 - 0 Gennep Cougars V14-1*
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 495867
 LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-505868@basketball-agenda
@@ -2328,16 +2328,6 @@ LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-502264@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T150000
-DURATION:PT2H
-SUMMARY:Dedein M18-1 - Arnhem Eagles M18-3
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502264
-LOCATION:'t Raland\, Reinskamp 2\, 6942RZ DIDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-499025@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T160000
@@ -2362,7 +2352,7 @@ UID:foys-match-498484@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T163000
 DURATION:PT2H
-SUMMARY:Arnhem Eagles V16-2 - Valley Vultures V16-1
+SUMMARY:Arnhem Eagles V16-2 - Valley Vultures V16-1*
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498484
 LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
 STATUS:CONFIRMED

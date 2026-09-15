@@ -400,7 +400,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-501211@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T181500
+DTSTART;TZID=Europe/Amsterdam:20261004T093000
 DURATION:PT2H
 SUMMARY:High Five M18-1 - E.B.C.G. M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501211
@@ -882,7 +882,7 @@ UID:foys-match-510698@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T191500
 DURATION:PT2H
-SUMMARY:E.B.C.G. MSE-2 - Vido MSE-2
+SUMMARY:E.B.C.G. MSE-2 - Vido MSE-2*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510698
 LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
 STATUS:CONFIRMED
@@ -1232,7 +1232,7 @@ UID:foys-match-510752@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270321T000000
 DURATION:PT2H
-SUMMARY:Vido MSE-2 - E.B.C.G. MSE-2
+SUMMARY:Vido MSE-2* - E.B.C.G. MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510752
 LOCATION:Den Ekkerman\, Wal 150\, 5501HP VELDHOVEN
 STATUS:CONFIRMED

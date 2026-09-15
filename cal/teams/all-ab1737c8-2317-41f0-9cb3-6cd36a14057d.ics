@@ -72,7 +72,7 @@ UID:foys-match-497203@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T111500
 DURATION:PT2H
-SUMMARY:Green Lions X14-1 20 - 0 BV Orca's X14-2
+SUMMARY:Green Lions X14-1 20 - 0 BV Orca's X14-2*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 497203
 LOCATION:Waddenhal\, Westerzeedijk 15\, 8862PK HARLINGEN
 STATUS:CONFIRMED
@@ -103,7 +103,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T154500
 DURATION:PT2H
 SUMMARY:Rebound '73 X14-1 43 - 55 BV Orca's X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 43 - 55\nFOYS wedstrijd-ID: 496970
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 43 - 55\nFOYS wedstrijd-ID: 496970
 LOCATION:sporthal De Sypel\, Parkweg 4\, 3842AD HARDERWIJK
 STATUS:CONFIRMED
 END:VEVENT
@@ -182,10 +182,10 @@ UID:foys-match-502748@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T190000
 DURATION:PT2H
-SUMMARY:AFGELAST: BV Orca's V22-2 - LB-ZAC V22-1
-DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 502748
+SUMMARY:BV Orca's V22-2 20 - 0 LB-ZAC V22-1*
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 502748
 LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-506464@basketball-agenda
@@ -292,7 +292,7 @@ UID:foys-match-497205@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T130000
 DURATION:PT2H
-SUMMARY:BV Orca's X14-2 - BV Groningen X14-4
+SUMMARY:BV Orca's X14-2* - BV Groningen X14-4
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497205
 LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
 STATUS:CONFIRMED
@@ -542,7 +542,7 @@ UID:foys-match-497212@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T173000
 DURATION:PT2H
-SUMMARY:BV Orca's X14-2 - ESBC Menhir X14-2
+SUMMARY:BV Orca's X14-2* - ESBC Menhir X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497212
 LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
 STATUS:CONFIRMED
@@ -812,7 +812,7 @@ UID:foys-match-502760@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T204500
 DURATION:PT2H
-SUMMARY:LB-ZAC V22-1 - BV Orca's V22-2
+SUMMARY:LB-ZAC V22-1* - BV Orca's V22-2
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502760
 LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
 STATUS:CONFIRMED
@@ -942,7 +942,7 @@ UID:foys-match-497220@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T110000
 DURATION:PT2H
-SUMMARY:BV Orca's X14-2 - BV Oaters Joure X14-1
+SUMMARY:BV Orca's X14-2* - BV Oaters Joure X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497220
 LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
 STATUS:CONFIRMED
@@ -1132,7 +1132,7 @@ UID:foys-match-497224@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T170000
 DURATION:PT2H
-SUMMARY:BV Penta X14-1 - BV Orca's X14-2
+SUMMARY:BV Penta X14-1 - BV Orca's X14-2*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497224
 LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
 STATUS:CONFIRMED
@@ -1252,7 +1252,7 @@ UID:foys-match-497227@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T090000
 DURATION:PT2H
-SUMMARY:BV Orca's X14-2 - Arta X14-1
+SUMMARY:BV Orca's X14-2* - Arta X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497227
 LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
 STATUS:CONFIRMED
@@ -1662,7 +1662,7 @@ UID:foys-match-497235@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T103000
 DURATION:PT2H
-SUMMARY:BV Orca's X14-2 - BV Arrows X14-2
+SUMMARY:BV Orca's X14-2* - BV Arrows X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497235
 LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
 STATUS:CONFIRMED
@@ -1912,7 +1912,7 @@ UID:foys-match-497239@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T133000
 DURATION:PT2H
-SUMMARY:Dyna '75 X14-2 - BV Orca's X14-2
+SUMMARY:Dyna '75 X14-2 - BV Orca's X14-2*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497239
 LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
 STATUS:CONFIRMED
@@ -2052,7 +2052,7 @@ UID:foys-match-497243@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261211T190000
 DURATION:PT2H
-SUMMARY:BV Orca's X14-2 - Ceres X14-2
+SUMMARY:BV Orca's X14-2* - Ceres X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497243
 LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
 STATUS:CONFIRMED

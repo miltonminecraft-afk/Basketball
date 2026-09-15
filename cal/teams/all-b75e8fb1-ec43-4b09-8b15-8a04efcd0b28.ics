@@ -42,8 +42,8 @@ UID:foys-match-491540@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T093000
 DURATION:PT2H
-SUMMARY:High Five X10-3 - Barons Breda Basketball X10-1
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491540
+SUMMARY:High Five X10-3 22 - 70 Barons Breda Basketball X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 22 - 70\nFOYS wedstrijd-ID: 491540
 LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
 STATUS:CONFIRMED
 END:VEVENT
@@ -143,7 +143,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T133000
 DURATION:PT2H
 SUMMARY:E.L.B.C. X12-2 59 - 46 High Five X12-4
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nUitslag: 59 - 46\nFOYS wedstrijd-ID: 495272
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 59 - 46\nFOYS wedstrijd-ID: 495272
 LOCATION:Trivium\, Trivium 60\, 4873LP ETTEN-LEUR
 STATUS:CONFIRMED
 END:VEVENT
@@ -243,7 +243,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T180000
 DURATION:PT2H
 SUMMARY:WYBA basketbalvereniging MSE-1 83 - 72 High Five MSE-1
-DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nUitslag: 83 - 72\nFOYS wedstrijd-ID: 509472
+DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Final\nUitslag: 83 - 72\nFOYS wedstrijd-ID: 509472
 LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -252,10 +252,10 @@ UID:foys-match-506550@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T210000
 DURATION:PT2H
-SUMMARY:AFGELAST: BC Shooters VSE-1 - High Five VSE-1
-DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 506550
+SUMMARY:BC Shooters VSE-1 0 - 20 High Five VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Final\nUitslag: 0 - 20\nFOYS wedstrijd-ID: 506550
 LOCATION:De Kuil\, Torenvalk 47\, 3752SJ BUNSCHOTEN-SPAKENBURG
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-494854@basketball-agenda
@@ -590,7 +590,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-495554@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260926T133000
+DTSTART;TZID=Europe/Amsterdam:20260926T131500
 DURATION:PT2H
 SUMMARY:BC Shooters V14-1 - High Five V14-1
 DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495554
@@ -918,16 +918,6 @@ LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-501211@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T181500
-DURATION:PT2H
-SUMMARY:High Five M18-1 - E.B.C.G. M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501211
-LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-512152@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T184500
@@ -954,6 +944,16 @@ DTSTART;TZID=Europe/Amsterdam:20261004T093000
 DURATION:PT2H
 SUMMARY:High Five X10-2 - High Five X10-1
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492081
+LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501211@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T093000
+DURATION:PT2H
+SUMMARY:High Five M18-1 - E.B.C.G. M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501211
 LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
 STATUS:CONFIRMED
 END:VEVENT
@@ -2892,7 +2892,7 @@ UID:foys-match-502049@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261219T103000
 DURATION:PT2H
-SUMMARY:BC Langstraat Shooters M18-2 - High Five M18-3
+SUMMARY:BC Langstraat Shooters M18-2* - High Five M18-3
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502049
 LOCATION:De Zeine\, Olympiaweg 12 A\, 5143NA WAALWIJK
 STATUS:CONFIRMED

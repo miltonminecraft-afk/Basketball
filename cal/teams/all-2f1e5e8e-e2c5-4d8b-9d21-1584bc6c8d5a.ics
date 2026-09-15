@@ -142,10 +142,10 @@ UID:foys-match-510992@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T173000
 DURATION:PT2H
-SUMMARY:Novo Stars MSE-2 - U.S. MSE-6
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510992
+SUMMARY:AFGELAST: Novo Stars MSE-2 - U.S. MSE-6
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 510992
 LOCATION:De Steupel\, Maarten Freeke Wije 2\, 2421TP NIEUWKOOP
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-505034@basketball-agenda
@@ -392,7 +392,7 @@ UID:foys-match-505642@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T190000
 DURATION:PT2H
-SUMMARY:U.S. MSE-2 - The Lions MSE-1
+SUMMARY:U.S. MSE-2 - The Lions MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505642
 LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
 STATUS:CONFIRMED
@@ -1432,7 +1432,7 @@ UID:foys-match-505707@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270130T193000
 DURATION:PT2H
-SUMMARY:The Lions MSE-1 - U.S. MSE-2
+SUMMARY:The Lions MSE-1* - U.S. MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505707
 LOCATION:Korver Sporthal "Duintjesveld"\, Duintjesveldweg 1 A\, 2041TZ ZANDVOORT
 STATUS:CONFIRMED

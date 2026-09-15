@@ -33,7 +33,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T120000
 DURATION:PT2H
 SUMMARY:EBBC M18-1 92 - 35 Vlijmscherp SVH M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 92 - 35\nFOYS wedstrijd-ID: 501998
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 92 - 35\nFOYS wedstrijd-ID: 501998
 LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
 END:VEVENT
@@ -53,7 +53,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T160000
 DURATION:PT2H
 SUMMARY:EBBC X14-1 74 - 38 Vlijmscherp SVH X14-2
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nUitslag: 74 - 38\nFOYS wedstrijd-ID: 498031
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 74 - 38\nFOYS wedstrijd-ID: 498031
 LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
 END:VEVENT
@@ -482,7 +482,7 @@ UID:foys-match-491457@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T100000
 DURATION:PT2H
-SUMMARY:Achilles '71 X10-2 - Vlijmscherp SVH X10-3
+SUMMARY:Achilles '71 X10-2* - Vlijmscherp SVH X10-3
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491457
 LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
 STATUS:CONFIRMED
@@ -882,7 +882,7 @@ UID:foys-match-502030@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T140000
 DURATION:PT2H
-SUMMARY:Vlijmscherp SVH M18-1 - BC Langstraat Shooters M18-2
+SUMMARY:Vlijmscherp SVH M18-1 - BC Langstraat Shooters M18-2*
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502030
 LOCATION:Die Heygrave\, Burgemeester Zwaansweg 4\, 5251CJ VLIJMEN
 STATUS:CONFIRMED

@@ -368,6 +368,16 @@ LOCATION:Galgenwaard\, Herculesplein 341\, 3584AA UTRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-506571@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T160000
+DURATION:PT2H
+SUMMARY:Utrecht Bull's VSE-1 - EBV Baros VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506571
+LOCATION:Galgenwaard\, Herculesplein 341\, 3584AA UTRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-511492@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T160000
@@ -404,16 +414,6 @@ DTSTART;TZID=Europe/Amsterdam:20261010T180000
 DURATION:PT2H
 SUMMARY:Utrecht Bull's MSE-2 - Punch MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505776
-LOCATION:Galgenwaard\, Herculesplein 341\, 3584AA UTRECHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-506571@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261010T200000
-DURATION:PT2H
-SUMMARY:Utrecht Bull's VSE-1 - EBV Baros VSE-1
-DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506571
 LOCATION:Galgenwaard\, Herculesplein 341\, 3584AA UTRECHT
 STATUS:CONFIRMED
 END:VEVENT

@@ -18,16 +18,6 @@ LOCATION:BRESS Sportcenter\, Nieuwe Inslag 99\, 4817GN Breda
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-510775@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260918T190000
-DURATION:PT2H
-SUMMARY:TSBV Pendragon MSE-4 - BC Bladel MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510775
-LOCATION:Studentensporthal KUB\, Academielaan 5\, 5037ET TILBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-510778@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T181500
@@ -135,6 +125,16 @@ DURATION:PT2H
 SUMMARY:EVBV Octopus MSE-2 - TSBV Pendragon MSE-4
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510838
 LOCATION:Elzenburg\, Brabantlaan 1\, 5262GW VUGHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510775@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270212T190000
+DURATION:PT2H
+SUMMARY:TSBV Pendragon MSE-4 - BC Bladel MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510775
+LOCATION:Studentensporthal KUB\, Academielaan 5\, 5037ET TILBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

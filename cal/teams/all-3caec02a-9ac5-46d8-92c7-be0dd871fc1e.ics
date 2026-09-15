@@ -32,8 +32,8 @@ UID:foys-match-510988@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T103000
 DURATION:PT2H
-SUMMARY:LUSV Basketbal MSE-4 - BV Leiderdorp MSE-4
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510988
+SUMMARY:LUSV Basketbal MSE-4 70 - 51 BV Leiderdorp MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 70 - 51\nFOYS wedstrijd-ID: 510988
 LOCATION:U.S.C.\, Goliuspad 22\, 2333BH Leiden
 STATUS:CONFIRMED
 END:VEVENT
@@ -42,8 +42,8 @@ UID:foys-match-502978@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T130000
 DURATION:PT2H
-SUMMARY:NIEUW Generation Basketball M22-1 - BV Leiderdorp M22-1
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502978
+SUMMARY:NIEUW Generation Basketball M22-1 77 - 84 BV Leiderdorp M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 77 - 84\nFOYS wedstrijd-ID: 502978
 LOCATION:British School\, Jan van Hooflaan 3\, 2252BG VOORSCHOTEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -1122,7 +1122,7 @@ UID:foys-match-507771@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261115T140000
 DURATION:PT2H
-SUMMARY:BV Leiderdorp MSE-3 - BC APOLLO Amsterdam MSE-6
+SUMMARY:BV Leiderdorp MSE-3 - BC APOLLO Amsterdam MSE-6*
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507771
 LOCATION:De Bloemerd\, De Bloemerd 1 a\, 2353BZ LEIDERDORP
 STATUS:CONFIRMED
@@ -1422,7 +1422,7 @@ UID:foys-match-507783@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261129T140000
 DURATION:PT2H
-SUMMARY:BV Leiderdorp MSE-3 - MSV Basketbal MSE-1
+SUMMARY:BV Leiderdorp MSE-3 - MSV Basketbal MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507783
 LOCATION:De Bloemerd\, De Bloemerd 1 a\, 2353BZ LEIDERDORP
 STATUS:CONFIRMED
@@ -2072,7 +2072,7 @@ UID:foys-match-507838@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270313T180000
 DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam MSE-6 - BV Leiderdorp MSE-3
+SUMMARY:BC APOLLO Amsterdam MSE-6* - BV Leiderdorp MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507838
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
@@ -2152,7 +2152,7 @@ UID:foys-match-507851@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270403T000000
 DURATION:PT2H
-SUMMARY:MSV Basketbal MSE-1 - BV Leiderdorp MSE-3
+SUMMARY:MSV Basketbal MSE-1* - BV Leiderdorp MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507851
 LOCATION:Sportpark Duinwetering\, Duinwetering 105\, 2203HM NOORDWIJK ZH
 STATUS:CONFIRMED

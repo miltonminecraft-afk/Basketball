@@ -42,7 +42,7 @@ UID:foys-match-512980@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260829T120000
 DURATION:PT2H
-SUMMARY:BS Leiden V18-1 64 - 80 Basketball Academy Utrecht V18-1 V18-1
+SUMMARY:BS Leiden V18-1* 64 - 80 Basketball Academy Utrecht V18-1 V18-1
 DESCRIPTION:Status: Final\nUitslag: 64 - 80\nFOYS wedstrijd-ID: 512980
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
@@ -262,10 +262,10 @@ UID:foys-match-504050@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T113000
 DURATION:PT2H
-SUMMARY:AFGELAST: Basketball Academy Utrecht V18-1 V18-1 - BS Leiden V18-1
-DESCRIPTION:Vrouwen U18 Landelijk - Eredivisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 504050
+SUMMARY:Basketball Academy Utrecht V18-1 V18-1 20 - 0 BS Leiden V18-1*
+DESCRIPTION:Vrouwen U18 Landelijk - Eredivisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 504050
 LOCATION:Sporthal Lunetten\, Zwarte Woud 201\, 3524SG UTRECHT
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-496016@basketball-agenda
@@ -302,8 +302,8 @@ UID:foys-match-492620@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T124500
 DURATION:PT2H
-SUMMARY:Northside Ballers Amsterdam M14-1 - BS Leiden M14-2
-DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492620
+SUMMARY:Northside Ballers Amsterdam M14-1 51 - 91 BS Leiden M14-2
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Final\nUitslag: 51 - 91\nFOYS wedstrijd-ID: 492620
 LOCATION:De Weeren\, Beemsterstraat 656\, 1027ED AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -372,7 +372,7 @@ UID:foys-match-491986@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T163000
 DURATION:PT2H
-SUMMARY:BS Leiden X10-3 20 - 0 Faith & Fire X10-1
+SUMMARY:BS Leiden X10-3 20 - 0 Faith & Fire X10-1*
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 491986
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
@@ -413,7 +413,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T183000
 DURATION:PT2H
 SUMMARY:BS Leiden M22-2 118 - 21 Bouncers Basketball M22-2
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 118 - 21\nFOYS wedstrijd-ID: 502977
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 118 - 21\nFOYS wedstrijd-ID: 502977
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -523,7 +523,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T143000
 DURATION:PT2H
 SUMMARY:BS Leiden M16-3 24 - 151 Lokomotief M16-2
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nUitslag: 24 - 151\nFOYS wedstrijd-ID: 498698
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 24 - 151\nFOYS wedstrijd-ID: 498698
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -762,7 +762,7 @@ UID:foys-match-504057@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T163000
 DURATION:PT2H
-SUMMARY:BS Leiden V18-1 - Onze Gezellen V18-1
+SUMMARY:BS Leiden V18-1* - Onze Gezellen V18-1
 DESCRIPTION:Vrouwen U18 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 504057
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
@@ -1280,7 +1280,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-512147@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260926T183000
+DTSTART;TZID=Europe/Amsterdam:20260926T184500
 DURATION:PT2H
 SUMMARY:Flashing Heiloo M22-1 - BS Leiden M22-1
 DESCRIPTION:Mannen U22 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 512147
@@ -1292,7 +1292,7 @@ UID:foys-match-504064@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T190000
 DURATION:PT2H
-SUMMARY:BC Shooters V18-1 - BS Leiden V18-1
+SUMMARY:BC Shooters V18-1 - BS Leiden V18-1*
 DESCRIPTION:Vrouwen U18 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 504064
 LOCATION:De Kuil\, Torenvalk 47\, 3752SJ BUNSCHOTEN-SPAKENBURG
 STATUS:CONFIRMED
@@ -1302,7 +1302,7 @@ UID:foys-match-507745@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T200000
 DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam MSE-6 - BS Leiden MSE-4
+SUMMARY:BC APOLLO Amsterdam MSE-6* - BS Leiden MSE-4
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507745
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
@@ -1442,7 +1442,7 @@ UID:foys-match-504068@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T000000
 DURATION:PT2H
-SUMMARY:BS Leiden V18-1 - BC APOLLO Amsterdam V18-1
+SUMMARY:BS Leiden V18-1* - BC APOLLO Amsterdam V18-1
 DESCRIPTION:Vrouwen U18 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 504068
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
@@ -1962,7 +1962,7 @@ UID:foys-match-504077@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T183000
 DURATION:PT2H
-SUMMARY:Peatminers V18-1 - BS Leiden V18-1
+SUMMARY:Peatminers V18-1 - BS Leiden V18-1*
 DESCRIPTION:Vrouwen U18 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 504077
 LOCATION:Deppenbroek\, Rijnstraat 11\, 7523GD ENSCHEDE
 STATUS:CONFIRMED
@@ -2012,7 +2012,7 @@ UID:foys-match-507757@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T203000
 DURATION:PT2H
-SUMMARY:BS Leiden MSE-4 - MSV Basketbal MSE-1
+SUMMARY:BS Leiden MSE-4 - MSV Basketbal MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507757
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
@@ -2342,7 +2342,7 @@ UID:foys-match-504094@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T170000
 DURATION:PT2H
-SUMMARY:BV Hoofddorp V18-1 - BS Leiden V18-1
+SUMMARY:BV Hoofddorp V18-1 - BS Leiden V18-1*
 DESCRIPTION:Vrouwen U18 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 504094
 LOCATION:Sportcomplex Koning Willem-Alexander\, Bennebroekerweg 800\, 2134AB HOOFDDORP
 STATUS:CONFIRMED
@@ -2772,7 +2772,7 @@ UID:foys-match-504083@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261101T143000
 DURATION:PT2H
-SUMMARY:Landstede Hammers V18-1 - BS Leiden V18-1
+SUMMARY:Landstede Hammers V18-1 - BS Leiden V18-1*
 DESCRIPTION:Vrouwen U18 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 504083
 LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
 STATUS:CONFIRMED
@@ -3172,7 +3172,7 @@ UID:foys-match-504089@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T123000
 DURATION:PT2H
-SUMMARY:BS Leiden V18-1 - H.S.V. Basketball V18-1
+SUMMARY:BS Leiden V18-1* - H.S.V. Basketball V18-1
 DESCRIPTION:Vrouwen U18 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 504089
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
@@ -3762,7 +3762,7 @@ UID:foys-match-492029@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T120000
 DURATION:PT2H
-SUMMARY:Faith & Fire X10-1 - BS Leiden X10-2
+SUMMARY:Faith & Fire X10-1* - BS Leiden X10-2
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492029
 LOCATION:Sporthal De Passie\, Maashaven Noordzijde 11\, 3072 AE Rotterdam
 STATUS:CONFIRMED
@@ -4082,7 +4082,7 @@ UID:foys-match-504100@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T143000
 DURATION:PT2H
-SUMMARY:BS Leiden V18-1 - Basketbal Academie Limburg V18-1
+SUMMARY:BS Leiden V18-1* - Basketbal Academie Limburg V18-1
 DESCRIPTION:Vrouwen U18 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 504100
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
@@ -4532,7 +4532,7 @@ UID:foys-match-504103@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261129T153000
 DURATION:PT2H
-SUMMARY:Lokomotief V18-1 - BS Leiden V18-1
+SUMMARY:Lokomotief V18-1 - BS Leiden V18-1*
 DESCRIPTION:Vrouwen U18 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 504103
 LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
 STATUS:CONFIRMED
@@ -4762,7 +4762,7 @@ UID:foys-match-504111@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T143000
 DURATION:PT2H
-SUMMARY:BS Leiden V18-1 - MBCA A'veen V18-1
+SUMMARY:BS Leiden V18-1* - MBCA A'veen V18-1
 DESCRIPTION:Vrouwen U18 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 504111
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
@@ -5412,7 +5412,7 @@ UID:foys-match-507807@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270123T220000
 DURATION:PT2H
-SUMMARY:BS Leiden MSE-4 - BC APOLLO Amsterdam MSE-6
+SUMMARY:BS Leiden MSE-4 - BC APOLLO Amsterdam MSE-6*
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507807
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
@@ -5572,7 +5572,7 @@ UID:foys-match-507820@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270206T000000
 DURATION:PT2H
-SUMMARY:MSV Basketbal MSE-1 - BS Leiden MSE-4
+SUMMARY:MSV Basketbal MSE-1* - BS Leiden MSE-4
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507820
 LOCATION:Sportpark Duinwetering\, Duinwetering 105\, 2203HM NOORDWIJK ZH
 STATUS:CONFIRMED

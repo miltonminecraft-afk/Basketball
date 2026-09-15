@@ -92,7 +92,7 @@ UID:foys-match-500888@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T151500
 DURATION:PT2H
-SUMMARY:BV Voorne V18-1 20 - 0 Marathon V18-1
+SUMMARY:BV Voorne V18-1 20 - 0 Marathon V18-1*
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 500888
 LOCATION:DukdalfBRES\, Reede 2 a\, 3232CV BRIELLE
 STATUS:CONFIRMED
@@ -610,7 +610,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-493539@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261017T123000
+DTSTART;TZID=Europe/Amsterdam:20261017T133000
 DURATION:PT2H
 SUMMARY:Bouncers Basketball X12-2 - BV Voorne X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493539
@@ -855,16 +855,6 @@ DURATION:PT2H
 SUMMARY:BV Voorne M16-1 - Westland Stars M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499306
 LOCATION:DukdalfBRES\, Reede 2 a\, 3232CV BRIELLE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-513034@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T164500
-DURATION:PT2H
-SUMMARY:BV Souburg VSE-1 - BV Voorne VSE-2
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513034
-LOCATION:Het Kroonjuweel\, Kroonjuweel 5\, 4388MD OOST-SOUBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1415,6 +1405,16 @@ DURATION:PT2H
 SUMMARY:HBV The Jumpers VSE-1 - BV Voorne VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504843
 LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513034@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T164500
+DURATION:PT2H
+SUMMARY:BV Souburg VSE-1 - BV Voorne VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513034
+LOCATION:Het Kroonjuweel\, Kroonjuweel 5\, 4388MD OOST-SOUBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

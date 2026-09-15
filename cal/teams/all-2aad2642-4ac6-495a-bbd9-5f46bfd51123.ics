@@ -63,7 +63,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T153000
 DURATION:PT2H
 SUMMARY:Lokomotief X14-1 113 - 64 Tracks Parkstad X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nUitslag: 113 - 64\nFOYS wedstrijd-ID: 496086
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 113 - 64\nFOYS wedstrijd-ID: 496086
 LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
 STATUS:CONFIRMED
 END:VEVENT
@@ -112,7 +112,7 @@ UID:foys-match-494649@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T100000
 DURATION:PT2H
-SUMMARY:Fanatics '71 X12-1 20 - 0 Tracks Parkstad X12-2
+SUMMARY:Fanatics '71 X12-1 20 - 0 Tracks Parkstad X12-2*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 494649
 LOCATION:Jo Gerrishal\, Achilleslaan 2 a\, 6042JV ROERMOND
 STATUS:CONFIRMED
@@ -154,16 +154,6 @@ DTSTART;TZID=Europe/Amsterdam:20260919T120000
 DURATION:PT2H
 SUMMARY:Tracks Parkstad M14-1 - BC Triple ThreaT M14-2
 DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492503
-LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-494653@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260919T120000
-DURATION:PT2H
-SUMMARY:Tracks Parkstad X12-2 - Springfield '75 X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494653
 LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
 STATUS:CONFIRMED
 END:VEVENT
@@ -348,21 +338,11 @@ LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-494655@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260927T110000
-DURATION:PT2H
-SUMMARY:BC Titans X12-1 - Tracks Parkstad X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494655
-LOCATION:Sporthal Vie\, Vieboulevard 21\, 6461ND KERKRADE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-510666@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260927T111500
 DURATION:PT2H
-SUMMARY:Vido MSE-2 - Tracks Parkstad MSE-1
+SUMMARY:Vido MSE-2* - Tracks Parkstad MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510666
 LOCATION:Den Ekkerman\, Wal 150\, 5501HP VELDHOVEN
 STATUS:CONFIRMED
@@ -468,16 +448,6 @@ LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-494659@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T160000
-DURATION:PT2H
-SUMMARY:Tracks Parkstad X12-2 - BC Kimbria X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494659
-LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-497067@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T160000
@@ -555,16 +525,6 @@ DURATION:PT2H
 SUMMARY:Basketbal Academie Limburg X12-1 - Tracks Parkstad X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493306
 LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-494661@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261010T110000
-DURATION:PT2H
-SUMMARY:BC Bumpers X12-2 - Tracks Parkstad X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494661
-LOCATION:Stadssporthal\, Stadswegske 8\, 6131AG SITTARD
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -695,16 +655,6 @@ DURATION:PT2H
 SUMMARY:Yellow Sox X12-1 - Tracks Parkstad X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493308
 LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-494665@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T120000
-DURATION:PT2H
-SUMMARY:Tracks Parkstad X12-2 - BC Titans X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494665
-LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -948,16 +898,6 @@ LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-494668@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T140000
-DURATION:PT2H
-SUMMARY:Tracks Parkstad X12-2 - BC Bumpers X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494668
-LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-496123@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T140000
@@ -1118,16 +1058,6 @@ LOCATION:Marsana\, Molenveldweg 4\, 6231RX MEERSSEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-494671@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261122T130000
-DURATION:PT2H
-SUMMARY:BC Kimbria X12-2 - Tracks Parkstad X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494671
-LOCATION:Geusselt\, Olympiaweg 68\, 6225XX MAASTRICHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-506249@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T133000
@@ -1258,16 +1188,6 @@ LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-494672@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261129T121500
-DURATION:PT2H
-SUMMARY:Springfield '75 X12-1 - Tracks Parkstad X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494672
-LOCATION:Het Anker\, Ankersweg 52\, 6121AT BUCHTEN-BORN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-492527@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T124000
@@ -1285,16 +1205,6 @@ DURATION:PT2H
 SUMMARY:BC Titans MSE-1 - Tracks Parkstad MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510706
 LOCATION:Sporthal Vie\, Vieboulevard 21\, 6461ND KERKRADE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-494677@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T120000
-DURATION:PT2H
-SUMMARY:Tracks Parkstad X12-2 - Fanatics '71 X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494677
-LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1502,7 +1412,7 @@ UID:foys-match-510725@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270123T160000
 DURATION:PT2H
-SUMMARY:Tracks Parkstad MSE-1 - Vido MSE-2
+SUMMARY:Tracks Parkstad MSE-1 - Vido MSE-2*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510725
 LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
 STATUS:CONFIRMED

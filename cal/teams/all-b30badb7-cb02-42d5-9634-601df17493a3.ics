@@ -103,7 +103,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T163000
 DURATION:PT2H
 SUMMARY:MBCA A'veen M18-3 41 - 88 ABC Amigos M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 41 - 88\nFOYS wedstrijd-ID: 502525
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 41 - 88\nFOYS wedstrijd-ID: 502525
 LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -232,7 +232,7 @@ UID:foys-match-505634@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T190000
 DURATION:PT2H
-SUMMARY:ABC Amigos MSE-1 - The Lions MSE-1
+SUMMARY:ABC Amigos MSE-1 - The Lions MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505634
 LOCATION:Sporthuis Abcoude\, Geinplein 1\, 1391 JN Abcoude
 STATUS:CONFIRMED
@@ -1372,7 +1372,7 @@ UID:foys-match-505696@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270116T193000
 DURATION:PT2H
-SUMMARY:The Lions MSE-1 - ABC Amigos MSE-1
+SUMMARY:The Lions MSE-1* - ABC Amigos MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505696
 LOCATION:Korver Sporthal "Duintjesveld"\, Duintjesveldweg 1 A\, 2041TZ ZANDVOORT
 STATUS:CONFIRMED

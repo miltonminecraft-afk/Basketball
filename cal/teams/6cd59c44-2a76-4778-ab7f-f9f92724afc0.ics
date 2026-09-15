@@ -52,7 +52,7 @@ UID:foys-match-505647@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T193000
 DURATION:PT2H
-SUMMARY:The Lions MSE-1 - MBCA A'veen MSE-3
+SUMMARY:The Lions MSE-1* - MBCA A'veen MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505647
 LOCATION:Korver Sporthal "Duintjesveld"\, Duintjesveldweg 1 A\, 2041TZ ZANDVOORT
 STATUS:CONFIRMED
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-505671@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T171500
+DTSTART;TZID=Europe/Amsterdam:20261121T173000
 DURATION:PT2H
 SUMMARY:Flashing Heiloo MSE-1 - MBCA A'veen MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505671
@@ -162,7 +162,7 @@ UID:foys-match-505718@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270204T204500
 DURATION:PT2H
-SUMMARY:MBCA A'veen MSE-3 - The Lions MSE-1
+SUMMARY:MBCA A'veen MSE-3 - The Lions MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505718
 LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
 STATUS:CONFIRMED

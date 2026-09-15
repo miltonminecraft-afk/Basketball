@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Basketball Agenda//NL
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Akros X12-2
+X-WR-CALNAME:Akros X12-2*
 X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
@@ -12,7 +12,7 @@ UID:foys-match-494231@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T111500
 DURATION:PT2H
-SUMMARY:UNLIMITED X12-2 20 - 0 Akros X12-2
+SUMMARY:UNLIMITED X12-2 20 - 0 Akros X12-2*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 494231
 LOCATION:De Helster\, Schubertstraat 1\, 6661AW Elst
 STATUS:CONFIRMED
@@ -22,7 +22,7 @@ UID:foys-match-494240@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T121500
 DURATION:PT2H
-SUMMARY:Akros X12-2 - Challenge X12-3
+SUMMARY:Akros X12-2* - Challenge X12-3
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494240
 LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
 STATUS:CONFIRMED
@@ -32,7 +32,7 @@ UID:foys-match-494245@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T100000
 DURATION:PT2H
-SUMMARY:Joy-M X12-1 - Akros X12-2
+SUMMARY:Joy-M X12-1 - Akros X12-2*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494245
 LOCATION:De Veldschuur\, Veldsingel 29\, 6581TC MALDEN
 STATUS:CONFIRMED
@@ -42,7 +42,7 @@ UID:foys-match-494258@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T120000
 DURATION:PT2H
-SUMMARY:Pigeons X12-1 - Akros X12-2
+SUMMARY:Pigeons X12-1 - Akros X12-2*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494258
 LOCATION:Triominos\, Eltensestraat 4\, 6922JB DUIVEN
 STATUS:CONFIRMED
@@ -52,7 +52,7 @@ UID:foys-match-494263@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T121500
 DURATION:PT2H
-SUMMARY:Akros X12-2 - Gennep Cougars X12-2
+SUMMARY:Akros X12-2* - Gennep Cougars X12-2
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494263
 LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
 STATUS:CONFIRMED
@@ -62,7 +62,7 @@ UID:foys-match-494271@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T093000
 DURATION:PT2H
-SUMMARY:Gennep Cougars X12-1 - Akros X12-2
+SUMMARY:Gennep Cougars X12-1 - Akros X12-2*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494271
 LOCATION:Pica Mare 2\, Picardie 34\, 6591JE GENNEP
 STATUS:CONFIRMED
@@ -72,7 +72,7 @@ UID:foys-match-494277@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T100000
 DURATION:PT2H
-SUMMARY:Challenge X12-2 - Akros X12-2
+SUMMARY:Challenge X12-2 - Akros X12-2*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494277
 LOCATION:De Tinnegieter\, Leigraaf 2\, 6641DH BEUNINGEN GLD
 STATUS:CONFIRMED
@@ -82,7 +82,7 @@ UID:foys-match-494283@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T120000
 DURATION:PT2H
-SUMMARY:Akros X12-2 - Akros X12-1
+SUMMARY:Akros X12-2* - Akros X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494283
 LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
 STATUS:CONFIRMED
@@ -92,7 +92,7 @@ UID:foys-match-494284@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T100000
 DURATION:PT2H
-SUMMARY:Wildcats X12-2 - Akros X12-2
+SUMMARY:Wildcats X12-2 - Akros X12-2*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494284
 LOCATION:De Horstacker\, Horstacker 1401\, 6546EK NIJMEGEN
 STATUS:CONFIRMED
@@ -102,7 +102,7 @@ UID:foys-match-494294@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T130000
 DURATION:PT2H
-SUMMARY:Akros X12-2 - Nimma Gemina X12-3
+SUMMARY:Akros X12-2* - Nimma Gemina X12-3
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494294
 LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
 STATUS:CONFIRMED

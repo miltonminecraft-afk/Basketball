@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Basketball Agenda//NL
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Marathon V18-1
+X-WR-CALNAME:Marathon V18-1*
 X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
@@ -12,7 +12,7 @@ UID:foys-match-500888@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T151500
 DURATION:PT2H
-SUMMARY:BV Voorne V18-1 20 - 0 Marathon V18-1
+SUMMARY:BV Voorne V18-1 20 - 0 Marathon V18-1*
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 500888
 LOCATION:DukdalfBRES\, Reede 2 a\, 3232CV BRIELLE
 STATUS:CONFIRMED
@@ -22,7 +22,7 @@ UID:foys-match-500895@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T130000
 DURATION:PT2H
-SUMMARY:Marathon V18-1 - BV Volharding V18-1
+SUMMARY:Marathon V18-1* - BV Volharding V18-1
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500895
 LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
@@ -32,7 +32,7 @@ UID:foys-match-500900@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T134000
 DURATION:PT2H
-SUMMARY:Rebound V18-1 - Marathon V18-1
+SUMMARY:Rebound V18-1 - Marathon V18-1*
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500900
 LOCATION:De Schenkel\, Schenkeltje 7 b\, 3295KK 'S-GRAVENDEEL
 STATUS:CONFIRMED
@@ -42,7 +42,7 @@ UID:foys-match-500910@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T180000
 DURATION:PT2H
-SUMMARY:Scheldesport Basketball V18-1 - Marathon V18-1
+SUMMARY:Scheldesport Basketball V18-1 - Marathon V18-1*
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500910
 LOCATION:Vliegende Vaart\, Vliegende Vaart 2\, 4537DH TERNEUZEN
 STATUS:CONFIRMED
@@ -52,7 +52,7 @@ UID:foys-match-500921@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T111500
 DURATION:PT2H
-SUMMARY:River Trotters V18-1 - Marathon V18-1
+SUMMARY:River Trotters V18-1 - Marathon V18-1*
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500921
 LOCATION:De Wielewaal\, Cornelisweer 2\, 3371PH HARDINXVELD-GIESSENDAM
 STATUS:CONFIRMED
@@ -62,7 +62,7 @@ UID:foys-match-500926@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T123000
 DURATION:PT2H
-SUMMARY:Zoebas V18-2 - Marathon V18-1
+SUMMARY:Zoebas V18-2 - Marathon V18-1*
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500926
 LOCATION:Noordhove\, Lijnbaan 311\, 2728AG ZOETERMEER
 STATUS:CONFIRMED
@@ -72,7 +72,7 @@ UID:foys-match-500931@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T123000
 DURATION:PT2H
-SUMMARY:Marathon V18-1 - NRG Basketball V18-1
+SUMMARY:Marathon V18-1* - NRG Basketball V18-1
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500931
 LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
@@ -82,7 +82,7 @@ UID:foys-match-500932@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T110000
 DURATION:PT2H
-SUMMARY:Divine V18-1 - Marathon V18-1
+SUMMARY:Divine V18-1 - Marathon V18-1*
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500932
 LOCATION:Sporthal Oostervant\, Oostervantstraat 25\, 3021PT ROTTERDAM
 STATUS:CONFIRMED
@@ -92,7 +92,7 @@ UID:foys-match-500940@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261213T123000
 DURATION:PT2H
-SUMMARY:Marathon V18-1 - NIEUW Generation Basketball V18-2
+SUMMARY:Marathon V18-1* - NIEUW Generation Basketball V18-2
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500940
 LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED

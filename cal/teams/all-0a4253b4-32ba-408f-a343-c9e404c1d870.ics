@@ -123,7 +123,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T180000
 DURATION:PT2H
 SUMMARY:WSV MSE-1 47 - 49 B.V. Batouwe MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nUitslag: 47 - 49\nFOYS wedstrijd-ID: 509030
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Final\nUitslag: 47 - 49\nFOYS wedstrijd-ID: 509030
 LOCATION:WSV Sporthal\, De Voorwaarts 450\, 7321MG APELDOORN
 STATUS:CONFIRMED
 END:VEVENT
@@ -163,7 +163,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T123000
 DURATION:PT2H
 SUMMARY:B.V. Batouwe X10-4 31 - 19 Challenge X10-2
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 31 - 19\nFOYS wedstrijd-ID: 491651
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 31 - 19\nFOYS wedstrijd-ID: 491651
 LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
 STATUS:CONFIRMED
 END:VEVENT
@@ -544,16 +544,6 @@ DTSTART;TZID=Europe/Amsterdam:20261003T150000
 DURATION:PT2H
 SUMMARY:B.V. Batouwe X10-1 - The Black Eagles X10-1
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492140
-LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-502233@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T150000
-DURATION:PT2H
-SUMMARY:B.V. Batouwe M18-2 - Dedein M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502233
 LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
 STATUS:CONFIRMED
 END:VEVENT
@@ -1312,7 +1302,7 @@ UID:foys-match-495903@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T093000
 DURATION:PT2H
-SUMMARY:B.V. Batouwe V14-1 - Gennep Cougars V14-1
+SUMMARY:B.V. Batouwe V14-1 - Gennep Cougars V14-1*
 DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495903
 LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
 STATUS:CONFIRMED

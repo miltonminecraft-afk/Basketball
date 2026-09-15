@@ -38,16 +38,6 @@ LOCATION:Omnium\, Zwembadweg 3\, 4463AB GOES
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-513022@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T164500
-DURATION:PT2H
-SUMMARY:BV Souburg VSE-1 - Marathon VSE-2
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513022
-LOCATION:Het Kroonjuweel\, Kroonjuweel 5\, 4388MD OOST-SOUBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-513030@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T164500
@@ -58,12 +48,12 @@ LOCATION:Het Kroonjuweel\, Kroonjuweel 5\, 4388MD OOST-SOUBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-513034@basketball-agenda
+UID:foys-match-513022@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T164500
+DTSTART;TZID=Europe/Amsterdam:20261115T150000
 DURATION:PT2H
-SUMMARY:BV Souburg VSE-1 - BV Voorne VSE-2
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513034
+SUMMARY:BV Souburg VSE-1 - Marathon VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513022
 LOCATION:Het Kroonjuweel\, Kroonjuweel 5\, 4388MD OOST-SOUBURG
 STATUS:CONFIRMED
 END:VEVENT
@@ -95,6 +85,16 @@ DURATION:PT2H
 SUMMARY:B.O.B. VSE-2 - BV Souburg VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513035
 LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513034@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T164500
+DURATION:PT2H
+SUMMARY:BV Souburg VSE-1 - BV Voorne VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513034
+LOCATION:Het Kroonjuweel\, Kroonjuweel 5\, 4388MD OOST-SOUBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

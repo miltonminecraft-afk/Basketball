@@ -133,7 +133,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T123000
 DURATION:PT2H
 SUMMARY:B.V. Batouwe X10-4 31 - 19 Challenge X10-2
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 31 - 19\nFOYS wedstrijd-ID: 491651
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 31 - 19\nFOYS wedstrijd-ID: 491651
 LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
 STATUS:CONFIRMED
 END:VEVENT
@@ -143,7 +143,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T161500
 DURATION:PT2H
 SUMMARY:UNLIMITED V16-1 74 - 35 Challenge V16-1
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 74 - 35\nFOYS wedstrijd-ID: 498408
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 74 - 35\nFOYS wedstrijd-ID: 498408
 LOCATION:De Helster\, Schubertstraat 1\, 6661AW Elst
 STATUS:CONFIRMED
 END:VEVENT
@@ -188,21 +188,11 @@ LOCATION:De Tinnegieter\, Leigraaf 2\, 6641DH BEUNINGEN GLD
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-502226@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260919T113000
-DURATION:PT2H
-SUMMARY:Challenge M18-1 - Dedein M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502226
-LOCATION:De Tinnegieter\, Leigraaf 2\, 6641DH BEUNINGEN GLD
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-494240@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T121500
 DURATION:PT2H
-SUMMARY:Akros X12-2 - Challenge X12-3
+SUMMARY:Akros X12-2* - Challenge X12-3
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494240
 LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
 STATUS:CONFIRMED
@@ -282,7 +272,7 @@ UID:foys-match-495870@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260920T093000
 DURATION:PT2H
-SUMMARY:Gennep Cougars V14-1 - Challenge V14-1
+SUMMARY:Gennep Cougars V14-1* - Challenge V14-1
 DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495870
 LOCATION:Pica Mare 2\, Picardie 34\, 6591JE GENNEP
 STATUS:CONFIRMED
@@ -992,7 +982,7 @@ UID:foys-match-494277@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T100000
 DURATION:PT2H
-SUMMARY:Challenge X12-2 - Akros X12-2
+SUMMARY:Challenge X12-2 - Akros X12-2*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494277
 LOCATION:De Tinnegieter\, Leigraaf 2\, 6641DH BEUNINGEN GLD
 STATUS:CONFIRMED
