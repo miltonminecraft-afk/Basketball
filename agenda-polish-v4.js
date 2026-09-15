@@ -11,7 +11,7 @@ const $=id=>document.getElementById(id);
 const esc=v=>String(v??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));
 const d=v=>String(v||'').slice(0,10),t=v=>String(v||'').slice(0,5);
 const norm=v=>String(v||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');
-let sb=null,ctx=null,ctxAt=0,rendering=false,timer=null,taskCache=null,appTeamChanging=false;
+let sb=null,ctx=null,ctxAt=0,rendering=false,timer=null,taskCache=null,appTeamChanging=false,renderEpoch=0;
 const matchCache=new Map(),logoCache=new Map(),clubLogoCache=new Map(),orgTeamsCache=new Map();
 let agendaObserver=null,gamesObserver=null;
 function selection(){try{return JSON.parse(localStorage.getItem(STORE)||'null')}catch{return null}}
@@ -52,20 +52,28 @@ async function polishMatches(map){const cards=[...document.querySelectorAll('#ag
 function pauseObservers(){agendaObserver?.disconnect();gamesObserver?.disconnect()}
 function resumeObservers(){const a=$('agendaList'),g=$('gamesList');if(a&&agendaObserver)agendaObserver.observe(a,{childList:true,subtree:true});if(g&&gamesObserver)gamesObserver.observe(g,{childList:true,subtree:true})}
 async function render(force=false){
- const root=$('agendaList');if(!root||rendering||appTeamChanging||$('sourceStatus')?.classList.contains('status-loading'))return;rendering=true;pauseObservers();
+ const root=$('agendaList');if(!root||rendering||appTeamChanging||$('sourceStatus')?.classList.contains('status-loading'))return;
+ const epoch=renderEpoch;
+ rendering=true;pauseObservers();
  try{
   injectCss();cleanupClubAgenda();if(force){ctx=null;ctxAt=0;matchCache.clear()}
-  const c=await context(force),sel=selection(),allSelected=String(sel?.teamGuid||'').startsWith('all-');
+  const c=await context(force);
+  if(epoch!==renderEpoch||appTeamChanging)return;
+  const sel=selection(),allSelected=String(sel?.teamGuid||'').startsWith('all-');
   let map=matchMap();
   await tagDays(root,map);
+  if(epoch!==renderEpoch||appTeamChanging)return;
   root.querySelectorAll('.agenda-training,.agenda-extra-match').forEach(x=>x.remove());
   map=matchMap();
   await tagDays(root,map);
+  if(epoch!==renderEpoch||appTeamChanging)return;
   const selectedTeam=c.allTeams.find(x=>String(x.foy_team_guid)===String(sel?.teamGuid||''));
   const visibleSlots=allSelected?c.slots:(selectedTeam?c.slots.filter(slot=>String(slot.team_id)===String(selectedTeam.id)):[]);
   const today=new Date().toISOString().slice(0,10);
   for(const o of trainingOccurrences(c,visibleSlots,today))findDay(root,o.date).insertAdjacentHTML('beforeend',trainingCard(o));
+  if(epoch!==renderEpoch||appTeamChanging)return;
   await polishMatches(map);
+  if(epoch!==renderEpoch||appTeamChanging)return;
   sortAgenda(root);
  }catch(e){console.warn('Agenda kon niet worden aangevuld',e)}finally{rendering=false;resumeObservers();document.dispatchEvent(new CustomEvent('basketball-agenda-polished'))}
 }
@@ -74,8 +82,8 @@ function installObservers(){agendaObserver=new MutationObserver(muts=>{if(render
 function init(){
  injectCss();installObservers();schedule(true,450);
  $('personSelect')?.addEventListener('change',()=>schedule(false,250));
- document.addEventListener('basketball-team-selection-changing',()=>{appTeamChanging=true;clearTimeout(timer);$('agendaList')?.querySelectorAll('.agenda-training,.agenda-extra-match').forEach(x=>x.remove())});
- document.addEventListener('basketball-team-data-rendered',()=>{appTeamChanging=false;ctx=null;ctxAt=0;matchCache.clear();schedule(true,40)});
+ document.addEventListener('basketball-team-selection-changing',()=>{renderEpoch++;appTeamChanging=true;clearTimeout(timer);$('agendaList')?.querySelectorAll('.agenda-training,.agenda-extra-match').forEach(x=>x.remove())});
+ document.addEventListener('basketball-team-data-rendered',()=>{renderEpoch++;appTeamChanging=false;ctx=null;ctxAt=0;matchCache.clear();schedule(true,40)});
  document.addEventListener('click',e=>{if(e.target.closest('.tab[data-view="agenda"],.tab[data-view="games"]'))schedule(false,120);if(e.target.closest('.tab[data-view="club"],[data-view="club"]'))setTimeout(cleanupClubAgenda,160)},true);
  document.addEventListener('basketball-attendance-changed',()=>schedule(false,120));
  document.addEventListener('training-data-changed',()=>{ctx=null;ctxAt=0;schedule(true,80)});
