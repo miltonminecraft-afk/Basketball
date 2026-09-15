@@ -110,8 +110,15 @@ function observeSummary(){
  const host=document.getElementById('feedSummary');if(!host)return;
  summaryObserver?.disconnect();summaryObserver=new MutationObserver(()=>wireRows());summaryObserver.observe(host,{childList:true,subtree:true});wireRows();
 }
+function markUnknownMatchPoints(){
+ for(const row of document.querySelectorAll('#matchDetailOverlay .played-players .played-player-row')){
+  if(row.querySelector('.played-player-points'))continue;
+  const span=document.createElement('span');span.className='played-player-points';span.textContent='—';span.title='Individuele punten zijn voor deze wedstrijd niet volledig openbaar.';row.appendChild(span);
+ }
+}
+function observeMatchPoints(){const observer=new MutationObserver(markUnknownMatchPoints);observer.observe(document.body,{childList:true,subtree:true});markUnknownMatchPoints()}
 function init(){
- injectCss();ensureOverlay();observeSummary();
+ injectCss();ensureOverlay();observeSummary();observeMatchPoints();
  document.getElementById('syncBtn')?.addEventListener('click',()=>teamStatsCache.clear());
  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!document.getElementById('feedTeamPlayersOverlay')?.hidden)closeOverlay()});
 }
