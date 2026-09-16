@@ -18,16 +18,6 @@ LOCATION:De Zwet\, De Klencke 32\, 9472RN ZUIDLAREN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-511587@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260919T130000
-DURATION:PT2H
-SUMMARY:M.A.C. MSE-1 - Zuidlaren Trojans MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511587
-LOCATION:Bredeschool Noord\, Waddenweg 4\, 9933KH DELFZIJL
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-511592@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T120000
@@ -55,6 +45,16 @@ DURATION:PT2H
 SUMMARY:Assist MSE-1 - Zuidlaren Trojans MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511640
 LOCATION:De Spreng\, Vredeveldseweg 57\, 9404CC ASSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511587@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T110000
+DURATION:PT2H
+SUMMARY:M.A.C. MSE-1 - Zuidlaren Trojans MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511587
+LOCATION:Bredeschool Noord\, Waddenweg 4\, 9933KH DELFZIJL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

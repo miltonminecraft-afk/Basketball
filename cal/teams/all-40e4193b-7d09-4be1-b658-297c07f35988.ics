@@ -42,8 +42,8 @@ UID:foys-match-497621@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T111500
 DURATION:PT2H
-SUMMARY:Westland Stars X14-2 - SBV Juventus X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497621
+SUMMARY:Westland Stars X14-2 41 - 54 SBV Juventus X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 41 - 54\nFOYS wedstrijd-ID: 497621
 LOCATION:Sosefhal\, Strijphorst 1\, 2675WN HONSELERSDIJK
 STATUS:CONFIRMED
 END:VEVENT
@@ -554,16 +554,6 @@ DTSTART;TZID=Europe/Amsterdam:20261107T120000
 DURATION:PT2H
 SUMMARY:Hurricanes M16-1 - SBV Juventus M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498889
-LOCATION:Den Oert\, J. Witteveenlaan 1\, 3201LX SPIJKENISSE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-501649@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T120000
-DURATION:PT2H
-SUMMARY:Hurricanes M18-2 - SBV Juventus M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501649
 LOCATION:Den Oert\, J. Witteveenlaan 1\, 3201LX SPIJKENISSE
 STATUS:CONFIRMED
 END:VEVENT

@@ -12,8 +12,8 @@ UID:foys-match-494679@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T093000
 DURATION:PT2H
-SUMMARY:Westland Stars X12-3 - BV Squirrels X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494679
+SUMMARY:Westland Stars X12-3 65 - 14 BV Squirrels X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 65 - 14\nFOYS wedstrijd-ID: 494679
 LOCATION:Sosefhal\, Strijphorst 1\, 2675WN HONSELERSDIJK
 STATUS:CONFIRMED
 END:VEVENT
@@ -22,8 +22,8 @@ UID:foys-match-494793@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T093000
 DURATION:PT2H
-SUMMARY:Westland Stars X12-2 - Forwodians X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494793
+SUMMARY:Westland Stars X12-2 4 - 54 Forwodians X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 4 - 54\nFOYS wedstrijd-ID: 494793
 LOCATION:Sosefhal\, Strijphorst 1\, 2675WN HONSELERSDIJK
 STATUS:CONFIRMED
 END:VEVENT
@@ -42,8 +42,8 @@ UID:foys-match-493542@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T111500
 DURATION:PT2H
-SUMMARY:Westland Stars X12-1 - CobraNova X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493542
+SUMMARY:Westland Stars X12-1 39 - 41 CobraNova X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 39 - 41\nFOYS wedstrijd-ID: 493542
 LOCATION:Sosefhal\, Strijphorst 1\, 2675WN HONSELERSDIJK
 STATUS:CONFIRMED
 END:VEVENT
@@ -52,8 +52,8 @@ UID:foys-match-497621@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T111500
 DURATION:PT2H
-SUMMARY:Westland Stars X14-2 - SBV Juventus X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497621
+SUMMARY:Westland Stars X14-2 41 - 54 SBV Juventus X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 41 - 54\nFOYS wedstrijd-ID: 497621
 LOCATION:Sosefhal\, Strijphorst 1\, 2675WN HONSELERSDIJK
 STATUS:CONFIRMED
 END:VEVENT
@@ -62,8 +62,8 @@ UID:foys-match-494681@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T130000
 DURATION:PT2H
-SUMMARY:Westland Stars X12-4 - Bouncers Basketball X12-3
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494681
+SUMMARY:Westland Stars X12-4 54 - 64 Bouncers Basketball X12-3
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 54 - 64\nFOYS wedstrijd-ID: 494681
 LOCATION:Sosefhal\, Strijphorst 1\, 2675WN HONSELERSDIJK
 STATUS:CONFIRMED
 END:VEVENT
@@ -72,8 +72,8 @@ UID:foys-match-496245@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T130000
 DURATION:PT2H
-SUMMARY:Westland Stars X14-1 - Green Eagles X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496245
+SUMMARY:Westland Stars X14-1 85 - 57 Green Eagles X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 85 - 57\nFOYS wedstrijd-ID: 496245
 LOCATION:Sosefhal\, Strijphorst 1\, 2675WN HONSELERSDIJK
 STATUS:CONFIRMED
 END:VEVENT
@@ -92,8 +92,8 @@ UID:foys-match-501612@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T150000
 DURATION:PT2H
-SUMMARY:Westland Stars M18-2 - NRG Basketball M18-2
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501612
+SUMMARY:Westland Stars M18-2 57 - 81 NRG Basketball M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 57 - 81\nFOYS wedstrijd-ID: 501612
 LOCATION:Sosefhal\, Strijphorst 1\, 2675WN HONSELERSDIJK
 STATUS:CONFIRMED
 END:VEVENT
@@ -375,16 +375,6 @@ DURATION:PT2H
 SUMMARY:CobraNova V16-2 - Westland Stars V16-1
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498163
 LOCATION:Forum Kwadraat\, De Vliegerlaan 2 4\, 2273BV VOORBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-501624@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260926T170000
-DURATION:PT2H
-SUMMARY:Westland Stars M18-2 - Hurricanes M18-2
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501624
-LOCATION:Sosefhal\, Strijphorst 1\, 2675WN HONSELERSDIJK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

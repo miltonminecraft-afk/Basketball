@@ -97,14 +97,4 @@ DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Plann
 LOCATION:Korba sporthal\, Schoemakerstraat 340\, 2629HP DELFT
 STATUS:CONFIRMED
 END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-501671@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T120000
-DURATION:PT2H
-SUMMARY:Hurricanes M18-2 - DAS M18-2
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501671
-LOCATION:Den Oert\, J. Witteveenlaan 1\, 3201LX SPIJKENISSE
-STATUS:CONFIRMED
-END:VEVENT
 END:VCALENDAR

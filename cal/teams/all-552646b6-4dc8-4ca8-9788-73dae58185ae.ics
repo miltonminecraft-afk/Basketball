@@ -82,8 +82,8 @@ UID:foys-match-496245@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T130000
 DURATION:PT2H
-SUMMARY:Westland Stars X14-1 - Green Eagles X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496245
+SUMMARY:Westland Stars X14-1 85 - 57 Green Eagles X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 85 - 57\nFOYS wedstrijd-ID: 496245
 LOCATION:Sosefhal\, Strijphorst 1\, 2675WN HONSELERSDIJK
 STATUS:CONFIRMED
 END:VEVENT
@@ -92,8 +92,8 @@ UID:foys-match-493168@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T133000
 DURATION:PT2H
-SUMMARY:BV Squirrels X12-1 0 - 0 Green Eagles X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 0 - 0\nFOYS wedstrijd-ID: 493168
+SUMMARY:BV Squirrels X12-1 43 - 39 Green Eagles X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 43 - 39\nFOYS wedstrijd-ID: 493168
 LOCATION:Sporthal Oostmeer\, Het Hoge Land 19\, 2652EA BERKEL EN RODENRIJS
 STATUS:CONFIRMED
 END:VEVENT
@@ -402,10 +402,10 @@ UID:foys-match-492001@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T120000
 DURATION:PT2H
-SUMMARY:Green Eagles X10-1 - BS Leiden X10-3
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492001
+SUMMARY:AFGELAST: Green Eagles X10-1 - BS Leiden X10-3
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 492001
 LOCATION:Wethouder Smithal\, Westeinde 96\, 3146BZ MAASSLUIS
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-494694@basketball-agenda
@@ -414,16 +414,6 @@ DTSTART;TZID=Europe/Amsterdam:20261003T120000
 DURATION:PT2H
 SUMMARY:Green Eagles X12-2 - Westland Stars X12-3
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494694
-LOCATION:Wethouder Smithal\, Westeinde 96\, 3146BZ MAASSLUIS
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-498717@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T120000
-DURATION:PT2H
-SUMMARY:Green Eagles M16-1 - Cady '73 M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498717
 LOCATION:Wethouder Smithal\, Westeinde 96\, 3146BZ MAASSLUIS
 STATUS:CONFIRMED
 END:VEVENT
@@ -464,6 +454,16 @@ DTSTART;TZID=Europe/Amsterdam:20261003T140000
 DURATION:PT2H
 SUMMARY:Green Eagles X12-3 - Bouncers Basketball X12-3
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494697
+LOCATION:Wethouder Smithal\, Westeinde 96\, 3146BZ MAASSLUIS
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498717@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T140000
+DURATION:PT2H
+SUMMARY:Green Eagles M16-1 - Cady '73 M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498717
 LOCATION:Wethouder Smithal\, Westeinde 96\, 3146BZ MAASSLUIS
 STATUS:CONFIRMED
 END:VEVENT
@@ -1154,16 +1154,6 @@ DTSTART;TZID=Europe/Amsterdam:20261128T160000
 DURATION:PT2H
 SUMMARY:Green Eagles X14-2 - BV Squirrels X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497658
-LOCATION:Wethouder Smithal\, Westeinde 96\, 3146BZ MAASSLUIS
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-501663@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T160000
-DURATION:PT2H
-SUMMARY:Green Eagles M18-1 - Hurricanes M18-2
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501663
 LOCATION:Wethouder Smithal\, Westeinde 96\, 3146BZ MAASSLUIS
 STATUS:CONFIRMED
 END:VEVENT
