@@ -118,16 +118,6 @@ LOCATION:Bibian Mentel Sporthal\, Foekje Dillemastraat 118\, 1095 MK Amsterdam
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-506924@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260919T154500
-DURATION:PT2H
-SUMMARY:Volendam MSE-1 - U.S. MSE-4
-DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506924
-LOCATION:De Seinpaal\, Harlingenlaan 25\, 1131JP VOLENDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-509343@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T171500
@@ -142,10 +132,10 @@ UID:foys-match-510992@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T173000
 DURATION:PT2H
-SUMMARY:AFGELAST: Novo Stars MSE-2 - U.S. MSE-6
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 510992
+SUMMARY:Novo Stars MSE-2 - U.S. MSE-6
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510992
 LOCATION:De Steupel\, Maarten Freeke Wije 2\, 2421TP NIEUWKOOP
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-505034@basketball-agenda
@@ -435,16 +425,6 @@ DURATION:PT2H
 SUMMARY:Break Out '88 MSE-2 - U.S. MSE-5
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510001
 LOCATION:Wieringen Sporthal\, Belterlaan 1\, 1777HM HIPPOLYTUSHOEF
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-509360@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261017T140000
-DURATION:PT2H
-SUMMARY:DAS MSE-1 - U.S. MSE-1
-DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509360
-LOCATION:Korba sporthal\, Schoemakerstraat 340\, 2629HP DELFT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -978,6 +958,16 @@ LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-509360@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T154500
+DURATION:PT2H
+SUMMARY:DAS MSE-1 - U.S. MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509360
+LOCATION:Korba sporthal\, Schoemakerstraat 340\, 2629HP DELFT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-510048@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261206T173000
@@ -1375,6 +1365,16 @@ DURATION:PT2H
 SUMMARY:U.S. MSE-5 - Monks MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510074
 LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506924@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270128T203000
+DURATION:PT2H
+SUMMARY:Volendam MSE-1 - U.S. MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506924
+LOCATION:De Seinpaal\, Harlingenlaan 25\, 1131JP VOLENDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
