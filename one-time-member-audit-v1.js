@@ -34,7 +34,7 @@ function installCss(){
  .member-audit-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}.member-audit-chip{display:inline-flex;align-items:center;min-height:27px;padding:5px 8px;border-radius:999px;background:#f1f2f6;color:var(--navy);font-size:9px;font-weight:850}.member-audit-chip.played{background:#f8f1e8;color:#835719}.member-audit-chip.staff{background:#eef3fb}.member-audit-empty{color:var(--muted);font-size:10px;line-height:1.45}.member-audit-note{margin-top:10px;padding:10px 11px;border-radius:11px;background:#f6f7fa;color:var(--muted);font-size:9px;line-height:1.45}.member-audit-note.warn{background:#fff7ec;color:#79521a}
  .member-audit-actions{display:grid;gap:8px;margin-top:14px}.member-audit-actions.two{grid-template-columns:1fr 1fr}.member-audit-actions button{min-height:46px;border:1px solid var(--line);border-radius:12px;background:#f1f2f6;color:var(--navy);font:inherit;font-size:10px;font-weight:900;padding:10px}.member-audit-actions button.primary{background:var(--navy);color:#fff;border-color:var(--navy)}.member-audit-actions button.danger{background:#fff5f5;color:#9b2424}.member-audit-actions button.wide{grid-column:1/-1}
  .member-audit-search{margin-top:12px}.member-audit-search input,.member-audit-field{width:100%;box-sizing:border-box;border:1px solid var(--line);border-radius:12px;padding:11px 12px;font:inherit;background:#fff;color:var(--navy)}.member-audit-list{display:grid;gap:7px;margin-top:10px;max-height:42vh;overflow:auto}.member-audit-person{width:100%;display:flex;align-items:center;justify-content:space-between;gap:10px;border:1px solid var(--line);border-radius:12px;background:#fff;padding:11px 12px;text-align:left;color:var(--navy)}.member-audit-person[hidden]{display:none!important}.member-audit-person strong{display:block;font-size:11px}.member-audit-person small{display:block;color:var(--muted);font-size:9px;margin-top:2px}.member-audit-person b{font-size:9px;white-space:nowrap}
- .member-audit-back{border:0;border-radius:10px;background:#f1f2f6;color:var(--navy);padding:8px 10px;font-size:10px;font-weight:900}.member-audit-admin-button{width:100%;margin:0 0 14px!important}.member-audit-create{display:grid;gap:10px;margin-top:12px}.member-audit-create label{display:grid;gap:4px;color:var(--muted);font-size:9px;font-weight:800}
+ .member-audit-back{border:0;border-radius:10px;background:#f1f2f6;color:var(--navy);padding:8px 10px;font-size:10px;font-weight:900}.member-audit-admin-button{width:100%;margin:0 0 14px!important}.member-audit-create{display:grid;gap:10px;margin-top:12px}.member-audit-create label{display:grid;gap:4px;color:var(--muted);font-size:9px;font-weight:800}.member-audit-edit-teams{display:grid;gap:7px;margin-top:4px}.member-audit-team-edit{display:grid;grid-template-columns:minmax(88px,1fr) auto auto 68px;align-items:center;gap:7px;border:1px solid var(--line);border-radius:11px;padding:8px}.member-audit-team-edit strong{font-size:10px;color:var(--navy)}.member-audit-team-edit label{display:flex;align-items:center;gap:4px;font-size:9px;color:var(--navy);font-weight:800}.member-audit-team-edit input[type=text]{width:100%;box-sizing:border-box;border:1px solid var(--line);border-radius:8px;padding:7px;font:inherit}.member-audit-name-row+.member-audit-name-row{margin-top:5px}
  body.member-audit-open{overflow:hidden}@media(max-width:520px){.member-audit-actions.two{grid-template-columns:1fr}.member-audit-actions button.wide{grid-column:auto}}@media(min-width:700px){.member-audit-overlay{align-items:center;padding:20px}.member-audit-sheet{border-radius:24px}}
  `;document.head.appendChild(s)
 }
@@ -178,6 +178,26 @@ function renderReview(item){
  <div class="member-audit-progress"><div class="member-audit-track"><div class="member-audit-bar" style="width:${p.pct}%"></div></div><span>${p.step} van ${total} · ${pending} leden open</span></div>
  ${appInfo(item)}${bondInfo(item,shown)}${note}
  <div class="member-audit-actions two">${primary}${takeBond}<button type="button" data-audit-mode="search">Andere bondsspeler</button><button type="button" data-audit-mode="edit">Appgegevens aanpassen</button><button type="button" data-audit-later>Later</button></div>`
+}
+function renderEdit(item){
+ const player=new Set((item.playerTeams||[]).map(x=>String(x.id)));
+ const trainer=new Set((item.trainerTeams||[]).map(x=>String(x.id)));
+ const numbers=new Map((item.jerseyNumbers||[]).map(x=>[String(x.teamId),String(x.number||'')]));
+ const rows=(auditTeams||[]).map(t=>`<div class="member-audit-team-edit">
+   <strong>${esc(t.name)}</strong>
+   <label><input type="checkbox" data-edit-player value="${esc(t.id)}" ${player.has(String(t.id))?'checked':''}> Speler</label>
+   <label><input type="checkbox" data-edit-trainer value="${esc(t.id)}" ${trainer.has(String(t.id))?'checked':''}> Trainer</label>
+   <input type="text" inputmode="numeric" data-edit-number="${esc(t.id)}" placeholder="Rugnr" value="${esc(numbers.get(String(t.id))||'')}">
+  </div>`).join('');
+ return `<div class="member-audit-head"><div><span class="member-audit-kicker">Ledencontrole</span><h2 class="member-audit-title">Appgegevens aanpassen</h2></div><button class="member-audit-close" type="button" data-member-audit-close>×</button></div>
+ <button class="member-audit-back" type="button" data-audit-mode="review">← Terug naar ${esc(item.name)}</button>
+ <form id="memberAuditEditForm" class="member-audit-create">
+  <label>Naam<input class="member-audit-field" id="memberAuditEditName" required value="${esc(item.name||'')}"></label>
+  <label>E-mail<input class="member-audit-field" id="memberAuditEditEmail" type="email" value="${esc(item.email||'')}"></label>
+  <label>Telefoon<input class="member-audit-field" id="memberAuditEditPhone" type="tel" value="${esc(item.phone||'')}"></label>
+  <div class="member-audit-edit-teams"><strong>Teams, rollen en rugnummers</strong>${rows||'<div class="member-audit-empty">Geen actieve teams gevonden.</div>'}</div>
+  <div class="member-audit-actions"><button class="primary wide" type="submit">Appgegevens opslaan</button></div>
+ </form>`
 }
 function renderSearch(item){
  const rows=candidates
