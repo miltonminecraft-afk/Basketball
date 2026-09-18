@@ -208,6 +208,7 @@ function switchClubView(name){
   root.querySelectorAll(':scope > .club-subview').forEach(v=>v.classList.toggle('active',v.id===`club-sub-${name}`));
   writeState({main:'club',club:name});
   if(name==='notices')markNotificationsRead();
+  if(name==='mytasks')scheduleMyTasksScroll(true,40);
   document.dispatchEvent(new CustomEvent('basketball-club-view-changed',{detail:{view:name}}));
 }
 
@@ -233,10 +234,26 @@ function myAssignments(){
   const name=String(member.full_name||'').trim().toLowerCase();
   return taskEvents.flatMap(e=>(e.task_assignments||[]).filter(a=>a.assigned_member_id===member.id||(!a.assigned_member_id&&String(a.assigned_name||'').trim().toLowerCase()===name)).map(a=>({event:e,assignment:a}))).sort((a,b)=>`${a.event.event_date}T${a.event.start_time}`.localeCompare(`${b.event.event_date}T${b.event.start_time}`));
 }
+let myTasksDateScrollKey='';
+function localTodayClub(){const n=new Date();return `${n.getFullYear()}-${String(n.getMonth()+1).padStart(2,'0')}-${String(n.getDate()).padStart(2,'0')}`}
+function scrollMyTasksToCurrent(force=false){
+  const target=$('club-sub-mytasks');if(!target?.classList.contains('active'))return false;
+  const rows=[...target.querySelectorAll('[data-list-date]')];if(!rows.length)return false;
+  const today=localTodayClub(),row=rows.find(x=>x.dataset.listDate===today)||rows.find(x=>x.dataset.listDate>today);
+  if(!row)return false;
+  const key=`${member?.id||''}|${today}`;
+  if(!force&&myTasksDateScrollKey===key)return true;
+  const topbar=document.querySelector('.topbar'),offset=(topbar?.getBoundingClientRect().height||0)+8;
+  window.scrollTo({top:Math.max(0,row.getBoundingClientRect().top+window.scrollY-offset),behavior:'auto'});
+  myTasksDateScrollKey=key;return true;
+}
+function scheduleMyTasksScroll(force=false,delay=50){setTimeout(()=>requestAnimationFrame(()=>scrollMyTasksToCurrent(force)),delay)}
+
 function renderMyTasks(){
   const target=$('club-sub-mytasks');if(!target)return;const mine=myAssignments();
-  target.innerHTML=`<div class="club-card-panel"><h2>Mijn taken</h2><p>Vraag hier een wissel aan voor een taak die aan jou is toegewezen.</p><div class="club-list">${mine.length?mine.map(x=>{const open=swaps.some(s=>s.assignment_id===x.assignment.id);return `<div class="club-row"><strong>${esc(roleLabel(x.assignment.role))} · ${esc(x.event.home)} — ${esc(x.event.away)}</strong><small>${esc(fmtDate(x.event.event_date))} · aanwezig ${esc(timeOnly(x.event.arrival_time||x.event.start_time))}</small><div class="mini-actions"><button class="mini-button ${open?'':'primary'}" data-swap-request="${x.assignment.id}" ${open?'disabled':''}>${open?'Wissel staat open':'Taak wisselen'}</button></div></div>`}).join(''):'<div class="club-empty">Geen taken aan jou gekoppeld.</div>'}</div></div>`;
+  target.innerHTML=`<div class="club-card-panel"><h2>Mijn taken</h2><p>Vraag hier een wissel aan voor een taak die aan jou is toegewezen.</p><div class="club-list">${mine.length?mine.map(x=>{const open=swaps.some(s=>s.assignment_id===x.assignment.id);return `<div class="club-row" data-list-date="${esc(x.event.event_date)}"><strong>${esc(roleLabel(x.assignment.role))} · ${esc(x.event.home)} — ${esc(x.event.away)}</strong><small>${esc(fmtDate(x.event.event_date))} · aanwezig ${esc(timeOnly(x.event.arrival_time||x.event.start_time))}</small><div class="mini-actions"><button class="mini-button ${open?'':'primary'}" data-swap-request="${x.assignment.id}" ${open?'disabled':''}>${open?'Wissel staat open':'Taak wisselen'}</button></div></div>`}).join(''):'<div class="club-empty">Geen taken aan jou gekoppeld.</div>'}</div></div>`;
   target.querySelectorAll('[data-swap-request]').forEach(b=>b.onclick=()=>requestSwap(b.dataset.swapRequest));
+  scheduleMyTasksScroll(false,60);
 }
 async function requestSwap(id){const s=await client(),{error}=await s.rpc('request_task_swap',{p_assignment_id:id});if(error)return toast(error.message);toast('Taakwissel staat open.');await reloadDynamic()}
 
