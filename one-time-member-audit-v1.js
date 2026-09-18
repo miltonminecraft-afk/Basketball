@@ -57,8 +57,8 @@ function listNames(arr){return (arr||[]).map(x=>x.name||x.teamName).filter(Boole
 function jerseyText(item){return (item.jerseyNumbers||[]).map(x=>`${x.teamName} #${x.number}`).join(' · ')}
 function bondTeamText(arr){return (arr||[]).map(x=>`${x.teamName}${x.number?` #${x.number}`:''}`).join(' · ')}
 function candidateText(c){
- const off=bondTeamText(c.officialTeams||[]),played=(c.playedTeams||[]).map(x=>x.teamName).filter(Boolean).join(', ');
- return [off,played?`meegespeeld: ${played}`:''].filter(Boolean).join(' · ')
+ const off=bondTeamText(c.officialTeams||[]),played=(c.playedTeams||[]).map(x=>x.teamName).filter(Boolean).join(', '),staff=(c.staffTeams||[]).map(x=>x.teamName).filter(Boolean).join(', ');
+ return [off,staff?`coach: ${staff}`:'',played?`meegespeeld: ${played}`:''].filter(Boolean).join(' · ')
 }
 function currentItem(){return items[0]||null}
 function currentCandidate(item){return candidates.find(c=>String(c.personId)===String(item?.linkedPersonId||''))||null}
@@ -87,13 +87,13 @@ function appInfo(item){
 }
 function bondInfo(item,c){
  if(!c)return `<div class="member-audit-card"><h3>Basketbalbond</h3><div class="member-audit-empty">Nog geen bondsspeler gekoppeld.</div></div>`;
- const official=c.officialTeams||[],played=c.playedTeams||[];
+ const official=c.officialTeams||[],played=c.playedTeams||[],staff=c.staffTeams||[];
  const isPrivate=norm(c.name)==='private';
  const points=item.bond&&String(item.bond.personId)===String(c.personId)?item.bond.seasonPoints:null;
  const complete=item.bond&&String(item.bond.personId)===String(c.personId)?item.bond.seasonPointsComplete:false;
  return `<div class="member-audit-card"><h3>Basketbalbond</h3>
  <div class="member-audit-line"><b>Naam</b><span>${esc(isPrivate?'private (afgeschermd)':c.name)}</span></div>
- <div class="member-audit-chips">${official.map(t=>chip(`${t.teamName}${t.number?` · #${t.number}`:''}`)).join('')}${played.map(t=>chip(`Meegespeeld: ${t.teamName}`,'played')).join('')||(!official.length?'<span class="member-audit-empty">Geen teamgegevens</span>':'')}</div>
+ <div class="member-audit-chips">${official.map(t=>chip(`${t.teamName}${t.number?` · #${t.number}`:''}`)).join('')}${staff.map(t=>chip(`Coach: ${t.teamName}`,'trainer')).join('')}${played.map(t=>chip(`Meegespeeld: ${t.teamName}`,'played')).join('')||(!official.length&&!staff.length?'<span class="member-audit-empty">Geen teamgegevens</span>':'')}</div>
  ${points!==null?`<div class="member-audit-line" style="margin-top:8px"><b>Seizoenspunten</b><span>${complete?esc(points+' pnt'):esc(points>0?'≥ '+points+' pnt':'-')}</span></div>`:''}
  </div>`
 }
@@ -188,9 +188,22 @@ function injectAdminButton(){
 }
 
 async function reload(){
- const s=await client(),r=await s.rpc('get_one_time_member_bond_audit');
- if(r.error)throw r.error;
+ const s=await client(),[r,staff]=await Promise.all([s.rpc('get_one_time_member_bond_audit'),s.rpc('get_one_time_member_bond_staff')]);
+ if(r.error)throw r.error;if(staff.error)throw staff.error;
  data=r.data||{};items=Array.isArray(data.items)?data.items:[];candidates=Array.isArray(data.candidates)?data.candidates:[];total=Number(data.total)||0;pending=Number(data.pending)||0;
+ const staffRows=Array.isArray(staff.data)?staff.data:[];
+ for(const row of staffRows){
+  let c=candidates.find(x=>String(x.personId)===String(row.personId));
+  if(!c){c={personId:row.personId,name:row.name||'private',linkedMemberId:row.linkedMemberId||null,officialTeams:[],playedTeams:[],staffTeams:[]};candidates.push(c)}
+  c.staffTeams=Array.isArray(row.staffTeams)?row.staffTeams:[];
+  if(!c.linkedMemberId&&row.linkedMemberId)c.linkedMemberId=row.linkedMemberId;
+ }
+ for(const item of items){
+  if(item.bond){
+   const c=candidates.find(x=>String(x.personId)===String(item.bond.personId));
+   item.bond.staffTeams=c?.staffTeams||[];
+  }
+ }
  api.checking=false;api.pending=pending>0;injectAdminButton();
  document.dispatchEvent(new CustomEvent('basketball-one-time-member-audit-state',{detail:{pending,total,complete:!pending}}));
  return data
