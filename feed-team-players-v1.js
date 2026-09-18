@@ -126,16 +126,21 @@ function renderTeam(team,data){
 async function openTeam(team){
  const overlay=ensureOverlay(),host=document.getElementById('feedTeamPlayersContent');if(!host)return;
  currentOpenTeam=team;overlay.hidden=false;document.body.classList.add('feed-team-players-open');
- const cached=teamStatsCache.get(String(team.guid));
- if(cached)renderTeam(team,cached);
- else host.innerHTML=`<div class="feed-team-players-head">${team.logoUrl?`<img class="feed-team-players-logo" src="${esc(team.logoUrl)}" alt="">`:''}<div class="feed-team-players-titlewrap"><h2 class="feed-team-players-title" id="feedTeamPlayersTitle">SV Argon ${esc(team.name)}</h2><span class="feed-team-players-sub">Spelers en punten laden…</span></div><button class="feed-team-players-close" type="button" data-feed-team-close aria-label="Sluiten">×</button></div><div class="feed-team-players-loading">Opgeslagen teamgegevens laden…</div>`;
+ const fallback=teamStatsCache.get(String(team.guid))||null;
+ host.innerHTML=`<div class="feed-team-players-head">${team.logoUrl?`<img class="feed-team-players-logo" src="${esc(team.logoUrl)}" alt="">`:''}<div class="feed-team-players-titlewrap"><h2 class="feed-team-players-title" id="feedTeamPlayersTitle">SV Argon ${esc(team.name)}</h2><span class="feed-team-players-sub">Actuele spelers en punten laden…</span></div><button class="feed-team-players-close" type="button" data-feed-team-close aria-label="Sluiten">×</button></div><div class="feed-team-players-loading">Teamgegevens uit database laden…</div>`;
  try{
-  const r=await fetch(`${STATS_API}?teamGuid=${encodeURIComponent(team.guid)}`,{cache:'no-store'}),raw=await r.json();
+  const r=await fetch(`${STATS_API}?teamGuid=${encodeURIComponent(team.guid)}&_=${Date.now()}`,{cache:'no-store',headers:{'Cache-Control':'no-cache'}});
+  const raw=await r.json();
   if(!r.ok||raw?.error)throw new Error(raw?.error||'Teamstatistieken konden niet worden geladen.');
   const data=await withVisiblePrivateNames(raw);
   teamStatsCache.set(String(team.guid),data);
   if(!overlay.hidden&&String(currentOpenTeam?.guid||'')===String(team.guid))renderTeam(team,data);
  }catch(e){
+  if(fallback&&String(currentOpenTeam?.guid||'')===String(team.guid)){
+   const data=await withVisiblePrivateNames(fallback);
+   if(!overlay.hidden)renderTeam(team,data);
+   return;
+  }
   if(!overlay.hidden&&String(currentOpenTeam?.guid||'')===String(team.guid))host.innerHTML=`<div class="feed-team-players-head"><div class="feed-team-players-titlewrap"><h2 class="feed-team-players-title" id="feedTeamPlayersTitle">SV Argon ${esc(team.name)}</h2></div><button class="feed-team-players-close" type="button" data-feed-team-close aria-label="Sluiten">×</button></div><div class="feed-team-players-error">${esc(e?.message||'Teamstatistieken konden niet worden geladen.')}</div>`;
  }
 }
