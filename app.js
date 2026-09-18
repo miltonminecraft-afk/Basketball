@@ -221,6 +221,7 @@
     matches=[];
     updateMeta={mode:'loading',updatedAt:null,message:'Live gegevens ophalen…'};
     document.dispatchEvent(new CustomEvent('basketball-team-selection-changing',{detail:{teamGuid:selection.teamGuid}}));
+    resetDateScroll();
     renderAll();
     currentClubTeams=[];
     closeTeamModal();
@@ -319,7 +320,7 @@
     if(!items.length)return '<div class="empty">Geen items voor deze selectie.</div>';
     const map=new Map();
     items.forEach(item=>{const d=dateOnly(item.date);if(!map.has(d))map.set(d,[]);map.get(d).push(item)});
-    return [...map.entries()].sort((a,b)=>a[0].localeCompare(b[0])).map(([date,rows])=>`<section class="day"><div class="day-head">${esc(formatDay(date))}</div>${rows.sort((a,b)=>eventKey(a,timeField).localeCompare(eventKey(b,timeField))).map(renderer).join('')}</section>`).join('');
+    return [...map.entries()].sort((a,b)=>a[0].localeCompare(b[0])).map(([date,rows])=>`<section class="day" data-list-date="${esc(date)}"><div class="day-head">${esc(formatDay(date))}</div>${rows.sort((a,b)=>eventKey(a,timeField).localeCompare(eventKey(b,timeField))).map(renderer).join('')}</section>`).join('');
   }
 
   function renderStatus(){
@@ -346,6 +347,8 @@
     renderStatus();
     renderSettings();
     renderCalendarLinks();
+    if(document.getElementById('view-agenda')?.classList.contains('active'))scheduleDateScroll('agenda',false,70);
+    if(document.getElementById('view-tasks')?.classList.contains('active'))scheduleDateScroll('tasks',false,70);
   }
 
   function renderSettings(){
@@ -424,15 +427,52 @@
     document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
   }
 
+  const dateScrollState={agenda:'',tasks:''};
+  function localToday(){
+    const now=new Date();
+    return `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
+  }
+  function listDate(day){return day?.dataset?.listDate||day?.dataset?.agendaDate||''}
+  function dateScrollKey(name){return `${name}|${selection.teamGuid}|${selectedPerson}|${localToday()}`}
+  function scrollToCurrentDate(name,force=false){
+    if(name!=='agenda'&&name!=='tasks')return false;
+    const view=document.getElementById(`view-${name}`);
+    const root=document.getElementById(name==='agenda'?'agendaList':'tasksList');
+    if(!view?.classList.contains('active')||!root)return false;
+    const days=[...root.querySelectorAll('.day')].filter(day=>listDate(day));
+    if(!days.length)return false;
+    const today=localToday();
+    const target=days.find(day=>listDate(day)===today)||days.find(day=>listDate(day)>today);
+    if(!target)return false;
+    const key=dateScrollKey(name);
+    if(!force&&dateScrollState[name]===key)return true;
+    const topbar=document.querySelector('.topbar');
+    const offset=(topbar?.getBoundingClientRect().height||0)+8;
+    const top=Math.max(0,target.getBoundingClientRect().top+window.scrollY-offset);
+    window.scrollTo({top,behavior:'auto'});
+    dateScrollState[name]=key;
+    return true;
+  }
+  function scheduleDateScroll(name,force=false,delay=50){
+    if(name!=='agenda'&&name!=='tasks')return;
+    setTimeout(()=>requestAnimationFrame(()=>scrollToCurrentDate(name,force)),delay);
+  }
+  function resetDateScroll(){
+    dateScrollState.agenda='';
+    dateScrollState.tasks='';
+  }
+
   function switchView(name){
     document.querySelectorAll('.view').forEach(view=>view.classList.toggle('active',view.id===`view-${name}`));
     document.querySelectorAll('.tab').forEach(tab=>tab.classList.toggle('active',tab.dataset.view===name));
+    if(name==='agenda'||name==='tasks')scheduleDateScroll(name,true,40);
   }
 
   E.syncBtn.addEventListener('click',syncMatches);
   E.personSelect.addEventListener('change',()=>{
     selectedPerson=E.personSelect.value;
     localStorage.setItem(STORE.person,selectedPerson);
+    resetDateScroll();
     renderAll();
   });
   E.teamSelect.addEventListener('change',async()=>{
@@ -453,6 +493,7 @@
     if(q.length>=3)searchTimer=setTimeout(()=>searchClubs(q),450);
   });
   document.querySelectorAll('.tab').forEach(tab=>tab.addEventListener('click',()=>switchView(tab.dataset.view)));
+  document.addEventListener('basketball-agenda-polished',()=>scheduleDateScroll('agenda',false,30));
   document.querySelectorAll('.provider-grid').forEach(grid=>{
     grid.querySelectorAll('[data-provider]').forEach(button=>button.addEventListener('click',()=>providerAction(grid.dataset.feed,button.dataset.provider)));
   });
