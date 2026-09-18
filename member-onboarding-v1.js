@@ -13,6 +13,13 @@ function css(){
 }
 function overlay(){let o=document.getElementById('memberOnboardingOverlay');if(o)return o;o=document.createElement('div');o.id='memberOnboardingOverlay';o.className='member-onboard-overlay';o.hidden=true;o.innerHTML='<div class="member-onboard-sheet" role="dialog" aria-modal="true"><div id="memberOnboardingBody"></div></div>';document.body.appendChild(o);return o}
 function close(){overlay().hidden=true;document.body.classList.remove('member-onboard-open')}
+function augmentClubProfile(){
+ const card=document.querySelector('#clubRoot > .club-card-panel');if(!card||!data)return;
+ let box=card.querySelector('#memberJerseySummary');if(!box){box=document.createElement('button');box.id='memberJerseySummary';box.type='button';box.className='mini-button';box.style.marginTop='8px';box.style.display='block';const head=card.querySelector('.club-row-head > div');(head||card).appendChild(box)}
+ const teams=Array.isArray(data.teams)?data.teams:[],withNum=teams.filter(t=>String(t?.number||'').trim());
+ box.textContent=withNum.length?withNum.map(t=>`${t.name} #${t.number}`).join(' · '):'Rugnummer toevoegen';
+ box.onclick=open;
+}
 function open(){render();overlay().hidden=false;document.body.classList.add('member-onboard-open')}
 function render(){
  const host=document.getElementById('memberOnboardingBody');if(!host||!data)return;
@@ -30,7 +37,7 @@ async function save(e){
  const inputs=[...document.querySelectorAll('[name="memberJersey"]')],numbers=inputs.map(i=>({teamId:i.dataset.teamId,number:String(i.value||'').trim()}));
  if(inputs.length&&!numbers.some(x=>x.number)){toast('Vul minimaal één rugnummer in, of kies Later.');return}
  const visibility=document.querySelector('[name="memberVisibility"]:checked')?.value||'team';busy=true;
- try{const s=await client(),r=await s.rpc('save_member_onboarding',{p_visibility:visibility,p_numbers:numbers});if(r.error)throw r.error;data=r.data;close();toast('Spelersprofiel opgeslagen.');document.dispatchEvent(new CustomEvent('basketball-member-onboarding-saved',{detail:data}))}
+ try{const s=await client(),r=await s.rpc('save_member_onboarding',{p_visibility:visibility,p_numbers:numbers});if(r.error)throw r.error;data=r.data;augmentClubProfile();close();toast('Spelersprofiel opgeslagen.');document.dispatchEvent(new CustomEvent('basketball-member-onboarding-saved',{detail:data}))}
  catch(err){toast(err?.message||'Opslaan mislukt.')}finally{busy=false}
 }
 async function check(force=false){
@@ -38,6 +45,6 @@ async function check(force=false){
  try{const s=await client(),ses=await s.auth.getSession();if(!ses.data.session)return;const me=await s.rpc('sync_current_member');if(me.error||!me.data?.active)return;const r=await s.rpc('get_member_onboarding');if(r.error)throw r.error;data=r.data;checked=true;if(data?.privacyConfirmed!==true)open()}
  catch(e){console.warn('Spelersprofiel laden',e)}
 }
-function init(){css();overlay();setTimeout(()=>check(false),2100)}
+function init(){css();overlay();setTimeout(()=>check(false),2100);document.addEventListener('basketball-club-rendered',()=>{if(data)augmentClubProfile();else check(true)});document.addEventListener('basketball-member-onboarding-saved',augmentClubProfile)}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
