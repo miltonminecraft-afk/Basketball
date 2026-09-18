@@ -3,7 +3,7 @@
 
 const U='https://elpnfmlrkoemjrnzaeok.supabase.co';
 const K='sb_publishable_GPzLwaKeevg3e8CNjw9oAQ_50NW2xlg';
-let sb=null,me=null,teams=[],members=[],events=[],swaps=[],loading=false,adminDateScrollKey='';
+let sb=null,me=null,teams=[],members=[],events=[],swaps=[],loading=false;
 const filter={team:'',person:'',editing:''};
 const $=id=>document.getElementById(id);
 const esc=v=>String(v??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));
@@ -74,35 +74,19 @@ function eventCard(e){
   const team=teams.find(x=>String(x.id)===String(e.team_id)),location=[e.location,e.field].filter(Boolean).join(' · ');
   return `<div class="admin-agenda-event" data-event="${esc(e.id)}"><div class="admin-agenda-event-top"><div class="admin-agenda-time">${esc(tm(e.start_time)||'—')}<small>${e.arrival_time?`aanw. ${esc(tm(e.arrival_time))}`:'geen aankomsttijd'}</small></div><div><div class="admin-agenda-title">${esc(e.home||'')} — ${esc(e.away||'')}</div><div class="admin-agenda-meta">${esc(team?.team_name||'Geen team')}${location?' · '+esc(location):''}</div><div class="admin-task-chips">${taskChips(e)}</div></div><button class="mini-button" data-edit-event="${esc(e.id)}">Wijzigen</button></div>${String(filter.editing)===String(e.id)?editBlock(e):''}</div>`;
 }
-function localToday(){const n=new Date();return `${n.getFullYear()}-${String(n.getMonth()+1).padStart(2,'0')}-${String(n.getDate()).padStart(2,'0')}`}
-function scrollAdminAgendaToCurrent(force=false){
-  const root=$('admin-agenda');if(!root||root.hidden)return false;
-  const days=[...root.querySelectorAll('.admin-agenda-day[data-list-date]')];
-  if(!days.length)return false;
-  const today=localToday(),target=days.find(x=>x.dataset.listDate===today)||days.find(x=>x.dataset.listDate>today);
-  if(!target)return false;
-  const key=`${filter.team}|${filter.person}|${today}`;
-  if(!force&&adminDateScrollKey===key)return true;
-  const topbar=document.querySelector('.topbar'),offset=(topbar?.getBoundingClientRect().height||0)+8;
-  const top=Math.max(0,target.getBoundingClientRect().top+window.scrollY-offset);
-  window.scrollTo({top,behavior:'auto'});adminDateScrollKey=key;return true;
-}
-function scheduleAdminAgendaScroll(force=false,delay=50){setTimeout(()=>requestAnimationFrame(()=>scrollAdminAgendaToCurrent(force)),delay)}
-
 function render(){
   const root=$('admin-agenda');if(!root||root.hidden)return;
   root.dataset.adminAgendaV4='1';
   const rows=events.filter(passes).sort((a,b)=>`${a.event_date}T${a.start_time||''}`.localeCompare(`${b.event_date}T${b.start_time||''}`));
   let body='',day='';
-  for(const e of rows){if(e.event_date!==day){day=e.event_date;body+=`<div class="admin-agenda-day" data-list-date="${esc(day)}">${esc(dateLabel(day))}</div>`}body+=eventCard(e)}
+  for(const e of rows){if(e.event_date!==day){day=e.event_date;body+=`<div class="admin-agenda-day">${esc(dateLabel(day))}</div>`}body+=eventCard(e)}
   root.innerHTML=`<div class="admin-agenda-head"><div><h3>Beheeragenda</h3><p>Taken, toewijzingen en lokale wedstrijdtijden beheren.</p></div></div><div class="admin-agenda-filters"><label>Team<select id="adminAgendaTeamFilter">${teamOptions(filter.team)}</select></label><label>Persoon<select id="adminAgendaPersonFilter">${memberOptions(filter.person,true)}</select></label></div><div>${body||'<div class="club-empty">Geen taakmomenten voor deze filters.</div>'}</div>`;
   bind(root);
-  scheduleAdminAgendaScroll(false,60);
   document.dispatchEvent(new CustomEvent('admin-agenda-refreshed'));
 }
 function bind(root){
-  $('adminAgendaTeamFilter').onchange=e=>{filter.team=e.target.value;filter.editing='';adminDateScrollKey='';render()};
-  $('adminAgendaPersonFilter').onchange=e=>{filter.person=e.target.value;filter.editing='';adminDateScrollKey='';render()};
+  $('adminAgendaTeamFilter').onchange=e=>{filter.team=e.target.value;filter.editing='';render()};
+  $('adminAgendaPersonFilter').onchange=e=>{filter.person=e.target.value;filter.editing='';render()};
   root.querySelectorAll('[data-edit-event]').forEach(b=>b.onclick=()=>{filter.editing=b.dataset.editEvent;render()});
   root.querySelectorAll('[data-close-event]').forEach(b=>b.onclick=()=>{filter.editing='';render()});
   root.querySelectorAll('[data-save-event]').forEach(b=>b.onclick=()=>saveEvent(b.dataset.saveEvent));
