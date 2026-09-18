@@ -72,7 +72,7 @@ function teamHeader(team,data,players){
 }
 function pointsLabel(p){
  const points=Number(p?.points)||0;
- if(p?.pointsComplete===false)return '-';
+ if(p?.pointsComplete===false)return points>0?`≥ ${points} pnt`:'-';
  return `${points} pnt`;
 }
 
@@ -121,7 +121,7 @@ function renderTeam(team,data){
  const playerRows=players.filter(p=>!playingCoachIds.has(String(p?.personId||''))).map(p=>`<div class="feed-team-player-row"><span class="feed-team-player-number">${p?.number?`#${esc(p.number)}`:''}</span><span class="feed-team-player-name">${esc(p?.name||'private')}${p?.registered===false&&p?.playedForTeam?'<span class="feed-team-player-up">meegespeeld</span>':''}</span><span class="feed-team-player-points">${esc(pointsLabel(p))}</span></div>`).join('');
  const rows=staffRows+playerRows;
  const incomplete=Number(data?.playedMatches||0)>Number(data?.matchesWithCompletePoints||0);
- host.innerHTML=`${teamHeader(team,data,players)}${(staff.length||players.length)?`<div class="feed-team-players-list">${rows}</div>`:'<div class="feed-team-players-loading">Geen spelers gevonden.</div>'}${incomplete?'<p class="feed-team-players-note">- = punten onbekend.</p>':''}`;
+ host.innerHTML=`${teamHeader(team,data,players)}${(staff.length||players.length)?`<div class="feed-team-players-list">${rows}</div>`:'<div class="feed-team-players-loading">Geen spelers gevonden.</div>'}${incomplete?'<p class="feed-team-players-note">≥ = minimaal bekend totaal · - = punten onbekend.</p>':''}`;
 }
 async function openTeam(team){
  const overlay=ensureOverlay(),host=document.getElementById('feedTeamPlayersContent');if(!host)return;
