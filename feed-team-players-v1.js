@@ -12,7 +12,7 @@ const ALL_SYNC_KEY='basketball.foysAllTeamStatsSync.v1';
 const esc=v=>String(v??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));
 const norm=v=>String(v||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');
 const teamStatsCache=new Map();
-let teamsPromise=null,summaryObserver=null,visibilityClient=null,allSyncPromise=null;
+let teamsPromise=null,summaryObserver=null,visibilityClient=null,allSyncPromise=null,currentOpenTeam=null;
 
 function injectCss(){
  if(document.getElementById('feedTeamPlayersCssV1'))return;
@@ -62,7 +62,7 @@ function ensureOverlay(){
  overlay.addEventListener('click',e=>{if(e.target===overlay||e.target.closest('[data-feed-team-close]'))closeOverlay()});
  return overlay;
 }
-function closeOverlay(){const overlay=document.getElementById('feedTeamPlayersOverlay');if(overlay)overlay.hidden=true;document.body.classList.remove('feed-team-players-open')}
+function closeOverlay(){const overlay=document.getElementById('feedTeamPlayersOverlay');if(overlay)overlay.hidden=true;currentOpenTeam=null;document.body.classList.remove('feed-team-players-open')}
 function teamHeader(team,data,playerCount){
  const logo=data?.team?.logoUrl||team?.logoUrl||'';
  return `<div class="feed-team-players-head">${logo?`<img class="feed-team-players-logo" src="${esc(logo)}" alt="">`:''}<div class="feed-team-players-titlewrap"><h2 class="feed-team-players-title" id="feedTeamPlayersTitle">SV Argon ${esc(data?.team?.name||team?.name||'Team')}</h2><span class="feed-team-players-sub">Seizoen ${esc(data?.seasonLabel||'')} · ${playerCount} spelers</span></div><button class="feed-team-players-close" type="button" data-feed-team-close aria-label="Sluiten">×</button></div>`;
@@ -122,18 +122,18 @@ function renderTeam(team,data){
 }
 async function openTeam(team){
  const overlay=ensureOverlay(),host=document.getElementById('feedTeamPlayersContent');if(!host)return;
- overlay.hidden=false;document.body.classList.add('feed-team-players-open');
+ currentOpenTeam=team;overlay.hidden=false;document.body.classList.add('feed-team-players-open');
  const cached=teamStatsCache.get(String(team.guid));
- if(cached){renderTeam(team,cached);return}
- host.innerHTML=`<div class="feed-team-players-head">${team.logoUrl?`<img class="feed-team-players-logo" src="${esc(team.logoUrl)}" alt="">`:''}<div class="feed-team-players-titlewrap"><h2 class="feed-team-players-title" id="feedTeamPlayersTitle">SV Argon ${esc(team.name)}</h2><span class="feed-team-players-sub">Spelers en punten laden…</span></div><button class="feed-team-players-close" type="button" data-feed-team-close aria-label="Sluiten">×</button></div><div class="feed-team-players-loading">Gegevens van de basketbalbond laden…</div>`;
+ if(cached)renderTeam(team,cached);
+ else host.innerHTML=`<div class="feed-team-players-head">${team.logoUrl?`<img class="feed-team-players-logo" src="${esc(team.logoUrl)}" alt="">`:''}<div class="feed-team-players-titlewrap"><h2 class="feed-team-players-title" id="feedTeamPlayersTitle">SV Argon ${esc(team.name)}</h2><span class="feed-team-players-sub">Spelers en punten laden…</span></div><button class="feed-team-players-close" type="button" data-feed-team-close aria-label="Sluiten">×</button></div><div class="feed-team-players-loading">Opgeslagen teamgegevens laden…</div>`;
  try{
   const r=await fetch(`${STATS_API}?teamGuid=${encodeURIComponent(team.guid)}`,{cache:'no-store'}),raw=await r.json();
   if(!r.ok||raw?.error)throw new Error(raw?.error||'Teamstatistieken konden niet worden geladen.');
   const data=await withVisiblePrivateNames(raw);
   teamStatsCache.set(String(team.guid),data);
-  if(!overlay.hidden)renderTeam(team,data);
+  if(!overlay.hidden&&String(currentOpenTeam?.guid||'')===String(team.guid))renderTeam(team,data);
  }catch(e){
-  if(!overlay.hidden)host.innerHTML=`<div class="feed-team-players-head"><div class="feed-team-players-titlewrap"><h2 class="feed-team-players-title" id="feedTeamPlayersTitle">SV Argon ${esc(team.name)}</h2></div><button class="feed-team-players-close" type="button" data-feed-team-close aria-label="Sluiten">×</button></div><div class="feed-team-players-error">${esc(e?.message||'Teamstatistieken konden niet worden geladen.')}</div>`;
+  if(!overlay.hidden&&String(currentOpenTeam?.guid||'')===String(team.guid))host.innerHTML=`<div class="feed-team-players-head"><div class="feed-team-players-titlewrap"><h2 class="feed-team-players-title" id="feedTeamPlayersTitle">SV Argon ${esc(team.name)}</h2></div><button class="feed-team-players-close" type="button" data-feed-team-close aria-label="Sluiten">×</button></div><div class="feed-team-players-error">${esc(e?.message||'Teamstatistieken konden niet worden geladen.')}</div>`;
  }
 }
 
@@ -163,6 +163,7 @@ function observeMatchPoints(){const observer=new MutationObserver(markUnknownMat
 function init(){
  injectCss();ensureOverlay();observeSummary();observeMatchPoints();
  document.getElementById('syncBtn')?.addEventListener('click',()=>{teamStatsCache.clear();syncAllTeamStats(true)});
+ document.addEventListener('basketball-team-stats-synced',()=>{const t=currentOpenTeam;if(!t)return;teamStatsCache.delete(String(t.guid));openTeam(t)});
  setTimeout(()=>syncAllTeamStats(false),2400);
  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!document.getElementById('feedTeamPlayersOverlay')?.hidden)closeOverlay()});
 }
