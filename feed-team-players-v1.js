@@ -129,7 +129,7 @@ async function openTeam(team){
  const fallback=teamStatsCache.get(String(team.guid))||null;
  host.innerHTML=`<div class="feed-team-players-head">${team.logoUrl?`<img class="feed-team-players-logo" src="${esc(team.logoUrl)}" alt="">`:''}<div class="feed-team-players-titlewrap"><h2 class="feed-team-players-title" id="feedTeamPlayersTitle">SV Argon ${esc(team.name)}</h2><span class="feed-team-players-sub">Actuele spelers en punten laden…</span></div><button class="feed-team-players-close" type="button" data-feed-team-close aria-label="Sluiten">×</button></div><div class="feed-team-players-loading">Teamgegevens uit database laden…</div>`;
  try{
-  const r=await fetch(`${STATS_API}?teamGuid=${encodeURIComponent(team.guid)}&_=${Date.now()}`,{cache:'no-store',headers:{'Cache-Control':'no-cache'}});
+  const r=await fetch(`${STATS_API}?teamGuid=${encodeURIComponent(team.guid)}&_=${Date.now()}`,{cache:'no-store'});
   const raw=await r.json();
   if(!r.ok||raw?.error)throw new Error(raw?.error||'Teamstatistieken konden niet worden geladen.');
   const data=await withVisiblePrivateNames(raw);
