@@ -6,10 +6,11 @@ const K='sb_publishable_GPzLwaKeevg3e8CNjw9oAQ_50NW2xlg';
 const FED='52cfa65e-9782-4a81-ab35-e2f981fcb7a9';
 const ARGON='a4a2e2fa-0635-46a5-8969-1d0fef40444f';
 const API='https://api.foys.io/competition/public-api/v1';
+const REPORT_API='https://elpnfmlrkoemjrnzaeok.supabase.co/functions/v1/foys-match-detail';
 const STORE='basketballApp.selection.v3';
 
 let sb=null,ctxCache=null,ctxAt=0,presenceBusy=false,presenceTimer=0,countBusy=false,countQueued=false,countTimer=0,headerBusy=false;
-const matchCache=new Map(),countCache=new Map();
+const matchCache=new Map(),countCache=new Map(),playedCountCache=new Map();
 const $=id=>document.getElementById(id);
 const esc=v=>String(v??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));
 const norm=v=>String(v||'').trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');
@@ -36,7 +37,7 @@ async function client(){
   if(sb)return sb;
   const mod=await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm');
   sb=mod.createClient(U,K,{auth:{persistSession:true,detectSessionInUrl:true,autoRefreshToken:true}});
-  sb.auth.onAuthStateChange(()=>{ctxCache=null;ctxAt=0;matchCache.clear();countCache.clear();schedulePresence(true);scheduleCounts(120)});
+  sb.auth.onAuthStateChange(()=>{ctxCache=null;ctxAt=0;matchCache.clear();countCache.clear();playedCountCache.clear();schedulePresence(true);scheduleCounts(120)});
   return sb;
 }
 async function context(force=false){
@@ -116,60 +117,93 @@ function injectCss(){
     .presence-counts{font-weight:850!important;color:var(--navy)!important}
   `;document.head.appendChild(s);
 }
-function ensureCountSpan(meta){
-  let count=meta.querySelector('.presence-inline-count');
-  if(count)return count;
-  count=document.createElement('span');
-  count.className='presence-inline-count';
-  count.textContent=' · Spelers: …';
-  const br=meta.querySelector('br');
-  if(br)meta.insertBefore(count,br);else meta.appendChild(count);
-  return count;
+function isPlayedMatch(card,m){
+  if(m?.homeScore!==null&&m?.homeScore!==undefined&&m?.awayScore!==null&&m?.awayScore!==undefined)return true;
+  if(String(m?.status||'').toLowerCase()==='final')return true;
+  return !!card?.querySelector('.badge-final,.score-line,.final-score')||/\b(Uitslag|EINDSTAND)\b/i.test(card?.textContent||'');
 }
-function formatCardMeta(card,m,showCars){
-  const meta=card.querySelector('.meta');if(!meta)return null;
-  if(!m)return ensureCountSpan(meta);
-  const location=[m.accommodationName,m.fieldName].filter(Boolean).join(' · ')||'Locatie nog niet bekend';
-  const address=addressText(m),href=mapsHref(m),signature=`${location}|${address}|${href}|${showCars?'cars':'players'}`;
-  let count=meta.querySelector('.presence-inline-count');
-  if(meta.dataset.presenceMetaSignature!==signature||!count){
-    const countText=showCars
-      ?(count?.dataset.showCars==='1'?count.textContent:` · Spelers: … · Auto's: …`)
-      :' · Spelers: …';
-    meta.replaceChildren(document.createTextNode(location));
-    count=document.createElement('span');count.className='presence-inline-count';count.dataset.showCars=showCars?'1':'0';count.textContent=countText;meta.appendChild(count);
-    if(address){
-      meta.appendChild(document.createElement('br'));
-      meta.appendChild(document.createTextNode(address));
-      if(href){
-        meta.appendChild(document.createTextNode(' · '));
-        const link=document.createElement('a');link.className='match-maps-link';link.href=href;link.target='_blank';link.rel='noopener';link.textContent='Maps';meta.appendChild(link);
-      }
+function argonSideFromCard(card,m,away){
+  if(m)return away?'away':'home';
+  const sides=[...card.querySelectorAll('.agenda-team-side')];
+  if(sides.length>=2){
+    if(norm(sides[0].textContent).startsWith('svargon'))return'home';
+    if(norm(sides[1].textContent).startsWith('svargon'))return'away';
+  }
+  const parts=String(card.querySelector('.match-title')?.textContent||'').split(/\s+[—–]\s+/);
+  if(parts.length>=2){
+    if(norm(parts[0]).startsWith('svargon'))return'home';
+    if(norm(parts[1]).startsWith('svargon'))return'away';
+  }
+  return'';
+}
+async function bondPlayedCount(id,side){
+  const key=`${id}|${side}`;
+  if(playedCountCache.has(key))return playedCountCache.get(key);
+  if(!/^\d+$/.test(String(id||''))||!side)return null;
+  try{
+    const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),6200);
+    const r=await fetch(`${REPORT_API}?matchId=${encodeURIComponent(id)}`,{cache:'no-store',signal:ctrl.signal});
+    clearTimeout(timer);
+    if(!r.ok)throw new Error('Wedstrijdspelers niet beschikbaar');
+    const j=await r.json(),rows=Array.isArray(j?.players)?j.players.filter(p=>p&&p.side===side&&p.name):[];
+    if(!rows.length){playedCountCache.set(key,null);return null}
+    const unique=new Set(rows.map(p=>`${p.side||''}|${p.number||''}|${norm(p.name)}`));
+    const count=unique.size||null;playedCountCache.set(key,count);return count;
+  }catch(e){
+    console.warn('Bondspelers voor gespeelde wedstrijd niet beschikbaar',e);
+    return null;
+  }
+}
+function formatCardMeta(card,m,countText,kind){
+  const meta=card.querySelector('.meta');if(!meta)return;
+  if(!m){
+    meta.querySelector('.presence-inline-count')?.remove();
+    if(countText){
+      const span=document.createElement('span');span.className='presence-inline-count';span.textContent=` · ${countText}`;
+      const br=meta.querySelector('br');if(br)meta.insertBefore(span,br);else meta.appendChild(span);
     }
-    meta.dataset.presenceMetaSignature=signature;
-  }else count.dataset.showCars=showCars?'1':'0';
-  return count;
+    return;
+  }
+  const location=[m.accommodationName,m.fieldName].filter(Boolean).join(' · ')||'Locatie nog niet bekend';
+  const address=addressText(m),href=mapsHref(m),signature=`${location}|${address}|${href}|${kind}|${countText||''}`;
+  if(meta.dataset.presenceMetaSignature===signature)return;
+  meta.replaceChildren(document.createTextNode(location));
+  if(countText){
+    const span=document.createElement('span');span.className='presence-inline-count';span.textContent=` · ${countText}`;meta.appendChild(span);
+  }
+  if(address){
+    meta.appendChild(document.createElement('br'));
+    meta.appendChild(document.createTextNode(address));
+    if(href){
+      meta.appendChild(document.createTextNode(' · '));
+      const link=document.createElement('a');link.className='match-maps-link';link.href=href;link.target='_blank';link.rel='noopener';link.textContent='Maps';meta.appendChild(link);
+    }
+  }
+  meta.dataset.presenceMetaSignature=signature;
 }
 async function refreshCountRules(){
   if(countBusy){countQueued=true;return}
   const cards=[...document.querySelectorAll('#agendaList article.event[data-match-id],#gamesList article.event[data-match-id]')];
-  const ids=[...new Set(cards.map(c=>Number(c.dataset.matchId)).filter(Number.isFinite))];
-  if(!ids.length)return;
+  if(!cards.length)return;
   countBusy=true;
   try{
     const resolved=await Promise.all(cards.map(async card=>{
-      const match=await resolveMatch(card.dataset.matchId);
-      return{card,match,away:match?await isAwayMatch(match):false};
+      const match=await resolveMatch(card.dataset.matchId),away=match?await isAwayMatch(match):false;
+      return{card,match,away,played:isPlayedMatch(card,match)};
     }));
-    const spans=new Map();
-    for(const {card,match,away} of resolved)spans.set(card,formatCardMeta(card,match,away));
-    const counts=await stableCounts(ids);
-    for(const {card,away} of resolved){
-      const count=spans.get(card),c=counts.get(String(card.dataset.matchId));
-      if(!count||!c)continue;
-      const text=away?` · Spelers: ${c.players} · Auto's: ${c.cars}`:` · Spelers: ${c.players}`;
-      if(count.textContent!==text)count.textContent=text;
-    }
+    const futureIds=[...new Set(resolved.filter(x=>!x.played).map(x=>Number(x.card.dataset.matchId)).filter(Number.isFinite))];
+    const counts=await stableCounts(futureIds);
+    await Promise.all(resolved.map(async({card,match,away,played})=>{
+      if(played){
+        const side=argonSideFromCard(card,match,away),players=await bondPlayedCount(card.dataset.matchId,side);
+        formatCardMeta(card,match,players===null?'':`Spelers: ${players}`,'played');
+        return;
+      }
+      const cnt=counts.get(String(card.dataset.matchId));
+      if(!cnt){formatCardMeta(card,match,'','future');return}
+      const text=away?`Spelers: ${cnt.players} · Auto's: ${cnt.cars}`:`Spelers: ${cnt.players}`;
+      formatCardMeta(card,match,text,away?'future-away':'future-home');
+    }));
   }finally{
     countBusy=false;
     if(countQueued){countQueued=false;scheduleCounts(20)}
