@@ -71,9 +71,10 @@ function pointsLabel(p){
 }
 function renderTeam(team,data){
  const host=document.getElementById('feedTeamPlayersContent');if(!host)return;
- const staff=Array.isArray(data?.staff)?data.staff:[],staffIds=new Set(staff.map(s=>String(s?.personId||''))),players=(Array.isArray(data?.players)?data.players:[]).filter(p=>!staffIds.has(String(p?.personId||'')));
- const staffRows=staff.map(s=>`<div class="feed-team-player-row"><span class="feed-team-player-number">Coach</span><span class="feed-team-player-name">${esc(s?.displayName||s?.name||'private')}</span><span></span></div>`).join('');
- const rows=staffRows+players.map(p=>`<div class="feed-team-player-row"><span class="feed-team-player-number">${p?.number?`#${esc(p.number)}`:''}</span><span class="feed-team-player-name">${esc(p?.name||'private')}${p?.registered===false&&p?.playedForTeam?'<span class="feed-team-player-up">meegespeeld</span>':''}</span><span class="feed-team-player-points">${esc(pointsLabel(p))}</span></div>`).join('');
+ const staff=Array.isArray(data?.staff)?data.staff:[],pureStaffIds=new Set(staff.filter(s=>!s?.playingCoach).map(s=>String(s?.personId||''))),playingCoachIds=new Set(staff.filter(s=>s?.playingCoach).map(s=>String(s?.personId||''))),players=(Array.isArray(data?.players)?data.players:[]).filter(p=>!pureStaffIds.has(String(p?.personId||'')));
+ const staffRows=staff.map(s=>{const p=s?.playingCoach?players.find(x=>String(x?.personId||'')===String(s?.personId||'')):null;return `<div class="feed-team-player-row"><span class="feed-team-player-number">${s?.playingCoach?'Coach/speler':'Coach'}</span><span class="feed-team-player-name">${esc(s?.displayName||s?.name||'private')}</span><span class="feed-team-player-points">${p?esc(pointsLabel(p)):''}</span></div>`}).join('');
+ const playerRows=players.filter(p=>!playingCoachIds.has(String(p?.personId||''))).map(p=>`<div class="feed-team-player-row"><span class="feed-team-player-number">${p?.number?`#${esc(p.number)}`:''}</span><span class="feed-team-player-name">${esc(p?.name||'private')}${p?.registered===false&&p?.playedForTeam?'<span class="feed-team-player-up">meegespeeld</span>':''}</span><span class="feed-team-player-points">${esc(pointsLabel(p))}</span></div>`).join('');
+ const rows=staffRows+playerRows;
  const incomplete=Number(data?.playedMatches||0)>Number(data?.matchesWithCompletePoints||0);
  host.innerHTML=`${teamHeader(team,data,players.length)}${(staff.length||players.length)?`<div class="feed-team-players-list">${rows}</div>`:'<div class="feed-team-players-loading">Geen spelers gevonden.</div>'}${incomplete?'<p class="feed-team-players-note">- = punten onbekend.</p>':''}`;
 }
