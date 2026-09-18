@@ -348,6 +348,7 @@
     renderSettings();
     renderCalendarLinks();
     if(document.getElementById('view-agenda')?.classList.contains('active'))scheduleDateScroll('agenda',false,70);
+    if(document.getElementById('view-games')?.classList.contains('active'))scheduleDateScroll('games',false,70);
     if(document.getElementById('view-tasks')?.classList.contains('active'))scheduleDateScroll('tasks',false,70);
   }
 
@@ -427,7 +428,7 @@
     document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
   }
 
-  const dateScrollState={agenda:'',tasks:''};
+  const dateScrollState={agenda:'',games:'',tasks:''};
   function localToday(){
     const now=new Date();
     return `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
@@ -435,9 +436,9 @@
   function listDate(day){return day?.dataset?.listDate||day?.dataset?.agendaDate||''}
   function dateScrollKey(name){return `${name}|${selection.teamGuid}|${selectedPerson}|${localToday()}`}
   function scrollToCurrentDate(name,force=false){
-    if(name!=='agenda'&&name!=='tasks')return false;
+    if(name!=='agenda'&&name!=='games'&&name!=='tasks')return false;
     const view=document.getElementById(`view-${name}`);
-    const root=document.getElementById(name==='agenda'?'agendaList':'tasksList');
+    const root=document.getElementById(name==='agenda'?'agendaList':name==='games'?'gamesList':'tasksList');
     if(!view?.classList.contains('active')||!root)return false;
     const days=[...root.querySelectorAll('.day')].filter(day=>listDate(day));
     if(!days.length)return false;
@@ -454,18 +455,19 @@
     return true;
   }
   function scheduleDateScroll(name,force=false,delay=50){
-    if(name!=='agenda'&&name!=='tasks')return;
+    if(name!=='agenda'&&name!=='games'&&name!=='tasks')return;
     setTimeout(()=>requestAnimationFrame(()=>scrollToCurrentDate(name,force)),delay);
   }
   function resetDateScroll(){
     dateScrollState.agenda='';
+    dateScrollState.games='';
     dateScrollState.tasks='';
   }
 
   function switchView(name){
     document.querySelectorAll('.view').forEach(view=>view.classList.toggle('active',view.id===`view-${name}`));
     document.querySelectorAll('.tab').forEach(tab=>tab.classList.toggle('active',tab.dataset.view===name));
-    if(name==='agenda'||name==='tasks')scheduleDateScroll(name,true,40);
+    if(name==='agenda'||name==='games'||name==='tasks')scheduleDateScroll(name,true,40);
   }
 
   E.syncBtn.addEventListener('click',syncMatches);
