@@ -315,11 +315,20 @@
     return `<article class="event" data-task-id="${esc(task.id)}"><div class="event-row"><div class="time-col"><div class="event-time">${esc(task.arrivalTime)}</div><span class="event-status">Aanwezig</span></div><div class="event-main"><span class="badge badge-task">Taak</span><div class="match-title">${esc(task.home)} — ${esc(task.away)}</div><div class="meta">Wedstrijd ${esc(task.startTime)} · ${esc(task.location)}${task.field?` · ${esc(task.field)}`:''}</div><div class="officials">${selectedPerson==='__all__'?`<b>Scheidsrechters:</b> ${esc(unique(task.referees||[]).join(', '))}<br><b>Tafel:</b> ${esc(unique(task.table||[]).join(', '))}`:`<b>Jouw taak:</b> ${esc(role||'—')}`}</div></div></div></article>`;
   }
 
-  function grouped(items,renderer,timeField='startTime'){
+  function grouped(items,renderer,timeField='startTime',upcomingFirst=false){
     if(!items.length)return '<div class="empty">Geen items voor deze selectie.</div>';
     const map=new Map();
     items.forEach(item=>{const d=dateOnly(item.date);if(!map.has(d))map.set(d,[]);map.get(d).push(item)});
-    return [...map.entries()].sort((a,b)=>a[0].localeCompare(b[0])).map(([date,rows])=>`<section class="day"><div class="day-head">${esc(formatDay(date))}</div>${rows.sort((a,b)=>eventKey(a,timeField).localeCompare(eventKey(b,timeField))).map(renderer).join('')}</section>`).join('');
+    const entries=[...map.entries()];
+    if(upcomingFirst){
+      const now=new Date(),today=`${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
+      entries.sort((a,b)=>{
+        const af=a[0]>=today,bf=b[0]>=today;
+        if(af!==bf)return af?-1:1;
+        return af?a[0].localeCompare(b[0]):b[0].localeCompare(a[0]);
+      });
+    }else entries.sort((a,b)=>a[0].localeCompare(b[0]));
+    return entries.map(([date,rows])=>`<section class="day"><div class="day-head">${esc(formatDay(date))}</div>${rows.sort((a,b)=>eventKey(a,timeField).localeCompare(eventKey(b,timeField))).map(renderer).join('')}</section>`).join('');
   }
 
   function renderStatus(){
@@ -341,8 +350,8 @@
     E.gamesSubtitle.textContent=`${selection.clubName} ${selection.teamName} · ${seasonRange().label}`;
     E.tasksSubtitle.textContent=selectedPerson==='__all__'?'Alle personen uit het takenschema.':`Alleen taken van ${selectedPerson}.`;
     E.gamesList.innerHTML=grouped(sortedMatches,gameCard);
-    E.tasksList.innerHTML=grouped(visibleTasks,taskCard,'arrivalTime');
-    E.agendaList.innerHTML=grouped(agenda,item=>item.__kind==='game'?gameCard(item):taskCard(item),'__sortTime');
+    E.tasksList.innerHTML=grouped(visibleTasks,taskCard,'arrivalTime',true);
+    E.agendaList.innerHTML=grouped(agenda,item=>item.__kind==='game'?gameCard(item):taskCard(item),'__sortTime',true);
     renderStatus();
     renderSettings();
     renderCalendarLinks();
