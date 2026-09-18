@@ -3,14 +3,14 @@
 
 const U='https://elpnfmlrkoemjrnzaeok.supabase.co';
 const K='sb_publishable_GPzLwaKeevg3e8CNjw9oAQ_50NW2xlg';
-let sb=null,data=null,busy=false,shown=false,mode='review',searchValue='';
+let sb=null,data=null,busy=false,isAdmin=false,mode='review',searchValue='';
 let items=[],candidates=[],total=0,pending=0;
 
 const api=window.BasketballOneTimeMemberAudit={
   checking:true,
   pending:false,
   hasPending(){return !!(this.checking||this.pending)},
-  open(){openAudit()}
+  open(){openOrStartAudit()}
 };
 
 const esc=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -52,6 +52,21 @@ function overlay(){
 }
 function closeAudit(){const o=overlay();o.hidden=true;document.body.classList.remove('member-audit-open')}
 function openAudit(){if(!pending)return;mode='review';searchValue='';overlay().hidden=false;document.body.classList.add('member-audit-open');render()}
+async function openOrStartAudit(){
+ if(busy||!isAdmin)return;
+ if(api.checking){toast('Ledencontrole wordt geladen…');return}
+ if(pending){openAudit();return}
+ if(!confirm('Een nieuwe volledige ledencontrole starten? Alle actieve leden worden opnieuw gecontroleerd.'))return;
+ busy=true;
+ try{
+  const s=await client(),r=await s.rpc('start_member_bond_audit');
+  if(r.error)throw r.error;
+  await reload();
+  mode='review';searchValue='';
+  openAudit();
+ }catch(e){toast(e?.message||'Ledencontrole kon niet worden gestart.')}
+ finally{busy=false}
+}
 
 function listNames(arr){return (arr||[]).map(x=>x.name||x.teamName).filter(Boolean)}
 function jerseyText(item){return (item.jerseyNumbers||[]).map(x=>`${x.teamName} #${x.number}`).join(' · ')}
@@ -110,7 +125,7 @@ function renderReview(item){
  const primary=linked
   ?'<button class="primary wide" type="button" data-audit-action="confirm">Klopt, bevestigen & toepassen</button>'
   :(suggested?`<button class="primary wide" type="button" data-audit-link="${esc(suggested.personId)}">Koppel deze bondsspeler</button>`:'');
- return `<div class="member-audit-head"><div><span class="member-audit-kicker">Eenmalige ledencontrole</span><h2 class="member-audit-title">${esc(item.name)}</h2></div><button class="member-audit-close" type="button" data-member-audit-close>×</button></div>
+ return `<div class="member-audit-head"><div><span class="member-audit-kicker">Ledencontrole</span><h2 class="member-audit-title">${esc(item.name)}</h2></div><button class="member-audit-close" type="button" data-member-audit-close>×</button></div>
  <div class="member-audit-progress"><div class="member-audit-track"><div class="member-audit-bar" style="width:${p.pct}%"></div></div><span>${p.step} van ${total} · ${pending} open</span></div>
  <div class="member-audit-grid">${appInfo(item)}${bondInfo(item,shownCandidate)}</div>
  ${match}
@@ -128,7 +143,7 @@ function renderSearch(item){
     return sb-sa||String(a.name).localeCompare(String(b.name))
   })
   .slice(0,80);
- return `<div class="member-audit-head"><div><span class="member-audit-kicker">Eenmalige ledencontrole</span><h2 class="member-audit-title">Bondsspeler kiezen</h2></div><button class="member-audit-close" type="button" data-member-audit-close>×</button></div>
+ return `<div class="member-audit-head"><div><span class="member-audit-kicker">Ledencontrole</span><h2 class="member-audit-title">Bondsspeler kiezen</h2></div><button class="member-audit-close" type="button" data-member-audit-close>×</button></div>
  <button class="member-audit-back" type="button" data-audit-mode="review">← Terug naar ${esc(item.name)}</button>
  <div class="member-audit-search"><input id="memberAuditSearch" type="search" placeholder="Zoek naam, team of rugnummer…" value="${esc(searchValue)}"></div>
  <div class="member-audit-list">${rows.length?rows.map(c=>`<button class="member-audit-person" type="button" data-audit-link="${esc(c.personId)}"><span><strong>${esc(norm(c.name)==='private'?'Private speler':c.name)}</strong><small>${esc(candidateText(c)||'Geen extra gegevens')}</small></span><b>Koppelen</b></button>`).join(''):'<div class="member-audit-empty">Geen bondsspeler gevonden.</div>'}</div>`
@@ -138,7 +153,7 @@ function render(){
  const host=document.getElementById('memberAuditBody');if(!host)return;
  const item=currentItem();
  if(!item){
-  host.innerHTML='<div class="member-audit-head"><div><span class="member-audit-kicker">Eenmalige ledencontrole</span><h2 class="member-audit-title">Controle afgerond</h2></div><button class="member-audit-close" type="button" data-member-audit-close>×</button></div><div class="member-audit-helper" style="margin-top:14px">Alle leden zijn gecontroleerd.</div>';
+  host.innerHTML='<div class="member-audit-head"><div><span class="member-audit-kicker">Ledencontrole</span><h2 class="member-audit-title">Controle afgerond</h2></div><button class="member-audit-close" type="button" data-member-audit-close>×</button></div><div class="member-audit-helper" style="margin-top:14px">Alle leden zijn gecontroleerd.</div>';
   return
  }
  host.innerHTML=mode==='search'?renderSearch(item):renderReview(item);
@@ -182,9 +197,18 @@ function openMemberEditor(memberId){
 function injectAdminButton(){
  const host=document.getElementById('admin-members');if(!host)return;
  let b=document.getElementById('memberAuditAdminButton');
- if(!pending){b?.remove();return}
- if(!b){b=document.createElement('button');b.id='memberAuditAdminButton';b.type='button';b.className='primary-button member-audit-admin-button';host.prepend(b);b.onclick=openAudit}
- b.textContent=`Eenmalige ledencontrole (${pending} open)`
+ if(!isAdmin){b?.remove();return}
+ if(!b){
+  b=document.createElement('button');
+  b.id='memberAuditAdminButton';
+  b.type='button';
+  b.className='primary-button member-audit-admin-button';
+  b.onclick=openOrStartAudit;
+  host.prepend(b)
+ }
+ const label=api.checking?'Ledencontrole laden…':pending?`Ledencontrole (${pending} open)`:'Ledencontrole starten';
+ if(b.textContent!==label)b.textContent=label;
+ b.disabled=!!api.checking
 }
 
 async function reload(){
@@ -209,23 +233,28 @@ async function reload(){
  return data
 }
 
-async function check(startup=false){
+async function check(){
  try{
-  const s=await client(),ses=await s.auth.getSession();if(!ses.data.session){api.checking=false;api.pending=false;return}
-  const m=await s.rpc('sync_current_member');if(m.error||m.data?.role!=='admin'||!m.data?.active){api.checking=false;api.pending=false;return}
-  await reload();
-  if(startup&&pending&&!shown){shown=true;openAudit()}
- }catch(e){api.checking=false;api.pending=false;console.warn('Eenmalige ledencontrole',e)}
- finally{document.dispatchEvent(new Event('basketball-one-time-member-audit-ready'))}
+  const s=await client(),ses=await s.auth.getSession();
+  if(!ses.data.session){isAdmin=false;api.checking=false;api.pending=false;injectAdminButton();return}
+  const m=await s.rpc('sync_current_member');
+  if(m.error||m.data?.role!=='admin'||!m.data?.active){isAdmin=false;api.checking=false;api.pending=false;injectAdminButton();return}
+  isAdmin=true;
+  await reload()
+ }catch(e){
+  isAdmin=false;api.checking=false;api.pending=false;injectAdminButton();
+  console.warn('Ledencontrole',e)
+ }finally{
+  document.dispatchEvent(new Event('basketball-one-time-member-audit-ready'))
+ }
 }
 
 function init(){
  installCss();overlay();
- setTimeout(()=>check(true),700);
+ setTimeout(()=>check(),700);
  document.addEventListener('basketball-admin-members-rendered',injectAdminButton);
  document.addEventListener('basketball-club-rendered',injectAdminButton);
  document.addEventListener('basketball-club-view-changed',injectAdminButton);
- const mo=new MutationObserver(()=>injectAdminButton());mo.observe(document.body,{childList:true,subtree:true});
  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!overlay().hidden)closeAudit()});
 }
 
