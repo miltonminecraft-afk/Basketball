@@ -145,7 +145,7 @@ async function bondPlayedCount(id,side=''){
     if(!r.ok)throw new Error('Bondspelers niet beschikbaar');
     const j=await r.json();
     const useSide=side||argonSideFromReport(j);
-    if(!j?.available?.players||!useSide){playedCountCache.set(key,null);return null}
+    if(!j?.available?.players||!useSide)return null
     const raw=useSide==='home'?j.available.homePlayers:j.available.awayPlayers;
     const count=Number(raw);
     const value=Number.isFinite(count)&&count>0?count:null;
@@ -276,7 +276,7 @@ function init(){
   document.addEventListener('basketball-club-view-changed',e=>{if(e.detail?.view==='presence')schedulePresence(true)});
   document.addEventListener('basketball-attendance-changed',()=>{schedulePresence(true);scheduleCounts(20)});
   document.addEventListener('basketball-agenda-polished',()=>scheduleCounts(20));
-  $('teamSelect')?.addEventListener('change',()=>{ctxCache=null;ctxAt=0;matchCache.clear();setTimeout(applyHeaderLogo,120);scheduleCounts(900)});
+  $('teamSelect')?.addEventListener('change',()=>{ctxCache=null;ctxAt=0;matchCache.clear();playedCountCache.clear();setTimeout(applyHeaderLogo,120);scheduleCounts(900)});
   $('syncBtn')?.addEventListener('click',()=>scheduleCounts(1200));
   document.addEventListener('click',e=>{if(e.target.closest?.('.tab[data-view="agenda"],.tab[data-view="games"]'))scheduleCounts(60)},true);
   setTimeout(scheduleCounts,1400);
