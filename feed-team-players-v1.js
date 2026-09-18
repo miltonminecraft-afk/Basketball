@@ -7,7 +7,7 @@ const API='https://api.foys.io/competition/public-api/v1';
 const STATS_API='https://elpnfmlrkoemjrnzaeok.supabase.co/functions/v1/foys-team-stats';
 const SB_URL='https://elpnfmlrkoemjrnzaeok.supabase.co';
 const SB_KEY='sb_publishable_GPzLwaKeevg3e8CNjw9oAQ_50NW2xlg';
-const ALL_SYNC_KEY='basketball.foysAllTeamStatsSync.v1';
+const ALL_SYNC_KEY='basketball.foysAllTeamStatsSync.v2';
 
 const esc=v=>String(v??'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));
 const norm=v=>String(v||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]/g,'');
