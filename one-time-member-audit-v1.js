@@ -154,51 +154,108 @@ function progress(){
 }
 
 function renderReview(item){
- const linked=currentCandidate(item),suggested=bestSuggestion(item),shownCandidate=linked||suggested;
- const p=progress();
- const match=shownCandidate?`<div class="member-audit-match"><h3>${linked?'Huidige bondskoppeling':'Waarschijnlijke match'}</h3><div class="member-audit-match-name">${esc(norm(shownCandidate.name)==='private'?'Private speler':shownCandidate.name)}</div><div class="member-audit-helper">${esc(candidateText(shownCandidate)||'Geen extra bondgegevens')}</div></div>`:'';
- const primary=linked
-  ?'<button class="primary wide" type="button" data-audit-action="confirm">Klopt, bevestigen & toepassen</button>'
-  :(suggested?`<button class="primary wide" type="button" data-audit-link="${esc(suggested.personId)}">Koppel deze bondsspeler</button>`:'');
+ const linked=currentCandidate(item),suggested=bestSuggestion(item),shown=linked||suggested,p=progress();
+ const same=shown?playerDataMatches(item,shown):false;
+ let note='';
+ if(!shown)note='<div class="member-audit-note">Dit lid staat in de app, maar er is geen passende speler in de opgehaalde bonddata gevonden.</div>';
+ else if(norm(item.name)!==norm(shown.name)&&norm(shown.name)!=='private')note=`<div class="member-audit-note warn">Naam wijkt iets af: <b>${esc(item.name)}</b> ↔ <b>${esc(shown.name)}</b>. Controleer of dit dezelfde persoon is.</div>`;
+ else if(!same)note='<div class="member-audit-note warn">Team of rugnummer wijkt af. Controleer de bondgegevens voordat je ze koppelt.</div>';
+
+ let primary='';
+ if(shown){
+  const label=same?'Klopt met app':'Bondgegevens koppelen';
+  primary=linked
+   ?`<button class="primary wide" type="button" data-audit-action="confirm">${label}</button>`
+   :`<button class="primary wide" type="button" data-audit-link="${esc(shown.personId)}">${label}</button>`;
+ }else primary='<button class="primary wide" type="button" data-audit-action="no_bond">Klopt: alleen app-lid</button>';
+
  return `<div class="member-audit-head"><div><span class="member-audit-kicker">Ledencontrole</span><h2 class="member-audit-title">${esc(item.name)}</h2></div><button class="member-audit-close" type="button" data-member-audit-close>×</button></div>
- <div class="member-audit-progress"><div class="member-audit-track"><div class="member-audit-bar" style="width:${p.pct}%"></div></div><span>${p.step} van ${total} · ${pending} open</span></div>
- <div class="member-audit-grid">${appInfo(item)}${bondInfo(item,shownCandidate)}</div>
- ${match}
- <div class="member-audit-actions">${primary}<button type="button" data-audit-mode="search">Andere bondsspeler</button><button type="button" data-audit-edit>Gegevens aanpassen</button><button class="danger" type="button" data-audit-action="no_bond">Geen bondprofiel</button><button type="button" data-audit-later>Later</button></div>`
+ <div class="member-audit-progress"><div class="member-audit-track"><div class="member-audit-bar" style="width:${p.pct}%"></div></div><span>${p.step} van ${total} · ${pending} leden open</span></div>
+ ${appInfo(item)}${bondInfo(item,shown)}${note}
+ <div class="member-audit-actions two">${primary}<button type="button" data-audit-mode="search">Andere bondsspeler</button><button type="button" data-audit-edit>Appgegevens aanpassen</button><button type="button" data-audit-later>Later</button></div>`
 }
 
 function renderSearch(item){
- const q=norm(searchValue);
  const rows=candidates
   .filter(c=>!c.linkedMemberId||String(c.linkedMemberId)===String(item.memberId))
-  .filter(c=>{if(!q)return true;const hay=norm([c.name,candidateText(c)].join(' '));return hay.includes(q)})
   .sort((a,b)=>{
-    const sa=strongName(item.name,a.name)?1:jerseyPrivateMatch(item,a)?.9:0;
-    const sb=strongName(item.name,b.name)?1:jerseyPrivateMatch(item,b)?.9:0;
-    return sb-sa||String(a.name).localeCompare(String(b.name))
+   const sa=strongName(item.name,a.name)?2:jerseyPrivateMatch(item,a)?1:0;
+   const sb=strongName(item.name,b.name)?2:jerseyPrivateMatch(item,b)?1:0;
+   return sb-sa||String(a.name).localeCompare(String(b.name))
   })
-  .slice(0,80);
+  .slice(0,120);
  return `<div class="member-audit-head"><div><span class="member-audit-kicker">Ledencontrole</span><h2 class="member-audit-title">Bondsspeler kiezen</h2></div><button class="member-audit-close" type="button" data-member-audit-close>×</button></div>
  <button class="member-audit-back" type="button" data-audit-mode="review">← Terug naar ${esc(item.name)}</button>
- <div class="member-audit-search"><input id="memberAuditSearch" type="search" placeholder="Zoek naam, team of rugnummer…" value="${esc(searchValue)}"></div>
- <div class="member-audit-list">${rows.length?rows.map(c=>`<button class="member-audit-person" type="button" data-audit-link="${esc(c.personId)}"><span><strong>${esc(norm(c.name)==='private'?'Private speler':c.name)}</strong><small>${esc(candidateText(c)||'Geen extra gegevens')}</small></span><b>Koppelen</b></button>`).join(''):'<div class="member-audit-empty">Geen bondsspeler gevonden.</div>'}</div>`
+ <div class="member-audit-search"><input id="memberAuditSearch" type="search" autocomplete="off" placeholder="Zoek naam, team of rugnummer…"></div>
+ <div class="member-audit-list" id="memberAuditSearchList">${rows.map(c=>`<button class="member-audit-person" type="button" data-audit-link="${esc(c.personId)}" data-search="${esc(norm([c.name,candidateText(c)].join(' ')))}"><span><strong>${esc(norm(c.name)==='private'?'Private speler':c.name)}</strong><small>${esc(candidateText(c)||'Geen extra gegevens')}</small></span><b>Koppelen</b></button>`).join('')||'<div class="member-audit-empty">Geen bondsspeler beschikbaar.</div>'}</div>`
 }
 
+function bestExistingMemberForBond(c){
+ const available=directory.filter(m=>!m.linkedPersonId);
+ const exact=available.filter(m=>strongName(c.name,m.name)).sort((a,b)=>similarity(c.name,b.name)-similarity(c.name,a.name));
+ return exact.length===1?exact[0]:null
+}
+function renderBondOnly(c){
+ const remaining=unlinkedBondCandidates().length,suggested=bestExistingMemberForBond(c);
+ return `<div class="member-audit-head"><div><span class="member-audit-kicker">Ledencontrole</span><h2 class="member-audit-title">Nieuwe bondsspeler</h2></div><button class="member-audit-close" type="button" data-member-audit-close>×</button></div>
+ <div class="member-audit-progress"><div class="member-audit-track"><div class="member-audit-bar" style="width:100%"></div></div><span>${remaining} bondsspeler${remaining===1?'':'s'} niet gekoppeld</span></div>
+ ${bondOnlyInfo(c)}
+ ${suggested?`<div class="member-audit-note warn">Mogelijk bestaand lid: <b>${esc(suggested.name)}</b>. Controleer dit voordat je koppelt.</div>`:'<div class="member-audit-note">Deze bondsspeler staat nog niet in de ledenlijst.</div>'}
+ <div class="member-audit-actions two">
+ ${suggested?`<button class="primary wide" type="button" data-bond-link-member="${esc(suggested.memberId)}">Koppelen aan ${esc(suggested.name)}</button>`:'<button class="primary wide" type="button" data-audit-mode="newMember">Nieuw lid toevoegen</button>'}
+ <button type="button" data-audit-mode="memberSearch">Koppelen aan bestaand lid</button>
+ ${suggested?'<button type="button" data-audit-mode="newMember">Toch nieuw lid</button>':''}
+ <button type="button" data-bond-later>Later</button></div>`
+}
+function renderMemberSearch(c){
+ const rows=directory.filter(m=>!m.linkedPersonId).sort((a,b)=>{
+  const sa=strongName(c.name,a.name)?1:0,sb=strongName(c.name,b.name)?1:0;
+  return sb-sa||String(a.name).localeCompare(String(b.name))
+ });
+ return `<div class="member-audit-head"><div><span class="member-audit-kicker">Ledencontrole</span><h2 class="member-audit-title">Bestaand lid kiezen</h2></div><button class="member-audit-close" type="button" data-member-audit-close>×</button></div>
+ <button class="member-audit-back" type="button" data-audit-mode="bondOnly">← Terug naar ${esc(c.name)}</button>
+ <div class="member-audit-search"><input id="memberAuditSearch" type="search" autocomplete="off" placeholder="Zoek bestaand lid…"></div>
+ <div class="member-audit-list" id="memberAuditSearchList">${rows.map(m=>{const extra=mergedAppTeams(m).map(appTeamLabel).join(' · ');return `<button class="member-audit-person" type="button" data-bond-link-member="${esc(m.memberId)}" data-search="${esc(norm([m.name,extra].join(' ')))}"><span><strong>${esc(m.name)}</strong><small>${esc(extra||m.email||'Geen teamgegevens')}</small></span><b>Koppelen</b></button>`}).join('')||'<div class="member-audit-empty">Geen beschikbaar bestaand lid.</div>'}</div>`
+}
+function renderNewMember(c){
+ const teams=mergedBondTeams(c).filter(t=>t.official);
+ return `<div class="member-audit-head"><div><span class="member-audit-kicker">Ledencontrole</span><h2 class="member-audit-title">Nieuw lid toevoegen</h2></div><button class="member-audit-close" type="button" data-member-audit-close>×</button></div>
+ <button class="member-audit-back" type="button" data-audit-mode="bondOnly">← Terug naar ${esc(c.name)}</button>${bondOnlyInfo(c)}
+ <form id="memberAuditCreateForm" class="member-audit-create"><label>Naam<input class="member-audit-field" id="memberAuditCreateName" required value="${esc(c.name)}"></label><label>E-mail (optioneel)<input class="member-audit-field" id="memberAuditCreateEmail" type="email"></label><label>Telefoon (optioneel)<input class="member-audit-field" id="memberAuditCreatePhone" type="tel"></label><div class="member-audit-note">Team en rugnummer worden vanuit de bondgegevens gekoppeld.${teams.length?` Officieel team: <b>${esc(teams.map(t=>bondTeamLabel(t)).join(' · '))}</b>`:''}</div><div class="member-audit-actions"><button class="primary wide" type="submit">Lid toevoegen en koppelen</button></div></form>`
+}
+function renderDone(){
+ return `<div class="member-audit-head"><div><span class="member-audit-kicker">Ledencontrole</span><h2 class="member-audit-title">Controle afgerond</h2></div><button class="member-audit-close" type="button" data-member-audit-close>×</button></div><div class="member-audit-note" style="margin-top:14px">Alle app-leden zijn gecontroleerd en alle benoemde bondsspelers zijn gekoppeld of toegevoegd. Private bondsspelers blijven alleen op team en rugnummer opgeslagen totdat een lid zichzelf daarmee kan koppelen.</div>`
+}
 function render(){
  const host=document.getElementById('memberAuditBody');if(!host)return;
- const item=currentItem();
- if(!item){
-  host.innerHTML='<div class="member-audit-head"><div><span class="member-audit-kicker">Ledencontrole</span><h2 class="member-audit-title">Controle afgerond</h2></div><button class="member-audit-close" type="button" data-member-audit-close>×</button></div><div class="member-audit-helper" style="margin-top:14px">Alle leden zijn gecontroleerd.</div>';
-  return
- }
- host.innerHTML=mode==='search'?renderSearch(item):renderReview(item);
- host.querySelectorAll('[data-audit-mode]').forEach(b=>b.onclick=()=>{mode=b.dataset.auditMode;render()});
+ const item=currentItem(),bond=currentBondCandidate();
+ if(item){
+  if(mode!=='search')mode='review';
+  host.innerHTML=mode==='search'?renderSearch(item):renderReview(item)
+ }else if(bond){
+  activeBondPersonId=bond.personId;
+  if(!['bondOnly','memberSearch','newMember'].includes(mode))mode='bondOnly';
+  host.innerHTML=mode==='memberSearch'?renderMemberSearch(bond):mode==='newMember'?renderNewMember(bond):renderBondOnly(bond)
+ }else host.innerHTML=renderDone();
+
+ host.querySelectorAll('[data-audit-mode]').forEach(b=>b.onclick=()=>{mode=b.dataset.auditMode;searchValue='';render()});
  host.querySelectorAll('[data-audit-link]').forEach(b=>b.onclick=()=>submit('link',b.dataset.auditLink));
  host.querySelectorAll('[data-audit-action]').forEach(b=>b.onclick=()=>submit(b.dataset.auditAction,null));
- host.querySelectorAll('[data-audit-later]').forEach(b=>b.onclick=()=>{if(items.length>1){items.push(items.shift());mode='review';render()}else closeAudit()});
+ host.querySelectorAll('[data-audit-later]').forEach(b=>b.onclick=()=>{if(items.length>1){items.push(items.shift());mode='review';render()}else{mode='bondOnly';render()}});
  host.querySelectorAll('[data-audit-edit]').forEach(b=>b.onclick=()=>openMemberEditor(item.memberId));
+ host.querySelectorAll('[data-bond-link-member]').forEach(b=>b.onclick=()=>linkBondToExisting(b.dataset.bondLinkMember));
+ host.querySelectorAll('[data-bond-later]').forEach(b=>b.onclick=()=>{if(bond)skippedBond.add(String(bond.personId));activeBondPersonId=null;mode='bondOnly';if(!visibleBondCandidates().length)closeAudit();else render()});
+
  const search=document.getElementById('memberAuditSearch');
- if(search){search.focus();search.oninput=()=>{searchValue=search.value;render()}}
+ if(search){
+  search.focus();
+  search.oninput=()=>{
+   const q=norm(search.value);
+   host.querySelectorAll('#memberAuditSearchList [data-search]').forEach(row=>row.hidden=!!q&&!String(row.dataset.search||'').includes(q))
+  }
+ }
+ const create=document.getElementById('memberAuditCreateForm');
+ if(create)create.onsubmit=e=>createMemberFromBond(e,bond)
 }
 
 async function submit(action,personId){
@@ -217,6 +274,26 @@ async function submit(action,personId){
  }catch(e){toast(e?.message||'Ledencontrole kon niet worden opgeslagen.')}finally{busy=false}
 }
 
+function renderOrClose(){
+ api.pending=openCount()>0;injectAdminButton();
+ if(openCount())render();
+ else{render();setTimeout(()=>closeAudit(),900)}
+}
+async function linkBondToExisting(memberId){
+ if(busy)return;const c=currentBondCandidate();if(!c)return;busy=true;
+ try{const s=await client(),r=await s.rpc('resolve_foys_member_review',{p_person_id:c.personId,p_member_id:memberId});if(r.error)throw r.error;toast('Bondsspeler gekoppeld aan bestaand lid.');skippedBond.delete(String(c.personId));activeBondPersonId=null;await reload();mode=currentItem()?'review':'bondOnly';renderOrClose()}
+ catch(e){toast(e?.message||'Koppelen mislukt.')}finally{busy=false}
+}
+async function createMemberFromBond(e,candidate){
+ e.preventDefault();if(busy||!candidate)return;
+ const name=document.getElementById('memberAuditCreateName')?.value.trim()||'';if(!name)return;
+ busy=true;
+ try{
+  const s=await client(),teamIds=uniqueStrings((candidate.officialTeams||[]).map(t=>t.teamId).filter(Boolean));
+  const r=await s.rpc('create_member_from_foys_player',{p_person_id:candidate.personId,p_full_name:name,p_email:document.getElementById('memberAuditCreateEmail')?.value.trim()||null,p_phone:document.getElementById('memberAuditCreatePhone')?.value.trim()||null,p_team_ids:teamIds});
+  if(r.error)throw r.error;toast('Nieuw lid toegevoegd en gekoppeld.');skippedBond.delete(String(candidate.personId));activeBondPersonId=null;await reload();mode=currentItem()?'review':'bondOnly';renderOrClose()
+ }catch(err){toast(err?.message||'Lid toevoegen mislukt.')}finally{busy=false}
+}
 function openMemberEditor(memberId){
  closeAudit();
  const club=document.querySelector('.tab[data-view="club"]');club?.click();
