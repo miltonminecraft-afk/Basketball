@@ -63,9 +63,12 @@ function ensureOverlay(){
  return overlay;
 }
 function closeOverlay(){const overlay=document.getElementById('feedTeamPlayersOverlay');if(overlay)overlay.hidden=true;currentOpenTeam=null;document.body.classList.remove('feed-team-players-open')}
-function teamHeader(team,data,playerCount){
+function teamHeader(team,data,players){
  const logo=data?.team?.logoUrl||team?.logoUrl||'';
- return `<div class="feed-team-players-head">${logo?`<img class="feed-team-players-logo" src="${esc(logo)}" alt="">`:''}<div class="feed-team-players-titlewrap"><h2 class="feed-team-players-title" id="feedTeamPlayersTitle">SV Argon ${esc(data?.team?.name||team?.name||'Team')}</h2><span class="feed-team-players-sub">Seizoen ${esc(data?.seasonLabel||'')} · ${playerCount} spelers</span></div><button class="feed-team-players-close" type="button" data-feed-team-close aria-label="Sluiten">×</button></div>`;
+ const registered=(players||[]).filter(p=>p?.registered!==false).length;
+ const guests=(players||[]).filter(p=>p?.registered===false&&p?.playedForTeam).length;
+ const countText=guests?registered+' spelers · '+guests+' meegespeeld':registered+' spelers';
+ return `<div class="feed-team-players-head">${logo?`<img class="feed-team-players-logo" src="${esc(logo)}" alt="">`:''}<div class="feed-team-players-titlewrap"><h2 class="feed-team-players-title" id="feedTeamPlayersTitle">SV Argon ${esc(data?.team?.name||team?.name||'Team')}</h2><span class="feed-team-players-sub">Seizoen ${esc(data?.seasonLabel||'')} · ${esc(countText)}</span></div><button class="feed-team-players-close" type="button" data-feed-team-close aria-label="Sluiten">×</button></div>`;
 }
 function pointsLabel(p){
  const points=Number(p?.points)||0;
@@ -118,7 +121,7 @@ function renderTeam(team,data){
  const playerRows=players.filter(p=>!playingCoachIds.has(String(p?.personId||''))).map(p=>`<div class="feed-team-player-row"><span class="feed-team-player-number">${p?.number?`#${esc(p.number)}`:''}</span><span class="feed-team-player-name">${esc(p?.name||'private')}${p?.registered===false&&p?.playedForTeam?'<span class="feed-team-player-up">meegespeeld</span>':''}</span><span class="feed-team-player-points">${esc(pointsLabel(p))}</span></div>`).join('');
  const rows=staffRows+playerRows;
  const incomplete=Number(data?.playedMatches||0)>Number(data?.matchesWithCompletePoints||0);
- host.innerHTML=`${teamHeader(team,data,players.length)}${(staff.length||players.length)?`<div class="feed-team-players-list">${rows}</div>`:'<div class="feed-team-players-loading">Geen spelers gevonden.</div>'}${incomplete?'<p class="feed-team-players-note">- = punten onbekend.</p>':''}`;
+ host.innerHTML=`${teamHeader(team,data,players)}${(staff.length||players.length)?`<div class="feed-team-players-list">${rows}</div>`:'<div class="feed-team-players-loading">Geen spelers gevonden.</div>'}${incomplete?'<p class="feed-team-players-note">- = punten onbekend.</p>':''}`;
 }
 async function openTeam(team){
  const overlay=ensureOverlay(),host=document.getElementById('feedTeamPlayersContent');if(!host)return;
