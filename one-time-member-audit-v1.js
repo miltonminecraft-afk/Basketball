@@ -4,7 +4,7 @@
 const U='https://elpnfmlrkoemjrnzaeok.supabase.co';
 const K='sb_publishable_GPzLwaKeevg3e8CNjw9oAQ_50NW2xlg';
 let sb=null,data=null,busy=false,isAdmin=false,mode='review',searchValue='';
-let items=[],candidates=[],directory=[],total=0,pending=0,skippedBond=new Set(),activeBondPersonId=null;
+let items=[],candidates=[],directory=[],auditTeams=[],total=0,pending=0,skippedBond=new Set(),activeBondPersonId=null;
 
 const api=window.BasketballOneTimeMemberAudit={
   checking:true,
@@ -135,7 +135,11 @@ function openCount(){return pending+unlinkedBondCandidates().length}
 function chip(s,cls=''){return `<span class="member-audit-chip ${cls}">${esc(s)}</span>`}
 function appInfo(item){
  const teams=mergedAppTeams(item);
- return `<div class="member-audit-card"><h3>In de app</h3><div class="member-audit-name-row"><b>Naam</b><span>${esc(item.name||'-')}</span></div><div class="member-audit-chips">${teams.length?teams.map(t=>chip(appTeamLabel(t))).join(''):'<span class="member-audit-empty">Geen team of rugnummer ingesteld.</span>'}</div></div>`
+ return `<div class="member-audit-card"><h3>In de app</h3>
+  <div class="member-audit-name-row"><b>Naam</b><span>${esc(item.name||'-')}</span></div>
+  <div class="member-audit-name-row"><b>E-mail</b><span>${esc(item.email||'-')}</span></div>
+  <div class="member-audit-name-row"><b>Telefoon</b><span>${esc(item.phone||'-')}</span></div>
+  <div class="member-audit-chips">${teams.length?teams.map(t=>chip(appTeamLabel(t))).join(''):'<span class="member-audit-empty">Geen team of rugnummer ingesteld.</span>'}</div></div>`
 }
 function bondInfo(item,c){
  if(!c)return `<div class="member-audit-card"><h3>Basketbalbond</h3><div class="member-audit-empty">Geen passende bondsspeler gevonden.</div></div>`;
@@ -159,22 +163,22 @@ function renderReview(item){
  let note='';
  if(!shown)note='<div class="member-audit-note">Dit lid staat in de app, maar er is geen passende speler in de opgehaalde bonddata gevonden.</div>';
  else if(norm(item.name)!==norm(shown.name)&&norm(shown.name)!=='private')note=`<div class="member-audit-note warn">Naam wijkt iets af: <b>${esc(item.name)}</b> ↔ <b>${esc(shown.name)}</b>. Controleer of dit dezelfde persoon is.</div>`;
- else if(!same)note='<div class="member-audit-note warn">Team of rugnummer wijkt af. Controleer de bondgegevens voordat je ze koppelt.</div>';
+ else if(!same)note='<div class="member-audit-note warn">Team of rugnummer wijkt af. Je kunt de appgegevens behouden of bewust de bondgegevens overnemen.</div>';
 
  let primary='';
  if(shown){
-  const label=same?'Klopt met app':'Bondgegevens koppelen';
+  const label=same?'Klopt met app':'Appgegevens behouden';
   primary=linked
    ?`<button class="primary wide" type="button" data-audit-action="confirm">${label}</button>`
-   :`<button class="primary wide" type="button" data-audit-link="${esc(shown.personId)}">${label}</button>`;
+   :`<button class="primary wide" type="button" data-audit-link="${esc(shown.personId)}">Koppelen aan deze bondsspeler</button>`;
  }else primary='<button class="primary wide" type="button" data-audit-action="no_bond">Klopt: alleen app-lid</button>';
+ const takeBond=shown?`<button class="wide" type="button" data-audit-apply-bond="${esc(shown.personId)}">Bondgegevens overnemen</button>`:'';
 
  return `<div class="member-audit-head"><div><span class="member-audit-kicker">Ledencontrole</span><h2 class="member-audit-title">${esc(item.name)}</h2></div><button class="member-audit-close" type="button" data-member-audit-close>×</button></div>
  <div class="member-audit-progress"><div class="member-audit-track"><div class="member-audit-bar" style="width:${p.pct}%"></div></div><span>${p.step} van ${total} · ${pending} leden open</span></div>
  ${appInfo(item)}${bondInfo(item,shown)}${note}
- <div class="member-audit-actions two">${primary}<button type="button" data-audit-mode="search">Andere bondsspeler</button><button type="button" data-audit-edit>Appgegevens aanpassen</button><button type="button" data-audit-later>Later</button></div>`
+ <div class="member-audit-actions two">${primary}${takeBond}<button type="button" data-audit-mode="search">Andere bondsspeler</button><button type="button" data-audit-mode="edit">Appgegevens aanpassen</button><button type="button" data-audit-later>Later</button></div>`
 }
-
 function renderSearch(item){
  const rows=candidates
   .filter(c=>!c.linkedMemberId||String(c.linkedMemberId)===String(item.memberId))
