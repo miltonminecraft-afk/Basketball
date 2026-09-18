@@ -18,16 +18,6 @@ LOCATION:Het Ravijn\, Piet Heinweg 18\, 7441GZ NIJVERDAL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-495025@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260918T190000
-DURATION:PT2H
-SUMMARY:Risne Stars X12-1 - Olstars X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495025
-LOCATION:Reggehal\, Nieuwlandsweg 1\, 7461VP RIJSSEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-495032@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T113000
@@ -55,6 +45,16 @@ DURATION:PT2H
 SUMMARY:BeCeGe '74 X12-1 - Risne Stars X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495045
 LOCATION:De Bongerd\, de Bongerd 81\, 7006NH DOETINCHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495025@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T161500
+DURATION:PT2H
+SUMMARY:Risne Stars X12-1 - Olstars X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495025
+LOCATION:Reggehal\, Nieuwlandsweg 1\, 7461VP RIJSSEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

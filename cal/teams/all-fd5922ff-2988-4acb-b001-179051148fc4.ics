@@ -588,16 +588,6 @@ LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-503323@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260920T164500
-DURATION:PT2H
-SUMMARY:BV Groningen M22-3* - Celeritas-Donar M22-3
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503323
-LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-491747@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T090000
@@ -1208,13 +1198,23 @@ LOCATION:Scharlakenhof\, Geertsemaweg 3\, 9751XA HAREN GN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-499095@basketball-agenda
+UID:foys-match-516851@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261017T140000
+DTSTART;TZID=Europe/Amsterdam:20261017T080000
 DURATION:PT2H
-SUMMARY:Twente Buzzards M16-1 - Celeritas-Donar M16-3
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499095
-LOCATION:Hasseler Es\, Henry Woodstraat 1\, 7558CM HENGELO OV
+SUMMARY:Celeritas-Donar M22-1 - Landslake Lions M22-1
+DESCRIPTION:Mannen U22 (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516851
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516814@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T133000
+DURATION:PT2H
+SUMMARY:Heroes Den Bosch M16-1 - Celeritas-Donar M16-1
+DESCRIPTION:Mannen U16 (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516814
+LOCATION:De Maaspoort\, Marathonloop 1\, 5235AA 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1235,6 +1235,16 @@ DURATION:PT2H
 SUMMARY:Celeritas-Donar VSE-1 - BV Groningen VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503938
 LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516834@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T173000
+DURATION:PT2H
+SUMMARY:BV Amsterdam M19-1 - Celeritas-Donar M19-1
+DESCRIPTION:Mannen U19 (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516834
+LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -2618,16 +2628,6 @@ LOCATION:Wildervanckhal\, Woortmanslaan 1\, 9648AA WILDERVANK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-503336@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T133000
-DURATION:PT2H
-SUMMARY:Celeritas-Donar M22-3 - BV Groningen M22-3*
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503336
-LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-507067@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T140000
@@ -2845,6 +2845,16 @@ DURATION:PT2H
 SUMMARY:Celeritas-Donar V21-1 - BC APOLLO Amsterdam V21-1
 DESCRIPTION:Vrouwen U21 (Basketball Cup) - Groepsfase\nStatus: Planned\nFOYS wedstrijd-ID: 512900
 LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499095@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T130000
+DURATION:PT2H
+SUMMARY:Twente Buzzards M16-1 - Celeritas-Donar M16-3
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499095
+LOCATION:Hasseler Es\, Henry Woodstraat 1\, 7558CM HENGELO OV
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

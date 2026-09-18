@@ -598,22 +598,22 @@ LOCATION:Hoornse Vaart\, Hertog Aalbrechtweg 4\, 1823DL ALKMAAR
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-499425@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T143000
-DURATION:PT2H
-SUMMARY:Alkm.Guardians M16-3 - K.T.C. M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499425
-LOCATION:Hoornse Vaart\, Hertog Aalbrechtweg 4\, 1823DL ALKMAAR
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-501353@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T143000
 DURATION:PT2H
 SUMMARY:Alkm.Guardians M18-1 - Day 1 M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501353
+LOCATION:Hoornse Vaart\, Hertog Aalbrechtweg 4\, 1823DL ALKMAAR
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499425@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T161500
+DURATION:PT2H
+SUMMARY:Alkm.Guardians M16-3 - K.T.C. M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499425
 LOCATION:Hoornse Vaart\, Hertog Aalbrechtweg 4\, 1823DL ALKMAAR
 STATUS:CONFIRMED
 END:VEVENT

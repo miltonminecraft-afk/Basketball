@@ -748,6 +748,16 @@ LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-516830@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T120000
+DURATION:PT2H
+SUMMARY:NIEUW Generation Basketball M19-1 - Basketbal Academie Limburg M19-1
+DESCRIPTION:Mannen U19 (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516830
+LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-512905@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T131500
@@ -755,6 +765,26 @@ DURATION:PT2H
 SUMMARY:Lokomotief V21-1 - Basketbal Academie Limburg V21-1
 DESCRIPTION:Vrouwen U21 (Basketball Cup) - Groepsfase\nStatus: Planned\nFOYS wedstrijd-ID: 512905
 LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516819@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T133000
+DURATION:PT2H
+SUMMARY:BV Amsterdam M16-1 - Basketbal Academie Limburg M16-1
+DESCRIPTION:Mannen U16 (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516819
+LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516863@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T160000
+DURATION:PT2H
+SUMMARY:Basketiers '71 MSE-1 - Basketbal Academie Limburg MSE-1
+DESCRIPTION:Mannen Senioren (Basketball Cup) - 1e Ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516863
+LOCATION:Heerenmaten\, Heerenmaten 8\, 6904GZ ZEVENAAR
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1505,6 +1535,16 @@ DURATION:PT2H
 SUMMARY:MBCA A'veen MSE-1 - Basketbal Academie Limburg MSE-1
 DESCRIPTION:Mannen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 509331
 LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516793@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T080000
+DURATION:PT2H
+SUMMARY:Basketbal Academie Limburg V18-1 - BV Hoofddorp V18-1
+DESCRIPTION:Vrouwen U18 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516793
+LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

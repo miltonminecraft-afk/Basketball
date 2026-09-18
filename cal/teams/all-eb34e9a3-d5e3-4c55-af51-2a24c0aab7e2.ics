@@ -378,16 +378,6 @@ LOCATION:De Sophiahal\, Sophiapromenade 9\, 3344PL HENDRIK-IDO-AMBACHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-508386@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T150000
-DURATION:PT2H
-SUMMARY:Devel Heroes MSE-1 - B.O.B. MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508386
-LOCATION:De Sophiahal\, Sophiapromenade 9\, 3344PL HENDRIK-IDO-AMBACHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-493624@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T160000
@@ -405,6 +395,16 @@ DURATION:PT2H
 SUMMARY:RZ Sharks V16-1 - Devel Heroes V16-1
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498216
 LOCATION:Sporthal de Sportmotor\, Rotterdam\, Jan Ligthartstraat 95\, 3083AL ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508386@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T160000
+DURATION:PT2H
+SUMMARY:Devel Heroes MSE-1 - B.O.B. MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508386
+LOCATION:De Sophiahal\, Sophiapromenade 9\, 3344PL HENDRIK-IDO-AMBACHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

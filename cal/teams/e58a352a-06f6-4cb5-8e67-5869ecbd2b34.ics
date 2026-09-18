@@ -17,4 +17,14 @@ DESCRIPTION:Mannen U19 (Basketball Cup) - Voorrondes\nStatus: Final\nUitslag: 88
 LOCATION:Sporthal Oostmeer\, Het Hoge Land 19\, 2652EA BERKEL EN RODENRIJS
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516830@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T120000
+DURATION:PT2H
+SUMMARY:NIEUW Generation Basketball M19-1 - Basketbal Academie Limburg M19-1
+DESCRIPTION:Mannen U19 (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516830
+LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR

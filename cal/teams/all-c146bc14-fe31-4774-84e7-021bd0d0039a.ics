@@ -68,16 +68,6 @@ LOCATION:Korf De\, De Smidse 1\, 3831NT LEUSDEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-509739@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260918T190000
-DURATION:PT2H
-SUMMARY:S.B.U. MSE-5 - Green Giants MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509739
-LOCATION:Sportcentrum Olympos\, Uppsalalaan 3\, 3584CT UTRECHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-497571@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T094500
@@ -995,6 +985,16 @@ DURATION:PT2H
 SUMMARY:Green Giants MSE-1 - Basketbalclub Weesp MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507979
 LOCATION:Korf De\, De Smidse 1\, 3831NT LEUSDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509739@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270327T150000
+DURATION:PT2H
+SUMMARY:S.B.U. MSE-5 - Green Giants MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509739
+LOCATION:Sportcentrum Olympos\, Uppsalalaan 3\, 3584CT UTRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

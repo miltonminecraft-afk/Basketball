@@ -18,16 +18,6 @@ LOCATION:Zielhorst\, Trompetstraat 3\, 3822CK AMERSFOORT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-509739@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260918T190000
-DURATION:PT2H
-SUMMARY:S.B.U. MSE-5 - Green Giants MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509739
-LOCATION:Sportcentrum Olympos\, Uppsalalaan 3\, 3584CT UTRECHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-509749@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260927T130000
@@ -205,6 +195,16 @@ DURATION:PT2H
 SUMMARY:Quick Runners MSE-2 - S.B.U. MSE-5
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509848
 LOCATION:Sporthal  Wolfskamer\, IJsselmeerstraat 3 D\, 1271AA HUIZEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509739@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270327T150000
+DURATION:PT2H
+SUMMARY:S.B.U. MSE-5 - Green Giants MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509739
+LOCATION:Sportcentrum Olympos\, Uppsalalaan 3\, 3584CT UTRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

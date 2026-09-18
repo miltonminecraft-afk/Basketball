@@ -28,16 +28,6 @@ LOCATION:D'Alburcht\, Perzikstraat 14 A\, 4261KD WIJK EN AALBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-509739@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260918T190000
-DURATION:PT2H
-SUMMARY:S.B.U. MSE-5 - Green Giants MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509739
-LOCATION:Sportcentrum Olympos\, Uppsalalaan 3\, 3584CT UTRECHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-508264@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T200000
@@ -1534,6 +1524,16 @@ DTSTART;TZID=Europe/Amsterdam:20270321T130000
 DURATION:PT2H
 SUMMARY:S.B.U. MSE-2 - Blue Stars MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508353
+LOCATION:Sportcentrum Olympos\, Uppsalalaan 3\, 3584CT UTRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509739@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270327T150000
+DURATION:PT2H
+SUMMARY:S.B.U. MSE-5 - Green Giants MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509739
 LOCATION:Sportcentrum Olympos\, Uppsalalaan 3\, 3584CT UTRECHT
 STATUS:CONFIRMED
 END:VEVENT

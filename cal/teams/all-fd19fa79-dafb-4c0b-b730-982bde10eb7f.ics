@@ -422,10 +422,10 @@ UID:foys-match-509311@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T183000
 DURATION:PT2H
-SUMMARY:Uitsmijters MSE-1 - BC Triple ThreaT MSE-1
-DESCRIPTION:Mannen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 509311
+SUMMARY:AFGELAST: Uitsmijters MSE-1 - BC Triple ThreaT MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - Promotiedivisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 509311
 LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-507736@basketball-agenda
@@ -938,6 +938,26 @@ LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-516857@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261016T200000
+DURATION:PT2H
+SUMMARY:Landstede Hammers MSE-2 - BC Triple ThreaT MSE-1
+DESCRIPTION:Mannen Senioren (Basketball Cup) - 1e Ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516857
+LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516816@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T101500
+DURATION:PT2H
+SUMMARY:NIEUW Generation Basketball M16-1 - BC Triple ThreaT M16-2
+DESCRIPTION:Mannen U16 (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516816
+LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-506395@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T180000
@@ -945,6 +965,36 @@ DURATION:PT2H
 SUMMARY:GBI van Dijk Grasshoppers VSE-1 - BC Triple ThreaT VSE-1
 DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506395
 LOCATION:Cleyn Duin\, Stadhoudersdreef 1\, 2224BN KATWIJK ZH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516817@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261018T110000
+DURATION:PT2H
+SUMMARY:BC Triple ThreaT M16-1 - Lokomotief M16-1
+DESCRIPTION:Mannen U16 (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516817
+LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516826@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261018T133000
+DURATION:PT2H
+SUMMARY:BC Triple ThreaT M19-1 - Heroes Den Bosch M19-1
+DESCRIPTION:Mannen U19 (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516826
+LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516846@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261018T160000
+DURATION:PT2H
+SUMMARY:BC Triple ThreaT M22-1 - Hot Pepper Heat M22-1
+DESCRIPTION:Mannen U22 (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516846
+LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1578,6 +1628,16 @@ LOCATION:Vredehof\, Vredehofstraat 5\, 1624XC HOORN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-509327@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T170000
+DURATION:PT2H
+SUMMARY:BC APOLLO Amsterdam MSE-1 - BC Triple ThreaT MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 509327
+LOCATION:Bijlmer Sportcentrum\, Anton de Komplein 157\, 1102DR AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-495492@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T180000
@@ -1595,16 +1655,6 @@ DURATION:PT2H
 SUMMARY:BC Triple ThreaT MSE-3 - VBC Akrides MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507777
 LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-509327@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T180000
-DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam MSE-1 - BC Triple ThreaT MSE-1
-DESCRIPTION:Mannen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 509327
-LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

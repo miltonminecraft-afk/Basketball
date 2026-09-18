@@ -1158,6 +1158,46 @@ LOCATION:De Slinger\, Kamillehof 24\, 3991GZ HOUTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-516844@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T110000
+DURATION:PT2H
+SUMMARY:Arnhem Eagles M22-1 - LB-ZAC M22-1
+DESCRIPTION:Mannen U22 (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516844
+LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516866@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T133000
+DURATION:PT2H
+SUMMARY:Arnhem Eagles MSE-1 - MBCA A'veen MSE-2
+DESCRIPTION:Mannen Senioren (Basketball Cup) - 1e Ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516866
+LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516797@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T160000
+DURATION:PT2H
+SUMMARY:Arnhem Eagles V16-1 - B.O.B. V16-1
+DESCRIPTION:Vrouwen U16 (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516797
+LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516798@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T183000
+DURATION:PT2H
+SUMMARY:Arnhem Eagles VSE-1 - CBV Binnenland VSE-2
+DESCRIPTION:Vrouwen Senioren (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516798
+LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-491721@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T090000

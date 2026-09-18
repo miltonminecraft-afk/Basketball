@@ -108,16 +108,6 @@ LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-505256@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260919T134500
-DURATION:PT2H
-SUMMARY:De Groene Uilen VSE-3 - HBV Hornets VSE-1
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505256
-LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-510136@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T134500
@@ -405,6 +395,26 @@ DURATION:PT2H
 SUMMARY:BC APOLLO Amsterdam VSE-1 - De Groene Uilen VSE-1
 DESCRIPTION:Vrouwen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 506479
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516870@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T120000
+DURATION:PT2H
+SUMMARY:De Groene Uilen MSE-1 - Hot Pepper Heat MSE-1
+DESCRIPTION:Mannen Senioren (Basketball Cup) - 1e Ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516870
+LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505256@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T141500
+DURATION:PT2H
+SUMMARY:De Groene Uilen VSE-3 - HBV Hornets VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505256
+LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

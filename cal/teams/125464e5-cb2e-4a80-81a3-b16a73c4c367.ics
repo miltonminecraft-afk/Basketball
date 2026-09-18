@@ -48,13 +48,13 @@ LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-506247@basketball-agenda
+UID:foys-match-516841@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261024T180000
+DTSTART;TZID=Europe/Amsterdam:20261017T140000
 DURATION:PT2H
-SUMMARY:WBB Giants M19-1 - MBCA A'veen M19-2
-DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506247
-LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
+SUMMARY:Crackerjacks M19-1 - WBB Giants M19-1
+DESCRIPTION:Mannen U19 (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516841
+LOCATION:Zielhorst\, Trompetstraat 3\, 3822CK AMERSFOORT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -114,6 +114,16 @@ DTSTART;TZID=Europe/Amsterdam:20261128T160000
 DURATION:PT2H
 SUMMARY:WBB Giants M19-1 - BC Triple ThreaT M19-1
 DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506263
+LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506247@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T190000
+DURATION:PT2H
+SUMMARY:WBB Giants M19-1 - MBCA A'veen M19-2
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506247
 LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT

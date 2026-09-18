@@ -298,6 +298,16 @@ LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-493546@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T100000
+DURATION:PT2H
+SUMMARY:Cady '73 X12-1 - Lokomotief X12-3
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493546
+LOCATION:Sporthal De Lijster\, Lijstersingel 20\, 2902JD CAPELLE AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-492386@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T110000
@@ -335,16 +345,6 @@ DURATION:PT2H
 SUMMARY:BV Squirrels X10-1 - Lokomotief X10-1
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491991
 LOCATION:Sporthal Oostmeer\, Het Hoge Land 19\, 2652EA BERKEL EN RODENRIJS
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-493546@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260919T120000
-DURATION:PT2H
-SUMMARY:Cady '73 X12-1 - Lokomotief X12-3
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493546
-LOCATION:Sporthal De Lijster\, Lijstersingel 20\, 2902JD CAPELLE AAN DEN IJSSEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1378,6 +1378,26 @@ LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-516832@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T160000
+DURATION:PT2H
+SUMMARY:High Five M19-1 - Lokomotief M19-1
+DESCRIPTION:Mannen U19 (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516832
+LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516871@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T173000
+DURATION:PT2H
+SUMMARY:BS Leiden MSE-3 - Lokomotief MSE-1
+DESCRIPTION:Mannen Senioren (Basketball Cup) - 1e Ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516871
+LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-512037@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T201500
@@ -1385,6 +1405,26 @@ DURATION:PT2H
 SUMMARY:Zoebas MSE-1 - Lokomotief MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512037
 LOCATION:Noordhove\, Lijnbaan 311\, 2728AG ZOETERMEER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516817@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261018T110000
+DURATION:PT2H
+SUMMARY:BC Triple ThreaT M16-1 - Lokomotief M16-1
+DESCRIPTION:Mannen U16 (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516817
+LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516839@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261018T150000
+DURATION:PT2H
+SUMMARY:Marathon M19-1 - Lokomotief M19-2
+DESCRIPTION:Mannen U19 (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516839
+LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -2695,6 +2735,16 @@ DURATION:PT2H
 SUMMARY:Basketball Academy Utrecht V21-1 V21-1 - Lokomotief V21-1
 DESCRIPTION:Vrouwen U21 (Basketball Cup) - Groepsfase\nStatus: Planned\nFOYS wedstrijd-ID: 512906
 LOCATION:Sporthal Lunetten\, Zwarte Woud 201\, 3524SG UTRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516790@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T080000
+DURATION:PT2H
+SUMMARY:Lokomotief V18-1 - H.S.V. Basketball V18-1
+DESCRIPTION:Vrouwen U18 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516790
+LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

@@ -78,6 +78,16 @@ LOCATION:Sporthal IJmuiden-Oost\, Tiberiusplein 6\, 1971HN IJMUIDEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-516857@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261016T200000
+DURATION:PT2H
+SUMMARY:Landstede Hammers MSE-2 - BC Triple ThreaT MSE-1
+DESCRIPTION:Mannen Senioren (Basketball Cup) - 1e Ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516857
+LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-509367@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261030T200000

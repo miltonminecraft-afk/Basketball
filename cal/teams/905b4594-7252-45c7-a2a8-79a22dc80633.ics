@@ -18,16 +18,6 @@ LOCATION:Sportcentrum De Kalkwijck\, Nieuweweg 6\, 9603BM HOOGEZAND
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-515177@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260919T193000
-DURATION:PT2H
-SUMMARY:Hurricanes Basketball MSE-1 - M&F Security Typhoons'23 MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 515177
-LOCATION:De Borgstee\, Dorpshuisweg 36\, 9617EV Harkstede
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-511595@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T183000
@@ -155,6 +145,16 @@ DURATION:PT2H
 SUMMARY:De Groene Uilen MSE-5 - Hurricanes Basketball MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511680
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-515177@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270220T193000
+DURATION:PT2H
+SUMMARY:Hurricanes Basketball MSE-1 - M&F Security Typhoons'23 MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 515177
+LOCATION:De Borgstee\, Dorpshuisweg 36\, 9617EV Harkstede
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

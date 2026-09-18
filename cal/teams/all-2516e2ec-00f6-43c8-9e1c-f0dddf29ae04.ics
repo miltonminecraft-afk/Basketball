@@ -558,12 +558,32 @@ LOCATION:De Braken\, De Braken 1 a\, 5282JJ BOXTEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-516873@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261016T200000
+DURATION:PT2H
+SUMMARY:GBI van Dijk Grasshoppers MSE-1 - River Trotters MSE-1
+DESCRIPTION:Mannen Senioren (Basketball Cup) - 1e Ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516873
+LOCATION:Cleyn Duin\, Stadhoudersdreef 1\, 2224BN KATWIJK ZH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-505884@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T133000
 DURATION:PT2H
 SUMMARY:River Trotters MSE-2 - Woodpeckers MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505884
+LOCATION:De Wielewaal\, Cornelisweer 2\, 3371PH HARDINXVELD-GIESSENDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516803@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T160000
+DURATION:PT2H
+SUMMARY:River Trotters VSE-2 - CobraNova VSE-1
+DESCRIPTION:Vrouwen Senioren (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516803
 LOCATION:De Wielewaal\, Cornelisweer 2\, 3371PH HARDINXVELD-GIESSENDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -575,6 +595,16 @@ DURATION:PT2H
 SUMMARY:Scheldesport Basketball MSE-2 - River Trotters MSE-5
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509961
 LOCATION:Vliegende Vaart\, Vliegende Vaart 2\, 4537DH TERNEUZEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516800@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T183000
+DURATION:PT2H
+SUMMARY:River Trotters VSE-1* - High Five VSE-1
+DESCRIPTION:Vrouwen Senioren (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516800
+LOCATION:De Wielewaal\, Cornelisweer 2\, 3371PH HARDINXVELD-GIESSENDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

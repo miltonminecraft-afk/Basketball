@@ -58,6 +58,16 @@ LOCATION:Sporthal IJmuiden-Oost\, Tiberiusplein 6\, 1971HN IJMUIDEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-516855@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T140000
+DURATION:PT2H
+SUMMARY:Utrecht Basketball M22-2 M22-2 - Felloo | Twente Hoops M22-1
+DESCRIPTION:Mannen U22 (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516855
+LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-512272@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261101T140000

@@ -52,10 +52,10 @@ UID:foys-match-509311@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T183000
 DURATION:PT2H
-SUMMARY:Uitsmijters MSE-1 - BC Triple ThreaT MSE-1
-DESCRIPTION:Mannen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 509311
+SUMMARY:AFGELAST: Uitsmijters MSE-1 - BC Triple ThreaT MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - Promotiedivisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 509311
 LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-509312@basketball-agenda
@@ -88,6 +88,16 @@ LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-516857@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261016T200000
+DURATION:PT2H
+SUMMARY:Landstede Hammers MSE-2 - BC Triple ThreaT MSE-1
+DESCRIPTION:Mannen Senioren (Basketball Cup) - 1e Ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516857
+LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-509321@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T193000
@@ -110,11 +120,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-509327@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T180000
+DTSTART;TZID=Europe/Amsterdam:20261121T170000
 DURATION:PT2H
 SUMMARY:BC APOLLO Amsterdam MSE-1 - BC Triple ThreaT MSE-1
 DESCRIPTION:Mannen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 509327
-LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
+LOCATION:Bijlmer Sportcentrum\, Anton de Komplein 157\, 1102DR AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

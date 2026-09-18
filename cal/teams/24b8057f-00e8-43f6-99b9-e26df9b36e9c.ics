@@ -68,6 +68,16 @@ LOCATION:Dorpshuis Zwanenburg Halfweg\, Dennenlaan 133 A\, 1161CN ZWANENBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-516875@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T143000
+DURATION:PT2H
+SUMMARY:Landslake Lions MSE-1 - VBC Akrides MSE-1
+DESCRIPTION:Mannen Senioren (Basketball Cup) - 1e Ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516875
+LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-509370@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T170000

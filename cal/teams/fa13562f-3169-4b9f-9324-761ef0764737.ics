@@ -18,16 +18,6 @@ LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-503118@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260920T140000
-DURATION:PT2H
-SUMMARY:BC Langstraat Shooters M22-1 - Utrecht Basketball M22-3 M22-3
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503118
-LOCATION:Sporthal Zidewinde\, Julianalaan 3\, 5161BA SPRANG-CAPELLE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-503122@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260927T100000
@@ -105,6 +95,16 @@ DURATION:PT2H
 SUMMARY:Utrecht Basketball M22-3 M22-3 - Barons Breda Basketball M22-1*
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503165
 LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503118@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T143000
+DURATION:PT2H
+SUMMARY:BC Langstraat Shooters M22-1 - Utrecht Basketball M22-3 M22-3
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503118
+LOCATION:Sporthal Zidewinde\, Julianalaan 3\, 5161BA SPRANG-CAPELLE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

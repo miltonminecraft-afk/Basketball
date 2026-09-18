@@ -88,6 +88,16 @@ LOCATION:Sporthallen Zuid\, Burgerweeshuispad 54\, 1076EP AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-516867@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T153500
+DURATION:PT2H
+SUMMARY:Heroes Den Bosch MSE-2 - Orange Lions Academy MSE-1
+DESCRIPTION:Mannen Senioren (Basketball Cup) - 1e Ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516867
+LOCATION:De Maaspoort\, Marathonloop 1\, 5235AA 'S-HERTOGENBOSCH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-506393@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261018T163000
