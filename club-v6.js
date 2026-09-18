@@ -24,7 +24,7 @@ function toast(m){const e=$('toast');if(!e)return alert(m);e.textContent=m;e.cla
 
 function inject(){
   if($('view-club'))return;
-  const link=document.createElement('link');link.rel='stylesheet';link.href='./club.css?v=2';document.head.appendChild(link);
+  const link=document.createElement('link');link.rel='stylesheet';link.href='./club.css?v=3';document.head.appendChild(link);
   const section=document.createElement('section');section.id='view-club';section.className='view';
   section.innerHTML='<div class="section-head"><div><h1>Club</h1><p>Leden, aanwezigheid, trainingen, taken en beheer.</p></div></div><div id="clubRoot"><div class="empty">Ledenomgeving laden…</div></div>';
   document.querySelector('main')?.appendChild(section);
