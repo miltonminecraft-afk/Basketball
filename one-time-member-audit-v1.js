@@ -261,17 +261,17 @@ function render(){
 async function submit(action,personId){
  if(busy)return;
  const item=currentItem();if(!item)return;
- if(action==='no_bond'&&!confirm('Dit lid markeren als zonder bondprofiel? De huidige bondskoppeling wordt verwijderd.'))return;
+ if(action==='no_bond'&&!confirm('Dit lid alleen in de app houden en zonder bondprofiel markeren?'))return;
  busy=true;
  try{
   const s=await client(),r=await s.rpc('review_one_time_member_bond_audit',{p_member_id:item.memberId,p_action:action,p_person_id:personId||null});
   if(r.error)throw r.error;
-  toast(action==='no_bond'?'Lid gecontroleerd zonder bondprofiel.':'Lid gecontroleerd en opgeslagen.');
+  toast(action==='no_bond'?'App-lid bevestigd zonder bondprofiel.':'Lid gecontroleerd en opgeslagen.');
   await reload();
-  mode='review';searchValue='';
-  if(!pending){closeAudit();document.dispatchEvent(new Event('basketball-one-time-member-audit-ready'))}
-  else render();
- }catch(e){toast(e?.message||'Ledencontrole kon niet worden opgeslagen.')}finally{busy=false}
+  mode=currentItem()?'review':'bondOnly';searchValue='';
+  renderOrClose()
+ }catch(e){toast(e?.message||'Ledencontrole kon niet worden opgeslagen.')}
+ finally{busy=false}
 }
 
 function renderOrClose(){
@@ -311,37 +311,37 @@ function injectAdminButton(){
  let b=document.getElementById('memberAuditAdminButton');
  if(!isAdmin){b?.remove();return}
  if(!b){
-  b=document.createElement('button');
-  b.id='memberAuditAdminButton';
-  b.type='button';
-  b.className='primary-button member-audit-admin-button';
-  b.onclick=openOrStartAudit;
-  host.prepend(b)
+  b=document.createElement('button');b.id='memberAuditAdminButton';b.type='button';b.className='primary-button member-audit-admin-button';b.onclick=openOrStartAudit;host.prepend(b)
  }
- const label=api.checking?'Ledencontrole laden…':pending?`Ledencontrole (${pending} open)`:'Ledencontrole starten';
+ const count=openCount(),label=api.checking?'Ledencontrole laden…':count?`Ledencontrole (${count} open)`:'Ledencontrole starten';
  if(b.textContent!==label)b.textContent=label;
  b.disabled=!!api.checking
 }
 
 async function reload(){
- const s=await client(),[r,staff]=await Promise.all([s.rpc('get_one_time_member_bond_audit'),s.rpc('get_one_time_member_bond_staff')]);
- if(r.error)throw r.error;if(staff.error)throw staff.error;
- data=r.data||{};items=Array.isArray(data.items)?data.items:[];candidates=Array.isArray(data.candidates)?data.candidates:[];total=Number(data.total)||0;pending=Number(data.pending)||0;
+ const s=await client(),[r,staff,dir]=await Promise.all([
+  s.rpc('get_one_time_member_bond_audit'),
+  s.rpc('get_one_time_member_bond_staff'),
+  s.rpc('get_member_bond_audit_directory')
+ ]);
+ if(r.error)throw r.error;if(staff.error)throw staff.error;if(dir.error)throw dir.error;
+ data=r.data||{};items=Array.isArray(data.items)?data.items:[];candidates=Array.isArray(data.candidates)?data.candidates:[];directory=Array.isArray(dir.data)?dir.data:[];total=Number(data.total)||0;pending=Number(data.pending)||0;
  const staffRows=Array.isArray(staff.data)?staff.data:[];
  for(const row of staffRows){
-  let c=candidates.find(x=>String(x.personId)===String(row.personId));
-  if(!c){c={personId:row.personId,name:row.name||'private',linkedMemberId:row.linkedMemberId||null,officialTeams:[],playedTeams:[],staffTeams:[]};candidates.push(c)}
-  c.staffTeams=Array.isArray(row.staffTeams)?row.staffTeams:[];
-  if(!c.linkedMemberId&&row.linkedMemberId)c.linkedMemberId=row.linkedMemberId;
+  let candidate=candidates.find(x=>String(x.personId)===String(row.personId));
+  if(!candidate){candidate={personId:row.personId,name:row.name||'private',linkedMemberId:row.linkedMemberId||null,officialTeams:[],playedTeams:[],staffTeams:[]};candidates.push(candidate)}
+  candidate.staffTeams=Array.isArray(row.staffTeams)?row.staffTeams:[];
+  if(!candidate.linkedMemberId&&row.linkedMemberId)candidate.linkedMemberId=row.linkedMemberId
  }
  for(const item of items){
   if(item.bond){
-   const c=candidates.find(x=>String(x.personId)===String(item.bond.personId));
-   item.bond.staffTeams=c?.staffTeams||[];
+   const candidate=candidates.find(x=>String(x.personId)===String(item.bond.personId));
+   item.bond.staffTeams=candidate?.staffTeams||[]
   }
  }
- api.checking=false;api.pending=pending>0;injectAdminButton();
- document.dispatchEvent(new CustomEvent('basketball-one-time-member-audit-state',{detail:{pending,total,complete:!pending}}));
+ if(activeBondPersonId&&!unlinkedBondCandidates().some(x=>String(x.personId)===String(activeBondPersonId)))activeBondPersonId=null;
+ api.checking=false;api.pending=openCount()>0;injectAdminButton();
+ document.dispatchEvent(new CustomEvent('basketball-one-time-member-audit-state',{detail:{pending:openCount(),memberPending:pending,total,complete:openCount()===0}}));
  return data
 }
 
