@@ -15,10 +15,20 @@ function overlay(){let o=document.getElementById('memberOnboardingOverlay');if(o
 function close(){overlay().hidden=true;document.body.classList.remove('member-onboard-open')}
 function augmentClubProfile(){
  const card=document.querySelector('#clubRoot > .club-card-panel');if(!card||!data)return;
- let box=card.querySelector('#memberJerseySummary');if(!box){box=document.createElement('button');box.id='memberJerseySummary';box.type='button';box.className='mini-button';box.style.marginTop='8px';box.style.display='block';const head=card.querySelector('.club-row-head > div');(head||card).appendChild(box)}
- const teams=Array.isArray(data.teams)?data.teams:[],withNum=teams.filter(t=>String(t?.number||'').trim());
- box.textContent=withNum.length?withNum.map(t=>`${t.name} #${t.number}`).join(' · '):'Rugnummer toevoegen';
- box.onclick=open;
+ card.querySelector('#memberJerseySummary')?.remove();
+ const teams=Array.isArray(data.teams)?data.teams:[];
+ const pills=[...card.querySelectorAll('.club-pill')];
+ for(const t of teams){
+  const pill=pills.find(p=>String(p.textContent||'').trim()===String(t.name||'').trim()||String(p.dataset.teamName||'')===String(t.name||''));
+  if(!pill)continue;
+  pill.dataset.teamName=String(t.name||'');
+  const number=String(t?.number||'').trim();
+  pill.textContent=number?`${t.name} #${number}`:String(t.name||'');
+  pill.setAttribute('role','button');pill.setAttribute('tabindex','0');pill.style.cursor='pointer';
+  pill.title=number?'Rugnummer wijzigen':'Rugnummer toevoegen';
+  pill.onclick=open;
+  pill.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open()}};
+ }
 }
 function open(){render();overlay().hidden=false;document.body.classList.add('member-onboard-open')}
 function render(){
@@ -28,17 +38,29 @@ function render(){
  for(const t of teams){teamHtml+='<label class="member-onboard-team"><span>'+esc(t.name)+'</span><input name="memberJersey" data-team-id="'+esc(t.id)+'" inputmode="numeric" autocomplete="off" placeholder="Nummer" value="'+esc(t.number||'')+'"></label>'}
  const teamBlock=teams.length?'<div class="member-onboard-block"><h3>Rugnummer</h3>'+teamHtml+'</div>':'';
  const teamChecked=data.visibility!=='club'?' checked':'',clubChecked=data.visibility==='club'?' checked':'';
- host.innerHTML='<div class="member-onboard-head"><div><span class="member-onboard-kicker">Eerste keer instellen</span><h2 class="member-onboard-title">'+esc(data.name||'Mijn spelersprofiel')+'</h2></div></div><p class="member-onboard-copy">Koppel je spelersprofiel aan de gegevens van de basketbalbond. Rugnummers worden per team opgeslagen en helpen ook bij bondsspeler-records die als private binnenkomen.</p><form id="memberOnboardingForm">'+teamBlock+'<div class="member-onboard-block"><h3>Wie mag mijn ledeninformatie zien?</h3><div class="member-onboard-choice"><label><input type="radio" name="memberVisibility" value="team"'+teamChecked+'><span>Alleen mijn team<small>Teamleden, gekoppelde trainers en admins.</small></span></label><label><input type="radio" name="memberVisibility" value="club"'+clubChecked+'><span>Hele club<small>Alleen ingelogde actieve clubleden. Nooit openbaar buiten de ledenomgeving.</small></span></label></div></div><div class="member-onboard-actions"><button class="member-onboard-primary" type="submit">Opslaan</button><button id="memberOnboardingLater" class="member-onboard-secondary" type="button">Later</button></div></form>';
+ host.innerHTML='<div class="member-onboard-head"><div><span class="member-onboard-kicker">'+(data.privacyConfirmed?'Spelersprofiel':'Eerste keer instellen')+'</span><h2 class="member-onboard-title">'+esc(data.name||'Mijn spelersprofiel')+'</h2></div></div><p class="member-onboard-copy">Koppel je spelersprofiel aan de gegevens van de basketbalbond. Rugnummers worden per team opgeslagen en helpen ook bij bondsspeler-records die als private binnenkomen.</p><form id="memberOnboardingForm">'+teamBlock+'<div class="member-onboard-block"><h3>Wie mag mijn ledeninformatie zien?</h3><div class="member-onboard-choice"><label><input type="radio" name="memberVisibility" value="team"'+teamChecked+'><span>Alleen mijn team<small>Teamleden, gekoppelde trainers en admins.</small></span></label><label><input type="radio" name="memberVisibility" value="club"'+clubChecked+'><span>Hele club<small>Alleen ingelogde actieve clubleden. Nooit openbaar buiten de ledenomgeving.</small></span></label></div></div><div class="member-onboard-actions"><button class="member-onboard-primary" type="submit">Opslaan</button><button id="memberOnboardingLater" class="member-onboard-secondary" type="button">Later</button></div></form>';
  document.getElementById('memberOnboardingLater').onclick=close;
  document.getElementById('memberOnboardingForm').onsubmit=save;
 }
 async function save(e){
  e.preventDefault();if(busy)return;
+ const form=e.currentTarget,submit=form?.querySelector('.member-onboard-primary');
  const inputs=[...document.querySelectorAll('[name="memberJersey"]')],numbers=inputs.map(i=>({teamId:i.dataset.teamId,number:String(i.value||'').trim()}));
  if(inputs.length&&!numbers.some(x=>x.number)){toast('Vul minimaal één rugnummer in, of kies Later.');return}
  const visibility=document.querySelector('[name="memberVisibility"]:checked')?.value||'team';busy=true;
- try{const s=await client(),r=await s.rpc('save_member_onboarding',{p_visibility:visibility,p_numbers:numbers});if(r.error)throw r.error;data=r.data;augmentClubProfile();close();toast('Spelersprofiel opgeslagen.');document.dispatchEvent(new CustomEvent('basketball-member-onboarding-saved',{detail:data}))}
- catch(err){toast(err?.message||'Opslaan mislukt.')}finally{busy=false}
+ let errorBox=document.getElementById('memberOnboardingError');if(errorBox)errorBox.remove();
+ if(submit){submit.disabled=true;submit.dataset.oldText=submit.textContent;submit.textContent='Opslaan…'}
+ try{
+  const s=await client(),r=await s.rpc('save_member_onboarding',{p_visibility:visibility,p_numbers:numbers});
+  if(r.error)throw r.error;
+  data=r.data;augmentClubProfile();close();toast('Rugnummer opgeslagen.');document.dispatchEvent(new CustomEvent('basketball-member-onboarding-saved',{detail:data}));
+ }catch(err){
+  const actions=form?.querySelector('.member-onboard-actions');
+  if(actions){errorBox=document.createElement('div');errorBox.id='memberOnboardingError';errorBox.style.width='100%';errorBox.style.color='#a10000';errorBox.style.fontWeight='800';errorBox.style.fontSize='11px';errorBox.textContent=err?.message||'Opslaan mislukt.';actions.insertAdjacentElement('beforebegin',errorBox)}
+  toast(err?.message||'Opslaan mislukt.');
+ }finally{
+  busy=false;if(submit){submit.disabled=false;submit.textContent=submit.dataset.oldText||'Opslaan'}
+ }
 }
 async function check(force=false){
  if(checked&&!force)return;
