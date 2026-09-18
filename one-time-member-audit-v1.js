@@ -254,8 +254,8 @@ function render(){
  const host=document.getElementById('memberAuditBody');if(!host)return;
  const item=currentItem(),bond=currentBondCandidate();
  if(item){
-  if(mode!=='search')mode='review';
-  host.innerHTML=mode==='search'?renderSearch(item):renderReview(item)
+  if(!['review','search','edit'].includes(mode))mode='review';
+  host.innerHTML=mode==='search'?renderSearch(item):mode==='edit'?renderEdit(item):renderReview(item)
  }else if(bond){
   activeBondPersonId=bond.personId;
   if(!['bondOnly','memberSearch','newMember'].includes(mode))mode='bondOnly';
@@ -265,8 +265,8 @@ function render(){
  host.querySelectorAll('[data-audit-mode]').forEach(b=>b.onclick=()=>{mode=b.dataset.auditMode;searchValue='';render()});
  host.querySelectorAll('[data-audit-link]').forEach(b=>b.onclick=()=>submit('link',b.dataset.auditLink));
  host.querySelectorAll('[data-audit-action]').forEach(b=>b.onclick=()=>submit(b.dataset.auditAction,null));
+ host.querySelectorAll('[data-audit-apply-bond]').forEach(b=>b.onclick=()=>applyBondData(b.dataset.auditApplyBond));
  host.querySelectorAll('[data-audit-later]').forEach(b=>b.onclick=()=>{if(items.length>1){items.push(items.shift());mode='review';render()}else{mode='bondOnly';render()}});
- host.querySelectorAll('[data-audit-edit]').forEach(b=>b.onclick=()=>openMemberEditor(item.memberId));
  host.querySelectorAll('[data-bond-link-member]').forEach(b=>b.onclick=()=>linkBondToExisting(b.dataset.bondLinkMember));
  host.querySelectorAll('[data-bond-later]').forEach(b=>b.onclick=()=>{if(bond)skippedBond.add(String(bond.personId));activeBondPersonId=null;mode='bondOnly';if(!visibleBondCandidates().length)closeAudit();else render()});
 
@@ -279,9 +279,50 @@ function render(){
   }
  }
  const create=document.getElementById('memberAuditCreateForm');
- if(create)create.onsubmit=e=>createMemberFromBond(e,bond)
+ if(create)create.onsubmit=e=>createMemberFromBond(e,bond);
+ const edit=document.getElementById('memberAuditEditForm');
+ if(edit)edit.onsubmit=e=>saveMemberEdit(e,item)
 }
 
+async function applyBondData(personId){
+ if(busy)return;
+ const item=currentItem();if(!item||!personId)return;
+ if(!confirm('Bondnaam, officiële spelerteams, rugnummers en coachteams overnemen? E-mail en telefoon blijven ongewijzigd.'))return;
+ busy=true;
+ try{
+  const s=await client(),r=await s.rpc('apply_bond_profile_to_member',{p_member_id:item.memberId,p_person_id:personId});
+  if(r.error)throw r.error;
+  toast('Bondgegevens overgenomen.');
+  await reload();mode=currentItem()?'review':'bondOnly';renderOrClose()
+ }catch(e){toast(e?.message||'Bondgegevens konden niet worden overgenomen.')}
+ finally{busy=false}
+}
+
+async function saveMemberEdit(e,item){
+ e.preventDefault();if(busy||!item)return;
+ const name=document.getElementById('memberAuditEditName')?.value.trim()||'';
+ if(!name){toast('Naam is verplicht.');return}
+ const playerIds=[...document.querySelectorAll('[data-edit-player]:checked')].map(x=>x.value);
+ const trainerIds=[...document.querySelectorAll('[data-edit-trainer]:checked')].map(x=>x.value);
+ const playerSet=new Set(playerIds.map(String));
+ const jerseys=[...document.querySelectorAll('[data-edit-number]')].map(x=>({teamId:x.dataset.editNumber,number:x.value.trim()})).filter(x=>playerSet.has(String(x.teamId))&&x.number);
+ busy=true;
+ try{
+  const s=await client(),r=await s.rpc('update_member_from_audit',{
+   p_member_id:item.memberId,
+   p_full_name:name,
+   p_email:document.getElementById('memberAuditEditEmail')?.value.trim()||null,
+   p_phone:document.getElementById('memberAuditEditPhone')?.value.trim()||null,
+   p_player_team_ids:playerIds,
+   p_trainer_team_ids:trainerIds,
+   p_jersey_numbers:jerseys
+  });
+  if(r.error)throw r.error;
+  toast('Appgegevens opgeslagen.');
+  await reload();mode='review';render()
+ }catch(err){toast(err?.message||'Appgegevens konden niet worden opgeslagen.')}
+ finally{busy=false}
+}
 async function submit(action,personId){
  if(busy)return;
  const item=currentItem();if(!item)return;
@@ -343,13 +384,14 @@ function injectAdminButton(){
 }
 
 async function reload(){
- const s=await client(),[r,staff,dir]=await Promise.all([
+ const s=await client(),[r,staff,dir,teamRes]=await Promise.all([
   s.rpc('get_one_time_member_bond_audit'),
   s.rpc('get_one_time_member_bond_staff'),
-  s.rpc('get_member_bond_audit_directory')
+  s.rpc('get_member_bond_audit_directory'),
+  s.rpc('get_member_bond_audit_teams')
  ]);
- if(r.error)throw r.error;if(staff.error)throw staff.error;if(dir.error)throw dir.error;
- data=r.data||{};items=Array.isArray(data.items)?data.items:[];candidates=Array.isArray(data.candidates)?data.candidates:[];directory=Array.isArray(dir.data)?dir.data:[];total=Number(data.total)||0;pending=Number(data.pending)||0;
+ if(r.error)throw r.error;if(staff.error)throw staff.error;if(dir.error)throw dir.error;if(teamRes.error)throw teamRes.error;
+ data=r.data||{};items=Array.isArray(data.items)?data.items:[];candidates=Array.isArray(data.candidates)?data.candidates:[];directory=Array.isArray(dir.data)?dir.data:[];auditTeams=Array.isArray(teamRes.data)?teamRes.data:[];total=Number(data.total)||0;pending=Number(data.pending)||0;
  const staffRows=Array.isArray(staff.data)?staff.data:[];
  for(const row of staffRows){
   let candidate=candidates.find(x=>String(x.personId)===String(row.personId));
