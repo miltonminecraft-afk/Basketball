@@ -121,7 +121,7 @@ async function loadBaseData(){
     s.from('member_teams').select('team_id,teams(*)').eq('member_id',member.id),
     s.from('task_events').select('*,task_assignments(*)').eq('active',true).order('event_date').order('start_time'),
     s.from('attendance').select('*').eq('member_id',member.id),
-    s.from('notifications').select('*').eq('recipient_member_id',member.id).order('created_at',{ascending:false}).limit(100),
+    s.from('notifications').select('*').eq('recipient_member_id',member.id).is('acknowledged_at',null).order('created_at',{ascending:false}).limit(100),
     s.from('task_swap_requests').select('*,task_assignments(*,task_events(*))').eq('status','open').order('created_at',{ascending:false})
   ];
   const a=await Promise.all(req);
@@ -268,12 +268,30 @@ async function cancelSwap(id){const s=await client(),{error}=await s.rpc('cancel
 
 function renderNotifications(){
   const target=$('club-sub-notices');if(!target)return;
-  target.innerHTML=`<div class="club-card-panel"><h2>Meldingen</h2><div class="club-list">${notifications.length?notifications.map(n=>`<div class="club-row ${n.read_at?'':'notice-unread'}"><strong>${esc(n.title)}</strong><small>${esc(n.message)}<br>${esc(new Intl.DateTimeFormat('nl-NL',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}).format(new Date(n.created_at)))}</small></div>`).join(''):'<div class="club-empty">Geen meldingen.</div>'}</div></div>`;
+  target.innerHTML=`<div class="club-card-panel"><h2>Meldingen</h2><div class="club-list">${notifications.length?notifications.map(n=>`<div class="club-row notice-row ${n.read_at?'':'notice-unread'}"><button class="notice-dismiss" type="button" data-dismiss-notification="${esc(n.id)}" aria-label="Melding verwijderen">×</button><strong>${esc(n.title)}</strong><small>${esc(n.message)}<br>${esc(new Intl.DateTimeFormat('nl-NL',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}).format(new Date(n.created_at)))}</small></div>`).join(''):'<div class="club-empty">Geen meldingen.</div>'}</div></div>`;
+  target.querySelectorAll('[data-dismiss-notification]').forEach(b=>b.onclick=()=>dismissNotification(b.dataset.dismissNotification));
+}
+function updateNotificationDot(){
+  const button=document.querySelector('#clubTabs [data-clubview="notices"]');if(!button)return;
+  const unread=notifications.some(n=>!n.read_at);
+  const dot=button.querySelector('.notification-dot');
+  if(unread&&!dot){const span=document.createElement('span');span.className='notification-dot';button.appendChild(span)}
+  if(!unread&&dot)dot.remove();
+}
+async function dismissNotification(id){
+  const item=notifications.find(n=>String(n.id)===String(id));if(!item)return;
+  const s=await client(),now=new Date().toISOString();
+  let q=s.from('notifications').update({read_at:now,acknowledged_at:now}).eq('recipient_member_id',member.id);
+  q=item.source_key?q.eq('source_key',item.source_key):q.eq('id',item.id);
+  const {error}=await q;if(error)return toast(error.message);
+  notifications=notifications.filter(n=>item.source_key?String(n.source_key)!==String(item.source_key):String(n.id)!==String(item.id));
+  renderNotifications();updateNotificationDot();
 }
 async function markNotificationsRead(){
-  const unread=notifications.filter(n=>!n.read_at).map(n=>n.id);if(!unread.length)return;
-  const s=await client();await s.from('notifications').update({read_at:new Date().toISOString()}).in('id',unread);
-  const now=new Date().toISOString();notifications.forEach(n=>{if(unread.includes(n.id))n.read_at=now});renderNotifications();
+  const unread=notifications.filter(n=>!n.read_at).map(n=>n.id);if(!unread.length){updateNotificationDot();return}
+  const s=await client(),{error}=await s.from('notifications').update({read_at:new Date().toISOString()}).in('id',unread);
+  if(error){console.warn(error);return}
+  const now=new Date().toISOString();notifications.forEach(n=>{if(unread.includes(n.id))n.read_at=now});renderNotifications();updateNotificationDot();
 }
 
 function renderAdmin(){
