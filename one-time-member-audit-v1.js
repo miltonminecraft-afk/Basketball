@@ -4,7 +4,7 @@
 const U='https://elpnfmlrkoemjrnzaeok.supabase.co';
 const K='sb_publishable_GPzLwaKeevg3e8CNjw9oAQ_50NW2xlg';
 let sb=null,data=null,busy=false,isAdmin=false,mode='review',searchValue='';
-let items=[],candidates=[],total=0,pending=0;
+let items=[],candidates=[],directory=[],total=0,pending=0,skippedBond=new Set(),activeBondPersonId=null;
 
 const api=window.BasketballOneTimeMemberAudit={
   checking:true,
@@ -23,22 +23,19 @@ function similarity(a,b){const x=norm(a),y=norm(b);if(!x||!y)return 0;if(x===y)r
 function strongName(a,b){const x=norm(a),y=norm(b);if(!x||!y||x==='private'||y==='private')return false;if(x===y)return true;return similarity(a,b)>=0.84}
 
 function installCss(){
- if(document.getElementById('memberAuditCssV1'))return;
- const s=document.createElement('style');s.id='memberAuditCssV1';s.textContent=`
+ if(document.getElementById('memberAuditCssV2'))return;
+ document.getElementById('memberAuditCssV1')?.remove();
+ const s=document.createElement('style');s.id='memberAuditCssV2';s.textContent=`
  .member-audit-overlay[hidden]{display:none!important}.member-audit-overlay{position:fixed;inset:0;z-index:2300;background:rgba(5,6,56,.56);display:flex;align-items:flex-end;justify-content:center}
  .member-audit-sheet{width:min(100%,720px);max-height:92vh;overflow:auto;background:#fff;border-radius:28px 28px 0 0;padding:20px 22px calc(22px + env(safe-area-inset-bottom))}
  .member-audit-head{display:flex;align-items:flex-start;gap:12px}.member-audit-head>div{min-width:0;flex:1}.member-audit-kicker{font-size:10px;color:var(--muted);font-weight:850}.member-audit-title{margin:4px 0 0;font-size:22px;line-height:1.08;color:var(--navy)}.member-audit-close{width:44px;height:44px;flex:0 0 44px;border:0;border-radius:50%;background:#f1f2f6;color:var(--navy);font-size:28px}
  .member-audit-progress{display:flex;align-items:center;gap:10px;margin:12px 0 16px}.member-audit-track{height:5px;flex:1;background:#eceef3;border-radius:999px;overflow:hidden}.member-audit-bar{height:100%;background:var(--navy);border-radius:999px}.member-audit-progress span{font-size:10px;color:var(--muted);font-weight:850;white-space:nowrap}
- .member-audit-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.member-audit-card{border:1px solid var(--line);border-radius:14px;padding:12px;background:#fff}.member-audit-card h3{margin:0 0 8px;font-size:13px;color:var(--navy)}.member-audit-line{display:flex;justify-content:space-between;gap:10px;margin:5px 0;font-size:10px;line-height:1.4}.member-audit-line b{color:var(--navy)}.member-audit-line span{color:var(--muted);text-align:right}
- .member-audit-chips{display:flex;flex-wrap:wrap;gap:6px}.member-audit-chip{display:inline-flex;align-items:center;min-height:27px;padding:5px 8px;border-radius:999px;background:#f1f2f6;color:var(--navy);font-size:9px;font-weight:850}.member-audit-chip.played{background:#f8f1e8;color:#835719}.member-audit-chip.trainer{background:#eef3fb}.member-audit-empty{color:var(--muted);font-size:10px}
- .member-audit-match{margin-top:12px;border:1px solid var(--line);border-radius:14px;padding:12px}.member-audit-match h3{margin:0 0 8px;font-size:13px}.member-audit-match-name{font-size:14px;font-weight:900;color:var(--navy)}.member-audit-helper{color:var(--muted);font-size:9px;line-height:1.45;margin-top:4px}
- .member-audit-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}.member-audit-actions button{min-height:46px;border:1px solid var(--line);border-radius:12px;background:#f1f2f6;color:var(--navy);font:inherit;font-size:10px;font-weight:900;padding:10px}.member-audit-actions button.primary{background:var(--navy);color:#fff;border-color:var(--navy)}.member-audit-actions button.wide{grid-column:1/-1}.member-audit-actions button.danger{background:#fff5f5;color:#9b2424}
- .member-audit-search{margin-top:12px}.member-audit-search input{width:100%;box-sizing:border-box;border:1px solid var(--line);border-radius:12px;padding:11px 12px;font:inherit}.member-audit-list{display:grid;gap:7px;margin-top:10px;max-height:42vh;overflow:auto}.member-audit-person{width:100%;display:flex;align-items:center;justify-content:space-between;gap:10px;border:1px solid var(--line);border-radius:12px;background:#fff;padding:11px 12px;text-align:left;color:var(--navy)}.member-audit-person:disabled{opacity:.46}.member-audit-person strong{display:block;font-size:11px}.member-audit-person small{display:block;color:var(--muted);font-size:9px;margin-top:2px}.member-audit-person b{font-size:9px;white-space:nowrap}
- .member-audit-back{border:0;border-radius:10px;background:#f1f2f6;color:var(--navy);padding:8px 10px;font-size:10px;font-weight:900}
- .member-audit-admin-button{width:100%;margin:0 0 14px!important}
- body.member-audit-open{overflow:hidden}
- @media(max-width:520px){.member-audit-grid{grid-template-columns:1fr}.member-audit-actions{grid-template-columns:1fr}.member-audit-actions button.wide{grid-column:auto}}
- @media(min-width:700px){.member-audit-overlay{align-items:center;padding:20px}.member-audit-sheet{border-radius:24px}}
+ .member-audit-card{border:1px solid var(--line);border-radius:14px;padding:12px;background:#fff;margin-top:10px}.member-audit-card h3{margin:0 0 8px;font-size:13px;color:var(--navy)}.member-audit-name-row{display:flex;justify-content:space-between;gap:12px;align-items:center}.member-audit-name-row b{color:var(--navy);font-size:10px}.member-audit-name-row span{color:var(--muted);font-size:10px;text-align:right}
+ .member-audit-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}.member-audit-chip{display:inline-flex;align-items:center;min-height:27px;padding:5px 8px;border-radius:999px;background:#f1f2f6;color:var(--navy);font-size:9px;font-weight:850}.member-audit-chip.played{background:#f8f1e8;color:#835719}.member-audit-chip.staff{background:#eef3fb}.member-audit-empty{color:var(--muted);font-size:10px;line-height:1.45}.member-audit-note{margin-top:10px;padding:10px 11px;border-radius:11px;background:#f6f7fa;color:var(--muted);font-size:9px;line-height:1.45}.member-audit-note.warn{background:#fff7ec;color:#79521a}
+ .member-audit-actions{display:grid;gap:8px;margin-top:14px}.member-audit-actions.two{grid-template-columns:1fr 1fr}.member-audit-actions button{min-height:46px;border:1px solid var(--line);border-radius:12px;background:#f1f2f6;color:var(--navy);font:inherit;font-size:10px;font-weight:900;padding:10px}.member-audit-actions button.primary{background:var(--navy);color:#fff;border-color:var(--navy)}.member-audit-actions button.danger{background:#fff5f5;color:#9b2424}.member-audit-actions button.wide{grid-column:1/-1}
+ .member-audit-search{margin-top:12px}.member-audit-search input,.member-audit-field{width:100%;box-sizing:border-box;border:1px solid var(--line);border-radius:12px;padding:11px 12px;font:inherit;background:#fff;color:var(--navy)}.member-audit-list{display:grid;gap:7px;margin-top:10px;max-height:42vh;overflow:auto}.member-audit-person{width:100%;display:flex;align-items:center;justify-content:space-between;gap:10px;border:1px solid var(--line);border-radius:12px;background:#fff;padding:11px 12px;text-align:left;color:var(--navy)}.member-audit-person[hidden]{display:none!important}.member-audit-person strong{display:block;font-size:11px}.member-audit-person small{display:block;color:var(--muted);font-size:9px;margin-top:2px}.member-audit-person b{font-size:9px;white-space:nowrap}
+ .member-audit-back{border:0;border-radius:10px;background:#f1f2f6;color:var(--navy);padding:8px 10px;font-size:10px;font-weight:900}.member-audit-admin-button{width:100%;margin:0 0 14px!important}.member-audit-create{display:grid;gap:10px;margin-top:12px}.member-audit-create label{display:grid;gap:4px;color:var(--muted);font-size:9px;font-weight:800}
+ body.member-audit-open{overflow:hidden}@media(max-width:520px){.member-audit-actions.two{grid-template-columns:1fr}.member-audit-actions button.wide{grid-column:auto}}@media(min-width:700px){.member-audit-overlay{align-items:center;padding:20px}.member-audit-sheet{border-radius:24px}}
  `;document.head.appendChild(s)
 }
 
@@ -51,68 +48,106 @@ function overlay(){
  return o
 }
 function closeAudit(){const o=overlay();o.hidden=true;document.body.classList.remove('member-audit-open')}
-function openAudit(){if(!pending)return;mode='review';searchValue='';overlay().hidden=false;document.body.classList.add('member-audit-open');render()}
-async function openOrStartAudit(){
+function openAudit(){
+ if(!openCount())return;
+ mode=currentItem()?'review':'bondOnly';searchValue='';activeBondPersonId=null;skippedBond=new Set();
+ overlay().hidden=false;document.body.classList.add('member-audit-open');render()
+}
+function openOrStartAudit(){
  if(busy||!isAdmin)return;
  if(api.checking){toast('Ledencontrole wordt geladen…');return}
- if(pending){openAudit();return}
+ if(openCount()){openAudit();return}
  if(!confirm('Een nieuwe volledige ledencontrole starten? Alle actieve leden worden opnieuw gecontroleerd.'))return;
  busy=true;
- try{
-  const s=await client(),r=await s.rpc('start_member_bond_audit');
-  if(r.error)throw r.error;
-  await reload();
-  mode='review';searchValue='';
-  openAudit();
- }catch(e){toast(e?.message||'Ledencontrole kon niet worden gestart.')}
- finally{busy=false}
+ return (async()=>{
+  try{const s=await client(),r=await s.rpc('start_member_bond_audit');if(r.error)throw r.error;skippedBond=new Set();await reload();openAudit()}
+  catch(e){toast(e?.message||'Ledencontrole kon niet worden gestart.')}
+  finally{busy=false}
+ })()
 }
 
-function listNames(arr){return (arr||[]).map(x=>x.name||x.teamName).filter(Boolean)}
-function jerseyText(item){return (item.jerseyNumbers||[]).map(x=>`${x.teamName} #${x.number}`).join(' · ')}
-function bondTeamText(arr){return (arr||[]).map(x=>`${x.teamName}${x.number?` #${x.number}`:''}`).join(' · ')}
-function candidateText(c){
- const off=bondTeamText(c.officialTeams||[]),played=(c.playedTeams||[]).map(x=>x.teamName).filter(Boolean).join(', '),staff=(c.staffTeams||[]).map(x=>x.teamName).filter(Boolean).join(', ');
- return [off,staff?`coach: ${staff}`:'',played?`meegespeeld: ${played}`:''].filter(Boolean).join(' · ')
+function sameTeamName(a,b){return norm(a)===norm(b)}
+function uniqueStrings(arr){return [...new Set((arr||[]).filter(Boolean))]}
+function mergedBondTeams(c){
+ const map=new Map();
+ const ensure=(teamName,teamId='')=>{
+  const key=norm(teamName);if(!key)return null;
+  if(!map.has(key))map.set(key,{teamName,teamId,number:'',official:false,coach:false,played:false});
+  return map.get(key)
+ };
+ for(const t of c?.officialTeams||[]){const x=ensure(t.teamName,t.teamId);if(!x)continue;x.official=true;if(t.number)x.number=String(t.number)}
+ for(const t of c?.staffTeams||[]){const x=ensure(t.teamName,'');if(x)x.coach=true}
+ for(const t of c?.playedTeams||[]){const x=ensure(t.teamName,t.teamId);if(!x)continue;if(!x.official)x.played=true;if(!x.number&&t.number)x.number=String(t.number)}
+ return [...map.values()].sort((a,b)=>String(a.teamName).localeCompare(String(b.teamName)))
 }
+function mergedAppTeams(item){
+ const map=new Map();
+ const ensure=(teamName,teamId='')=>{
+  const key=norm(teamName);if(!key)return null;
+  if(!map.has(key))map.set(key,{teamName,teamId,number:'',player:false,trainer:false});
+  return map.get(key)
+ };
+ for(const t of item?.playerTeams||[]){const x=ensure(t.name,t.id);if(x)x.player=true}
+ for(const t of item?.trainerTeams||[]){const x=ensure(t.name,t.id);if(x)x.trainer=true}
+ for(const j of item?.jerseyNumbers||[]){const x=ensure(j.teamName,j.teamId);if(x&&j.number)x.number=String(j.number)}
+ return [...map.values()].sort((a,b)=>String(a.teamName).localeCompare(String(b.teamName)))
+}
+function bondTeamLabel(t){
+ const roles=[];
+ if(t.official&&t.coach)roles.push('speler/coach');else if(t.official)roles.push('speler');else if(t.coach)roles.push('coach');
+ if(t.played)roles.push('meegespeeld');
+ return [t.teamName,t.number?`#${t.number}`:'',...roles].filter(Boolean).join(' · ')
+}
+function appTeamLabel(t){
+ const roles=[];
+ if(t.player&&t.trainer)roles.push('speler/trainer');else if(t.player)roles.push('speler');else if(t.trainer)roles.push('trainer');
+ return [t.teamName,t.number?`#${t.number}`:'',...roles].filter(Boolean).join(' · ')
+}
+function candidateText(c){return mergedBondTeams(c).map(bondTeamLabel).join(' · ')}
 function currentItem(){return items[0]||null}
 function currentCandidate(item){return candidates.find(c=>String(c.personId)===String(item?.linkedPersonId||''))||null}
 function jerseyPrivateMatch(item,c){
  if(norm(c?.name)!=='private')return false;
- const nums=item.jerseyNumbers||[];
+ const nums=item?.jerseyNumbers||[];
  return nums.some(j=>(c.officialTeams||[]).some(t=>String(t.teamId)===String(j.teamId)&&String(t.number||'')===String(j.number||'')))
 }
 function bestSuggestion(item){
- const available=candidates.filter(c=>!c.linkedMemberId||String(c.linkedMemberId)===String(item.memberId));
  const linked=currentCandidate(item);if(linked)return linked;
+ const available=candidates.filter(c=>!c.linkedMemberId||String(c.linkedMemberId)===String(item.memberId));
  const exact=available.filter(c=>strongName(item.name,c.name)).sort((a,b)=>similarity(item.name,b.name)-similarity(item.name,a.name))[0];if(exact)return exact;
- const priv=available.find(c=>jerseyPrivateMatch(item,c));if(priv)return priv;
- return null
+ return available.find(c=>jerseyPrivateMatch(item,c))||null
 }
-
+function playerDataMatches(item,c){
+ if(!c)return false;
+ const app=mergedAppTeams(item).filter(x=>x.player),bond=mergedBondTeams(c).filter(x=>x.official);
+ const a=app.map(x=>norm(x.teamName)).sort(),b=bond.map(x=>norm(x.teamName)).sort();
+ if(JSON.stringify(a)!==JSON.stringify(b))return false;
+ for(const bt of bond){const at=app.find(x=>sameTeamName(x.teamName,bt.teamName));if(!at)return false;if(bt.number&&String(at.number||'')!==String(bt.number))return false}
+ return true
+}
+function unlinkedBondCandidates(){return candidates.filter(c=>!c.linkedMemberId&&norm(c.name)!=='private'&&((c.officialTeams||[]).length||(c.playedTeams||[]).length))}
+function visibleBondCandidates(){return unlinkedBondCandidates().filter(c=>!skippedBond.has(String(c.personId)))}
+function currentBondCandidate(){
+ if(activeBondPersonId){const x=unlinkedBondCandidates().find(c=>String(c.personId)===String(activeBondPersonId));if(x)return x}
+ return visibleBondCandidates()[0]||null
+}
+function openCount(){return pending+unlinkedBondCandidates().length}
 function chip(s,cls=''){return `<span class="member-audit-chip ${cls}">${esc(s)}</span>`}
 function appInfo(item){
- const players=listNames(item.playerTeams),trainers=listNames(item.trainerTeams),jersey=jerseyText(item);
- return `<div class="member-audit-card"><h3>In de app</h3>
- <div class="member-audit-line"><b>Naam</b><span>${esc(item.name||'-')}</span></div>
- <div class="member-audit-line"><b>Speler</b><span>${esc(players.join(', ')||'-')}</span></div>
- <div class="member-audit-line"><b>Trainer</b><span>${esc(trainers.join(', ')||'-')}</span></div>
- <div class="member-audit-line"><b>Rugnummer</b><span>${esc(jersey||'-')}</span></div>
- </div>`
+ const teams=mergedAppTeams(item);
+ return `<div class="member-audit-card"><h3>In de app</h3><div class="member-audit-name-row"><b>Naam</b><span>${esc(item.name||'-')}</span></div><div class="member-audit-chips">${teams.length?teams.map(t=>chip(appTeamLabel(t))).join(''):'<span class="member-audit-empty">Geen team of rugnummer ingesteld.</span>'}</div></div>`
 }
 function bondInfo(item,c){
- if(!c)return `<div class="member-audit-card"><h3>Basketbalbond</h3><div class="member-audit-empty">Nog geen bondsspeler gekoppeld.</div></div>`;
- const official=c.officialTeams||[],played=c.playedTeams||[],staff=c.staffTeams||[];
- const isPrivate=norm(c.name)==='private';
- const points=item.bond&&String(item.bond.personId)===String(c.personId)?item.bond.seasonPoints:null;
- const complete=item.bond&&String(item.bond.personId)===String(c.personId)?item.bond.seasonPointsComplete:false;
- return `<div class="member-audit-card"><h3>Basketbalbond</h3>
- <div class="member-audit-line"><b>Naam</b><span>${esc(isPrivate?'private (afgeschermd)':c.name)}</span></div>
- <div class="member-audit-chips">${official.map(t=>chip(`${t.teamName}${t.number?` · #${t.number}`:''}`)).join('')}${staff.map(t=>chip(`Coach: ${t.teamName}`,'trainer')).join('')}${played.map(t=>chip(`Meegespeeld: ${t.teamName}`,'played')).join('')||(!official.length&&!staff.length?'<span class="member-audit-empty">Geen teamgegevens</span>':'')}</div>
- ${points!==null?`<div class="member-audit-line" style="margin-top:8px"><b>Seizoenspunten</b><span>${complete?esc(points+' pnt'):esc(points>0?'≥ '+points+' pnt':'-')}</span></div>`:''}
- </div>`
+ if(!c)return `<div class="member-audit-card"><h3>Basketbalbond</h3><div class="member-audit-empty">Geen passende bondsspeler gevonden.</div></div>`;
+ const teams=mergedBondTeams(c),isPrivate=norm(c.name)==='private';
+ const points=item?.bond&&String(item.bond.personId)===String(c.personId)?item.bond.seasonPoints:null;
+ const complete=item?.bond&&String(item.bond.personId)===String(c.personId)?item.bond.seasonPointsComplete:false;
+ return `<div class="member-audit-card"><h3>Basketbalbond</h3><div class="member-audit-name-row"><b>Naam</b><span>${esc(isPrivate?'private (afgeschermd)':c.name)}</span></div><div class="member-audit-chips">${teams.length?teams.map(t=>chip(bondTeamLabel(t),t.played&&!t.official?'played':t.coach&&!t.official?'staff':'')).join(''):'<span class="member-audit-empty">Geen teamgegevens.</span>'}</div>${points!==null?`<div class="member-audit-note">Seizoenspunten: <b>${complete?esc(points+' pnt'):esc(points>0?'≥ '+points+' pnt':'-')}</b></div>`:''}</div>`
 }
-
+function bondOnlyInfo(c){
+ const teams=mergedBondTeams(c);
+ return `<div class="member-audit-card"><h3>Van de basketbalbond</h3><div class="member-audit-name-row"><b>Naam</b><span>${esc(c.name)}</span></div><div class="member-audit-chips">${teams.map(t=>chip(bondTeamLabel(t),t.played&&!t.official?'played':t.coach&&!t.official?'staff':'')).join('')}</div></div>`
+}
 function progress(){
  const done=Math.max(0,total-pending),step=Math.min(total,done+1),pct=total?Math.round((done/total)*100):100;
  return {done,step,pct}
