@@ -272,8 +272,8 @@ UID:foys-match-497969@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T163000
 DURATION:PT2H
-SUMMARY:BV Amsterdam X14-3 55 - 39 Hot Pepper Heat X14-2
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nUitslag: 55 - 39\nFOYS wedstrijd-ID: 497969
+SUMMARY:BV Amsterdam X14-3 69 - 53 Hot Pepper Heat X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 69 - 53\nFOYS wedstrijd-ID: 497969
 LOCATION:Bibian Mentel Sporthal\, Foekje Dillemastraat 118\, 1095 MK Amsterdam
 STATUS:CONFIRMED
 END:VEVENT
@@ -292,10 +292,10 @@ UID:foys-match-509344@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260920T174500
 DURATION:PT2H
-SUMMARY:CobraNova MSE-1 - Hot Pepper Heat MSE-2
-DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509344
+SUMMARY:AFGELAST: CobraNova MSE-1 - Hot Pepper Heat MSE-2
+DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 509344
 LOCATION:Forum Kwadraat\, De Vliegerlaan 2 4\, 2273BV VOORBURG
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-497975@basketball-agenda

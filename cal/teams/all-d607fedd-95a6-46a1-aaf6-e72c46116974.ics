@@ -382,8 +382,8 @@ UID:foys-match-504793@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T161500
 DURATION:PT2H
-SUMMARY:HBV The Jumpers VSE-1 34 - 47 CobraNova VSE-3
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nUitslag: 34 - 47\nFOYS wedstrijd-ID: 504793
+SUMMARY:HBV The Jumpers VSE-1 44 - 52 CobraNova VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Final\nUitslag: 44 - 52\nFOYS wedstrijd-ID: 504793
 LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
 END:VEVENT
@@ -403,7 +403,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T163000
 DURATION:PT2H
 SUMMARY:CobraNova MSE-2 61 - 63 CBV Binnenland MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nUitslag: 61 - 63\nFOYS wedstrijd-ID: 505762
+DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: IncompleteMatch\nUitslag: 61 - 63\nFOYS wedstrijd-ID: 505762
 LOCATION:Forum Kwadraat\, De Vliegerlaan 2 4\, 2273BV VOORBURG
 STATUS:CONFIRMED
 END:VEVENT
@@ -442,20 +442,20 @@ UID:foys-match-506466@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260920T153000
 DURATION:PT2H
-SUMMARY:CobraNova VSE-1 - De Groene Uilen VSE-1
-DESCRIPTION:Vrouwen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 506466
+SUMMARY:AFGELAST: CobraNova VSE-1 - De Groene Uilen VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - Promotiedivisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 506466
 LOCATION:Forum Kwadraat\, De Vliegerlaan 2 4\, 2273BV VOORBURG
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-509344@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260920T174500
 DURATION:PT2H
-SUMMARY:CobraNova MSE-1 - Hot Pepper Heat MSE-2
-DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509344
+SUMMARY:AFGELAST: CobraNova MSE-1 - Hot Pepper Heat MSE-2
+DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 509344
 LOCATION:Forum Kwadraat\, De Vliegerlaan 2 4\, 2273BV VOORBURG
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-496622@basketball-agenda
