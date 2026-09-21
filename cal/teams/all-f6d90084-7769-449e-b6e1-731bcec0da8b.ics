@@ -743,7 +743,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260920T160000
 DURATION:PT2H
 SUMMARY:BC APOLLO Amsterdam V14-1 55 - 27 BS Leiden V14-1
-DESCRIPTION:Vrouwen U14 Landelijk - Eredivisie\nStatus: Planned\nUitslag: 55 - 27\nFOYS wedstrijd-ID: 492681
+DESCRIPTION:Vrouwen U14 Landelijk - Eredivisie\nStatus: Final\nUitslag: 55 - 27\nFOYS wedstrijd-ID: 492681
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -772,8 +772,8 @@ UID:foys-match-505566@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260920T160000
 DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam M19-1 69 - 62 Basketball Academy Utrecht M19-1 M19-1
-DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nUitslag: 69 - 62\nFOYS wedstrijd-ID: 505566
+SUMMARY:BC APOLLO Amsterdam M19-1 72 - 66 Basketball Academy Utrecht M19-1 M19-1
+DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Final\nUitslag: 72 - 66\nFOYS wedstrijd-ID: 505566
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
