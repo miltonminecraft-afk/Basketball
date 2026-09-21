@@ -1878,6 +1878,16 @@ LOCATION:De Hazelaar\, T.M. Kortenhorstlaan 6\, 5244GD ROSMALEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-523258@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T103000
+DURATION:PT2H
+SUMMARY:HBV The Jumpers RSE-1 - R.B.V.M. RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523258
+LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-492028@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T110000
@@ -1985,6 +1995,16 @@ DURATION:PT2H
 SUMMARY:BV Alphia M16-1 - HBV The Jumpers M16-4
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499195
 LOCATION:Rijnstreekhal\, Dillenburg 1\, 2404EV ALPHEN AAN DEN RIJN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523261@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T140000
+DURATION:PT2H
+SUMMARY:HBV The Jumpers RSE-1 - Rotterdam Basketbal RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523261
+LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -2102,7 +2122,7 @@ UID:foys-match-503435@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261127T210000
 DURATION:PT2H
-SUMMARY:B.O.B. M22-1 - HBV The Jumpers M22-3
+SUMMARY:B.O.B. M22-1* - HBV The Jumpers M22-3
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503435
 LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
 STATUS:CONFIRMED
@@ -2358,6 +2378,16 @@ LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-523265@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T121500
+DURATION:PT2H
+SUMMARY:I.S.R. RSE-1 - HBV The Jumpers RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523265
+LOCATION:De Sprong\, De Aanloop 1\, 4335AS MIDDELBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-493406@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T123000
@@ -2395,6 +2425,16 @@ DURATION:PT2H
 SUMMARY:BV Voorne VSE-1 - HBV The Jumpers VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504788
 LOCATION:DukdalfBRES\, Reede 2 a\, 3232CV BRIELLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523268@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T140000
+DURATION:PT2H
+SUMMARY:HBV The Jumpers RSE-1 - BC Langstraat Shooters RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523268
+LOCATION:De Sprong\, De Aanloop 1\, 4335AS MIDDELBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -2678,6 +2718,26 @@ LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-523270@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T103000
+DURATION:PT2H
+SUMMARY:SC Antilope Utrecht RSE-1 - HBV The Jumpers RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523270
+LOCATION:De Sprong\, De Aanloop 1\, 4335AS MIDDELBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523272@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T121500
+DURATION:PT2H
+SUMMARY:R.B.V.M. RSE-2 - HBV The Jumpers RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523272
+LOCATION:De Sprong\, De Aanloop 1\, 4335AS MIDDELBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-511185@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270123T170000
@@ -2835,6 +2895,26 @@ DURATION:PT2H
 SUMMARY:HBV The Jumpers MSE-1 - Zoebas MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512081
 LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523275@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270227T103000
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal RSE-2 - HBV The Jumpers RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523275
+LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523277@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270227T121500
+DURATION:PT2H
+SUMMARY:HBV The Jumpers RSE-1 - I.S.R. RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523277
+LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

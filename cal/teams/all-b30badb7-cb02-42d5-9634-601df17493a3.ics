@@ -682,7 +682,7 @@ UID:foys-match-502559@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T191500
 DURATION:PT2H
-SUMMARY:ABC Amigos M18-1 - BC Flying Oost M18-3
+SUMMARY:ABC Amigos M18-1 - BC Flying Oost M18-3*
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502559
 LOCATION:Sporthuis Abcoude\, Geinplein 1\, 1391 JN Abcoude
 STATUS:CONFIRMED
@@ -728,6 +728,16 @@ LOCATION:Almere Haven\, Parkwerf 138\, 1354EB ALMERE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-496218@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T151500
+DURATION:PT2H
+SUMMARY:Racing Beverwijk X14-1 - ABC Amigos X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496218
+LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-499831@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T163000
@@ -735,16 +745,6 @@ DURATION:PT2H
 SUMMARY:Mapleleaves M16-1 - ABC Amigos M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499831
 LOCATION:De Waterakkers\, Kerkweg 217\, 1964KJ HEEMSKERK
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-496218@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T170000
-DURATION:PT2H
-SUMMARY:Racing Beverwijk X14-1 - ABC Amigos X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496218
-LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

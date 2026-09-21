@@ -362,8 +362,8 @@ UID:foys-match-501455@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T130000
 DURATION:PT2H
-SUMMARY:Utrecht Basketball M18-2 M18-2 73 - 73 MBCA A'veen M18-2
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 73 - 73\nFOYS wedstrijd-ID: 501455
+SUMMARY:Utrecht Basketball M18-2 M18-2 73 - 71 MBCA A'veen M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 73 - 71\nFOYS wedstrijd-ID: 501455
 LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -635,16 +635,6 @@ DURATION:PT2H
 SUMMARY:New Stars M18-2 - Utrecht Basketball M18-4 M18-4
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501846
 LOCATION:Sporthal Merwestein\, Merweplein 1\, 3432GN NIEUWEGEIN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-503565@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260926T170000
-DURATION:PT2H
-SUMMARY:Northside Ballers Amsterdam M22-3 - Utrecht Basketball M22-4 M22-4
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503565
-LOCATION:De Weeren\, Beemsterstraat 656\, 1027ED AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1248,6 +1238,16 @@ LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-498462@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T160000
+DURATION:PT2H
+SUMMARY:Utrecht Basketball V16-1 V16-1 - Goba V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498462
+LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-513224@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T160000
@@ -1345,16 +1345,6 @@ DURATION:PT2H
 SUMMARY:UNLIMITED X14-1 - Utrecht Basketball X14-3 X14-3
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496576
 LOCATION:De Helster\, Schubertstraat 1\, 6661AW Elst
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-498462@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261101T120000
-DURATION:PT2H
-SUMMARY:Utrecht Basketball V16-1 V16-1 - Goba V16-1
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498462
-LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

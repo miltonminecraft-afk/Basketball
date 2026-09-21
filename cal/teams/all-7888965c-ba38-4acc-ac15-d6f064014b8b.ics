@@ -643,7 +643,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T110000
 DURATION:PT2H
 SUMMARY:BV Oegstgeest M18-1 52 - 43 BS Leiden M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 52 - 43\nFOYS wedstrijd-ID: 501260
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 52 - 43\nFOYS wedstrijd-ID: 501260
 LOCATION:Sporthal De Cuyl\, de Voscuyl 36\, 2341BJ OEGSTGEEST
 STATUS:CONFIRMED
 END:VEVENT
@@ -725,16 +725,6 @@ DURATION:PT2H
 SUMMARY:BV Hoofddorp M18-5 37 - 61 BS Leiden M18-3
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 37 - 61\nFOYS wedstrijd-ID: 512813
 LOCATION:Sportcomplex Koning Willem-Alexander\, Bennebroekerweg 800\, 2134AB HOOFDDORP
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-511348@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260919T160000
-DURATION:PT2H
-SUMMARY:Hurricanes MSE-2 - BS Leiden MSE-5
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511348
-LOCATION:Den Oert\, J. Witteveenlaan 1\, 3201LX SPIJKENISSE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1752,7 +1742,7 @@ UID:foys-match-503828@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T203000
 DURATION:PT2H
-SUMMARY:BS Leiden VSE-2 - BV Amsterdam VSE-2
+SUMMARY:BS Leiden VSE-2 - BV Amsterdam VSE-2*
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503828
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
@@ -2902,7 +2892,7 @@ UID:foys-match-493702@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T093000
 DURATION:PT2H
-SUMMARY:Harlemlakers X12-2 - BS Leiden X12-3
+SUMMARY:Harlemlakers X12-2* - BS Leiden X12-3
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493702
 LOCATION:Calandhal Hal 1\, Eliza van Calcarstraat 2\, 1068RR AMSTERDAM
 STATUS:CONFIRMED
@@ -3222,7 +3212,7 @@ UID:foys-match-498272@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T090000
 DURATION:PT2H
-SUMMARY:BV Oegstgeest V16-1 - BS Leiden V16-2
+SUMMARY:BV Oegstgeest V16-1* - BS Leiden V16-2
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498272
 LOCATION:Sporthal De Cuyl\, de Voscuyl 36\, 2341BJ OEGSTGEEST
 STATUS:CONFIRMED
@@ -4298,6 +4288,16 @@ LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-523304@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T103000
+DURATION:PT2H
+SUMMARY:Achilles '71 RSE-1 - BS Leiden RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523304
+LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-492634@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T110000
@@ -4375,6 +4375,16 @@ DURATION:PT2H
 SUMMARY:Lokomotief V16-1 - BS Leiden V16-1
 DESCRIPTION:Vrouwen U16 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 493976
 LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523309@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T140000
+DURATION:PT2H
+SUMMARY:SC Antilope Utrecht RSE-2 - BS Leiden RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523309
+LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -5218,6 +5228,16 @@ LOCATION:U.S.C.\, Goliuspad 22\, 2333BH Leiden
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-523315@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T121500
+DURATION:PT2H
+SUMMARY:BS Leiden RSE-1 - Rotterdam Basketbal RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523315
+LOCATION:De Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-492641@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270109T123000
@@ -5225,6 +5245,16 @@ DURATION:PT2H
 SUMMARY:BS Leiden M14-2 - Basketbal Academie Limburg M14-1
 DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492641
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523318@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T140000
+DURATION:PT2H
+SUMMARY:BS Leiden RSE-1 - R.B.V.M. RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523318
+LOCATION:De Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -5538,6 +5568,26 @@ LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-523319@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T103000
+DURATION:PT2H
+SUMMARY:Barons Breda Basketball RSE-1 - BS Leiden RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523319
+LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523322@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T121500
+DURATION:PT2H
+SUMMARY:BS Leiden RSE-1 - Achilles '71 RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523322
+LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-492729@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270130T131500
@@ -5552,7 +5602,7 @@ UID:foys-match-503892@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270130T142500
 DURATION:PT2H
-SUMMARY:BV Amsterdam VSE-2 - BS Leiden VSE-2
+SUMMARY:BV Amsterdam VSE-2* - BS Leiden VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503892
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -5878,6 +5928,16 @@ LOCATION:Sportcomplex 1574\, Telderskade 399\, 2321TR LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-511348@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270227T140000
+DURATION:PT2H
+SUMMARY:Hurricanes MSE-2 - BS Leiden MSE-5
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511348
+LOCATION:Den Oert\, J. Witteveenlaan 1\, 3201LX SPIJKENISSE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-516492@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270305T200000
@@ -5898,6 +5958,16 @@ LOCATION:Korba sporthal\, Schoemakerstraat 340\, 2629HP DELFT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-523328@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T121500
+DURATION:PT2H
+SUMMARY:BS Leiden RSE-1 - SC Antilope Utrecht RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523328
+LOCATION:De Kragt\, Terheijdenseweg 416\, 4826AB BREDA
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-492662@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270306T123000
@@ -5905,6 +5975,16 @@ DURATION:PT2H
 SUMMARY:BS Leiden M14-2 - Basketball Academy Utrecht M14-2 M14-2
 DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492662
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523330@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T140000
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal RSE-3 - BS Leiden RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523330
+LOCATION:De Kragt\, Terheijdenseweg 416\, 4826AB BREDA
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

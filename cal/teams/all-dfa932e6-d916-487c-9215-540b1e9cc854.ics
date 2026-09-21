@@ -82,7 +82,7 @@ UID:foys-match-502106@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T144500
 DURATION:PT2H
-SUMMARY:Olstars M18-1 43 - 54 WSV M18-2
+SUMMARY:Olstars M18-1* 43 - 54 WSV M18-2
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 43 - 54\nFOYS wedstrijd-ID: 502106
 LOCATION:De Hooiberg\, Hooiberglaan\, 8121RK OLST
 STATUS:CONFIRMED
@@ -142,7 +142,7 @@ UID:foys-match-491843@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T120000
 DURATION:PT2H
-SUMMARY:WSV X10-1 20 - 0 Olstars X10-1
+SUMMARY:WSV X10-1 20 - 0 Olstars X10-1*
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 491843
 LOCATION:WSV Sporthal\, De Voorwaarts 450\, 7321MG APELDOORN
 STATUS:CONFIRMED
@@ -322,7 +322,7 @@ UID:foys-match-491845@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T110000
 DURATION:PT2H
-SUMMARY:Olstars X10-1 - WSV X10-2
+SUMMARY:Olstars X10-1* - WSV X10-2
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491845
 LOCATION:De Hooiberg\, Hooiberglaan\, 8121RK OLST
 STATUS:CONFIRMED
@@ -742,7 +742,7 @@ UID:foys-match-491854@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T100000
 DURATION:PT2H
-SUMMARY:WSV X10-2 - Olstars X10-1
+SUMMARY:WSV X10-2 - Olstars X10-1*
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491854
 LOCATION:WSV Sporthal\, De Voorwaarts 450\, 7321MG APELDOORN
 STATUS:CONFIRMED
@@ -1138,6 +1138,16 @@ LOCATION:Oosterbliek\, Dr H B Wiardi Beckmanpln 60\, 4207NC GORINCHEM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-523233@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T120000
+DURATION:PT2H
+SUMMARY:WSV RSE-1 - Dyna '75 RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523233
+LOCATION:WSV Sporthal\, De Voorwaarts 450\, 7321MG APELDOORN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-500155@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T123000
@@ -1145,6 +1155,16 @@ DURATION:PT2H
 SUMMARY:Arnhem Eagles M16-4 - WSV M16-3
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500155
 LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523236@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T134500
+DURATION:PT2H
+SUMMARY:WSV RSE-1 - I.S.V. Hengelo RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523236
+LOCATION:WSV Sporthal\, De Voorwaarts 450\, 7321MG APELDOORN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1262,7 +1282,7 @@ UID:foys-match-491864@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T110000
 DURATION:PT2H
-SUMMARY:Olstars X10-1 - WSV X10-1
+SUMMARY:Olstars X10-1* - WSV X10-1
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491864
 LOCATION:De Hooiberg\, Hooiberglaan\, 8121RK OLST
 STATUS:CONFIRMED
@@ -1275,6 +1295,16 @@ DURATION:PT2H
 SUMMARY:Peatminers M22-1 - WSV M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 514082
 LOCATION:De Stamper\, Schout Doddestraat 11\, 7671GT VRIEZENVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523284@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T114500
+DURATION:PT2H
+SUMMARY:s.c. DeVeDo RSE-3 - WSV RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523284
+LOCATION:De Hullen\, Ceintuurbaan Zuid 6\, 9301HX RODEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1315,6 +1345,16 @@ DURATION:PT2H
 SUMMARY:WSV M16-2 - BC Shooters M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499499
 LOCATION:WSV Sporthal\, De Voorwaarts 450\, 7321MG APELDOORN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523286@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T151500
+DURATION:PT2H
+SUMMARY:WSV RSE-2 - Flying Red RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523286
+LOCATION:De Hullen\, Ceintuurbaan Zuid 6\, 9301HX RODEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1378,6 +1418,16 @@ LOCATION:WSV Sporthal\, De Voorwaarts 450\, 7321MG APELDOORN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-523239@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T103000
+DURATION:PT2H
+SUMMARY:Only Friends RSE-2 - WSV RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523239
+LOCATION:
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-500166@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T115500
@@ -1425,6 +1475,16 @@ DURATION:PT2H
 SUMMARY:WSV M22-1 - Lay Back Kampen M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 514087
 LOCATION:WSV Sporthal\, De Voorwaarts 450\, 7321MG APELDOORN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523242@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T121500
+DURATION:PT2H
+SUMMARY:WSV RSE-1 - s.c. DeVeDo RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523242
+LOCATION:
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1518,6 +1578,26 @@ LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-523288@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T100000
+DURATION:PT2H
+SUMMARY:WSV RSE-2 - Be Quick '28 RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523288
+LOCATION:De Hullen\, Ceintuurbaan Zuid 6\, 9301HX RODEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523291@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T151500
+DURATION:PT2H
+SUMMARY:G.S.V.A. RSE-1 - WSV RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523291
+LOCATION:De Hullen\, Ceintuurbaan Zuid 6\, 9301HX RODEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-509081@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270109T193000
@@ -1538,6 +1618,26 @@ LOCATION:WSV Sporthal\, De Voorwaarts 450\, 7321MG APELDOORN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-523246@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T103000
+DURATION:PT2H
+SUMMARY:BV Hoofddorp RSE-1 - WSV RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523246
+LOCATION:Sportcentrum Zanderij\, Oude Telgterweg 205\, 3853PG ERMELO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523248@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T121500
+DURATION:PT2H
+SUMMARY:Dyna '75 RSE-1 - WSV RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523248
+LOCATION:Sportcentrum Zanderij\, Oude Telgterweg 205\, 3853PG ERMELO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-504548@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270123T180000
@@ -1555,6 +1655,26 @@ DURATION:PT2H
 SUMMARY:WSV MSE-1 - Challenge MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509095
 LOCATION:WSV Sporthal\, De Voorwaarts 450\, 7321MG APELDOORN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523293@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T100000
+DURATION:PT2H
+SUMMARY:Flying Red RSE-1 - WSV RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523293
+LOCATION:Sportcentrum Zanderij\, Oude Telgterweg 205\, 3853PG ERMELO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523296@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T151500
+DURATION:PT2H
+SUMMARY:WSV RSE-2 - s.c. DeVeDo RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523296
+LOCATION:Sportcentrum Zanderij\, Oude Telgterweg 205\, 3853PG ERMELO
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1608,6 +1728,26 @@ LOCATION:WSV Sporthal\, De Voorwaarts 450\, 7321MG APELDOORN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-523252@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270227T103000
+DURATION:PT2H
+SUMMARY:I.S.V. Hengelo RSE-1 - WSV RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523252
+LOCATION:Sportcentrum Zanderij\, Oude Telgterweg 205\, 3853PG ERMELO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523256@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270227T140000
+DURATION:PT2H
+SUMMARY:WSV RSE-1 - Only Friends RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523256
+LOCATION:Sportcentrum Zanderij\, Oude Telgterweg 205\, 3853PG ERMELO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-504556@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270227T180000
@@ -1615,6 +1755,26 @@ DURATION:PT2H
 SUMMARY:WSV VSE-1 - Twente Buzzards VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504556
 LOCATION:WSV Sporthal\, De Voorwaarts 450\, 7321MG APELDOORN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523299@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T114500
+DURATION:PT2H
+SUMMARY:WSV RSE-2 - G.S.V.A. RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523299
+LOCATION:Deltion Sportcentrum\, Obrechtstraat 16\, 8025BK ZWOLLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523301@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T151500
+DURATION:PT2H
+SUMMARY:Be Quick '28 RSE-1 - WSV RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523301
+LOCATION:Deltion Sportcentrum\, Obrechtstraat 16\, 8025BK ZWOLLE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

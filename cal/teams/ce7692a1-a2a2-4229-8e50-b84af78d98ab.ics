@@ -22,8 +22,8 @@ UID:foys-match-508902@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260920T150000
 DURATION:PT2H
-SUMMARY:S.B.U. MSE-3 - Springfield MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508902
+SUMMARY:S.B.U. MSE-3 75 - 42 Springfield MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Final\nUitslag: 75 - 42\nFOYS wedstrijd-ID: 508902
 LOCATION:Sportcentrum Olympos\, Uppsalalaan 3\, 3584CT UTRECHT
 STATUS:CONFIRMED
 END:VEVENT
@@ -62,7 +62,7 @@ UID:foys-match-508924@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261101T180000
 DURATION:PT2H
-SUMMARY:Ardito MSE-1 - Springfield MSE-2
+SUMMARY:Ardito MSE-1* - Springfield MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508924
 LOCATION:sporthal De Sportwaard\, Oude Bosscheweg 6\, 5301LA ZALTBOMMEL
 STATUS:CONFIRMED
@@ -172,7 +172,7 @@ UID:foys-match-508992@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270227T000000
 DURATION:PT2H
-SUMMARY:Springfield MSE-2 - Ardito MSE-1
+SUMMARY:Springfield MSE-2 - Ardito MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508992
 LOCATION:De Run\, Runweg 11\, 5258BK BERLICUM NB
 STATUS:CONFIRMED

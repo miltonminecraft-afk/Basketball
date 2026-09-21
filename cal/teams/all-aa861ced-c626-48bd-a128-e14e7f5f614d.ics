@@ -62,7 +62,7 @@ UID:foys-match-511927@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260911T210000
 DURATION:PT2H
-SUMMARY:B.O.B. M22-1 57 - 65 Rotterdam-Zuid M22-3
+SUMMARY:B.O.B. M22-1* 57 - 65 Rotterdam-Zuid M22-3
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 57 - 65\nFOYS wedstrijd-ID: 511927
 LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
 STATUS:CONFIRMED
@@ -72,7 +72,7 @@ UID:foys-match-501721@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T090000
 DURATION:PT2H
-SUMMARY:Rotterdam Basketbal M18-3 - B.O.B. M18-3
+SUMMARY:Rotterdam Basketbal M18-3 - B.O.B. M18-3 *
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501721
 LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
 STATUS:CONFIRMED
@@ -272,7 +272,7 @@ UID:foys-match-503399@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T134500
 DURATION:PT2H
-SUMMARY:BV Squirrels M22-2 20 - 0 B.O.B. M22-1
+SUMMARY:BV Squirrels M22-2 20 - 0 B.O.B. M22-1*
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 503399
 LOCATION:Sporthal Oostmeer\, Het Hoge Land 19\, 2652EA BERKEL EN RODENRIJS
 STATUS:CONFIRMED
@@ -292,7 +292,7 @@ UID:foys-match-501724@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T140000
 DURATION:PT2H
-SUMMARY:B.O.B. M18-3 0 - 20 Klipperstars M18-1
+SUMMARY:B.O.B. M18-3 * 0 - 20 Klipperstars M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 0 - 20\nFOYS wedstrijd-ID: 501724
 LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
 STATUS:CONFIRMED
@@ -462,7 +462,7 @@ UID:foys-match-503403@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T150000
 DURATION:PT2H
-SUMMARY:Devel Heroes M22-1 - B.O.B. M22-1
+SUMMARY:Devel Heroes M22-1 - B.O.B. M22-1*
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503403
 LOCATION:De Sophiahal\, Sophiapromenade 9\, 3344PL HENDRIK-IDO-AMBACHT
 STATUS:CONFIRMED
@@ -542,7 +542,7 @@ UID:foys-match-503410@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261002T210000
 DURATION:PT2H
-SUMMARY:B.O.B. M22-1 - NRG Basketball M22-1
+SUMMARY:B.O.B. M22-1* - NRG Basketball M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503410
 LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
 STATUS:CONFIRMED
@@ -572,7 +572,7 @@ UID:foys-match-501733@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T111000
 DURATION:PT2H
-SUMMARY:Waterdragers M18-1 - B.O.B. M18-3
+SUMMARY:Waterdragers M18-1 - B.O.B. M18-3 *
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501733
 LOCATION:Parkzoomhal\, Iersestraat 15\, 2912TH NIEUWERKERK AD IJSSEL
 STATUS:CONFIRMED
@@ -692,10 +692,10 @@ UID:foys-match-494010@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T190000
 DURATION:PT2H
-SUMMARY:B.O.B. V16-1 - BC Triple ThreaT V16-1
-DESCRIPTION:Vrouwen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494010
+SUMMARY:AFGELAST: B.O.B. V16-1 - BC Triple ThreaT V16-1
+DESCRIPTION:Vrouwen U16 Landelijk - 1e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 494010
 LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-507395@basketball-agenda
@@ -752,7 +752,7 @@ UID:foys-match-503411@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T111000
 DURATION:PT2H
-SUMMARY:Waterdragers M22-1 - B.O.B. M22-1
+SUMMARY:Waterdragers M22-1 - B.O.B. M22-1*
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503411
 LOCATION:Parkzoomhal\, Iersestraat 15\, 2912TH NIEUWERKERK AD IJSSEL
 STATUS:CONFIRMED
@@ -882,7 +882,7 @@ UID:foys-match-501738@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T210000
 DURATION:PT2H
-SUMMARY:B.O.B. M18-3 - CBV Binnenland M18-2
+SUMMARY:B.O.B. M18-3 * - CBV Binnenland M18-2
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501738
 LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
 STATUS:CONFIRMED
@@ -1092,7 +1092,7 @@ UID:foys-match-503419@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T210000
 DURATION:PT2H
-SUMMARY:B.O.B. M22-1 - SBV Juventus M22-1
+SUMMARY:B.O.B. M22-1* - SBV Juventus M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503419
 LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
 STATUS:CONFIRMED
@@ -1202,7 +1202,7 @@ UID:foys-match-503420@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T140000
 DURATION:PT2H
-SUMMARY:Cady '73 M22-2 - B.O.B. M22-1
+SUMMARY:Cady '73 M22-2 - B.O.B. M22-1*
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503420
 LOCATION:Sporthal De Lijster\, Lijstersingel 20\, 2902JD CAPELLE AAN DEN IJSSEL
 STATUS:CONFIRMED
@@ -1282,7 +1282,7 @@ UID:foys-match-503427@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261113T210000
 DURATION:PT2H
-SUMMARY:B.O.B. M22-1 - Hurricanes M22-2
+SUMMARY:B.O.B. M22-1* - Hurricanes M22-2
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503427
 LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
 STATUS:CONFIRMED
@@ -1322,7 +1322,7 @@ UID:foys-match-501748@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T114500
 DURATION:PT2H
-SUMMARY:BV Krimpen M18-1 - B.O.B. M18-3
+SUMMARY:BV Krimpen M18-1 - B.O.B. M18-3 *
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501748
 LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
 STATUS:CONFIRMED
@@ -1602,7 +1602,7 @@ UID:foys-match-501754@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T200000
 DURATION:PT2H
-SUMMARY:B.O.B. M18-3 - Cady '73 M18-2
+SUMMARY:B.O.B. M18-3 * - Cady '73 M18-2
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501754
 LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
 STATUS:CONFIRMED
@@ -1632,7 +1632,7 @@ UID:foys-match-503435@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261127T210000
 DURATION:PT2H
-SUMMARY:B.O.B. M22-1 - HBV The Jumpers M22-3
+SUMMARY:B.O.B. M22-1* - HBV The Jumpers M22-3
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503435
 LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
 STATUS:CONFIRMED
@@ -1682,7 +1682,7 @@ UID:foys-match-501758@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T130000
 DURATION:PT2H
-SUMMARY:Devel Heroes M18-1 - B.O.B. M18-3
+SUMMARY:Devel Heroes M18-1 - B.O.B. M18-3 *
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501758
 LOCATION:Develhal\, Parklaan 5\, 3335LM ZWIJNDRECHT
 STATUS:CONFIRMED
@@ -2012,7 +2012,7 @@ UID:foys-match-503867@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T210000
 DURATION:PT2H
-SUMMARY:B.O.B. VSE-1 - BV Amsterdam VSE-2
+SUMMARY:B.O.B. VSE-1 - BV Amsterdam VSE-2*
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503867
 LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
 STATUS:CONFIRMED
@@ -2102,7 +2102,7 @@ UID:foys-match-501761@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261219T173000
 DURATION:PT2H
-SUMMARY:B.O.B. M18-3 - Rebound M18-1
+SUMMARY:B.O.B. M18-3 * - Rebound M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501761
 LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
 STATUS:CONFIRMED
@@ -2292,10 +2292,10 @@ UID:foys-match-494076@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270130T160000
 DURATION:PT2H
-SUMMARY:BC Triple ThreaT V16-1 - B.O.B. V16-1
-DESCRIPTION:Vrouwen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494076
+SUMMARY:AFGELAST: BC Triple ThreaT V16-1 - B.O.B. V16-1
+DESCRIPTION:Vrouwen U16 Landelijk - 1e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 494076
 LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-494082@basketball-agenda
@@ -2622,7 +2622,7 @@ UID:foys-match-503936@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270410T163000
 DURATION:PT2H
-SUMMARY:BV Amsterdam VSE-2 - B.O.B. VSE-1
+SUMMARY:BV Amsterdam VSE-2* - B.O.B. VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503936
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED

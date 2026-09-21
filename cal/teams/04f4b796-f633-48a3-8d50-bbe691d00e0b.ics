@@ -47,4 +47,84 @@ DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedst
 LOCATION:CALO-hal\, Campus 1\, 8017CB ZWOLLE
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523284@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T114500
+DURATION:PT2H
+SUMMARY:s.c. DeVeDo RSE-3 - WSV RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523284
+LOCATION:De Hullen\, Ceintuurbaan Zuid 6\, 9301HX RODEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523287@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T170000
+DURATION:PT2H
+SUMMARY:G.S.V.A. RSE-1 - s.c. DeVeDo RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523287
+LOCATION:De Hullen\, Ceintuurbaan Zuid 6\, 9301HX RODEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523290@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T133000
+DURATION:PT2H
+SUMMARY:Be Quick '28 RSE-1 - s.c. DeVeDo RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523290
+LOCATION:De Hullen\, Ceintuurbaan Zuid 6\, 9301HX RODEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523292@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T170000
+DURATION:PT2H
+SUMMARY:s.c. DeVeDo RSE-3 - Flying Red RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523292
+LOCATION:De Hullen\, Ceintuurbaan Zuid 6\, 9301HX RODEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523294@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T114500
+DURATION:PT2H
+SUMMARY:s.c. DeVeDo RSE-3 - G.S.V.A. RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523294
+LOCATION:Sportcentrum Zanderij\, Oude Telgterweg 205\, 3853PG ERMELO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523296@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T151500
+DURATION:PT2H
+SUMMARY:WSV RSE-2 - s.c. DeVeDo RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523296
+LOCATION:Sportcentrum Zanderij\, Oude Telgterweg 205\, 3853PG ERMELO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523298@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T100000
+DURATION:PT2H
+SUMMARY:s.c. DeVeDo RSE-3 - Be Quick '28 RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523298
+LOCATION:Deltion Sportcentrum\, Obrechtstraat 16\, 8025BK ZWOLLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523300@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T133000
+DURATION:PT2H
+SUMMARY:Flying Red RSE-1 - s.c. DeVeDo RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523300
+LOCATION:Deltion Sportcentrum\, Obrechtstraat 16\, 8025BK ZWOLLE
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR

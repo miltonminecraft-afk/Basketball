@@ -47,4 +47,84 @@ DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedst
 LOCATION:De Kragt\, Terheijdenseweg 416\, 4826AB BREDA
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523303@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T103000
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal RSE-3 - Barons Breda Basketball RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523303
+LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523308@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T140000
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal RSE-3 - R.B.V.M. RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523308
+LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523315@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T121500
+DURATION:PT2H
+SUMMARY:BS Leiden RSE-1 - Rotterdam Basketbal RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523315
+LOCATION:De Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523317@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 RSE-1 - Rotterdam Basketbal RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523317
+LOCATION:De Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523321@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T121500
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal RSE-3 - SC Antilope Utrecht RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523321
+LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523324@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T140000
+DURATION:PT2H
+SUMMARY:Barons Breda Basketball RSE-1 - Rotterdam Basketbal RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523324
+LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523327@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T121500
+DURATION:PT2H
+SUMMARY:R.B.V.M. RSE-3 - Rotterdam Basketbal RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523327
+LOCATION:De Kragt\, Terheijdenseweg 416\, 4826AB BREDA
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523330@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T140000
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal RSE-3 - BS Leiden RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523330
+LOCATION:De Kragt\, Terheijdenseweg 416\, 4826AB BREDA
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR

@@ -12,7 +12,7 @@ UID:foys-match-512925@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260905T180000
 DURATION:PT2H
-SUMMARY:CBV Binnenland MSE-1 67 - 67 The Black Eagles MSE-1
+SUMMARY:CBV Binnenland MSE-1 67 - 67 The Black Eagles MSE-1*
 DESCRIPTION:Mannen Senioren (Basketball Cup) - Voorrondes\nStatus: Final\nUitslag: 67 - 67\nFOYS wedstrijd-ID: 512925
 LOCATION:Sporthal De Lijster\, Lijstersingel 20\, 2902JD CAPELLE AAN DEN IJSSEL
 STATUS:CONFIRMED
@@ -32,10 +32,10 @@ UID:foys-match-505762@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T163000
 DURATION:PT2H
-SUMMARY:CobraNova MSE-2 61 - 63 CBV Binnenland MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: IncompleteMatch\nUitslag: 61 - 63\nFOYS wedstrijd-ID: 505762
+SUMMARY:AFGELAST: CobraNova MSE-2 - CBV Binnenland MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Cancelled\nUitslag: 61 - 63\nFOYS wedstrijd-ID: 505762
 LOCATION:Forum Kwadraat\, De Vliegerlaan 2 4\, 2273BV VOORBURG
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-505768@basketball-agenda

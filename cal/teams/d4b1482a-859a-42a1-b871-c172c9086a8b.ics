@@ -33,7 +33,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T110000
 DURATION:PT2H
 SUMMARY:BC Triple ThreaT V16-1 54 - 37 BC APOLLO Amsterdam V16-2
-DESCRIPTION:Vrouwen U16 Landelijk - 1e divisie\nStatus: Planned\nUitslag: 54 - 37\nFOYS wedstrijd-ID: 493995
+DESCRIPTION:Vrouwen U16 Landelijk - 1e divisie\nStatus: Final\nUitslag: 54 - 37\nFOYS wedstrijd-ID: 493995
 LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
 STATUS:CONFIRMED
 END:VEVENT
@@ -52,10 +52,10 @@ UID:foys-match-494010@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T190000
 DURATION:PT2H
-SUMMARY:B.O.B. V16-1 - BC Triple ThreaT V16-1
-DESCRIPTION:Vrouwen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494010
+SUMMARY:AFGELAST: B.O.B. V16-1 - BC Triple ThreaT V16-1
+DESCRIPTION:Vrouwen U16 Landelijk - 1e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 494010
 LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-494016@basketball-agenda
@@ -152,10 +152,10 @@ UID:foys-match-494076@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270130T160000
 DURATION:PT2H
-SUMMARY:BC Triple ThreaT V16-1 - B.O.B. V16-1
-DESCRIPTION:Vrouwen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494076
+SUMMARY:AFGELAST: BC Triple ThreaT V16-1 - B.O.B. V16-1
+DESCRIPTION:Vrouwen U16 Landelijk - 1e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 494076
 LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-494079@basketball-agenda

@@ -47,4 +47,84 @@ DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedst
 LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523259@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T121500
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal RSE-2 - SC Antilope Utrecht RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523259
+LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523261@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T140000
+DURATION:PT2H
+SUMMARY:HBV The Jumpers RSE-1 - Rotterdam Basketbal RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523261
+LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523263@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T103000
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal RSE-2 - R.B.V.M. RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523263
+LOCATION:De Sprong\, De Aanloop 1\, 4335AS MIDDELBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523267@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T140000
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal RSE-2 - I.S.R. RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523267
+LOCATION:De Sprong\, De Aanloop 1\, 4335AS MIDDELBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523271@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T121500
+DURATION:PT2H
+SUMMARY:BC Langstraat Shooters RSE-2 - Rotterdam Basketbal RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523271
+LOCATION:De Sprong\, De Aanloop 1\, 4335AS MIDDELBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523274@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T140000
+DURATION:PT2H
+SUMMARY:SC Antilope Utrecht RSE-1 - Rotterdam Basketbal RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523274
+LOCATION:De Sprong\, De Aanloop 1\, 4335AS MIDDELBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523275@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270227T103000
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal RSE-2 - HBV The Jumpers RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523275
+LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523279@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270227T140000
+DURATION:PT2H
+SUMMARY:R.B.V.M. RSE-2 - Rotterdam Basketbal RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523279
+LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR

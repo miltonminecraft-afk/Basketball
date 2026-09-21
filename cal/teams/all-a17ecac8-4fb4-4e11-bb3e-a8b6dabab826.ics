@@ -123,7 +123,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T110000
 DURATION:PT2H
 SUMMARY:De Dunckers V14-2 20 - 43 Flevo Musketiers V14-1
-DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 20 - 43\nFOYS wedstrijd-ID: 495915
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 20 - 43\nFOYS wedstrijd-ID: 495915
 LOCATION:Dudok Arena\, Arena 303\, 1213NW HILVERSUM
 STATUS:CONFIRMED
 END:VEVENT
@@ -324,16 +324,6 @@ DTSTART;TZID=Europe/Amsterdam:20261003T183000
 DURATION:PT2H
 SUMMARY:Flevo Musketiers M18-1 - B.A.S. M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502347
-LOCATION:Rietlanden 2\, Grietenij 22 22 06\, 8233BZ LELYSTAD
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-503572@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T183000
-DURATION:PT2H
-SUMMARY:Flevo Musketiers M22-1 - Northside Ballers Amsterdam M22-3
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503572
 LOCATION:Rietlanden 2\, Grietenij 22 22 06\, 8233BZ LELYSTAD
 STATUS:CONFIRMED
 END:VEVENT
@@ -682,7 +672,7 @@ UID:foys-match-502373@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T133000
 DURATION:PT2H
-SUMMARY:Red Stars M18-2 - Flevo Musketiers M18-1
+SUMMARY:Red Stars M18-2* - Flevo Musketiers M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502373
 LOCATION:Sportboulevard De Engh\, Dalweg 181\, 3762AW SOEST
 STATUS:CONFIRMED

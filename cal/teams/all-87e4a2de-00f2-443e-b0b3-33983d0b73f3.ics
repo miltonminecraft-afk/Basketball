@@ -158,16 +158,6 @@ LOCATION:De Meent\, Bergambachterstraat 1A\, 2871WG Schoonhoven
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-502863@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260925T200000
-DURATION:PT2H
-SUMMARY:Dunatos M22-1 - B.C. Virtus M22-1
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502863
-LOCATION:Marsana\, Molenveldweg 4\, 6231RX MEERSSEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-502854@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T123000
@@ -795,6 +785,16 @@ DURATION:PT2H
 SUMMARY:B.C. Virtus M22-1 - Rotterdam-Zuid M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502880
 LOCATION:De Crosser\, Raadhuislaan 19\, 4251VS WERKENDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502863@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261204T200000
+DURATION:PT2H
+SUMMARY:Dunatos M22-1 - B.C. Virtus M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502863
+LOCATION:Marsana\, Molenveldweg 4\, 6231RX MEERSSEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

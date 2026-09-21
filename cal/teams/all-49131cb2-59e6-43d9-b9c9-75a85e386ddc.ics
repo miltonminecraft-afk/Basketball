@@ -118,16 +118,6 @@ LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-513329@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260919T151500
-DURATION:PT2H
-SUMMARY:Racing Beverwijk VSE-1 - BV Amsterdam VSE-3
-DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513329
-LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-502465@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T170000
@@ -143,7 +133,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T170000
 DURATION:PT2H
 SUMMARY:Racing Beverwijk M22-1 64 - 45 Alkm.Guardians M22-1
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 64 - 45\nFOYS wedstrijd-ID: 503051
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 64 - 45\nFOYS wedstrijd-ID: 503051
 LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
 END:VEVENT
@@ -408,6 +398,16 @@ LOCATION:Sporthal Zaanstad-Zuid\, De Weer 26\, 1504AH ZAANDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-513329@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261029T201500
+DURATION:PT2H
+SUMMARY:Racing Beverwijk VSE-1 - BV Amsterdam VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513329
+LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-505658@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261029T204500
@@ -498,6 +498,16 @@ LOCATION:De Waterakkers\, Kerkweg 217\, 1964KJ HEEMSKERK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-496218@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T151500
+DURATION:PT2H
+SUMMARY:Racing Beverwijk X14-1 - ABC Amigos X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496218
+LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-504466@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T151500
@@ -514,16 +524,6 @@ DTSTART;TZID=Europe/Amsterdam:20261107T151500
 DURATION:PT2H
 SUMMARY:Racing Beverwijk MSE-3 - AMVJ-Amsterdam MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512382
-LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-496218@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T170000
-DURATION:PT2H
-SUMMARY:Racing Beverwijk X14-1 - ABC Amigos X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496218
 LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
 END:VEVENT

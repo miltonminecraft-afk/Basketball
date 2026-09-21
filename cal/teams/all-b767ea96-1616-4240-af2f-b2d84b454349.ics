@@ -82,7 +82,7 @@ UID:foys-match-501721@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T090000
 DURATION:PT2H
-SUMMARY:Rotterdam Basketbal M18-3 - B.O.B. M18-3
+SUMMARY:Rotterdam Basketbal M18-3 - B.O.B. M18-3 *
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501721
 LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
 STATUS:CONFIRMED
@@ -132,8 +132,8 @@ UID:foys-match-506813@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T120000
 DURATION:PT2H
-SUMMARY:EBV Baros MSE-2 - Rotterdam Basketbal MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506813
+SUMMARY:EBV Baros MSE-2 54 - 82 Rotterdam Basketbal MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Final\nUitslag: 54 - 82\nFOYS wedstrijd-ID: 506813
 LOCATION:Woudestein\, Burgemeester Oudlaan 50\, 3062PA ROTTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -283,7 +283,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T110000
 DURATION:PT2H
 SUMMARY:Rotterdam Basketbal M18-1 62 - 74 Divine M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nUitslag: 62 - 74\nFOYS wedstrijd-ID: 501079
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 62 - 74\nFOYS wedstrijd-ID: 501079
 LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -1758,6 +1758,16 @@ LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-523259@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T121500
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal RSE-2 - SC Antilope Utrecht RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523259
+LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-492707@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T123000
@@ -1775,6 +1785,16 @@ DURATION:PT2H
 SUMMARY:Rotterdam Basketbal M16-2 - Zoebas M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498745
 LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523261@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T140000
+DURATION:PT2H
+SUMMARY:HBV The Jumpers RSE-1 - Rotterdam Basketbal RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523261
+LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1918,6 +1938,16 @@ LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-523303@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T103000
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal RSE-3 - Barons Breda Basketball RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523303
+LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-508180@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T110000
@@ -1985,6 +2015,16 @@ DURATION:PT2H
 SUMMARY:B.C. Virtus V14-1 - Rotterdam Basketbal V14-2
 DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495643
 LOCATION:De Crosser\, Raadhuislaan 19\, 4251VS WERKENDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523308@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T140000
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal RSE-3 - R.B.V.M. RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523308
+LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -2158,6 +2198,16 @@ LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-523263@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T103000
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal RSE-2 - R.B.V.M. RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523263
+LOCATION:De Sprong\, De Aanloop 1\, 4335AS MIDDELBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-492431@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T110000
@@ -2225,6 +2275,16 @@ DURATION:PT2H
 SUMMARY:Rotterdam Basketbal M18-3 - Klipperstars M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501760
 LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523267@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T140000
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal RSE-2 - I.S.R. RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523267
+LOCATION:De Sprong\, De Aanloop 1\, 4335AS MIDDELBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -2348,6 +2408,26 @@ LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-523315@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T121500
+DURATION:PT2H
+SUMMARY:BS Leiden RSE-1 - Rotterdam Basketbal RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523315
+LOCATION:De Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523317@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T140000
+DURATION:PT2H
+SUMMARY:Achilles '71 RSE-1 - Rotterdam Basketbal RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523317
+LOCATION:De Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-508192@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270109T161500
@@ -2408,6 +2488,16 @@ LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-523271@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T121500
+DURATION:PT2H
+SUMMARY:BC Langstraat Shooters RSE-2 - Rotterdam Basketbal RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523271
+LOCATION:De Sprong\, De Aanloop 1\, 4335AS MIDDELBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-492726@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270123T130000
@@ -2415,6 +2505,16 @@ DURATION:PT2H
 SUMMARY:Rotterdam Basketbal V14-1 - GBI van Dijk Grasshoppers V14-1
 DESCRIPTION:Vrouwen U14 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 492726
 LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523274@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270123T140000
+DURATION:PT2H
+SUMMARY:SC Antilope Utrecht RSE-1 - Rotterdam Basketbal RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523274
+LOCATION:De Sprong\, De Aanloop 1\, 4335AS MIDDELBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -2455,6 +2555,26 @@ DURATION:PT2H
 SUMMARY:Rotterdam Basketbal V14-1 - MBCA A'veen V14-1
 DESCRIPTION:Vrouwen U14 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 492732
 LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523321@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T121500
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal RSE-3 - SC Antilope Utrecht RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523321
+LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523324@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270130T140000
+DURATION:PT2H
+SUMMARY:Barons Breda Basketball RSE-1 - Rotterdam Basketbal RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523324
+LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -2568,6 +2688,26 @@ LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-523275@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270227T103000
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal RSE-2 - HBV The Jumpers RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523275
+LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523279@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270227T140000
+DURATION:PT2H
+SUMMARY:R.B.V.M. RSE-2 - Rotterdam Basketbal RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523279
+LOCATION:Sporthal Zevenkamp\, Zevenkampse Ring 301\, 3068HG ROTTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-511969@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270227T160000
@@ -2585,6 +2725,26 @@ DURATION:PT2H
 SUMMARY:Arnhem Eagles V18-1 - Rotterdam Basketbal V18-1
 DESCRIPTION:Vrouwen U18 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504635
 LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523327@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T121500
+DURATION:PT2H
+SUMMARY:R.B.V.M. RSE-3 - Rotterdam Basketbal RSE-3
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523327
+LOCATION:De Kragt\, Terheijdenseweg 416\, 4826AB BREDA
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523330@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270306T140000
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal RSE-3 - BS Leiden RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 2e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523330
+LOCATION:De Kragt\, Terheijdenseweg 416\, 4826AB BREDA
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

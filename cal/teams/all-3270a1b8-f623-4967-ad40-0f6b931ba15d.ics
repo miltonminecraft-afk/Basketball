@@ -1512,7 +1512,7 @@ UID:foys-match-502732@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T190000
 DURATION:PT2H
-SUMMARY:Attacus V22-1 - Vlijmscherp SVH V22-1
+SUMMARY:Attacus V22-1 - Vlijmscherp SVH V22-1*
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502732
 LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
 STATUS:CONFIRMED
@@ -1584,6 +1584,16 @@ DTSTART;TZID=Europe/Amsterdam:20261128T130000
 DURATION:PT2H
 SUMMARY:Attacus X10-2 - Den Dungk X10-2
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491498
+LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496895@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T130000
+DURATION:PT2H
+SUMMARY:Achilles '71 X14-2 - Attacus X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496895
 LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
 STATUS:CONFIRMED
 END:VEVENT
@@ -1705,16 +1715,6 @@ DURATION:PT2H
 SUMMARY:Utrecht Basketball - MSE-1 MSE-1 - Attacus MSE-1
 DESCRIPTION:Mannen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 509270
 LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-496895@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261129T000000
-DURATION:PT2H
-SUMMARY:Achilles '71 X14-2 - Attacus X14-2
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496895
-LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -2028,16 +2028,6 @@ LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-507350@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270206T000000
-DURATION:PT2H
-SUMMARY:Achilles '71 MSE-2 - Attacus MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507350
-LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-503764@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270206T150000
@@ -2075,6 +2065,16 @@ DURATION:PT2H
 SUMMARY:WYBA basketbalvereniging MSE-2 - Attacus MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507701
 LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507350@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270228T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 MSE-2 - Attacus MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507350
+LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

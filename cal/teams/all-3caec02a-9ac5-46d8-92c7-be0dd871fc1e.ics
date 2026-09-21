@@ -192,10 +192,10 @@ UID:foys-match-493678@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T133000
 DURATION:PT2H
-SUMMARY:AFGELAST: BV Leiderdorp X12-1 - Harlemlakers X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 493678
+SUMMARY:BV Leiderdorp X12-1 20 - 0 Harlemlakers X12-2*
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 493678
 LOCATION:De Bloemerd\, De Bloemerd 1 a\, 2353BZ LEIDERDORP
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-501770@basketball-agenda
@@ -652,7 +652,7 @@ UID:foys-match-498238@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T100000
 DURATION:PT2H
-SUMMARY:BV Oegstgeest V16-1 - BV Leiderdorp V16-1
+SUMMARY:BV Oegstgeest V16-1* - BV Leiderdorp V16-1
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498238
 LOCATION:Sporthal De Cuyl\, de Voscuyl 36\, 2341BJ OEGSTGEEST
 STATUS:CONFIRMED

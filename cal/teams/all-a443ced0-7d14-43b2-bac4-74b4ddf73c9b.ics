@@ -498,16 +498,6 @@ LOCATION:Bibian Mentel Sporthal\, Foekje Dillemastraat 118\, 1095 MK Amsterdam
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-513329@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260919T151500
-DURATION:PT2H
-SUMMARY:Racing Beverwijk VSE-1 - BV Amsterdam VSE-3
-DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513329
-LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-495715@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T161500
@@ -543,7 +533,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T163000
 DURATION:PT2H
 SUMMARY:BV Amsterdam M16-4 31 - 88 BV Early Bird M16-2
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nUitslag: 31 - 88\nFOYS wedstrijd-ID: 499753
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 31 - 88\nFOYS wedstrijd-ID: 499753
 LOCATION:Bibian Mentel Sporthal\, Foekje Dillemastraat 118\, 1095 MK Amsterdam
 STATUS:CONFIRMED
 END:VEVENT
@@ -552,10 +542,10 @@ UID:foys-match-503815@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T163000
 DURATION:PT2H
-SUMMARY:AFGELAST: CobraNova VSE-2 - BV Amsterdam VSE-2
-DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 503815
+SUMMARY:CobraNova VSE-2 20 - 0 BV Amsterdam VSE-2*
+DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 503815
 LOCATION:Forum Kwadraat\, De Vliegerlaan 2 4\, 2273BV VOORBURG
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-506555@basketball-agenda
@@ -612,8 +602,8 @@ UID:foys-match-502532@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260920T140000
 DURATION:PT2H
-SUMMARY:BC Flying Oost M18-3 - BV Amsterdam M18-2
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502532
+SUMMARY:BC Flying Oost M18-3* 0 - 20 BV Amsterdam M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 0 - 20\nFOYS wedstrijd-ID: 502532
 LOCATION:Sporthal Zeeburg\, Insulindeweg 1001\, 1095DH AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -782,7 +772,7 @@ UID:foys-match-503821@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T143000
 DURATION:PT2H
-SUMMARY:BV Amsterdam VSE-2 - BV Hoofddorp VSE-1
+SUMMARY:BV Amsterdam VSE-2* - BV Hoofddorp VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503821
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -1222,7 +1212,7 @@ UID:foys-match-503828@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T203000
 DURATION:PT2H
-SUMMARY:BS Leiden VSE-2 - BV Amsterdam VSE-2
+SUMMARY:BS Leiden VSE-2 - BV Amsterdam VSE-2*
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503828
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
@@ -1282,7 +1272,7 @@ UID:foys-match-503832@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T153000
 DURATION:PT2H
-SUMMARY:BV Amsterdam VSE-2 - BC Utrecht Cangeroes VSE-2
+SUMMARY:BV Amsterdam VSE-2* - BC Utrecht Cangeroes VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503832
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -1312,7 +1302,7 @@ UID:foys-match-498261@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261011T090000
 DURATION:PT2H
-SUMMARY:BV Oegstgeest V16-1 - BV Amsterdam V16-1
+SUMMARY:BV Oegstgeest V16-1* - BV Amsterdam V16-1
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498261
 LOCATION:Sporthal De Cuyl\, de Voscuyl 36\, 2341BJ OEGSTGEEST
 STATUS:CONFIRMED
@@ -1502,7 +1492,7 @@ UID:foys-match-503809@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T163000
 DURATION:PT2H
-SUMMARY:BV Amsterdam VSE-2 - Punch VSE-1
+SUMMARY:BV Amsterdam VSE-2* - Punch VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503809
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -1572,7 +1562,7 @@ UID:foys-match-502553@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261025T120000
 DURATION:PT2H
-SUMMARY:BC Flying Oost M18-3 - BV Amsterdam M18-3
+SUMMARY:BC Flying Oost M18-3* - BV Amsterdam M18-3
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502553
 LOCATION:Sporthal Zeeburg\, Insulindeweg 1001\, 1095DH AMSTERDAM
 STATUS:CONFIRMED
@@ -1595,6 +1585,16 @@ DURATION:PT2H
 SUMMARY:Landslake Lions V18-1 - BV Amsterdam V18-1
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500814
 LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513329@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261029T201500
+DURATION:PT2H
+SUMMARY:Racing Beverwijk VSE-1 - BV Amsterdam VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513329
+LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1862,7 +1862,7 @@ UID:foys-match-503837@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261101T170000
 DURATION:PT2H
-SUMMARY:U.S. VSE-2 - BV Amsterdam VSE-2
+SUMMARY:U.S. VSE-2 - BV Amsterdam VSE-2*
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503837
 LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
 STATUS:CONFIRMED
@@ -2092,7 +2092,7 @@ UID:foys-match-503843@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T130000
 DURATION:PT2H
-SUMMARY:BV Amsterdam VSE-2 - Cady '73 VSE-1
+SUMMARY:BV Amsterdam VSE-2* - Cady '73 VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503843
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -2372,7 +2372,7 @@ UID:foys-match-503851@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T183000
 DURATION:PT2H
-SUMMARY:Utrecht Bull's VSE-2 - BV Amsterdam VSE-2
+SUMMARY:Utrecht Bull's VSE-2 - BV Amsterdam VSE-2*
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503851
 LOCATION:Galgenwaard\, Herculesplein 341\, 3584AA UTRECHT
 STATUS:CONFIRMED
@@ -2522,7 +2522,7 @@ UID:foys-match-503854@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T180000
 DURATION:PT2H
-SUMMARY:BV Amsterdam VSE-2 - Lokomotief VSE-1
+SUMMARY:BV Amsterdam VSE-2* - Lokomotief VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503854
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -2622,7 +2622,7 @@ UID:foys-match-501059@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T120000
 DURATION:PT2H
-SUMMARY:BC Flying Oost M18-1 - BV Amsterdam M18-1
+SUMMARY:BC Flying Oost M18-1* - BV Amsterdam M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501059
 LOCATION:Sporthal Zeeburg\, Insulindeweg 1001\, 1095DH AMSTERDAM
 STATUS:CONFIRMED
@@ -2942,7 +2942,7 @@ UID:foys-match-503864@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T190000
 DURATION:PT2H
-SUMMARY:BV Amsterdam VSE-2 - VBC Akrides VSE-1
+SUMMARY:BV Amsterdam VSE-2* - VBC Akrides VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503864
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -3292,7 +3292,7 @@ UID:foys-match-503867@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T210000
 DURATION:PT2H
-SUMMARY:B.O.B. VSE-1 - BV Amsterdam VSE-2
+SUMMARY:B.O.B. VSE-1 - BV Amsterdam VSE-2*
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503867
 LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
 STATUS:CONFIRMED
@@ -3392,7 +3392,7 @@ UID:foys-match-503874@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270109T170000
 DURATION:PT2H
-SUMMARY:Punch VSE-1 - BV Amsterdam VSE-2
+SUMMARY:Punch VSE-1 - BV Amsterdam VSE-2*
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503874
 LOCATION:Sportcentr.TU Delft\, Mekelweg 8\, 2628CD DELFT
 STATUS:CONFIRMED
@@ -3462,7 +3462,7 @@ UID:foys-match-503881@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270116T163000
 DURATION:PT2H
-SUMMARY:BV Amsterdam VSE-2 - CobraNova VSE-2
+SUMMARY:BV Amsterdam VSE-2* - CobraNova VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503881
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -3522,7 +3522,7 @@ UID:foys-match-503887@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270123T000000
 DURATION:PT2H
-SUMMARY:BV Hoofddorp VSE-1 - BV Amsterdam VSE-2
+SUMMARY:BV Hoofddorp VSE-1 - BV Amsterdam VSE-2*
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503887
 LOCATION:Sportcomplex Koning Willem-Alexander\, Bennebroekerweg 800\, 2134AB HOOFDDORP
 STATUS:CONFIRMED
@@ -3642,7 +3642,7 @@ UID:foys-match-503892@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270130T142500
 DURATION:PT2H
-SUMMARY:BV Amsterdam VSE-2 - BS Leiden VSE-2
+SUMMARY:BV Amsterdam VSE-2* - BS Leiden VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503892
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -3712,7 +3712,7 @@ UID:foys-match-503896@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270206T150000
 DURATION:PT2H
-SUMMARY:BC Utrecht Cangeroes VSE-2 - BV Amsterdam VSE-2
+SUMMARY:BC Utrecht Cangeroes VSE-2 - BV Amsterdam VSE-2*
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503896
 LOCATION:Sporthal Lunetten\, Zwarte Woud 201\, 3524SG UTRECHT
 STATUS:CONFIRMED
@@ -3802,7 +3802,7 @@ UID:foys-match-503903@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270213T143000
 DURATION:PT2H
-SUMMARY:BV Amsterdam VSE-2 - U.S. VSE-2
+SUMMARY:BV Amsterdam VSE-2* - U.S. VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503903
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -3882,7 +3882,7 @@ UID:foys-match-503910@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270306T180000
 DURATION:PT2H
-SUMMARY:Cady '73 VSE-1 - BV Amsterdam VSE-2
+SUMMARY:Cady '73 VSE-1 - BV Amsterdam VSE-2*
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503910
 LOCATION:Sporthal De Lijster\, Lijstersingel 20\, 2902JD CAPELLE AAN DEN IJSSEL
 STATUS:CONFIRMED
@@ -3952,7 +3952,7 @@ UID:foys-match-503914@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270313T163000
 DURATION:PT2H
-SUMMARY:BV Amsterdam VSE-2 - Utrecht Bull's VSE-2
+SUMMARY:BV Amsterdam VSE-2* - Utrecht Bull's VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503914
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -4052,7 +4052,7 @@ UID:foys-match-503925@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270320T170000
 DURATION:PT2H
-SUMMARY:Lokomotief VSE-1 - BV Amsterdam VSE-2
+SUMMARY:Lokomotief VSE-1 - BV Amsterdam VSE-2*
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503925
 LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
 STATUS:CONFIRMED
@@ -4112,7 +4112,7 @@ UID:foys-match-503926@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270403T180000
 DURATION:PT2H
-SUMMARY:VBC Akrides VSE-1 - BV Amsterdam VSE-2
+SUMMARY:VBC Akrides VSE-1 - BV Amsterdam VSE-2*
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503926
 LOCATION:Sporthal IJmuiden-Oost\, Tiberiusplein 6\, 1971HN IJMUIDEN
 STATUS:CONFIRMED
@@ -4192,7 +4192,7 @@ UID:foys-match-503936@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270410T163000
 DURATION:PT2H
-SUMMARY:BV Amsterdam VSE-2 - B.O.B. VSE-1
+SUMMARY:BV Amsterdam VSE-2* - B.O.B. VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503936
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED

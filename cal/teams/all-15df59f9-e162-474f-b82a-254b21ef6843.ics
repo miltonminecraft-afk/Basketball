@@ -52,10 +52,10 @@ UID:foys-match-505872@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260920T150000
 DURATION:PT2H
-SUMMARY:AFGELAST: Maastricht Knights MSE-1 - The Black Eagles MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 505872
+SUMMARY:Maastricht Knights MSE-1 20 - 0 The Black Eagles MSE-1*
+DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 505872
 LOCATION:Universitair Sportcentrum Randwijck\, P Debyeplein 15\, 6229HA MAASTRICHT
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-508647@basketball-agenda
@@ -342,7 +342,7 @@ UID:foys-match-505942@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270116T000000
 DURATION:PT2H
-SUMMARY:The Black Eagles MSE-1 - Maastricht Knights MSE-1
+SUMMARY:The Black Eagles MSE-1* - Maastricht Knights MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505942
 LOCATION:De Hazelaar\, T.M. Kortenhorstlaan 6\, 5244GD ROSMALEN
 STATUS:CONFIRMED

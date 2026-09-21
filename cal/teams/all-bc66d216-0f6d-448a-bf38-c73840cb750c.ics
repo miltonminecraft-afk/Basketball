@@ -163,7 +163,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T100000
 DURATION:PT2H
 SUMMARY:Challenge X12-1 83 - 33 UNLIMITED X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 83 - 33\nFOYS wedstrijd-ID: 493894
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 83 - 33\nFOYS wedstrijd-ID: 493894
 LOCATION:De Tinnegieter\, Leigraaf 2\, 6641DH BEUNINGEN GLD
 STATUS:CONFIRMED
 END:VEVENT
@@ -1282,7 +1282,7 @@ UID:foys-match-505924@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T180000
 DURATION:PT2H
-SUMMARY:The Black Eagles MSE-1 - Challenge MSE-1
+SUMMARY:The Black Eagles MSE-1* - Challenge MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505924
 LOCATION:De Hazelaar\, T.M. Kortenhorstlaan 6\, 5244GD ROSMALEN
 STATUS:CONFIRMED
@@ -1832,7 +1832,7 @@ UID:foys-match-505990@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270403T150000
 DURATION:PT2H
-SUMMARY:Challenge MSE-1 - The Black Eagles MSE-1
+SUMMARY:Challenge MSE-1 - The Black Eagles MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505990
 LOCATION:De Tinnegieter\, Leigraaf 2\, 6641DH BEUNINGEN GLD
 STATUS:CONFIRMED

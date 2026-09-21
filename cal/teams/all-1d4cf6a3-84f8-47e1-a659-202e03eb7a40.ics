@@ -342,8 +342,8 @@ UID:foys-match-510881@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260918T190000
 DURATION:PT2H
-SUMMARY:SBA Sphinx MSE-3 - Arnhem Eagles MSE-3
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510881
+SUMMARY:SBA Sphinx MSE-3 25 - 92 Arnhem Eagles MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 25 - 92\nFOYS wedstrijd-ID: 510881
 LOCATION:De Bongerd\, Bornsesteeg 2\, 6708PE WAGENINGEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -363,7 +363,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T093000
 DURATION:PT2H
 SUMMARY:Arnhem Eagles V12-1 38 - 54 BC Bladel V12-1
-DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 38 - 54\nFOYS wedstrijd-ID: 493031
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 38 - 54\nFOYS wedstrijd-ID: 493031
 LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
 STATUS:CONFIRMED
 END:VEVENT
@@ -1012,7 +1012,7 @@ UID:foys-match-505888@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T193000
 DURATION:PT2H
-SUMMARY:The Black Eagles MSE-1 - Arnhem Eagles MSE-1
+SUMMARY:The Black Eagles MSE-1* - Arnhem Eagles MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505888
 LOCATION:De Hazelaar\, T.M. Kortenhorstlaan 6\, 5244GD ROSMALEN
 STATUS:CONFIRMED
@@ -1762,7 +1762,7 @@ UID:foys-match-501536@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T113000
 DURATION:PT2H
-SUMMARY:Arnhem Eagles M18-2 - BC Eindhoven M18-1
+SUMMARY:Arnhem Eagles M18-2 - BC Eindhoven M18-1*
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501536
 LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
 STATUS:CONFIRMED
@@ -2012,7 +2012,7 @@ UID:foys-match-503477@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T153000
 DURATION:PT2H
-SUMMARY:Arnhem Eagles M22-3 - Nimma Gemina M22-2
+SUMMARY:Arnhem Eagles M22-3 - Nimma Gemina M22-2*
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503477
 LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
 STATUS:CONFIRMED
@@ -2992,7 +2992,7 @@ UID:foys-match-505954@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270130T090000
 DURATION:PT2H
-SUMMARY:Arnhem Eagles MSE-1 - The Black Eagles MSE-1
+SUMMARY:Arnhem Eagles MSE-1 - The Black Eagles MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505954
 LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
 STATUS:CONFIRMED

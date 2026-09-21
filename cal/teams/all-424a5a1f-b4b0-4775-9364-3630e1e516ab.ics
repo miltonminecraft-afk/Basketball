@@ -293,7 +293,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T110000
 DURATION:PT2H
 SUMMARY:Almere Pioneers M12-1 17 - 95 Lokomotief M12-1
-DESCRIPTION:Mannen U12 Landelijk - Eredivisie\nStatus: Planned\nUitslag: 17 - 95\nFOYS wedstrijd-ID: 492386
+DESCRIPTION:Mannen U12 Landelijk - Eredivisie\nStatus: Final\nUitslag: 17 - 95\nFOYS wedstrijd-ID: 492386
 LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
 STATUS:CONFIRMED
 END:VEVENT
@@ -413,7 +413,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T160000
 DURATION:PT2H
 SUMMARY:Break Stars X14-1 48 - 52 Almere Pioneers X14-3
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 48 - 52\nFOYS wedstrijd-ID: 496444
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 48 - 52\nFOYS wedstrijd-ID: 496444
 LOCATION:De Trits\, Goeman Borgesiuslaan 2\, 3741CR BAARN
 STATUS:CONFIRMED
 END:VEVENT
@@ -742,7 +742,7 @@ UID:foys-match-502542@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260927T120000
 DURATION:PT2H
-SUMMARY:BC Flying Oost M18-3 - Almere Pioneers M18-3
+SUMMARY:BC Flying Oost M18-3* - Almere Pioneers M18-3
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502542
 LOCATION:Sporthal Zeeburg\, Insulindeweg 1001\, 1095DH AMSTERDAM
 STATUS:CONFIRMED
@@ -2712,7 +2712,7 @@ UID:foys-match-498296@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T160000
 DURATION:PT2H
-SUMMARY:Almere Pioneers V16-1 - BV Oegstgeest V16-1
+SUMMARY:Almere Pioneers V16-1 - BV Oegstgeest V16-1*
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498296
 LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
 STATUS:CONFIRMED

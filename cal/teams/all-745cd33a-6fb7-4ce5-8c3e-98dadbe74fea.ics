@@ -222,7 +222,7 @@ UID:foys-match-503559@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T120000
 DURATION:PT2H
-SUMMARY:Harlemlakers M22-1 20 - 0 Northside Ballers Amsterdam M22-3
+SUMMARY:Harlemlakers M22-1 20 - 0 Northside Ballers Amsterdam M22-3*
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 503559
 LOCATION:Calandhal Hal 1\, Eliza van Calcarstraat 2\, 1068RR AMSTERDAM
 STATUS:CONFIRMED
@@ -408,16 +408,6 @@ LOCATION:De Weeren\, Beemsterstraat 656\, 1027ED AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-503565@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260926T170000
-DURATION:PT2H
-SUMMARY:Northside Ballers Amsterdam M22-3 - Utrecht Basketball M22-4 M22-4
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503565
-LOCATION:De Weeren\, Beemsterstraat 656\, 1027ED AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-498929@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T171500
@@ -598,16 +588,6 @@ LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-503572@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T183000
-DURATION:PT2H
-SUMMARY:Flevo Musketiers M22-1 - Northside Ballers Amsterdam M22-3
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503572
-LOCATION:Rietlanden 2\, Grietenij 22 22 06\, 8233BZ LELYSTAD
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-501035@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T114500
@@ -732,7 +712,7 @@ UID:foys-match-501040@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T103000
 DURATION:PT2H
-SUMMARY:Northside Ballers Amsterdam M18-1 - BC Flying Oost M18-1
+SUMMARY:Northside Ballers Amsterdam M18-1 - BC Flying Oost M18-1*
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501040
 LOCATION:De Weeren\, Beemsterstraat 656\, 1027ED AMSTERDAM
 STATUS:CONFIRMED
@@ -814,16 +794,6 @@ DTSTART;TZID=Europe/Amsterdam:20261024T150000
 DURATION:PT2H
 SUMMARY:Northside Ballers Amsterdam M16-2 - BV Amsterdam M16-2
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498940
-LOCATION:De Weeren\, Beemsterstraat 656\, 1027ED AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-503576@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261024T150000
-DURATION:PT2H
-SUMMARY:Northside Ballers Amsterdam M22-3 - New Stars M22-1
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503576
 LOCATION:De Weeren\, Beemsterstraat 656\, 1027ED AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -1005,16 +975,6 @@ DURATION:PT2H
 SUMMARY:Onze Gezellen V14-3 - Northside Ballers Amsterdam V14-1
 DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495732
 LOCATION:Onze Gezellen Sporthal\, Van der Aartweg 2\, 2026ZL HAARLEM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-503581@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261101T124500
-DURATION:PT2H
-SUMMARY:Blue Arrows M22-1 - Northside Ballers Amsterdam M22-3
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503581
-LOCATION:Hoenderdaal\, Hoendersteeg 7\, 3972NA DRIEBERGEN-RIJSENBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1328,16 +1288,6 @@ LOCATION:Karekiet\, Karekietpark 2\, 1444HV PURMEREND
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-503595@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261115T153000
-DURATION:PT2H
-SUMMARY:BV Aalsmeer M22-1 - Northside Ballers Amsterdam M22-3
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503595
-LOCATION:Proosdijhal\, Edisonstraat 6\, 1433KA KUDELSTAART
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-492888@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261117T173000
@@ -1434,16 +1384,6 @@ DTSTART;TZID=Europe/Amsterdam:20261121T150000
 DURATION:PT2H
 SUMMARY:Northside Ballers Amsterdam M16-2 - Novo Stars M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498962
-LOCATION:De Weeren\, Beemsterstraat 656\, 1027ED AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-503598@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T150000
-DURATION:PT2H
-SUMMARY:Northside Ballers Amsterdam M22-3 - Novo Stars M22-1
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503598
 LOCATION:De Weeren\, Beemsterstraat 656\, 1027ED AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -1815,16 +1755,6 @@ DURATION:PT2H
 SUMMARY:Racing Beverwijk M22-1 - Northside Ballers Amsterdam M22-2
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503105
 LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-503611@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261213T163000
-DURATION:PT2H
-SUMMARY:Windmills M22-1 - Northside Ballers Amsterdam M22-3
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503611
-LOCATION:Sporthal Zaanstad-Zuid\, De Weer 26\, 1504AH ZAANDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
