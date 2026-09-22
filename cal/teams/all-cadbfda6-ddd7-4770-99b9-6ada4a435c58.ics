@@ -228,16 +228,6 @@ LOCATION:De Spreng\, Vredeveldseweg 57\, 9404CC ASSEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-502056@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260919T140000
-DURATION:PT2H
-SUMMARY:Assist M18-1 - SIETSEMA Highlanders M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502056
-LOCATION:De Spreng\, Vredeveldseweg 57\, 9404CC ASSEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-505255@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T144500
@@ -348,16 +338,6 @@ LOCATION:De Spreng\, Vredeveldseweg 57\, 9404CC ASSEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-496755@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260926T130000
-DURATION:PT2H
-SUMMARY:Dyna '75 X14-1 - Assist X14-2
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496755
-LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-499566@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T130000
@@ -365,6 +345,16 @@ DURATION:PT2H
 SUMMARY:V.U.A.S. M16-2 - Assist M16-2
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499566
 LOCATION:De Beurs\, Beursplein 4\, 8253EA DRONTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-496755@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T133000
+DURATION:PT2H
+SUMMARY:Dyna '75 X14-1 - Assist X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496755
+LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1320,7 +1310,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-513715@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T181500
+DTSTART;TZID=Europe/Amsterdam:20261128T163000
 DURATION:PT2H
 SUMMARY:LB-ZAC V18-1 - Assist V18-1
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513715
@@ -1375,6 +1365,16 @@ DURATION:PT2H
 SUMMARY:Dyna '75 M16-2 - Assist M16-2
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499579
 LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502056@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T111500
+DURATION:PT2H
+SUMMARY:Assist M18-1 - SIETSEMA Highlanders M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502056
+LOCATION:De Spreng\, Vredeveldseweg 57\, 9404CC ASSEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

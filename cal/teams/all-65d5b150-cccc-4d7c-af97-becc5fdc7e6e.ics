@@ -78,22 +78,22 @@ LOCATION:Jo Gerrishal\, Achilleslaan 2 a\, 6042JV ROERMOND
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-502405@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T100000
+DURATION:PT2H
+SUMMARY:Fanatics '71 M18-1 - Tracks Parkstad M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502405
+LOCATION:Jo Gerrishal\, Achilleslaan 2 a\, 6042JV ROERMOND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-497743@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260927T120000
 DURATION:PT2H
 SUMMARY:Fanatics '71 X14-1 - Springfield '75 X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497743
-LOCATION:Jo Gerrishal\, Achilleslaan 2 a\, 6042JV ROERMOND
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-502405@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260927T120000
-DURATION:PT2H
-SUMMARY:Fanatics '71 M18-1 - Tracks Parkstad M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502405
 LOCATION:Jo Gerrishal\, Achilleslaan 2 a\, 6042JV ROERMOND
 STATUS:CONFIRMED
 END:VEVENT

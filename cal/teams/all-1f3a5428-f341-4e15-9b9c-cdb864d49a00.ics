@@ -688,6 +688,16 @@ LOCATION:Tarthorst\, Tarthorst 152\, 6708JD WAGENINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-523345@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T133000
+DURATION:PT2H
+SUMMARY:WYBA basketbalvereniging M18-2 - Pluto M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523345
+LOCATION:Arcus Breedtesporthal\, Campuslaan 4\, 6602HX WIJCHEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-491672@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T100000
@@ -834,6 +844,16 @@ DTSTART;TZID=Europe/Amsterdam:20261101T150000
 DURATION:PT2H
 SUMMARY:Pluto MSE-1 - Arnhem Eagles MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505898
+LOCATION:Tarthorst\, Tarthorst 152\, 6708JD WAGENINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523347@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T170000
+DURATION:PT2H
+SUMMARY:Pluto M18-2 - B.V. Batouwe M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523347
 LOCATION:Tarthorst\, Tarthorst 152\, 6708JD WAGENINGEN
 STATUS:CONFIRMED
 END:VEVENT

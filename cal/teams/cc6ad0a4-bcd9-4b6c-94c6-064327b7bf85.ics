@@ -28,16 +28,6 @@ LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-510666@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260927T111500
-DURATION:PT2H
-SUMMARY:Vido MSE-2* - Tracks Parkstad MSE-1*
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510666
-LOCATION:Den Ekkerman\, Wal 150\, 5501HP VELDHOVEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-510676@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261011T140000
@@ -125,16 +115,6 @@ DURATION:PT2H
 SUMMARY:Vido MSE-2* - Basketbal Academie Limburg MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510716
 LOCATION:Den Ekkerman\, Wal 150\, 5501HP VELDHOVEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-510725@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270123T160000
-DURATION:PT2H
-SUMMARY:Tracks Parkstad MSE-1* - Vido MSE-2*
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510725
-LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
