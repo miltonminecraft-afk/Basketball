@@ -1598,16 +1598,6 @@ LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-507043@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T190000
-DURATION:PT2H
-SUMMARY:BV Groningen MSE-3 - Jumping Five MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507043
-LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-506203@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T191500
@@ -1634,6 +1624,16 @@ DTSTART;TZID=Europe/Amsterdam:20261101T090000
 DURATION:PT2H
 SUMMARY:BV Groningen M18-1 - Felloo | Twente Hoops M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501165
+LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507043@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T104500
+DURATION:PT2H
+SUMMARY:BV Groningen MSE-3 - Jumping Five MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507043
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -2420,7 +2420,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-492624@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261122T120000
+DTSTART;TZID=Europe/Amsterdam:20261122T124500
 DURATION:PT2H
 SUMMARY:BV Groningen M14-1 - Almere Pioneers M14-1
 DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492624

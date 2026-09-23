@@ -28,16 +28,6 @@ LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-495876@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260926T150000
-DURATION:PT2H
-SUMMARY:Challenge V14-1 - Den Dungk V14-1
-DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495876
-LOCATION:De Tinnegieter\, Leigraaf 2\, 6641DH BEUNINGEN GLD
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-495880@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T143000
@@ -45,6 +35,16 @@ DURATION:PT2H
 SUMMARY:Den Dungk V14-1 - WYBA basketbalvereniging V14-1
 DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495880
 LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495876@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T122500
+DURATION:PT2H
+SUMMARY:Challenge V14-1 - Den Dungk V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495876
+LOCATION:De Tinnegieter\, Leigraaf 2\, 6641DH BEUNINGEN GLD
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

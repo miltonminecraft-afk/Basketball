@@ -398,16 +398,6 @@ LOCATION:Den Oert\, J. Witteveenlaan 1\, 3201LX SPIJKENISSE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-504120@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260919T140000
-DURATION:PT2H
-SUMMARY:Cady '73 VSE-2 37 - 40 Klipperstars VSE-1
-DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Final\nUitslag: 37 - 40\nFOYS wedstrijd-ID: 504120
-LOCATION:Sporthal De Lijster\, Lijstersingel 20\, 2902JD CAPELLE AAN DEN IJSSEL
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-497804@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T141500
@@ -415,6 +405,16 @@ DURATION:PT2H
 SUMMARY:BV Leerdam X14-1 68 - 24 Cady '73 X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 68 - 24\nFOYS wedstrijd-ID: 497804
 LOCATION:Feel Fit Center/Berenschot\, Tiendweg 9\, 4142EG LEERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504120@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260919T160000
+DURATION:PT2H
+SUMMARY:Cady '73 VSE-2 37 - 40 Klipperstars VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Final\nUitslag: 37 - 40\nFOYS wedstrijd-ID: 504120
+LOCATION:Sporthal De Lijster\, Lijstersingel 20\, 2902JD CAPELLE AAN DEN IJSSEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -534,7 +534,7 @@ DTSTART;TZID=Europe/Amsterdam:20260926T140000
 DURATION:PT2H
 SUMMARY:Cady '73 X14-1 - Hurricanes X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496256
-LOCATION:Sporthal De Lijster\, Lijstersingel 20\, 2902JD CAPELLE AAN DEN IJSSEL
+LOCATION:Parkzoomhal\, Iersestraat 15\, 2912TH NIEUWERKERK AD IJSSEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -564,7 +564,7 @@ DTSTART;TZID=Europe/Amsterdam:20260926T160000
 DURATION:PT2H
 SUMMARY:Cady '73 M18-1 - Eastwood Tigers M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501398
-LOCATION:Sporthal De Lijster\, Lijstersingel 20\, 2902JD CAPELLE AAN DEN IJSSEL
+LOCATION:Parkzoomhal\, Iersestraat 15\, 2912TH NIEUWERKERK AD IJSSEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -604,7 +604,7 @@ DTSTART;TZID=Europe/Amsterdam:20260926T180000
 DURATION:PT2H
 SUMMARY:Cady '73 M22-1 - Northside Ballers Amsterdam M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502897
-LOCATION:Sporthal De Lijster\, Lijstersingel 20\, 2902JD CAPELLE AAN DEN IJSSEL
+LOCATION:Parkzoomhal\, Iersestraat 15\, 2912TH NIEUWERKERK AD IJSSEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -644,7 +644,7 @@ DTSTART;TZID=Europe/Amsterdam:20260926T200000
 DURATION:PT2H
 SUMMARY:Cady '73 MSE-3 - BV Oegstgeest MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508138
-LOCATION:Sporthal De Lijster\, Lijstersingel 20\, 2902JD CAPELLE AAN DEN IJSSEL
+LOCATION:Parkzoomhal\, Iersestraat 15\, 2912TH NIEUWERKERK AD IJSSEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

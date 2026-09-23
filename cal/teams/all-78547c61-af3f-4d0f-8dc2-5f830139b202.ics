@@ -1938,16 +1938,6 @@ LOCATION:De Doelen\, Doelen 7\, 4813GP BREDA
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-498549@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261129T000000
-DURATION:PT2H
-SUMMARY:Achilles '71 V16-1 - Barons Breda Basketball V16-2
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498549
-LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-492787@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261129T100000
@@ -1985,6 +1975,16 @@ DURATION:PT2H
 SUMMARY:Blue Arrows V12-1 - Barons Breda Basketball V12-1
 DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493003
 LOCATION:Hoenderdaal\, Hoendersteeg 7\, 3972NA DRIEBERGEN-RIJSENBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498549@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T160000
+DURATION:PT2H
+SUMMARY:Achilles '71 V16-1 - Barons Breda Basketball V16-2
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498549
+LOCATION:De Doelen\, Doelen 7\, 4813GP BREDA
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
