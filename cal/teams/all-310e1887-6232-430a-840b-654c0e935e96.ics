@@ -78,6 +78,16 @@ LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-516705@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260926T110000
+DURATION:PT2H
+SUMMARY:D.B.V. Arriba VSE-2 - Jolly Jumpers VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 516705
+LOCATION:Sportcentrum UT\, De Hems 20\, 7522NL ENSCHEDE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-503951@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T130000
@@ -105,16 +115,6 @@ DURATION:PT2H
 SUMMARY:Uitsmijters MSE-2 - D.B.V. Arriba MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513937
 LOCATION:IISPA Breedtesporthal\, Stadionlaan 60\, 7606JZ ALMELO
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-516705@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260926T170000
-DURATION:PT2H
-SUMMARY:D.B.V. Arriba VSE-2 - Jolly Jumpers VSE-3
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 516705
-LOCATION:Sportcentrum UT\, De Hems 20\, 7522NL ENSCHEDE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

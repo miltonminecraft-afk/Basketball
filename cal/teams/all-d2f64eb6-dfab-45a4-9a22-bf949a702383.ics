@@ -142,10 +142,10 @@ UID:foys-match-509482@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T183000
 DURATION:PT2H
-SUMMARY:Trajanum MSE-1 - Heroes Den Bosch MSE-2
-DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509482
+SUMMARY:AFGELAST: Trajanum MSE-1 - Heroes Den Bosch MSE-2
+DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 509482
 LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-509486@basketball-agenda
@@ -490,7 +490,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-507619@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261205T123000
+DTSTART;TZID=Europe/Amsterdam:20261205T163000
 DURATION:PT2H
 SUMMARY:Trajanum MSE-2 - Black Stars MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507619

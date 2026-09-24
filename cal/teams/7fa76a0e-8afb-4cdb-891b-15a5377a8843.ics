@@ -28,16 +28,6 @@ LOCATION:De Meent\, Bergambachterstraat 1A\, 2871WG Schoonhoven
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-511483@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260926T163000
-DURATION:PT2H
-SUMMARY:Utrecht Bull's MSE-6 - Silvertown Lions MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511483
-LOCATION:Galgenwaard\, Herculesplein 341\, 3584AA UTRECHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-511487@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261002T210000
@@ -95,6 +85,16 @@ DURATION:PT2H
 SUMMARY:BV Krimpen MSE-2 - Silvertown Lions MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511515
 LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511483@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261203T210000
+DURATION:PT2H
+SUMMARY:Utrecht Bull's MSE-6 - Silvertown Lions MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511483
+LOCATION:Galgenwaard\, Herculesplein 341\, 3584AA UTRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

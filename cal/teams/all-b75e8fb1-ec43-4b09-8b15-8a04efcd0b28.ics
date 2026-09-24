@@ -1078,16 +1078,6 @@ LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-502017@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261010T120000
-DURATION:PT2H
-SUMMARY:EBBC M18-1 - High Five M18-3
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502017
-LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-492083@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T121500
@@ -1305,6 +1295,16 @@ DURATION:PT2H
 SUMMARY:Arnhem Eagles M18-1 - High Five M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501212
 LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500364@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T111500
+DURATION:PT2H
+SUMMARY:High Five M16-4 - BC Langstraat Shooters M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500364
+LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1758,16 +1758,6 @@ LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-500364@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T154500
-DURATION:PT2H
-SUMMARY:High Five M16-4 - BC Langstraat Shooters M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500364
-LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-507416@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T160000
@@ -1905,6 +1895,16 @@ DURATION:PT2H
 SUMMARY:High Five MSE-3 - B.O.B. MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508409
 LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502017@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T120000
+DURATION:PT2H
+SUMMARY:EBBC M18-1 - High Five M18-3
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502017
+LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
