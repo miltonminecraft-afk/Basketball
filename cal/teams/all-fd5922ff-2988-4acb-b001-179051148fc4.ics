@@ -768,16 +768,6 @@ LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-507023@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260926T183000
-DURATION:PT2H
-SUMMARY:Scylla MSE-2 - Celeritas-Donar MSE-3
-DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507023
-LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-507027@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T190000
@@ -854,6 +844,16 @@ DTSTART;TZID=Europe/Amsterdam:20260927T164500
 DURATION:PT2H
 SUMMARY:Celeritas-Donar M22-1 - Quick Lions M22-1
 DESCRIPTION:Mannen U22 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 512145
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507023@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260930T210000
+DURATION:PT2H
+SUMMARY:Scylla MSE-2 - Celeritas-Donar MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507023
 LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT

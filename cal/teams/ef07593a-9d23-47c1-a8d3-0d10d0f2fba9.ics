@@ -18,16 +18,6 @@ LOCATION:De Wedert\, Past. Heerkensdreef 29\, 5552BG VALKENSWAARD
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-510669@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260927T130000
-DURATION:PT2H
-SUMMARY:BC Titans MSE-1 - Valkenswaard Falcons MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510669
-LOCATION:Sporthal Vie\, Vieboulevard 21\, 6461ND KERKRADE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-510672@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T180000
@@ -85,6 +75,16 @@ DURATION:PT2H
 SUMMARY:Vido MSE-2* - Valkenswaard Falcons MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510702
 LOCATION:Den Ekkerman\, Wal 150\, 5501HP VELDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510669@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261211T210000
+DURATION:PT2H
+SUMMARY:BC Titans MSE-1 - Valkenswaard Falcons MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510669
+LOCATION:Sporthal Vie\, Vieboulevard 21\, 6461ND KERKRADE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

@@ -138,16 +138,6 @@ LOCATION:Feel Fit Center/Berenschot\, Tiendweg 9\, 4142EG LEERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-508916@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T123000
-DURATION:PT2H
-SUMMARY:BV Leerdam MSE-1 - ABC Basketball MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508916
-LOCATION:Feel Fit Center/Berenschot\, Tiendweg 9\, 4142EG LEERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-497812@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T141500
@@ -375,6 +365,16 @@ DURATION:PT2H
 SUMMARY:Black Stars M16-1 - BV Leerdam M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499962
 LOCATION:Feel Fit Center Rhenen\, Groeneweg 58\, 3911PG RHENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508916@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261204T201500
+DURATION:PT2H
+SUMMARY:BV Leerdam MSE-1 - ABC Basketball MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508916
+LOCATION:Feel Fit Center/Berenschot\, Tiendweg 9\, 4142EG LEERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

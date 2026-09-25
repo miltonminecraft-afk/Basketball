@@ -18,13 +18,13 @@ LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-492771@basketball-agenda
+UID:foys-match-492783@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261004T141500
+DTSTART;TZID=Europe/Amsterdam:20261004T140000
 DURATION:PT2H
-SUMMARY:BV Groningen V14-1 - Landstede Hammers V14-1
-DESCRIPTION:Vrouwen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492771
-LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
+SUMMARY:Landstede Hammers V14-1 - BV Groningen V14-1
+DESCRIPTION:Vrouwen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492783
+LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -58,13 +58,13 @@ LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-492783@basketball-agenda
+UID:foys-match-492771@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261122T110000
+DTSTART;TZID=Europe/Amsterdam:20261122T104500
 DURATION:PT2H
-SUMMARY:Landstede Hammers V14-1 - BV Groningen V14-1
-DESCRIPTION:Vrouwen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492783
-LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
+SUMMARY:BV Groningen V14-1 - Landstede Hammers V14-1
+DESCRIPTION:Vrouwen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492771
+LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
