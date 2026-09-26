@@ -263,7 +263,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T100000
 DURATION:PT2H
 SUMMARY:E.L.B.C. X10-1 - Marathon X10-1
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491512
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nFOYS wedstrijd-ID: 491512
 LOCATION:Trivium\, Trivium 60\, 4873LP ETTEN-LEUR
 STATUS:CONFIRMED
 END:VEVENT
@@ -272,8 +272,8 @@ UID:foys-match-497682@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T100000
 DURATION:PT2H
-SUMMARY:E.L.B.C. X14-3 - Eastwood Tigers X14-2
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497682
+SUMMARY:E.L.B.C. X14-3 23 - 53 Eastwood Tigers X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 23 - 53\nFOYS wedstrijd-ID: 497682
 LOCATION:Trivium\, Trivium 60\, 4873LP ETTEN-LEUR
 STATUS:CONFIRMED
 END:VEVENT
@@ -282,8 +282,8 @@ UID:foys-match-495602@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T114500
 DURATION:PT2H
-SUMMARY:E.L.B.C. V14-1 - The Black Eagles V14-1
-DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495602
+SUMMARY:E.L.B.C. V14-1 24 - 114 The Black Eagles V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 24 - 114\nFOYS wedstrijd-ID: 495602
 LOCATION:Trivium\, Trivium 60\, 4873LP ETTEN-LEUR
 STATUS:CONFIRMED
 END:VEVENT
@@ -292,8 +292,8 @@ UID:foys-match-501393@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T114500
 DURATION:PT2H
-SUMMARY:E.L.B.C. M18-1 - B.O.B. M18-2
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501393
+SUMMARY:E.L.B.C. M18-1 56 - 41 B.O.B. M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 56 - 41\nFOYS wedstrijd-ID: 501393
 LOCATION:Trivium\, Trivium 60\, 4873LP ETTEN-LEUR
 STATUS:CONFIRMED
 END:VEVENT
@@ -302,8 +302,8 @@ UID:foys-match-510779@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T121500
 DURATION:PT2H
-SUMMARY:EVBV Octopus MSE-2 - E.L.B.C. MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510779
+SUMMARY:EVBV Octopus MSE-2 45 - 73 E.L.B.C. MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 45 - 73\nFOYS wedstrijd-ID: 510779
 LOCATION:Elzenburg\, Brabantlaan 1\, 5262GW VUGHT
 STATUS:CONFIRMED
 END:VEVENT
@@ -312,8 +312,8 @@ UID:foys-match-497677@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T133000
 DURATION:PT2H
-SUMMARY:E.L.B.C. X14-2 - Oirschot X14-2
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497677
+SUMMARY:E.L.B.C. X14-2 65 - 34 Oirschot X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 65 - 34\nFOYS wedstrijd-ID: 497677
 LOCATION:Trivium\, Trivium 60\, 4873LP ETTEN-LEUR
 STATUS:CONFIRMED
 END:VEVENT
@@ -322,8 +322,8 @@ UID:foys-match-494303@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T140000
 DURATION:PT2H
-SUMMARY:WBB Giants X12-2 - E.L.B.C. X12-3
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494303
+SUMMARY:WBB Giants X12-2 65 - 15 E.L.B.C. X12-3
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 65 - 15\nFOYS wedstrijd-ID: 494303
 LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
@@ -332,8 +332,8 @@ UID:foys-match-496388@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T140000
 DURATION:PT2H
-SUMMARY:Biks Shots X14-1 - E.L.B.C. X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496388
+SUMMARY:Biks Shots X14-1 79 - 47 E.L.B.C. X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 79 - 47\nFOYS wedstrijd-ID: 496388
 LOCATION:De Roodloop\, Roodloop 6\, 5081XZ HILVARENBEEK
 STATUS:CONFIRMED
 END:VEVENT
@@ -342,8 +342,8 @@ UID:foys-match-498382@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T141500
 DURATION:PT2H
-SUMMARY:Vossenberg V16-1 - E.L.B.C. V16-1
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498382
+SUMMARY:Vossenberg V16-1 11 - 58 E.L.B.C. V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 11 - 58\nFOYS wedstrijd-ID: 498382
 LOCATION:De Beuk\, Beukenlaan 4\, 4731CG OUDENBOSCH
 STATUS:CONFIRMED
 END:VEVENT
@@ -352,8 +352,8 @@ UID:foys-match-499518@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T150000
 DURATION:PT2H
-SUMMARY:Goba M16-1 - E.L.B.C. M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499518
+SUMMARY:Goba M16-1 105 - 54 E.L.B.C. M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 105 - 54\nFOYS wedstrijd-ID: 499518
 LOCATION:Oosterbliek\, Dr H B Wiardi Beckmanpln 60\, 4207NC GORINCHEM
 STATUS:CONFIRMED
 END:VEVENT
@@ -362,8 +362,8 @@ UID:foys-match-503124@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T180000
 DURATION:PT2H
-SUMMARY:D.B.V. Rowic M22-1 - E.L.B.C. M22-1
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503124
+SUMMARY:D.B.V. Rowic M22-1 40 - 13 E.L.B.C. M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 40 - 13\nFOYS wedstrijd-ID: 503124
 LOCATION:Sportboulevard\, Fanny Blankers-Koenweg 10\, 3318AX DORDRECHT
 STATUS:CONFIRMED
 END:VEVENT
