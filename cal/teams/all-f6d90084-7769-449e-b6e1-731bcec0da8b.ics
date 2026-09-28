@@ -823,7 +823,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T121500
 DURATION:PT2H
 SUMMARY:ABC Amigos V14-1 76 - 15 BC APOLLO Amsterdam V14-3
-DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 76 - 15\nFOYS wedstrijd-ID: 495719
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 76 - 15\nFOYS wedstrijd-ID: 495719
 LOCATION:Sporthuis Abcoude\, Geinplein 1\, 1391 JN Abcoude
 STATUS:CONFIRMED
 END:VEVENT
@@ -1043,7 +1043,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260927T124500
 DURATION:PT2H
 SUMMARY:BC Triple ThreaT X12-1 27 - 69 BC APOLLO Amsterdam X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: IncompleteMatch\nUitslag: 27 - 69\nFOYS wedstrijd-ID: 493068
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 27 - 69\nFOYS wedstrijd-ID: 493068
 LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
 STATUS:CONFIRMED
 END:VEVENT
@@ -1625,16 +1625,6 @@ DURATION:PT2H
 SUMMARY:BV Alphia MSE-1 - BC APOLLO Amsterdam MSE-8
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511014
 LOCATION:Rijnstreekhal\, Dillenburg 1\, 2404EV ALPHEN AAN DEN RIJN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-505651@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261010T200000
-DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam MSE-2 - Almere Pioneers MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505651
-LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -5395,6 +5385,16 @@ DURATION:PT2H
 SUMMARY:U.S. VSE-5 - BC APOLLO Amsterdam VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505023
 LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505651@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270417T200000
+DURATION:PT2H
+SUMMARY:BC APOLLO Amsterdam MSE-2 - Almere Pioneers MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505651
+LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR

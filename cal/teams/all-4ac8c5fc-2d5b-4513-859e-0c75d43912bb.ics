@@ -218,16 +218,6 @@ LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-509311@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260919T183000
-DURATION:PT2H
-SUMMARY:AFGELAST: Uitsmijters MSE-1 - BC Triple ThreaT MSE-1
-DESCRIPTION:Mannen Senioren Landelijk - Promotiedivisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 509311
-LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-502281@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T190000
@@ -885,6 +875,16 @@ DURATION:PT2H
 SUMMARY:Uitsmijters M16-2 - Amical M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500519
 LOCATION:IISPA Breedtesporthal\, Stadionlaan 60\, 7606JZ ALMELO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509311@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T183000
+DURATION:PT2H
+SUMMARY:Uitsmijters MSE-1 - BC Triple ThreaT MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 509311
+LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

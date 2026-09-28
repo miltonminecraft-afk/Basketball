@@ -423,7 +423,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T100000
 DURATION:PT2H
 SUMMARY:BCE'78 X12-2 31 - 42 Woodpeckers X12-3
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nUitslag: 31 - 42\nFOYS wedstrijd-ID: 494922
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 31 - 42\nFOYS wedstrijd-ID: 494922
 LOCATION:De Peppel\, Peppelensteeg 1 a\, 6715CV EDE GLD
 STATUS:CONFIRMED
 END:VEVENT
@@ -463,7 +463,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T104500
 DURATION:PT2H
 SUMMARY:Archipel M16-2 43 - 22 Woodpeckers M16-5
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nUitslag: 43 - 22\nFOYS wedstrijd-ID: 499926
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 43 - 22\nFOYS wedstrijd-ID: 499926
 LOCATION:Sporthal Parijsch\, Eendenkooi 3\, 4105TN CULEMBORG
 STATUS:CONFIRMED
 END:VEVENT
@@ -502,7 +502,7 @@ UID:foys-match-494196@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T131500
 DURATION:PT2H
-SUMMARY:Woodpeckers X12-4 20 - 0 De Dunckers X12-2*
+SUMMARY:Woodpeckers X12-4 20 - 0 De Dunckers X12-2**
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 494196
 LOCATION:De Slinger\, Kamillehof 24\, 3991GZ HOUTEN
 STATUS:CONFIRMED
@@ -708,16 +708,6 @@ LOCATION:Putter-Eng\, Engweg 6\, 3882AL PUTTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-491336@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T140000
-DURATION:PT2H
-SUMMARY:O.S.M. '75 X10-1 - Woodpeckers X10-2
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491336
-LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-499349@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T140000
@@ -725,6 +715,16 @@ DURATION:PT2H
 SUMMARY:Break Stars M16-1 - Woodpeckers M16-3
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499349
 LOCATION:De Trits\, Goeman Borgesiuslaan 2\, 3741CR BAARN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491336@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T141500
+DURATION:PT2H
+SUMMARY:O.S.M. '75 X10-1 - Woodpeckers X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491336
+LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -890,7 +890,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-493477@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261010T121500
+DTSTART;TZID=Europe/Amsterdam:20261010T123000
 DURATION:PT2H
 SUMMARY:O.S.M. '75 X12-2 - Woodpeckers X12-2
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493477

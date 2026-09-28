@@ -48,16 +48,6 @@ LOCATION:Forum Kwadraat\, De Vliegerlaan 2 4\, 2273BV VOORBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-502620@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261030T210000
-DURATION:PT2H
-SUMMARY:B.O.B. V22-1 - Hurricanes V22-1
-DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502620
-LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-502621@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T120000
@@ -65,6 +55,16 @@ DURATION:PT2H
 SUMMARY:BV Voorne V22-1 - B.O.B. V22-1
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502621
 LOCATION:DukdalfBRES\, Reede 2 a\, 3232CV BRIELLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502620@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T121500
+DURATION:PT2H
+SUMMARY:B.O.B. V22-1 - Hurricanes V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502620
+LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

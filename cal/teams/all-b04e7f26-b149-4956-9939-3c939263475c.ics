@@ -463,7 +463,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T163000
 DURATION:PT2H
 SUMMARY:AFGELAST: CobraNova MSE-2 - CBV Binnenland MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Cancelled\nUitslag: 61 - 63\nFOYS wedstrijd-ID: 505762
+DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 505762
 LOCATION:Forum Kwadraat\, De Vliegerlaan 2 4\, 2273BV VOORBURG
 STATUS:CANCELLED
 END:VEVENT
@@ -1942,7 +1942,7 @@ UID:foys-match-512683@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261113T191500
 DURATION:PT2H
-SUMMARY:Bouncers Basketball M16-3 - CBV Binnenland M16-3
+SUMMARY:Bouncers Basketball M16-3* - CBV Binnenland M16-3
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512683
 LOCATION:De Duikelaar\, Zuidplaslaan 550\, 2743CT WADDINXVEEN
 STATUS:CONFIRMED
@@ -3234,6 +3234,16 @@ DTSTART;TZID=Europe/Amsterdam:20270116T000000
 DURATION:PT2H
 SUMMARY:CBV Binnenland M22-1 - Utrecht Basketball M22-1 M22-1
 DESCRIPTION:Mannen U22 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512233
+LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-524430@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270116T000000
+DURATION:PT2H
+SUMMARY:CBV Binnenland MSE-1 - CobraNova MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 524430
 LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
 STATUS:CONFIRMED
 END:VEVENT

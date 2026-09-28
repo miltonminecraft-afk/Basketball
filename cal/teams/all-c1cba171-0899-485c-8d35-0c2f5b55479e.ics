@@ -42,7 +42,7 @@ UID:foys-match-501830@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T164000
 DURATION:PT2H
-SUMMARY:O.S.M. '75 M18-1 50 - 73 BV Leerdam M18-1
+SUMMARY:O.S.M. '75 M18-1 50 - 73 BV Leerdam M18-1*
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 50 - 73\nFOYS wedstrijd-ID: 501830
 LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED
@@ -92,7 +92,7 @@ UID:foys-match-505036@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260918T194500
 DURATION:PT2H
-SUMMARY:SV Argon VSE-1 35 - 52 O.S.M. '75 VSE-1
+SUMMARY:SV Argon VSE-1* 35 - 52 O.S.M. '75 VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Final\nUitslag: 35 - 52\nFOYS wedstrijd-ID: 505036
 LOCATION:De Eendracht\, Eendracht 1\, 3641ML MIJDRECHT
 STATUS:CONFIRMED
@@ -268,22 +268,22 @@ LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-493472@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T121500
-DURATION:PT2H
-SUMMARY:O.S.M. '75 X12-1 - O.S.M. '75 X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493472
-LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-500807@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T121500
 DURATION:PT2H
 SUMMARY:O.S.M. '75 V18-1 - Quick Runners V18-1
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500807
+LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493472@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T123000
+DURATION:PT2H
+SUMMARY:O.S.M. '75 X12-1 - O.S.M. '75 X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493472
 LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -298,9 +298,19 @@ LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-491336@basketball-agenda
+UID:foys-match-510279@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T140000
+DURATION:PT2H
+SUMMARY:Jump IJsselstein MSE-1 - O.S.M. '75 MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510279
+LOCATION:Het Heem\, Heemradenlaan 36\, 3401GX IJSSELSTEIN UT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-491336@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261003T141500
 DURATION:PT2H
 SUMMARY:O.S.M. '75 X10-1 - Woodpeckers X10-2
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491336
@@ -310,21 +320,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-501849@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T140000
+DTSTART;TZID=Europe/Amsterdam:20261003T141500
 DURATION:PT2H
 SUMMARY:O.S.M. '75 M18-1 - Jump IJsselstein M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501849
 LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-510279@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T140000
-DURATION:PT2H
-SUMMARY:Jump IJsselstein MSE-1 - O.S.M. '75 MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510279
-LOCATION:Het Heem\, Heemradenlaan 36\, 3401GX IJSSELSTEIN UT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -358,22 +358,22 @@ LOCATION:De Steupel\, Maarten Freeke Wije 2\, 2421TP NIEUWKOOP
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-493477@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261010T121500
-DURATION:PT2H
-SUMMARY:O.S.M. '75 X12-2 - Woodpeckers X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493477
-LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-496461@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T121500
 DURATION:PT2H
 SUMMARY:O.S.M. '75 X14-1 - ABC Amigos X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496461
+LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493477@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T123000
+DURATION:PT2H
+SUMMARY:O.S.M. '75 X12-2 - Woodpeckers X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493477
 LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -398,22 +398,22 @@ LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-499880@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261010T154500
-DURATION:PT2H
-SUMMARY:O.S.M. '75 M16-1 - New Stars M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499880
-LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-505055@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T154500
 DURATION:PT2H
 SUMMARY:O.S.M. '75 VSE-1 - The Challengers VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505055
+LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499880@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T160000
+DURATION:PT2H
+SUMMARY:O.S.M. '75 M16-1 - New Stars M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499880
 LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -508,16 +508,6 @@ LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-491348@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T134500
-DURATION:PT2H
-SUMMARY:O.S.M. '75 X10-1 - New Stars X10-2
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491348
-LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-501861@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T134500
@@ -528,12 +518,12 @@ LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-500819@basketball-agenda
+UID:foys-match-491348@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T153000
+DTSTART;TZID=Europe/Amsterdam:20261031T140000
 DURATION:PT2H
-SUMMARY:O.S.M. '75 V18-1 - Landslake Lions V18-1
-DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500819
+SUMMARY:O.S.M. '75 X10-1 - New Stars X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491348
 LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -544,6 +534,16 @@ DTSTART;TZID=Europe/Amsterdam:20261031T153000
 DURATION:PT2H
 SUMMARY:O.S.M. '75 MSE-1 - UBV "The Eagles" MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510292
+LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500819@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T154500
+DURATION:PT2H
+SUMMARY:O.S.M. '75 V18-1 - Landslake Lions V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500819
 LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -710,7 +710,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-500831@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T153000
+DTSTART;TZID=Europe/Amsterdam:20261114T154500
 DURATION:PT2H
 SUMMARY:O.S.M. '75 V18-1 - Dozy BV Den Helder V18-2
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500831
@@ -720,7 +720,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-501873@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T153000
+DTSTART;TZID=Europe/Amsterdam:20261114T154500
 DURATION:PT2H
 SUMMARY:O.S.M. '75 M18-1 - Utrecht Basketball M18-3 M18-3
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501873
@@ -808,22 +808,22 @@ LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-499898@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T140000
-DURATION:PT2H
-SUMMARY:O.S.M. '75 M16-1 - Jump IJsselstein M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499898
-LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-505077@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T140000
 DURATION:PT2H
 SUMMARY:O.S.M. '75 VSE-1 - LUSV Basketbal VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505077
+LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-499898@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T141500
+DURATION:PT2H
+SUMMARY:O.S.M. '75 M16-1 - Jump IJsselstein M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499898
 LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -880,7 +880,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-493509@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T134500
+DTSTART;TZID=Europe/Amsterdam:20261128T140000
 DURATION:PT2H
 SUMMARY:O.S.M. '75 X12-2 - ABC Amigos X12-2
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493509
@@ -890,7 +890,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-501885@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T134500
+DTSTART;TZID=Europe/Amsterdam:20261128T140000
 DURATION:PT2H
 SUMMARY:O.S.M. '75 M18-1 - Utrecht Basketball M18-4 M18-4
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501885
@@ -920,7 +920,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-499906@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T153000
+DTSTART;TZID=Europe/Amsterdam:20261128T154500
 DURATION:PT2H
 SUMMARY:O.S.M. '75 M16-1 - Crackerjacks M16-5
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499906
@@ -1042,7 +1042,7 @@ UID:foys-match-505104@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270116T000000
 DURATION:PT2H
-SUMMARY:O.S.M. '75 VSE-1 - SV Argon VSE-1
+SUMMARY:O.S.M. '75 VSE-1 - SV Argon VSE-1*
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505104
 LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED

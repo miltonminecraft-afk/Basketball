@@ -332,8 +332,8 @@ UID:foys-match-513265@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T130000
 DURATION:PT2H
-SUMMARY:Flashing Heiloo X12-3 0 - 0 K.T.C. X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nUitslag: 0 - 0\nFOYS wedstrijd-ID: 513265
+SUMMARY:Flashing Heiloo X12-3 32 - 65 K.T.C. X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 32 - 65\nFOYS wedstrijd-ID: 513265
 LOCATION:Het Vennewater\, Het Zevenhuizen 48\, 1852JC HEILOO
 STATUS:CONFIRMED
 END:VEVENT
@@ -352,10 +352,10 @@ UID:foys-match-505045@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T144500
 DURATION:PT2H
-SUMMARY:AFGELAST: K.T.C. VSE-1 - SV Argon VSE-1
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 505045
+SUMMARY:K.T.C. VSE-1 20 - 0 SV Argon VSE-1*
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 505045
 LOCATION:Tetterodehal\, Tetterodeweg 15\, 2051EG OVERVEEN
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-497322@basketball-agenda
@@ -1472,7 +1472,7 @@ UID:foys-match-505107@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270122T200000
 DURATION:PT2H
-SUMMARY:SV Argon VSE-1 - K.T.C. VSE-1
+SUMMARY:SV Argon VSE-1* - K.T.C. VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505107
 LOCATION:De Eendracht\, Eendracht 1\, 3641ML MIJDRECHT
 STATUS:CONFIRMED

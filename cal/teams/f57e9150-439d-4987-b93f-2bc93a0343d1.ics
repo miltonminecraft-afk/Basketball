@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Basketball Agenda//NL
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Bouncers Basketball M16-3
+X-WR-CALNAME:Bouncers Basketball M16-3*
 X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
@@ -12,7 +12,7 @@ UID:foys-match-512676@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T160000
 DURATION:PT2H
-SUMMARY:Bouncers Basketball M16-3 11 - 83 NRG Basketball M16-1
+SUMMARY:Bouncers Basketball M16-3* 11 - 83 NRG Basketball M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 11 - 83\nFOYS wedstrijd-ID: 512676
 LOCATION:De Duikelaar\, Zuidplaslaan 550\, 2743CT WADDINXVEEN
 STATUS:CONFIRMED
@@ -22,8 +22,8 @@ UID:foys-match-512677@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T103000
 DURATION:PT2H
-SUMMARY:Klipperstars M16-2 - Bouncers Basketball M16-3
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512677
+SUMMARY:Klipperstars M16-2 20 - 0 Bouncers Basketball M16-3*
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 512677
 LOCATION:De Klipper\, Klipperstraat 20\, 2957EM NIEUW-LEKKERLAND
 STATUS:CONFIRMED
 END:VEVENT
@@ -32,7 +32,7 @@ UID:foys-match-512678@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T174500
 DURATION:PT2H
-SUMMARY:Bouncers Basketball M16-3 69 - 63 Devel Heroes M16-2
+SUMMARY:Bouncers Basketball M16-3* 69 - 63 Devel Heroes M16-2
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 69 - 63\nFOYS wedstrijd-ID: 512678
 LOCATION:De Duikelaar\, Zuidplaslaan 550\, 2743CT WADDINXVEEN
 STATUS:CONFIRMED
@@ -42,7 +42,7 @@ UID:foys-match-512679@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T154500
 DURATION:PT2H
-SUMMARY:Bouncers Basketball M16-3 - Green Eagles M16-2
+SUMMARY:Bouncers Basketball M16-3* - Green Eagles M16-2
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512679
 LOCATION:De Mammoet\, Calslaan 101\, 2804RT GOUDA
 STATUS:CONFIRMED
@@ -52,7 +52,7 @@ UID:foys-match-512680@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T131500
 DURATION:PT2H
-SUMMARY:BV Voorne M16-2 - Bouncers Basketball M16-3
+SUMMARY:BV Voorne M16-2 - Bouncers Basketball M16-3*
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512680
 LOCATION:DukdalfBRES\, Reede 2 a\, 3232CV BRIELLE
 STATUS:CONFIRMED
@@ -62,7 +62,7 @@ UID:foys-match-512681@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T154500
 DURATION:PT2H
-SUMMARY:Bouncers Basketball M16-3 - Cady '73 M16-3
+SUMMARY:Bouncers Basketball M16-3* - Cady '73 M16-3
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512681
 LOCATION:De Mammoet\, Calslaan 101\, 2804RT GOUDA
 STATUS:CONFIRMED
@@ -72,7 +72,7 @@ UID:foys-match-512682@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T160000
 DURATION:PT2H
-SUMMARY:D.B.V. Rowic M16-2 - Bouncers Basketball M16-3
+SUMMARY:D.B.V. Rowic M16-2 - Bouncers Basketball M16-3*
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512682
 LOCATION:Sportboulevard\, Fanny Blankers-Koenweg 10\, 3318AX DORDRECHT
 STATUS:CONFIRMED
@@ -82,7 +82,7 @@ UID:foys-match-512683@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261113T191500
 DURATION:PT2H
-SUMMARY:Bouncers Basketball M16-3 - CBV Binnenland M16-3
+SUMMARY:Bouncers Basketball M16-3* - CBV Binnenland M16-3
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512683
 LOCATION:De Duikelaar\, Zuidplaslaan 550\, 2743CT WADDINXVEEN
 STATUS:CONFIRMED
@@ -92,7 +92,7 @@ UID:foys-match-512684@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T160000
 DURATION:PT2H
-SUMMARY:Bouncers Basketball M16-3 - Waterdragers M16-1
+SUMMARY:Bouncers Basketball M16-3* - Waterdragers M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512684
 LOCATION:De Mammoet\, Calslaan 101\, 2804RT GOUDA
 STATUS:CONFIRMED
@@ -102,7 +102,7 @@ UID:foys-match-512685@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T160000
 DURATION:PT2H
-SUMMARY:Hurricanes M16-2 - Bouncers Basketball M16-3
+SUMMARY:Hurricanes M16-2 - Bouncers Basketball M16-3*
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512685
 LOCATION:Den Oert\, J. Witteveenlaan 1\, 3201LX SPIJKENISSE
 STATUS:CONFIRMED

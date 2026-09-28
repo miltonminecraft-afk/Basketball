@@ -438,16 +438,6 @@ LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-523366@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261017T080000
-DURATION:PT2H
-SUMMARY:U.S. MSE-4 - Onze Gezellen MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523366
-LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-516865@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T124500
@@ -455,6 +445,16 @@ DURATION:PT2H
 SUMMARY:CobraNova MSE-2 - U.S. MSE-1
 DESCRIPTION:Mannen Senioren (Basketball Cup) - 1e Ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516865
 LOCATION:Forum Kwadraat\, De Vliegerlaan 2 4\, 2273BV VOORBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523366@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T140000
+DURATION:PT2H
+SUMMARY:U.S. MSE-4 - Onze Gezellen MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523366
+LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -772,7 +772,7 @@ UID:foys-match-504469@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261115T130000
 DURATION:PT2H
-SUMMARY:U.S. VSE-3 - Racing Beverwijk VSE-1
+SUMMARY:U.S. VSE-3 - Racing Beverwijk VSE-1*
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504469
 LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
 STATUS:CONFIRMED
@@ -842,7 +842,7 @@ UID:foys-match-505079@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261120T200000
 DURATION:PT2H
-SUMMARY:SV Argon VSE-1 - U.S. VSE-4
+SUMMARY:SV Argon VSE-1* - U.S. VSE-4
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505079
 LOCATION:De Eendracht\, Eendracht 1\, 3641ML MIJDRECHT
 STATUS:CONFIRMED
@@ -932,7 +932,7 @@ UID:foys-match-504476@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261126T201500
 DURATION:PT2H
-SUMMARY:Racing Beverwijk VSE-1 - U.S. VSE-3
+SUMMARY:Racing Beverwijk VSE-1* - U.S. VSE-3
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504476
 LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
@@ -1288,16 +1288,6 @@ LOCATION:Karekiet\, Karekietpark 2\, 1444HV PURMEREND
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-523363@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270117T080000
-DURATION:PT2H
-SUMMARY:U.S. MSE-3 - Onze Gezellen MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523363
-LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-504968@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270117T110000
@@ -1344,6 +1334,16 @@ DTSTART;TZID=Europe/Amsterdam:20270117T130000
 DURATION:PT2H
 SUMMARY:U.S. MSE-6 - Novo Stars MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511058
+LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-523363@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270117T130000
+DURATION:PT2H
+SUMMARY:U.S. MSE-3 - Onze Gezellen MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 523363
 LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -1892,7 +1892,7 @@ UID:foys-match-504510@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270313T000000
 DURATION:PT2H
-SUMMARY:Racing Beverwijk VSE-1 - U.S. VSE-3
+SUMMARY:Racing Beverwijk VSE-1* - U.S. VSE-3
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504510
 LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
@@ -2012,7 +2012,7 @@ UID:foys-match-505143@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270321T130000
 DURATION:PT2H
-SUMMARY:U.S. VSE-4 - SV Argon VSE-1
+SUMMARY:U.S. VSE-4 - SV Argon VSE-1*
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505143
 LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
 STATUS:CONFIRMED

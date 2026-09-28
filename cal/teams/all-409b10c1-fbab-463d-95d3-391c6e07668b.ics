@@ -212,7 +212,7 @@ UID:foys-match-512405@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T113000
 DURATION:PT2H
-SUMMARY:New Stars V16-1 80 - 27 Almere Pioneers V16-1
+SUMMARY:New Stars V16-1 80 - 27 Almere Pioneers V16-1*
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 80 - 27\nFOYS wedstrijd-ID: 512405
 LOCATION:Sporthal Merwestein\, Merweplein 1\, 3432GN NIEUWEGEIN
 STATUS:CONFIRMED
@@ -792,7 +792,7 @@ UID:foys-match-504674@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T130000
 DURATION:PT2H
-SUMMARY:S.B.U. VSE-3 - New Stars VSE-2
+SUMMARY:S.B.U. VSE-3* - New Stars VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504674
 LOCATION:Sportcentrum Olympos\, Uppsalalaan 3\, 3584CT UTRECHT
 STATUS:CONFIRMED
@@ -842,7 +842,7 @@ UID:foys-match-501857@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T130000
 DURATION:PT2H
-SUMMARY:New Stars M18-2 - BV Leerdam M18-1
+SUMMARY:New Stars M18-2 - BV Leerdam M18-1*
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501857
 LOCATION:Sporthal De Waterlelie\, Heemraadsweide 13\, 3437CA NIEUWEGEIN
 STATUS:CONFIRMED
@@ -870,7 +870,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-499880@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261010T154500
+DTSTART;TZID=Europe/Amsterdam:20261010T160000
 DURATION:PT2H
 SUMMARY:O.S.M. '75 M16-1 - New Stars M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499880
@@ -1130,7 +1130,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-491348@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T134500
+DTSTART;TZID=Europe/Amsterdam:20261031T140000
 DURATION:PT2H
 SUMMARY:O.S.M. '75 X10-1 - New Stars X10-2
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491348
@@ -1492,7 +1492,7 @@ UID:foys-match-494214@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261115T100000
 DURATION:PT2H
-SUMMARY:New Stars X12-3 - De Dunckers X12-2*
+SUMMARY:New Stars X12-3 - De Dunckers X12-2**
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494214
 LOCATION:Sporthal De Waterlelie\, Heemraadsweide 13\, 3437CA NIEUWEGEIN
 STATUS:CONFIRMED
@@ -1942,7 +1942,7 @@ UID:foys-match-495954@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T100000
 DURATION:PT2H
-SUMMARY:Almere Pioneers V14-1 - New Stars V14-1
+SUMMARY:Almere Pioneers V14-1* - New Stars V14-1
 DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495954
 LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
 STATUS:CONFIRMED
@@ -2192,7 +2192,7 @@ UID:foys-match-504742@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270130T000000
 DURATION:PT2H
-SUMMARY:New Stars VSE-2 - S.B.U. VSE-3
+SUMMARY:New Stars VSE-2 - S.B.U. VSE-3*
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504742
 LOCATION:Sporthal De Waterlelie\, Heemraadsweide 13\, 3437CA NIEUWEGEIN
 STATUS:CONFIRMED

@@ -48,16 +48,6 @@ LOCATION:Sportboulevard De Engh\, Dalweg 181\, 3762AW SOEST
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-497586@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261010T180000
-DURATION:PT2H
-SUMMARY:Crackerjacks X14-3 - Quick Runners X14-2
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497586
-LOCATION:Zielhorst\, Trompetstraat 3\, 3822CK AMERSFOORT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-497591@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T161500
@@ -85,6 +75,16 @@ DURATION:PT2H
 SUMMARY:Crackerjacks X14-3 - Basketbalclub Weesp X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497613
 LOCATION:Zielhorst\, Trompetstraat 3\, 3822CK AMERSFOORT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497586@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T120000
+DURATION:PT2H
+SUMMARY:Crackerjacks X14-3 - Quick Runners X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497586
+LOCATION:Sporthal  Wolfskamer\, IJsselmeerstraat 3 D\, 1271AA HUIZEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

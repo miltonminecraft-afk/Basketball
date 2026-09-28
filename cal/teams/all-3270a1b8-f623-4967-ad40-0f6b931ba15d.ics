@@ -72,7 +72,7 @@ UID:foys-match-491444@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T130000
 DURATION:PT2H
-SUMMARY:Attacus X10-2 20 - 0 Achilles '71 X10-2*
+SUMMARY:Attacus X10-2 20 - 0 Achilles '71 X10-2**
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 491444
 LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
 STATUS:CONFIRMED
@@ -102,7 +102,7 @@ UID:foys-match-499621@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T150000
 DURATION:PT2H
-SUMMARY:Attacus M16-2 16 - 98 WYBA basketbalvereniging M16-1
+SUMMARY:Attacus M16-2* 16 - 98 WYBA basketbalvereniging M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 16 - 98\nFOYS wedstrijd-ID: 499621
 LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
 STATUS:CONFIRMED
@@ -232,7 +232,7 @@ UID:foys-match-499622@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T114500
 DURATION:PT2H
-SUMMARY:Wildcats M16-1 104 - 31 Attacus M16-2
+SUMMARY:Wildcats M16-1 104 - 31 Attacus M16-2*
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 104 - 31\nFOYS wedstrijd-ID: 499622
 LOCATION:De Horstacker\, Horstacker 1401\, 6546EK NIJMEGEN
 STATUS:CONFIRMED
@@ -372,8 +372,8 @@ UID:foys-match-500227@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T121500
 DURATION:PT2H
-SUMMARY:EVBV Octopus M16-2 18 - 37 Attacus M16-3
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nUitslag: 18 - 37\nFOYS wedstrijd-ID: 500227
+SUMMARY:EVBV Octopus M16-2 44 - 91 Attacus M16-3
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 44 - 91\nFOYS wedstrijd-ID: 500227
 LOCATION:Elzenburg\, Brabantlaan 1\, 5262GW VUGHT
 STATUS:CONFIRMED
 END:VEVENT
@@ -402,8 +402,8 @@ UID:foys-match-499626@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T130000
 DURATION:PT2H
-SUMMARY:Attacus M16-2 - OBC M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499626
+SUMMARY:Attacus M16-2* 0 - 20 OBC M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 0 - 20\nFOYS wedstrijd-ID: 499626
 LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
 STATUS:CONFIRMED
 END:VEVENT
@@ -662,7 +662,7 @@ UID:foys-match-499628@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T100000
 DURATION:PT2H
-SUMMARY:Eindhoven Lumineers M16-1 - Attacus M16-2
+SUMMARY:Eindhoven Lumineers M16-1 - Attacus M16-2*
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499628
 LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
@@ -772,7 +772,7 @@ UID:foys-match-499631@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T150000
 DURATION:PT2H
-SUMMARY:Attacus M16-2 - Challenge M16-1
+SUMMARY:Attacus M16-2* - Challenge M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499631
 LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
 STATUS:CONFIRMED
@@ -892,7 +892,7 @@ UID:foys-match-499636@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T110000
 DURATION:PT2H
-SUMMARY:OBC M16-1 - Attacus M16-2
+SUMMARY:OBC M16-1 - Attacus M16-2*
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499636
 LOCATION:De Ruivert\, de Ruivert 3\, 5342CM OSS
 STATUS:CONFIRMED
@@ -1212,7 +1212,7 @@ UID:foys-match-499638@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T113000
 DURATION:PT2H
-SUMMARY:Challenge M16-1 - Attacus M16-2
+SUMMARY:Challenge M16-1 - Attacus M16-2*
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499638
 LOCATION:De Tinnegieter\, Leigraaf 2\, 6641DH BEUNINGEN GLD
 STATUS:CONFIRMED
@@ -1402,7 +1402,7 @@ UID:foys-match-499640@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T130000
 DURATION:PT2H
-SUMMARY:Attacus M16-2 - Eindhoven Lumineers M16-1
+SUMMARY:Attacus M16-2* - Eindhoven Lumineers M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499640
 LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
 STATUS:CONFIRMED
@@ -1682,7 +1682,7 @@ UID:foys-match-499645@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T170000
 DURATION:PT2H
-SUMMARY:Attacus M16-2 - Wildcats M16-1
+SUMMARY:Attacus M16-2* - Wildcats M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499645
 LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
 STATUS:CONFIRMED
@@ -1812,7 +1812,7 @@ UID:foys-match-499647@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T140000
 DURATION:PT2H
-SUMMARY:WYBA basketbalvereniging M16-1 - Attacus M16-2
+SUMMARY:WYBA basketbalvereniging M16-1 - Attacus M16-2*
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499647
 LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
 STATUS:CONFIRMED

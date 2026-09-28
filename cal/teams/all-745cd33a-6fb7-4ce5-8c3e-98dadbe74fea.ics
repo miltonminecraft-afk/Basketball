@@ -82,8 +82,8 @@ UID:foys-match-501318@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T103000
 DURATION:PT2H
-SUMMARY:Northside Ballers Amsterdam M18-2 - Windmills M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501318
+SUMMARY:Northside Ballers Amsterdam M18-2 62 - 65 Windmills M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 62 - 65\nFOYS wedstrijd-ID: 501318
 LOCATION:De Weeren\, Beemsterstraat 656\, 1027ED AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -352,7 +352,7 @@ UID:foys-match-504450@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T103000
 DURATION:PT2H
-SUMMARY:Northside Ballers Amsterdam VSE-1 20 - 0 Racing Beverwijk VSE-1
+SUMMARY:Northside Ballers Amsterdam VSE-1 20 - 0 Racing Beverwijk VSE-1*
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 504450
 LOCATION:De Weeren\, Beemsterstraat 656\, 1027ED AMSTERDAM
 STATUS:CONFIRMED
@@ -1872,7 +1872,7 @@ UID:foys-match-504490@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270123T000000
 DURATION:PT2H
-SUMMARY:Racing Beverwijk VSE-1 - Northside Ballers Amsterdam VSE-1
+SUMMARY:Racing Beverwijk VSE-1* - Northside Ballers Amsterdam VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504490
 LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
@@ -2222,7 +2222,7 @@ UID:foys-match-504518@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270403T000000
 DURATION:PT2H
-SUMMARY:Racing Beverwijk VSE-1 - Northside Ballers Amsterdam VSE-1
+SUMMARY:Racing Beverwijk VSE-1* - Northside Ballers Amsterdam VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504518
 LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED

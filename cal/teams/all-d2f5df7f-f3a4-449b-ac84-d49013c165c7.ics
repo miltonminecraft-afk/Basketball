@@ -1122,7 +1122,7 @@ UID:foys-match-494205@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T091500
 DURATION:PT2H
-SUMMARY:De Dunckers X12-2* - Utrecht Basketball X12-3 X12-3
+SUMMARY:De Dunckers X12-2** - Utrecht Basketball X12-3 X12-3
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494205
 LOCATION:Dudok Arena\, Arena 303\, 1213NW HILVERSUM
 STATUS:CONFIRMED
@@ -1212,7 +1212,7 @@ UID:foys-match-501864@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T141500
 DURATION:PT2H
-SUMMARY:BV Leerdam M18-1 - Utrecht Basketball M18-3 M18-3
+SUMMARY:BV Leerdam M18-1* - Utrecht Basketball M18-3 M18-3
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501864
 LOCATION:Feel Fit Center/Berenschot\, Tiendweg 9\, 4142EG LEERDAM
 STATUS:CONFIRMED
@@ -1692,7 +1692,7 @@ UID:foys-match-501876@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T141500
 DURATION:PT2H
-SUMMARY:BV Leerdam M18-1 - Utrecht Basketball M18-4 M18-4
+SUMMARY:BV Leerdam M18-1* - Utrecht Basketball M18-4 M18-4
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501876
 LOCATION:Feel Fit Center/Berenschot\, Tiendweg 9\, 4142EG LEERDAM
 STATUS:CONFIRMED
@@ -1738,16 +1738,6 @@ LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-501873@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T153000
-DURATION:PT2H
-SUMMARY:O.S.M. '75 M18-1 - Utrecht Basketball M18-3 M18-3
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501873
-LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-502917@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T153000
@@ -1755,6 +1745,16 @@ DURATION:PT2H
 SUMMARY:Lokomotief M22-1 - Utrecht Basketball M22-2 M22-2
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502917
 LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501873@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T154500
+DURATION:PT2H
+SUMMARY:O.S.M. '75 M18-1 - Utrecht Basketball M18-3 M18-3
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501873
+LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -2200,7 +2200,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-501885@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T134500
+DTSTART;TZID=Europe/Amsterdam:20261128T140000
 DURATION:PT2H
 SUMMARY:O.S.M. '75 M18-1 - Utrecht Basketball M18-4 M18-4
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501885

@@ -28,16 +28,6 @@ LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-505259@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260926T154500
-DURATION:PT2H
-SUMMARY:HBV Hornets VSE-1 - GSBV Moestasj VSE-3
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505259
-LOCATION:De Hege Fiif\, Van Helsdingenstraat 6\, 9254CE HURDEGARYP
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-505262@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T120000
@@ -135,6 +125,16 @@ DURATION:PT2H
 SUMMARY:GSBV Moestasj VSE-3 - HBV Hornets VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505298
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505259@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270128T203000
+DURATION:PT2H
+SUMMARY:HBV Hornets VSE-1 - GSBV Moestasj VSE-3
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505259
+LOCATION:De Hege Fiif\, Van Helsdingenstraat 6\, 9254CE HURDEGARYP
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

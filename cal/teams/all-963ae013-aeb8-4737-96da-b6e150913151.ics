@@ -152,7 +152,7 @@ UID:foys-match-502749@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T170000
 DURATION:PT2H
-SUMMARY:Dyna '75 V22-2 81 - 47 BV Groningen V22-1
+SUMMARY:Dyna '75 V22-2 81 - 47 BV Groningen V22-1*
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 81 - 47\nFOYS wedstrijd-ID: 502749
 LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
 STATUS:CONFIRMED
@@ -332,7 +332,7 @@ UID:foys-match-502753@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T104500
 DURATION:PT2H
-SUMMARY:BV Groningen V22-1 24 - 60 BV Orca's V22-2
+SUMMARY:BV Groningen V22-1* 24 - 60 BV Orca's V22-2
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 24 - 60\nFOYS wedstrijd-ID: 502753
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
@@ -652,7 +652,7 @@ UID:foys-match-502754@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T133000
 DURATION:PT2H
-SUMMARY:Dyna '75 V22-1 20 - 0 BV Groningen V22-1
+SUMMARY:Dyna '75 V22-1 20 - 0 BV Groningen V22-1*
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 502754
 LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
 STATUS:CONFIRMED
@@ -663,7 +663,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T140000
 DURATION:PT2H
 SUMMARY:M&F Security Typhoons'23 X14-1 63 - 49 BV Groningen X14-2
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 63 - 49\nFOYS wedstrijd-ID: 496756
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 63 - 49\nFOYS wedstrijd-ID: 496756
 LOCATION:Sportcentrum De Kalkwijck\, Nieuweweg 6\, 9603BM HOOGEZAND
 STATUS:CONFIRMED
 END:VEVENT
@@ -703,7 +703,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T144500
 DURATION:PT2H
 SUMMARY:H.S.V. Basketball M16-1 62 - 21 BV Groningen M16-3
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 62 - 21\nFOYS wedstrijd-ID: 499102
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 62 - 21\nFOYS wedstrijd-ID: 499102
 LOCATION:Scharlakenhof\, Geertsemaweg 3\, 9751XA HAREN GN
 STATUS:CONFIRMED
 END:VEVENT
@@ -942,7 +942,7 @@ UID:foys-match-502761@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T191500
 DURATION:PT2H
-SUMMARY:BV Groningen V22-1 - Dyna '75 V22-2
+SUMMARY:BV Groningen V22-1* - Dyna '75 V22-2
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502761
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
@@ -1172,7 +1172,7 @@ UID:foys-match-508020@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T174500
 DURATION:PT2H
-SUMMARY:BV Groningen MSE-4 - BV Oaters Joure MSE-1
+SUMMARY:BV Groningen MSE-4 - BV Oaters Joure MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508020
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
@@ -1402,7 +1402,7 @@ UID:foys-match-502789@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261025T090000
 DURATION:PT2H
-SUMMARY:BV Groningen V22-1 - Celeritas-Donar V22-1
+SUMMARY:BV Groningen V22-1* - Celeritas-Donar V22-1
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502789
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
@@ -1762,7 +1762,7 @@ UID:foys-match-502773@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T121500
 DURATION:PT2H
-SUMMARY:BV Groningen V22-1 - Assist V22-1
+SUMMARY:BV Groningen V22-1* - Assist V22-1
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502773
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
@@ -1912,7 +1912,7 @@ UID:foys-match-502774@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261113T190000
 DURATION:PT2H
-SUMMARY:Peatminers V22-1 - BV Groningen V22-1
+SUMMARY:Peatminers V22-1 - BV Groningen V22-1*
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502774
 LOCATION:De Stamper\, Schout Doddestraat 11\, 7671GT VRIEZENVEEN
 STATUS:CONFIRMED
@@ -2452,7 +2452,7 @@ UID:foys-match-502781@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T151500
 DURATION:PT2H
-SUMMARY:LB-ZAC V22-1* - BV Groningen V22-1
+SUMMARY:LB-ZAC V22-1* - BV Groningen V22-1*
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502781
 LOCATION:Het Victorium\, Hogeland 10\, 8024AZ ZWOLLE
 STATUS:CONFIRMED
@@ -2652,7 +2652,7 @@ UID:foys-match-502785@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T193000
 DURATION:PT2H
-SUMMARY:BV Groningen V22-1 - Peatminers V22-1
+SUMMARY:BV Groningen V22-1* - Peatminers V22-1
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502785
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
@@ -2802,7 +2802,7 @@ UID:foys-match-502762@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T091500
 DURATION:PT2H
-SUMMARY:Celeritas-Donar V22-1 - BV Groningen V22-1
+SUMMARY:Celeritas-Donar V22-1 - BV Groningen V22-1*
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502762
 LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
 STATUS:CONFIRMED
@@ -2918,6 +2918,16 @@ LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-508053@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T180000
+DURATION:PT2H
+SUMMARY:BV Groningen MSE-4 - BV Millwings MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508053
+LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-507071@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T191500
@@ -2934,16 +2944,6 @@ DTSTART;TZID=Europe/Amsterdam:20261212T194500
 DURATION:PT2H
 SUMMARY:BV Groningen VSE-2 - HBV Hornets VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505293
-LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-508053@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T213000
-DURATION:PT2H
-SUMMARY:BV Groningen MSE-4 - BV Millwings MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508053
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -3062,7 +3062,7 @@ UID:foys-match-502769@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261219T141500
 DURATION:PT2H
-SUMMARY:BV Groningen V22-1 - LB-ZAC V22-1*
+SUMMARY:BV Groningen V22-1* - LB-ZAC V22-1*
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502769
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
@@ -3612,7 +3612,7 @@ UID:foys-match-508085@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270206T191500
 DURATION:PT2H
-SUMMARY:BV Oaters Joure MSE-1 - BV Groningen MSE-4
+SUMMARY:BV Oaters Joure MSE-1* - BV Groningen MSE-4
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508085
 LOCATION:Sportfun\, Sewei 3\, 8501SP JOURE
 STATUS:CONFIRMED
