@@ -162,8 +162,8 @@ UID:foys-match-492381@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T150000
 DURATION:PT2H
-SUMMARY:Basketball Academy Utrecht M12-1 M12-1 120 - 56 Amsterdam Warriors M12-1
-DESCRIPTION:Mannen U12 Landelijk - Eredivisie\nStatus: Final\nUitslag: 120 - 56\nFOYS wedstrijd-ID: 492381
+SUMMARY:Basketball Academy Utrecht M12-1 M12-1 85 - 35 Amsterdam Warriors M12-1
+DESCRIPTION:Mannen U12 Landelijk - Eredivisie\nStatus: Final\nUitslag: 85 - 35\nFOYS wedstrijd-ID: 492381
 LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -462,8 +462,8 @@ UID:foys-match-492389@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260920T123000
 DURATION:PT2H
-SUMMARY:Zorg en Zekerheid M12-1 145 - 62 Basketball Academy Utrecht M12-1 M12-1
-DESCRIPTION:Mannen U12 Landelijk - Eredivisie\nStatus: Final\nUitslag: 145 - 62\nFOYS wedstrijd-ID: 492389
+SUMMARY:Zorg en Zekerheid M12-1 78 - 28 Basketball Academy Utrecht M12-1 M12-1
+DESCRIPTION:Mannen U12 Landelijk - Eredivisie\nStatus: Final\nUitslag: 78 - 28\nFOYS wedstrijd-ID: 492389
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -1065,6 +1065,16 @@ DURATION:PT2H
 SUMMARY:Crackerjacks M16-4 - Utrecht Basketball M16-5 M16-3
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499882
 LOCATION:Zielhorst\, Trompetstraat 3\, 3822CK AMERSFOORT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-524442@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T100000
+DURATION:PT2H
+SUMMARY:Utrecht Basketball M22-4 M22-4 - Flevo Musketiers M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 524442
+LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

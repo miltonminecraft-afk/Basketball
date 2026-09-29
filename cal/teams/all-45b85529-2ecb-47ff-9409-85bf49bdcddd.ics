@@ -32,7 +32,7 @@ UID:foys-match-494855@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T093000
 DURATION:PT2H
-SUMMARY:Vido X12-2 4 - 54 Den Dungk X12-1
+SUMMARY:Vido X12-2 4 - 54 Den Dungk X12-1*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 4 - 54\nFOYS wedstrijd-ID: 494855
 LOCATION:Den Ekkerman\, Wal 150\, 5501HP VELDHOVEN
 STATUS:CONFIRMED
@@ -132,7 +132,7 @@ UID:foys-match-511722@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260920T143000
 DURATION:PT2H
-SUMMARY:Den Dungk MSE-3 25 - 37 Achilles '71 MSE-4
+SUMMARY:Den Dungk MSE-3* 25 - 37 Achilles '71 MSE-4
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 25 - 37\nFOYS wedstrijd-ID: 511722
 LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
 STATUS:CONFIRMED
@@ -192,8 +192,8 @@ UID:foys-match-511727@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T133000
 DURATION:PT2H
-SUMMARY:BC LIESHOUT MSE-2 - Den Dungk MSE-3
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511727
+SUMMARY:BC LIESHOUT MSE-2 20 - 0 Den Dungk MSE-3*
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 511727
 LOCATION:De Klumper\, Papenhoef 2\, 5737BS LIESHOUT
 STATUS:CONFIRMED
 END:VEVENT
@@ -212,8 +212,8 @@ UID:foys-match-494866@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T144500
 DURATION:PT2H
-SUMMARY:BC Bladel X12-1 - Den Dungk X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494866
+SUMMARY:BC Bladel X12-1 20 - 0 Den Dungk X12-1*
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 494866
 LOCATION:Sporthal X-Sport\, Lange Trekken 32\, 5531PZ BLADEL
 STATUS:CONFIRMED
 END:VEVENT
@@ -252,7 +252,7 @@ UID:foys-match-494871@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T113000
 DURATION:PT2H
-SUMMARY:Den Dungk X12-1 - EVBV Octopus X12-2
+SUMMARY:Den Dungk X12-1* - EVBV Octopus X12-2
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494871
 LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
 STATUS:CONFIRMED
@@ -312,7 +312,7 @@ UID:foys-match-511733@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T161500
 DURATION:PT2H
-SUMMARY:Den Dungk MSE-3 - OBC MSE-3
+SUMMARY:Den Dungk MSE-3* - OBC MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511733
 LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
 STATUS:CONFIRMED
@@ -372,7 +372,7 @@ UID:foys-match-494877@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T140000
 DURATION:PT2H
-SUMMARY:Biks Shots X12-2 - Den Dungk X12-1
+SUMMARY:Biks Shots X12-2 - Den Dungk X12-1*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494877
 LOCATION:De Roodloop\, Roodloop 6\, 5081XZ HILVARENBEEK
 STATUS:CONFIRMED
@@ -412,7 +412,7 @@ UID:foys-match-511740@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261011T171500
 DURATION:PT2H
-SUMMARY:BV Schijndel MSE-1 - Den Dungk MSE-3
+SUMMARY:BV Schijndel MSE-1 - Den Dungk MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511740
 LOCATION:sporthal Bunderstraat\, Bunderstraat 6\, 5481KD SCHIJNDEL
 STATUS:CONFIRMED
@@ -472,7 +472,7 @@ UID:foys-match-494881@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261101T130000
 DURATION:PT2H
-SUMMARY:Den Dungk X12-1 - The Black Eagles X12-4
+SUMMARY:Den Dungk X12-1* - The Black Eagles X12-4
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494881
 LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
 STATUS:CONFIRMED
@@ -482,7 +482,7 @@ UID:foys-match-514108@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261101T130000
 DURATION:PT2H
-SUMMARY:Den Dungk MSE-3 - Jumping Giants MSE-3*
+SUMMARY:Den Dungk MSE-3* - Jumping Giants MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 514108
 LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
 STATUS:CONFIRMED
@@ -542,7 +542,7 @@ UID:foys-match-494888@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T101500
 DURATION:PT2H
-SUMMARY:BC Heeze X12-2 - Den Dungk X12-1
+SUMMARY:BC Heeze X12-2 - Den Dungk X12-1*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494888
 LOCATION:De Pompenmaker\, De Pompenmaker 4\, 5591NE HEEZE
 STATUS:CONFIRMED
@@ -582,7 +582,7 @@ UID:foys-match-511753@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T124500
 DURATION:PT2H
-SUMMARY:Gennep Cougars MSE-2 - Den Dungk MSE-3
+SUMMARY:Gennep Cougars MSE-2 - Den Dungk MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511753
 LOCATION:Pica Mare 2\, Picardie 34\, 6591JE GENNEP
 STATUS:CONFIRMED
@@ -672,7 +672,7 @@ UID:foys-match-494893@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261115T103000
 DURATION:PT2H
-SUMMARY:Oirschot X12-1 - Den Dungk X12-1
+SUMMARY:Oirschot X12-1 - Den Dungk X12-1*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494893
 LOCATION:sportcentrum De Kemmer\, Bloemendaal 5\, 5688GP OIRSCHOT
 STATUS:CONFIRMED
@@ -702,7 +702,7 @@ UID:foys-match-511759@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261115T190000
 DURATION:PT2H
-SUMMARY:Springfield MSE-3 - Den Dungk MSE-3
+SUMMARY:Springfield MSE-3 - Den Dungk MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511759
 LOCATION:De Run\, Runweg 11\, 5258BK BERLICUM NB
 STATUS:CONFIRMED
@@ -752,7 +752,7 @@ UID:foys-match-494898@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T130000
 DURATION:PT2H
-SUMMARY:Den Dungk X12-1 - High Five X12-3
+SUMMARY:Den Dungk X12-1* - High Five X12-3
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494898
 LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
 STATUS:CONFIRMED
@@ -792,7 +792,7 @@ UID:foys-match-511765@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T161500
 DURATION:PT2H
-SUMMARY:Den Dungk MSE-3 - Akros MSE-2
+SUMMARY:Den Dungk MSE-3* - Akros MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511765
 LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
 STATUS:CONFIRMED
@@ -832,7 +832,7 @@ UID:foys-match-511766@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T120000
 DURATION:PT2H
-SUMMARY:Lasers Basketball Club MSE-1 - Den Dungk MSE-3
+SUMMARY:Lasers Basketball Club MSE-1 - Den Dungk MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511766
 LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
 STATUS:CONFIRMED
@@ -892,7 +892,7 @@ UID:foys-match-494899@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261129T100000
 DURATION:PT2H
-SUMMARY:JRC X12-1 - Den Dungk X12-1
+SUMMARY:JRC X12-1 - Den Dungk X12-1*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494899
 LOCATION:De Braken\, De Braken 1 a\, 5282JJ BOXTEL
 STATUS:CONFIRMED
@@ -932,7 +932,7 @@ UID:foys-match-494907@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261213T130000
 DURATION:PT2H
-SUMMARY:Den Dungk X12-1 - BV Rooi X12-1
+SUMMARY:Den Dungk X12-1* - BV Rooi X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494907
 LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
 STATUS:CONFIRMED
@@ -972,7 +972,7 @@ UID:foys-match-511776@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261213T160000
 DURATION:PT2H
-SUMMARY:Den Dungk MSE-3 - Yellow Sox MSE-2
+SUMMARY:Den Dungk MSE-3* - Yellow Sox MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511776
 LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
 STATUS:CONFIRMED
@@ -1012,7 +1012,7 @@ UID:foys-match-511782@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270110T143000
 DURATION:PT2H
-SUMMARY:Den Dungk MSE-3 - Tantalus MSE-5
+SUMMARY:Den Dungk MSE-3* - Tantalus MSE-5
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511782
 LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
 STATUS:CONFIRMED
@@ -1062,7 +1062,7 @@ UID:foys-match-511786@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270117T140000
 DURATION:PT2H
-SUMMARY:Achilles '71 MSE-4 - Den Dungk MSE-3
+SUMMARY:Achilles '71 MSE-4 - Den Dungk MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511786
 LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
 STATUS:CONFIRMED
@@ -1082,7 +1082,7 @@ UID:foys-match-511793@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270124T174500
 DURATION:PT2H
-SUMMARY:Den Dungk MSE-3 - BC LIESHOUT MSE-2
+SUMMARY:Den Dungk MSE-3* - BC LIESHOUT MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511793
 LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
 STATUS:CONFIRMED
@@ -1112,7 +1112,7 @@ UID:foys-match-511799@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270130T183000
 DURATION:PT2H
-SUMMARY:OBC MSE-3 - Den Dungk MSE-3
+SUMMARY:OBC MSE-3 - Den Dungk MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511799
 LOCATION:De Ruivert\, de Ruivert 3\, 5342CM OSS
 STATUS:CONFIRMED
@@ -1132,7 +1132,7 @@ UID:foys-match-511805@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270207T143000
 DURATION:PT2H
-SUMMARY:Den Dungk MSE-3 - BV Schijndel MSE-1
+SUMMARY:Den Dungk MSE-3* - BV Schijndel MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511805
 LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
 STATUS:CONFIRMED
@@ -1172,7 +1172,7 @@ UID:foys-match-514119@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270214T123000
 DURATION:PT2H
-SUMMARY:Jumping Giants MSE-3* - Den Dungk MSE-3
+SUMMARY:Jumping Giants MSE-3* - Den Dungk MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 514119
 LOCATION:sporthal Nederweert\, De Bengele 8\, 6031TZ NEDERWEERT
 STATUS:CONFIRMED
@@ -1192,7 +1192,7 @@ UID:foys-match-511817@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270307T143000
 DURATION:PT2H
-SUMMARY:Den Dungk MSE-3 - Gennep Cougars MSE-2
+SUMMARY:Den Dungk MSE-3* - Gennep Cougars MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511817
 LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
 STATUS:CONFIRMED
@@ -1222,7 +1222,7 @@ UID:foys-match-511825@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270314T160000
 DURATION:PT2H
-SUMMARY:Den Dungk MSE-3 - Springfield MSE-3
+SUMMARY:Den Dungk MSE-3* - Springfield MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511825
 LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
 STATUS:CONFIRMED
@@ -1262,7 +1262,7 @@ UID:foys-match-511830@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270320T000000
 DURATION:PT2H
-SUMMARY:Akros MSE-2 - Den Dungk MSE-3
+SUMMARY:Akros MSE-2 - Den Dungk MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511830
 LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
 STATUS:CONFIRMED
@@ -1282,7 +1282,7 @@ UID:foys-match-511713@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270327T143000
 DURATION:PT2H
-SUMMARY:Tantalus MSE-5 - Den Dungk MSE-3
+SUMMARY:Tantalus MSE-5 - Den Dungk MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511713
 LOCATION:SSC Sportcentrum\, Onze Lieve Vrouwestraat 1\, 5612AW EINDHOVEN
 STATUS:CONFIRMED
@@ -1292,7 +1292,7 @@ UID:foys-match-511836@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270404T143000
 DURATION:PT2H
-SUMMARY:Den Dungk MSE-3 - Lasers Basketball Club MSE-1
+SUMMARY:Den Dungk MSE-3* - Lasers Basketball Club MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511836
 LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
 STATUS:CONFIRMED
@@ -1332,7 +1332,7 @@ UID:foys-match-511839@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270410T171500
 DURATION:PT2H
-SUMMARY:Yellow Sox MSE-2 - Den Dungk MSE-3
+SUMMARY:Yellow Sox MSE-2 - Den Dungk MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511839
 LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
 STATUS:CONFIRMED

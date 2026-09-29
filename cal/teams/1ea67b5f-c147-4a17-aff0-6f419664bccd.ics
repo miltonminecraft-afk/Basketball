@@ -88,16 +88,6 @@ LOCATION:SSC Sportcentrum\, Onze Lieve Vrouwestraat 1\, 5612AW EINDHOVEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-512445@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261205T183000
-DURATION:PT2H
-SUMMARY:Trajanum MSE-1 - Rotterdam-Zuid MSE-1
-DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512445
-LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-512455@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T190000
@@ -205,6 +195,16 @@ DURATION:PT2H
 SUMMARY:TSBV Pendragon MSE-1 - Rotterdam-Zuid MSE-1
 DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512466
 LOCATION:Studentensporthal KUB\, Academielaan 5\, 5037ET TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-512445@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270417T163000
+DURATION:PT2H
+SUMMARY:Trajanum MSE-1 - Rotterdam-Zuid MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512445
+LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR

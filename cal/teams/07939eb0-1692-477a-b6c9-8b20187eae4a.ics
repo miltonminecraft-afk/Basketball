@@ -88,16 +88,6 @@ LOCATION:Die Heygrave\, Burgemeester Zwaansweg 4\, 5251CJ VLIJMEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-516548@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270206T000000
-DURATION:PT2H
-SUMMARY:TSBV Pendragon VSE-2 - SBA Sphinx VSE-2
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 516548
-LOCATION:Studentensporthal KUB\, Academielaan 5\, 5037ET TILBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-516549@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270212T210000
@@ -105,6 +95,16 @@ DURATION:PT2H
 SUMMARY:SBA Sphinx VSE-2 - The Black Eagles VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 516549
 LOCATION:De Bongerd\, Bornsesteeg 2\, 6708PE WAGENINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516548@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270219T210000
+DURATION:PT2H
+SUMMARY:TSBV Pendragon VSE-2 - SBA Sphinx VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 516548
+LOCATION:Studentensporthal KUB\, Academielaan 5\, 5037ET TILBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-516553@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270403T000000
+DTSTART;TZID=Europe/Amsterdam:20270403T143000
 DURATION:PT2H
 SUMMARY:SBA Sphinx VSE-2 - Vido VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 516553

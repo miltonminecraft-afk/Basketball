@@ -1098,16 +1098,6 @@ LOCATION:Sporthal IJmuiden-Oost\, Tiberiusplein 6\, 1971HN IJMUIDEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-493708@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T140000
-DURATION:PT2H
-SUMMARY:VBC Akrides X12-1 - BV Oegstgeest X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493708
-LOCATION:Sporthal IJmuiden-Oost\, Tiberiusplein 6\, 1971HN IJMUIDEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-497290@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T140000
@@ -1134,6 +1124,16 @@ DTSTART;TZID=Europe/Amsterdam:20261114T140000
 DURATION:PT2H
 SUMMARY:VBC Akrides X12-2 - Flashing Heiloo X12-3
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513285
+LOCATION:Sporthal IJmuiden-Oost\, Tiberiusplein 6\, 1971HN IJMUIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493708@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T154500
+DURATION:PT2H
+SUMMARY:VBC Akrides X12-1 - BV Oegstgeest X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493708
 LOCATION:Sporthal IJmuiden-Oost\, Tiberiusplein 6\, 1971HN IJMUIDEN
 STATUS:CONFIRMED
 END:VEVENT

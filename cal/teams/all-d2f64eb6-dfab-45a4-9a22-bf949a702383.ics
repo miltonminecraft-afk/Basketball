@@ -138,16 +138,6 @@ LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-509482@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260926T183000
-DURATION:PT2H
-SUMMARY:AFGELAST: Trajanum MSE-1 - Heroes Den Bosch MSE-2
-DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 509482
-LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-509486@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261002T204500
@@ -494,16 +484,6 @@ DTSTART;TZID=Europe/Amsterdam:20261205T163000
 DURATION:PT2H
 SUMMARY:Trajanum MSE-2 - Black Stars MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507619
-LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-512445@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261205T183000
-DURATION:PT2H
-SUMMARY:Trajanum MSE-1 - Rotterdam-Zuid MSE-1
-DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512445
 LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -1248,6 +1228,16 @@ LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-509482@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270327T183000
+DURATION:PT2H
+SUMMARY:Trajanum MSE-1 - Heroes Den Bosch MSE-2
+DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509482
+LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-507719@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270403T000000
@@ -1374,6 +1364,16 @@ DTSTART;TZID=Europe/Amsterdam:20270410T183000
 DURATION:PT2H
 SUMMARY:Trajanum MSE-1 - EVBV Octopus MSE-1
 DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509597
+LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-512445@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270417T163000
+DURATION:PT2H
+SUMMARY:Trajanum MSE-1 - Rotterdam-Zuid MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512445
 LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
 STATUS:CONFIRMED
 END:VEVENT
