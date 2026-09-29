@@ -68,16 +68,6 @@ LOCATION:De Tinnegieter\, Leigraaf 2\, 6641DH BEUNINGEN GLD
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-505904@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261108T150000
-DURATION:PT2H
-SUMMARY:Maastricht Knights MSE-1 - Blauw-Wit MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505904
-LOCATION:Universitair Sportcentrum Randwijck\, P Debyeplein 15\, 6229HA MAASTRICHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-505908@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T183000
@@ -105,6 +95,16 @@ DURATION:PT2H
 SUMMARY:EBBC MSE-1 - Maastricht Knights MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505922
 LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505904@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261206T150000
+DURATION:PT2H
+SUMMARY:Maastricht Knights MSE-1 - Blauw-Wit MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505904
+LOCATION:Universitair Sportcentrum Randwijck\, P Debyeplein 15\, 6229HA MAASTRICHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

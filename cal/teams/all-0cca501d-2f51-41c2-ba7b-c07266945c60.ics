@@ -718,16 +718,6 @@ LOCATION:In de Roos\, Commandobaan 8\, 4706CL ROOSENDAAL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-505904@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261108T150000
-DURATION:PT2H
-SUMMARY:Maastricht Knights MSE-1 - Blauw-Wit MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505904
-LOCATION:Universitair Sportcentrum Randwijck\, P Debyeplein 15\, 6229HA MAASTRICHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-500591@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T120000
@@ -1015,6 +1005,16 @@ DURATION:PT2H
 SUMMARY:Blauw-Wit MSE-1 - Pluto MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505919
 LOCATION:In de Roos\, Commandobaan 8\, 4706CL ROOSENDAAL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505904@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261206T150000
+DURATION:PT2H
+SUMMARY:Maastricht Knights MSE-1 - Blauw-Wit MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505904
+LOCATION:Universitair Sportcentrum Randwijck\, P Debyeplein 15\, 6229HA MAASTRICHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

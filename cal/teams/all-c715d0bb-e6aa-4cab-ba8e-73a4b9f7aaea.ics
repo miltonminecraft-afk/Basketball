@@ -368,16 +368,6 @@ LOCATION:Geusselt\, Olympiaweg 68\, 6225XX MAASTRICHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-494662@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261011T110000
-DURATION:PT2H
-SUMMARY:BC Kimbria X12-2 - Springfield '75 X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494662
-LOCATION:Geusselt\, Olympiaweg 68\, 6225XX MAASTRICHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-508658@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261011T110000
@@ -545,6 +535,16 @@ DURATION:PT2H
 SUMMARY:Valkenswaard Falcons MSE-1 - BC Kimbria MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508671
 LOCATION:De Wedert\, Past. Heerkensdreef 29\, 5552BG VALKENSWAARD
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494662@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T120000
+DURATION:PT2H
+SUMMARY:BC Kimbria X12-2 - Springfield '75 X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494662
+LOCATION:Geusselt\, Olympiaweg 68\, 6225XX MAASTRICHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
