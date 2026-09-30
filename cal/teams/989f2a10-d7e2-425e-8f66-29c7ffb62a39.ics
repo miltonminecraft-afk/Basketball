@@ -48,16 +48,6 @@ LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-495435@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T190000
-DURATION:PT2H
-SUMMARY:Basketball Academy Utrecht M16-2 M16-2 - BS Leiden M16-2
-DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495435
-LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-516820@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261018T133000
@@ -124,6 +114,16 @@ DTSTART;TZID=Europe/Amsterdam:20261129T120000
 DURATION:PT2H
 SUMMARY:Basketball Academy Utrecht M16-2 M16-2 - Marathon M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495502
+LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495435@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261206T100000
+DURATION:PT2H
+SUMMARY:Basketball Academy Utrecht M16-2 M16-2 - BS Leiden M16-2
+DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495435
 LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT

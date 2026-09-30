@@ -808,16 +808,6 @@ LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-506431@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T193000
-DURATION:PT2H
-SUMMARY:GET United VSE-1 - Orange Lions Academy VSE-1
-DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506431
-LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-506606@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T210000
@@ -1074,6 +1064,16 @@ DTSTART;TZID=Europe/Amsterdam:20270220T193000
 DURATION:PT2H
 SUMMARY:GET United VSE-1 - Startportaal-Renza Airflow Binnenland VSE-1
 DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506397
+LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506431@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270227T193000
+DURATION:PT2H
+SUMMARY:GET United VSE-1 - Orange Lions Academy VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506431
 LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
 STATUS:CONFIRMED
 END:VEVENT

@@ -38,16 +38,6 @@ LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-498935@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261004T163000
-DURATION:PT2H
-SUMMARY:BS Leiden M16-4 - BV Amsterdam M16-3
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498935
-LOCATION:sportzaal Kikkerpolder\, Oegstgeesterweg 4 a\, 2334BZ LEIDEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-498941@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T143000
@@ -95,6 +85,16 @@ DURATION:PT2H
 SUMMARY:Northside Ballers Amsterdam M16-2 - BV Amsterdam M16-3
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498972
 LOCATION:De Weeren\, Beemsterstraat 656\, 1027ED AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498935@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261206T143000
+DURATION:PT2H
+SUMMARY:BS Leiden M16-4 - BV Amsterdam M16-3
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498935
+LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

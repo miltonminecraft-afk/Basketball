@@ -970,7 +970,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-505088@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T140000
+DTSTART;TZID=Europe/Amsterdam:20261212T141500
 DURATION:PT2H
 SUMMARY:O.S.M. '75 VSE-1 - Forwodians VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505088
@@ -1268,16 +1268,6 @@ LOCATION:De Schans\, Nijverheidsweg 6\, 2215MH VOORHOUT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-505153@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270403T000000
-DURATION:PT2H
-SUMMARY:The Challengers VSE-1 - Forwodians VSE-1
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505153
-LOCATION:Fanny Blankers Koen Hal\, Arnolduspark 3\, 2132CR HOOFDDORP
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-511111@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270403T140000
@@ -1305,6 +1295,16 @@ DURATION:PT2H
 SUMMARY:Forwodians MSE-1 - Harlemlakers MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511117
 LOCATION:De Schans\, Nijverheidsweg 6\, 2215MH VOORHOUT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505153@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270417T161500
+DURATION:PT2H
+SUMMARY:The Challengers VSE-1 - Forwodians VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505153
+LOCATION:Fanny Blankers Koen Hal\, Arnolduspark 3\, 2132CR HOOFDDORP
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR

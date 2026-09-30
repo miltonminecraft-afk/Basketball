@@ -372,8 +372,8 @@ UID:foys-match-503206@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T170000
 DURATION:PT2H
-SUMMARY:BV Orca's M22-1 - LB-ZAC M22-2
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503206
+SUMMARY:BV Orca's M22-1* 0 - 20 LB-ZAC M22-2
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 0 - 20\nFOYS wedstrijd-ID: 503206
 LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
 STATUS:CONFIRMED
 END:VEVENT
@@ -968,16 +968,6 @@ LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-514095@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261010T160000
-DURATION:PT2H
-SUMMARY:Almere Pioneers X14-4 - LB-ZAC X14-4
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 514095
-LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-493783@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T163000
@@ -995,6 +985,16 @@ DURATION:PT2H
 SUMMARY:LB-ZAC MSE-2 - Twente Buzzards MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508788
 LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-514095@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T170000
+DURATION:PT2H
+SUMMARY:Almere Pioneers X14-4 - LB-ZAC X14-4
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 514095
+LOCATION:Almere Haven\, Parkwerf 138\, 1354EB ALMERE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -2172,7 +2172,7 @@ UID:foys-match-503221@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T181500
 DURATION:PT2H
-SUMMARY:LB-ZAC M22-2 - BV Orca's M22-1
+SUMMARY:LB-ZAC M22-2 - BV Orca's M22-1*
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503221
 LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
 STATUS:CONFIRMED
