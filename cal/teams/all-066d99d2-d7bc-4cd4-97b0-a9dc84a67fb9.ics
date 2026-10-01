@@ -598,16 +598,6 @@ LOCATION:Parkzoomhal\, Iersestraat 15\, 2912TH NIEUWERKERK AD IJSSEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-495008@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T143000
-DURATION:PT2H
-SUMMARY:AFGELAST: Waterdragers X12-2 - Devel Heroes X12-2*
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 495008
-LOCATION:Parkzoomhal\, Iersestraat 15\, 2912TH NIEUWERKERK AD IJSSEL
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-491282@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T150000
@@ -1026,6 +1016,16 @@ SUMMARY:BV Krimpen X12-1 - Waterdragers X12-2
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495009
 LOCATION:De Populier\, Populierenlaan 1\, 2925CP KRIMPEN AAN DEN IJSSEL
 STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495008@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T140000
+DURATION:PT2H
+SUMMARY:AFGELAST: Waterdragers X12-2 - Devel Heroes X12-2*
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 495008
+LOCATION:Parkzoomhal\, Iersestraat 15\, 2912TH NIEUWERKERK AD IJSSEL
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-495786@basketball-agenda

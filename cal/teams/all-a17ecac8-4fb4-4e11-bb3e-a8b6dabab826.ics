@@ -848,6 +848,16 @@ LOCATION:Zielhorst\, Trompetstraat 3\, 3822CK AMERSFOORT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-503609@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T140000
+DURATION:PT2H
+SUMMARY:Novo Stars M22-1 - Flevo Musketiers M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503609
+LOCATION:De Steupel\, Maarten Freeke Wije 2\, 2421TP NIEUWKOOP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-497191@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T144500
@@ -865,16 +875,6 @@ DURATION:PT2H
 SUMMARY:Green Giants M18-2 - Flevo Musketiers M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502382
 LOCATION:Korf De\, De Smidse 1\, 3831NT LEUSDEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-503609@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T154500
-DURATION:PT2H
-SUMMARY:Novo Stars M22-1 - Flevo Musketiers M22-1
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503609
-LOCATION:De Steupel\, Maarten Freeke Wije 2\, 2421TP NIEUWKOOP
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

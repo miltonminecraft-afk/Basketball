@@ -238,16 +238,6 @@ LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-498453@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T141500
-DURATION:PT2H
-SUMMARY:Crackerjacks V16-2 - Valley Vultures V16-1*
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498453
-LOCATION:Zielhorst\, Trompetstraat 3\, 3822CK AMERSFOORT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-507883@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T144500
@@ -274,16 +264,6 @@ DTSTART;TZID=Europe/Amsterdam:20261010T113000
 DURATION:PT2H
 SUMMARY:Valley Vultures X14-1 - BCE'78 X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497930
-LOCATION:Valleihal\, Sportlaan 3\, 3905 AD Veenendaal
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-498459@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261010T132000
-DURATION:PT2H
-SUMMARY:Valley Vultures V16-1* - BC Utrecht Cangeroes V16-2
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498459
 LOCATION:Valleihal\, Sportlaan 3\, 3905 AD Veenendaal
 STATUS:CONFIRMED
 END:VEVENT
@@ -458,16 +438,6 @@ LOCATION:Valleihal\, Sportlaan 3\, 3905 AD Veenendaal
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-498469@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T200000
-DURATION:PT2H
-SUMMARY:Valley Vultures V16-1* - BCE'78 V16-1
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498469
-LOCATION:Valleihal\, Sportlaan 3\, 3905 AD Veenendaal
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-507900@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T200000
@@ -515,16 +485,6 @@ DURATION:PT2H
 SUMMARY:BV Leerdam M16-1 - Valley Vultures M16-2
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499951
 LOCATION:Feel Fit Center/Berenschot\, Tiendweg 9\, 4142EG LEERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-498472@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T150000
-DURATION:PT2H
-SUMMARY:Utrecht Basketball V16-1 V16-1 - Valley Vultures V16-1*
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498472
-LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -608,16 +568,6 @@ LOCATION:Valleihal\, Sportlaan 3\, 3905 AD Veenendaal
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-498478@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T170000
-DURATION:PT2H
-SUMMARY:Valley Vultures V16-1* - BC Shooters V16-3
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498478
-LOCATION:Valleihal\, Sportlaan 3\, 3905 AD Veenendaal
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-511270@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T170000
@@ -678,16 +628,6 @@ LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-498484@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T163000
-DURATION:PT2H
-SUMMARY:Arnhem Eagles V16-2 - Valley Vultures V16-1*
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498484
-LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-507916@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T183000
@@ -724,16 +664,6 @@ DTSTART;TZID=Europe/Amsterdam:20261212T123000
 DURATION:PT2H
 SUMMARY:Valley Vultures M16-1* - Goba M16-2
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499964
-LOCATION:Valleihal\, Sportlaan 3\, 3905 AD Veenendaal
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-498487@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T142000
-DURATION:PT2H
-SUMMARY:Valley Vultures V16-1* - Goba V16-1
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498487
 LOCATION:Valleihal\, Sportlaan 3\, 3905 AD Veenendaal
 STATUS:CONFIRMED
 END:VEVENT

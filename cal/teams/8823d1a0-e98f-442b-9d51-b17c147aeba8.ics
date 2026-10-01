@@ -68,16 +68,6 @@ LOCATION:Develhal\, Parklaan 5\, 3335LM ZWIJNDRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-495008@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T143000
-DURATION:PT2H
-SUMMARY:AFGELAST: Waterdragers X12-2 - Devel Heroes X12-2*
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 495008
-LOCATION:Parkzoomhal\, Iersestraat 15\, 2912TH NIEUWERKERK AD IJSSEL
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-495002@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T130000
@@ -96,6 +86,16 @@ SUMMARY:Klipperstars X12-1 - Devel Heroes X12-2*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495013
 LOCATION:De Klipper\, Klipperstraat 20\, 2957EM NIEUW-LEKKERLAND
 STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495008@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T140000
+DURATION:PT2H
+SUMMARY:AFGELAST: Waterdragers X12-2 - Devel Heroes X12-2*
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 495008
+LOCATION:Parkzoomhal\, Iersestraat 15\, 2912TH NIEUWERKERK AD IJSSEL
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-495018@basketball-agenda

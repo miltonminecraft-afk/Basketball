@@ -618,16 +618,6 @@ LOCATION:Korver Sporthal "Duintjesveld"\, Duintjesveldweg 1 A\, 2041TZ ZANDVOORT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-510549@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261024T180000
-DURATION:PT2H
-SUMMARY:BC Triple ThreaT MSE-4 - K.T.C. MSE-3
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510549
-LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-492957@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T100000
@@ -762,7 +752,7 @@ UID:foys-match-507764@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261106T191500
 DURATION:PT2H
-SUMMARY:VBC Akrides MSE-3 - K.T.C. MSE-1
+SUMMARY:VBC Akrides MSE-3* - K.T.C. MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507764
 LOCATION:Sporthal IJmuiden-Oost\, Tiberiusplein 6\, 1971HN IJMUIDEN
 STATUS:CONFIRMED
@@ -1388,6 +1378,16 @@ LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-510549@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261219T163000
+DURATION:PT2H
+SUMMARY:BC Triple ThreaT MSE-4 - K.T.C. MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510549
+LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-510592@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270108T200000
@@ -1612,7 +1612,7 @@ UID:foys-match-507835@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270306T163000
 DURATION:PT2H
-SUMMARY:K.T.C. MSE-1 - VBC Akrides MSE-3
+SUMMARY:K.T.C. MSE-1 - VBC Akrides MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507835
 LOCATION:Tetterodehal\, Tetterodeweg 15\, 2051EG OVERVEEN
 STATUS:CONFIRMED

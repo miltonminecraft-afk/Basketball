@@ -308,16 +308,6 @@ LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-502712@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261010T140000
-DURATION:PT2H
-SUMMARY:BC Eindhoven V22-1 - BC Bumpers V22-1
-DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502712
-LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-512851@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T140000
@@ -338,16 +328,6 @@ LOCATION:Elzenburg\, Brabantlaan 1\, 5262GW VUGHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-501525@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261010T164500
-DURATION:PT2H
-SUMMARY:BC Deurne Pioniers M18-1 - BC Eindhoven M18-1**
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501525
-LOCATION:De Peelhorst\, St. Jozefstraat 70\, 5753AV DEURNE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-493744@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261011T113000
@@ -365,6 +345,16 @@ DURATION:PT2H
 SUMMARY:BC Eindhoven MSE-1 - Tantalus MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511980
 LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501525@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T150000
+DURATION:PT2H
+SUMMARY:BC Deurne Pioniers M18-1 - BC Eindhoven M18-1**
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501525
+LOCATION:De Peelhorst\, St. Jozefstraat 70\, 5753AV DEURNE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -875,6 +865,16 @@ DURATION:PT2H
 SUMMARY:Yellow Sox M18-1 - BC Eindhoven M18-1**
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501502
 LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502712@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261219T180000
+DURATION:PT2H
+SUMMARY:BC Eindhoven V22-1 - BC Bumpers V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502712
+LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

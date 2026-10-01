@@ -112,8 +112,8 @@ UID:foys-match-507738@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T090000
 DURATION:PT2H
-SUMMARY:BV Oegstgeest MSE-3 - VBC Akrides MSE-3
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507738
+SUMMARY:BV Oegstgeest MSE-3 20 - 0 VBC Akrides MSE-3*
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 507738
 LOCATION:Sporthal De Cuyl\, de Voscuyl 36\, 2341BJ OEGSTGEEST
 STATUS:CONFIRMED
 END:VEVENT
@@ -368,22 +368,22 @@ LOCATION:Sporthal Willem-Alexanderplantsoen\, Willem-Alexanderplantsoen 6 B\, 27
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-501786@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261004T090000
-DURATION:PT2H
-SUMMARY:BV Oegstgeest M18-2 - BV Lisse M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501786
-LOCATION:Sporthal De Cuyl\, de Voscuyl 36\, 2341BJ OEGSTGEEST
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-492948@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T110000
 DURATION:PT2H
 SUMMARY:BV Oegstgeest V12-1 - Onze Gezellen V12-1
 DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492948
+LOCATION:Sporthal De Cuyl\, de Voscuyl 36\, 2341BJ OEGSTGEEST
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501786@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261004T110000
+DURATION:PT2H
+SUMMARY:BV Oegstgeest M18-2 - BV Lisse M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501786
 LOCATION:Sporthal De Cuyl\, de Voscuyl 36\, 2341BJ OEGSTGEEST
 STATUS:CONFIRMED
 END:VEVENT
@@ -1302,7 +1302,7 @@ UID:foys-match-507802@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270115T191500
 DURATION:PT2H
-SUMMARY:VBC Akrides MSE-3 - BV Oegstgeest MSE-3
+SUMMARY:VBC Akrides MSE-3* - BV Oegstgeest MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507802
 LOCATION:Sporthal IJmuiden-Oost\, Tiberiusplein 6\, 1971HN IJMUIDEN
 STATUS:CONFIRMED
