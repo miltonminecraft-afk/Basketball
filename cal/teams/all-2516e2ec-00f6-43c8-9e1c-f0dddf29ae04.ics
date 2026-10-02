@@ -858,16 +858,6 @@ LOCATION:Ridderhal\, Hoge Kade 60\, 3341BD HENDRIK-I.A.
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-505903@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T184500
-DURATION:PT2H
-SUMMARY:BC Deurne Pioniers MSE-1 - River Trotters MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505903
-LOCATION:De Peelhorst\, St. Jozefstraat 70\, 5753AV DEURNE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-509901@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T194500
@@ -2095,6 +2085,16 @@ DURATION:PT2H
 SUMMARY:TSBV Pendragon VSE-1 - River Trotters VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503779
 LOCATION:Studentensporthal KUB\, Academielaan 5\, 5037ET TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505903@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270417T150000
+DURATION:PT2H
+SUMMARY:BC Deurne Pioniers MSE-1 - River Trotters MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505903
+LOCATION:De Peelhorst\, St. Jozefstraat 70\, 5753AV DEURNE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

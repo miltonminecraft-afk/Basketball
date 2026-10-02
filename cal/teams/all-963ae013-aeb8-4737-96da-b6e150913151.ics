@@ -452,8 +452,8 @@ UID:foys-match-506008@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T193000
 DURATION:PT2H
-SUMMARY:BV Groningen MSE-1 7 - 4 BV Arrows MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: IncompleteMatch\nUitslag: 7 - 4\nFOYS wedstrijd-ID: 506008
+SUMMARY:BV Groningen MSE-1 - BV Arrows MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: IncompleteMatch\nFOYS wedstrijd-ID: 506008
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -982,10 +982,10 @@ UID:foys-match-501155@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T104500
 DURATION:PT2H
-SUMMARY:BV Groningen M18-1 - Quick Lions M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501155
+SUMMARY:AFGELAST: BV Groningen M18-1 - Quick Lions M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 501155
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-507031@basketball-agenda

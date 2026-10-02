@@ -782,8 +782,8 @@ UID:foys-match-507397@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261002T190000
 DURATION:PT2H
-SUMMARY:TSBV Pendragon MSE-2 - CBV Binnenland MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507397
+SUMMARY:TSBV Pendragon MSE-2 25 - 41 CBV Binnenland MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nUitslag: 25 - 41\nFOYS wedstrijd-ID: 507397
 LOCATION:Studentensporthal KUB\, Academielaan 5\, 5037ET TILBURG
 STATUS:CONFIRMED
 END:VEVENT
@@ -922,10 +922,10 @@ UID:foys-match-495607@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T133000
 DURATION:PT2H
-SUMMARY:B.C. Virtus V14-1 - CBV Binnenland V14-2
-DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495607
+SUMMARY:AFGELAST: B.C. Virtus V14-1 - CBV Binnenland V14-2
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 495607
 LOCATION:De Crosser\, Raadhuislaan 19\, 4251VS WERKENDAM
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-502999@basketball-agenda
@@ -2058,6 +2058,16 @@ LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-504596@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T150000
+DURATION:PT2H
+SUMMARY:Faith & Fire V18-1 - CBV Binnenland V18-1
+DESCRIPTION:Vrouwen U18 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504596
+LOCATION:Sporthal De Passie\, Maashaven Noordzijde 11\, 3072 AE Rotterdam
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-508408@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T151500
@@ -2125,16 +2135,6 @@ DURATION:PT2H
 SUMMARY:CBV Binnenland M22-2 - Bouncers Basketball M22-2
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503023
 LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-504596@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T170000
-DURATION:PT2H
-SUMMARY:Faith & Fire V18-1 - CBV Binnenland V18-1
-DESCRIPTION:Vrouwen U18 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504596
-LOCATION:Sporthal De Passie\, Maashaven Noordzijde 11\, 3072 AE Rotterdam
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

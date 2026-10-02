@@ -372,8 +372,8 @@ UID:foys-match-493810@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261002T190000
 DURATION:PT2H
-SUMMARY:Amical X12-1 - Uitsmijters X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493810
+SUMMARY:Amical X12-1 27 - 22 Uitsmijters X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 27 - 22\nFOYS wedstrijd-ID: 493810
 LOCATION:Diekmanhal\, J.J. van Deinselaan 22\, 7541BR ENSCHEDE
 STATUS:CONFIRMED
 END:VEVENT
@@ -1084,16 +1084,6 @@ DTSTART;TZID=Europe/Amsterdam:20261121T121500
 DURATION:PT2H
 SUMMARY:Uitsmijters X10-3 - Amical X10-1
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491821
-LOCATION:IISPA Breedtesporthal\, Stadionlaan 60\, 7606JZ ALMELO
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-498138@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T121500
-DURATION:PT2H
-SUMMARY:Uitsmijters X14-2 - Olstars X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498138
 LOCATION:IISPA Breedtesporthal\, Stadionlaan 60\, 7606JZ ALMELO
 STATUS:CONFIRMED
 END:VEVENT
