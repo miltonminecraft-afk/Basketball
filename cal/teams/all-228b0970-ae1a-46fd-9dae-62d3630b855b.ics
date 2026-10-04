@@ -213,7 +213,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T170000
 DURATION:PT2H
 SUMMARY:Basketbal Academie Limburg M18-2 74 - 38 Jumping Giants M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 74 - 38\nFOYS wedstrijd-ID: 502411
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 74 - 38\nFOYS wedstrijd-ID: 502411
 LOCATION:De Grenslibel\, Oude Trambaan 3\, 6039GN STRAMPROY
 STATUS:CONFIRMED
 END:VEVENT
@@ -222,8 +222,8 @@ UID:foys-match-514106@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T210000
 DURATION:PT2H
-SUMMARY:Springfield MSE-3 - Jumping Giants MSE-3*
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 514106
+SUMMARY:Springfield MSE-3 110 - 40 Jumping Giants MSE-3*
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 110 - 40\nFOYS wedstrijd-ID: 514106
 LOCATION:De Run\, Runweg 11\, 5258BK BERLICUM NB
 STATUS:CONFIRMED
 END:VEVENT
