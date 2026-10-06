@@ -992,7 +992,7 @@ UID:foys-match-498170@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T123000
 DURATION:PT2H
-SUMMARY:HBV The Jumpers V16-1 - DAS V16-1
+SUMMARY:HBV The Jumpers V16-1* - DAS V16-1
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498170
 LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
@@ -1310,7 +1310,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-509368@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T191500
+DTSTART;TZID=Europe/Amsterdam:20261031T193000
 DURATION:PT2H
 SUMMARY:DAS MSE-1 - VBC Akrides MSE-1
 DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509368
@@ -2072,7 +2072,7 @@ UID:foys-match-495644@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T094500
 DURATION:PT2H
-SUMMARY:CBV Binnenland V14-2 - DAS V14-1
+SUMMARY:CBV Binnenland V14-2* - DAS V14-1
 DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495644
 LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
 STATUS:CONFIRMED
@@ -2212,7 +2212,7 @@ UID:foys-match-509392@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T211500
 DURATION:PT2H
-SUMMARY:DAS MSE-1 - CobraNova MSE-1
+SUMMARY:DAS MSE-1 - CobraNova MSE-1*
 DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509392
 LOCATION:Korba sporthal\, Schoemakerstraat 340\, 2629HP DELFT
 STATUS:CONFIRMED
@@ -2942,7 +2942,7 @@ UID:foys-match-509458@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270403T000000
 DURATION:PT2H
-SUMMARY:CobraNova MSE-1 - DAS MSE-1
+SUMMARY:CobraNova MSE-1* - DAS MSE-1
 DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509458
 LOCATION:Forum Kwadraat\, De Vliegerlaan 2 4\, 2273BV VOORBURG
 STATUS:CONFIRMED

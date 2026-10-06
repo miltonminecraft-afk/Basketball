@@ -12,7 +12,7 @@ UID:foys-match-513913@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260829T190000
 DURATION:PT2H
-SUMMARY:E.B.C.G. M18-2* 46 - 77 Yellow Sox M18-1
+SUMMARY:E.B.C.G. M18-2** 46 - 77 Yellow Sox M18-1
 DESCRIPTION:Status: Final\nUitslag: 46 - 77\nFOYS wedstrijd-ID: 513913
 LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
 STATUS:CONFIRMED
@@ -423,7 +423,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T171500
 DURATION:PT2H
 SUMMARY:Yellow Sox M16-1 74 - 47 BC Kimbria M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 74 - 47\nFOYS wedstrijd-ID: 499051
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 74 - 47\nFOYS wedstrijd-ID: 499051
 LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
 STATUS:CONFIRMED
 END:VEVENT
@@ -844,7 +844,7 @@ DTSTART;TZID=Europe/Amsterdam:20261107T164500
 DURATION:PT2H
 SUMMARY:BC Deurne Pioniers MSE-2 - Yellow Sox MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508667
-LOCATION:De Peelhorst\, St. Jozefstraat 70\, 5753AV DEURNE
+LOCATION:De Peelhorst\, Burgemeester Roefslaan 13\, 5753GX Deurne
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -854,7 +854,7 @@ DTSTART;TZID=Europe/Amsterdam:20261107T184500
 DURATION:PT2H
 SUMMARY:BC Deurne Pioniers M18-1 - Yellow Sox M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501534
-LOCATION:De Peelhorst\, St. Jozefstraat 70\, 5753AV DEURNE
+LOCATION:De Peelhorst\, Burgemeester Roefslaan 13\, 5753GX Deurne
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

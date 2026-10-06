@@ -42,10 +42,10 @@ UID:foys-match-510414@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T173000
 DURATION:PT2H
-SUMMARY:AFGELAST: Be Quick '28 MSE-3 - Ceres MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 510414
+SUMMARY:Be Quick '28 MSE-3 20 - 0 Ceres MSE-2*
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 510414
 LOCATION:Gerenlanden\, Munterkamp 75\, 8014DM ZWOLLE
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-510419@basketball-agenda
@@ -152,7 +152,7 @@ UID:foys-match-510478@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270130T173000
 DURATION:PT2H
-SUMMARY:Ceres MSE-2 - Be Quick '28 MSE-3
+SUMMARY:Ceres MSE-2* - Be Quick '28 MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510478
 LOCATION:Bosbadhal\, Boslaan 30\, 8302AB EMMELOORD
 STATUS:CONFIRMED

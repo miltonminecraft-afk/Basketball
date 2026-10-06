@@ -252,7 +252,7 @@ UID:foys-match-500552@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T180000
 DURATION:PT2H
-SUMMARY:WBB Giants M16-2 76 - 65 Marathon M16-3
+SUMMARY:WBB Giants M16-2 76 - 65 Marathon M16-3*
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 76 - 65\nFOYS wedstrijd-ID: 500552
 LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
 STATUS:CONFIRMED
@@ -542,7 +542,7 @@ UID:foys-match-507399@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T200000
 DURATION:PT2H
-SUMMARY:WBB Giants MSE-1 20 - 0 Hurricanes MSE-1
+SUMMARY:WBB Giants MSE-1 20 - 0 Hurricanes MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 507399
 LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
 STATUS:CONFIRMED
@@ -1184,7 +1184,7 @@ DTSTART;TZID=Europe/Amsterdam:20261121T150000
 DURATION:PT2H
 SUMMARY:BC Deurne Pioniers M16-1 - WBB Giants M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499075
-LOCATION:De Peelhorst\, St. Jozefstraat 70\, 5753AV DEURNE
+LOCATION:De Peelhorst\, Burgemeester Roefslaan 13\, 5753GX Deurne
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1442,7 +1442,7 @@ UID:foys-match-500604@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261211T190000
 DURATION:PT2H
-SUMMARY:Marathon M16-3 - WBB Giants M16-3
+SUMMARY:Marathon M16-3* - WBB Giants M16-3
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500604
 LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
@@ -1672,7 +1672,7 @@ UID:foys-match-507465@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270130T000000
 DURATION:PT2H
-SUMMARY:Hurricanes MSE-1 - WBB Giants MSE-1
+SUMMARY:Hurricanes MSE-1* - WBB Giants MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507465
 LOCATION:Den Oert\, J. Witteveenlaan 1\, 3201LX SPIJKENISSE
 STATUS:CONFIRMED

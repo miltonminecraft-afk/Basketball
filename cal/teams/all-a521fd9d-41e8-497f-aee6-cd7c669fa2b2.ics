@@ -52,7 +52,7 @@ UID:foys-match-501139@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T144500
 DURATION:PT2H
-SUMMARY:Quick Lions M18-1 58 - 111 Dyna '75 M18-1
+SUMMARY:Quick Lions M18-1* 58 - 111 Dyna '75 M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 58 - 111\nFOYS wedstrijd-ID: 501139
 LOCATION:De Zandzee\, Struikheiweg 14\, 1406TK BUSSUM
 STATUS:CONFIRMED
@@ -412,7 +412,7 @@ UID:foys-match-503953@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T133000
 DURATION:PT2H
-SUMMARY:Dyna '75 VSE-1 20 - 0 TONEGO '65 VSE-1
+SUMMARY:Dyna '75 VSE-1 20 - 0 TONEGO '65 VSE-1*
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 503953
 LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
 STATUS:CONFIRMED
@@ -505,16 +505,6 @@ DURATION:PT2H
 SUMMARY:Dyna '75 V22-2 - Assist V22-1
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502751
 LOCATION:De Spreng\, Vredeveldseweg 57\, 9404CC ASSEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-516864@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261016T210000
-DURATION:PT2H
-SUMMARY:NRG Basketball MSE-1 - Dyna '75 MSE-1
-DESCRIPTION:Mannen Senioren (Basketball Cup) - 1e Ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516864
-LOCATION:Erasmushal\, Erasmusplein 56\, 3132EL VLAARDINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -638,16 +628,6 @@ LOCATION:
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-495111@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T133000
-DURATION:PT2H
-SUMMARY:Dyna '75 X12-1 - Flying Red X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495111
-LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-498837@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T133000
@@ -688,16 +668,6 @@ LOCATION:Deppenbroek\, Rijnstraat 11\, 7523GD ENSCHEDE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-502767@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T151500
-DURATION:PT2H
-SUMMARY:Dyna '75 V22-1 - BV Orca's V22-2
-DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502767
-LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-503963@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T151500
@@ -708,12 +678,32 @@ LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-495111@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T170000
+DURATION:PT2H
+SUMMARY:Dyna '75 X12-1 - Flying Red X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495111
+LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-496774@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T170000
 DURATION:PT2H
 SUMMARY:Dyna '75 X14-1 - M&F Security Typhoons'23 X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496774
+LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502767@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T190000
+DURATION:PT2H
+SUMMARY:Dyna '75 V22-1 - BV Orca's V22-2
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502767
 LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -1242,7 +1232,7 @@ UID:foys-match-509378@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T144500
 DURATION:PT2H
-SUMMARY:Dyna '75 MSE-1 - CobraNova MSE-1
+SUMMARY:Dyna '75 MSE-1 - CobraNova MSE-1*
 DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509378
 LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
 STATUS:CONFIRMED
@@ -1542,7 +1532,7 @@ UID:foys-match-504009@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270130T200000
 DURATION:PT2H
-SUMMARY:TONEGO '65 VSE-1 - Dyna '75 VSE-1
+SUMMARY:TONEGO '65 VSE-1* - Dyna '75 VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504009
 LOCATION:De Els\, Trompstraat 20\, 7482VX HAAKSBERGEN
 STATUS:CONFIRMED
@@ -1692,7 +1682,7 @@ UID:foys-match-509447@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270313T000000
 DURATION:PT2H
-SUMMARY:CobraNova MSE-1 - Dyna '75 MSE-1
+SUMMARY:CobraNova MSE-1* - Dyna '75 MSE-1
 DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509447
 LOCATION:Forum Kwadraat\, De Vliegerlaan 2 4\, 2273BV VOORBURG
 STATUS:CONFIRMED

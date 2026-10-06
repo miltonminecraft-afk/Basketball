@@ -158,6 +158,16 @@ LOCATION:Hoenderdaal\, Hoendersteeg 7\, 3972NA DRIEBERGEN-RIJSENBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-524528@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261005T190000
+DURATION:PT2H
+SUMMARY:Flip Stars X12-1 - Flip Stars X12-1
+DESCRIPTION:Status: Planned\nFOYS wedstrijd-ID: 524528
+LOCATION:Westroyen\, Predikbroedersweg 14\, 4003AL TIEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-494929@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T131500
@@ -184,16 +194,6 @@ DTSTART;TZID=Europe/Amsterdam:20261010T150000
 DURATION:PT2H
 SUMMARY:Flip Stars X14-1 - Akros X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497931
-LOCATION:Westroyen\, Predikbroedersweg 14\, 4003AL TIEL
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-501916@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261010T150000
-DURATION:PT2H
-SUMMARY:Flip Stars M18-1 * - B.Z. '72 M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501916
 LOCATION:Westroyen\, Predikbroedersweg 14\, 4003AL TIEL
 STATUS:CONFIRMED
 END:VEVENT
@@ -228,32 +228,12 @@ LOCATION:Westroyen\, Predikbroedersweg 14\, 4003AL TIEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-501923@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T150000
-DURATION:PT2H
-SUMMARY:Flip Stars M18-1 * - BC Utrecht Cangeroes M18-4
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501923
-LOCATION:Westroyen\, Predikbroedersweg 14\, 4003AL TIEL
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-499944@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T104500
 DURATION:PT2H
 SUMMARY:Archipel M16-2 - Flip Stars M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499944
-LOCATION:Sporthal Parijsch\, Eendenkooi 3\, 4105TN CULEMBORG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-501927@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T104500
-DURATION:PT2H
-SUMMARY:Archipel M18-1 - Flip Stars M18-1 *
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501927
 LOCATION:Sporthal Parijsch\, Eendenkooi 3\, 4105TN CULEMBORG
 STATUS:CONFIRMED
 END:VEVENT
@@ -308,16 +288,6 @@ LOCATION:Westroyen\, Predikbroedersweg 14\, 4003AL TIEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-501933@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T150000
-DURATION:PT2H
-SUMMARY:Flip Stars M18-1 * - Archipel M18-2
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501933
-LOCATION:Westroyen\, Predikbroedersweg 14\, 4003AL TIEL
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-494951@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T113000
@@ -338,16 +308,6 @@ LOCATION:Westroyen\, Predikbroedersweg 14\, 4003AL TIEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-501938@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T151000
-DURATION:PT2H
-SUMMARY:Valley Vultures M18-1 - Flip Stars M18-1 *
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501938
-LOCATION:Valleihal\, Sportlaan 3\, 3905 AD Veenendaal
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-497956@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T094500
@@ -364,16 +324,6 @@ DTSTART;TZID=Europe/Amsterdam:20261128T131500
 DURATION:PT2H
 SUMMARY:Flip Stars M16-1 - Valley Vultures M16-1*
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499960
-LOCATION:Westroyen\, Predikbroedersweg 14\, 4003AL TIEL
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-501942@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T150000
-DURATION:PT2H
-SUMMARY:Flip Stars M18-1 * - Woodpeckers M18-2
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501942
 LOCATION:Westroyen\, Predikbroedersweg 14\, 4003AL TIEL
 STATUS:CONFIRMED
 END:VEVENT

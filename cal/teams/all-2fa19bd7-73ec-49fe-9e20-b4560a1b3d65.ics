@@ -72,7 +72,7 @@ UID:foys-match-508902@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260920T150000
 DURATION:PT2H
-SUMMARY:S.B.U. MSE-3 75 - 42 Springfield MSE-2
+SUMMARY:S.B.U. MSE-3 75 - 42 Springfield MSE-2*
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Final\nUitslag: 75 - 42\nFOYS wedstrijd-ID: 508902
 LOCATION:Sportcentrum Olympos\, Uppsalalaan 3\, 3584CT UTRECHT
 STATUS:CONFIRMED
@@ -134,7 +134,7 @@ DTSTART;TZID=Europe/Amsterdam:20260926T184500
 DURATION:PT2H
 SUMMARY:BC Deurne Pioniers MSE-1 76 - 83 S.B.U. MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Final\nUitslag: 76 - 83\nFOYS wedstrijd-ID: 505881
-LOCATION:De Peelhorst\, St. Jozefstraat 70\, 5753AV DEURNE
+LOCATION:De Peelhorst\, Burgemeester Roefslaan 13\, 5753GX Deurne
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -932,7 +932,7 @@ UID:foys-match-508970@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270116T150000
 DURATION:PT2H
-SUMMARY:Springfield MSE-2 - S.B.U. MSE-3
+SUMMARY:Springfield MSE-2* - S.B.U. MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508970
 LOCATION:De Run\, Runweg 11\, 5258BK BERLICUM NB
 STATUS:CONFIRMED

@@ -68,6 +68,16 @@ LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-503195@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T113000
+DURATION:PT2H
+SUMMARY:BeCeGe '74 M22-1 - Eindhoven Lumineers M22-1
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503195
+LOCATION:De Bongerd\, de Bongerd 81\, 7006NH DOETINCHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-503193@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T144500
@@ -75,16 +85,6 @@ DURATION:PT2H
 SUMMARY:B.V. Batouwe M22-1 - BeCeGe '74 M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503193
 LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-503195@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T104500
-DURATION:PT2H
-SUMMARY:BeCeGe '74 M22-1 - Eindhoven Lumineers M22-1
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503195
-LOCATION:De Bongerd\, de Bongerd 81\, 7006NH DOETINCHEM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

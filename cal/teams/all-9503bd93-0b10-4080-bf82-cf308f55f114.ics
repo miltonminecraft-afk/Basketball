@@ -32,7 +32,7 @@ UID:foys-match-516640@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260906T140000
 DURATION:PT2H
-SUMMARY:New Stars V16-1 - HBV The Jumpers V16-1
+SUMMARY:New Stars V16-1 - HBV The Jumpers V16-1*
 DESCRIPTION:Status: Planned\nFOYS wedstrijd-ID: 516640
 LOCATION:Sporthal Merwestein\, Merweplein 1\, 3432GN NIEUWEGEIN
 STATUS:CONFIRMED
@@ -292,7 +292,7 @@ UID:foys-match-498158@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T120000
 DURATION:PT2H
-SUMMARY:Westland Stars V16-2 27 - 61 HBV The Jumpers V16-1
+SUMMARY:Westland Stars V16-2 27 - 61 HBV The Jumpers V16-1*
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 27 - 61\nFOYS wedstrijd-ID: 498158
 LOCATION:Sosefhal\, Strijphorst 1\, 2675WN HONSELERSDIJK
 STATUS:CONFIRMED
@@ -332,7 +332,7 @@ UID:foys-match-499156@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T123000
 DURATION:PT2H
-SUMMARY:GBI van Dijk Grasshoppers M16-1 66 - 36 HBV The Jumpers M16-4
+SUMMARY:GBI van Dijk Grasshoppers M16-1 66 - 36 HBV The Jumpers M16-4*
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 66 - 36\nFOYS wedstrijd-ID: 499156
 LOCATION:Cleyn Duin\, Stadhoudersdreef 1\, 2224BN KATWIJK ZH
 STATUS:CONFIRMED
@@ -462,7 +462,7 @@ UID:foys-match-498161@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T103000
 DURATION:PT2H
-SUMMARY:HBV The Jumpers V16-1 44 - 43 BV Zoetermeer Hammerheads V16-1
+SUMMARY:HBV The Jumpers V16-1* 44 - 43 BV Zoetermeer Hammerheads V16-1
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 44 - 43\nFOYS wedstrijd-ID: 498161
 LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
@@ -472,7 +472,7 @@ UID:foys-match-499158@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T103000
 DURATION:PT2H
-SUMMARY:HBV The Jumpers M16-4 45 - 50 Forwodians M16-1
+SUMMARY:HBV The Jumpers M16-4* 45 - 50 Forwodians M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 45 - 50\nFOYS wedstrijd-ID: 499158
 LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
@@ -663,7 +663,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261002T190000
 DURATION:PT2H
 SUMMARY:Rotterdam-Zuid M22-2 73 - 67 HBV The Jumpers M22-2
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 73 - 67\nFOYS wedstrijd-ID: 502998
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 73 - 67\nFOYS wedstrijd-ID: 502998
 LOCATION:Sportcentrum De Sportmotor\, Jan Ligthartstraat 95\, 3083AL ROTTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -672,10 +672,10 @@ UID:foys-match-498165@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T090000
 DURATION:PT2H
-SUMMARY:AFGELAST: Divine V16-1 - HBV The Jumpers V16-1
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 498165
+SUMMARY:Divine V16-1 20 - 0 HBV The Jumpers V16-1*
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 498165
 LOCATION:Sporthal Oostervant\, Oostervantstraat 25\, 3021PT ROTTERDAM
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-498715@basketball-agenda
@@ -832,7 +832,7 @@ UID:foys-match-499164@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T140000
 DURATION:PT2H
-SUMMARY:Bouncers Basketball M16-1 20 - 0 HBV The Jumpers M16-4
+SUMMARY:Bouncers Basketball M16-1 20 - 0 HBV The Jumpers M16-4*
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 499164
 LOCATION:De Mammoet\, Calslaan 101\, 2804RT GOUDA
 STATUS:CONFIRMED
@@ -962,7 +962,7 @@ UID:foys-match-498170@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T123000
 DURATION:PT2H
-SUMMARY:HBV The Jumpers V16-1 - DAS V16-1
+SUMMARY:HBV The Jumpers V16-1* - DAS V16-1
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498170
 LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
@@ -1132,7 +1132,7 @@ UID:foys-match-499169@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T120000
 DURATION:PT2H
-SUMMARY:HBV The Jumpers M16-4 - Zoebas M16-3
+SUMMARY:HBV The Jumpers M16-4* - Zoebas M16-3
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499169
 LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
@@ -1152,7 +1152,7 @@ UID:foys-match-498152@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T140000
 DURATION:PT2H
-SUMMARY:HBV The Jumpers V16-1 - Westland Stars V16-1
+SUMMARY:HBV The Jumpers V16-1* - Westland Stars V16-1
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498152
 LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
@@ -1292,7 +1292,7 @@ UID:foys-match-499177@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T130000
 DURATION:PT2H
-SUMMARY:HBV The Jumpers M16-4 - BS Leiden M16-5
+SUMMARY:HBV The Jumpers M16-4* - BS Leiden M16-5
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499177
 LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
@@ -1322,7 +1322,7 @@ UID:foys-match-498177@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T140000
 DURATION:PT2H
-SUMMARY:GBI van Dijk Grasshoppers V16-2 - HBV The Jumpers V16-1
+SUMMARY:GBI van Dijk Grasshoppers V16-2 - HBV The Jumpers V16-1*
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498177
 LOCATION:Cleyn Duin\, Stadhoudersdreef 1\, 2224BN KATWIJK ZH
 STATUS:CONFIRMED
@@ -1592,7 +1592,7 @@ UID:foys-match-499182@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T150000
 DURATION:PT2H
-SUMMARY:BV Lisse M16-1 - HBV The Jumpers M16-4
+SUMMARY:BV Lisse M16-1 - HBV The Jumpers M16-4*
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499182
 LOCATION:De Waterkanten\, Sportlaan 21\, 2161VA LISSE
 STATUS:CONFIRMED
@@ -1702,7 +1702,7 @@ UID:foys-match-499189@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T103000
 DURATION:PT2H
-SUMMARY:HBV The Jumpers M16-4 - NIEUW Generation Basketball M16-3
+SUMMARY:HBV The Jumpers M16-4* - NIEUW Generation Basketball M16-3
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499189
 LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
@@ -1782,7 +1782,7 @@ UID:foys-match-498188@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T143000
 DURATION:PT2H
-SUMMARY:HBV The Jumpers V16-1 - NIEUW Generation Basketball V16-1
+SUMMARY:HBV The Jumpers V16-1* - NIEUW Generation Basketball V16-1
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498188
 LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
@@ -1992,7 +1992,7 @@ UID:foys-match-499195@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T140000
 DURATION:PT2H
-SUMMARY:BV Alphia M16-1 - HBV The Jumpers M16-4
+SUMMARY:BV Alphia M16-1 - HBV The Jumpers M16-4*
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499195
 LOCATION:Rijnstreekhal\, Dillenburg 1\, 2404EV ALPHEN AAN DEN RIJN
 STATUS:CONFIRMED
@@ -2082,7 +2082,7 @@ UID:foys-match-498190@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T103000
 DURATION:PT2H
-SUMMARY:CobraNova V16-2 - HBV The Jumpers V16-1
+SUMMARY:CobraNova V16-2 - HBV The Jumpers V16-1*
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498190
 LOCATION:Forum Kwadraat\, De Vliegerlaan 2 4\, 2273BV VOORBURG
 STATUS:CONFIRMED
@@ -2152,7 +2152,7 @@ UID:foys-match-498198@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T123000
 DURATION:PT2H
-SUMMARY:HBV The Jumpers V16-1 - CobraNova V16-1
+SUMMARY:HBV The Jumpers V16-1* - CobraNova V16-1
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498198
 LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
@@ -2162,7 +2162,7 @@ UID:foys-match-499201@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T123000
 DURATION:PT2H
-SUMMARY:HBV The Jumpers M16-4 - BV Leiderdorp M16-1
+SUMMARY:HBV The Jumpers M16-4* - BV Leiderdorp M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499201
 LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
@@ -2352,7 +2352,7 @@ UID:foys-match-492037@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T103000
 DURATION:PT2H
-SUMMARY:HBV The Jumpers X10-1 - BS Leiden X10-3
+SUMMARY:HBV The Jumpers X10-1 - BS Leiden X10-3*
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492037
 LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
@@ -2472,7 +2472,7 @@ UID:foys-match-498201@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T153000
 DURATION:PT2H
-SUMMARY:BV Squirrels V16-1 - HBV The Jumpers V16-1
+SUMMARY:BV Squirrels V16-1 - HBV The Jumpers V16-1*
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498201
 LOCATION:Sporthal Oostmeer\, Het Hoge Land 19\, 2652EA BERKEL EN RODENRIJS
 STATUS:CONFIRMED
@@ -2482,7 +2482,7 @@ UID:foys-match-499208@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T160000
 DURATION:PT2H
-SUMMARY:BV Alphia M16-2 - HBV The Jumpers M16-4
+SUMMARY:BV Alphia M16-2 - HBV The Jumpers M16-4*
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499208
 LOCATION:Rijnstreekhal\, Dillenburg 1\, 2404EV ALPHEN AAN DEN RIJN
 STATUS:CONFIRMED

@@ -263,7 +263,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T171500
 DURATION:PT2H
 SUMMARY:Yellow Sox M16-1 74 - 47 BC Kimbria M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 74 - 47\nFOYS wedstrijd-ID: 499051
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 74 - 47\nFOYS wedstrijd-ID: 499051
 LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
 STATUS:CONFIRMED
 END:VEVENT
@@ -524,7 +524,7 @@ DTSTART;TZID=Europe/Amsterdam:20261107T164500
 DURATION:PT2H
 SUMMARY:BC Deurne Pioniers M16-1 - BC Kimbria M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499066
-LOCATION:De Peelhorst\, St. Jozefstraat 70\, 5753AV DEURNE
+LOCATION:De Peelhorst\, Burgemeester Roefslaan 13\, 5753GX Deurne
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1024,7 +1024,7 @@ DTSTART;TZID=Europe/Amsterdam:20270417T170000
 DURATION:PT2H
 SUMMARY:BC Deurne Pioniers MSE-2 - BC Kimbria MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508645
-LOCATION:De Peelhorst\, St. Jozefstraat 70\, 5753AV DEURNE
+LOCATION:De Peelhorst\, Burgemeester Roefslaan 13\, 5753GX Deurne
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR

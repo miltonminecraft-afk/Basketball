@@ -320,7 +320,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-501861@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T134500
+DTSTART;TZID=Europe/Amsterdam:20261031T140000
 DURATION:PT2H
 SUMMARY:O.S.M. '75 M18-1 - ABC Basketball M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501861
@@ -622,7 +622,7 @@ UID:foys-match-508952@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T200000
 DURATION:PT2H
-SUMMARY:ABC Basketball MSE-1 - Springfield MSE-2
+SUMMARY:ABC Basketball MSE-1 - Springfield MSE-2*
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508952
 LOCATION:D'Alburcht\, Perzikstraat 14 A\, 4261KD WIJK EN AALBURG
 STATUS:CONFIRMED
@@ -882,7 +882,7 @@ UID:foys-match-509014@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270403T210000
 DURATION:PT2H
-SUMMARY:Springfield MSE-2 - ABC Basketball MSE-1
+SUMMARY:Springfield MSE-2* - ABC Basketball MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509014
 LOCATION:De Run\, Runweg 11\, 5258BK BERLICUM NB
 STATUS:CONFIRMED

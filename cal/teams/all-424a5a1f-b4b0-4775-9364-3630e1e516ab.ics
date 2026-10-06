@@ -382,7 +382,7 @@ UID:foys-match-501145@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T150000
 DURATION:PT2H
-SUMMARY:Almere Pioneers M18-1 50 - 65 Quick Lions M18-1
+SUMMARY:Almere Pioneers M18-1 50 - 65 Quick Lions M18-1*
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 50 - 65\nFOYS wedstrijd-ID: 501145
 LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
 STATUS:CONFIRMED
@@ -883,7 +883,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T124500
 DURATION:PT2H
 SUMMARY:Blue Arrows X12-1 82 - 32 Almere Pioneers X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 82 - 32\nFOYS wedstrijd-ID: 493358
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 82 - 32\nFOYS wedstrijd-ID: 493358
 LOCATION:Hoenderdaal\, Hoendersteeg 7\, 3972NA DRIEBERGEN-RIJSENBURG
 STATUS:CONFIRMED
 END:VEVENT
@@ -2090,7 +2090,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-496483@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T121500
+DTSTART;TZID=Europe/Amsterdam:20261121T123000
 DURATION:PT2H
 SUMMARY:O.S.M. '75 X14-1 - Almere Pioneers X14-3
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496483

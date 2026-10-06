@@ -423,7 +423,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T163000
 DURATION:PT2H
 SUMMARY:BV Amsterdam X14-2 43 - 89 Harlemlakers X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 43 - 89\nFOYS wedstrijd-ID: 496195
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 43 - 89\nFOYS wedstrijd-ID: 496195
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -742,7 +742,7 @@ UID:foys-match-501351@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T111500
 DURATION:PT2H
-SUMMARY:Flashing Heiloo M18-2 - Harlemlakers M18-1
+SUMMARY:Flashing Heiloo M18-2* - Harlemlakers M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501351
 LOCATION:Het Vennewater\, Het Zevenhuizen 48\, 1852JC HEILOO
 STATUS:CONFIRMED

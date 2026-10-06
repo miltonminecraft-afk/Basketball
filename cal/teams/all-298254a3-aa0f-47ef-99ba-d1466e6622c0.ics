@@ -388,16 +388,6 @@ LOCATION:Den Ekkerman\, Wal 150\, 5501HP VELDHOVEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-494874@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261011T093000
-DURATION:PT2H
-SUMMARY:Vido X12-2 - Oirschot X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494874
-LOCATION:Den Ekkerman\, Wal 150\, 5501HP VELDHOVEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-497755@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261011T093000
@@ -405,6 +395,16 @@ DURATION:PT2H
 SUMMARY:Vido X14-1 - Springfield '75 X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497755
 LOCATION:Den Ekkerman\, Wal 150\, 5501HP VELDHOVEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494874@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261011T110000
+DURATION:PT2H
+SUMMARY:Oirschot X12-1 - Vido X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494874
+LOCATION:sportcentrum De Kemmer\, Bloemendaal 5\, 5688GP OIRSCHOT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -634,7 +634,7 @@ DTSTART;TZID=Europe/Amsterdam:20261107T150000
 DURATION:PT2H
 SUMMARY:BC Deurne Pioniers X12-1 - Vido X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494763
-LOCATION:De Peelhorst\, St. Jozefstraat 70\, 5753AV DEURNE
+LOCATION:De Peelhorst\, Burgemeester Roefslaan 13\, 5753GX Deurne
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

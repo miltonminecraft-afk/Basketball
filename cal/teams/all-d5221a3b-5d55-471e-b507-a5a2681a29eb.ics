@@ -12,7 +12,7 @@ UID:foys-match-496810@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260911T184500
 DURATION:PT2H
-SUMMARY:Risne Stars X14-1 39 - 40 The Jugglers X14-3
+SUMMARY:Risne Stars X14-1* 39 - 40 The Jugglers X14-3
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 39 - 40\nFOYS wedstrijd-ID: 496810
 LOCATION:Reggehal\, Nieuwlandsweg 1\, 7461VP RIJSSEN
 STATUS:CONFIRMED
@@ -112,7 +112,7 @@ UID:foys-match-496811@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260918T191500
 DURATION:PT2H
-SUMMARY:Amical X14-1 129 - 2 Risne Stars X14-1
+SUMMARY:Amical X14-1 129 - 2 Risne Stars X14-1*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 129 - 2\nFOYS wedstrijd-ID: 496811
 LOCATION:Diekmanhal\, J.J. van Deinselaan 22\, 7541BR ENSCHEDE
 STATUS:CONFIRMED
@@ -212,7 +212,7 @@ UID:foys-match-496815@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T180000
 DURATION:PT2H
-SUMMARY:Risne Stars X14-1 17 - 74 Twente Buzzards X14-1
+SUMMARY:Risne Stars X14-1* 17 - 74 Twente Buzzards X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 17 - 74\nFOYS wedstrijd-ID: 496815
 LOCATION:Reggehal\, Nieuwlandsweg 1\, 7461VP RIJSSEN
 STATUS:CONFIRMED
@@ -262,7 +262,7 @@ UID:foys-match-496817@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T103000
 DURATION:PT2H
-SUMMARY:EBV Mustangs X14-1 20 - 0 Risne Stars X14-1
+SUMMARY:EBV Mustangs X14-1 20 - 0 Risne Stars X14-1*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 496817
 LOCATION:Angelslo\, Ubbekingecamp 3\, 7824EH EMMEN
 STATUS:CONFIRMED
@@ -352,7 +352,7 @@ UID:foys-match-496820@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261023T190000
 DURATION:PT2H
-SUMMARY:Risne Stars X14-1 - The Jugglers X14-2
+SUMMARY:Risne Stars X14-1* - The Jugglers X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496820
 LOCATION:Reggehal\, Nieuwlandsweg 1\, 7461VP RIJSSEN
 STATUS:CONFIRMED
@@ -432,7 +432,7 @@ UID:foys-match-496825@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T143000
 DURATION:PT2H
-SUMMARY:Twente Buzzards X14-1 - Risne Stars X14-1
+SUMMARY:Twente Buzzards X14-1 - Risne Stars X14-1*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496825
 LOCATION:Hasseler Es\, Henry Woodstraat 1\, 7558CM HENGELO OV
 STATUS:CONFIRMED
@@ -512,7 +512,7 @@ UID:foys-match-496829@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T161500
 DURATION:PT2H
-SUMMARY:Risne Stars X14-1 - EBV Mustangs X14-1
+SUMMARY:Risne Stars X14-1* - EBV Mustangs X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496829
 LOCATION:Reggehal\, Nieuwlandsweg 1\, 7461VP RIJSSEN
 STATUS:CONFIRMED
@@ -572,7 +572,7 @@ UID:foys-match-496827@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T143000
 DURATION:PT2H
-SUMMARY:The Jugglers X14-2 - Risne Stars X14-1
+SUMMARY:The Jugglers X14-2 - Risne Stars X14-1*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496827
 LOCATION:Deppenbroek\, Rijnstraat 11\, 7523GD ENSCHEDE
 STATUS:CONFIRMED
@@ -692,7 +692,7 @@ UID:foys-match-496834@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261127T190000
 DURATION:PT2H
-SUMMARY:Risne Stars X14-1 - Amical X14-1
+SUMMARY:Risne Stars X14-1* - Amical X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496834
 LOCATION:Reggehal\, Nieuwlandsweg 1\, 7461VP RIJSSEN
 STATUS:CONFIRMED
@@ -782,7 +782,7 @@ UID:foys-match-496836@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T123000
 DURATION:PT2H
-SUMMARY:The Jugglers X14-3 - Risne Stars X14-1
+SUMMARY:The Jugglers X14-3 - Risne Stars X14-1*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496836
 LOCATION:Deppenbroek\, Rijnstraat 11\, 7523GD ENSCHEDE
 STATUS:CONFIRMED
