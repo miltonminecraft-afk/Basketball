@@ -252,10 +252,10 @@ UID:foys-match-492566@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T150000
 DURATION:PT2H
-SUMMARY:AFGELAST: Basketball Academy Utrecht M14-2 M14-2 - Basketbal Academie Limburg M14-1
-DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 492566
+SUMMARY:Basketball Academy Utrecht M14-2 M14-2 20 - 0 Basketbal Academie Limburg M14-1
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 492566
 LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-506137@basketball-agenda
@@ -263,7 +263,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T170000
 DURATION:PT2H
 SUMMARY:BC Triple ThreaT M19-1 88 - 93 Basketball Academy Utrecht M19-2 M19-2
-DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nUitslag: 88 - 93\nFOYS wedstrijd-ID: 506137
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Final\nUitslag: 88 - 93\nFOYS wedstrijd-ID: 506137
 LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
 STATUS:CONFIRMED
 END:VEVENT
