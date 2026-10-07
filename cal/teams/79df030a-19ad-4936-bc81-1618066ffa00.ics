@@ -38,6 +38,16 @@ LOCATION:De Waterkanten\, Sportlaan 21\, 2161VA LISSE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-494472@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T111500
+DURATION:PT2H
+SUMMARY:Dunkinn X12-1 - BV Aalsmeer X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494472
+LOCATION:'t Spant\, Larikslaan 20\, 2451BV LEIMUIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-494495@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261101T093000
@@ -85,16 +95,6 @@ DURATION:PT2H
 SUMMARY:The Challengers X12-1 - Dunkinn X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494514
 LOCATION:Fanny Blankers Koen Hal\, Arnolduspark 3\, 2132CR HOOFDDORP
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-494472@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261220T093000
-DURATION:PT2H
-SUMMARY:Dunkinn X12-1 - BV Aalsmeer X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494472
-LOCATION:'t Spant\, Larikslaan 20\, 2451BV LEIMUIDEN
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
