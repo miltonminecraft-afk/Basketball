@@ -8,6 +8,46 @@ X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:foys-match-525544@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261002T203000
+DURATION:PT2H
+SUMMARY:Hubo Limburg United MSE-1 100 - 109 Kangoeroes Basket Mechelen MSE-2
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Final\nUitslag: 100 - 109\nFOYS wedstrijd-ID: 525544
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-525552@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T203000
+DURATION:PT2H
+SUMMARY:Kangoeroes Basket Mechelen MSE-2 - Partena Professional Okapi Aalst MSE-4
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 525552
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-525555@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261017T203000
+DURATION:PT2H
+SUMMARY:Kangoeroes Basket Mechelen MSE-2 - CB Liège MSE-11
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 525555
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-525558@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261024T200000
+DURATION:PT2H
+SUMMARY:Windrose Giants Antwerp MSE-9 - Kangoeroes Basket Mechelen MSE-2
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 525558
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-516422@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261030T200000

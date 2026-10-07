@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Basketball Agenda//NL
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:NIEUW Generation Basketball M22-1
+X-WR-CALNAME:NIEUW Generation Basketball M22-1*
 X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
@@ -12,7 +12,7 @@ UID:foys-match-502978@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T130000
 DURATION:PT2H
-SUMMARY:NIEUW Generation Basketball M22-1 77 - 84 BV Leiderdorp M22-1
+SUMMARY:NIEUW Generation Basketball M22-1* 77 - 84 BV Leiderdorp M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 77 - 84\nFOYS wedstrijd-ID: 502978
 LOCATION:British School\, Jan van Hooflaan 3\, 2252BG VOORSCHOTEN
 STATUS:CONFIRMED
@@ -22,7 +22,7 @@ UID:foys-match-502986@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T154500
 DURATION:PT2H
-SUMMARY:Bouncers Basketball M22-2 53 - 81 NIEUW Generation Basketball M22-1
+SUMMARY:Bouncers Basketball M22-2 53 - 81 NIEUW Generation Basketball M22-1*
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 53 - 81\nFOYS wedstrijd-ID: 502986
 LOCATION:De Mammoet\, Calslaan 101\, 2804RT GOUDA
 STATUS:CONFIRMED
@@ -32,7 +32,7 @@ UID:foys-match-502990@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T111500
 DURATION:PT2H
-SUMMARY:NIEUW Generation Basketball M22-1 51 - 50 Rotterdam-Zuid M22-2
+SUMMARY:NIEUW Generation Basketball M22-1* 51 - 50 Rotterdam-Zuid M22-2
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 51 - 50\nFOYS wedstrijd-ID: 502990
 LOCATION:British School\, Jan van Hooflaan 3\, 2252BG VOORSCHOTEN
 STATUS:CONFIRMED
@@ -42,8 +42,8 @@ UID:foys-match-502994@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T130000
 DURATION:PT2H
-SUMMARY:Divine M22-1 - NIEUW Generation Basketball M22-1
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502994
+SUMMARY:Divine M22-1 20 - 0 NIEUW Generation Basketball M22-1*
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 502994
 LOCATION:Sporthal Oostervant\, Oostervantstraat 25\, 3021PT ROTTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -52,7 +52,7 @@ UID:foys-match-503001@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T093000
 DURATION:PT2H
-SUMMARY:NIEUW Generation Basketball M22-1 - GBI van Dijk Grasshoppers M22-1
+SUMMARY:NIEUW Generation Basketball M22-1* - GBI van Dijk Grasshoppers M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503001
 LOCATION:British School\, Jan van Hooflaan 3\, 2252BG VOORSCHOTEN
 STATUS:CONFIRMED
@@ -62,7 +62,7 @@ UID:foys-match-503008@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T183000
 DURATION:PT2H
-SUMMARY:BS Leiden M22-2 - NIEUW Generation Basketball M22-1
+SUMMARY:BS Leiden M22-2 - NIEUW Generation Basketball M22-1*
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503008
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
@@ -72,7 +72,7 @@ UID:foys-match-503012@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T093000
 DURATION:PT2H
-SUMMARY:NIEUW Generation Basketball M22-1 - CBV Binnenland M22-2
+SUMMARY:NIEUW Generation Basketball M22-1* - CBV Binnenland M22-2
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503012
 LOCATION:British School\, Jan van Hooflaan 3\, 2252BG VOORSCHOTEN
 STATUS:CONFIRMED
@@ -82,7 +82,7 @@ UID:foys-match-503021@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T130000
 DURATION:PT2H
-SUMMARY:NIEUW Generation Basketball M22-1 - HBV The Jumpers M22-2
+SUMMARY:NIEUW Generation Basketball M22-1* - HBV The Jumpers M22-2
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503021
 LOCATION:British School\, Jan van Hooflaan 3\, 2252BG VOORSCHOTEN
 STATUS:CONFIRMED
@@ -92,7 +92,7 @@ UID:foys-match-503025@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T143000
 DURATION:PT2H
-SUMMARY:DAS M22-2 - NIEUW Generation Basketball M22-1
+SUMMARY:DAS M22-2 - NIEUW Generation Basketball M22-1*
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503025
 LOCATION:Korba sporthal\, Schoemakerstraat 340\, 2629HP DELFT
 STATUS:CONFIRMED
@@ -102,7 +102,7 @@ UID:foys-match-503033@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T130000
 DURATION:PT2H
-SUMMARY:NIEUW Generation Basketball M22-1 - Zoebas M22-1
+SUMMARY:NIEUW Generation Basketball M22-1* - Zoebas M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503033
 LOCATION:British School\, Jan van Hooflaan 3\, 2252BG VOORSCHOTEN
 STATUS:CONFIRMED
@@ -112,7 +112,7 @@ UID:foys-match-503038@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261211T210000
 DURATION:PT2H
-SUMMARY:EBV Baros M22-1 - NIEUW Generation Basketball M22-1
+SUMMARY:EBV Baros M22-1 - NIEUW Generation Basketball M22-1*
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503038
 LOCATION:Woudestein\, Burgemeester Oudlaan 50\, 3062PA ROTTERDAM
 STATUS:CONFIRMED

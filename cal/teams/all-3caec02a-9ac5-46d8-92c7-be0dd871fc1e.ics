@@ -42,7 +42,7 @@ UID:foys-match-502978@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T130000
 DURATION:PT2H
-SUMMARY:NIEUW Generation Basketball M22-1 77 - 84 BV Leiderdorp M22-1
+SUMMARY:NIEUW Generation Basketball M22-1* 77 - 84 BV Leiderdorp M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 77 - 84\nFOYS wedstrijd-ID: 502978
 LOCATION:British School\, Jan van Hooflaan 3\, 2252BG VOORSCHOTEN
 STATUS:CONFIRMED
@@ -438,16 +438,6 @@ LOCATION:Korba sporthal\, Schoemakerstraat 340\, 2629HP DELFT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-493690@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T100000
-DURATION:PT2H
-SUMMARY:Hot Pepper Heat X12-1 - BV Leiderdorp X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493690
-LOCATION:Dorpshuis Zwanenburg Halfweg\, Dennenlaan 133 A\, 1161CN ZWANENBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-492050@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T103000
@@ -455,6 +445,16 @@ DURATION:PT2H
 SUMMARY:BS Leiden X10-1 50 - 0 BV Leiderdorp X10-1
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 50 - 0\nFOYS wedstrijd-ID: 492050
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493690@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T100000
+DURATION:PT2H
+SUMMARY:Hot Pepper Heat X12-1 - BV Leiderdorp X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493690
+LOCATION:Dorpshuis Zwanenburg Halfweg\, Dennenlaan 133 A\, 1161CN ZWANENBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1534,16 +1534,6 @@ DTSTART;TZID=Europe/Amsterdam:20261212T130000
 DURATION:PT2H
 SUMMARY:BV Hoofddorp X14-3 - BV Leiderdorp X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496543
-LOCATION:Sportcomplex Koning Willem-Alexander\, Bennebroekerweg 800\, 2134AB HOOFDDORP
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-512822@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T130000
-DURATION:PT2H
-SUMMARY:BV Hoofddorp M18-5 - BV Leiderdorp M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512822
 LOCATION:Sportcomplex Koning Willem-Alexander\, Bennebroekerweg 800\, 2134AB HOOFDDORP
 STATUS:CONFIRMED
 END:VEVENT

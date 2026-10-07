@@ -278,32 +278,12 @@ LOCATION:Zielhorst\, Trompetstraat 3\, 3822CK AMERSFOORT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-502354@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261024T100000
-DURATION:PT2H
-SUMMARY:Quick Runners M18-2 - Red Stars M18-2*
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502354
-LOCATION:Sporthal  Wolfskamer\, IJsselmeerstraat 3 D\, 1271AA HUIZEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-493846@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T140000
 DURATION:PT2H
 SUMMARY:Red Stars X12-1 - Quick Runners X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493846
-LOCATION:Sportboulevard De Engh\, Dalweg 181\, 3762AW SOEST
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-502361@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T140000
-DURATION:PT2H
-SUMMARY:Red Stars M18-2* - B.A.S. M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502361
 LOCATION:Sportboulevard De Engh\, Dalweg 181\, 3762AW SOEST
 STATUS:CONFIRMED
 END:VEVENT
@@ -335,16 +315,6 @@ DURATION:PT2H
 SUMMARY:Red Stars M22-1 - Barons Breda Basketball M22-1*
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503142
 LOCATION:Sportboulevard De Engh\, Dalweg 181\, 3762AW SOEST
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-502367@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T140000
-DURATION:PT2H
-SUMMARY:Crackerjacks M18-3 - Red Stars M18-2*
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502367
-LOCATION:Zielhorst\, Trompetstraat 3\, 3822CK AMERSFOORT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -398,16 +368,6 @@ LOCATION:Sportboulevard De Engh\, Dalweg 181\, 3762AW SOEST
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-502373@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T133000
-DURATION:PT2H
-SUMMARY:Red Stars M18-2* - Flevo Musketiers M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502373
-LOCATION:Sportboulevard De Engh\, Dalweg 181\, 3762AW SOEST
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-507906@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T140000
@@ -435,16 +395,6 @@ DURATION:PT2H
 SUMMARY:Red Stars M22-1 - E.L.B.C. M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503154
 LOCATION:Sportboulevard De Engh\, Dalweg 181\, 3762AW SOEST
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-502380@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T140000
-DURATION:PT2H
-SUMMARY:Break Stars M18-1 - Red Stars M18-2*
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502380
-LOCATION:De Trits\, Goeman Borgesiuslaan 2\, 3741CR BAARN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -498,16 +448,6 @@ LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-502386@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T130000
-DURATION:PT2H
-SUMMARY:Green Giants M18-1 - Red Stars M18-2*
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502386
-LOCATION:Korf De\, De Smidse 1\, 3831NT LEUSDEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-493855@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T140000
@@ -558,16 +498,6 @@ LOCATION:Putter-Eng\, Engweg 6\, 3882AL PUTTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-502349@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261204T200000
-DURATION:PT2H
-SUMMARY:Red Stars M18-2* - Sparta Nijkerk M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502349
-LOCATION:Sportboulevard De Engh\, Dalweg 181\, 3762AW SOEST
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-493858@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T100000
@@ -575,16 +505,6 @@ DURATION:PT2H
 SUMMARY:Almere Pioneers X12-3 - Red Stars X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493858
 LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-502392@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T143000
-DURATION:PT2H
-SUMMARY:Red Stars M18-2* - Eem '78 M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502392
-LOCATION:Sportboulevard De Engh\, Dalweg 181\, 3762AW SOEST
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
