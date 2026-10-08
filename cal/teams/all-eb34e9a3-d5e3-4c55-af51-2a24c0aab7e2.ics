@@ -418,16 +418,6 @@ LOCATION:Develhal\, Parklaan 5\, 3335LM ZWIJNDRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-498219@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261010T000000
-DURATION:PT2H
-SUMMARY:Devel Heroes V16-1 - Hurricanes V16-1
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498219
-LOCATION:Develhal\, Parklaan 5\, 3335LM ZWIJNDRECHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-499294@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T090000
@@ -445,6 +435,16 @@ DURATION:PT2H
 SUMMARY:D.B.V. Rowic X12-2 - Devel Heroes X12-2*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494987
 LOCATION:Sportboulevard\, Fanny Blankers-Koenweg 10\, 3318AX DORDRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498223@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261010T120000
+DURATION:PT2H
+SUMMARY:Hurricanes V16-1 - Devel Heroes V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498223
+LOCATION:Den Oert\, J. Witteveenlaan 1\, 3201LX SPIJKENISSE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -698,16 +698,6 @@ LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-498223@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T000000
-DURATION:PT2H
-SUMMARY:Hurricanes V16-1 - Devel Heroes V16-1
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498223
-LOCATION:Den Oert\, J. Witteveenlaan 1\, 3201LX SPIJKENISSE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-508412@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T110000
@@ -765,6 +755,16 @@ DURATION:PT2H
 SUMMARY:New Stars X14-3 - Devel Heroes X14-2*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497826
 LOCATION:Sporthal De Waterlelie\, Heemraadsweide 13\, 3437CA NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498219@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T150000
+DURATION:PT2H
+SUMMARY:Devel Heroes V16-1 - Hurricanes V16-1
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498219
+LOCATION:De Sophiahal\, Sophiapromenade 9\, 3344PL HENDRIK-IDO-AMBACHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

@@ -928,16 +928,6 @@ LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-512448@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261003T200000
-DURATION:PT2H
-SUMMARY:AFGELAST: Rotterdam-Zuid MSE-1 - High Five MSE-1
-DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 512448
-LOCATION:Sportcentrum De Sportmotor\, Jan Ligthartstraat 95\, 3083AL ROTTERDAM
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-492081@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T093000
@@ -1522,7 +1512,7 @@ UID:foys-match-501530@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T180000
 DURATION:PT2H
-SUMMARY:BC Eindhoven M18-1** - High Five M18-2
+SUMMARY:BC Eindhoven M18-1* - High Five M18-2
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501530
 LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
@@ -2975,6 +2965,16 @@ DURATION:PT2H
 SUMMARY:Trajanum VSE-2 - High Five VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504331
 LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-512448@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261219T200000
+DURATION:PT2H
+SUMMARY:Rotterdam-Zuid MSE-1 - High Five MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512448
+LOCATION:Sportcentrum De Sportmotor\, Jan Ligthartstraat 95\, 3083AL ROTTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

@@ -102,7 +102,7 @@ UID:foys-match-501511@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T160000
 DURATION:PT2H
-SUMMARY:BC Eindhoven M18-1** 0 - 20 BC Kimbria M18-1
+SUMMARY:BC Eindhoven M18-1* 0 - 20 BC Kimbria M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 0 - 20\nFOYS wedstrijd-ID: 501511
 LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
@@ -195,16 +195,6 @@ DURATION:PT2H
 SUMMARY:BC Eindhoven V22-1 54 - 38 Akros V22-1
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 54 - 38\nFOYS wedstrijd-ID: 502703
 LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-501514@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260927T120000
-DURATION:PT2H
-SUMMARY:Achilles '71 M18-1 20 - 0 BC Eindhoven M18-1**
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 501514
-LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -352,7 +342,7 @@ UID:foys-match-501525@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T150000
 DURATION:PT2H
-SUMMARY:BC Deurne Pioniers M18-1 - BC Eindhoven M18-1**
+SUMMARY:BC Deurne Pioniers M18-1 - BC Eindhoven M18-1*
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501525
 LOCATION:De Peelhorst\, Burgemeester Roefslaan 13\, 5753GX Deurne
 STATUS:CONFIRMED
@@ -392,7 +382,7 @@ UID:foys-match-501530@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T180000
 DURATION:PT2H
-SUMMARY:BC Eindhoven M18-1** - High Five M18-2
+SUMMARY:BC Eindhoven M18-1* - High Five M18-2
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501530
 LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
@@ -502,7 +492,7 @@ UID:foys-match-501536@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T113000
 DURATION:PT2H
-SUMMARY:Arnhem Eagles M18-2 - BC Eindhoven M18-1**
+SUMMARY:Arnhem Eagles M18-2 - BC Eindhoven M18-1*
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501536
 LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
 STATUS:CONFIRMED
@@ -515,6 +505,16 @@ DURATION:PT2H
 SUMMARY:BC Heeze MSE-1 - BC Eindhoven MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511984
 LOCATION:De Pompenmaker\, De Pompenmaker 4\, 5591NE HEEZE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501514@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261111T193000
+DURATION:PT2H
+SUMMARY:Achilles '71 M18-1 - BC Eindhoven M18-1*
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501514
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -572,7 +572,7 @@ UID:foys-match-501541@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T180000
 DURATION:PT2H
-SUMMARY:BC Eindhoven M18-1** - Valkenswaard Falcons M18-1
+SUMMARY:BC Eindhoven M18-1* - Valkenswaard Falcons M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501541
 LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
@@ -752,7 +752,7 @@ UID:foys-match-501551@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261129T120000
 DURATION:PT2H
-SUMMARY:Eindhoven Lumineers M18-1 - BC Eindhoven M18-1**
+SUMMARY:Eindhoven Lumineers M18-1 - BC Eindhoven M18-1*
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501551
 LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
@@ -772,7 +772,7 @@ UID:foys-match-501520@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T160000
 DURATION:PT2H
-SUMMARY:BC Eindhoven M18-1** - Joy-M M18-1
+SUMMARY:BC Eindhoven M18-1* - Joy-M M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501520
 LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
@@ -822,7 +822,7 @@ UID:foys-match-501556@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T140000
 DURATION:PT2H
-SUMMARY:BC Eindhoven M18-1** - OBC M18-1
+SUMMARY:BC Eindhoven M18-1* - OBC M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501556
 LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
@@ -862,7 +862,7 @@ UID:foys-match-501502@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261219T134500
 DURATION:PT2H
-SUMMARY:Yellow Sox M18-1 - BC Eindhoven M18-1**
+SUMMARY:Yellow Sox M18-1 - BC Eindhoven M18-1*
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501502
 LOCATION:Sporthal 't Zand\, Geneneind 2 e\, 5761RH BAKEL
 STATUS:CONFIRMED

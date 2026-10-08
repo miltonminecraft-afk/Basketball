@@ -18,16 +18,6 @@ LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-501514@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260927T120000
-DURATION:PT2H
-SUMMARY:Achilles '71 M18-1 20 - 0 BC Eindhoven M18-1**
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 501514
-LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-501517@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T104500
@@ -65,6 +55,16 @@ DURATION:PT2H
 SUMMARY:Achilles '71 M18-1 - Eindhoven Lumineers M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501532
 LOCATION:De Hongerman\, Hoge Brake 3\, 5672GJ NUENEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501514@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261111T193000
+DURATION:PT2H
+SUMMARY:Achilles '71 M18-1 - BC Eindhoven M18-1*
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501514
+LOCATION:Tivoli\, Geert Grootestraat 72\, 5645RE EINDHOVEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
