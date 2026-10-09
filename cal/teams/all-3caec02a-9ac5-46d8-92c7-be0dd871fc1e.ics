@@ -448,16 +448,6 @@ LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-493690@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261010T100000
-DURATION:PT2H
-SUMMARY:Hot Pepper Heat X12-1 - BV Leiderdorp X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493690
-LOCATION:Dorpshuis Zwanenburg Halfweg\, Dennenlaan 133 A\, 1161CN ZWANENBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-494813@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T104500
@@ -1445,6 +1435,16 @@ DURATION:PT2H
 SUMMARY:U.S. MSE-6 - BV Leiderdorp MSE-4
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511041
 LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493690@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T110000
+DURATION:PT2H
+SUMMARY:Hot Pepper Heat X12-1 - BV Leiderdorp X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493690
+LOCATION:Dorpshuis Zwanenburg Halfweg\, Dennenlaan 133 A\, 1161CN ZWANENBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

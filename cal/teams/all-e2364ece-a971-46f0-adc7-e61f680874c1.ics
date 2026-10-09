@@ -378,16 +378,6 @@ LOCATION:Sportcentrum Olympos\, Uppsalalaan 3\, 3584CT UTRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-508331@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270206T180000
-DURATION:PT2H
-SUMMARY:D.E.D. MSE-2 - Utrecht Bull's MSE-4
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508331
-LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-504496@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270206T200000
@@ -404,6 +394,16 @@ DTSTART;TZID=Europe/Amsterdam:20270206T200000
 DURATION:PT2H
 SUMMARY:D.E.D. MSE-1 - Hot Pepper Heat MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506768
+LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508331@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T200000
+DURATION:PT2H
+SUMMARY:D.E.D. MSE-2 - Utrecht Bull's MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508331
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT

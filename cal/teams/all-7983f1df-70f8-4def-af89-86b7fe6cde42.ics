@@ -318,12 +318,12 @@ LOCATION:De Pompenmaker\, De Pompenmaker 4\, 5591NE HEEZE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-511744@basketball-agenda
+UID:foys-match-507310@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T113000
 DURATION:PT2H
-SUMMARY:Tantalus MSE-5 - Achilles '71 MSE-4
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511744
+SUMMARY:Tantalus MSE-3 - Achilles '71 MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507310
 LOCATION:SSC Sportcentrum\, Onze Lieve Vrouwestraat 1\, 5612AW EINDHOVEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -348,12 +348,12 @@ LOCATION:SSC Sportcentrum\, Onze Lieve Vrouwestraat 1\, 5612AW EINDHOVEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-507310@basketball-agenda
+UID:foys-match-511744@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T133000
 DURATION:PT2H
-SUMMARY:Tantalus MSE-3 - Achilles '71 MSE-3
-DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507310
+SUMMARY:Tantalus MSE-5 - Achilles '71 MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511744
 LOCATION:SSC Sportcentrum\, Onze Lieve Vrouwestraat 1\, 5612AW EINDHOVEN
 STATUS:CONFIRMED
 END:VEVENT

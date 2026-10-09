@@ -548,16 +548,6 @@ LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-493690@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261010T100000
-DURATION:PT2H
-SUMMARY:Hot Pepper Heat X12-1 - BV Leiderdorp X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493690
-LOCATION:Dorpshuis Zwanenburg Halfweg\, Dennenlaan 133 A\, 1161CN ZWANENBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-512211@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T100000
@@ -1345,6 +1335,16 @@ DURATION:PT2H
 SUMMARY:Harlemlakers X14-1 - Hot Pepper Heat X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496234
 LOCATION:Calandhal Hal 1\, Eliza van Calcarstraat 2\, 1068RR AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493690@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T110000
+DURATION:PT2H
+SUMMARY:Hot Pepper Heat X12-1 - BV Leiderdorp X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493690
+LOCATION:Dorpshuis Zwanenburg Halfweg\, Dennenlaan 133 A\, 1161CN ZWANENBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
