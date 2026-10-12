@@ -2158,22 +2158,22 @@ LOCATION:De Slinger\, Kamillehof 24\, 3991GZ HOUTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-501950@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T164500
+DURATION:PT2H
+SUMMARY:Woodpeckers M18-3 - BCE'78 M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501950
+LOCATION:De Slinger\, Kamillehof 24\, 3991GZ HOUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-499966@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T183000
 DURATION:PT2H
 SUMMARY:Woodpeckers M16-5 - Blue Arrows M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499966
-LOCATION:De Slinger\, Kamillehof 24\, 3991GZ HOUTEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-501950@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T183000
-DURATION:PT2H
-SUMMARY:Woodpeckers M18-3 - BCE'78 M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501950
 LOCATION:De Slinger\, Kamillehof 24\, 3991GZ HOUTEN
 STATUS:CONFIRMED
 END:VEVENT

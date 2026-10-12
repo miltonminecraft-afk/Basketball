@@ -878,16 +878,6 @@ LOCATION:IISPA Breedtesporthal\, Stadionlaan 60\, 7606JZ ALMELO
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-509311@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T183000
-DURATION:PT2H
-SUMMARY:Uitsmijters MSE-1 - BC Triple ThreaT MSE-1
-DESCRIPTION:Mannen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 509311
-LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-501558@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T151500
@@ -895,6 +885,16 @@ DURATION:PT2H
 SUMMARY:LB-ZAC M18-1 - Uitsmijters M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501558
 LOCATION:Het Victorium\, Hogeland 10\, 8024AZ ZWOLLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509330@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T163000
+DURATION:PT2H
+SUMMARY:BC Triple ThreaT MSE-1 - Uitsmijters MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 509330
+LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1248,6 +1248,16 @@ LOCATION:sporthal De Sypel\, Parkweg 4\, 3842AD HARDERWIJK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-509311@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261128T183000
+DURATION:PT2H
+SUMMARY:Uitsmijters MSE-1 - BC Triple ThreaT MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 509311
+LOCATION:IISPA Breedtesporthal\, Stadionlaan 60\, 7606JZ ALMELO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-499705@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261129T100000
@@ -1255,16 +1265,6 @@ DURATION:PT2H
 SUMMARY:Uitsmijters M16-1 - Kikkers M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499705
 LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-509330@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261129T160000
-DURATION:PT2H
-SUMMARY:BC Triple ThreaT MSE-1 - Uitsmijters MSE-1
-DESCRIPTION:Mannen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 509330
-LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

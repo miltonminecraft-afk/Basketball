@@ -112,10 +112,10 @@ UID:foys-match-510151@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261009T200000
 DURATION:PT2H
-SUMMARY:AFGELAST: Five Pack MSE-2 - De Groene Uilen MSE-7
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 510151
+SUMMARY:Five Pack MSE-2 20 - 0 De Groene Uilen MSE-7*
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 510151
 LOCATION:MFC de Wier\, De Telle 21\, 9247BH URETERP
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-510140@basketball-agenda
@@ -432,7 +432,7 @@ UID:foys-match-510217@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270130T120000
 DURATION:PT2H
-SUMMARY:De Groene Uilen MSE-7 - Five Pack MSE-2
+SUMMARY:De Groene Uilen MSE-7* - Five Pack MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510217
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED

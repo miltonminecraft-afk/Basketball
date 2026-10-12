@@ -722,8 +722,8 @@ UID:foys-match-492008@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T120000
 DURATION:PT2H
-SUMMARY:BV Squirrels X10-1 - Faith & Fire X10-1*
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nFOYS wedstrijd-ID: 492008
+SUMMARY:BV Squirrels X10-1 56 - 6 Faith & Fire X10-1*
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 56 - 6\nFOYS wedstrijd-ID: 492008
 LOCATION:Sporthal Oostmeer\, Het Hoge Land 19\, 2652EA BERKEL EN RODENRIJS
 STATUS:CONFIRMED
 END:VEVENT
@@ -812,8 +812,8 @@ UID:foys-match-491276@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261011T133000
 DURATION:PT2H
-SUMMARY:SC Amforça X10-1 - BV Squirrels X10-2
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nFOYS wedstrijd-ID: 491276
+SUMMARY:SC Amforça X10-1 51 - 0 BV Squirrels X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 51 - 0\nFOYS wedstrijd-ID: 491276
 LOCATION:Houtrust\, Laan van Poot 22\, 2566EC 'S-GRAVENHAGE
 STATUS:CONFIRMED
 END:VEVENT
@@ -1134,16 +1134,6 @@ DTSTART;TZID=Europe/Amsterdam:20261107T151500
 DURATION:PT2H
 SUMMARY:BV Squirrels V16-1 - BV Zoetermeer Hammerheads V16-1
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498183
-LOCATION:Sporthal Oostmeer\, Het Hoge Land 19\, 2652EA BERKEL EN RODENRIJS
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-504819@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T151500
-DURATION:PT2H
-SUMMARY:BV Squirrels VSE-1 - DAS VSE-2
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504819
 LOCATION:Sporthal Oostmeer\, Het Hoge Land 19\, 2652EA BERKEL EN RODENRIJS
 STATUS:CONFIRMED
 END:VEVENT
@@ -2055,6 +2045,16 @@ DURATION:PT2H
 SUMMARY:B.O.B. X12-1 - BV Squirrels X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493182
 LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-504819@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261219T130000
+DURATION:PT2H
+SUMMARY:BV Squirrels VSE-1 - DAS VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504819
+LOCATION:Sporthal Oostmeer\, Het Hoge Land 19\, 2652EA BERKEL EN RODENRIJS
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

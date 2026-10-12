@@ -302,10 +302,10 @@ UID:foys-match-492990@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T120000
 DURATION:PT2H
-SUMMARY:AFGELAST: B.C. Virtus V12-1 - Blue Arrows V12-1
-DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 492990
+SUMMARY:B.C. Virtus V12-1 20 - 0 Blue Arrows V12-1*
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 492990
 LOCATION:De Crosser\, Raadhuislaan 19\, 4251VS WERKENDAM
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-495613@basketball-agenda
@@ -372,7 +372,7 @@ UID:foys-match-492997@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T110000
 DURATION:PT2H
-SUMMARY:Blue Arrows V12-1 - B.C. Virtus V12-1
+SUMMARY:Blue Arrows V12-1* - B.C. Virtus V12-1
 DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492997
 LOCATION:Hoenderdaal\, Hoendersteeg 7\, 3972NA DRIEBERGEN-RIJSENBURG
 STATUS:CONFIRMED
@@ -385,16 +385,6 @@ DURATION:PT2H
 SUMMARY:B.C. Virtus M18-1 - New Stars M18-2
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501838
 LOCATION:De Crosser\, Raadhuislaan 19\, 4251VS WERKENDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-507381@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261024T200000
-DURATION:PT2H
-SUMMARY:WBB Giants MSE-1 - B.C. Virtus MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507381
-LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -558,6 +548,16 @@ LOCATION:De Braken\, De Braken 1 a\, 5282JJ BOXTEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-491692@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T123000
+DURATION:PT2H
+SUMMARY:Bouncers Basketball X10-2 - B.C. Virtus X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491692
+LOCATION:De Duikelaar\, Zuidplaslaan 550\, 2743CT WADDINXVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-496721@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T134500
@@ -585,16 +585,6 @@ DURATION:PT2H
 SUMMARY:Rotterdam-Zuid M22-1 - B.C. Virtus M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502873
 LOCATION:Sportcentrum De Sportmotor\, Jan Ligthartstraat 95\, 3083AL ROTTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-491692@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T174500
-DURATION:PT2H
-SUMMARY:Bouncers Basketball X10-2 - B.C. Virtus X10-1
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491692
-LOCATION:De Duikelaar\, Zuidplaslaan 550\, 2743CT WADDINXVEEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -935,6 +925,16 @@ DURATION:PT2H
 SUMMARY:B.C. Virtus MSE-1 - Scheldesport Basketball MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507466
 LOCATION:De Crosser\, Raadhuislaan 19\, 4251VS WERKENDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507381@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270213T180000
+DURATION:PT2H
+SUMMARY:WBB Giants MSE-1 - B.C. Virtus MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507381
+LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

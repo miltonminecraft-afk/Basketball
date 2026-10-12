@@ -112,7 +112,7 @@ UID:foys-match-493987@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T151500
 DURATION:PT2H
-SUMMARY:CBV Binnenland V16-2 45 - 77 Onze Gezellen V16-1
+SUMMARY:CBV Binnenland V16-2* 45 - 77 Onze Gezellen V16-1
 DESCRIPTION:Vrouwen U16 Landelijk - 1e divisie\nStatus: Final\nUitslag: 45 - 77\nFOYS wedstrijd-ID: 493987
 LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
 STATUS:CONFIRMED
@@ -612,7 +612,7 @@ UID:foys-match-494340@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T121500
 DURATION:PT2H
-SUMMARY:Onze Gezellen X12-4 28 - 31 BV Amsterdam X12-4
+SUMMARY:Onze Gezellen X12-4 28 - 31 BV Amsterdam X12-4*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 28 - 31\nFOYS wedstrijd-ID: 494340
 LOCATION:Onze Gezellen Sporthal\, Van der Aartweg 2\, 2026ZL HAARLEM
 STATUS:CONFIRMED
@@ -2192,7 +2192,7 @@ UID:foys-match-494058@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270109T121500
 DURATION:PT2H
-SUMMARY:Onze Gezellen V16-1 - CBV Binnenland V16-2
+SUMMARY:Onze Gezellen V16-1 - CBV Binnenland V16-2*
 DESCRIPTION:Vrouwen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494058
 LOCATION:Onze Gezellen Sporthal\, Van der Aartweg 2\, 2026ZL HAARLEM
 STATUS:CONFIRMED
@@ -2260,7 +2260,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-510605@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270123T130000
+DTSTART;TZID=Europe/Amsterdam:20270123T131500
 DURATION:PT2H
 SUMMARY:AMVJ-Amsterdam MSE-1 - Onze Gezellen MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510605
@@ -2358,6 +2358,16 @@ LOCATION:Onze Gezellen Sporthal\, Van der Aartweg 2\, 2026ZL HAARLEM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-504496@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270206T180000
+DURATION:PT2H
+SUMMARY:D.E.D. VSE-1 - Onze Gezellen VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504496
+LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-508592@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270206T194500
@@ -2365,16 +2375,6 @@ DURATION:PT2H
 SUMMARY:Onze Gezellen MSE-2 - VBC Akrides MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508592
 LOCATION:Onze Gezellen Sporthal\, Van der Aartweg 2\, 2026ZL HAARLEM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-504496@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270206T200000
-DURATION:PT2H
-SUMMARY:D.E.D. VSE-1 - Onze Gezellen VSE-1
-DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504496
-LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

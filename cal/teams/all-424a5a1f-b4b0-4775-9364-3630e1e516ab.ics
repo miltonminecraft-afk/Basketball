@@ -1152,10 +1152,10 @@ UID:foys-match-495928@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T163000
 DURATION:PT2H
-SUMMARY:AFGELAST: Flevo Musketiers V14-1 - Almere Pioneers V14-1*
-DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 495928
+SUMMARY:Flevo Musketiers V14-1* 0 - 20 Almere Pioneers V14-1*
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 0 - 20\nFOYS wedstrijd-ID: 495928
 LOCATION:Rietlanden 2\, Grietenij 22 22 06\, 8233BZ LELYSTAD
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-499002@basketball-agenda
@@ -2012,7 +2012,7 @@ UID:foys-match-492922@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T100000
 DURATION:PT2H
-SUMMARY:Almere Pioneers V12-1 - BV Amsterdam V12-2
+SUMMARY:Almere Pioneers V12-1 - BV Amsterdam V12-2*
 DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492922
 LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
 STATUS:CONFIRMED
@@ -2282,7 +2282,7 @@ UID:foys-match-491429@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T110000
 DURATION:PT2H
-SUMMARY:Almere Pioneers X10-2 - Quick Lions X10-1
+SUMMARY:Almere Pioneers X10-2 - Quick Lions X10-1*
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491429
 LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
 STATUS:CONFIRMED

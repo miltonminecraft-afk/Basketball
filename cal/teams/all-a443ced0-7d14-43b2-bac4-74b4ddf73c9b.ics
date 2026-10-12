@@ -102,7 +102,7 @@ UID:foys-match-494329@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T103000
 DURATION:PT2H
-SUMMARY:BV Amsterdam X12-4 23 - 42 Volendam X12-1
+SUMMARY:BV Amsterdam X12-4* 23 - 42 Volendam X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 23 - 42\nFOYS wedstrijd-ID: 494329
 LOCATION:Bibian Mentel Sporthal\, Foekje Dillemastraat 118\, 1095 MK Amsterdam
 STATUS:CONFIRMED
@@ -172,7 +172,7 @@ UID:foys-match-492891@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T133000
 DURATION:PT2H
-SUMMARY:ABC Amigos V12-1 47 - 27 BV Amsterdam V12-2
+SUMMARY:ABC Amigos V12-1 47 - 27 BV Amsterdam V12-2*
 DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 47 - 27\nFOYS wedstrijd-ID: 492891
 LOCATION:Sporthuis Abcoude\, Geinplein 1\, 1391 JN Abcoude
 STATUS:CONFIRMED
@@ -332,7 +332,7 @@ UID:foys-match-493062@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T140000
 DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam X12-1 34 - 69 BV Amsterdam X12-1
+SUMMARY:BC APOLLO Amsterdam X12-1* 34 - 69 BV Amsterdam X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 34 - 69\nFOYS wedstrijd-ID: 493062
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
@@ -362,7 +362,7 @@ UID:foys-match-492892@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T090000
 DURATION:PT2H
-SUMMARY:BV Amsterdam V12-2 16 - 66 MBCA A'veen V12-1
+SUMMARY:BV Amsterdam V12-2* 16 - 66 MBCA A'veen V12-1
 DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 16 - 66\nFOYS wedstrijd-ID: 492892
 LOCATION:Bibian Mentel Sporthal\, Foekje Dillemastraat 118\, 1095 MK Amsterdam
 STATUS:CONFIRMED
@@ -412,7 +412,7 @@ UID:foys-match-494331@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T123000
 DURATION:PT2H
-SUMMARY:BC Flying Oost V12-1 44 - 24 BV Amsterdam X12-4
+SUMMARY:BC Flying Oost V12-1 44 - 24 BV Amsterdam X12-4*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 44 - 24\nFOYS wedstrijd-ID: 494331
 LOCATION:Sporthal Zeeburg\, Insulindeweg 1001\, 1095DH AMSTERDAM
 STATUS:CONFIRMED
@@ -662,7 +662,7 @@ UID:foys-match-494336@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T103000
 DURATION:PT2H
-SUMMARY:BV Amsterdam X12-4 27 - 58 BV Early Bird X12-2
+SUMMARY:BV Amsterdam X12-4* 27 - 58 BV Early Bird X12-2
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 27 - 58\nFOYS wedstrijd-ID: 494336
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -892,7 +892,7 @@ UID:foys-match-492900@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T083000
 DURATION:PT2H
-SUMMARY:BV Amsterdam V12-2 5 - 56 BC APOLLO Amsterdam V12-1
+SUMMARY:BV Amsterdam V12-2* 5 - 56 BC APOLLO Amsterdam V12-1
 DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 5 - 56\nFOYS wedstrijd-ID: 492900
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -952,7 +952,7 @@ UID:foys-match-494340@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T121500
 DURATION:PT2H
-SUMMARY:Onze Gezellen X12-4 28 - 31 BV Amsterdam X12-4
+SUMMARY:Onze Gezellen X12-4 28 - 31 BV Amsterdam X12-4*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 28 - 31\nFOYS wedstrijd-ID: 494340
 LOCATION:Onze Gezellen Sporthal\, Van der Aartweg 2\, 2026ZL HAARLEM
 STATUS:CONFIRMED
@@ -1022,7 +1022,7 @@ UID:foys-match-491402@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T144500
 DURATION:PT2H
-SUMMARY:Quick Lions X10-1 14 - 64 BV Amsterdam X10-1
+SUMMARY:Quick Lions X10-1* 14 - 64 BV Amsterdam X10-1
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 14 - 64\nFOYS wedstrijd-ID: 491402
 LOCATION:De Zandzee\, Struikheiweg 14\, 1406TK BUSSUM
 STATUS:CONFIRMED
@@ -1182,8 +1182,8 @@ UID:foys-match-515282@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T000000
 DURATION:PT2H
-SUMMARY:BV Amsterdam X12-4 - The Challengers X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 515282
+SUMMARY:BV Amsterdam X12-4* 0 - 20 The Challengers X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 0 - 20\nFOYS wedstrijd-ID: 515282
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -1262,10 +1262,10 @@ UID:foys-match-492905@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261011T160000
 DURATION:PT2H
-SUMMARY:AFGELAST: BC APOLLO Amsterdam V12-2 - BV Amsterdam V12-2
-DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 492905
+SUMMARY:BC APOLLO Amsterdam V12-2 20 - 0 BV Amsterdam V12-2*
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 492905
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-516819@basketball-agenda
@@ -1542,7 +1542,7 @@ UID:foys-match-492908@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T083000
 DURATION:PT2H
-SUMMARY:BV Amsterdam V12-2 - BV Amsterdam V12-1
+SUMMARY:BV Amsterdam V12-2* - BV Amsterdam V12-1
 DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492908
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -1842,7 +1842,7 @@ UID:foys-match-492914@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T120000
 DURATION:PT2H
-SUMMARY:Volendam V12-1 - BV Amsterdam V12-2
+SUMMARY:Volendam V12-1 - BV Amsterdam V12-2*
 DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492914
 LOCATION:De Seinpaal\, Harlingenlaan 25\, 1131JP VOLENDAM
 STATUS:CONFIRMED
@@ -1952,7 +1952,7 @@ UID:foys-match-494352@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T090000
 DURATION:PT2H
-SUMMARY:BV Amsterdam X12-4 - BC Flying Oost X12-1
+SUMMARY:BV Amsterdam X12-4* - BC Flying Oost X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494352
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -2352,7 +2352,7 @@ UID:foys-match-492922@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T100000
 DURATION:PT2H
-SUMMARY:Almere Pioneers V12-1 - BV Amsterdam V12-2
+SUMMARY:Almere Pioneers V12-1 - BV Amsterdam V12-2*
 DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492922
 LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
 STATUS:CONFIRMED
@@ -2492,7 +2492,7 @@ UID:foys-match-494359@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T110000
 DURATION:PT2H
-SUMMARY:BV Amsterdam X12-4 - Blue Stars X12-2
+SUMMARY:BV Amsterdam X12-4* - Blue Stars X12-2
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494359
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -2622,7 +2622,7 @@ UID:foys-match-492924@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T083000
 DURATION:PT2H
-SUMMARY:BV Amsterdam V12-2 - Dozy BV Den Helder V12-1
+SUMMARY:BV Amsterdam V12-2* - Dozy BV Den Helder V12-1
 DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492924
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -2862,7 +2862,7 @@ UID:foys-match-494365@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261129T093000
 DURATION:PT2H
-SUMMARY:Basketbalclub Weesp X12-2 - BV Amsterdam X12-4
+SUMMARY:Basketbalclub Weesp X12-2 - BV Amsterdam X12-4*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494365
 LOCATION:Aetsveld\, Mr.C. Kooimancentrum 17\, 1383ED WEESP
 STATUS:CONFIRMED
@@ -2992,7 +2992,7 @@ UID:foys-match-494366@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T103000
 DURATION:PT2H
-SUMMARY:BV Amsterdam X12-4 - ABC Amigos X12-3
+SUMMARY:BV Amsterdam X12-4* - ABC Amigos X12-3
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494366
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -3014,16 +3014,6 @@ DTSTART;TZID=Europe/Amsterdam:20261212T123000
 DURATION:PT2H
 SUMMARY:BV Amsterdam M16-1 - Onze Gezellen M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498692
-LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-498974@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T123000
-DURATION:PT2H
-SUMMARY:BV Amsterdam M16-3 - Novo Stars M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498974
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -3112,7 +3102,7 @@ UID:foys-match-492932@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T153000
 DURATION:PT2H
-SUMMARY:Northside Ballers Amsterdam V12-1 - BV Amsterdam V12-2
+SUMMARY:Northside Ballers Amsterdam V12-1 - BV Amsterdam V12-2*
 DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492932
 LOCATION:De Weeren\, Beemsterstraat 656\, 1027ED AMSTERDAM
 STATUS:CONFIRMED
@@ -3125,6 +3115,16 @@ DURATION:PT2H
 SUMMARY:BC Schrobbelaar VSE-1 - BV Amsterdam VSE-4
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504961
 LOCATION:Sportcentrum Universum\, Science Park 306\, 1098XH AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498974@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T163000
+DURATION:PT2H
+SUMMARY:BV Amsterdam M16-3 - Novo Stars M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498974
+LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

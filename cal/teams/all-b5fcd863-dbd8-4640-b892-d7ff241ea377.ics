@@ -252,10 +252,10 @@ UID:foys-match-505359@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T143000
 DURATION:PT2H
-SUMMARY:AFGELAST: Trajanum VSE-3 - BV Rush VSE-1
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 505359
+SUMMARY:Trajanum VSE-3* 0 - 20 BV Rush VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Final\nUitslag: 0 - 20\nFOYS wedstrijd-ID: 505359
 LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-497929@basketball-agenda
@@ -414,6 +414,16 @@ DTSTART;TZID=Europe/Amsterdam:20261114T110000
 DURATION:PT2H
 SUMMARY:BV Rush X12-1 - The Black Eagles X12-3
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494571
+LOCATION:De Stigt\, Kapelstraat 100\, 5401EC UDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505425@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T110000
+DURATION:PT2H
+SUMMARY:BV Rush VSE-1 - Trajanum VSE-3*
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505425
 LOCATION:De Stigt\, Kapelstraat 100\, 5401EC UDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -642,7 +652,7 @@ UID:foys-match-503494@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261219T180000
 DURATION:PT2H
-SUMMARY:BC Langstraat Shooters M22-3 - BV Rush M22-1
+SUMMARY:BC Langstraat Shooters M22-3* - BV Rush M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503494
 LOCATION:De Zeine\, Olympiaweg 12 A\, 5143NA WAALWIJK
 STATUS:CONFIRMED
@@ -685,16 +695,6 @@ DURATION:PT2H
 SUMMARY:Tantalus VSE-2 - BV Rush VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505418
 LOCATION:SSC Sportcentrum\, Onze Lieve Vrouwestraat 1\, 5612AW EINDHOVEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-505425@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270206T110000
-DURATION:PT2H
-SUMMARY:BV Rush VSE-1 - Trajanum VSE-3
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505425
-LOCATION:De Stigt\, Kapelstraat 100\, 5401EC UDEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

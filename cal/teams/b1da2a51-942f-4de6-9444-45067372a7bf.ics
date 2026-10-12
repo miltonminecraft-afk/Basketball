@@ -48,16 +48,6 @@ LOCATION:'t Cromwiel\, Krommeweg 1\, 4651RN STEENBERGEN NB
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-500598@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261024T171500
-DURATION:PT2H
-SUMMARY:Blauw-Wit M16-2 - Blauw-Wit M16-3
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500598
-LOCATION:In de Roos\, Commandobaan 8\, 4706CL ROOSENDAAL
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-500577@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T173000
@@ -94,6 +84,16 @@ DTSTART;TZID=Europe/Amsterdam:20261121T153000
 DURATION:PT2H
 SUMMARY:Blauw-Wit M16-3 - Sparta Go M16-1*
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500597
+LOCATION:In de Roos\, Commandobaan 8\, 4706CL ROOSENDAAL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500598@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261127T191500
+DURATION:PT2H
+SUMMARY:Blauw-Wit M16-2 - Blauw-Wit M16-3
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500598
 LOCATION:In de Roos\, Commandobaan 8\, 4706CL ROOSENDAAL
 STATUS:CONFIRMED
 END:VEVENT

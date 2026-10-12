@@ -332,7 +332,7 @@ UID:foys-match-493062@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T140000
 DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam X12-1 34 - 69 BV Amsterdam X12-1
+SUMMARY:BC APOLLO Amsterdam X12-1* 34 - 69 BV Amsterdam X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 34 - 69\nFOYS wedstrijd-ID: 493062
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
@@ -462,7 +462,7 @@ UID:foys-match-493064@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T101500
 DURATION:PT2H
-SUMMARY:Harlemlakers X12-1 63 - 14 BC APOLLO Amsterdam X12-1
+SUMMARY:Harlemlakers X12-1 63 - 14 BC APOLLO Amsterdam X12-1*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 63 - 14\nFOYS wedstrijd-ID: 493064
 LOCATION:Calandhal Hal 1\, Eliza van Calcarstraat 2\, 1068RR AMSTERDAM
 STATUS:CONFIRMED
@@ -1042,7 +1042,7 @@ UID:foys-match-493068@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260927T124500
 DURATION:PT2H
-SUMMARY:BC Triple ThreaT X12-1 27 - 69 BC APOLLO Amsterdam X12-1
+SUMMARY:BC Triple ThreaT X12-1 27 - 69 BC APOLLO Amsterdam X12-1*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 27 - 69\nFOYS wedstrijd-ID: 493068
 LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
 STATUS:CONFIRMED
@@ -1172,7 +1172,7 @@ UID:foys-match-492900@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T083000
 DURATION:PT2H
-SUMMARY:BV Amsterdam V12-2 5 - 56 BC APOLLO Amsterdam V12-1
+SUMMARY:BV Amsterdam V12-2* 5 - 56 BC APOLLO Amsterdam V12-1
 DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 5 - 56\nFOYS wedstrijd-ID: 492900
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -1422,7 +1422,7 @@ UID:foys-match-493077@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T120000
 DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam X12-1 31 - 61 Lokomotief X12-1
+SUMMARY:BC APOLLO Amsterdam X12-1* 31 - 61 Lokomotief X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 31 - 61\nFOYS wedstrijd-ID: 493077
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
@@ -1592,8 +1592,8 @@ UID:foys-match-493078@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T173000
 DURATION:PT2H
-SUMMARY:Bouncers Basketball X12-1 - BC APOLLO Amsterdam X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493078
+SUMMARY:Bouncers Basketball X12-1 20 - 0 BC APOLLO Amsterdam X12-1*
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 493078
 LOCATION:De Duikelaar\, Zuidplaslaan 550\, 2743CT WADDINXVEEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -1662,8 +1662,8 @@ UID:foys-match-491407@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261011T120000
 DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam X10-1 - Quick Lions X10-1
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491407
+SUMMARY:BC APOLLO Amsterdam X10-1 20 - 0 Quick Lions X10-1*
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 491407
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -1732,10 +1732,10 @@ UID:foys-match-492905@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261011T160000
 DURATION:PT2H
-SUMMARY:AFGELAST: BC APOLLO Amsterdam V12-2 - BV Amsterdam V12-2
-DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 492905
+SUMMARY:BC APOLLO Amsterdam V12-2 20 - 0 BV Amsterdam V12-2*
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 492905
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-498658@basketball-agenda
@@ -2212,7 +2212,7 @@ UID:foys-match-493087@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261101T120000
 DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam X12-1 - HBV The Jumpers X12-1
+SUMMARY:BC APOLLO Amsterdam X12-1* - HBV The Jumpers X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493087
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
@@ -2332,7 +2332,7 @@ UID:foys-match-493088@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T103000
 DURATION:PT2H
-SUMMARY:BS Leiden V12-1 - BC APOLLO Amsterdam X12-1
+SUMMARY:BS Leiden V12-1 - BC APOLLO Amsterdam X12-1*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493088
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
@@ -2352,7 +2352,7 @@ UID:foys-match-494025@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T120000
 DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam V16-2 - CBV Binnenland V16-2
+SUMMARY:BC APOLLO Amsterdam V16-2 - CBV Binnenland V16-2*
 DESCRIPTION:Vrouwen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494025
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
@@ -3202,7 +3202,7 @@ UID:foys-match-493098@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T123000
 DURATION:PT2H
-SUMMARY:Marathon X12-1 - BC APOLLO Amsterdam X12-1
+SUMMARY:Marathon X12-1 - BC APOLLO Amsterdam X12-1*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493098
 LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
@@ -3322,7 +3322,7 @@ UID:foys-match-511039@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T160000
 DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam MSE-8 - Dunkinn MSE-1
+SUMMARY:BC APOLLO Amsterdam MSE-8 - Dunkinn MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511039
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
@@ -3622,7 +3622,7 @@ UID:foys-match-493107@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261129T120000
 DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam X12-1 - BS Leiden X12-1
+SUMMARY:BC APOLLO Amsterdam X12-1* - BS Leiden X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493107
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
@@ -3822,7 +3822,7 @@ UID:foys-match-493108@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T110000
 DURATION:PT2H
-SUMMARY:Rotterdam Basketbal X12-1 - BC APOLLO Amsterdam X12-1
+SUMMARY:Rotterdam Basketbal X12-1 - BC APOLLO Amsterdam X12-1*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493108
 LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
 STATUS:CONFIRMED
@@ -4852,7 +4852,7 @@ UID:foys-match-494090@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270306T000000
 DURATION:PT2H
-SUMMARY:CBV Binnenland V16-2 - BC APOLLO Amsterdam V16-2
+SUMMARY:CBV Binnenland V16-2* - BC APOLLO Amsterdam V16-2
 DESCRIPTION:Vrouwen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494090
 LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
 STATUS:CONFIRMED
@@ -5052,7 +5052,7 @@ UID:foys-match-511104@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270320T140000
 DURATION:PT2H
-SUMMARY:Dunkinn MSE-1 - BC APOLLO Amsterdam MSE-8
+SUMMARY:Dunkinn MSE-1* - BC APOLLO Amsterdam MSE-8
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511104
 LOCATION:'t Spant\, Larikslaan 20\, 2451BV LEIMUIDEN
 STATUS:CONFIRMED

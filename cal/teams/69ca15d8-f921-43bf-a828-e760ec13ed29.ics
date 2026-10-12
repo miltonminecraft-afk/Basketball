@@ -88,16 +88,6 @@ LOCATION:Sportcentrum UT\, De Hems 20\, 7522NL ENSCHEDE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-513942@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261218T210000
-DURATION:PT2H
-SUMMARY:Be Quick '28 MSE-1 - Twente Buzzards MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513942
-LOCATION:Gerenlanden\, Munterkamp 75\, 8014DM ZWOLLE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-513969@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270109T173000
@@ -184,6 +174,16 @@ DTSTART;TZID=Europe/Amsterdam:20270320T210000
 DURATION:PT2H
 SUMMARY:Be Quick '28 MSE-1 - Amical MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513999
+LOCATION:Gerenlanden\, Munterkamp 75\, 8014DM ZWOLLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513942@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270327T173000
+DURATION:PT2H
+SUMMARY:Be Quick '28 MSE-1 - Twente Buzzards MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513942
 LOCATION:Gerenlanden\, Munterkamp 75\, 8014DM ZWOLLE
 STATUS:CONFIRMED
 END:VEVENT

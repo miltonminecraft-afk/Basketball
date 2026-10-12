@@ -12,8 +12,8 @@ UID:foys-match-497569@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T093000
 DURATION:PT2H
-SUMMARY:Green Giants X14-1 - Red Stars X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497569
+SUMMARY:Green Giants X14-1 37 - 42 Red Stars X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 37 - 42\nFOYS wedstrijd-ID: 497569
 LOCATION:Korf De\, De Smidse 1\, 3831NT LEUSDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -22,8 +22,8 @@ UID:foys-match-499858@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T111500
 DURATION:PT2H
-SUMMARY:Green Giants M16-2 - Blue Drakes M16-2
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499858
+SUMMARY:Green Giants M16-2 29 - 61 Blue Drakes M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 29 - 61\nFOYS wedstrijd-ID: 499858
 LOCATION:Korf De\, De Smidse 1\, 3831NT LEUSDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -32,8 +32,8 @@ UID:foys-match-509737@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T130000
 DURATION:PT2H
-SUMMARY:Green Giants MSE-2 - Volic MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509737
+SUMMARY:Green Giants MSE-2 78 - 44 Volic MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 78 - 44\nFOYS wedstrijd-ID: 509737
 LOCATION:Korf De\, De Smidse 1\, 3831NT LEUSDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -42,8 +42,8 @@ UID:foys-match-499336@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T144500
 DURATION:PT2H
-SUMMARY:Green Giants M16-1 0 - 0 B.Z. '72 M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 0 - 0\nFOYS wedstrijd-ID: 499336
+SUMMARY:Green Giants M16-1 48 - 67 B.Z. '72 M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 48 - 67\nFOYS wedstrijd-ID: 499336
 LOCATION:Korf De\, De Smidse 1\, 3831NT LEUSDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -52,8 +52,8 @@ UID:foys-match-502332@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T144500
 DURATION:PT2H
-SUMMARY:Green Giants M18-1 0 - 0 Eem '78 M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 0 - 0\nFOYS wedstrijd-ID: 502332
+SUMMARY:Green Giants M18-1 56 - 22 Eem '78 M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 56 - 22\nFOYS wedstrijd-ID: 502332
 LOCATION:Korf De\, De Smidse 1\, 3831NT LEUSDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -600,11 +600,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-513228@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T140000
+DTSTART;TZID=Europe/Amsterdam:20261121T143000
 DURATION:PT2H
 SUMMARY:Utrecht Basketball V18-1 V18-1 - Green Giants V18-1
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513228
-LOCATION:De Paperclip\, Parkzichtlaan 203\, 3451GX VLEUTEN
+LOCATION:Sportcampus Leidscherijn\, Maartvlinder 1\, 3544DA UTRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
