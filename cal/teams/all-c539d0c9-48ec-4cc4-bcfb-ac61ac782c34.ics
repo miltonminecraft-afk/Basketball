@@ -3838,16 +3838,6 @@ LOCATION:Sporthal Lunetten\, Zwarte Woud 201\, 3524SG UTRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-508982@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270131T110000
-DURATION:PT2H
-SUMMARY:Tenderfeet MSE-1 - BC Utrecht Cangeroes MSE-3
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508982
-LOCATION:De Zaert\, Heilige Stokstraat 1\, 5473GK HEESWIJK-DINTHER
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-492730@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270131T144500
@@ -4495,6 +4485,16 @@ DURATION:PT2H
 SUMMARY:S.B.U. VSE-1 - BC Utrecht Cangeroes VSE-1
 DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506672
 LOCATION:Sportcentrum Olympos\, Uppsalalaan 3\, 3584CT UTRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508982@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270418T110000
+DURATION:PT2H
+SUMMARY:Tenderfeet MSE-1 - BC Utrecht Cangeroes MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508982
+LOCATION:De Zaert\, Heilige Stokstraat 1\, 5473GK HEESWIJK-DINTHER
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
