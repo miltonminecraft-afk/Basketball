@@ -1228,16 +1228,6 @@ LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-503713@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261108T130000
-DURATION:PT2H
-SUMMARY:Marathon VSE-1 - Attacus VSE-1
-DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503713
-LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-498800@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T150000
@@ -2474,6 +2464,16 @@ DTSTART;TZID=Europe/Amsterdam:20270321T123000
 DURATION:PT2H
 SUMMARY:Marathon M16-1 - HBV The Jumpers M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495416
+LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503713@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270327T170000
+DURATION:PT2H
+SUMMARY:Marathon VSE-1 - Attacus VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503713
 LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
 END:VEVENT
