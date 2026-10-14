@@ -22,8 +22,8 @@ UID:foys-match-516410@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T200000
 DURATION:PT2H
-SUMMARY:Zorg en Zekerheid MSE-1 - Brussels Basketball MSE-10
-DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516410
+SUMMARY:Zorg en Zekerheid MSE-1 61 - 77 Brussels Basketball MSE-10
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Final\nUitslag: 61 - 77\nFOYS wedstrijd-ID: 516410
 LOCATION:Sportcomplex 1574\, Telderskade 399\, 2321TR LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -45,6 +45,36 @@ DURATION:PT2H
 SUMMARY:Landstede Hammers MSE-1 - Brussels Basketball MSE-10
 DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516420
 LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-525604@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261030T203000
+DURATION:PT2H
+SUMMARY:Brussels Basketball MSE-10 - Val-Dieu Spirou Basket MSE-7
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 525604
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-525610@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261108T150000
+DURATION:PT2H
+SUMMARY:Brussels Basketball MSE-10 - Partena Professional Okapi Aalst MSE-4
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 525610
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-525615@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T200000
+DURATION:PT2H
+SUMMARY:Windrose Giants Antwerp MSE-9 - Brussels Basketball MSE-10
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 525615
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

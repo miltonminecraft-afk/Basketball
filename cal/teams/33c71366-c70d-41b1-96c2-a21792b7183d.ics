@@ -22,8 +22,8 @@ UID:foys-match-525549@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261009T203000
 DURATION:PT2H
-SUMMARY:Val-Dieu Spirou Basket MSE-7 - CityX Mons MSE-8
-DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 525549
+SUMMARY:Val-Dieu Spirou Basket MSE-7 98 - 60 CityX Mons MSE-8
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Final\nUitslag: 98 - 60\nFOYS wedstrijd-ID: 525549
 LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
@@ -48,12 +48,32 @@ LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-525604@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261030T203000
+DURATION:PT2H
+SUMMARY:Brussels Basketball MSE-10 - Val-Dieu Spirou Basket MSE-7
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 525604
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-516426@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261105T203000
 DURATION:PT2H
 SUMMARY:Val-Dieu Spirou Basket MSE-7 - Zeeuw en Zeeuw Rotterdam City MSE-1
 DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516426
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-525612@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261113T203000
+DURATION:PT2H
+SUMMARY:Val-Dieu Spirou Basket MSE-7 - CB Liège MSE-11
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 525612
 LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT

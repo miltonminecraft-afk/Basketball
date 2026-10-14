@@ -798,16 +798,6 @@ LOCATION:Het Kroonjuweel\, Kroonjuweel 5\, 4388MD OOST-SOUBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-495621@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261101T120000
-DURATION:PT2H
-SUMMARY:Hurricanes V14-1 - DAS V14-1
-DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495621
-LOCATION:Den Oert\, J. Witteveenlaan 1\, 3201LX SPIJKENISSE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-497643@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261101T120000
@@ -834,6 +824,16 @@ DTSTART;TZID=Europe/Amsterdam:20261101T120000
 DURATION:PT2H
 SUMMARY:Hurricanes M22-1 - Nimma Gemina M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502866
+LOCATION:Den Oert\, J. Witteveenlaan 1\, 3201LX SPIJKENISSE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495621@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T143000
+DURATION:PT2H
+SUMMARY:Hurricanes V14-1 - DAS V14-1
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495621
 LOCATION:Den Oert\, J. Witteveenlaan 1\, 3201LX SPIJKENISSE
 STATUS:CONFIRMED
 END:VEVENT

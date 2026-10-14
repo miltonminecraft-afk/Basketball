@@ -978,16 +978,6 @@ LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-492646@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270131T140000
-DURATION:PT2H
-SUMMARY:BC Triple ThreaT M14-2 - Basketball Academy Utrecht M14-2 M14-2
-DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492646
-LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-492654@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270206T000000
@@ -1195,6 +1185,16 @@ DURATION:PT2H
 SUMMARY:BC APOLLO Amsterdam M19-2 - Basketball Academy Utrecht M19-2 M19-2
 DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506183
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492646@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270417T140000
+DURATION:PT2H
+SUMMARY:BC Triple ThreaT M14-2 - Basketball Academy Utrecht M14-2 M14-2
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492646
+LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
