@@ -938,16 +938,6 @@ LOCATION:Scharlakenhof\, Geertsemaweg 3\, 9751XA HAREN GN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-510162@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T184500
-DURATION:PT2H
-SUMMARY:BV Penta MSE-2 - H.S.V. Basketball MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510162
-LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-501593@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T190000
@@ -1568,6 +1558,16 @@ LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-510162@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T153000
+DURATION:PT2H
+SUMMARY:BV Penta MSE-2 - H.S.V. Basketball MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510162
+LOCATION:Sportcentrum Drachten\, Splitting 65\, 9202LD DRACHTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-491770@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T093000
@@ -1622,7 +1622,7 @@ UID:foys-match-502103@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T111500
 DURATION:PT2H
-SUMMARY:BV Jahn II M18-1 - H.S.V. Basketball M18-2
+SUMMARY:BV Jahn II M18-1* - H.S.V. Basketball M18-2
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502103
 LOCATION:Sportcentrum Bruinsma\, Navolaan 32\, 9501VJ STADSKANAAL
 STATUS:CONFIRMED

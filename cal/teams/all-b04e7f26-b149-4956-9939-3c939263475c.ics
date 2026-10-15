@@ -1328,16 +1328,6 @@ LOCATION:U.S.C.\, Goliuspad 22\, 2333BH Leiden
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-506478@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261017T160000
-DURATION:PT2H
-SUMMARY:AFGELAST: U.S. VSE-1 - CBV Binnenland VSE-2
-DESCRIPTION:Vrouwen Senioren Landelijk - Promotiedivisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 506478
-LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-506392@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T181500
@@ -1352,10 +1342,10 @@ UID:foys-match-516798@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T183000
 DURATION:PT2H
-SUMMARY:Arnhem Eagles VSE-1 - CBV Binnenland VSE-2
-DESCRIPTION:Vrouwen Senioren (Basketball Cup) - 1e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516798
+SUMMARY:AFGELAST: Arnhem Eagles VSE-1 - CBV Binnenland VSE-2
+DESCRIPTION:Vrouwen Senioren (Basketball Cup) - 1e ronde\nStatus: Cancelled\nFOYS wedstrijd-ID: 516798
 LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-506345@basketball-agenda
@@ -3695,6 +3685,16 @@ DURATION:PT2H
 SUMMARY:BV Orca's VSE-1 - CBV Binnenland VSE-2
 DESCRIPTION:Vrouwen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 506525
 LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506478@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270220T163000
+DURATION:PT2H
+SUMMARY:U.S. VSE-1 - CBV Binnenland VSE-2
+DESCRIPTION:Vrouwen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 506478
+LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

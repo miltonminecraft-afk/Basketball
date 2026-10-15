@@ -112,7 +112,7 @@ UID:foys-match-493606@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T130000
 DURATION:PT2H
-SUMMARY:Devel Heroes X12-1 32 - 38 Barons Breda Basketball X12-3
+SUMMARY:Devel Heroes X12-1* 32 - 38 Barons Breda Basketball X12-3
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 32 - 38\nFOYS wedstrijd-ID: 493606
 LOCATION:Develhal\, Parklaan 5\, 3335LM ZWIJNDRECHT
 STATUS:CONFIRMED
@@ -822,8 +822,8 @@ UID:foys-match-493629@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T000000
 DURATION:PT2H
-SUMMARY:Devel Heroes X12-1 - Barons Breda Basketball X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493629
+SUMMARY:Devel Heroes X12-1* 0 - 20 Barons Breda Basketball X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 0 - 20\nFOYS wedstrijd-ID: 493629
 LOCATION:Develhal\, Parklaan 5\, 3335LM ZWIJNDRECHT
 STATUS:CONFIRMED
 END:VEVENT
@@ -2002,7 +2002,7 @@ UID:foys-match-493668@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T133000
 DURATION:PT2H
-SUMMARY:Barons Breda Basketball X12-1 - Devel Heroes X12-1
+SUMMARY:Barons Breda Basketball X12-1 - Devel Heroes X12-1*
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493668
 LOCATION:De Doelen\, Doelen 7\, 4813GP BREDA
 STATUS:CONFIRMED
