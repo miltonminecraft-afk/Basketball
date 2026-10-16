@@ -48,16 +48,6 @@ LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-510261@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261024T150000
-DURATION:PT2H
-SUMMARY:O.S.M. '75 MSE-1 - S.B.U. MSE-4
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510261
-LOCATION:Bloemstede\, Bloemstede 223\, 3608TA MAARSSEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-510301@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T174500
@@ -155,6 +145,16 @@ DURATION:PT2H
 SUMMARY:S.B.U. MSE-4 - Utrecht Basketball - MSE-2 MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510353
 LOCATION:Sportcentrum Olympos\, Uppsalalaan 3\, 3584CT UTRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510261@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270227T150000
+DURATION:PT2H
+SUMMARY:O.S.M. '75 MSE-1 - S.B.U. MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510261
+LOCATION:Bloemstede\, Bloemstede 223\, 3608TA MAARSSEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
