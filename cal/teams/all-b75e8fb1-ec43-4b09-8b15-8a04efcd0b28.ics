@@ -1288,16 +1288,6 @@ LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-500364@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261024T111500
-DURATION:PT2H
-SUMMARY:High Five M16-4 - BC Langstraat Shooters M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500364
-LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-507387@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T111500
@@ -1654,6 +1644,16 @@ DTSTART;TZID=Europe/Amsterdam:20261107T113000
 DURATION:PT2H
 SUMMARY:High Five M14-1 - MBCA A'veen M14-2
 DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492523
+LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500364@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261107T120000
+DURATION:PT2H
+SUMMARY:High Five M16-4 - BC Langstraat Shooters M16-1*
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500364
 LOCATION:De Drieburcht\, Wagnerplein 2\, 5011LP TILBURG
 STATUS:CONFIRMED
 END:VEVENT
@@ -2952,7 +2952,7 @@ UID:foys-match-500387@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261219T160000
 DURATION:PT2H
-SUMMARY:BC Langstraat Shooters M16-1 - High Five M16-3
+SUMMARY:BC Langstraat Shooters M16-1* - High Five M16-3
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500387
 LOCATION:De Zeine\, Olympiaweg 12 A\, 5143NA WAALWIJK
 STATUS:CONFIRMED

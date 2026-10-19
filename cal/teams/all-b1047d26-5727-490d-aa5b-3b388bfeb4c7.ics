@@ -178,22 +178,22 @@ LOCATION:De Kienehoef\, Wilhelminastraat 19\, 5491 JL Sint-Oedenrode
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-498079@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T093000
+DURATION:PT2H
+SUMMARY:Tenderfeet X14-1 - Vido X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498079
+LOCATION:De Zaert\, Heilige Stokstraat 1\, 5473GK HEESWIJK-DINTHER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-508944@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T093000
 DURATION:PT2H
 SUMMARY:Tenderfeet MSE-1 - The Black Eagles MSE-4
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508944
-LOCATION:De Zaert\, Heilige Stokstraat 1\, 5473GK HEESWIJK-DINTHER
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-498079@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261122T110000
-DURATION:PT2H
-SUMMARY:Tenderfeet X14-1 - Vido X14-2
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498079
 LOCATION:De Zaert\, Heilige Stokstraat 1\, 5473GK HEESWIJK-DINTHER
 STATUS:CONFIRMED
 END:VEVENT
@@ -220,7 +220,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-498090@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T110000
+DTSTART;TZID=Europe/Amsterdam:20261212T153000
 DURATION:PT2H
 SUMMARY:Tenderfeet X14-1 - EVBV Octopus X14-3
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498090
@@ -280,7 +280,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-508993@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270227T110000
+DTSTART;TZID=Europe/Amsterdam:20270227T093000
 DURATION:PT2H
 SUMMARY:Tenderfeet MSE-1 - BV Leerdam MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508993

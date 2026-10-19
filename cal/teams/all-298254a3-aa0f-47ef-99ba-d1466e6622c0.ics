@@ -838,6 +838,16 @@ LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-498079@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261122T093000
+DURATION:PT2H
+SUMMARY:Tenderfeet X14-1 - Vido X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498079
+LOCATION:De Zaert\, Heilige Stokstraat 1\, 5473GK HEESWIJK-DINTHER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-494774@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T100000
@@ -855,16 +865,6 @@ DURATION:PT2H
 SUMMARY:Black Shots X14-1 - Vido X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497781
 LOCATION:Veka-sportcentrum\, Deltaweg 201 -203\, 5709AB HELMOND
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-498079@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261122T110000
-DURATION:PT2H
-SUMMARY:Tenderfeet X14-1 - Vido X14-2
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498079
-LOCATION:De Zaert\, Heilige Stokstraat 1\, 5473GK HEESWIJK-DINTHER
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

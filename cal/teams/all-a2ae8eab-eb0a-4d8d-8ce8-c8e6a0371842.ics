@@ -1628,16 +1628,6 @@ LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-493501@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T093000
-DURATION:PT2H
-SUMMARY:New Stars X12-2 - Woodpeckers X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493501
-LOCATION:Sporthal Merwestein\, Merweplein 1\, 3432GN NIEUWEGEIN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-501940@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T104500
@@ -1655,6 +1645,16 @@ DURATION:PT2H
 SUMMARY:De Dunckers X10-1 - Woodpeckers X10-1
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492123
 LOCATION:Dudok Arena\, Arena 303\, 1213NW HILVERSUM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-493501@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T111500
+DURATION:PT2H
+SUMMARY:New Stars X12-2 - Woodpeckers X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493501
+LOCATION:Sporthal Merwestein\, Merweplein 1\, 3432GN NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

@@ -38,16 +38,6 @@ LOCATION:De Mencke\, Sportlaan 4\, 9981JZ UITHUIZEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-511583@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261017T183000
-DURATION:PT2H
-SUMMARY:BV Millwings MSE-2 - De Groene Uilen MSE-5
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511583
-LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-511606@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T183000
@@ -112,7 +102,7 @@ UID:foys-match-511641@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T130000
 DURATION:PT2H
-SUMMARY:M.A.C. MSE-1 - BV Millwings MSE-2
+SUMMARY:M.A.C. MSE-1* - BV Millwings MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511641
 LOCATION:Bredeschool Noord\, Waddenweg 4\, 9933KH DELFZIJL
 STATUS:CONFIRMED
@@ -208,6 +198,16 @@ LOCATION:De Zwet\, De Klencke 32\, 9472RN ZUIDLAREN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-511583@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270327T183000
+DURATION:PT2H
+SUMMARY:BV Millwings MSE-2 - De Groene Uilen MSE-5
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511583
+LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-511700@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270403T000000
@@ -222,7 +222,7 @@ UID:foys-match-511710@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270410T183000
 DURATION:PT2H
-SUMMARY:BV Millwings MSE-2 - M.A.C. MSE-1
+SUMMARY:BV Millwings MSE-2 - M.A.C. MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511710
 LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
 STATUS:CONFIRMED

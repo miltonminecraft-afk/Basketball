@@ -830,7 +830,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-507834@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270307T160000
+DTSTART;TZID=Europe/Amsterdam:20270307T150000
 DURATION:PT2H
 SUMMARY:BC Schrobbelaar MSE-3 - BS Leiden MSE-4
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507834
@@ -868,6 +868,26 @@ LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-505014@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270320T140000
+DURATION:PT2H
+SUMMARY:BC Schrobbelaar VSE-1 - BC APOLLO Amsterdam VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505014
+LOCATION:Sportcentrum Universum\, Science Park 306\, 1098XH AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508354@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270320T140000
+DURATION:PT2H
+SUMMARY:BC Schrobbelaar MSE-1 - BC APOLLO Amsterdam MSE-5
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508354
+LOCATION:Sportcentrum Universum\, Science Park 306\, 1098XH AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-507978@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270320T160000
@@ -878,32 +898,12 @@ LOCATION:Sportcentrum Universum\, Science Park 306\, 1098XH AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-508354@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270320T160000
-DURATION:PT2H
-SUMMARY:BC Schrobbelaar MSE-1 - BC APOLLO Amsterdam MSE-5
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508354
-LOCATION:Sportcentrum Universum\, Science Park 306\, 1098XH AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-512395@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270320T160000
 DURATION:PT2H
 SUMMARY:BC Schrobbelaar MSE-4 - AMVJ-Amsterdam MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512395
-LOCATION:Sportcentrum Universum\, Science Park 306\, 1098XH AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-505014@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270320T180000
-DURATION:PT2H
-SUMMARY:BC Schrobbelaar VSE-1 - BC APOLLO Amsterdam VSE-2
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505014
 LOCATION:Sportcentrum Universum\, Science Park 306\, 1098XH AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT

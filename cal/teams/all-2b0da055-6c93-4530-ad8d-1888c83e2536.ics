@@ -42,7 +42,7 @@ UID:foys-match-511584@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T160000
 DURATION:PT2H
-SUMMARY:Assist MSE-1 95 - 51 M.A.C. MSE-1
+SUMMARY:Assist MSE-1 95 - 51 M.A.C. MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 95 - 51\nFOYS wedstrijd-ID: 511584
 LOCATION:De Spreng\, Vredeveldseweg 57\, 9404CC ASSEN
 STATUS:CONFIRMED
@@ -122,7 +122,7 @@ UID:foys-match-511597@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T130000
 DURATION:PT2H
-SUMMARY:M.A.C. MSE-1 42 - 61 De Groene Uilen MSE-5
+SUMMARY:M.A.C. MSE-1* 42 - 61 De Groene Uilen MSE-5
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 42 - 61\nFOYS wedstrijd-ID: 511597
 LOCATION:Bredeschool Noord\, Waddenweg 4\, 9933KH DELFZIJL
 STATUS:CONFIRMED
@@ -132,7 +132,7 @@ UID:foys-match-511600@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261002T200000
 DURATION:PT2H
-SUMMARY:BV Jahn II MSE-1 71 - 49 M.A.C. MSE-1
+SUMMARY:BV Jahn II MSE-1 71 - 49 M.A.C. MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 71 - 49\nFOYS wedstrijd-ID: 511600
 LOCATION:Sportcentrum Bruinsma\, Navolaan 32\, 9501VJ STADSKANAAL
 STATUS:CONFIRMED
@@ -202,7 +202,7 @@ UID:foys-match-511608@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T123000
 DURATION:PT2H
-SUMMARY:M.A.C. MSE-1 45 - 47 Hurricanes Basketball MSE-1
+SUMMARY:M.A.C. MSE-1* 45 - 47 Hurricanes Basketball MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 45 - 47\nFOYS wedstrijd-ID: 511608
 LOCATION:Bredeschool Noord\, Waddenweg 4\, 9933KH DELFZIJL
 STATUS:CONFIRMED
@@ -212,8 +212,8 @@ UID:foys-match-511587@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T110000
 DURATION:PT2H
-SUMMARY:M.A.C. MSE-1 - Zuidlaren Trojans MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511587
+SUMMARY:M.A.C. MSE-1* 0 - 20 Zuidlaren Trojans MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 0 - 20\nFOYS wedstrijd-ID: 511587
 LOCATION:Bredeschool Noord\, Waddenweg 4\, 9933KH DELFZIJL
 STATUS:CONFIRMED
 END:VEVENT
@@ -282,7 +282,7 @@ UID:foys-match-511614@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T190000
 DURATION:PT2H
-SUMMARY:SIETSEMA Highlanders MSE-1 - M.A.C. MSE-1
+SUMMARY:SIETSEMA Highlanders MSE-1 - M.A.C. MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511614
 LOCATION:De Mencke\, Sportlaan 4\, 9981JZ UITHUIZEN
 STATUS:CONFIRMED
@@ -332,7 +332,7 @@ UID:foys-match-511619@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T123000
 DURATION:PT2H
-SUMMARY:M.A.C. MSE-1 - Five Pack MSE-3
+SUMMARY:M.A.C. MSE-1* - Five Pack MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511619
 LOCATION:Bredeschool Noord\, Waddenweg 4\, 9933KH DELFZIJL
 STATUS:CONFIRMED
@@ -362,7 +362,7 @@ UID:foys-match-511623@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T120000
 DURATION:PT2H
-SUMMARY:GSBV Moestasj MSE-3 - M.A.C. MSE-1
+SUMMARY:GSBV Moestasj MSE-3 - M.A.C. MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511623
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
@@ -422,7 +422,7 @@ UID:foys-match-511630@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T123000
 DURATION:PT2H
-SUMMARY:M.A.C. MSE-1 - M&F Security Typhoons'23 MSE-1
+SUMMARY:M.A.C. MSE-1* - M&F Security Typhoons'23 MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511630
 LOCATION:Bredeschool Noord\, Waddenweg 4\, 9933KH DELFZIJL
 STATUS:CONFIRMED
@@ -462,7 +462,7 @@ UID:foys-match-515185@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T113000
 DURATION:PT2H
-SUMMARY:M&F Security Typhoons'23 MSE-2 - M.A.C. MSE-1
+SUMMARY:M&F Security Typhoons'23 MSE-2 - M.A.C. MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 515185
 LOCATION:Sportcentrum De Kalkwijck\, Nieuweweg 6\, 9603BM HOOGEZAND
 STATUS:CONFIRMED
@@ -512,7 +512,7 @@ UID:foys-match-511641@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T130000
 DURATION:PT2H
-SUMMARY:M.A.C. MSE-1 - BV Millwings MSE-2
+SUMMARY:M.A.C. MSE-1* - BV Millwings MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511641
 LOCATION:Bredeschool Noord\, Waddenweg 4\, 9933KH DELFZIJL
 STATUS:CONFIRMED
@@ -522,7 +522,7 @@ UID:foys-match-511647@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270109T130000
 DURATION:PT2H
-SUMMARY:M.A.C. MSE-1 - Assist MSE-1
+SUMMARY:M.A.C. MSE-1* - Assist MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511647
 LOCATION:Bredeschool Noord\, Waddenweg 4\, 9933KH DELFZIJL
 STATUS:CONFIRMED
@@ -532,7 +532,7 @@ UID:foys-match-511657@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270116T123000
 DURATION:PT2H
-SUMMARY:Zuidlaren Trojans MSE-1 - M.A.C. MSE-1
+SUMMARY:Zuidlaren Trojans MSE-1 - M.A.C. MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511657
 LOCATION:De Zwet\, De Klencke 32\, 9472RN ZUIDLAREN
 STATUS:CONFIRMED
@@ -542,7 +542,7 @@ UID:foys-match-511659@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270123T134500
 DURATION:PT2H
-SUMMARY:De Groene Uilen MSE-5 - M.A.C. MSE-1
+SUMMARY:De Groene Uilen MSE-5 - M.A.C. MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511659
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
@@ -552,7 +552,7 @@ UID:foys-match-511668@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270130T130000
 DURATION:PT2H
-SUMMARY:M.A.C. MSE-1 - BV Jahn II MSE-1
+SUMMARY:M.A.C. MSE-1* - BV Jahn II MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511668
 LOCATION:Bredeschool Noord\, Waddenweg 4\, 9933KH DELFZIJL
 STATUS:CONFIRMED
@@ -562,7 +562,7 @@ UID:foys-match-511673@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270206T193000
 DURATION:PT2H
-SUMMARY:Hurricanes Basketball MSE-1 - M.A.C. MSE-1
+SUMMARY:Hurricanes Basketball MSE-1 - M.A.C. MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511673
 LOCATION:De Borgstee\, Dorpshuisweg 36\, 9617EV Harkstede
 STATUS:CONFIRMED
@@ -572,7 +572,7 @@ UID:foys-match-511679@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270213T130000
 DURATION:PT2H
-SUMMARY:M.A.C. MSE-1 - SIETSEMA Highlanders MSE-1
+SUMMARY:M.A.C. MSE-1* - SIETSEMA Highlanders MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511679
 LOCATION:Bredeschool Noord\, Waddenweg 4\, 9933KH DELFZIJL
 STATUS:CONFIRMED
@@ -582,7 +582,7 @@ UID:foys-match-511682@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270306T110000
 DURATION:PT2H
-SUMMARY:Five Pack MSE-3 - M.A.C. MSE-1
+SUMMARY:Five Pack MSE-3 - M.A.C. MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511682
 LOCATION:MFC de Wier\, De Telle 21\, 9247BH URETERP
 STATUS:CONFIRMED
@@ -592,7 +592,7 @@ UID:foys-match-511690@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270313T130000
 DURATION:PT2H
-SUMMARY:M.A.C. MSE-1 - GSBV Moestasj MSE-3
+SUMMARY:M.A.C. MSE-1* - GSBV Moestasj MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511690
 LOCATION:Bredeschool Noord\, Waddenweg 4\, 9933KH DELFZIJL
 STATUS:CONFIRMED
@@ -602,7 +602,7 @@ UID:foys-match-511696@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270320T120000
 DURATION:PT2H
-SUMMARY:M&F Security Typhoons'23 MSE-1 - M.A.C. MSE-1
+SUMMARY:M&F Security Typhoons'23 MSE-1 - M.A.C. MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511696
 LOCATION:Sportcentrum De Kalkwijck\, Nieuweweg 6\, 9603BM HOOGEZAND
 STATUS:CONFIRMED
@@ -612,7 +612,7 @@ UID:foys-match-515196@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270403T000000
 DURATION:PT2H
-SUMMARY:M.A.C. MSE-1 - M&F Security Typhoons'23 MSE-2
+SUMMARY:M.A.C. MSE-1* - M&F Security Typhoons'23 MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 515196
 LOCATION:Bredeschool Noord\, Waddenweg 4\, 9933KH DELFZIJL
 STATUS:CONFIRMED
@@ -622,7 +622,7 @@ UID:foys-match-511710@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270410T183000
 DURATION:PT2H
-SUMMARY:BV Millwings MSE-2 - M.A.C. MSE-1
+SUMMARY:BV Millwings MSE-2 - M.A.C. MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511710
 LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
 STATUS:CONFIRMED
