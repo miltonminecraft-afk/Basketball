@@ -2988,16 +2988,6 @@ LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-495452@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261213T133000
-DURATION:PT2H
-SUMMARY:Landstede Hammers M16-1 - BV Groningen M16-1
-DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495452
-LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-492585@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261213T143000
@@ -3025,6 +3015,16 @@ DURATION:PT2H
 SUMMARY:Landslake Lions V14-1 - BV Groningen V14-1
 DESCRIPTION:Vrouwen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492790
 LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-495452@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T160000
+DURATION:PT2H
+SUMMARY:Landstede Hammers M16-1 - BV Groningen M16-1
+DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495452
+LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

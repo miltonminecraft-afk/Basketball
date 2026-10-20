@@ -888,16 +888,6 @@ LOCATION:Rietlanden 2\, Grietenij 22 22 06\, 8233BZ LELYSTAD
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-505667@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T193000
-DURATION:PT2H
-SUMMARY:The Lions MSE-1* - Harlemlakers MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505667
-LOCATION:Korver Sporthal "Duintjesveld"\, Duintjesveldweg 1 A\, 2041TZ ZANDVOORT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-493094@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261115T093000
@@ -1170,7 +1160,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-504907@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261203T193000
+DTSTART;TZID=Europe/Amsterdam:20261203T191500
 DURATION:PT2H
 SUMMARY:BC Schrobbelaar VSE-1 - Harlemlakers VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504907
@@ -1585,16 +1575,6 @@ DURATION:PT2H
 SUMMARY:Harlemlakers MSE-3 - BV Aalsmeer MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511095
 LOCATION:Calandhal Hal 1\, Eliza van Calcarstraat 2\, 1068RR AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-505732@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270313T174500
-DURATION:PT2H
-SUMMARY:Harlemlakers MSE-2 - The Lions MSE-1*
-DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505732
-LOCATION:Calandhal Hal 2\, Eliza van Calcarstraat 2\, 1068RR AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
