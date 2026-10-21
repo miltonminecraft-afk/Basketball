@@ -47,4 +47,44 @@ DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Fina
 LOCATION:Vliegende Vaart\, Vliegende Vaart 2\, 4537DH TERNEUZEN
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-526637@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T090000
+DURATION:PT2H
+SUMMARY:BV Volharding V12-1 - Scheldesport Basketball X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 526637
+LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-526638@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T103000
+DURATION:PT2H
+SUMMARY:BV Souburg X12-1 - BV Volharding V12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 526638
+LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-526641@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T090000
+DURATION:PT2H
+SUMMARY:Marathon X12-2 - BV Volharding V12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 526641
+LOCATION:Sporthal Baskenburg 1\, President Rooseveltlaan 733\, 4383 NG Vlissingen
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-526644@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T103000
+DURATION:PT2H
+SUMMARY:BV Volharding X12-1 - BV Volharding V12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 526644
+LOCATION:Sporthal Baskenburg 1\, President Rooseveltlaan 733\, 4383 NG Vlissingen
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
