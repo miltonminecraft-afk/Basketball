@@ -152,8 +152,8 @@ UID:foys-match-516413@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261016T203000
 DURATION:PT2H
-SUMMARY:Hubo Limburg United MSE-1 - Zeeuw en Zeeuw Rotterdam City MSE-1
-DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516413
+SUMMARY:Hubo Limburg United MSE-1 87 - 80 Zeeuw en Zeeuw Rotterdam City MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Final\nUitslag: 87 - 80\nFOYS wedstrijd-ID: 516413
 LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
@@ -162,8 +162,8 @@ UID:foys-match-525553@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261016T203000
 DURATION:PT2H
-SUMMARY:Brussels Basketball MSE-10 - Coretec Oostende MSE-5
-DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 525553
+SUMMARY:Brussels Basketball MSE-10 81 - 64 Coretec Oostende MSE-5
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Final\nUitslag: 81 - 64\nFOYS wedstrijd-ID: 525553
 LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
@@ -172,8 +172,8 @@ UID:foys-match-516414@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T200000
 DURATION:PT2H
-SUMMARY:Heroes Den Bosch MSE-1 - Windrose Giants Antwerp MSE-9
-DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516414
+SUMMARY:Heroes Den Bosch MSE-1 86 - 125 Windrose Giants Antwerp MSE-9
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Final\nUitslag: 86 - 125\nFOYS wedstrijd-ID: 516414
 LOCATION:De Maaspoort\, Marathonloop 1\, 5235AA 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
 END:VEVENT
@@ -182,8 +182,8 @@ UID:foys-match-516415@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T200000
 DURATION:PT2H
-SUMMARY:Zorg en Zekerheid MSE-1 - Partena Professional Okapi Aalst MSE-4
-DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516415
+SUMMARY:Zorg en Zekerheid MSE-1 92 - 77 Partena Professional Okapi Aalst MSE-4
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Final\nUitslag: 92 - 77\nFOYS wedstrijd-ID: 516415
 LOCATION:Sportcomplex 1574\, Telderskade 399\, 2321TR LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -192,8 +192,8 @@ UID:foys-match-516416@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T203000
 DURATION:PT2H
-SUMMARY:CityX Mons MSE-8 - Landstede Hammers MSE-1
-DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516416
+SUMMARY:CityX Mons MSE-8 57 - 74 Landstede Hammers MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Final\nUitslag: 57 - 74\nFOYS wedstrijd-ID: 516416
 LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
@@ -202,8 +202,8 @@ UID:foys-match-525554@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T203000
 DURATION:PT2H
-SUMMARY:AB InBev Leuven Bears MSE-6 - House of Talents Spurs Kortrijk MSE-3
-DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 525554
+SUMMARY:AB InBev Leuven Bears MSE-6 72 - 69 House of Talents Spurs Kortrijk MSE-3
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Final\nUitslag: 72 - 69\nFOYS wedstrijd-ID: 525554
 LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
@@ -212,8 +212,8 @@ UID:foys-match-525555@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T203000
 DURATION:PT2H
-SUMMARY:Kangoeroes Basket Mechelen MSE-2 - CB Liège MSE-11
-DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 525555
+SUMMARY:Kangoeroes Basket Mechelen MSE-2 96 - 78 CB Liège MSE-11
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Final\nUitslag: 96 - 78\nFOYS wedstrijd-ID: 525555
 LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
@@ -528,6 +528,36 @@ LOCATION:De Maaspoort\, Marathonloop 1\, 5235AA 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-526648@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261120T203000
+DURATION:PT2H
+SUMMARY:CB Liège MSE-11 - House of Talents Spurs Kortrijk MSE-3
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526648
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-526649@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261120T203000
+DURATION:PT2H
+SUMMARY:Hubo Limburg United MSE-1 - Partena Professional Okapi Aalst MSE-4
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526649
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-526650@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T200000
+DURATION:PT2H
+SUMMARY:Windrose Giants Antwerp MSE-9 - Val-Dieu Spirou Basket MSE-7
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526650
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-516436@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T203000
@@ -544,6 +574,26 @@ DTSTART;TZID=Europe/Amsterdam:20261121T203000
 DURATION:PT2H
 SUMMARY:Coretec Oostende MSE-5 - Zeeuw en Zeeuw Rotterdam City MSE-1
 DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516437
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-526651@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T203000
+DURATION:PT2H
+SUMMARY:CityX Mons MSE-8 - AB InBev Leuven Bears MSE-6
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526651
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-526652@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261204T200000
+DURATION:PT2H
+SUMMARY:House of Talents Spurs Kortrijk MSE-3 - Val-Dieu Spirou Basket MSE-7
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526652
 LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
@@ -578,6 +628,26 @@ LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-526653@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T203000
+DURATION:PT2H
+SUMMARY:AB InBev Leuven Bears MSE-6 - Windrose Giants Antwerp MSE-9
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526653
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-526654@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T203000
+DURATION:PT2H
+SUMMARY:CityX Mons MSE-8 - Coretec Oostende MSE-5
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526654
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-516442@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261206T140000
@@ -595,6 +665,26 @@ DURATION:PT2H
 SUMMARY:Heroes Den Bosch MSE-1 - Hubo Limburg United MSE-1
 DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516441
 LOCATION:De Maaspoort\, Marathonloop 1\, 5235AA 'S-HERTOGENBOSCH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-526655@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261211T203000
+DURATION:PT2H
+SUMMARY:Hubo Limburg United MSE-1 - AB InBev Leuven Bears MSE-6
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526655
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-526656@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261211T203000
+DURATION:PT2H
+SUMMARY:CB Liège MSE-11 - Coretec Oostende MSE-5
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526656
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -618,12 +708,32 @@ LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-526657@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261212T203000
+DURATION:PT2H
+SUMMARY:Kangoeroes Basket Mechelen MSE-2 - CityX Mons MSE-8
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526657
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-516447@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261213T150000
 DURATION:PT2H
 SUMMARY:Val-Dieu Spirou Basket MSE-7 - Landstede Hammers MSE-1
 DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516447
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-526658@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T150000
+DURATION:PT2H
+SUMMARY:Brussels Basketball MSE-10 - House of Talents Spurs Kortrijk MSE-3
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526658
 LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
@@ -638,6 +748,56 @@ LOCATION:Martiniplaza\, Leonard Springerlaan 2\, 9727KB GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-526659@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261218T203000
+DURATION:PT2H
+SUMMARY:Hubo Limburg United MSE-1 - Coretec Oostende MSE-5
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526659
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-526660@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261218T203000
+DURATION:PT2H
+SUMMARY:CityX Mons MSE-8 - Brussels Basketball MSE-10
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526660
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-526661@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261219T203000
+DURATION:PT2H
+SUMMARY:AB InBev Leuven Bears MSE-6 - CB Liège MSE-11
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526661
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-526662@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261219T203000
+DURATION:PT2H
+SUMMARY:Kangoeroes Basket Mechelen MSE-2 - Val-Dieu Spirou Basket MSE-7
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526662
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-526663@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261220T150000
+DURATION:PT2H
+SUMMARY:House of Talents Spurs Kortrijk MSE-3 - Partena Professional Okapi Aalst MSE-4
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526663
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-516452@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261223T203000
@@ -648,12 +808,42 @@ LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-526664@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261223T203000
+DURATION:PT2H
+SUMMARY:Val-Dieu Spirou Basket MSE-7 - Hubo Limburg United MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526664
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-516453@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261226T203000
 DURATION:PT2H
 SUMMARY:Coretec Oostende MSE-5 - Heroes Den Bosch MSE-1
 DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516453
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-526665@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261226T203000
+DURATION:PT2H
+SUMMARY:Partena Professional Okapi Aalst MSE-4 - Windrose Giants Antwerp MSE-9
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526665
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-526666@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261226T203000
+DURATION:PT2H
+SUMMARY:CB Liège MSE-11 - CityX Mons MSE-8
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526666
 LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT

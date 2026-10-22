@@ -22,8 +22,8 @@ UID:foys-match-516415@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T200000
 DURATION:PT2H
-SUMMARY:Zorg en Zekerheid MSE-1 - Partena Professional Okapi Aalst MSE-4
-DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516415
+SUMMARY:Zorg en Zekerheid MSE-1 92 - 77 Partena Professional Okapi Aalst MSE-4
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Final\nUitslag: 92 - 77\nFOYS wedstrijd-ID: 516415
 LOCATION:Sportcomplex 1574\, Telderskade 399\, 2321TR LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -68,6 +68,16 @@ LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-526649@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261120T203000
+DURATION:PT2H
+SUMMARY:Hubo Limburg United MSE-1 - Partena Professional Okapi Aalst MSE-4
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526649
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-516442@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261206T140000
@@ -84,6 +94,26 @@ DTSTART;TZID=Europe/Amsterdam:20261212T203000
 DURATION:PT2H
 SUMMARY:Partena Professional Okapi Aalst MSE-4 - Zeeuw en Zeeuw Rotterdam City MSE-1
 DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516444
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-526663@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261220T150000
+DURATION:PT2H
+SUMMARY:House of Talents Spurs Kortrijk MSE-3 - Partena Professional Okapi Aalst MSE-4
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526663
+LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-526665@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261226T203000
+DURATION:PT2H
+SUMMARY:Partena Professional Okapi Aalst MSE-4 - Windrose Giants Antwerp MSE-9
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 526665
 LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT

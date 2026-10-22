@@ -1038,16 +1038,6 @@ LOCATION:Oosterheidehal\, Lodewijk Napoleonlaan 111\, 4904LH OOSTERHOUT NB
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-494323@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T114500
-DURATION:PT2H
-SUMMARY:Simple Dribble X12-1 - Blauw-Wit X12-2
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494323
-LOCATION:De Buitelstee\, van Oldenbarneveldtstraat\, 4671CZ DINTELOORD
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-500609@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T114500
@@ -1105,6 +1095,16 @@ DURATION:PT2H
 SUMMARY:Blauw-Wit MSE-2 - Orange Basketball Club MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508426
 LOCATION:In de Roos\, Commandobaan 8\, 4706CL ROOSENDAAL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494323@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T110000
+DURATION:PT2H
+SUMMARY:Simple Dribble X12-1 - Blauw-Wit X12-2
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494323
+LOCATION:De Buitelstee\, van Oldenbarneveldtstraat\, 4671CZ DINTELOORD
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
