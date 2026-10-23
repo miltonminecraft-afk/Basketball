@@ -518,16 +518,6 @@ LOCATION:Sportcentrum Quelderduijn\, Schootenweg 2\, 1785LV DEN HELDER
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-506578@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T210000
-DURATION:PT2H
-SUMMARY:Jolly Jumpers VSE-2 - Utrecht Bull's VSE-1
-DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506578
-LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-504284@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T163000
@@ -2105,6 +2095,16 @@ DURATION:PT2H
 SUMMARY:Utrecht Bull's MSE-5 - Utrecht Basketball - MSE-2 MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510390
 LOCATION:Galgenwaard\, Herculesplein 341\, 3584AA UTRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506578@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270418T140000
+DURATION:PT2H
+SUMMARY:Jolly Jumpers VSE-2 - Utrecht Bull's VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506578
+LOCATION:Sportcomplex De Vlaskoel\, Sportlaan 4\, 7651LD TUBBERGEN
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
