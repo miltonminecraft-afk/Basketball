@@ -58,16 +58,6 @@ LOCATION:Sportcentrum De Sportmotor\, Jan Ligthartstraat 95\, 3083AL ROTTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-501109@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T110000
-DURATION:PT2H
-SUMMARY:Divine M18-1 - NIEUW Generation Basketball M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501109
-LOCATION:Sporthal Oostervant\, Oostervantstraat 25\, 3021PT ROTTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-501114@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T161000
@@ -95,6 +85,16 @@ DURATION:PT2H
 SUMMARY:NIEUW Generation Basketball M18-1 - Barons Breda Basketball M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501126
 LOCATION:Sporthal Gaslaan\, Gaslaan 200\, 2562LN 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-501109@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261206T120000
+DURATION:PT2H
+SUMMARY:Divine M18-1 - NIEUW Generation Basketball M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501109
+LOCATION:Sporthal Oostervant\, Oostervantstraat 25\, 3021PT ROTTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

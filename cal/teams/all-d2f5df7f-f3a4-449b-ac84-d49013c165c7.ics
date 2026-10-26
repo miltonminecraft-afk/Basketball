@@ -1218,6 +1218,16 @@ LOCATION:De Kuil\, Torenvalk 47\, 3752SJ BUNSCHOTEN-SPAKENBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-492406@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261031T140000
+DURATION:PT2H
+SUMMARY:Basketball Academy Utrecht M12-1 M12-1 - BC APOLLO Amsterdam M12-1
+DESCRIPTION:Mannen U12 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 492406
+LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-501864@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T141500
@@ -1235,16 +1245,6 @@ DURATION:PT2H
 SUMMARY:MBCA A'veen M22-1 - Utrecht Basketball M22-2 M22-2
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502911
 LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-492406@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T160000
-DURATION:PT2H
-SUMMARY:Basketball Academy Utrecht M12-1 M12-1 - BC APOLLO Amsterdam M12-1
-DESCRIPTION:Mannen U12 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 492406
-LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1308,22 +1308,22 @@ LOCATION:Zielhorst\, Trompetstraat 3\, 3822CK AMERSFOORT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-492993@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261101T090000
+DURATION:PT2H
+SUMMARY:Utrecht Basketball V12-1 V12-1 - Blue Arrows V12-1*
+DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492993
+LOCATION:De Paperclip\, Parkzichtlaan 203\, 3451GX VLEUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-491351@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261101T100000
 DURATION:PT2H
 SUMMARY:Utrecht Basketball X10-2 X10-2 - BC Utrecht Cangeroes X10-1
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491351
-LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-492993@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261101T100000
-DURATION:PT2H
-SUMMARY:Utrecht Basketball V12-1 V12-1 - Blue Arrows V12-1*
-DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492993
 LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -1682,7 +1682,7 @@ UID:foys-match-496479@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T114500
 DURATION:PT2H
-SUMMARY:Break Stars X14-1 - Utrecht Basketball X14-2 X14-2
+SUMMARY:Break Stars X14-1* - Utrecht Basketball X14-2 X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496479
 LOCATION:De Trits\, Goeman Borgesiuslaan 2\, 3741CR BAARN
 STATUS:CONFIRMED

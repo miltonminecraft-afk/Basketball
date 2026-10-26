@@ -148,16 +148,6 @@ LOCATION:Feel Fit Center/Berenschot\, Tiendweg 9\, 4142EG LEERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-508980@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270130T181500
-DURATION:PT2H
-SUMMARY:ABC Basketball MSE-1 - BV Leerdam MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508980
-LOCATION:D'Alburcht\, Perzikstraat 14 A\, 4261KD WIJK EN AALBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-508988@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270206T000000
@@ -165,6 +155,16 @@ DURATION:PT2H
 SUMMARY:BV Leerdam MSE-1 - Springfield MSE-2*
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508988
 LOCATION:Feel Fit Center/Berenschot\, Tiendweg 9\, 4142EG LEERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508980@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270220T163000
+DURATION:PT2H
+SUMMARY:ABC Basketball MSE-1 - BV Leerdam MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508980
+LOCATION:D'Alburcht\, Perzikstraat 14 A\, 4261KD WIJK EN AALBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

@@ -152,7 +152,7 @@ UID:foys-match-515243@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260905T160000
 DURATION:PT2H
-SUMMARY:WYBA basketbalvereniging M18-2 - OBC M18-2
+SUMMARY:WYBA basketbalvereniging M18-2* - OBC M18-2
 DESCRIPTION:Status: Planned\nFOYS wedstrijd-ID: 515243
 LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
 STATUS:CONFIRMED
@@ -202,7 +202,7 @@ UID:foys-match-502646@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T120000
 DURATION:PT2H
-SUMMARY:Jump IJsselstein V22-1 41 - 60 WYBA basketbalvereniging V22-1*
+SUMMARY:Jump IJsselstein V22-1* 41 - 60 WYBA basketbalvereniging V22-1*
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 41 - 60\nFOYS wedstrijd-ID: 502646
 LOCATION:Het Heem\, Heemradenlaan 36\, 3401GX IJSSELSTEIN UT
 STATUS:CONFIRMED
@@ -402,7 +402,7 @@ UID:foys-match-502222@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T160000
 DURATION:PT2H
-SUMMARY:WYBA basketbalvereniging M18-2 67 - 90 B.V. Batouwe M18-2
+SUMMARY:WYBA basketbalvereniging M18-2* 67 - 90 B.V. Batouwe M18-2
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 67 - 90\nFOYS wedstrijd-ID: 502222
 LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
 STATUS:CONFIRMED
@@ -682,7 +682,7 @@ UID:foys-match-502232@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T160000
 DURATION:PT2H
-SUMMARY:WYBA basketbalvereniging M18-2 48 - 67 Pluto M18-2
+SUMMARY:WYBA basketbalvereniging M18-2* 48 - 67 Pluto M18-2
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 48 - 67\nFOYS wedstrijd-ID: 502232
 LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
 STATUS:CONFIRMED
@@ -792,7 +792,7 @@ UID:foys-match-502238@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T104500
 DURATION:PT2H
-SUMMARY:BeCeGe '74 M18-1 57 - 62 WYBA basketbalvereniging M18-2
+SUMMARY:BeCeGe '74 M18-1 57 - 62 WYBA basketbalvereniging M18-2*
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 57 - 62\nFOYS wedstrijd-ID: 502238
 LOCATION:De Bongerd\, de Bongerd 81\, 7006NH DOETINCHEM
 STATUS:CONFIRMED
@@ -922,7 +922,7 @@ UID:foys-match-523345@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T133000
 DURATION:PT2H
-SUMMARY:WYBA basketbalvereniging M18-2 57 - 66 Pluto M18-2
+SUMMARY:WYBA basketbalvereniging M18-2* 57 - 66 Pluto M18-2
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 57 - 66\nFOYS wedstrijd-ID: 523345
 LOCATION:Arcus Breedtesporthal\, Campuslaan 4\, 6602HX WIJCHEN
 STATUS:CONFIRMED
@@ -942,10 +942,10 @@ UID:foys-match-523346@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T180000
 DURATION:PT2H
-SUMMARY:AFGELAST: Give and Go M18-1 - WYBA basketbalvereniging M18-2
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 523346
+SUMMARY:Give and Go M18-1 20 - 0 WYBA basketbalvereniging M18-2*
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 523346
 LOCATION:Sporthal Stationsplein\, Landbouwstraat 1\, 7122VM AALTEN
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-509498@basketball-agenda
@@ -1052,7 +1052,7 @@ UID:foys-match-502242@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T160000
 DURATION:PT2H
-SUMMARY:WYBA basketbalvereniging M18-2 - Give and Go M18-1
+SUMMARY:WYBA basketbalvereniging M18-2* - Give and Go M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502242
 LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
 STATUS:CONFIRMED
@@ -1152,7 +1152,7 @@ UID:foys-match-502249@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T160000
 DURATION:PT2H
-SUMMARY:Pigeons M18-1 - WYBA basketbalvereniging M18-2
+SUMMARY:Pigeons M18-1 - WYBA basketbalvereniging M18-2*
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502249
 LOCATION:Triominos\, Eltensestraat 4\, 6922JB DUIVEN
 STATUS:CONFIRMED
@@ -1312,7 +1312,7 @@ UID:foys-match-502252@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T160000
 DURATION:PT2H
-SUMMARY:WYBA basketbalvereniging M18-2 - Arnhem Eagles M18-3
+SUMMARY:WYBA basketbalvereniging M18-2* - Arnhem Eagles M18-3
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502252
 LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
 STATUS:CONFIRMED
@@ -1722,7 +1722,7 @@ UID:foys-match-502271@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T150000
 DURATION:PT2H
-SUMMARY:Challenge M18-1 - WYBA basketbalvereniging M18-2
+SUMMARY:Challenge M18-1 - WYBA basketbalvereniging M18-2*
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502271
 LOCATION:De Tinnegieter\, Leigraaf 2\, 6641DH BEUNINGEN GLD
 STATUS:CONFIRMED

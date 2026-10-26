@@ -138,32 +138,22 @@ LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-508980@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270130T181500
-DURATION:PT2H
-SUMMARY:ABC Basketball MSE-1 - BV Leerdam MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508980
-LOCATION:D'Alburcht\, Perzikstraat 14 A\, 4261KD WIJK EN AALBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-508984@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270206T200000
-DURATION:PT2H
-SUMMARY:Ardito MSE-1* - ABC Basketball MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508984
-LOCATION:sporthal De Sportwaard\, Oude Bosscheweg 6\, 5301LA ZALTBOMMEL
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-508920@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270213T163000
 DURATION:PT2H
 SUMMARY:ABC Basketball MSE-1 - Ardito MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508920
+LOCATION:D'Alburcht\, Perzikstraat 14 A\, 4261KD WIJK EN AALBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508980@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270220T163000
+DURATION:PT2H
+SUMMARY:ABC Basketball MSE-1 - BV Leerdam MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508980
 LOCATION:D'Alburcht\, Perzikstraat 14 A\, 4261KD WIJK EN AALBURG
 STATUS:CONFIRMED
 END:VEVENT
@@ -225,6 +215,16 @@ DURATION:PT2H
 SUMMARY:ABC Basketball MSE-1 - Tenderfeet MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509024
 LOCATION:D'Alburcht\, Perzikstraat 14 A\, 4261KD WIJK EN AALBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508984@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270417T200000
+DURATION:PT2H
+SUMMARY:Ardito MSE-1* - ABC Basketball MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508984
+LOCATION:sporthal De Sportwaard\, Oude Bosscheweg 6\, 5301LA ZALTBOMMEL
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR

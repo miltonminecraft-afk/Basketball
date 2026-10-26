@@ -2342,10 +2342,10 @@ UID:foys-match-512437@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T123000
 DURATION:PT2H
-SUMMARY:AFGELAST: BS Leiden V16-1 - Faith & Fire V16-1
-DESCRIPTION:Vrouwen U16 Landelijk - Eredivisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 512437
+SUMMARY:BS Leiden V16-1 20 - 0 Faith & Fire V16-1*
+DESCRIPTION:Vrouwen U16 Landelijk - Eredivisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 512437
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-498942@basketball-agenda
@@ -2412,8 +2412,8 @@ UID:foys-match-516418@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T203000
 DURATION:PT2H
-SUMMARY:AB InBev Leuven Bears MSE-6 - Zorg en Zekerheid MSE-1
-DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516418
+SUMMARY:AB InBev Leuven Bears MSE-6 67 - 64 Zorg en Zekerheid MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Final\nUitslag: 67 - 64\nFOYS wedstrijd-ID: 516418
 LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
@@ -4638,16 +4638,6 @@ LOCATION:Cleyn Duin\, Stadhoudersdreef 1\, 2224BN KATWIJK ZH
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-516791@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261205T080000
-DURATION:PT2H
-SUMMARY:Rotterdam Basketbal V18-1 - BS Leiden V18-1*
-DESCRIPTION:Vrouwen U18 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516791
-LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-503865@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T133000
@@ -4705,6 +4695,16 @@ DURATION:PT2H
 SUMMARY:BC Triple ThreaT V21-1 - BS Leiden V21-1
 DESCRIPTION:Vrouwen U21 (Basketball Cup) - Groepsfase\nStatus: Planned\nFOYS wedstrijd-ID: 512903
 LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516791@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261206T140000
+DURATION:PT2H
+SUMMARY:Rotterdam Basketbal V18-1 - BS Leiden V18-1*
+DESCRIPTION:Vrouwen U18 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 516791
+LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
