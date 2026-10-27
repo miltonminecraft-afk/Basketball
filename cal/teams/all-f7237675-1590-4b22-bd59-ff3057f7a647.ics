@@ -1198,16 +1198,6 @@ LOCATION:SSC Sportcentrum\, Onze Lieve Vrouwestraat 1\, 5612AW EINDHOVEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-510841@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270206T200000
-DURATION:PT2H
-SUMMARY:Barons Breda Basketball MSE-2 - BC Bladel MSE-3
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510841
-LOCATION:De Doelen\, Doelen 7\, 4813GP BREDA
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-510842@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270207T000000
@@ -1325,6 +1315,16 @@ DURATION:PT2H
 SUMMARY:Oirschot MSE-1 - BC Bladel MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510855
 LOCATION:sportcentrum De Kemmer\, Bloemendaal 5\, 5688GP OIRSCHOT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510841@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270307T180000
+DURATION:PT2H
+SUMMARY:Barons Breda Basketball MSE-2 - BC Bladel MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510841
+LOCATION:De Doelen\, Doelen 7\, 4813GP BREDA
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

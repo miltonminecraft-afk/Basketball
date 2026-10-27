@@ -718,16 +718,6 @@ LOCATION:Wethouder Smithal\, Westeinde 96\, 3146BZ MAASSLUIS
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-511369@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T140000
-DURATION:PT2H
-SUMMARY:Green Eagles MSE-2 - Punch MSE-5
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511369
-LOCATION:Wethouder Smithal\, Westeinde 96\, 3146BZ MAASSLUIS
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-502908@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T150000
@@ -1505,6 +1495,16 @@ DURATION:PT2H
 SUMMARY:Smokkelhoek MSE-1 - Green Eagles MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509245
 LOCATION:De Bloesem\, Vroonlandseweg 45\, 4421BW KAPELLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511369@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270417T000000
+DURATION:PT2H
+SUMMARY:Green Eagles MSE-2 - Punch MSE-5
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511369
+LOCATION:Wethouder Smithal\, Westeinde 96\, 3146BZ MAASSLUIS
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
