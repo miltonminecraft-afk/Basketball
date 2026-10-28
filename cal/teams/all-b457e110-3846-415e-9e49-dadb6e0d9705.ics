@@ -348,16 +348,6 @@ LOCATION:De Braken\, De Braken 1 a\, 5282JJ BOXTEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-498521@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261101T100000
-DURATION:PT2H
-SUMMARY:JRC V16-1 - Barons Breda Basketball V16-2
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498521
-LOCATION:De Braken\, De Braken 1 a\, 5282JJ BOXTEL
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-502021@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261101T100000
@@ -412,10 +402,10 @@ UID:foys-match-513150@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261101T140000
 DURATION:PT2H
-SUMMARY:JRC M22-2 - Eastwood Tigers M22-1*
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513150
+SUMMARY:AFGELAST: JRC M22-2 - Eastwood Tigers M22-1*
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 513150
 LOCATION:De Braken\, De Braken 1 a\, 5282JJ BOXTEL
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-499534@basketball-agenda
@@ -704,6 +694,16 @@ DTSTART;TZID=Europe/Amsterdam:20261129T140000
 DURATION:PT2H
 SUMMARY:JRC M22-1 - BC Langstraat Shooters M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503162
+LOCATION:De Braken\, De Braken 1 a\, 5282JJ BOXTEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498521@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261204T193000
+DURATION:PT2H
+SUMMARY:JRC V16-1 - Barons Breda Basketball V16-2
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498521
 LOCATION:De Braken\, De Braken 1 a\, 5282JJ BOXTEL
 STATUS:CONFIRMED
 END:VEVENT

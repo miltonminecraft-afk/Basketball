@@ -38,16 +38,6 @@ LOCATION:Den Ekkerman\, Wal 150\, 5501HP VELDHOVEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-500641@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261101T000000
-DURATION:PT2H
-SUMMARY:Fanatics '71 M16-1 - BC Bladel M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500641
-LOCATION:Jo Gerrishal\, Achilleslaan 2 a\, 6042JV ROERMOND
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-500653@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261115T140000
@@ -74,6 +64,16 @@ DTSTART;TZID=Europe/Amsterdam:20261129T100000
 DURATION:PT2H
 SUMMARY:Fanatics '71 M16-1 - Valkenswaard Falcons M16-2
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500666
+LOCATION:Jo Gerrishal\, Achilleslaan 2 a\, 6042JV ROERMOND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-500641@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261206T100000
+DURATION:PT2H
+SUMMARY:Fanatics '71 M16-1 - BC Bladel M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500641
 LOCATION:Jo Gerrishal\, Achilleslaan 2 a\, 6042JV ROERMOND
 STATUS:CONFIRMED
 END:VEVENT

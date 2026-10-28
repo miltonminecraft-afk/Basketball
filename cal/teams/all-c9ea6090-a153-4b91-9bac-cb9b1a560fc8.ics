@@ -508,16 +508,6 @@ LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-505794@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261208T200000
-DURATION:PT2H
-SUMMARY:Harlemlakers MSE-1 - LUSV Basketbal MSE-1*
-DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505794
-LOCATION:Calandhal Hal 1\, Eliza van Calcarstraat 2\, 1068RR AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-505090@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261211T200000
@@ -1065,6 +1055,16 @@ DURATION:PT2H
 SUMMARY:BV Oegstgeest MSE-2* - LUSV Basketbal MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508242
 LOCATION:Sporthal De Cuyl\, de Voscuyl 36\, 2341BJ OEGSTGEEST
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505794@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270327T000000
+DURATION:PT2H
+SUMMARY:Harlemlakers MSE-1 - LUSV Basketbal MSE-1*
+DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505794
+LOCATION:Calandhal Hal 1\, Eliza van Calcarstraat 2\, 1068RR AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

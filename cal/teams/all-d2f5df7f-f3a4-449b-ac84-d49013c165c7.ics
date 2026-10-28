@@ -1238,16 +1238,6 @@ LOCATION:Feel Fit Center/Berenschot\, Tiendweg 9\, 4142EG LEERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-502911@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261031T141500
-DURATION:PT2H
-SUMMARY:MBCA A'veen M22-1 - Utrecht Basketball M22-2 M22-2
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502911
-LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-498462@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T160000
@@ -2335,6 +2325,16 @@ DURATION:PT2H
 SUMMARY:BC Langstraat Shooters M22-1 - Utrecht Basketball M22-3 M22-3
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503118
 LOCATION:Sporthal Zidewinde\, Julianalaan 3\, 5161BA SPRANG-CAPELLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502911@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T144500
+DURATION:PT2H
+SUMMARY:MBCA A'veen M22-1 - Utrecht Basketball M22-2 M22-2
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502911
+LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

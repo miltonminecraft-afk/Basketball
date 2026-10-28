@@ -488,22 +488,22 @@ LOCATION:'t Huiken\, Lange Wijden 33\, 8081VS ELBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-497049@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261114T130000
+DURATION:PT2H
+SUMMARY:Red Giants X14-1 - B.V. Isala X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497049
+LOCATION:Sporthal Ezinge\, Ezingerweg 58\, 7943AZ MEPPEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-495252@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T133000
 DURATION:PT2H
 SUMMARY:Red Giants X12-1 - LB-ZAC X12-3
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495252
-LOCATION:Sporthal Ezinge\, Ezingerweg 58\, 7943AZ MEPPEL
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-497049@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T133000
-DURATION:PT2H
-SUMMARY:Red Giants X14-1 - B.V. Isala X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497049
 LOCATION:Sporthal Ezinge\, Ezingerweg 58\, 7943AZ MEPPEL
 STATUS:CONFIRMED
 END:VEVENT
