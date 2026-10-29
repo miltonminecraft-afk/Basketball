@@ -338,16 +338,6 @@ LOCATION:Die Heygrave\, Burgemeester Zwaansweg 4\, 5251CJ VLIJMEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-508411@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261113T190000
-DURATION:PT2H
-SUMMARY:TSBV Pendragon MSE-3 - Tantalus MSE-4
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508411
-LOCATION:Studentensporthal KUB\, Academielaan 5\, 5037ET TILBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-511912@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261113T190000
@@ -534,6 +524,16 @@ DTSTART;TZID=Europe/Amsterdam:20261204T210000
 DURATION:PT2H
 SUMMARY:TSBV Pendragon VSE-1 - Tantalus VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503738
+LOCATION:Studentensporthal KUB\, Academielaan 5\, 5037ET TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508411@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261204T210000
+DURATION:PT2H
+SUMMARY:TSBV Pendragon MSE-3 - Tantalus MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508411
 LOCATION:Studentensporthal KUB\, Academielaan 5\, 5037ET TILBURG
 STATUS:CONFIRMED
 END:VEVENT

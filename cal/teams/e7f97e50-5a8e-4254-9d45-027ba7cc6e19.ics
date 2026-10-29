@@ -97,14 +97,4 @@ DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Plann
 LOCATION:De Spreng\, Vredeveldseweg 57\, 9404CC ASSEN
 STATUS:CONFIRMED
 END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-502104@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T174500
-DURATION:PT2H
-SUMMARY:HBV Falcons M18-1 - SIETSEMA Highlanders M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502104
-LOCATION:Valkenlaan\, Valkenlaan 1\, 7905AA HOOGEVEEN
-STATUS:CONFIRMED
-END:VEVENT
 END:VCALENDAR

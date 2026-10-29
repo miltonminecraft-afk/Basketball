@@ -592,10 +592,10 @@ UID:foys-match-497521@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261002T193000
 DURATION:PT2H
-SUMMARY:Marathon X14-2 - Scheldesport Basketball X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497521
+SUMMARY:AFGELAST: Marathon X14-2 - Scheldesport Basketball X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 497521
 LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-509154@basketball-agenda
@@ -1745,6 +1745,16 @@ DURATION:PT2H
 SUMMARY:Arnhem Eagles M22-1 - Marathon M22-1
 DESCRIPTION:Mannen U22 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512333
 LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-527871@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T123000
+DURATION:PT2H
+SUMMARY:Marathon X14-2 - Scheldesport Basketball X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 527871
+LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

@@ -58,16 +58,6 @@ LOCATION:SSC Sportcentrum\, Onze Lieve Vrouwestraat 1\, 5612AW EINDHOVEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-503699@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261105T203000
-DURATION:PT2H
-SUMMARY:EBBC VSE-1 - Tantalus VSE-1
-DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503699
-LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-503717@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T133000
@@ -105,6 +95,16 @@ DURATION:PT2H
 SUMMARY:TSBV Pendragon VSE-1 - Tantalus VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503738
 LOCATION:Studentensporthal KUB\, Academielaan 5\, 5037ET TILBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503699@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261210T203000
+DURATION:PT2H
+SUMMARY:EBBC VSE-1 - Tantalus VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503699
+LOCATION:Sporthal Zuid\, Platostraat 2\, 5216CB 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

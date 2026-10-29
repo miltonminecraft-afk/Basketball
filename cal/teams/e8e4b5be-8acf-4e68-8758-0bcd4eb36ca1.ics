@@ -42,10 +42,10 @@ UID:foys-match-497521@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261002T193000
 DURATION:PT2H
-SUMMARY:Marathon X14-2 - Scheldesport Basketball X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497521
+SUMMARY:AFGELAST: Marathon X14-2 - Scheldesport Basketball X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 497521
 LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-497526@basketball-agenda
@@ -105,6 +105,16 @@ DURATION:PT2H
 SUMMARY:WBB Giants X14-3 - Marathon X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497558
 LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-527871@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T123000
+DURATION:PT2H
+SUMMARY:Marathon X14-2 - Scheldesport Basketball X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 527871
+LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
