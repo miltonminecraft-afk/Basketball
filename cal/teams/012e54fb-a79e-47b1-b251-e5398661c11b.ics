@@ -52,8 +52,8 @@ UID:foys-match-513108@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T130000
 DURATION:PT2H
-SUMMARY:SC Antilope Utrecht RSE-1 - R.B.V.M. RSE-2
-DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513108
+SUMMARY:SC Antilope Utrecht RSE-1 65 - 29 R.B.V.M. RSE-2
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Final\nUitslag: 65 - 29\nFOYS wedstrijd-ID: 513108
 LOCATION:Triominos\, Eltensestraat 4\, 6922JB DUIVEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -62,10 +62,10 @@ UID:foys-match-513111@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T144500
 DURATION:PT2H
-SUMMARY:AFGELAST: HBV The Jumpers RSE-1 - SC Antilope Utrecht RSE-1
-DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 513111
+SUMMARY:HBV The Jumpers RSE-1 0 - 20 SC Antilope Utrecht RSE-1
+DESCRIPTION:Rolstoel Senioren - Rolstoel 1e Divisie\nStatus: Final\nUitslag: 0 - 20\nFOYS wedstrijd-ID: 513111
 LOCATION:Triominos\, Eltensestraat 4\, 6922JB DUIVEN
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-523259@basketball-agenda

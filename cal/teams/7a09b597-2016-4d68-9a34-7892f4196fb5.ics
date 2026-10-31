@@ -72,9 +72,19 @@ UID:foys-match-496777@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T154500
 DURATION:PT2H
-SUMMARY:Bedum Blues X14-1 - Flying Red X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496777
+SUMMARY:Bedum Blues X14-1 32 - 83 Flying Red X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 32 - 83\nFOYS wedstrijd-ID: 496777
 LOCATION:De Beemden\, Sportlaan 14\, 9781CL BEDUM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-528889@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261103T173000
+DURATION:PT2H
+SUMMARY:Flying Red X14-1 - BV Groningen X14-1
+DESCRIPTION:Status: Planned\nFOYS wedstrijd-ID: 528889
+LOCATION:
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
