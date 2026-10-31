@@ -1048,16 +1048,6 @@ LOCATION:Sportcentrum Universum\, Science Park 306\, 1098XH AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-505092@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T163000
-DURATION:PT2H
-SUMMARY:LUSV Basketbal VSE-2 - U.S. VSE-4
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505092
-LOCATION:U.S.C.\, Goliuspad 22\, 2333BH Leiden
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-506961@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T163000
@@ -1715,6 +1705,16 @@ DURATION:PT2H
 SUMMARY:U.S. VSE-1 - CBV Binnenland VSE-2
 DESCRIPTION:Vrouwen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 506478
 LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505092@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270227T163000
+DURATION:PT2H
+SUMMARY:LUSV Basketbal VSE-2 - U.S. VSE-4
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505092
+LOCATION:U.S.C.\, Goliuspad 22\, 2333BH Leiden
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

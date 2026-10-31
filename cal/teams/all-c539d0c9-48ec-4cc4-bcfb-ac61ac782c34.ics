@@ -1888,16 +1888,6 @@ LOCATION:Sporthuis Abcoude\, Geinplein 1\, 1391 JN Abcoude
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-498671@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T133000
-DURATION:PT2H
-SUMMARY:Hot Pepper Heat M16-1 - BC Utrecht Cangeroes M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498671
-LOCATION:Dorpshuis Zwanenburg Halfweg\, Dennenlaan 133 A\, 1161CN ZWANENBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-506341@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T133000
@@ -3095,6 +3085,16 @@ DURATION:PT2H
 SUMMARY:ABC Amigos X12-2 - BC Utrecht Cangeroes X12-2
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493482
 LOCATION:Sporthuis Abcoude\, Geinplein 1\, 1391 JN Abcoude
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498671@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T110000
+DURATION:PT2H
+SUMMARY:Hot Pepper Heat M16-1 - BC Utrecht Cangeroes M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498671
+LOCATION:Dorpshuis Zwanenburg Halfweg\, Dennenlaan 133 A\, 1161CN ZWANENBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

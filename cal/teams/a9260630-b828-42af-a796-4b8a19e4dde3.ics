@@ -48,16 +48,6 @@ LOCATION:De Schans\, Nijverheidsweg 6\, 2215MH VOORHOUT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-505081@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T120000
-DURATION:PT2H
-SUMMARY:LUSV Basketbal VSE-2 - The Challengers VSE-1
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505081
-LOCATION:U.S.C.\, Goliuspad 22\, 2333BH Leiden
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-505082@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T191500
@@ -78,12 +68,12 @@ LOCATION:U.S.C.\, Goliuspad 22\, 2333BH Leiden
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-505092@basketball-agenda
+UID:foys-match-505081@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T163000
 DURATION:PT2H
-SUMMARY:LUSV Basketbal VSE-2 - U.S. VSE-4
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505092
+SUMMARY:LUSV Basketbal VSE-2 - The Challengers VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505081
 LOCATION:U.S.C.\, Goliuspad 22\, 2333BH Leiden
 STATUS:CONFIRMED
 END:VEVENT
@@ -135,6 +125,16 @@ DURATION:PT2H
 SUMMARY:SV Argon VSE-1* - LUSV Basketbal VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505128
 LOCATION:De Eendracht\, Eendracht 1\, 3641ML MIJDRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505092@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270227T163000
+DURATION:PT2H
+SUMMARY:LUSV Basketbal VSE-2 - U.S. VSE-4
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505092
+LOCATION:U.S.C.\, Goliuspad 22\, 2333BH Leiden
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

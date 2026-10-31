@@ -422,8 +422,8 @@ UID:foys-match-495049@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261030T190000
 DURATION:PT2H
-SUMMARY:Risne Stars X12-1 - Hanze Stars X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495049
+SUMMARY:Risne Stars X12-1 57 - 53 Hanze Stars X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 57 - 53\nFOYS wedstrijd-ID: 495049
 LOCATION:Reggehal\, Nieuwlandsweg 1\, 7461VP RIJSSEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -492,10 +492,10 @@ UID:foys-match-499008@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T193000
 DURATION:PT2H
-SUMMARY:BV Orca's M16-1 - Hanze Stars M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499008
+SUMMARY:AFGELAST: BV Orca's M16-1 - Hanze Stars M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 499008
 LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-506031@basketball-agenda

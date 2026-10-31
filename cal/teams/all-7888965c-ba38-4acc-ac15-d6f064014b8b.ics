@@ -2452,8 +2452,8 @@ UID:foys-match-506336@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261030T203000
 DURATION:PT2H
-SUMMARY:BS Leiden V21-1 - GBI van Dijk Grasshoppers V21-1
-DESCRIPTION:Vrouwen U21 Landelijk - V21 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 506336
+SUMMARY:BS Leiden V21-1 38 - 78 GBI van Dijk Grasshoppers V21-1
+DESCRIPTION:Vrouwen U21 Landelijk - V21 Eredivisie\nStatus: Final\nUitslag: 38 - 78\nFOYS wedstrijd-ID: 506336
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -2462,8 +2462,8 @@ UID:foys-match-512165@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261030T203000
 DURATION:PT2H
-SUMMARY:BS Leiden M22-1 - Rotterdam Basketbal M22-1
-DESCRIPTION:Mannen U22 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 512165
+SUMMARY:BS Leiden M22-1 52 - 111 Rotterdam Basketbal M22-1
+DESCRIPTION:Mannen U22 Landelijk - Eredivisie\nStatus: Final\nUitslag: 52 - 111\nFOYS wedstrijd-ID: 512165
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -2860,7 +2860,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-506406@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261101T170000
+DTSTART;TZID=Europe/Amsterdam:20261101T173000
 DURATION:PT2H
 SUMMARY:Comfective Hammers VSE-1 - Zorg en Zekerheid VSE-1
 DESCRIPTION:Vrouwen Senioren Landelijk - Women's Basketball League\nStatus: Planned\nFOYS wedstrijd-ID: 506406
