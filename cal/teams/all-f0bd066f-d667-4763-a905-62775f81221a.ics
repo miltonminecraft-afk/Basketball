@@ -42,7 +42,7 @@ UID:foys-match-497248@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T130000
 DURATION:PT2H
-SUMMARY:Flashing Heiloo X14-3 55 - 20 Mapleleaves X14-2
+SUMMARY:Flashing Heiloo X14-3 55 - 20 Mapleleaves X14-2*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 55 - 20\nFOYS wedstrijd-ID: 497248
 LOCATION:Het Vennewater\, Het Zevenhuizen 48\, 1852JC HEILOO
 STATUS:CONFIRMED
@@ -172,7 +172,7 @@ UID:foys-match-497255@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T144500
 DURATION:PT2H
-SUMMARY:Mapleleaves X14-2 30 - 54 Alkm.Guardians X14-2
+SUMMARY:Mapleleaves X14-2* 30 - 54 Alkm.Guardians X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 30 - 54\nFOYS wedstrijd-ID: 497255
 LOCATION:De Waterakkers\, Kerkweg 217\, 1964KJ HEEMSKERK
 STATUS:CONFIRMED
@@ -322,7 +322,7 @@ UID:foys-match-499979@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T143000
 DURATION:PT2H
-SUMMARY:Mapleleaves M16-3 22 - 95 Windmills M16-2
+SUMMARY:Mapleleaves M16-3 22 - 95 Windmills M16-2*
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 22 - 95\nFOYS wedstrijd-ID: 499979
 LOCATION:De Waterakkers\, Kerkweg 217\, 1964KJ HEEMSKERK
 STATUS:CONFIRMED
@@ -352,7 +352,7 @@ UID:foys-match-497262@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T153000
 DURATION:PT2H
-SUMMARY:The Sea Devils X14-1 119 - 33 Mapleleaves X14-2
+SUMMARY:The Sea Devils X14-1 119 - 33 Mapleleaves X14-2*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 119 - 33\nFOYS wedstrijd-ID: 497262
 LOCATION:Bloemen De\, De Bloemen 71\, 1902GT CASTRICUM
 STATUS:CONFIRMED
@@ -452,7 +452,7 @@ UID:foys-match-497266@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T130000
 DURATION:PT2H
-SUMMARY:Mapleleaves X14-2 30 - 53 The Sea Devils X14-2
+SUMMARY:Mapleleaves X14-2* 30 - 53 The Sea Devils X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 30 - 53\nFOYS wedstrijd-ID: 497266
 LOCATION:De Waterakkers\, Kerkweg 217\, 1964KJ HEEMSKERK
 STATUS:CONFIRMED
@@ -592,7 +592,7 @@ UID:foys-match-497275@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T130000
 DURATION:PT2H
-SUMMARY:Mapleleaves X14-4 24 - 43 Mapleleaves X14-2
+SUMMARY:Mapleleaves X14-4 24 - 43 Mapleleaves X14-2*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 24 - 43\nFOYS wedstrijd-ID: 497275
 LOCATION:De Waterakkers\, Kerkweg 217\, 1964KJ HEEMSKERK
 STATUS:CONFIRMED
@@ -762,8 +762,8 @@ UID:foys-match-497281@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T160000
 DURATION:PT2H
-SUMMARY:Break Out '88 X14-1 38 - 18 Mapleleaves X14-2
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 38 - 18\nFOYS wedstrijd-ID: 497281
+SUMMARY:Break Out '88 X14-1 20 - 0 Mapleleaves X14-2*
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 497281
 LOCATION:Wieringen Sporthal\, Belterlaan 1\, 1777HM HIPPOLYTUSHOEF
 STATUS:CONFIRMED
 END:VEVENT
@@ -892,7 +892,7 @@ UID:foys-match-497287@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T111500
 DURATION:PT2H
-SUMMARY:Mapleleaves X14-2 - JBC/Noorderhaven X14-1
+SUMMARY:Mapleleaves X14-2* - JBC/Noorderhaven X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497287
 LOCATION:De Waterakkers\, Kerkweg 217\, 1964KJ HEEMSKERK
 STATUS:CONFIRMED
@@ -1028,16 +1028,6 @@ LOCATION:De Waterakkers\, Kerkweg 217\, 1964KJ HEEMSKERK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-502501@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T000000
-DURATION:PT2H
-SUMMARY:Racing Beverwijk M18-1 - Mapleleaves M18-1
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502501
-LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-513283@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T111500
@@ -1072,7 +1062,7 @@ UID:foys-match-497292@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T120000
 DURATION:PT2H
-SUMMARY:BV Noordkop X14-3 - Mapleleaves X14-2
+SUMMARY:BV Noordkop X14-3 - Mapleleaves X14-2*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497292
 LOCATION:Sportcentrum Quelderduijn\, Schootenweg 2\, 1785LV DEN HELDER
 STATUS:CONFIRMED
@@ -1292,7 +1282,7 @@ UID:foys-match-497298@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T181500
 DURATION:PT2H
-SUMMARY:Mapleleaves X14-2 - HBC X14-1
+SUMMARY:Mapleleaves X14-2* - HBC X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497298
 LOCATION:De Waterakkers\, Kerkweg 217\, 1964KJ HEEMSKERK
 STATUS:CONFIRMED
@@ -1462,7 +1452,7 @@ UID:foys-match-497301@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261129T100000
 DURATION:PT2H
-SUMMARY:Derba X14-1 - Mapleleaves X14-2
+SUMMARY:Derba X14-1 - Mapleleaves X14-2*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497301
 LOCATION:Oosterven\, Oranjestraat 2 A\, 1483VP DE RIJP
 STATUS:CONFIRMED
@@ -1488,11 +1478,21 @@ LOCATION:Karekiet\, Karekietpark 2\, 1444HV PURMEREND
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-502501@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261203T191500
+DURATION:PT2H
+SUMMARY:Racing Beverwijk M18-1 - Mapleleaves M18-1
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502501
+LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-499973@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261206T144500
 DURATION:PT2H
-SUMMARY:Windmills M16-2 - Mapleleaves M16-2
+SUMMARY:Windmills M16-2* - Mapleleaves M16-2
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499973
 LOCATION:Sporthal Zaanstad-Zuid\, De Weer 26\, 1504AH ZAANDAM
 STATUS:CONFIRMED
@@ -1512,7 +1512,7 @@ UID:foys-match-497309@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T111500
 DURATION:PT2H
-SUMMARY:Mapleleaves X14-2 - VBC Akrides X14-2
+SUMMARY:Mapleleaves X14-2* - VBC Akrides X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497309
 LOCATION:De Waterakkers\, Kerkweg 217\, 1964KJ HEEMSKERK
 STATUS:CONFIRMED

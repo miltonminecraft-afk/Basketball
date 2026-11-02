@@ -50,7 +50,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-499011@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261108T110000
+DTSTART;TZID=Europe/Amsterdam:20261108T140000
 DURATION:PT2H
 SUMMARY:Almere Pioneers M16-3 - Crackerjacks M16-2
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499011
@@ -70,7 +70,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-499020@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T120000
+DTSTART;TZID=Europe/Amsterdam:20261121T110000
 DURATION:PT2H
 SUMMARY:Almere Pioneers M16-3 - Flevo Musketiers M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499020
@@ -92,7 +92,7 @@ UID:foys-match-499031@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T121500
 DURATION:PT2H
-SUMMARY:Hanze Stars M16-1 - Almere Pioneers M16-3
+SUMMARY:Hanze Stars M16-1* - Almere Pioneers M16-3
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499031
 LOCATION:De Mene\, Markolle 1\, 7207PA ZUTPHEN
 STATUS:CONFIRMED

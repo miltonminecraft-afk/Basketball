@@ -983,7 +983,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T120000
 DURATION:PT2H
 SUMMARY:WYBA basketbalvereniging X12-1 64 - 39 UNLIMITED X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 64 - 39\nFOYS wedstrijd-ID: 493908
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 64 - 39\nFOYS wedstrijd-ID: 493908
 LOCATION:Sportcentrum Arcus\, Campuslaan 4\, 6602HX WIJCHEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -1202,7 +1202,7 @@ UID:foys-match-502724@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T130000
 DURATION:PT2H
-SUMMARY:Dunatos V22-1 - WYBA basketbalvereniging V22-2
+SUMMARY:Dunatos V22-1* - WYBA basketbalvereniging V22-2
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502724
 LOCATION:Marsana\, Molenveldweg 4\, 6231RX MEERSSEN
 STATUS:CONFIRMED

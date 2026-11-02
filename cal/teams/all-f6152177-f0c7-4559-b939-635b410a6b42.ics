@@ -42,7 +42,7 @@ UID:foys-match-502693@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T140000
 DURATION:PT2H
-SUMMARY:BC Eindhoven V22-1 61 - 34 Dunatos V22-1
+SUMMARY:BC Eindhoven V22-1 61 - 34 Dunatos V22-1*
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 61 - 34\nFOYS wedstrijd-ID: 502693
 LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
@@ -132,7 +132,7 @@ UID:foys-match-502698@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260920T150000
 DURATION:PT2H
-SUMMARY:Dunatos V22-1 28 - 41 The Black Eagles V22-2
+SUMMARY:Dunatos V22-1* 28 - 41 The Black Eagles V22-2
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 28 - 41\nFOYS wedstrijd-ID: 502698
 LOCATION:Marsana\, Molenveldweg 4\, 6231RX MEERSSEN
 STATUS:CONFIRMED
@@ -172,7 +172,7 @@ UID:foys-match-502705@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T170000
 DURATION:PT2H
-SUMMARY:Attacus V22-1 101 - 16 Dunatos V22-1
+SUMMARY:Attacus V22-1 101 - 16 Dunatos V22-1*
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 101 - 16\nFOYS wedstrijd-ID: 502705
 LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
 STATUS:CONFIRMED
@@ -262,7 +262,7 @@ UID:foys-match-502710@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T140000
 DURATION:PT2H
-SUMMARY:Oirschot V22-1 40 - 38 Dunatos V22-1
+SUMMARY:Oirschot V22-1 40 - 38 Dunatos V22-1*
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 40 - 38\nFOYS wedstrijd-ID: 502710
 LOCATION:sportcentrum De Kemmer\, Bloemendaal 5\, 5688GP OIRSCHOT
 STATUS:CONFIRMED
@@ -312,7 +312,7 @@ UID:foys-match-502715@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261011T150000
 DURATION:PT2H
-SUMMARY:Dunatos V22-1 57 - 79 Gennep Cougars V22-1
+SUMMARY:Dunatos V22-1* 57 - 79 Gennep Cougars V22-1
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 57 - 79\nFOYS wedstrijd-ID: 502715
 LOCATION:Marsana\, Molenveldweg 4\, 6231RX MEERSSEN
 STATUS:CONFIRMED
@@ -432,10 +432,10 @@ UID:foys-match-502718@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T180000
 DURATION:PT2H
-SUMMARY:AFGELAST: Akros V22-1 - Dunatos V22-1
-DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 502718
+SUMMARY:Akros V22-1 20 - 0 Dunatos V22-1*
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 502718
 LOCATION:'t Hoogkoor\, Koorstraat 1\, 5831GH BOXMEER
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-499731@basketball-agenda
@@ -492,7 +492,7 @@ UID:foys-match-502724@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T130000
 DURATION:PT2H
-SUMMARY:Dunatos V22-1 - WYBA basketbalvereniging V22-2
+SUMMARY:Dunatos V22-1* - WYBA basketbalvereniging V22-2
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502724
 LOCATION:Marsana\, Molenveldweg 4\, 6231RX MEERSSEN
 STATUS:CONFIRMED
@@ -532,7 +532,7 @@ UID:foys-match-502726@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T110000
 DURATION:PT2H
-SUMMARY:BC Bumpers V22-1 - Dunatos V22-1
+SUMMARY:BC Bumpers V22-1 - Dunatos V22-1*
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502726
 LOCATION:Stadssporthal\, Stadswegske 8\, 6131AG SITTARD
 STATUS:CONFIRMED
@@ -662,7 +662,7 @@ UID:foys-match-502733@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T150000
 DURATION:PT2H
-SUMMARY:Dunatos V22-1 - Tracks Parkstad V22-1
+SUMMARY:Dunatos V22-1* - Tracks Parkstad V22-1
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502733
 LOCATION:Marsana\, Molenveldweg 4\, 6231RX MEERSSEN
 STATUS:CONFIRMED
@@ -742,7 +742,7 @@ UID:foys-match-502738@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261129T160000
 DURATION:PT2H
-SUMMARY:Vlijmscherp SVH V22-1* - Dunatos V22-1
+SUMMARY:Vlijmscherp SVH V22-1* - Dunatos V22-1*
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502738
 LOCATION:Die Heygrave\, Burgemeester Zwaansweg 4\, 5251CJ VLIJMEN
 STATUS:CONFIRMED
@@ -752,7 +752,7 @@ UID:foys-match-502863@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261204T200000
 DURATION:PT2H
-SUMMARY:Dunatos M22-1 - B.C. Virtus M22-1
+SUMMARY:Dunatos M22-1 - B.C. Virtus M22-1*
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502863
 LOCATION:Marsana\, Molenveldweg 4\, 6231RX MEERSSEN
 STATUS:CONFIRMED
@@ -772,7 +772,7 @@ UID:foys-match-502886@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T153000
 DURATION:PT2H
-SUMMARY:B.C. Virtus M22-1 - Dunatos M22-1
+SUMMARY:B.C. Virtus M22-1* - Dunatos M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502886
 LOCATION:De Crosser\, Raadhuislaan 19\, 4251VS WERKENDAM
 STATUS:CONFIRMED

@@ -62,7 +62,7 @@ UID:foys-match-498983@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T111500
 DURATION:PT2H
-SUMMARY:De Dunckers M16-2 88 - 60 Hanze Stars M16-1
+SUMMARY:De Dunckers M16-2 88 - 60 Hanze Stars M16-1*
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 88 - 60\nFOYS wedstrijd-ID: 498983
 LOCATION:Dudok Arena\, Arena 303\, 1213NW HILVERSUM
 STATUS:CONFIRMED
@@ -222,7 +222,7 @@ UID:foys-match-491605@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T093000
 DURATION:PT2H
-SUMMARY:De Dunckers X10-2 8 - 25 Quick Runners X10-1
+SUMMARY:De Dunckers X10-2 8 - 25 Quick Runners X10-1*
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 8 - 25\nFOYS wedstrijd-ID: 491605
 LOCATION:Dudok Arena\, Arena 303\, 1213NW HILVERSUM
 STATUS:CONFIRMED
@@ -692,7 +692,7 @@ UID:foys-match-505641@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T183000
 DURATION:PT2H
-SUMMARY:BV Amsterdam MSE-2* 75 - 76 De Dunckers MSE-1
+SUMMARY:BV Amsterdam MSE-2 75 - 76 De Dunckers MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Final\nUitslag: 75 - 76\nFOYS wedstrijd-ID: 505641
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -943,7 +943,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T093000
 DURATION:PT2H
 SUMMARY:De Dunckers X10-2 2 - 54 Break Stars X10-1
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 2 - 54\nFOYS wedstrijd-ID: 491617
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 2 - 54\nFOYS wedstrijd-ID: 491617
 LOCATION:Dudok Arena\, Arena 303\, 1213NW HILVERSUM
 STATUS:CONFIRMED
 END:VEVENT
@@ -1083,7 +1083,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261101T170000
 DURATION:PT2H
 SUMMARY:BC Utrecht Cangeroes V16-2 32 - 61 De Dunckers V16-1
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 32 - 61\nFOYS wedstrijd-ID: 498464
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 32 - 61\nFOYS wedstrijd-ID: 498464
 LOCATION:Sporthal Lunetten\, Zwarte Woud 201\, 3524SG UTRECHT
 STATUS:CONFIRMED
 END:VEVENT
@@ -1572,7 +1572,7 @@ UID:foys-match-491626@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T090000
 DURATION:PT2H
-SUMMARY:Quick Runners X10-1 - De Dunckers X10-2
+SUMMARY:Quick Runners X10-1* - De Dunckers X10-2
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491626
 LOCATION:Sporthal  Wolfskamer\, IJsselmeerstraat 3 D\, 1271AA HUIZEN
 STATUS:CONFIRMED
@@ -2142,7 +2142,7 @@ UID:foys-match-505708@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270130T000000
 DURATION:PT2H
-SUMMARY:De Dunckers MSE-1 - BV Amsterdam MSE-2*
+SUMMARY:De Dunckers MSE-1 - BV Amsterdam MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505708
 LOCATION:Dudok Arena\, Arena 303\, 1213NW HILVERSUM
 STATUS:CONFIRMED

@@ -442,7 +442,7 @@ UID:foys-match-513874@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260918T210000
 DURATION:PT2H
-SUMMARY:BC Triple ThreaT VSE-2 27 - 73 BC APOLLO Amsterdam VSE-1
+SUMMARY:BC Triple ThreaT VSE-2* 27 - 73 BC APOLLO Amsterdam VSE-1
 DESCRIPTION:Vrouwen Senioren Landelijk - Promotiedivisie\nStatus: Final\nUitslag: 27 - 73\nFOYS wedstrijd-ID: 513874
 LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
 STATUS:CONFIRMED
@@ -2032,8 +2032,8 @@ UID:foys-match-505592@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T124500
 DURATION:PT2H
-SUMMARY:Landslake Lions M19-1 - BC APOLLO Amsterdam M19-1
-DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 505592
+SUMMARY:Landslake Lions M19-1 63 - 72 BC APOLLO Amsterdam M19-1
+DESCRIPTION:Mannen U19 Landelijk - M19 Eredivisie\nStatus: Final\nUitslag: 63 - 72\nFOYS wedstrijd-ID: 505592
 LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
 STATUS:CONFIRMED
 END:VEVENT
@@ -2203,7 +2203,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261101T140000
 DURATION:PT2H
 SUMMARY:BC APOLLO Amsterdam X12-2 16 - 66 Flashing Heiloo X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 16 - 66\nFOYS wedstrijd-ID: 493215
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 16 - 66\nFOYS wedstrijd-ID: 493215
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -2372,7 +2372,7 @@ UID:foys-match-505662@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T180000
 DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam MSE-2 - BV Amsterdam MSE-2*
+SUMMARY:BC APOLLO Amsterdam MSE-2 - BV Amsterdam MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505662
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
@@ -2948,6 +2948,16 @@ LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-495352@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T110000
+DURATION:PT2H
+SUMMARY:Almere Pioneers M16-1 - BC APOLLO Amsterdam M16-1
+DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 495352
+LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-495577@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T110000
@@ -2975,16 +2985,6 @@ DURATION:PT2H
 SUMMARY:Amsterdam Warriors M14-1 - BC APOLLO Amsterdam M14-1
 DESCRIPTION:Mannen U14 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 492488
 LOCATION:Bijlmer Sportcentrum\, Anton de Komplein 157\, 1102DR AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-495352@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T120000
-DURATION:PT2H
-SUMMARY:Almere Pioneers M16-1 - BC APOLLO Amsterdam M16-1
-DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 495352
-LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -4302,7 +4302,7 @@ UID:foys-match-513884@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270116T200000
 DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam VSE-1 - BC Triple ThreaT VSE-2
+SUMMARY:BC APOLLO Amsterdam VSE-1 - BC Triple ThreaT VSE-2*
 DESCRIPTION:Vrouwen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 513884
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
@@ -4872,7 +4872,7 @@ UID:foys-match-505725@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270306T183000
 DURATION:PT2H
-SUMMARY:BV Amsterdam MSE-2* - BC APOLLO Amsterdam MSE-2
+SUMMARY:BV Amsterdam MSE-2 - BC APOLLO Amsterdam MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505725
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
@@ -5082,7 +5082,7 @@ UID:foys-match-513891@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270320T200000
 DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam VSE-1 - BC Triple ThreaT VSE-2
+SUMMARY:BC APOLLO Amsterdam VSE-1 - BC Triple ThreaT VSE-2*
 DESCRIPTION:Vrouwen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 513891
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED

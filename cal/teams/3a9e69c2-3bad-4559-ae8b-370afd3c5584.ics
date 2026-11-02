@@ -32,7 +32,7 @@ UID:foys-match-492048@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260927T141500
 DURATION:PT2H
-SUMMARY:BV Leiderdorp X10-1 5 - 51 MBCA A'veen X10-1
+SUMMARY:BV Leiderdorp X10-1* 5 - 51 MBCA A'veen X10-1
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 5 - 51\nFOYS wedstrijd-ID: 492048
 LOCATION:De Bloemerd\, De Bloemerd 1 a\, 2353BZ LEIDERDORP
 STATUS:CONFIRMED
@@ -52,10 +52,10 @@ UID:foys-match-492056@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T111500
 DURATION:PT2H
-SUMMARY:AFGELAST: MBCA A'veen X10-1 - BV Leiderdorp X10-1
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 492056
+SUMMARY:MBCA A'veen X10-1 20 - 0 BV Leiderdorp X10-1*
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 492056
 LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-492058@basketball-agenda

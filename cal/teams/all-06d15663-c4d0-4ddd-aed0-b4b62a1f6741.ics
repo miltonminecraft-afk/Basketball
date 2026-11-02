@@ -492,7 +492,7 @@ UID:foys-match-502698@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260920T150000
 DURATION:PT2H
-SUMMARY:Dunatos V22-1 28 - 41 The Black Eagles V22-2
+SUMMARY:Dunatos V22-1* 28 - 41 The Black Eagles V22-2
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 28 - 41\nFOYS wedstrijd-ID: 502698
 LOCATION:Marsana\, Molenveldweg 4\, 6231RX MEERSSEN
 STATUS:CONFIRMED
@@ -1443,7 +1443,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T173000
 DURATION:PT2H
 SUMMARY:The Black Eagles V14-2 22 - 70 Barons Breda Basketball V14-2
-DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 22 - 70\nFOYS wedstrijd-ID: 495842
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 22 - 70\nFOYS wedstrijd-ID: 495842
 LOCATION:De Hazelaar\, T.M. Kortenhorstlaan 6\, 5244GD ROSMALEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -1685,16 +1685,6 @@ DURATION:PT2H
 SUMMARY:Springfield MSE-1 - The Black Eagles MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507649
 LOCATION:De Run\, Runweg 11\, 5258BK BERLICUM NB
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-511261@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T214500
-DURATION:PT2H
-SUMMARY:Valley Vultures MSE-2 - The Black Eagles MSE-6*
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511261
-LOCATION:Valleihal\, Sportlaan 3\, 3905 AD Veenendaal
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -3065,6 +3055,16 @@ DURATION:PT2H
 SUMMARY:OBC MSE-2 - The Black Eagles MSE-6*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511310
 LOCATION:De Ruivert\, de Ruivert 3\, 5342CM OSS
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511261@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270220T200000
+DURATION:PT2H
+SUMMARY:Valley Vultures MSE-2 - The Black Eagles MSE-6*
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511261
+LOCATION:Valleihal\, Sportlaan 3\, 3905 AD Veenendaal
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

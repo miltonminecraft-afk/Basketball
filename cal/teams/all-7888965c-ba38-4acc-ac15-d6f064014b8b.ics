@@ -1482,7 +1482,7 @@ UID:foys-match-492050@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T103000
 DURATION:PT2H
-SUMMARY:BS Leiden X10-1 50 - 0 BV Leiderdorp X10-1
+SUMMARY:BS Leiden X10-1 50 - 0 BV Leiderdorp X10-1*
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 50 - 0\nFOYS wedstrijd-ID: 492050
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
@@ -3182,7 +3182,7 @@ UID:foys-match-498272@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T090000
 DURATION:PT2H
-SUMMARY:BV Oegstgeest V16-1* - BS Leiden V16-2
+SUMMARY:BV Oegstgeest V16-1** - BS Leiden V16-2
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498272
 LOCATION:Sporthal De Cuyl\, de Voscuyl 36\, 2341BJ OEGSTGEEST
 STATUS:CONFIRMED
@@ -3442,7 +3442,7 @@ UID:foys-match-499190@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T143000
 DURATION:PT2H
-SUMMARY:BS Leiden M16-5 - BV Lisse M16-1
+SUMMARY:BS Leiden M16-5 - BV Lisse M16-1*
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499190
 LOCATION:sportzaal Kikkerpolder\, Oegstgeesterweg 4 a\, 2334BZ LEIDEN
 STATUS:CONFIRMED
@@ -3760,9 +3760,9 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-498285@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T100000
+DTSTART;TZID=Europe/Amsterdam:20261121T090000
 DURATION:PT2H
-SUMMARY:Almere Pioneers V16-1* - BS Leiden V16-2
+SUMMARY:Almere Pioneers V16-1** - BS Leiden V16-2
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498285
 LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
 STATUS:CONFIRMED
@@ -3872,7 +3872,7 @@ UID:foys-match-492062@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T133000
 DURATION:PT2H
-SUMMARY:BV Leiderdorp X10-1 - BS Leiden X10-1
+SUMMARY:BV Leiderdorp X10-1* - BS Leiden X10-1
 DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492062
 LOCATION:De Bloemerd\, De Bloemerd 1 a\, 2353BZ LEIDERDORP
 STATUS:CONFIRMED

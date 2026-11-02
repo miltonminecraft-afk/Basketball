@@ -532,7 +532,7 @@ UID:foys-match-492838@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T133000
 DURATION:PT2H
-SUMMARY:DAS V12-1 15 - 45 Bouncers Basketball V12-1
+SUMMARY:DAS V12-1 15 - 45 Bouncers Basketball V12-1*
 DESCRIPTION:Vrouwen U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 15 - 45\nFOYS wedstrijd-ID: 492838
 LOCATION:Korba sporthal\, Schoemakerstraat 340\, 2629HP DELFT
 STATUS:CONFIRMED
@@ -612,7 +612,7 @@ UID:foys-match-513875@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T191500
 DURATION:PT2H
-SUMMARY:DAS VSE-1 61 - 21 BC Triple ThreaT VSE-2
+SUMMARY:DAS VSE-1 61 - 21 BC Triple ThreaT VSE-2*
 DESCRIPTION:Vrouwen Senioren Landelijk - Promotiedivisie\nStatus: Final\nUitslag: 61 - 21\nFOYS wedstrijd-ID: 513875
 LOCATION:Korba sporthal\, Schoemakerstraat 340\, 2629HP DELFT
 STATUS:CONFIRMED
@@ -1202,8 +1202,8 @@ UID:foys-match-491949@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T090000
 DURATION:PT2H
-SUMMARY:BV Carnisse Sharks X10-1 - DAS X10-2
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491949
+SUMMARY:BV Carnisse Sharks X10-1 20 - 46 DAS X10-2
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 20 - 46\nFOYS wedstrijd-ID: 491949
 LOCATION:Waterpoort\, Middeldijkerplein 9\, 2993DL BARENDRECHT
 STATUS:CONFIRMED
 END:VEVENT
@@ -2642,7 +2642,7 @@ UID:foys-match-513885@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270123T180000
 DURATION:PT2H
-SUMMARY:BC Triple ThreaT VSE-2 - DAS VSE-1
+SUMMARY:BC Triple ThreaT VSE-2* - DAS VSE-1
 DESCRIPTION:Vrouwen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 513885
 LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
 STATUS:CONFIRMED
@@ -2962,7 +2962,7 @@ UID:foys-match-513892@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270403T160000
 DURATION:PT2H
-SUMMARY:BC Triple ThreaT VSE-2 - DAS VSE-1
+SUMMARY:BC Triple ThreaT VSE-2* - DAS VSE-1
 DESCRIPTION:Vrouwen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 513892
 LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
 STATUS:CONFIRMED

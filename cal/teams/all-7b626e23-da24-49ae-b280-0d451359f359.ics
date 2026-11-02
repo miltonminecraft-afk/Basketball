@@ -132,7 +132,7 @@ UID:foys-match-500548@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T090000
 DURATION:PT2H
-SUMMARY:Marathon M16-3* 71 - 51 Simple Dribble M16-1
+SUMMARY:Marathon M16-3** 71 - 51 Simple Dribble M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 71 - 51\nFOYS wedstrijd-ID: 500548
 LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
@@ -392,7 +392,7 @@ UID:foys-match-500552@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T180000
 DURATION:PT2H
-SUMMARY:WBB Giants M16-2 76 - 65 Marathon M16-3*
+SUMMARY:WBB Giants M16-2 76 - 65 Marathon M16-3**
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 76 - 65\nFOYS wedstrijd-ID: 500552
 LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
 STATUS:CONFIRMED
@@ -532,7 +532,7 @@ UID:foys-match-500560@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T190000
 DURATION:PT2H
-SUMMARY:Marathon M16-3* 56 - 84 BV Souburg M16-1
+SUMMARY:Marathon M16-3** 56 - 84 BV Souburg M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 56 - 84\nFOYS wedstrijd-ID: 500560
 LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
@@ -672,7 +672,7 @@ UID:foys-match-500565@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T164500
 DURATION:PT2H
-SUMMARY:Blauw-Wit M16-3 20 - 0 Marathon M16-3*
+SUMMARY:Blauw-Wit M16-3 20 - 0 Marathon M16-3**
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 500565
 LOCATION:In de Roos\, Commandobaan 8\, 4706CL ROOSENDAAL
 STATUS:CONFIRMED
@@ -842,7 +842,7 @@ UID:foys-match-500571@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T190000
 DURATION:PT2H
-SUMMARY:Marathon M16-3* 50 - 60 Sparta Go M16-1*
+SUMMARY:Marathon M16-3** 50 - 60 Sparta Go M16-1*
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 50 - 60\nFOYS wedstrijd-ID: 500571
 LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
@@ -1032,7 +1032,7 @@ UID:foys-match-500574@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T173000
 DURATION:PT2H
-SUMMARY:Blauw-Wit M16-2 20 - 0 Marathon M16-3*
+SUMMARY:Blauw-Wit M16-2 20 - 0 Marathon M16-3**
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 500574
 LOCATION:In de Roos\, Commandobaan 8\, 4706CL ROOSENDAAL
 STATUS:CONFIRMED
@@ -1222,7 +1222,7 @@ UID:foys-match-500582@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T130000
 DURATION:PT2H
-SUMMARY:Marathon M16-3* - Vossenberg M16-1
+SUMMARY:Marathon M16-3** - Vossenberg M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500582
 LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
@@ -1248,12 +1248,12 @@ LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-526636@basketball-agenda
+UID:foys-match-526640@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T090000
 DURATION:PT2H
-SUMMARY:Marathon X12-2 - BV Volharding X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 526636
+SUMMARY:Marathon X12-2 - BV Souburg X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 526640
 LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -1278,12 +1278,12 @@ LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-526640@basketball-agenda
+UID:foys-match-528895@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T120000
+DTSTART;TZID=Europe/Amsterdam:20261114T103000
 DURATION:PT2H
-SUMMARY:Marathon X12-2 - BV Souburg X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 526640
+SUMMARY:Marathon X12-2 - Scheldesport Basketball X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 528895
 LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -1462,7 +1462,7 @@ UID:foys-match-500593@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T111500
 DURATION:PT2H
-SUMMARY:Marathon M16-3* - BV Volharding M16-1
+SUMMARY:Marathon M16-3** - BV Volharding M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500593
 LOCATION:Het Kroonjuweel\, Kroonjuweel 5\, 4388MD OOST-SOUBURG
 STATUS:CONFIRMED
@@ -1642,7 +1642,7 @@ UID:foys-match-500602@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T154500
 DURATION:PT2H
-SUMMARY:Scheldesport Basketball M16-1 - Marathon M16-3*
+SUMMARY:Scheldesport Basketball M16-1 - Marathon M16-3**
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500602
 LOCATION:Vliegende Vaart\, Vliegende Vaart 2\, 4537DH TERNEUZEN
 STATUS:CONFIRMED
@@ -1792,7 +1792,7 @@ UID:foys-match-500604@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261211T190000
 DURATION:PT2H
-SUMMARY:Marathon M16-3* - WBB Giants M16-3
+SUMMARY:Marathon M16-3** - WBB Giants M16-3
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500604
 LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
