@@ -18,16 +18,6 @@ LOCATION:Sporthal Merwestein\, Merweplein 1\, 3432GN NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-498768@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260912T180000
-DURATION:PT2H
-SUMMARY:AFGELAST: Tracks Parkstad M16-2 - Woodpeckers M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 498768
-LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-498769@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T131500
@@ -116,5 +106,15 @@ SUMMARY:Woodpeckers M16-1 - Nimma Gemina M16-1
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498817
 LOCATION:De Slinger\, Kamillehof 24\, 3991GZ HOUTEN
 STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498768@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261213T140000
+DURATION:PT2H
+SUMMARY:AFGELAST: Tracks Parkstad M16-2 - Woodpeckers M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 498768
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
+STATUS:CANCELLED
 END:VEVENT
 END:VCALENDAR

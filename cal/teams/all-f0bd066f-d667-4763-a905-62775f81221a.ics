@@ -1308,16 +1308,6 @@ LOCATION:De Waterakkers\, Kerkweg 217\, 1964KJ HEEMSKERK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-503545@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261123T190000
-DURATION:PT2H
-SUMMARY:Mapleleaves M22-3 - Mapleleaves M22-2
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503545
-LOCATION:De Waterakkers\, Kerkweg 217\, 1964KJ HEEMSKERK
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-510551@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261123T203000
@@ -1615,6 +1605,16 @@ DURATION:PT2H
 SUMMARY:Windmills MSE-2 - Mapleleaves MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510057
 LOCATION:Sporthal Zaanstad-Zuid\, De Weer 26\, 1504AH ZAANDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-503545@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261214T190000
+DURATION:PT2H
+SUMMARY:Mapleleaves M22-3 - Mapleleaves M22-2
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503545
+LOCATION:De Waterakkers\, Kerkweg 217\, 1964KJ HEEMSKERK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
