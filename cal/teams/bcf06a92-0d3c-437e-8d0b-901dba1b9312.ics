@@ -107,4 +107,14 @@ DESCRIPTION:Vrouwen U16 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-
 LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
 STATUS:CONFIRMED
 END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-527828@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T121500
+DURATION:PT2H
+SUMMARY:CBV Binnenland V16-1 - BC APOLLO Amsterdam V16-1
+DESCRIPTION:Vrouwen U16 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527828
+LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR

@@ -2482,8 +2482,8 @@ UID:foys-match-491221@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T103000
 DURATION:PT2H
-SUMMARY:GBI van Dijk Grasshoppers X10-4 - BS Leiden X10-4
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491221
+SUMMARY:GBI van Dijk Grasshoppers X10-4 16 - 47 BS Leiden X10-4
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 16 - 47\nFOYS wedstrijd-ID: 491221
 LOCATION:Cleyn Duin\, Stadhoudersdreef 1\, 2224BN KATWIJK ZH
 STATUS:CONFIRMED
 END:VEVENT
@@ -2722,8 +2722,8 @@ UID:foys-match-516424@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T200000
 DURATION:PT2H
-SUMMARY:Zorg en Zekerheid MSE-1 - Donar Groningen MSE-1
-DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516424
+SUMMARY:Zorg en Zekerheid MSE-1 83 - 96 Donar Groningen MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Final\nUitslag: 83 - 96\nFOYS wedstrijd-ID: 516424
 LOCATION:Sportcomplex 1574\, Telderskade 399\, 2321TR LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -4628,6 +4628,16 @@ LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-527841@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261204T203000
+DURATION:PT2H
+SUMMARY:Northside Ballers Amsterdam M22-1 - BS Leiden M22-1
+DESCRIPTION:Mannen U22 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527841
+LOCATION:De Weeren\, Beemsterstraat 656\, 1027ED AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-502995@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261204T204500
@@ -4638,6 +4648,16 @@ LOCATION:Cleyn Duin\, Stadhoudersdreef 1\, 2224BN KATWIJK ZH
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-527822@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T130000
+DURATION:PT2H
+SUMMARY:Zorg en Zekerheid M16-1 - Rotterdam Basketbal M16-1
+DESCRIPTION:Mannen U16 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527822
+LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-503865@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T133000
@@ -4645,6 +4665,16 @@ DURATION:PT2H
 SUMMARY:Lokomotief VSE-1 - BS Leiden VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503865
 LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-527829@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T140000
+DURATION:PT2H
+SUMMARY:The Jugglers V16-1 - BS Leiden V16-1
+DESCRIPTION:Vrouwen U16 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527829
+LOCATION:Deppenbroek\, Rijnstraat 11\, 7523GD ENSCHEDE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

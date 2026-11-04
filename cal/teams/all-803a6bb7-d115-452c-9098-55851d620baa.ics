@@ -1382,8 +1382,8 @@ UID:foys-match-491221@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T103000
 DURATION:PT2H
-SUMMARY:GBI van Dijk Grasshoppers X10-4 - BS Leiden X10-4
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491221
+SUMMARY:GBI van Dijk Grasshoppers X10-4 16 - 47 BS Leiden X10-4
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 16 - 47\nFOYS wedstrijd-ID: 491221
 LOCATION:Cleyn Duin\, Stadhoudersdreef 1\, 2224BN KATWIJK ZH
 STATUS:CONFIRMED
 END:VEVENT
@@ -1392,8 +1392,8 @@ UID:foys-match-491283@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T103000
 DURATION:PT2H
-SUMMARY:GBI van Dijk Grasshoppers X10-5 - GBI van Dijk Grasshoppers X10-3
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491283
+SUMMARY:GBI van Dijk Grasshoppers X10-5 29 - 35 GBI van Dijk Grasshoppers X10-3
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 29 - 35\nFOYS wedstrijd-ID: 491283
 LOCATION:Cleyn Duin\, Stadhoudersdreef 1\, 2224BN KATWIJK ZH
 STATUS:CONFIRMED
 END:VEVENT
@@ -2088,6 +2088,16 @@ LOCATION:Cleyn Duin\, Stadhoudersdreef 1\, 2224BN KATWIJK ZH
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-492061@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T110000
+DURATION:PT2H
+SUMMARY:MSV Basketbal X10-1 - GBI van Dijk Grasshoppers X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492061
+LOCATION:Sportpark Duinwetering\, Duinwetering 105\, 2203HM NOORDWIJK ZH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-503027@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T110000
@@ -2155,16 +2165,6 @@ DURATION:PT2H
 SUMMARY:GBI van Dijk Grasshoppers X14-2 - K.T.C. X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497354
 LOCATION:Cleyn Duin\, Stadhoudersdreef 1\, 2224BN KATWIJK ZH
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-492061@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T150000
-DURATION:PT2H
-SUMMARY:MSV Basketbal X10-1 - GBI van Dijk Grasshoppers X10-1
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492061
-LOCATION:Sportpark Duinwetering\, Duinwetering 105\, 2203HM NOORDWIJK ZH
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -2538,6 +2538,16 @@ LOCATION:Cleyn Duin\, Stadhoudersdreef 1\, 2224BN KATWIJK ZH
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-527830@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T110000
+DURATION:PT2H
+SUMMARY:BV Leeuwarden V16-1 - GBI van Dijk Grasshoppers V16-1
+DESCRIPTION:Vrouwen U16 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527830
+LOCATION:Kalverdijkje\, Kalverdijkje 77 a\, 8924JJ LEEUWARDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-497847@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T123000
@@ -2585,6 +2595,16 @@ DURATION:PT2H
 SUMMARY:BV Leiderdorp V16-1 - GBI van Dijk Grasshoppers V16-3
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498264
 LOCATION:De Bloemerd\, De Bloemerd 1 a\, 2353BZ LEIDERDORP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-527853@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T151500
+DURATION:PT2H
+SUMMARY:GBI van Dijk Grasshoppers MSE-1 - BC Triple ThreaT MSE-1
+DESCRIPTION:Mannen Senioren (Basketball Cup) - 2e Ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527853
+LOCATION:Cleyn Duin\, Stadhoudersdreef 1\, 2224BN KATWIJK ZH
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

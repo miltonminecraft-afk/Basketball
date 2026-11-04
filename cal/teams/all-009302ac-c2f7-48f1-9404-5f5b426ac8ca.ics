@@ -268,16 +268,6 @@ LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-494472@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261017T111500
-DURATION:PT2H
-SUMMARY:Dunkinn X12-1 - BV Aalsmeer X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494472
-LOCATION:'t Spant\, Larikslaan 20\, 2451BV LEIMUIDEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-497853@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T111500
@@ -415,6 +405,16 @@ DURATION:PT2H
 SUMMARY:BV Aalsmeer M18-1 54 - 31 Flashing Heiloo M18-2*
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 54 - 31\nFOYS wedstrijd-ID: 501347
 LOCATION:Proosdijhal\, Edisonstraat 6\, 1433KA KUDELSTAART
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494472@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261105T184500
+DURATION:PT2H
+SUMMARY:Dunkinn X12-1 - BV Aalsmeer X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494472
+LOCATION:De Bloemhof\, Hornweg 187\, 1432GH AALSMEER
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

@@ -108,6 +108,16 @@ LOCATION:Sporthallen Zuid\, Burgerweeshuispad 54\, 1076EP AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-527856@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T200000
+DURATION:PT2H
+SUMMARY:Arnhem Eagles MSE-1 - BV Noordkop MSE-1
+DESCRIPTION:Mannen Senioren (Basketball Cup) - 2e Ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527856
+LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-509305@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T200000

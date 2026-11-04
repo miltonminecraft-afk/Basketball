@@ -1868,12 +1868,52 @@ LOCATION:De Waterkanten\, Sportlaan 21\, 2161VA LISSE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-527853@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T151500
+DURATION:PT2H
+SUMMARY:GBI van Dijk Grasshoppers MSE-1 - BC Triple ThreaT MSE-1
+DESCRIPTION:Mannen Senioren (Basketball Cup) - 2e Ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527853
+LOCATION:Cleyn Duin\, Stadhoudersdreef 1\, 2224BN KATWIJK ZH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-527817@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T160000
+DURATION:PT2H
+SUMMARY:HBV The Jumpers M16-1 - BC Triple ThreaT M16-1
+DESCRIPTION:Mannen U16 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527817
+LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-527815@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261206T110000
+DURATION:PT2H
+SUMMARY:Landstede Hammers M16-1 - BC Triple ThreaT M16-2
+DESCRIPTION:Mannen U16 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527815
+LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-512903@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261206T130000
 DURATION:PT2H
 SUMMARY:BC Triple ThreaT V21-1 - BS Leiden V21-1
 DESCRIPTION:Vrouwen U21 (Basketball Cup) - Groepsfase\nStatus: Planned\nFOYS wedstrijd-ID: 512903
+LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-527838@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261206T160000
+DURATION:PT2H
+SUMMARY:BC Triple ThreaT M19-1 - Basketball Academy Utrecht M19-2 M19-2
+DESCRIPTION:Mannen U19 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527838
 LOCATION:Spaarnehal\, Fie Carelsenplein 1\, 2036AM HAARLEM
 STATUS:CONFIRMED
 END:VEVENT

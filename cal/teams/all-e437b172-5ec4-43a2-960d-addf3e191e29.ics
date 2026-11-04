@@ -748,6 +748,16 @@ LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-527837@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T120000
+DURATION:PT2H
+SUMMARY:Basketball Academy Utrecht M19-1 M19-1 - GET United M19-1
+DESCRIPTION:Mannen U19 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527837
+LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-506426@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T150000

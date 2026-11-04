@@ -878,13 +878,13 @@ LOCATION:Sportcentrum Quelderduijn\, Schootenweg 2\, 1785LV DEN HELDER
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-512909@basketball-agenda
+UID:foys-match-527827@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261205T080000
+DTSTART;TZID=Europe/Amsterdam:20261205T123000
 DURATION:PT2H
-SUMMARY:Landstede Hammers V21-1 - Den Helder Suns V21-1
-DESCRIPTION:Vrouwen U21 (Basketball Cup) - Groepsfase\nStatus: Planned\nFOYS wedstrijd-ID: 512909
-LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
+SUMMARY:Dozy BV Den Helder V16-1 - H.S.V. Basketball V16-1
+DESCRIPTION:Vrouwen U16 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527827
+LOCATION:Sportcentrum Quelderduijn\, Schootenweg 2\, 1785LV DEN HELDER
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -895,6 +895,16 @@ DURATION:PT2H
 SUMMARY:Dozy BV Den Helder V14-1 - Harlemlakers V14-1
 DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495665
 LOCATION:Sportcentrum Quelderduijn\, Schootenweg 2\, 1785LV DEN HELDER
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-512909@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261206T170000
+DURATION:PT2H
+SUMMARY:Landstede Hammers V21-1 - Den Helder Suns V21-1
+DESCRIPTION:Vrouwen U21 (Basketball Cup) - Groepsfase\nStatus: Planned\nFOYS wedstrijd-ID: 512909
+LOCATION:Topsporthal Landstede\, Hogeland 10\, 8024AZ ZWOLLE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

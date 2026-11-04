@@ -138,6 +138,16 @@ LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-527831@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T113000
+DURATION:PT2H
+SUMMARY:Celeritas-Donar M19-1 - Landslake Lions M19-1
+DESCRIPTION:Mannen U19 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527831
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-505617@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261211T210000

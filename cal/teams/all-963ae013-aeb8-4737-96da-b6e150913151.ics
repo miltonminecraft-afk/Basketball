@@ -232,7 +232,7 @@ UID:foys-match-496149@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T121500
 DURATION:PT2H
-SUMMARY:BV Groningen X14-1 33 - 129 Arnhem Eagles X14-1
+SUMMARY:BV Groningen X14-1* 33 - 129 Arnhem Eagles X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 33 - 129\nFOYS wedstrijd-ID: 496149
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
@@ -512,7 +512,7 @@ UID:foys-match-496150@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260920T133000
 DURATION:PT2H
-SUMMARY:LB-ZAC X14-1 75 - 16 BV Groningen X14-1
+SUMMARY:LB-ZAC X14-1 75 - 16 BV Groningen X14-1*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 75 - 16\nFOYS wedstrijd-ID: 496150
 LOCATION:Het Victorium\, Hogeland 10\, 8024AZ ZWOLLE
 STATUS:CONFIRMED
@@ -632,7 +632,7 @@ UID:foys-match-496154@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T123000
 DURATION:PT2H
-SUMMARY:BV Groningen X14-1 24 - 81 The Jugglers X14-1
+SUMMARY:BV Groningen X14-1* 24 - 81 The Jugglers X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 24 - 81\nFOYS wedstrijd-ID: 496154
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
@@ -842,7 +842,7 @@ UID:foys-match-496156@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T121500
 DURATION:PT2H
-SUMMARY:Felloo | Twente Hoops X14-1 107 - 21 BV Groningen X14-1
+SUMMARY:Felloo | Twente Hoops X14-1 107 - 21 BV Groningen X14-1*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 107 - 21\nFOYS wedstrijd-ID: 496156
 LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
 STATUS:CONFIRMED
@@ -1392,7 +1392,7 @@ UID:foys-match-496159@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261025T110000
 DURATION:PT2H
-SUMMARY:BV Groningen X14-1 26 - 101 Celeritas-Donar X14-1
+SUMMARY:BV Groningen X14-1* 26 - 101 Celeritas-Donar X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 26 - 101\nFOYS wedstrijd-ID: 496159
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
@@ -1562,8 +1562,8 @@ UID:foys-match-496164@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T163000
 DURATION:PT2H
-SUMMARY:The Jugglers X14-1 - BV Groningen X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496164
+SUMMARY:The Jugglers X14-1 20 - 0 BV Groningen X14-1*
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 496164
 LOCATION:Deppenbroek\, Rijnstraat 11\, 7523GD ENSCHEDE
 STATUS:CONFIRMED
 END:VEVENT
@@ -1702,7 +1702,7 @@ UID:foys-match-528889@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261103T173000
 DURATION:PT2H
-SUMMARY:Flying Red X14-1 - BV Groningen X14-1
+SUMMARY:Flying Red X14-1 - BV Groningen X14-1*
 DESCRIPTION:Status: Planned\nFOYS wedstrijd-ID: 528889
 LOCATION:
 STATUS:CONFIRMED
@@ -2142,7 +2142,7 @@ UID:foys-match-496166@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261115T124500
 DURATION:PT2H
-SUMMARY:Celeritas-Donar X14-1 - BV Groningen X14-1
+SUMMARY:Celeritas-Donar X14-1 - BV Groningen X14-1*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496166
 LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
 STATUS:CONFIRMED
@@ -2192,7 +2192,7 @@ UID:foys-match-496168@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T104500
 DURATION:PT2H
-SUMMARY:BV Groningen X14-1 - Felloo | Twente Hoops X14-1
+SUMMARY:BV Groningen X14-1* - Felloo | Twente Hoops X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496168
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
@@ -2722,7 +2722,7 @@ UID:foys-match-496173@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261129T163000
 DURATION:PT2H
-SUMMARY:BV Groningen X14-1 - LB-ZAC X14-1
+SUMMARY:BV Groningen X14-1* - LB-ZAC X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496173
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
@@ -2765,6 +2765,16 @@ DURATION:PT2H
 SUMMARY:Celeritas-Donar MSE-1 - BV Groningen MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506011
 LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-527840@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T170000
+DURATION:PT2H
+SUMMARY:Marathon M22-1 - BV Groningen M22-1
+DESCRIPTION:Mannen U22 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527840
+LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -2972,7 +2982,7 @@ UID:foys-match-496175@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261213T120000
 DURATION:PT2H
-SUMMARY:Arnhem Eagles X14-1 - BV Groningen X14-1
+SUMMARY:Arnhem Eagles X14-1 - BV Groningen X14-1*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496175
 LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
 STATUS:CONFIRMED

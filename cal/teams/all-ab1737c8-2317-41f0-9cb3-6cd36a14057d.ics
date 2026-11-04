@@ -422,7 +422,7 @@ UID:foys-match-504529@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260925T210000
 DURATION:PT2H
-SUMMARY:BV Orca's VSE-3 86 - 33 BV Oaters Joure VSE-1
+SUMMARY:BV Orca's VSE-3* 86 - 33 BV Oaters Joure VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Final\nUitslag: 86 - 33\nFOYS wedstrijd-ID: 504529
 LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
 STATUS:CONFIRMED
@@ -732,7 +732,7 @@ UID:foys-match-504530@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T183000
 DURATION:PT2H
-SUMMARY:Twente Buzzards VSE-1 43 - 60 BV Orca's VSE-3
+SUMMARY:Twente Buzzards VSE-1 43 - 60 BV Orca's VSE-3*
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Final\nUitslag: 43 - 60\nFOYS wedstrijd-ID: 504530
 LOCATION:Hasseler Es\, Henry Woodstraat 1\, 7558CM HENGELO OV
 STATUS:CONFIRMED
@@ -842,7 +842,7 @@ UID:foys-match-504532@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261023T200000
 DURATION:PT2H
-SUMMARY:BV Orca's VSE-3 50 - 34 WSV VSE-1
+SUMMARY:BV Orca's VSE-3* 50 - 34 WSV VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Final\nUitslag: 50 - 34\nFOYS wedstrijd-ID: 504532
 LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
 STATUS:CONFIRMED
@@ -1082,8 +1082,8 @@ UID:foys-match-504535@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T170000
 DURATION:PT2H
-SUMMARY:BV Oaters Joure VSE-1 - BV Orca's VSE-3
-DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504535
+SUMMARY:BV Oaters Joure VSE-1 20 - 0 BV Orca's VSE-3*
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 504535
 LOCATION:Sportstad Heerenveen\, Abe Lenstra boulevard 23 Q\, 8448JA HEERENVEEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -1312,7 +1312,7 @@ UID:foys-match-504526@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T213000
 DURATION:PT2H
-SUMMARY:Hanze Stars VSE-1 - BV Orca's VSE-3
+SUMMARY:Hanze Stars VSE-1 - BV Orca's VSE-3*
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504526
 LOCATION:De Mene\, Markolle 1\, 7207PA ZUTPHEN
 STATUS:CONFIRMED
@@ -1512,7 +1512,7 @@ UID:foys-match-504536@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T200000
 DURATION:PT2H
-SUMMARY:WSV VSE-1 - BV Orca's VSE-3
+SUMMARY:WSV VSE-1 - BV Orca's VSE-3*
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504536
 LOCATION:WSV Sporthal\, De Voorwaarts 450\, 7321MG APELDOORN
 STATUS:CONFIRMED
@@ -1542,7 +1542,7 @@ UID:foys-match-504538@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261120T200000
 DURATION:PT2H
-SUMMARY:BV Orca's VSE-3 - Twente Buzzards VSE-1
+SUMMARY:BV Orca's VSE-3* - Twente Buzzards VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504538
 LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
 STATUS:CONFIRMED
@@ -1732,7 +1732,7 @@ UID:foys-match-504541@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261127T190000
 DURATION:PT2H
-SUMMARY:BV Orca's VSE-3 - Hanze Stars VSE-1
+SUMMARY:BV Orca's VSE-3* - Hanze Stars VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504541
 LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
 STATUS:CONFIRMED
@@ -1935,6 +1935,16 @@ DURATION:PT2H
 SUMMARY:TONEGO '65 VSE-1* - BV Orca's VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503985
 LOCATION:De Els\, Trompstraat 20\, 7482VX HAAKSBERGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-527861@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T183000
+DURATION:PT2H
+SUMMARY:Trajanum VSE-1 - BV Orca's VSE-1
+DESCRIPTION:Vrouwen Senioren (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527861
+LOCATION:Gymnasion Hal A\, Heyendaalseweg 141\, 6525AJ NIJMEGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -2172,7 +2182,7 @@ UID:foys-match-504544@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270108T200000
 DURATION:PT2H
-SUMMARY:BV Orca's VSE-3 - WSV VSE-1
+SUMMARY:BV Orca's VSE-3* - WSV VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504544
 LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
 STATUS:CONFIRMED
@@ -2222,7 +2232,7 @@ UID:foys-match-504547@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270115T190000
 DURATION:PT2H
-SUMMARY:BV Orca's VSE-3 - Hanze Stars VSE-1
+SUMMARY:BV Orca's VSE-3* - Hanze Stars VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504547
 LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
 STATUS:CONFIRMED
@@ -2302,7 +2312,7 @@ UID:foys-match-504549@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270123T170000
 DURATION:PT2H
-SUMMARY:BV Oaters Joure VSE-1 - BV Orca's VSE-3
+SUMMARY:BV Oaters Joure VSE-1 - BV Orca's VSE-3*
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504549
 LOCATION:Sportfun\, Sewei 3\, 8501SP JOURE
 STATUS:CONFIRMED
@@ -2432,7 +2442,7 @@ UID:foys-match-504552@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270212T210000
 DURATION:PT2H
-SUMMARY:BV Orca's VSE-3 - Twente Buzzards VSE-1
+SUMMARY:BV Orca's VSE-3* - Twente Buzzards VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504552
 LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
 STATUS:CONFIRMED
@@ -2542,7 +2552,7 @@ UID:foys-match-504554@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270306T200000
 DURATION:PT2H
-SUMMARY:WSV VSE-1 - BV Orca's VSE-3
+SUMMARY:WSV VSE-1 - BV Orca's VSE-3*
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504554
 LOCATION:WSV Sporthal\, De Voorwaarts 450\, 7321MG APELDOORN
 STATUS:CONFIRMED
@@ -2552,7 +2562,7 @@ UID:foys-match-504557@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270312T210000
 DURATION:PT2H
-SUMMARY:BV Orca's VSE-3 - BV Oaters Joure VSE-1
+SUMMARY:BV Orca's VSE-3* - BV Oaters Joure VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504557
 LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
 STATUS:CONFIRMED
@@ -2652,7 +2662,7 @@ UID:foys-match-504558@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270320T183000
 DURATION:PT2H
-SUMMARY:Twente Buzzards VSE-1 - BV Orca's VSE-3
+SUMMARY:Twente Buzzards VSE-1 - BV Orca's VSE-3*
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504558
 LOCATION:Hasseler Es\, Henry Woodstraat 1\, 7558CM HENGELO OV
 STATUS:CONFIRMED
@@ -2692,7 +2702,7 @@ UID:foys-match-504560@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270403T180000
 DURATION:PT2H
-SUMMARY:Hanze Stars VSE-1 - BV Orca's VSE-3
+SUMMARY:Hanze Stars VSE-1 - BV Orca's VSE-3*
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504560
 LOCATION:De Mene\, Markolle 1\, 7207PA ZUTPHEN
 STATUS:CONFIRMED

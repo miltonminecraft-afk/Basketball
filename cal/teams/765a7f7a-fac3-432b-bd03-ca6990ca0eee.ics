@@ -88,16 +88,6 @@ LOCATION:Wethouder Smithal\, Westeinde 96\, 3146BZ MAASSLUIS
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-509183@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261127T204500
-DURATION:PT2H
-SUMMARY:BV Souburg MSE-1 - Punch MSE-4
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509183
-LOCATION:Het Kroonjuweel\, Kroonjuweel 5\, 4388MD OOST-SOUBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-509188@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T170000
@@ -214,6 +204,16 @@ DTSTART;TZID=Europe/Amsterdam:20270409T204500
 DURATION:PT2H
 SUMMARY:BV Souburg MSE-1 - SBV Juventus MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509243
+LOCATION:Het Kroonjuweel\, Kroonjuweel 5\, 4388MD OOST-SOUBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509183@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270424T000000
+DURATION:PT2H
+SUMMARY:BV Souburg MSE-1 - Punch MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509183
 LOCATION:Het Kroonjuweel\, Kroonjuweel 5\, 4388MD OOST-SOUBURG
 STATUS:CONFIRMED
 END:VEVENT

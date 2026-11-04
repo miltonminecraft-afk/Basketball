@@ -362,7 +362,7 @@ UID:foys-match-496154@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T123000
 DURATION:PT2H
-SUMMARY:BV Groningen X14-1 24 - 81 The Jugglers X14-1
+SUMMARY:BV Groningen X14-1* 24 - 81 The Jugglers X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 24 - 81\nFOYS wedstrijd-ID: 496154
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
@@ -942,8 +942,8 @@ UID:foys-match-496164@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T163000
 DURATION:PT2H
-SUMMARY:The Jugglers X14-1 - BV Groningen X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496164
+SUMMARY:The Jugglers X14-1 20 - 0 BV Groningen X14-1*
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 496164
 LOCATION:Deppenbroek\, Rijnstraat 11\, 7523GD ENSCHEDE
 STATUS:CONFIRMED
 END:VEVENT
@@ -1080,7 +1080,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-501171@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261108T130000
+DTSTART;TZID=Europe/Amsterdam:20261108T160000
 DURATION:PT2H
 SUMMARY:Almere Pioneers M18-1 - The Jugglers M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501171
@@ -1535,6 +1535,16 @@ DURATION:PT2H
 SUMMARY:Felloo | Twente Hoops X14-1 - The Jugglers X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496171
 LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-527829@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T140000
+DURATION:PT2H
+SUMMARY:The Jugglers V16-1 - BS Leiden V16-1
+DESCRIPTION:Vrouwen U16 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527829
+LOCATION:Deppenbroek\, Rijnstraat 11\, 7523GD ENSCHEDE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

@@ -88,16 +88,6 @@ LOCATION:Studentensporthal KUB\, Academielaan 5\, 5037ET TILBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-508373@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261204T210000
-DURATION:PT2H
-SUMMARY:B.O.B. MSE-2 - Orange Basketball Club MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508373
-LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-508427@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261211T210000
@@ -115,16 +105,6 @@ DURATION:PT2H
 SUMMARY:B.O.B. MSE-2 - Blauw-Wit MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508433
 LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-508443@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270116T160000
-DURATION:PT2H
-SUMMARY:Orange Basketball Club MSE-1 - B.O.B. MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508443
-LOCATION:Gymzaal Viandenlaan\, Viandenlaan 2\, 4835 EG Breda
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

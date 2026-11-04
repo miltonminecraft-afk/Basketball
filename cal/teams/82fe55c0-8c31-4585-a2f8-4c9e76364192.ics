@@ -38,16 +38,6 @@ LOCATION:Proosdijhal\, Edisonstraat 6\, 1433KA KUDELSTAART
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-494472@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261017T111500
-DURATION:PT2H
-SUMMARY:Dunkinn X12-1 - BV Aalsmeer X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494472
-LOCATION:'t Spant\, Larikslaan 20\, 2451BV LEIMUIDEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-494498@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261017T170000
@@ -55,6 +45,16 @@ DURATION:PT2H
 SUMMARY:Hillegom'85 X12-1 2 - 52 BV Aalsmeer X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 2 - 52\nFOYS wedstrijd-ID: 494498
 LOCATION:De Vosse\, Vosselaan 152\, 2181CD HILLEGOM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-494472@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261105T184500
+DURATION:PT2H
+SUMMARY:Dunkinn X12-1 - BV Aalsmeer X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494472
+LOCATION:De Bloemhof\, Hornweg 187\, 1432GH AALSMEER
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
