@@ -1798,16 +1798,6 @@ LOCATION:Cleyn Duin\, Stadhoudersdreef 1\, 2224BN KATWIJK ZH
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-497648@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261205T133000
-DURATION:PT2H
-SUMMARY:DAS X14-3 - BV Squirrels X14-2
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497648
-LOCATION:Korba sporthal\, Schoemakerstraat 340\, 2629HP DELFT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-506814@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T134500
@@ -1825,6 +1815,16 @@ DURATION:PT2H
 SUMMARY:Bouncers Basketball M18-1 - BV Squirrels M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501280
 LOCATION:De Duikelaar\, Zuidplaslaan 550\, 2743CT WADDINXVEEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-497648@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261206T143000
+DURATION:PT2H
+SUMMARY:DAS X14-3 - BV Squirrels X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497648
+LOCATION:Korba sporthal\, Schoemakerstraat 340\, 2629HP DELFT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

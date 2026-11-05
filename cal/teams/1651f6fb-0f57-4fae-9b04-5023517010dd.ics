@@ -68,16 +68,6 @@ LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-492524@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261108T130000
-DURATION:PT2H
-SUMMARY:Almere Pioneers M14-1 - BC Triple ThreaT M14-2
-DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492524
-LOCATION:Almere Waterwijk\, IJsselmeerweg 48\, 1316RK ALMERE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-492528@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261115T123000
@@ -105,6 +95,16 @@ DURATION:PT2H
 SUMMARY:Almere Pioneers M14-1 - Heroes Den Bosch M14-2
 DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492631
 LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-492524@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261206T150000
+DURATION:PT2H
+SUMMARY:Almere Pioneers M14-1 - BC Triple ThreaT M14-2
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492524
+LOCATION:Almere Haven\, Parkwerf 138\, 1354EB ALMERE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
