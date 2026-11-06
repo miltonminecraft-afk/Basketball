@@ -58,16 +58,6 @@ LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-513303@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T151500
-DURATION:PT2H
-SUMMARY:Almere Pioneers V22-1 - BV Orca's V22-1
-DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513303
-LOCATION:Almere Haven\, Parkwerf 138\, 1354EB ALMERE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-513316@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T104500
@@ -105,6 +95,16 @@ DURATION:PT2H
 SUMMARY:BV Amsterdam V22-2 - BV Orca's V22-1
 DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513325
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-513303@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261219T120000
+DURATION:PT2H
+SUMMARY:Almere Pioneers V22-1 - BV Orca's V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513303
+LOCATION:Almere Haven\, Parkwerf 138\, 1354EB ALMERE
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
