@@ -1608,16 +1608,6 @@ LOCATION:Almere Haven\, Parkwerf 138\, 1354EB ALMERE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-507896@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261107T180000
-DURATION:PT2H
-SUMMARY:Almere Pioneers MSE-4 - Green Giants MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507896
-LOCATION:Almere Haven\, Parkwerf 138\, 1354EB ALMERE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-505664@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T190000
@@ -1674,16 +1664,6 @@ DTSTART;TZID=Europe/Amsterdam:20261108T140000
 DURATION:PT2H
 SUMMARY:Almere Pioneers M16-3 - Crackerjacks M16-2
 DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499011
-LOCATION:Almere Waterwijk\, IJsselmeerweg 48\, 1316RK ALMERE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-506719@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261108T150000
-DURATION:PT2H
-SUMMARY:Almere Pioneers MSE-3 - BV Hoofddorp MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506719
 LOCATION:Almere Waterwijk\, IJsselmeerweg 48\, 1316RK ALMERE
 STATUS:CONFIRMED
 END:VEVENT
@@ -2758,6 +2738,16 @@ LOCATION:Almere Haven\, Parkwerf 138\, 1354EB ALMERE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-506719@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261219T140000
+DURATION:PT2H
+SUMMARY:Almere Pioneers MSE-3 - BV Hoofddorp MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506719
+LOCATION:Almere Haven\, Parkwerf 138\, 1354EB ALMERE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-501468@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261219T144500
@@ -3015,6 +3005,16 @@ DURATION:PT2H
 SUMMARY:Marathon M14-1 - Almere Pioneers M14-1
 DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492541
 LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-507896@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270220T150000
+DURATION:PT2H
+SUMMARY:Almere Pioneers MSE-4 - Green Giants MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507896
+LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

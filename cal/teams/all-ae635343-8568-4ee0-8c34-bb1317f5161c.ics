@@ -2048,16 +2048,6 @@ LOCATION:Karekiet\, Karekietpark 2\, 1444HV PURMEREND
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-506719@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261108T150000
-DURATION:PT2H
-SUMMARY:Almere Pioneers MSE-3 - BV Hoofddorp MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506719
-LOCATION:Almere Waterwijk\, IJsselmeerweg 48\, 1316RK ALMERE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-495445@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T180000
@@ -3135,6 +3125,16 @@ DURATION:PT2H
 SUMMARY:BS Leiden M16-2 - BV Hoofddorp M16-1
 DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495455
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506719@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261219T140000
+DURATION:PT2H
+SUMMARY:Almere Pioneers MSE-3 - BV Hoofddorp MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506719
+LOCATION:Almere Haven\, Parkwerf 138\, 1354EB ALMERE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

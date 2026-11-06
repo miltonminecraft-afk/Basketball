@@ -1702,8 +1702,8 @@ UID:foys-match-509276@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261106T200000
 DURATION:PT2H
-SUMMARY:Orange Lions Academy MSE-1 - Lokomotief MSE-1
-DESCRIPTION:Mannen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 509276
+SUMMARY:Orange Lions Academy MSE-1 17 - 15 Lokomotief MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nUitslag: 17 - 15\nFOYS wedstrijd-ID: 509276
 LOCATION:Sporthallen Zuid\, Burgerweeshuispad 54\, 1076EP AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -2084,16 +2084,6 @@ DTSTART;TZID=Europe/Amsterdam:20261114T153000
 DURATION:PT2H
 SUMMARY:Lokomotief X12-3 - Rotterdam-Zuid X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493586
-LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-502917@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T153000
-DURATION:PT2H
-SUMMARY:Lokomotief M22-1 - Utrecht Basketball M22-2 M22-2
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502917
 LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
 STATUS:CONFIRMED
 END:VEVENT
@@ -2535,16 +2525,6 @@ DURATION:PT2H
 SUMMARY:BS Leiden M18-1 - Lokomotief M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 501305
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-502924@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T143000
-DURATION:PT2H
-SUMMARY:Utrecht Basketball M22-2 M22-2 - Lokomotief M22-1
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502924
-LOCATION:Sportcampus Leidscherijn\, Maartvlinder 1\, 3544DA UTRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
