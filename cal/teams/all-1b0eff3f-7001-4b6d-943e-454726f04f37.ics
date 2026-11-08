@@ -803,7 +803,7 @@ DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T170000
 DURATION:PT2H
 SUMMARY:D.B.V. Arriba VSE-2 42 - 43 Twente Buzzards VSE-3
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nUitslag: 42 - 43\nFOYS wedstrijd-ID: 516708
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Final\nUitslag: 42 - 43\nFOYS wedstrijd-ID: 516708
 LOCATION:Sportcentrum UT\, De Hems 20\, 7522NL ENSCHEDE
 STATUS:CONFIRMED
 END:VEVENT
@@ -812,8 +812,8 @@ UID:foys-match-508801@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T190000
 DURATION:PT2H
-SUMMARY:D.B.V. Arriba MSE-3 - Twente Buzzards MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508801
+SUMMARY:D.B.V. Arriba MSE-3 62 - 43 Twente Buzzards MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Final\nUitslag: 62 - 43\nFOYS wedstrijd-ID: 508801
 LOCATION:Sportcentrum UT\, De Hems 20\, 7522NL ENSCHEDE
 STATUS:CONFIRMED
 END:VEVENT
@@ -822,8 +822,8 @@ UID:foys-match-513705@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T190000
 DURATION:PT2H
-SUMMARY:BV Vikings V18-1 - Twente Buzzards V18-1
-DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513705
+SUMMARY:BV Vikings V18-1 13 - 78 Twente Buzzards V18-1
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 13 - 78\nFOYS wedstrijd-ID: 513705
 LOCATION:De Kamp\, Dr Albert Schweitzerlaan 1\, 7772EC HARDENBERG
 STATUS:CONFIRMED
 END:VEVENT
