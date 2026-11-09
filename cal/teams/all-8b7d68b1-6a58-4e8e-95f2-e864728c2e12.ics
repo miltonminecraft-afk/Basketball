@@ -2082,8 +2082,8 @@ UID:foys-match-505659@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T150000
 DURATION:PT2H
-SUMMARY:De Dunckers MSE-1 - MBCA A'veen MSE-3
-DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505659
+SUMMARY:De Dunckers MSE-1 80 - 97 MBCA A'veen MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Final\nUitslag: 80 - 97\nFOYS wedstrijd-ID: 505659
 LOCATION:Dudok Arena\, Arena 303\, 1213NW HILVERSUM
 STATUS:CONFIRMED
 END:VEVENT
@@ -2412,7 +2412,7 @@ UID:foys-match-500835@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261115T150000
 DURATION:PT2H
-SUMMARY:Almere Pioneers V18-1 - MBCA A'veen V18-2
+SUMMARY:Almere Pioneers V18-1* - MBCA A'veen V18-2
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500835
 LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
 STATUS:CONFIRMED
@@ -3155,16 +3155,6 @@ DURATION:PT2H
 SUMMARY:MBCA A'veen M19-2 - BC APOLLO Amsterdam M19-1
 DESCRIPTION:Mannen U19 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527836
 LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-506247@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261205T190000
-DURATION:PT2H
-SUMMARY:WBB Giants M19-1 - MBCA A'veen M19-2
-DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506247
-LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -4355,6 +4345,16 @@ DURATION:PT2H
 SUMMARY:HBV The Jumpers M19-1 - MBCA A'veen M19-2
 DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506182
 LOCATION:'t Zandje\, Schimmelweg 202\, 2524XK 'S-GRAVENHAGE
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-506247@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270417T190000
+DURATION:PT2H
+SUMMARY:WBB Giants M19-1 - MBCA A'veen M19-2
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506247
+LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR

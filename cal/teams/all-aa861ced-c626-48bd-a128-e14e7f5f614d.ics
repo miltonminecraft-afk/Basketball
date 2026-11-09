@@ -1202,8 +1202,8 @@ UID:foys-match-503420@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T140000
 DURATION:PT2H
-SUMMARY:Cady '73 M22-2 - B.O.B. M22-1*
-DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503420
+SUMMARY:Cady '73 M22-2 103 - 20 B.O.B. M22-1*
+DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 103 - 20\nFOYS wedstrijd-ID: 503420
 LOCATION:Sporthal De Lijster\, Lijstersingel 20\, 2902JD CAPELLE AAN DEN IJSSEL
 STATUS:CONFIRMED
 END:VEVENT
@@ -1345,16 +1345,6 @@ DURATION:PT2H
 SUMMARY:BV Squirrels X12-1 - B.O.B. X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493186
 LOCATION:Sporthal Oostmeer\, Het Hoge Land 19\, 2652EA BERKEL EN RODENRIJS
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-502620@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261114T121500
-DURATION:PT2H
-SUMMARY:B.O.B. V22-1 - Hurricanes V22-1
-DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502620
-LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -2034,6 +2024,16 @@ DTSTART;TZID=Europe/Amsterdam:20261212T210000
 DURATION:PT2H
 SUMMARY:B.O.B. VSE-1 - BV Amsterdam VSE-2*
 DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503867
+LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502620@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261216T193000
+DURATION:PT2H
+SUMMARY:B.O.B. V22-1 - Hurricanes V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502620
 LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
 STATUS:CONFIRMED
 END:VEVENT

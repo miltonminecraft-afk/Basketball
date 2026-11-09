@@ -72,7 +72,7 @@ UID:foys-match-497433@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T161500
 DURATION:PT2H
-SUMMARY:UNLIMITED X14-2 23 - 88 Basketiers '71 X14-1
+SUMMARY:UNLIMITED X14-2* 23 - 88 Basketiers '71 X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 23 - 88\nFOYS wedstrijd-ID: 497433
 LOCATION:De Helster\, Schubertstraat 1\, 6661AW Elst
 STATUS:CONFIRMED
@@ -92,7 +92,7 @@ UID:foys-match-497439@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T093000
 DURATION:PT2H
-SUMMARY:B.V. Batouwe X14-3 88 - 12 UNLIMITED X14-2
+SUMMARY:B.V. Batouwe X14-3 88 - 12 UNLIMITED X14-2*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 88 - 12\nFOYS wedstrijd-ID: 497439
 LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
 STATUS:CONFIRMED
@@ -212,7 +212,7 @@ UID:foys-match-497445@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260927T164500
 DURATION:PT2H
-SUMMARY:UNLIMITED X14-2 27 - 70 Nimma Gemina X14-4
+SUMMARY:UNLIMITED X14-2* 27 - 70 Nimma Gemina X14-4
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 27 - 70\nFOYS wedstrijd-ID: 497445
 LOCATION:De Helster\, Schubertstraat 1\, 6661AW Elst
 STATUS:CONFIRMED
@@ -292,7 +292,7 @@ UID:foys-match-497452@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T161500
 DURATION:PT2H
-SUMMARY:UNLIMITED X14-2 25 - 61 Dedein X14-1
+SUMMARY:UNLIMITED X14-2* 25 - 61 Dedein X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 25 - 61\nFOYS wedstrijd-ID: 497452
 LOCATION:De Helster\, Schubertstraat 1\, 6661AW Elst
 STATUS:CONFIRMED
@@ -302,7 +302,7 @@ UID:foys-match-497458@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T180000
 DURATION:PT2H
-SUMMARY:Pigeons X14-2 50 - 31 UNLIMITED X14-2
+SUMMARY:Pigeons X14-2 50 - 31 UNLIMITED X14-2*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 50 - 31\nFOYS wedstrijd-ID: 497458
 LOCATION:Triominos\, Eltensestraat 4\, 6922JB DUIVEN
 STATUS:CONFIRMED
@@ -402,7 +402,7 @@ UID:foys-match-497488@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261025T124500
 DURATION:PT2H
-SUMMARY:UNLIMITED X14-2 36 - 64 B.V. Isala X14-2
+SUMMARY:UNLIMITED X14-2* 36 - 64 B.V. Isala X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 36 - 64\nFOYS wedstrijd-ID: 497488
 LOCATION:De Helster\, Schubertstraat 1\, 6661AW Elst
 STATUS:CONFIRMED
@@ -472,7 +472,7 @@ UID:foys-match-497464@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261101T130000
 DURATION:PT2H
-SUMMARY:UNLIMITED X14-2 9 - 106 BeCeGe '74 X14-2
+SUMMARY:UNLIMITED X14-2* 9 - 106 BeCeGe '74 X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 9 - 106\nFOYS wedstrijd-ID: 497464
 LOCATION:De Helster\, Schubertstraat 1\, 6661AW Elst
 STATUS:CONFIRMED
@@ -502,8 +502,8 @@ UID:foys-match-497471@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261108T143000
 DURATION:PT2H
-SUMMARY:Give and Go X14-2 - UNLIMITED X14-2
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497471
+SUMMARY:Give and Go X14-2 20 - 0 UNLIMITED X14-2*
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 497471
 LOCATION:Sporthal Stationsplein\, Landbouwstraat 1\, 7122VM AALTEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -592,7 +592,7 @@ UID:foys-match-497476@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261115T130000
 DURATION:PT2H
-SUMMARY:UNLIMITED X14-2 - Pigeons X14-1
+SUMMARY:UNLIMITED X14-2* - Pigeons X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497476
 LOCATION:De Helster\, Schubertstraat 1\, 6661AW Elst
 STATUS:CONFIRMED
@@ -602,7 +602,7 @@ UID:foys-match-497484@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T090000
 DURATION:PT2H
-SUMMARY:Hanze Stars X14-2 - UNLIMITED X14-2
+SUMMARY:Hanze Stars X14-2 - UNLIMITED X14-2*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497484
 LOCATION:De Mene\, Markolle 1\, 7207PA ZUTPHEN
 STATUS:CONFIRMED
@@ -742,7 +742,7 @@ UID:foys-match-497497@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T115500
 DURATION:PT2H
-SUMMARY:Green Wolves X14-1 - UNLIMITED X14-2
+SUMMARY:Green Wolves X14-1 - UNLIMITED X14-2*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497497
 LOCATION:De Dumpel\, Gruttostraat 14\, 6883CN VELP GLD
 STATUS:CONFIRMED

@@ -12,7 +12,7 @@ UID:foys-match-511580@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T120000
 DURATION:PT2H
-SUMMARY:GSBV Moestasj MSE-3 37 - 67 SIETSEMA Highlanders MSE-1
+SUMMARY:GSBV Moestasj MSE-3* 37 - 67 SIETSEMA Highlanders MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 37 - 67\nFOYS wedstrijd-ID: 511580
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
@@ -72,7 +72,7 @@ UID:foys-match-511586@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260918T191500
 DURATION:PT2H
-SUMMARY:Five Pack MSE-3 63 - 38 GSBV Moestasj MSE-3
+SUMMARY:Five Pack MSE-3 63 - 38 GSBV Moestasj MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 63 - 38\nFOYS wedstrijd-ID: 511586
 LOCATION:MFC de Wier\, De Telle 21\, 9247BH URETERP
 STATUS:CONFIRMED
@@ -122,7 +122,7 @@ UID:foys-match-511592@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T120000
 DURATION:PT2H
-SUMMARY:GSBV Moestasj MSE-3 32 - 86 Zuidlaren Trojans MSE-1
+SUMMARY:GSBV Moestasj MSE-3* 32 - 86 Zuidlaren Trojans MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 32 - 86\nFOYS wedstrijd-ID: 511592
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
@@ -182,7 +182,7 @@ UID:foys-match-511599@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T120000
 DURATION:PT2H
-SUMMARY:GSBV Moestasj MSE-3 38 - 58 M&F Security Typhoons'23 MSE-1
+SUMMARY:GSBV Moestasj MSE-3* 38 - 58 M&F Security Typhoons'23 MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 38 - 58\nFOYS wedstrijd-ID: 511599
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
@@ -252,7 +252,7 @@ UID:foys-match-515180@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T140000
 DURATION:PT2H
-SUMMARY:M&F Security Typhoons'23 MSE-2 65 - 53 GSBV Moestasj MSE-3
+SUMMARY:M&F Security Typhoons'23 MSE-2 65 - 53 GSBV Moestasj MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 65 - 53\nFOYS wedstrijd-ID: 515180
 LOCATION:Sportcentrum De Kalkwijck\, Nieuweweg 6\, 9603BM HOOGEZAND
 STATUS:CONFIRMED
@@ -272,7 +272,7 @@ UID:foys-match-511611@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T120000
 DURATION:PT2H
-SUMMARY:GSBV Moestasj MSE-3 49 - 58 BV Millwings MSE-2
+SUMMARY:GSBV Moestasj MSE-3* 49 - 58 BV Millwings MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 49 - 58\nFOYS wedstrijd-ID: 511611
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
@@ -322,7 +322,7 @@ UID:foys-match-511618@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T104500
 DURATION:PT2H
-SUMMARY:Assist MSE-1 20 - 0 GSBV Moestasj MSE-3
+SUMMARY:Assist MSE-1 20 - 0 GSBV Moestasj MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 511618
 LOCATION:De Spreng\, Vredeveldseweg 57\, 9404CC ASSEN
 STATUS:CONFIRMED
@@ -332,8 +332,8 @@ UID:foys-match-505274@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T134500
 DURATION:PT2H
-SUMMARY:GSBV Moestasj VSE-2 - HBV Hornets VSE-1
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505274
+SUMMARY:GSBV Moestasj VSE-2 27 - 41 HBV Hornets VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Final\nUitslag: 27 - 41\nFOYS wedstrijd-ID: 505274
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -342,8 +342,8 @@ UID:foys-match-510165@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T153000
 DURATION:PT2H
-SUMMARY:GSBV Moestasj MSE-2 - HBV Hornets MSE-2
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510165
+SUMMARY:GSBV Moestasj MSE-2 60 - 35 HBV Hornets MSE-2
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 60 - 35\nFOYS wedstrijd-ID: 510165
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -382,7 +382,7 @@ UID:foys-match-511623@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T120000
 DURATION:PT2H
-SUMMARY:GSBV Moestasj MSE-3 - M.A.C. MSE-1*
+SUMMARY:GSBV Moestasj MSE-3* - M.A.C. MSE-1*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511623
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
@@ -422,7 +422,7 @@ UID:foys-match-511631@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T134500
 DURATION:PT2H
-SUMMARY:De Groene Uilen MSE-5* - GSBV Moestasj MSE-3
+SUMMARY:De Groene Uilen MSE-5* - GSBV Moestasj MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511631
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
@@ -472,7 +472,7 @@ UID:foys-match-511635@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T120000
 DURATION:PT2H
-SUMMARY:GSBV Moestasj MSE-3 - BV Jahn II MSE-1
+SUMMARY:GSBV Moestasj MSE-3* - BV Jahn II MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511635
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
@@ -522,7 +522,7 @@ UID:foys-match-515191@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T153000
 DURATION:PT2H
-SUMMARY:GSBV Moestasj MSE-3 - M&F Security Typhoons'23 MSE-2
+SUMMARY:GSBV Moestasj MSE-3* - M&F Security Typhoons'23 MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 515191
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
@@ -592,7 +592,7 @@ UID:foys-match-511651@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270109T190000
 DURATION:PT2H
-SUMMARY:SIETSEMA Highlanders MSE-1 - GSBV Moestasj MSE-3
+SUMMARY:SIETSEMA Highlanders MSE-1 - GSBV Moestasj MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511651
 LOCATION:De Mencke\, Sportlaan 4\, 9981JZ UITHUIZEN
 STATUS:CONFIRMED
@@ -602,7 +602,7 @@ UID:foys-match-511652@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270116T120000
 DURATION:PT2H
-SUMMARY:GSBV Moestasj MSE-3 - Five Pack MSE-3
+SUMMARY:GSBV Moestasj MSE-3* - Five Pack MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511652
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
@@ -642,7 +642,7 @@ UID:foys-match-511663@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270123T123000
 DURATION:PT2H
-SUMMARY:Zuidlaren Trojans MSE-1 - GSBV Moestasj MSE-3
+SUMMARY:Zuidlaren Trojans MSE-1 - GSBV Moestasj MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511663
 LOCATION:De Zwet\, De Klencke 32\, 9472RN ZUIDLAREN
 STATUS:CONFIRMED
@@ -702,7 +702,7 @@ UID:foys-match-511664@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270130T120000
 DURATION:PT2H
-SUMMARY:M&F Security Typhoons'23 MSE-1 - GSBV Moestasj MSE-3
+SUMMARY:M&F Security Typhoons'23 MSE-1 - GSBV Moestasj MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511664
 LOCATION:Sportcentrum De Kalkwijck\, Nieuweweg 6\, 9603BM HOOGEZAND
 STATUS:CONFIRMED
@@ -802,7 +802,7 @@ UID:foys-match-511677@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270213T183000
 DURATION:PT2H
-SUMMARY:BV Millwings MSE-2 - GSBV Moestasj MSE-3
+SUMMARY:BV Millwings MSE-2 - GSBV Moestasj MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511677
 LOCATION:Sporthal Stikkerlaan\, Mr. D.U. Stikkerlaan 6\, 9671BZ WINSCHOTEN
 STATUS:CONFIRMED
@@ -822,7 +822,7 @@ UID:foys-match-511683@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270306T120000
 DURATION:PT2H
-SUMMARY:GSBV Moestasj MSE-3 - Assist MSE-1
+SUMMARY:GSBV Moestasj MSE-3* - Assist MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511683
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
@@ -882,7 +882,7 @@ UID:foys-match-511690@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270313T130000
 DURATION:PT2H
-SUMMARY:M.A.C. MSE-1* - GSBV Moestasj MSE-3
+SUMMARY:M.A.C. MSE-1* - GSBV Moestasj MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511690
 LOCATION:Bredeschool Noord\, Waddenweg 4\, 9933KH DELFZIJL
 STATUS:CONFIRMED
@@ -922,7 +922,7 @@ UID:foys-match-511695@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270320T120000
 DURATION:PT2H
-SUMMARY:GSBV Moestasj MSE-3 - De Groene Uilen MSE-5*
+SUMMARY:GSBV Moestasj MSE-3* - De Groene Uilen MSE-5*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511695
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
@@ -962,7 +962,7 @@ UID:foys-match-511644@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270327T193000
 DURATION:PT2H
-SUMMARY:Hurricanes Basketball MSE-1 - GSBV Moestasj MSE-3
+SUMMARY:Hurricanes Basketball MSE-1 - GSBV Moestasj MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511644
 LOCATION:De Borgstee\, Dorpshuisweg 36\, 9617EV Harkstede
 STATUS:CONFIRMED
@@ -972,7 +972,7 @@ UID:foys-match-511703@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270402T200000
 DURATION:PT2H
-SUMMARY:BV Jahn II MSE-1 - GSBV Moestasj MSE-3
+SUMMARY:BV Jahn II MSE-1 - GSBV Moestasj MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511703
 LOCATION:Sportcentrum Bruinsma\, Navolaan 32\, 9501VJ STADSKANAAL
 STATUS:CONFIRMED
@@ -1022,7 +1022,7 @@ UID:foys-match-511707@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270410T120000
 DURATION:PT2H
-SUMMARY:GSBV Moestasj MSE-3 - Hurricanes Basketball MSE-1
+SUMMARY:GSBV Moestasj MSE-3* - Hurricanes Basketball MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511707
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
