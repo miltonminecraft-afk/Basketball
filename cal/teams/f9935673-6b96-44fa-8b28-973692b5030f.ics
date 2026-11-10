@@ -62,10 +62,10 @@ UID:foys-match-505066@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T190000
 DURATION:PT2H
-SUMMARY:AFGELAST: O.S.M. '75 VSE-1 - U.S. VSE-4
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 505066
+SUMMARY:O.S.M. '75 VSE-1 20 - 0 U.S. VSE-4*
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 505066
 LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-505072@basketball-agenda
@@ -162,7 +162,7 @@ UID:foys-match-505131@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270307T110000
 DURATION:PT2H
-SUMMARY:U.S. VSE-4 - O.S.M. '75 VSE-1
+SUMMARY:U.S. VSE-4* - O.S.M. '75 VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505131
 LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
 STATUS:CONFIRMED

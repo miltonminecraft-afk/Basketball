@@ -72,7 +72,7 @@ UID:foys-match-500788@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T201000
 DURATION:PT2H
-SUMMARY:O.S.M. '75 V18-1* 28 - 72 ABC Amigos V18-1
+SUMMARY:O.S.M. '75 V18-1** 28 - 72 ABC Amigos V18-1
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 28 - 72\nFOYS wedstrijd-ID: 500788
 LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED
@@ -112,7 +112,7 @@ UID:foys-match-500794@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T123000
 DURATION:PT2H
-SUMMARY:BV Amsterdam V18-1 58 - 40 O.S.M. '75 V18-1*
+SUMMARY:BV Amsterdam V18-1 58 - 40 O.S.M. '75 V18-1**
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 58 - 40\nFOYS wedstrijd-ID: 500794
 LOCATION:Bibian Mentel Sporthal\, Foekje Dillemastraat 118\, 1095 MK Amsterdam
 STATUS:CONFIRMED
@@ -232,7 +232,7 @@ UID:foys-match-500800@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T153000
 DURATION:PT2H
-SUMMARY:O.S.M. '75 V18-1* 29 - 53 Almere Pioneers V18-1*
+SUMMARY:O.S.M. '75 V18-1** 29 - 53 Almere Pioneers V18-1*
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 29 - 53\nFOYS wedstrijd-ID: 500800
 LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED
@@ -282,7 +282,7 @@ UID:foys-match-500807@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T123000
 DURATION:PT2H
-SUMMARY:O.S.M. '75 V18-1* 27 - 38 Quick Runners V18-1
+SUMMARY:O.S.M. '75 V18-1** 27 - 38 Quick Runners V18-1
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 27 - 38\nFOYS wedstrijd-ID: 500807
 LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED
@@ -452,7 +452,7 @@ UID:foys-match-500813@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T160000
 DURATION:PT2H
-SUMMARY:VBC Akrides V18-1 20 - 0 O.S.M. '75 V18-1*
+SUMMARY:VBC Akrides V18-1 20 - 0 O.S.M. '75 V18-1**
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 500813
 LOCATION:Sporthal IJmuiden-Oost\, Tiberiusplein 6\, 1971HN IJMUIDEN
 STATUS:CONFIRMED
@@ -512,7 +512,7 @@ UID:foys-match-500819@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T154500
 DURATION:PT2H
-SUMMARY:O.S.M. '75 V18-1* 31 - 44 Landslake Lions V18-1
+SUMMARY:O.S.M. '75 V18-1** 31 - 44 Landslake Lions V18-1
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 31 - 44\nFOYS wedstrijd-ID: 500819
 LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED
@@ -572,10 +572,10 @@ UID:foys-match-500826@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T144500
 DURATION:PT2H
-SUMMARY:AFGELAST: Quick Lions V18-1 - O.S.M. '75 V18-1*
-DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 500826
+SUMMARY:Quick Lions V18-1 20 - 0 O.S.M. '75 V18-1**
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 500826
 LOCATION:De Zandzee\, Struikheiweg 14\, 1406TK BUSSUM
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-496472@basketball-agenda
@@ -622,10 +622,10 @@ UID:foys-match-505066@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T190000
 DURATION:PT2H
-SUMMARY:AFGELAST: O.S.M. '75 VSE-1 - U.S. VSE-4
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 505066
+SUMMARY:O.S.M. '75 VSE-1 20 - 0 U.S. VSE-4*
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 505066
 LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-493491@basketball-agenda
@@ -692,7 +692,7 @@ UID:foys-match-500831@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T154500
 DURATION:PT2H
-SUMMARY:O.S.M. '75 V18-1* - Dozy BV Den Helder V18-2
+SUMMARY:O.S.M. '75 V18-1** - Dozy BV Den Helder V18-2
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500831
 LOCATION:Sporthal Safari\, Bisonspoor 236\, 3605JM MAARSSEN
 STATUS:CONFIRMED
@@ -832,7 +832,7 @@ UID:foys-match-500839@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T140000
 DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam V18-2* - O.S.M. '75 V18-1*
+SUMMARY:BC APOLLO Amsterdam V18-2* - O.S.M. '75 V18-1**
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500839
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
@@ -952,7 +952,7 @@ UID:foys-match-500852@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T124500
 DURATION:PT2H
-SUMMARY:MBCA A'veen V18-2 - O.S.M. '75 V18-1*
+SUMMARY:MBCA A'veen V18-2 - O.S.M. '75 V18-1**
 DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500852
 LOCATION:Goudsmithal\, Sportlaan 29\, 1185TB AMSTELVEEN
 STATUS:CONFIRMED
@@ -1142,7 +1142,7 @@ UID:foys-match-505131@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270307T110000
 DURATION:PT2H
-SUMMARY:U.S. VSE-4 - O.S.M. '75 VSE-1
+SUMMARY:U.S. VSE-4* - O.S.M. '75 VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505131
 LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
 STATUS:CONFIRMED
