@@ -8,6 +8,26 @@ X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:foys-match-516566@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260909T160000
+DURATION:PT2H
+SUMMARY:Heroes Den Bosch MSE-1 2 - 0 Rhein Stars Koln MSE-17
+DESCRIPTION:MSE - Vriendschappelijke wedstrijden \nStatus: Final\nUitslag: 2 - 0\nFOYS wedstrijd-ID: 516566
+LOCATION:De Maaspoort\, Marathonloop 1\, 5235AA 'S-HERTOGENBOSCH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516572@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T150000
+DURATION:PT2H
+SUMMARY:Heroes Den Bosch MSE-1 2 - 0 Zorg en Zekerheid MSE-1
+DESCRIPTION:MSE - Vriendschappelijke wedstrijden \nStatus: Final\nUitslag: 2 - 0\nFOYS wedstrijd-ID: 516572
+LOCATION:De Maaspoort\, Marathonloop 1\, 5235AA 'S-HERTOGENBOSCH
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-516407@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261004T140000

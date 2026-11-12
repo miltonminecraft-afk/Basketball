@@ -148,6 +148,16 @@ LOCATION:Sportcentrum Oudenrijn\, Europaweg 48\, 3451HG VLEUTEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-516563@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260905T180000
+DURATION:PT2H
+SUMMARY:Zorg en Zekerheid MSE-1 2 - 0 Manchester Giants (UK) MSE-13
+DESCRIPTION:MSE - Vriendschappelijke wedstrijden \nStatus: Final\nUitslag: 2 - 0\nFOYS wedstrijd-ID: 516563
+LOCATION:Sportcomplex 1574\, Telderskade 399\, 2321TR LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-515295@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260905T190000
@@ -415,6 +425,16 @@ DURATION:PT2H
 SUMMARY:BS Leiden M22-2 118 - 21 Bouncers Basketball M22-2
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 118 - 21\nFOYS wedstrijd-ID: 502977
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516568@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260912T190000
+DURATION:PT2H
+SUMMARY:Zorg en Zekerheid MSE-1 2 - 0 Paderborn MSE-18
+DESCRIPTION:MSE - Vriendschappelijke wedstrijden \nStatus: Final\nUitslag: 2 - 0\nFOYS wedstrijd-ID: 516568
+LOCATION:Sportcomplex 1574\, Telderskade 399\, 2321TR LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -1365,6 +1385,16 @@ DURATION:PT2H
 SUMMARY:Zorg en Zekerheid M16-1 97 - 71 MBCA A'veen M16-1
 DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Final\nUitslag: 97 - 71\nFOYS wedstrijd-ID: 495316
 LOCATION:Sportzaal Houtkwartier\, Vennemeerstraat 1\, 2334DE LEIDEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-516572@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20260927T150000
+DURATION:PT2H
+SUMMARY:Heroes Den Bosch MSE-1 2 - 0 Zorg en Zekerheid MSE-1
+DESCRIPTION:MSE - Vriendschappelijke wedstrijden \nStatus: Final\nUitslag: 2 - 0\nFOYS wedstrijd-ID: 516572
+LOCATION:De Maaspoort\, Marathonloop 1\, 5235AA 'S-HERTOGENBOSCH
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

@@ -78,16 +78,6 @@ LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-502398@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20260912T140000
-DURATION:PT2H
-SUMMARY:AFGELAST: Tracks Parkstad M18-1 - Basketbal Academie Limburg M18-2
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 502398
-LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-495481@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T160000
@@ -992,8 +982,8 @@ UID:foys-match-495388@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T170000
 DURATION:PT2H
-SUMMARY:Basketbal Academie Limburg M16-1 90 - 83 Northside Ballers Amsterdam M16-1
-DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Final\nUitslag: 90 - 83\nFOYS wedstrijd-ID: 495388
+SUMMARY:Basketbal Academie Limburg M16-1 88 - 83 Northside Ballers Amsterdam M16-1
+DESCRIPTION:Mannen U16 Landelijk - 1e divisie\nStatus: Final\nUitslag: 88 - 83\nFOYS wedstrijd-ID: 495388
 LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
 STATUS:CONFIRMED
 END:VEVENT
@@ -1725,6 +1715,16 @@ DURATION:PT2H
 SUMMARY:Basketbal Academie Limburg V21-1 - Basketball Academy Utrecht V21-1 V21-1
 DESCRIPTION:Vrouwen U21 (Basketball Cup) - Groepsfase\nStatus: Planned\nFOYS wedstrijd-ID: 516784
 LOCATION:Boshoven\, Vrakkerveld 2\, 6002AZ WEERT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-502398@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261219T180000
+DURATION:PT2H
+SUMMARY:Tracks Parkstad M18-1 - Basketbal Academie Limburg M18-2
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502398
+LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
