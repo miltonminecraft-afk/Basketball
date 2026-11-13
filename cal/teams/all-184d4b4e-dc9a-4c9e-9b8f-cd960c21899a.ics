@@ -618,6 +618,16 @@ LOCATION:De Trits\, Goeman Borgesiuslaan 2\, 3741CR BAARN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-497609@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T144500
+DURATION:PT2H
+SUMMARY:BC Shooters X14-1 - Break Stars X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497609
+LOCATION:De Kuil\, Torenvalk 47\, 3752SJ BUNSCHOTEN-SPAKENBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-493854@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T150000
@@ -625,16 +635,6 @@ DURATION:PT2H
 SUMMARY:Almere Pioneers X12-4 - Break Stars X12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493854
 LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-497609@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T151500
-DURATION:PT2H
-SUMMARY:BC Shooters X14-1 - Break Stars X14-2
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497609
-LOCATION:De Kuil\, Torenvalk 47\, 3752SJ BUNSCHOTEN-SPAKENBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

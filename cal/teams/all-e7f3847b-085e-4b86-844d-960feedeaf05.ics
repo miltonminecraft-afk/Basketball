@@ -358,22 +358,22 @@ LOCATION:De Bongerd\, de Bongerd 81\, 7006NH DOETINCHEM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-497493@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T124500
+DURATION:PT2H
+SUMMARY:Give and Go X14-2 - Nimma Gemina X14-4
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497493
+LOCATION:Sporthal Stationsplein\, Landbouwstraat 1\, 7122VM AALTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-497027@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T143000
 DURATION:PT2H
 SUMMARY:Give and Go X14-1 - Nimma Gemina X14-3
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497027
-LOCATION:Sporthal Stationsplein\, Landbouwstraat 1\, 7122VM AALTEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-497493@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261205T161500
-DURATION:PT2H
-SUMMARY:Give and Go X14-2 - Nimma Gemina X14-4
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497493
 LOCATION:Sporthal Stationsplein\, Landbouwstraat 1\, 7122VM AALTEN
 STATUS:CONFIRMED
 END:VEVENT

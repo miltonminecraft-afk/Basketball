@@ -282,7 +282,7 @@ UID:foys-match-501629@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T130000
 DURATION:PT2H
-SUMMARY:SBV Juventus M18-1 73 - 82 Westland Stars M18-2
+SUMMARY:SBV Juventus M18-1 73 - 82 Westland Stars M18-2*
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 73 - 82\nFOYS wedstrijd-ID: 501629
 LOCATION:Sporthal Margriet\, Nieuwe Damlaan 5\, 3119 KA Schiedam
 STATUS:CONFIRMED
@@ -546,16 +546,6 @@ SUMMARY:B.O.B. M22-1* 58 - 74 SBV Juventus M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 58 - 74\nFOYS wedstrijd-ID: 503419
 LOCATION:Sporthal Carla de Liefde\, Polderlaan 4\, 3261ZA OUD-BEIJERLAND
 STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-509170@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261106T193000
-DURATION:PT2H
-SUMMARY:AFGELAST: SBV Juventus MSE-3 - CBV Binnenland MSE-3
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 509170
-LOCATION:Sporthal Margriet\, Nieuwe Damlaan 5\, 3119 KA Schiedam
-STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-498889@basketball-agenda
@@ -1274,6 +1264,16 @@ DTSTART;TZID=Europe/Amsterdam:20270213T160000
 DURATION:PT2H
 SUMMARY:SBV Juventus MSE-1 - Harlemlakers MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505839
+LOCATION:Sporthal Margriet\, Nieuwe Damlaan 5\, 3119 KA Schiedam
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509170@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270217T193000
+DURATION:PT2H
+SUMMARY:SBV Juventus MSE-3 - CBV Binnenland MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509170
 LOCATION:Sporthal Margriet\, Nieuwe Damlaan 5\, 3119 KA Schiedam
 STATUS:CONFIRMED
 END:VEVENT

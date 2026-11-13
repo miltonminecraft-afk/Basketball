@@ -772,8 +772,8 @@ UID:foys-match-495942@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261113T190000
 DURATION:PT2H
-SUMMARY:BV Orca's V14-2 - BC Shooters V14-2
-DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495942
+SUMMARY:BV Orca's V14-2 48 - 25 BC Shooters V14-2
+DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 48 - 25\nFOYS wedstrijd-ID: 495942
 LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
 STATUS:CONFIRMED
 END:VEVENT
@@ -920,7 +920,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-497609@basketball-agenda
 DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T151500
+DTSTART;TZID=Europe/Amsterdam:20261121T144500
 DURATION:PT2H
 SUMMARY:BC Shooters X14-1 - Break Stars X14-2
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 497609
@@ -938,22 +938,22 @@ LOCATION:De Peppel\, Peppelensteeg 1 a\, 6715CV EDE GLD
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-499496@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261121T163000
+DURATION:PT2H
+SUMMARY:BC Shooters M16-1 - Be Quick '28 M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499496
+LOCATION:De Kuil\, Torenvalk 47\, 3752SJ BUNSCHOTEN-SPAKENBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-495576@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T170000
 DURATION:PT2H
 SUMMARY:BC Shooters V14-1 - BV Squirrels V14-1
 DESCRIPTION:Vrouwen U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 495576
-LOCATION:De Kuil\, Torenvalk 47\, 3752SJ BUNSCHOTEN-SPAKENBURG
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-499496@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T170000
-DURATION:PT2H
-SUMMARY:BC Shooters M16-1 - Be Quick '28 M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 499496
 LOCATION:De Kuil\, Torenvalk 47\, 3752SJ BUNSCHOTEN-SPAKENBURG
 STATUS:CONFIRMED
 END:VEVENT
@@ -1054,7 +1054,7 @@ DTSTART;TZID=Europe/Amsterdam:20261128T143000
 DURATION:PT2H
 SUMMARY:BV Amsterdam VSE-1 - BC Shooters VSE-1
 DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506604
-LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
+LOCATION:Sporthal Bajeskwartier\, H.J.E. Wenckebachweg 40\, 1096 AN Amsterdam
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
