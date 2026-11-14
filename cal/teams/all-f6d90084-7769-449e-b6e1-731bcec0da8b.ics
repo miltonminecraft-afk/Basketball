@@ -2602,8 +2602,8 @@ UID:foys-match-491420@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T090000
 DURATION:PT2H
-SUMMARY:ABC Amigos X10-3 - BC APOLLO Amsterdam X10-1
-DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 491420
+SUMMARY:ABC Amigos X10-3 6 - 36 BC APOLLO Amsterdam X10-1
+DESCRIPTION:Gemengd U10 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nUitslag: 6 - 36\nFOYS wedstrijd-ID: 491420
 LOCATION:Sporthuis Abcoude\, Geinplein 1\, 1391 JN Abcoude
 STATUS:CONFIRMED
 END:VEVENT
@@ -2612,8 +2612,8 @@ UID:foys-match-513316@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T104500
 DURATION:PT2H
-SUMMARY:BV Orca's V22-1 - BC APOLLO Amsterdam V22-1
-DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 513316
+SUMMARY:BV Orca's V22-1 42 - 79 BC APOLLO Amsterdam V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 42 - 79\nFOYS wedstrijd-ID: 513316
 LOCATION:Sporthal de Vlechttuinen\, Vlechttuinen 8\, 8322BA URK
 STATUS:CONFIRMED
 END:VEVENT
@@ -2632,8 +2632,8 @@ UID:foys-match-496221@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T121500
 DURATION:PT2H
-SUMMARY:Harlemlakers X14-2 - BC APOLLO Amsterdam X14-2
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496221
+SUMMARY:Harlemlakers X14-2 39 - 53 BC APOLLO Amsterdam X14-2
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 39 - 53\nFOYS wedstrijd-ID: 496221
 LOCATION:Calandhal Hal 1\, Eliza van Calcarstraat 2\, 1068RR AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -2642,10 +2642,10 @@ UID:foys-match-495346@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T123000
 DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam M16-1 - GET United M16-1
-DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 495346
+SUMMARY:AFGELAST: BC APOLLO Amsterdam M16-1 - GET United M16-1
+DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 495346
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-495738@basketball-agenda
@@ -2672,8 +2672,8 @@ UID:foys-match-492703@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T130000
 DURATION:PT2H
-SUMMARY:CBV Binnenland V14-1 - BC APOLLO Amsterdam V14-1
-DESCRIPTION:Vrouwen U14 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 492703
+SUMMARY:CBV Binnenland V14-1 61 - 42 BC APOLLO Amsterdam V14-1
+DESCRIPTION:Vrouwen U14 Landelijk - Eredivisie\nStatus: Final\nUitslag: 61 - 42\nFOYS wedstrijd-ID: 492703
 LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
 STATUS:CONFIRMED
 END:VEVENT
@@ -2682,8 +2682,8 @@ UID:foys-match-498675@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T133000
 DURATION:PT2H
-SUMMARY:Amsterdam Warriors M16-1 - BC APOLLO Amsterdam M16-2
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498675
+SUMMARY:Amsterdam Warriors M16-1 69 - 65 BC APOLLO Amsterdam M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 69 - 65\nFOYS wedstrijd-ID: 498675
 LOCATION:Bijlmer Sportcentrum\, Anton de Komplein 157\, 1102DR AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -2692,8 +2692,8 @@ UID:foys-match-508292@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T160000
 DURATION:PT2H
-SUMMARY:New Stars MSE-2 - BC APOLLO Amsterdam MSE-4
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508292
+SUMMARY:New Stars MSE-2 52 - 72 BC APOLLO Amsterdam MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Final\nUitslag: 52 - 72\nFOYS wedstrijd-ID: 508292
 LOCATION:Sporthal De Waterlelie\, Heemraadsweide 13\, 3437CA NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
@@ -2702,8 +2702,8 @@ UID:foys-match-500830@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T163000
 DURATION:PT2H
-SUMMARY:BV Amsterdam V18-1 - BC APOLLO Amsterdam V18-2*
-DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 500830
+SUMMARY:BV Amsterdam V18-1 68 - 72 BC APOLLO Amsterdam V18-2*
+DESCRIPTION:Vrouwen U18 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 68 - 72\nFOYS wedstrijd-ID: 500830
 LOCATION:Van Hogendorphal\, Van Hogendorpstraat 921\, 1051CE AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -2712,8 +2712,8 @@ UID:foys-match-494031@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T170000
 DURATION:PT2H
-SUMMARY:BC Shooters V16-2 - BC APOLLO Amsterdam V16-2
-DESCRIPTION:Vrouwen U16 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 494031
+SUMMARY:BC Shooters V16-2 53 - 56 BC APOLLO Amsterdam V16-2
+DESCRIPTION:Vrouwen U16 Landelijk - 1e divisie\nStatus: Final\nUitslag: 53 - 56\nFOYS wedstrijd-ID: 494031
 LOCATION:De Kuil\, Torenvalk 47\, 3752SJ BUNSCHOTEN-SPAKENBURG
 STATUS:CONFIRMED
 END:VEVENT
@@ -2722,8 +2722,8 @@ UID:foys-match-508295@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T181500
 DURATION:PT2H
-SUMMARY:B.Z. '72 MSE-1 - BC APOLLO Amsterdam MSE-5
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508295
+SUMMARY:B.Z. '72 MSE-1 25 - 25 BC APOLLO Amsterdam MSE-5
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nUitslag: 25 - 25\nFOYS wedstrijd-ID: 508295
 LOCATION:Sporthal de Koppeling\, De Clomp 1918\, 3704KS ZEIST
 STATUS:CONFIRMED
 END:VEVENT

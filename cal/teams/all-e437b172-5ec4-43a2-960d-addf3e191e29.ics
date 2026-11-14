@@ -552,8 +552,8 @@ UID:foys-match-506593@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T110000
 DURATION:PT2H
-SUMMARY:GET United VSE-2 - Nimma Gemina VSE-1
-DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506593
+SUMMARY:GET United VSE-2 38 - 57 Nimma Gemina VSE-1
+DESCRIPTION:Vrouwen Senioren Landelijk - 1e divisie\nStatus: Final\nUitslag: 38 - 57\nFOYS wedstrijd-ID: 506593
 LOCATION:Sportcentrum De Kooi\, Sportlaan 3\, 6681CD BEMMEL
 STATUS:CONFIRMED
 END:VEVENT
@@ -562,18 +562,18 @@ UID:foys-match-495346@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T123000
 DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam M16-1 - GET United M16-1
-DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 495346
+SUMMARY:AFGELAST: BC APOLLO Amsterdam M16-1 - GET United M16-1
+DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 495346
 LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
-STATUS:CONFIRMED
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-492525@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T153000
 DURATION:PT2H
-SUMMARY:Marathon M14-1 - GET United M14-1
-DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 492525
+SUMMARY:Marathon M14-1 55 - 66 GET United M14-1
+DESCRIPTION:Mannen U14 Landelijk - 1e divisie\nStatus: Final\nUitslag: 55 - 66\nFOYS wedstrijd-ID: 492525
 LOCATION:Sporthal Baskensburg\, President Rooseveltlaan 733\, 4383NG VLISSINGEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -582,8 +582,8 @@ UID:foys-match-506211@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T160000
 DURATION:PT2H
-SUMMARY:WBB Giants M19-1 - GET United M19-2
-DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506211
+SUMMARY:WBB Giants M19-1 95 - 91 GET United M19-2
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Final\nUitslag: 95 - 91\nFOYS wedstrijd-ID: 506211
 LOCATION:Tuinwijk\, Florastraat 90\, 4613CT BERGEN OP ZOOM
 STATUS:CONFIRMED
 END:VEVENT
