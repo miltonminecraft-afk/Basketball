@@ -98,16 +98,6 @@ LOCATION:D'Alburcht\, Perzikstraat 14 A\, 4261KD WIJK EN AALBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-508953@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T150000
-DURATION:PT2H
-SUMMARY:Woodpeckers MSE-2 - BV Leerdam MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508953
-LOCATION:De Slinger\, Kamillehof 24\, 3991GZ HOUTEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-508954@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261213T131500
@@ -224,6 +214,16 @@ DTSTART;TZID=Europe/Amsterdam:20270410T183000
 DURATION:PT2H
 SUMMARY:Woodpeckers MSE-2 - Springfield MSE-2*
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509025
+LOCATION:De Slinger\, Kamillehof 24\, 3991GZ HOUTEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508953@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270417T150000
+DURATION:PT2H
+SUMMARY:Woodpeckers MSE-2 - BV Leerdam MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508953
 LOCATION:De Slinger\, Kamillehof 24\, 3991GZ HOUTEN
 STATUS:CONFIRMED
 END:VEVENT

@@ -78,16 +78,6 @@ LOCATION:De Misse\, Jacobskamp 37\, 5275BJ DEN DUNGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-508953@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261128T150000
-DURATION:PT2H
-SUMMARY:Woodpeckers MSE-2 - BV Leerdam MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508953
-LOCATION:De Slinger\, Kamillehof 24\, 3991GZ HOUTEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-508916@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261204T201500
@@ -225,6 +215,16 @@ DURATION:PT2H
 SUMMARY:Ardito MSE-1* - BV Leerdam MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509020
 LOCATION:sporthal De Sportwaard\, Oude Bosscheweg 6\, 5301LA ZALTBOMMEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508953@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270417T150000
+DURATION:PT2H
+SUMMARY:Woodpeckers MSE-2 - BV Leerdam MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508953
+LOCATION:De Slinger\, Kamillehof 24\, 3991GZ HOUTEN
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR

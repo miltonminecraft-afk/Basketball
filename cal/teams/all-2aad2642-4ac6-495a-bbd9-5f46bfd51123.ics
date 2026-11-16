@@ -422,7 +422,7 @@ UID:foys-match-502416@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T200000
 DURATION:PT2H
-SUMMARY:Tracks Parkstad M18-1 0 - 20 Dunatos M18-1
+SUMMARY:Tracks Parkstad M18-1 0 - 20 Dunatos M18-1*
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 0 - 20\nFOYS wedstrijd-ID: 502416
 LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
 STATUS:CONFIRMED
@@ -792,18 +792,18 @@ UID:foys-match-502440@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261113T200000
 DURATION:PT2H
-SUMMARY:AFGELAST: Tracks Parkstad M18-1 - E.B.C.G. M18-2**
-DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 502440
+SUMMARY:Tracks Parkstad M18-1 20 - 0 E.B.C.G. M18-2***
+DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 502440
 LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-493311@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T120000
 DURATION:PT2H
-SUMMARY:Tracks Parkstad X12-1 0 - 0 Basketbal Academie Limburg X12-1
-DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 0 - 0\nFOYS wedstrijd-ID: 493311
+SUMMARY:Tracks Parkstad X12-1 51 - 65 Basketbal Academie Limburg X12-1
+DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 51 - 65\nFOYS wedstrijd-ID: 493311
 LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
 STATUS:CONFIRMED
 END:VEVENT
@@ -812,8 +812,8 @@ UID:foys-match-495345@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T120000
 DURATION:PT2H
-SUMMARY:Tracks Parkstad M16-1 0 - 0 Almere Pioneers M16-1
-DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Planned\nUitslag: 0 - 0\nFOYS wedstrijd-ID: 495345
+SUMMARY:Tracks Parkstad M16-1 64 - 46 Almere Pioneers M16-1
+DESCRIPTION:Mannen U16 Landelijk - Eredivisie\nStatus: Final\nUitslag: 64 - 46\nFOYS wedstrijd-ID: 495345
 LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
 STATUS:CONFIRMED
 END:VEVENT
@@ -822,8 +822,8 @@ UID:foys-match-496123@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T140000
 DURATION:PT2H
-SUMMARY:Tracks Parkstad X14-1 0 - 0 Rotterdam Basketbal X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nUitslag: 0 - 0\nFOYS wedstrijd-ID: 496123
+SUMMARY:Tracks Parkstad X14-1 74 - 80 Rotterdam Basketbal X14-1
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 74 - 80\nFOYS wedstrijd-ID: 496123
 LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
 STATUS:CONFIRMED
 END:VEVENT
@@ -832,8 +832,8 @@ UID:foys-match-506209@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T140000
 DURATION:PT2H
-SUMMARY:Tracks Parkstad M19-1 - Lokomotief M19-2
-DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506209
+SUMMARY:Tracks Parkstad M19-1 112 - 86 Lokomotief M19-2
+DESCRIPTION:Mannen U19 Landelijk - 1e divisie\nStatus: Final\nUitslag: 112 - 86\nFOYS wedstrijd-ID: 506209
 LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
 STATUS:CONFIRMED
 END:VEVENT
@@ -862,8 +862,8 @@ UID:foys-match-502727@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T160000
 DURATION:PT2H
-SUMMARY:Tracks Parkstad V22-1 0 - 0 Attacus V22-1
-DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nUitslag: 0 - 0\nFOYS wedstrijd-ID: 502727
+SUMMARY:Tracks Parkstad V22-1 35 - 64 Attacus V22-1
+DESCRIPTION:Vrouwen U22 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 35 - 64\nFOYS wedstrijd-ID: 502727
 LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
 STATUS:CONFIRMED
 END:VEVENT
@@ -872,8 +872,8 @@ UID:foys-match-498810@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T180000
 DURATION:PT2H
-SUMMARY:Tracks Parkstad M16-2 - Nimma Gemina M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498810
+SUMMARY:Tracks Parkstad M16-2 67 - 62 Nimma Gemina M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 67 - 62\nFOYS wedstrijd-ID: 498810
 LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
 STATUS:CONFIRMED
 END:VEVENT
@@ -882,8 +882,8 @@ UID:foys-match-504369@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T180000
 DURATION:PT2H
-SUMMARY:Tracks Parkstad VSE-1 0 - 0 High Five VSE-2
-DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nUitslag: 0 - 0\nFOYS wedstrijd-ID: 504369
+SUMMARY:Tracks Parkstad VSE-1 34 - 51 High Five VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Final\nUitslag: 34 - 51\nFOYS wedstrijd-ID: 504369
 LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
 STATUS:CONFIRMED
 END:VEVENT
@@ -982,7 +982,7 @@ UID:foys-match-502441@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T150000
 DURATION:PT2H
-SUMMARY:BC Titans M18-1 - Tracks Parkstad M18-1
+SUMMARY:BC Titans M18-1* - Tracks Parkstad M18-1
 DESCRIPTION:Mannen U18 Regionaal 1e Helft Competitie - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502441
 LOCATION:Sporthal Vie\, Vieboulevard 21\, 6461ND KERKRADE
 STATUS:CONFIRMED
@@ -1222,10 +1222,10 @@ UID:foys-match-498768@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261213T140000
 DURATION:PT2H
-SUMMARY:AFGELAST: Tracks Parkstad M16-2 - Woodpeckers M16-1
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Cancelled\nFOYS wedstrijd-ID: 498768
+SUMMARY:Tracks Parkstad M16-2 - Woodpeckers M16-1
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498768
 LOCATION:In de Biessen\, Gravin van Schönbornlaan 4\, 6433AZ HOENSBROEK
-STATUS:CANCELLED
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:foys-match-499744@basketball-agenda

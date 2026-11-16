@@ -92,7 +92,7 @@ UID:foys-match-509998@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T190000
 DURATION:PT2H
-SUMMARY:The Sea Devils MSE-1 92 - 54 Racing Beverwijk MSE-3
+SUMMARY:The Sea Devils MSE-1 92 - 54 Racing Beverwijk MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 92 - 54\nFOYS wedstrijd-ID: 509998
 LOCATION:Bloemen De\, De Bloemen 71\, 1902GT CASTRICUM
 STATUS:CONFIRMED
@@ -112,7 +112,7 @@ UID:foys-match-510005@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T151500
 DURATION:PT2H
-SUMMARY:Racing Beverwijk MSE-3 59 - 65 Mapleleaves MSE-2
+SUMMARY:Racing Beverwijk MSE-3* 59 - 65 Mapleleaves MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 59 - 65\nFOYS wedstrijd-ID: 510005
 LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
@@ -192,7 +192,7 @@ UID:foys-match-510012@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T124500
 DURATION:PT2H
-SUMMARY:De Hoppers MSE-3 111 - 58 Racing Beverwijk MSE-3
+SUMMARY:De Hoppers MSE-3 111 - 58 Racing Beverwijk MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 111 - 58\nFOYS wedstrijd-ID: 510012
 LOCATION:Vredehof\, Vredehofstraat 5\, 1624XC HOORN
 STATUS:CONFIRMED
@@ -252,7 +252,7 @@ UID:foys-match-510016@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T131500
 DURATION:PT2H
-SUMMARY:Racing Beverwijk MSE-3 39 - 82 Windmills MSE-2
+SUMMARY:Racing Beverwijk MSE-3* 39 - 82 Windmills MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 39 - 82\nFOYS wedstrijd-ID: 510016
 LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
@@ -332,7 +332,7 @@ UID:foys-match-510025@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261024T180000
 DURATION:PT2H
-SUMMARY:De Hoppers MSE-2 94 - 37 Racing Beverwijk MSE-3
+SUMMARY:De Hoppers MSE-2 94 - 37 Racing Beverwijk MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 94 - 37\nFOYS wedstrijd-ID: 510025
 LOCATION:Vredehof\, Vredehofstraat 5\, 1624XC HOORN
 STATUS:CONFIRMED
@@ -422,7 +422,7 @@ UID:foys-match-510031@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T191500
 DURATION:PT2H
-SUMMARY:Break Out '88 MSE-2 61 - 42 Racing Beverwijk MSE-3
+SUMMARY:Break Out '88 MSE-2 61 - 42 Racing Beverwijk MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 61 - 42\nFOYS wedstrijd-ID: 510031
 LOCATION:Wieringen Sporthal\, Belterlaan 1\, 1777HM HIPPOLYTUSHOEF
 STATUS:CONFIRMED
@@ -492,7 +492,7 @@ UID:foys-match-512382@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T170000
 DURATION:PT2H
-SUMMARY:Racing Beverwijk MSE-3 46 - 112 AMVJ-Amsterdam MSE-2
+SUMMARY:Racing Beverwijk MSE-3* 46 - 112 AMVJ-Amsterdam MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 46 - 112\nFOYS wedstrijd-ID: 512382
 LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
@@ -512,8 +512,8 @@ UID:foys-match-510042@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T160000
 DURATION:PT2H
-SUMMARY:BC Schrobbelaar MSE-4 - Racing Beverwijk MSE-3
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510042
+SUMMARY:BC Schrobbelaar MSE-4 20 - 0 Racing Beverwijk MSE-3*
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 510042
 LOCATION:Sportcentrum Universum\, Science Park 306\, 1098XH AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -632,7 +632,7 @@ UID:foys-match-510051@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T190000
 DURATION:PT2H
-SUMMARY:BV Early Bird MSE-2 - Racing Beverwijk MSE-3
+SUMMARY:BV Early Bird MSE-2 - Racing Beverwijk MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510051
 LOCATION:Karekiet\, Karekietpark 2\, 1444HV PURMEREND
 STATUS:CONFIRMED
@@ -742,7 +742,7 @@ UID:foys-match-510048@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261206T173000
 DURATION:PT2H
-SUMMARY:Racing Beverwijk MSE-3 - U.S. MSE-5
+SUMMARY:Racing Beverwijk MSE-3* - U.S. MSE-5
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510048
 LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
@@ -802,7 +802,7 @@ UID:foys-match-510059@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261213T171000
 DURATION:PT2H
-SUMMARY:Racing Beverwijk MSE-3 - Monks MSE-1
+SUMMARY:Racing Beverwijk MSE-3* - Monks MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510059
 LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
@@ -842,7 +842,7 @@ UID:foys-match-510065@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270109T000000
 DURATION:PT2H
-SUMMARY:Racing Beverwijk MSE-3 - The Sea Devils MSE-1
+SUMMARY:Racing Beverwijk MSE-3* - The Sea Devils MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510065
 LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
@@ -862,7 +862,7 @@ UID:foys-match-510071@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270116T130000
 DURATION:PT2H
-SUMMARY:Mapleleaves MSE-2 - Racing Beverwijk MSE-3
+SUMMARY:Mapleleaves MSE-2 - Racing Beverwijk MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510071
 LOCATION:De Waterakkers\, Kerkweg 217\, 1964KJ HEEMSKERK
 STATUS:CONFIRMED
@@ -912,7 +912,7 @@ UID:foys-match-510076@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270123T000000
 DURATION:PT2H
-SUMMARY:Racing Beverwijk MSE-3 - De Hoppers MSE-3
+SUMMARY:Racing Beverwijk MSE-3* - De Hoppers MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510076
 LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
@@ -952,7 +952,7 @@ UID:foys-match-510084@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270131T124500
 DURATION:PT2H
-SUMMARY:Windmills MSE-2 - Racing Beverwijk MSE-3
+SUMMARY:Windmills MSE-2 - Racing Beverwijk MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510084
 LOCATION:Sporthal Zaanstad-Zuid\, De Weer 26\, 1504AH ZAANDAM
 STATUS:CONFIRMED
@@ -992,7 +992,7 @@ UID:foys-match-510088@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270206T000000
 DURATION:PT2H
-SUMMARY:Racing Beverwijk MSE-3 - De Hoppers MSE-2
+SUMMARY:Racing Beverwijk MSE-3* - De Hoppers MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510088
 LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
@@ -1032,7 +1032,7 @@ UID:foys-match-510097@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270213T000000
 DURATION:PT2H
-SUMMARY:Racing Beverwijk MSE-3 - Break Out '88 MSE-2
+SUMMARY:Racing Beverwijk MSE-3* - Break Out '88 MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510097
 LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
@@ -1052,7 +1052,7 @@ UID:foys-match-512393@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270306T141500
 DURATION:PT2H
-SUMMARY:AMVJ-Amsterdam MSE-2 - Racing Beverwijk MSE-3
+SUMMARY:AMVJ-Amsterdam MSE-2 - Racing Beverwijk MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 512393
 LOCATION:Ookmeer\, Dokter Meurerlaan 4\, 1067SM AMSTERDAM
 STATUS:CONFIRMED
@@ -1112,7 +1112,7 @@ UID:foys-match-510108@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270313T000000
 DURATION:PT2H
-SUMMARY:Racing Beverwijk MSE-3 - BC Schrobbelaar MSE-4
+SUMMARY:Racing Beverwijk MSE-3* - BC Schrobbelaar MSE-4
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510108
 LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
@@ -1142,7 +1142,7 @@ UID:foys-match-510110@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270321T170000
 DURATION:PT2H
-SUMMARY:U.S. MSE-5 - Racing Beverwijk MSE-3
+SUMMARY:U.S. MSE-5 - Racing Beverwijk MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510110
 LOCATION:Amstelcampushal\, Tweede Boerhaavestraat 10\, 1091AN AMSTERDAM
 STATUS:CONFIRMED
@@ -1182,7 +1182,7 @@ UID:foys-match-510119@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270403T000000
 DURATION:PT2H
-SUMMARY:Racing Beverwijk MSE-3 - BV Early Bird MSE-2
+SUMMARY:Racing Beverwijk MSE-3* - BV Early Bird MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510119
 LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
 STATUS:CONFIRMED
@@ -1212,7 +1212,7 @@ UID:foys-match-510124@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270411T154500
 DURATION:PT2H
-SUMMARY:Monks MSE-1 - Racing Beverwijk MSE-3
+SUMMARY:Monks MSE-1 - Racing Beverwijk MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510124
 LOCATION:'t Spil\, 't Spil 22\, 1141SE MONNICKENDAM
 STATUS:CONFIRMED
