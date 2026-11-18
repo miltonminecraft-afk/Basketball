@@ -78,16 +78,6 @@ LOCATION:Parkzoomhal\, Iersestraat 15\, 2912TH NIEUWERKERK AD IJSSEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-511514@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261120T210000
-DURATION:PT2H
-SUMMARY:Silvertown Lions MSE-1 - Waterdragers MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511514
-LOCATION:De Meent\, Bergambachterstraat 1A\, 2871WG Schoonhoven
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-511519@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261127T210000
@@ -155,6 +145,16 @@ DURATION:PT2H
 SUMMARY:Waterdragers MSE-1 - Klipperstars MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511548
 LOCATION:Parkzoomhal\, Iersestraat 15\, 2912TH NIEUWERKERK AD IJSSEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-511514@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270219T210000
+DURATION:PT2H
+SUMMARY:Silvertown Lions MSE-1 - Waterdragers MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511514
+LOCATION:De Meent\, Bergambachterstraat 1A\, 2871WG Schoonhoven
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

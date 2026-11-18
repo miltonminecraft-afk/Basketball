@@ -488,16 +488,6 @@ LOCATION:Scharlakenhof\, Geertsemaweg 3\, 9751XA HAREN GN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-508042@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T204500
-DURATION:PT2H
-SUMMARY:BV Groningen MSE-4 - HBV Hornets MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508042
-LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-495132@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T090000
@@ -865,6 +855,16 @@ DURATION:PT2H
 SUMMARY:HBV Hornets VSE-1 - De Groene Uilen VSE-3
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505323
 LOCATION:De Hege Fiif\, Van Helsdingenstraat 6\, 9254CE HURDEGARYP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508042@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270327T141500
+DURATION:PT2H
+SUMMARY:BV Groningen MSE-4 - HBV Hornets MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508042
+LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

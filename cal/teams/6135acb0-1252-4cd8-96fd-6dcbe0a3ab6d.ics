@@ -68,16 +68,6 @@ LOCATION:Sportcentr.TU Delft\, Mekelweg 8\, 2628CD DELFT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-509171@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261205T000000
-DURATION:PT2H
-SUMMARY:Mevo '80 MSE-1 - Punch MSE-4
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509171
-LOCATION:Sporthal Laco\, Lange Blokweg 27 A\, 4301 NW Zierikzee
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-509187@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T130000
@@ -135,6 +125,16 @@ DURATION:PT2H
 SUMMARY:Punch MSE-4 - CBV Binnenland MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509219
 LOCATION:Sportcentr.TU Delft\, Mekelweg 8\, 2628CD DELFT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509171@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270220T123000
+DURATION:PT2H
+SUMMARY:Mevo '80 MSE-1 - Punch MSE-4
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509171
+LOCATION:Sporthal Laco\, Lange Blokweg 27 A\, 4301 NW Zierikzee
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
