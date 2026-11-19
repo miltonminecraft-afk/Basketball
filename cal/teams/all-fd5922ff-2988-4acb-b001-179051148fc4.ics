@@ -412,7 +412,7 @@ UID:foys-match-498562@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T134500
 DURATION:PT2H
-SUMMARY:BV Groningen V16-1 14 - 76 Celeritas-Donar V18-1
+SUMMARY:BV Groningen V16-1* 14 - 76 Celeritas-Donar V18-1
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 14 - 76\nFOYS wedstrijd-ID: 498562
 LOCATION:De Wiardt\, Vondellaan 75\, 9721LB GRONINGEN
 STATUS:CONFIRMED
@@ -2192,8 +2192,8 @@ UID:foys-match-498587@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261115T110000
 DURATION:PT2H
-SUMMARY:Celeritas-Donar V16-1 - BV Groningen V16-1
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498587
+SUMMARY:Celeritas-Donar V16-1 20 - 0 BV Groningen V16-1*
+DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 498587
 LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -2712,7 +2712,7 @@ UID:foys-match-498594@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T174500
 DURATION:PT2H
-SUMMARY:BV Groningen V16-1 - Celeritas-Donar V16-1
+SUMMARY:BV Groningen V16-1* - Celeritas-Donar V16-1
 DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498594
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
@@ -2734,16 +2734,6 @@ DTSTART;TZID=Europe/Amsterdam:20261128T204500
 DURATION:PT2H
 SUMMARY:Celeritas-Donar MSE-1 - Hanze Stars MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 506054
-LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-498844@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261129T114500
-DURATION:PT2H
-SUMMARY:Celeritas-Donar M16-2 - BV Groningen M16-2
-DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498844
 LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -2805,6 +2795,16 @@ DURATION:PT2H
 SUMMARY:Basketball Academy Utrecht V21-1 V21-1 - Celeritas-Donar V21-1
 DESCRIPTION:Vrouwen U21 Landelijk - V21 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 506362
 LOCATION:Sporthal Lunetten\, Zwarte Woud 201\, 3524SG UTRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-498844@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261205T094500
+DURATION:PT2H
+SUMMARY:Celeritas-Donar M16-2 - BV Groningen M16-2
+DESCRIPTION:Mannen U16 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498844
+LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

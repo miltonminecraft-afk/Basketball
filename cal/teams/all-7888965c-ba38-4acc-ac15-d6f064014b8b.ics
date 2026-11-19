@@ -3182,8 +3182,8 @@ UID:foys-match-516428@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T203000
 DURATION:PT2H
-SUMMARY:CityX Mons MSE-8 - Zorg en Zekerheid MSE-1
-DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516428
+SUMMARY:CityX Mons MSE-8 79 - 99 Zorg en Zekerheid MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Final\nUitslag: 79 - 99\nFOYS wedstrijd-ID: 516428
 LOCATION:Sporthal in België\, Kelvinbaan 48\, 3439MT NIEUWEGEIN
 STATUS:CONFIRMED
 END:VEVENT
@@ -3532,8 +3532,8 @@ UID:foys-match-516432@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T200000
 DURATION:PT2H
-SUMMARY:Zorg en Zekerheid MSE-1 - Coretec Oostende MSE-5
-DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Planned\nFOYS wedstrijd-ID: 516432
+SUMMARY:Zorg en Zekerheid MSE-1 65 - 82 Coretec Oostende MSE-5
+DESCRIPTION:Mannen Senioren Landelijk - BNXT League\nStatus: Final\nUitslag: 65 - 82\nFOYS wedstrijd-ID: 516432
 LOCATION:Sportcomplex 1574\, Telderskade 399\, 2321TR LEIDEN
 STATUS:CONFIRMED
 END:VEVENT
@@ -3775,16 +3775,6 @@ DURATION:PT2H
 SUMMARY:Rotterdam Basketbal X12-1 - BS Leiden V12-1
 DESCRIPTION:Gemengd U12 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 493099
 LOCATION:Alexanderhal\, Sjanghailaan 275\, 3066SJ ROTTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:foys-match-498285@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T090000
-DURATION:PT2H
-SUMMARY:Almere Pioneers V16-1*** - BS Leiden V16-2
-DESCRIPTION:Vrouwen U16 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 498285
-LOCATION:Almere Poort\, Pierre de Coubertinlaan 7\, 1362LA ALMERE
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

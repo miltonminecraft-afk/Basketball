@@ -1368,16 +1368,6 @@ LOCATION:Dorpshuis Zwanenburg Halfweg\, Dennenlaan 133 A\, 1161CN ZWANENBURG
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-527846@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261206T110000
-DURATION:PT2H
-SUMMARY:Felloo | Twente Hoops M22-1 - Hot Pepper Heat M22-1
-DESCRIPTION:Mannen U22 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527846
-LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-527835@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261206T120000
@@ -1385,6 +1375,16 @@ DURATION:PT2H
 SUMMARY:Hot Pepper Heat M19-1 - Lokomotief M19-2
 DESCRIPTION:Mannen U19 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527835
 LOCATION:Dorpshuis Zwanenburg Halfweg\, Dennenlaan 133 A\, 1161CN ZWANENBURG
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-527846@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261206T180000
+DURATION:PT2H
+SUMMARY:Felloo | Twente Hoops M22-1 - Hot Pepper Heat M22-1
+DESCRIPTION:Mannen U22 (Basketball Cup) - 2e ronde\nStatus: Planned\nFOYS wedstrijd-ID: 527846
+LOCATION:IISPA Topsporthal\, Stadionlaan 60\, 7606JZ ALMELO
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
