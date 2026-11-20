@@ -78,16 +78,6 @@ LOCATION:Sporthal Lunetten\, Zwarte Woud 201\, 3524SG UTRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-508300@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T200000
-DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam MSE-5 - BC Schrobbelaar MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508300
-LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-508305@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T181500
@@ -95,6 +85,16 @@ DURATION:PT2H
 SUMMARY:B.Z. '72 MSE-1 - BC Schrobbelaar MSE-1
 DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508305
 LOCATION:Sporthal de Koppeling\, De Clomp 1918\, 3704KS ZEIST
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508300@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261209T200000
+DURATION:PT2H
+SUMMARY:BC APOLLO Amsterdam MSE-5 - BC Schrobbelaar MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508300
+LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

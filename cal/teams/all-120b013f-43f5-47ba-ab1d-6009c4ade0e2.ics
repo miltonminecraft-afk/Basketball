@@ -368,16 +368,6 @@ LOCATION:De Binding\, Akkerhof 3\, 8256BK BIDDINGHUIZEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-508300@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T200000
-DURATION:PT2H
-SUMMARY:BC APOLLO Amsterdam MSE-5 - BC Schrobbelaar MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508300
-LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-507781@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T130000
@@ -445,6 +435,16 @@ DURATION:PT2H
 SUMMARY:BC Schrobbelaar VSE-1 - Harlemlakers VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504907
 LOCATION:Sportcentrum Universum\, Science Park 306\, 1098XH AMSTERDAM
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508300@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261209T200000
+DURATION:PT2H
+SUMMARY:BC APOLLO Amsterdam MSE-5 - BC Schrobbelaar MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508300
+LOCATION:Apollohal\, Apollolaan 4\, 1077BA AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
