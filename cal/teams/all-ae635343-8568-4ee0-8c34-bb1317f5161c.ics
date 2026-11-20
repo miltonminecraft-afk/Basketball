@@ -2292,8 +2292,8 @@ UID:foys-match-503859@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261120T210000
 DURATION:PT2H
-SUMMARY:BV Hoofddorp VSE-1 - BS Leiden VSE-2
-DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 503859
+SUMMARY:BV Hoofddorp VSE-1 6 - 8 BS Leiden VSE-2
+DESCRIPTION:Vrouwen Senioren Regionaal - 2e divisie\nStatus: Planned\nUitslag: 6 - 8\nFOYS wedstrijd-ID: 503859
 LOCATION:Sportcomplex Koning Willem-Alexander\, Bennebroekerweg 800\, 2134AB HOOFDDORP
 STATUS:CONFIRMED
 END:VEVENT
@@ -2302,8 +2302,8 @@ UID:foys-match-509384@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261120T210000
 DURATION:PT2H
-SUMMARY:BV Hoofddorp MSE-1 - U.S. MSE-1
-DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509384
+SUMMARY:BV Hoofddorp MSE-1 13 - 21 U.S. MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - 1e divisie\nStatus: Planned\nUitslag: 13 - 21\nFOYS wedstrijd-ID: 509384
 LOCATION:Sportcomplex Koning Willem-Alexander\, Bennebroekerweg 800\, 2134AB HOOFDDORP
 STATUS:CONFIRMED
 END:VEVENT
@@ -2865,6 +2865,16 @@ DURATION:PT2H
 SUMMARY:Racing Beverwijk VSE-1* - BV Hoofddorp VSE-2
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504475
 LOCATION:De Walvis\, Van Loenenlaan 1\, 1945TB BEVERWIJK
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-533354@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261211T183000
+DURATION:PT2H
+SUMMARY:GBI van Dijk Grasshoppers V14-3 - BV Hoofddorp V14-1
+DESCRIPTION:Status: Planned\nFOYS wedstrijd-ID: 533354
+LOCATION:Cleyn Duin\, Stadhoudersdreef 1\, 2224BN KATWIJK ZH
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
