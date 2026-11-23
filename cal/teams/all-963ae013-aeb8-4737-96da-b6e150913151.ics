@@ -1542,7 +1542,7 @@ UID:foys-match-507041@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261031T153000
 DURATION:PT2H
-SUMMARY:De Groene Uilen MSE-3 62 - 68 BV Groningen MSE-2
+SUMMARY:De Groene Uilen MSE-3* 62 - 68 BV Groningen MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Final\nUitslag: 62 - 68\nFOYS wedstrijd-ID: 507041
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED
@@ -2918,16 +2918,6 @@ LOCATION:Vinkhuizen\, Radiumstraat 150\, 9743SV GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-505293@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261212T194500
-DURATION:PT2H
-SUMMARY:BV Groningen VSE-2 - HBV Hornets VSE-1
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505293
-LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-501606@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261213T090000
@@ -2942,7 +2932,7 @@ UID:foys-match-507074@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261213T104500
 DURATION:PT2H
-SUMMARY:BV Groningen MSE-3 - De Groene Uilen MSE-3
+SUMMARY:BV Groningen MSE-3 - De Groene Uilen MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507074
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
@@ -3508,6 +3498,16 @@ LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:foys-match-505293@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270202T194500
+DURATION:PT2H
+SUMMARY:BV Groningen VSE-2 - HBV Hornets VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505293
+LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:foys-match-504016@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270206T000000
@@ -3642,7 +3642,7 @@ UID:foys-match-507107@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270213T000000
 DURATION:PT2H
-SUMMARY:BV Groningen MSE-2 - De Groene Uilen MSE-3
+SUMMARY:BV Groningen MSE-2 - De Groene Uilen MSE-3*
 DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507107
 LOCATION:Gomarus College\, Vondelpad 3\, 9721LX GRONINGEN
 STATUS:CONFIRMED
@@ -4272,7 +4272,7 @@ UID:foys-match-507137@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270410T153000
 DURATION:PT2H
-SUMMARY:De Groene Uilen MSE-3 - BV Groningen MSE-3
+SUMMARY:De Groene Uilen MSE-3* - BV Groningen MSE-3
 DESCRIPTION:Mannen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 507137
 LOCATION:Willem-Alexander Sportcentrum\, Zernikeplein 17\, 9747AS GRONINGEN
 STATUS:CONFIRMED

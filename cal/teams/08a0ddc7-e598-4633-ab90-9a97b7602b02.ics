@@ -78,16 +78,6 @@ LOCATION:'t Spil\, 't Spil 22\, 1141SE MONNICKENDAM
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-510045@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261121T143000
-DURATION:PT2H
-SUMMARY:De Hoppers MSE-3 - The Sea Devils MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510045
-LOCATION:Vredehof\, Vredehofstraat 5\, 1624XC HOORN
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-510054@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T163000
@@ -174,6 +164,16 @@ DTSTART;TZID=Europe/Amsterdam:20270213T143000
 DURATION:PT2H
 SUMMARY:De Hoppers MSE-3 - U.S. MSE-5
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510094
+LOCATION:Vredehof\, Vredehofstraat 5\, 1624XC HOORN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-510045@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270216T210000
+DURATION:PT2H
+SUMMARY:De Hoppers MSE-3 - The Sea Devils MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 510045
 LOCATION:Vredehof\, Vredehofstraat 5\, 1624XC HOORN
 STATUS:CONFIRMED
 END:VEVENT

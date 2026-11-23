@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Basketball Agenda//NL
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Lokomotief M22-1
+X-WR-CALNAME:Lokomotief M22-1*
 X-WR-TIMEZONE:Europe/Amsterdam
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
@@ -12,7 +12,7 @@ UID:foys-match-502888@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260912T140000
 DURATION:PT2H
-SUMMARY:Cady '73 M22-1 70 - 55 Lokomotief M22-1
+SUMMARY:Cady '73 M22-1 70 - 55 Lokomotief M22-1*
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 70 - 55\nFOYS wedstrijd-ID: 502888
 LOCATION:Sporthal De Lijster\, Lijstersingel 20\, 2902JD CAPELLE AAN DEN IJSSEL
 STATUS:CONFIRMED
@@ -22,7 +22,7 @@ UID:foys-match-502892@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T161500
 DURATION:PT2H
-SUMMARY:Northside Ballers Amsterdam M22-1 85 - 61 Lokomotief M22-1
+SUMMARY:Northside Ballers Amsterdam M22-1 85 - 61 Lokomotief M22-1*
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 85 - 61\nFOYS wedstrijd-ID: 502892
 LOCATION:De Weeren\, Beemsterstraat 656\, 1027ED AMSTERDAM
 STATUS:CONFIRMED
@@ -32,7 +32,7 @@ UID:foys-match-502896@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T210000
 DURATION:PT2H
-SUMMARY:Lokomotief M22-1 91 - 68 MBCA A'veen M22-1
+SUMMARY:Lokomotief M22-1* 91 - 68 MBCA A'veen M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 91 - 68\nFOYS wedstrijd-ID: 502896
 LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
 STATUS:CONFIRMED
@@ -42,7 +42,7 @@ UID:foys-match-502901@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261003T133000
 DURATION:PT2H
-SUMMARY:Lokomotief M22-1 42 - 57 Cady '73 M22-1
+SUMMARY:Lokomotief M22-1* 42 - 57 Cady '73 M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 42 - 57\nFOYS wedstrijd-ID: 502901
 LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
 STATUS:CONFIRMED
@@ -52,7 +52,7 @@ UID:foys-match-502905@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261011T140000
 DURATION:PT2H
-SUMMARY:MSV Basketbal M22-1 73 - 63 Lokomotief M22-1
+SUMMARY:MSV Basketbal M22-1 73 - 63 Lokomotief M22-1*
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 73 - 63\nFOYS wedstrijd-ID: 502905
 LOCATION:Sportpark Duinwetering\, Duinwetering 105\, 2203HM NOORDWIJK ZH
 STATUS:CONFIRMED
@@ -62,7 +62,7 @@ UID:foys-match-502909@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261030T210000
 DURATION:PT2H
-SUMMARY:Lokomotief M22-1 75 - 78 Landslake Lions M22-2
+SUMMARY:Lokomotief M22-1* 75 - 78 Landslake Lions M22-2
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 75 - 78\nFOYS wedstrijd-ID: 502909
 LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
 STATUS:CONFIRMED
@@ -72,7 +72,7 @@ UID:foys-match-502913@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T140000
 DURATION:PT2H
-SUMMARY:Green Eagles M22-1 81 - 53 Lokomotief M22-1
+SUMMARY:Green Eagles M22-1 81 - 53 Lokomotief M22-1*
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 81 - 53\nFOYS wedstrijd-ID: 502913
 LOCATION:Wethouder Smithal\, Westeinde 96\, 3146BZ MAASSLUIS
 STATUS:CONFIRMED
@@ -82,7 +82,7 @@ UID:foys-match-502921@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261122T150000
 DURATION:PT2H
-SUMMARY:Landslake Lions M22-2 20 - 0 Lokomotief M22-1
+SUMMARY:Landslake Lions M22-2 20 - 0 Lokomotief M22-1*
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 502921
 LOCATION:Indoor Centrum\, Marktplein 11\, 1121 GL Landsmeer
 STATUS:CONFIRMED
@@ -92,7 +92,7 @@ UID:foys-match-502929@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261211T210000
 DURATION:PT2H
-SUMMARY:Lokomotief M22-1 - MSV Basketbal M22-1
+SUMMARY:Lokomotief M22-1* - MSV Basketbal M22-1
 DESCRIPTION:Mannen U22 Regionaal 1e Helft Competitie - 2e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 502929
 LOCATION:De Altis\, De Bruyn Kopsstraat 1\, 2288EC RIJSWIJK ZH
 STATUS:CONFIRMED
