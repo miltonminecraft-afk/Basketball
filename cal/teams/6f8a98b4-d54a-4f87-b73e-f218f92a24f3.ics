@@ -68,16 +68,6 @@ LOCATION:Fanny Blankers Koen Hal\, Arnolduspark 3\, 2132CR HOOFDDORP
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-505080@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261122T141500
-DURATION:PT2H
-SUMMARY:BV Leiderdorp VSE-1 - Novo Stars VSE-1
-DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505080
-LOCATION:De Bloemerd\, De Bloemerd 1 a\, 2353BZ LEIDERDORP
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-505083@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261129T130000
@@ -154,6 +144,16 @@ DTSTART;TZID=Europe/Amsterdam:20270213T000000
 DURATION:PT2H
 SUMMARY:BV Leiderdorp VSE-1 - Forwodians VSE-1
 DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505129
+LOCATION:De Bloemerd\, De Bloemerd 1 a\, 2353BZ LEIDERDORP
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-505080@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270227T100000
+DURATION:PT2H
+SUMMARY:BV Leiderdorp VSE-1 - Novo Stars VSE-1
+DESCRIPTION:Vrouwen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 505080
 LOCATION:De Bloemerd\, De Bloemerd 1 a\, 2353BZ LEIDERDORP
 STATUS:CONFIRMED
 END:VEVENT

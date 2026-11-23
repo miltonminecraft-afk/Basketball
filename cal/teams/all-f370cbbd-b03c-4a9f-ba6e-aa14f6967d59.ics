@@ -52,7 +52,7 @@ UID:foys-match-496328@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260913T110000
 DURATION:PT2H
-SUMMARY:Nimma Gemina X14-2 72 - 64 BC Eindhoven X14-1
+SUMMARY:Nimma Gemina X14-2 72 - 64 BC Eindhoven X14-1*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 72 - 64\nFOYS wedstrijd-ID: 496328
 LOCATION:Ark van Oost\, Cipresstraat 154\, 6523HR NIJMEGEN
 STATUS:CONFIRMED
@@ -92,7 +92,7 @@ UID:foys-match-496337@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260919T160000
 DURATION:PT2H
-SUMMARY:BC Eindhoven X14-1 49 - 51 Pluto X14-1
+SUMMARY:BC Eindhoven X14-1* 49 - 51 Pluto X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 49 - 51\nFOYS wedstrijd-ID: 496337
 LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
@@ -182,7 +182,7 @@ UID:foys-match-496340@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20260926T123000
 DURATION:PT2H
-SUMMARY:Arnhem Eagles X14-2 57 - 54 BC Eindhoven X14-1
+SUMMARY:Arnhem Eagles X14-2 57 - 54 BC Eindhoven X14-1*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 57 - 54\nFOYS wedstrijd-ID: 496340
 LOCATION:MFC de Omnibus\, Pallas Atheneplein 2\, 6846XA ARNHEM
 STATUS:CONFIRMED
@@ -312,7 +312,7 @@ UID:foys-match-496351@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261010T153000
 DURATION:PT2H
-SUMMARY:EVBV Octopus X14-1 108 - 35 BC Eindhoven X14-1
+SUMMARY:EVBV Octopus X14-1 108 - 35 BC Eindhoven X14-1*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 108 - 35\nFOYS wedstrijd-ID: 496351
 LOCATION:Elzenburg\, Brabantlaan 1\, 5262GW VUGHT
 STATUS:CONFIRMED
@@ -462,7 +462,7 @@ UID:foys-match-496361@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261107T140000
 DURATION:PT2H
-SUMMARY:E.B.C.G. X14-1 151 - 18 BC Eindhoven X14-1
+SUMMARY:E.B.C.G. X14-1 151 - 18 BC Eindhoven X14-1*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 151 - 18\nFOYS wedstrijd-ID: 496361
 LOCATION:De Coevering\, Winkelcentrum Coevering 32\, 5665GA GELDROP
 STATUS:CONFIRMED
@@ -522,7 +522,7 @@ UID:foys-match-496366@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261114T160000
 DURATION:PT2H
-SUMMARY:BC Eindhoven X14-1 29 - 129 Vlijmscherp SVH X14-1
+SUMMARY:BC Eindhoven X14-1* 29 - 129 Vlijmscherp SVH X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 29 - 129\nFOYS wedstrijd-ID: 496366
 LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
@@ -612,8 +612,8 @@ UID:foys-match-496372@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261121T143000
 DURATION:PT2H
-SUMMARY:OBC X14-1 - BC Eindhoven X14-1
-DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496372
+SUMMARY:OBC X14-1 20 - 0 BC Eindhoven X14-1*
+DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Final\nUitslag: 20 - 0\nFOYS wedstrijd-ID: 496372
 LOCATION:De Ruivert\, de Ruivert 3\, 5342CM OSS
 STATUS:CONFIRMED
 END:VEVENT
@@ -652,7 +652,7 @@ UID:foys-match-496377@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T150000
 DURATION:PT2H
-SUMMARY:Attacus X14-1 - BC Eindhoven X14-1
+SUMMARY:Attacus X14-1 - BC Eindhoven X14-1*
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496377
 LOCATION:Zwijsen\, Pr W Alexander Sportprk 15\, 5461XL VEGHEL
 STATUS:CONFIRMED
@@ -712,7 +712,7 @@ UID:foys-match-496346@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261205T160000
 DURATION:PT2H
-SUMMARY:BC Eindhoven X14-1 - BC Deurne Pioniers X14-1
+SUMMARY:BC Eindhoven X14-1* - BC Deurne Pioniers X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496346
 LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
@@ -742,7 +742,7 @@ UID:foys-match-496382@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261212T120000
 DURATION:PT2H
-SUMMARY:BC Eindhoven X14-1 - Basketbal Academie Limburg X14-1
+SUMMARY:BC Eindhoven X14-1* - Basketbal Academie Limburg X14-1
 DESCRIPTION:Gemengd U14 Regionaal 1e Helft Competitie - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 496382
 LOCATION:Achtse Barrier\, Savoiepad 14\, 5627DX EINDHOVEN
 STATUS:CONFIRMED
