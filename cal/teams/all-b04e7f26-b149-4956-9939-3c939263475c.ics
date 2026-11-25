@@ -1364,7 +1364,7 @@ DTSTART;TZID=Europe/Amsterdam:20261024T144500
 DURATION:PT2H
 SUMMARY:Flax Field Fighters MSE-1 0 - 20 CBV Binnenland MSE-5
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Final\nUitslag: 0 - 20\nFOYS wedstrijd-ID: 509868
-LOCATION:Ridderhal\, Hoge Kade 60\, 3341BD HENDRIK-I.A.
+LOCATION:Ridderhal\, Hoge Kade 60\, 3341BE Hendrik-Ido-Ambacht
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -2358,16 +2358,6 @@ LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-509181@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20261127T204500
-DURATION:PT2H
-SUMMARY:Mevo '80 MSE-1 - CBV Binnenland MSE-3
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509181
-LOCATION:Sporthal Laco\, Lange Blokweg 27 A\, 4301 NW Zierikzee
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-492033@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261128T094500
@@ -2705,6 +2695,16 @@ DURATION:PT2H
 SUMMARY:CBV Binnenland V21-1 - BC APOLLO Amsterdam V21-1
 DESCRIPTION:Vrouwen U21 Landelijk - V21 Eredivisie\nStatus: Planned\nFOYS wedstrijd-ID: 506370
 LOCATION:De Driesprong\, Marijkesingel 20\, 2991BK BARENDRECHT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-509181@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261211T204500
+DURATION:PT2H
+SUMMARY:Mevo '80 MSE-1 - CBV Binnenland MSE-3
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509181
+LOCATION:Sporthal Laco\, Lange Blokweg 27 A\, 4301 NW Zierikzee
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -3134,7 +3134,7 @@ DTSTART;TZID=Europe/Amsterdam:20270116T000000
 DURATION:PT2H
 SUMMARY:Flax Field Fighters VSE-1 - CBV Binnenland VSE-3
 DESCRIPTION:Vrouwen Senioren Regionaal - 3e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 504188
-LOCATION:Ridderhal\, Hoge Kade 60\, 3341BD HENDRIK-I.A.
+LOCATION:Ridderhal\, Hoge Kade 60\, 3341BE Hendrik-Ido-Ambacht
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -3184,7 +3184,7 @@ DTSTART;TZID=Europe/Amsterdam:20270116T000000
 DURATION:PT2H
 SUMMARY:Flax Field Fighters MSE-1 - CBV Binnenland MSE-6
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 509940
-LOCATION:Ridderhal\, Hoge Kade 60\, 3341BD HENDRIK-I.A.
+LOCATION:Ridderhal\, Hoge Kade 60\, 3341BE Hendrik-Ido-Ambacht
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
