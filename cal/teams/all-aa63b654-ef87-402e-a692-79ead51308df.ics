@@ -708,16 +708,6 @@ LOCATION:Valleihal\, Sportlaan 3\, 3905 AD Veenendaal
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:foys-match-508962@basketball-agenda
-DTSTAMP:20000101T000000Z
-DTSTART;TZID=Europe/Amsterdam:20270108T190000
-DURATION:PT2H
-SUMMARY:S.B.U. MSE-3 - ABC Basketball MSE-1
-DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508962
-LOCATION:Sportcentrum Olympos\, Uppsalalaan 3\, 3584CT UTRECHT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:foys-match-511285@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20270109T000000
@@ -725,6 +715,16 @@ DURATION:PT2H
 SUMMARY:The Black Eagles MSE-5 - ABC Basketball MSE-2
 DESCRIPTION:Mannen Senioren Regionaal - 5e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 511285
 LOCATION:De Hazelaar\, T.M. Kortenhorstlaan 6\, 5244GD ROSMALEN
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-508962@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20270109T130000
+DURATION:PT2H
+SUMMARY:S.B.U. MSE-3 - ABC Basketball MSE-1
+DESCRIPTION:Mannen Senioren Regionaal - 4e divisie\nStatus: Planned\nFOYS wedstrijd-ID: 508962
+LOCATION:Sportcentrum Olympos\, Uppsalalaan 3\, 3584CT UTRECHT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
