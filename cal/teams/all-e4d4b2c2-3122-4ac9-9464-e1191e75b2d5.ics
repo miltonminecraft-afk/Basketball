@@ -922,8 +922,8 @@ UID:foys-match-509300@basketball-agenda
 DTSTAMP:20000101T000000Z
 DTSTART;TZID=Europe/Amsterdam:20261127T200000
 DURATION:PT2H
-SUMMARY:Orange Lions Academy MSE-1 - BV Noordkop MSE-1
-DESCRIPTION:Mannen Senioren Landelijk - Promotiedivisie\nStatus: Planned\nFOYS wedstrijd-ID: 509300
+SUMMARY:Orange Lions Academy MSE-1 60 - 78 BV Noordkop MSE-1
+DESCRIPTION:Mannen Senioren Landelijk - Promotiedivisie\nStatus: Final\nUitslag: 60 - 78\nFOYS wedstrijd-ID: 509300
 LOCATION:Sporthallen Zuid\, Burgerweeshuispad 54\, 1076EP AMSTERDAM
 STATUS:CONFIRMED
 END:VEVENT
@@ -1025,6 +1025,16 @@ DURATION:PT2H
 SUMMARY:Landstede Hammers MSE-1 - BV Noordkop MSE-1
 DESCRIPTION:MSE - Vriendschappelijke wedstrijden \nStatus: Planned\nFOYS wedstrijd-ID: 532217
 LOCATION:Koedijkslanden\, Zuiderlaan 197\, 7944EE MEPPEL
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:foys-match-534689@basketball-agenda
+DTSTAMP:20000101T000000Z
+DTSTART;TZID=Europe/Amsterdam:20261129T150000
+DURATION:PT2H
+SUMMARY:Landstede Hammers MSE-1 - BV Noordkop MSE-1
+DESCRIPTION:Status: Planned\nFOYS wedstrijd-ID: 534689
+LOCATION:Sporthal Ezinge\, Ezingerweg 58\, 7943AZ MEPPEL
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
